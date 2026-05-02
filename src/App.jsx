@@ -312,6 +312,7 @@ export default function App() {
   const [cart, setCart] = useState([]);
   const [openCart, setOpenCart] = useState(false);
   const [showBackTop, setShowBackTop] = useState(false);
+  const [checkoutStatus, setCheckoutStatus] = useState(null);
 
   async function handleCheckout() {
   try {
@@ -340,6 +341,19 @@ export default function App() {
   }
 }
 
+useEffect(() => {
+  const params = new URLSearchParams(window.location.search);
+  const checkout = params.get("checkout");
+
+  if (checkout === "success") {
+    setCheckoutStatus("success");
+  }
+
+  if (checkout === "cancel") {
+    setCheckoutStatus("cancel");
+  }
+}, []);
+
   useEffect(() => {
     const onScroll = () => setShowBackTop(window.scrollY > 300);
     window.addEventListener("scroll", onScroll);
@@ -353,6 +367,22 @@ export default function App() {
 
   return (
     <div className="site">
+
+    {checkoutStatus === "success" && (
+      <div className="checkout-banner success">
+        <strong>Thank you for your order!</strong>
+        <span>Your payment was successful. We’ll prepare your FluffHaven package soon.</span>
+        <button onClick={() => setCheckoutStatus(null)}>×</button>
+      </div>
+    )}
+
+    {checkoutStatus === "cancel" && (
+      <div className="checkout-banner cancel">
+        <strong>Checkout cancelled</strong>
+        <span>No worries — your cart is still here if you want to continue.</span>
+        <button onClick={() => setCheckoutStatus(null)}>×</button>
+      </div>
+    )}
 
       {/* TOP BAR */}
       <div className="top-bar">
