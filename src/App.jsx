@@ -552,6 +552,11 @@ export default function App() {
             FluffHaven
           </div>
           <p>Premium essentials for happy pets.<br />Free shipping · Always.</p>
+          <p style={{ marginTop: "10px" }}>
+            <a href="mailto:contact@fluffhaven.shop" style={{ color: "rgba(255,255,255,0.6)", textDecoration: "none" }}>
+              📧 contact@fluffhaven.shop
+            </a>
+          </p>
         </div>
         <div className="footer-nav">
           <h4>Navigation</h4>
