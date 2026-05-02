@@ -345,12 +345,12 @@ useEffect(() => {
   const params = new URLSearchParams(window.location.search);
   const checkout = params.get("checkout");
 
-  if (checkout === "success") {
-    setCheckoutStatus("success");
-  }
+  if (checkout === "success" || checkout === "cancel") {
+    setCheckoutStatus(checkout);
 
-  if (checkout === "cancel") {
-    setCheckoutStatus("cancel");
+    setTimeout(() => {
+      window.history.replaceState({}, "", window.location.pathname);
+    }, 300);
   }
 }, []);
 
@@ -372,17 +372,31 @@ useEffect(() => {
       <div className="checkout-banner success">
         <strong>Thank you for your order!</strong>
         <span>Your payment was successful. We’ll prepare your FluffHaven package soon.</span>
-        <button onClick={() => setCheckoutStatus(null)}>×</button>
-      </div>
-    )}
+        <button
+          onClick={() => {
+            setCheckoutStatus(null);
+            window.history.replaceState({}, "", window.location.pathname);
+          }}
+        >
+          ×
+        </button>
+              </div>
+            )}
 
     {checkoutStatus === "cancel" && (
       <div className="checkout-banner cancel">
         <strong>Checkout cancelled</strong>
         <span>No worries — your cart is still here if you want to continue.</span>
-        <button onClick={() => setCheckoutStatus(null)}>×</button>
-      </div>
-    )}
+        <button
+          onClick={() => {
+            setCheckoutStatus(null);
+            window.history.replaceState({}, "", window.location.pathname);
+          }}
+        >
+          ×
+        </button>
+              </div>
+            )}
 
       {/* TOP BAR */}
       <div className="top-bar">
