@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.fluffhaven.shop/sitemap.xml
+
+Disallow: /node_modules/
+Disallow: /src/
+Disallow: /.git/
