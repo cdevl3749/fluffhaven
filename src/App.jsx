@@ -8,6 +8,7 @@ const PRODUCTS = [
   {
     id: 0,
     name: "Dog Paw Cleaner",
+    category: "dog",
     subtitle: "Portable silicone cleaner — S / M / L",
     price: 37.90,
     badge: "Best Seller",
@@ -40,6 +41,7 @@ const PRODUCTS = [
   {
     id: 1,
     name: "Portable Dog Water Bottle",
+    category: "dog",
     subtitle: "Foldable silicone bowl-lid · 580 ml",
     price: 22.90,
     badge: "New",
@@ -54,6 +56,7 @@ const PRODUCTS = [
   {
     id: 2,
     name: "Premium Cooling Mat",
+    category: "dog",
     subtitle: "Self-cooling silk · waterproof base · L 70×55 cm",
     price: 29.90,
     badge: "Summer",
@@ -64,6 +67,7 @@ const PRODUCTS = [
   {
     id: 3,
     name: "3-in-1 Steam Grooming Brush",
+    category: "dog",
     subtitle: "Electric spray & massage brush · USB rechargeable",
     price: 34.90,
     badge: "Popular",
@@ -74,6 +78,7 @@ const PRODUCTS = [
   {
     id: 4,
     name: "Interactive Smart Cat Ball",
+    category: "cat",
     subtitle: "Auto rolling toy · 2 speeds · USB rechargeable",
     price: 29.90,
     badge: "New",
@@ -84,6 +89,7 @@ const PRODUCTS = [
   {
     id: 5,
     name: "L-Shape Cat Scratcher",
+    category: "cat",
     subtitle: "48 cm tall · premium corrugated cardboard · ball toy",
     price: 39.90,
     badge: "Popular",
@@ -94,6 +100,7 @@ const PRODUCTS = [
   {
     id: 6,
     name: "Feather Wand Cat Toy Set",
+    category: "cat",
     subtitle: "2 retractable wands · 10 feather & teaser refills",
     price: 21.90,
     badge: "Fun",
@@ -104,6 +111,7 @@ const PRODUCTS = [
   {
     id: 7,
     name: "Premium Cat Play Tunnel",
+    category: "cat",
     subtitle: "Foldable linen tunnel · 30×70 cm · pompom ball included",
     price: 25.90,
     badge: null,
@@ -339,6 +347,7 @@ export default function App() {
   const [cart, setCart] = useState([]);
   const [openCart, setOpenCart] = useState(false);
   const [showBackTop, setShowBackTop] = useState(false);
+  const [activeTab, setActiveTab] = useState("all");
   const [checkoutStatus, setCheckoutStatus] = useState(null);
   const [activePage, setActivePage] = useState(null); // "privacy" | "terms" | "returns"
 
@@ -470,12 +479,21 @@ export default function App() {
         <div className="trust-item"><div className="trust-icon">↩️</div><div><strong>Easy Returns</strong><span>14-day no-questions guarantee</span></div></div>
       </section>
 
-      {/* SHOP */}
+     {/* SHOP */}
       <section id="shop" className="section">
         <div className="section-label">Our Collection</div>
         <h2>Best Sellers</h2>
+
+        <div className="shop-tabs">
+          <button className={activeTab === "all" ? "tab active" : "tab"} onClick={() => setActiveTab("all")}>🐾 All</button>
+          <button className={activeTab === "dog" ? "tab active" : "tab"} onClick={() => setActiveTab("dog")}>🐶 Dogs</button>
+          <button className={activeTab === "cat" ? "tab active" : "tab"} onClick={() => setActiveTab("cat")}>🐱 Cats</button>
+        </div>
+
         <div className="products">
-          {PRODUCTS.map((p) => <ProductCard key={p.id} product={p} onAddToCart={addToCart} />)}
+          {PRODUCTS.filter(p => activeTab === "all" || p.category === activeTab).map((p) => (
+            <ProductCard key={p.id} product={p} onAddToCart={addToCart} />
+          ))}
         </div>
       </section>
 
