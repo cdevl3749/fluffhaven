@@ -314,21 +314,31 @@ export default function App() {
   const [showBackTop, setShowBackTop] = useState(false);
 
   async function handleCheckout() {
+  try {
     const response = await fetch("/.netlify/functions/create-checkout-session", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
-        items: cart.map(item => ({
-          price: item.priceId,
-          quantity: 1
+        items: cart.map((item) => ({
+          priceId: item.priceId,
+          quantity: item.quantity || 1,
         })),
-        shipping_rate: "shr_1TSN5GKn0lmTcQ11ITQVW8GL"
-      })
+      }),
     });
 
     const data = await response.json();
-    window.location.href = data.url;
+
+    if (data.url) {
+      window.location.href = data.url;
+    } else {
+      console.error("Checkout error:", data);
+      alert("Checkout error. Please try again.");
+    }
+  } catch (error) {
+    console.error("Checkout error:", error);
+    alert("Something went wrong. Please try again.");
   }
+}
 
   useEffect(() => {
     const onScroll = () => setShowBackTop(window.scrollY > 300);
