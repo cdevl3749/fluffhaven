@@ -37,7 +37,6 @@ const PRODUCTS = [
     ],
     sizes: ["S", "M", "L"],
   },
-
   {
     id: 1,
     name: "Portable Dog Water Bottle",
@@ -47,27 +46,11 @@ const PRODUCTS = [
     description:
       "Travel water bottle for dogs with a foldable lid that doubles as a drinking bowl. Leak-proof, BPA-free silicone, 580 ml. Perfect for hikes, walks & road trips.",
     variants: [
-      {
-        color: "#7DB87D",
-        label: "Green",
-        images: ["/sac_vert.jpg"],
-        priceId: "price_1TSM4mKn0lmTcQ11yMEtLXIz",
-      },
-      {
-        color: "#F4845F",
-        label: "Orange",
-        images: ["/sac_orange.jpg"],
-        priceId: "price_1TSM5qKn0lmTcQ11zG9ePOa5",
-      },
-      {
-        color: "#888888",
-        label: "Grey",
-        images: ["/sac_gris.jpg"],
-        priceId: "price_1TSM7EKn0lmTcQ11aw43pEVb",
-      },
+      { color: "#7DB87D", label: "Green",  images: ["/sac_vert.jpg"],    priceId: "price_1TSM4mKn0lmTcQ11yMEtLXIz" },
+      { color: "#F4845F", label: "Orange", images: ["/sac_orange.jpg"],  priceId: "price_1TSM5qKn0lmTcQ11zG9ePOa5" },
+      { color: "#888888", label: "Grey",   images: ["/sac_gris.jpg"],    priceId: "price_1TSM7EKn0lmTcQ11aw43pEVb" },
     ],
   },
-
   {
     id: 2,
     name: "Premium Cooling Mat",
@@ -76,10 +59,8 @@ const PRODUCTS = [
     badge: "Summer",
     priceId: "price_1TSMB9Kn0lmTcQ11az73rxbZ",
     images: ["/tapis_rafraichissant.jpg", "/tapis_rafraichissant_2.jpg"],
-    description:
-      "Self-cooling silk surface keeps your pet comfortable all summer. Waterproof & non-slip bottom. Machine washable. Perfect for dogs & cats.",
+    description: "Self-cooling silk surface keeps your pet comfortable all summer. Waterproof & non-slip bottom. Machine washable. Perfect for dogs & cats.",
   },
-
   {
     id: 3,
     name: "3-in-1 Steam Grooming Brush",
@@ -88,10 +69,8 @@ const PRODUCTS = [
     badge: "Popular",
     priceId: "price_1TSMRBKn0lmTcQ117Az7zJwR",
     images: ["/peigne_brosse.jpg", "/peigne_brosse_2.jpg", "/peigne_brosse_3.jpg"],
-    description:
-      "One-click steam & water spray, electric massage, and detangling bristles all in one. USB rechargeable. Helps reduce flying hair.",
+    description: "One-click steam & water spray, electric massage, and detangling bristles all in one. USB rechargeable. Helps reduce flying hair.",
   },
-
   {
     id: 4,
     name: "Interactive Smart Cat Ball",
@@ -100,10 +79,8 @@ const PRODUCTS = [
     badge: "New",
     priceId: "price_1TSMUsKn0lmTcQ11sXCLEtkj",
     images: ["/balle_chat.jpg", "/balle_chat2.jpg", "/balle_chat3.jpg"],
-    description:
-      "Automatic interactive ball toy for indoor cats. Features 2 speed modes, feather tail and auto shut-off. Keeps cats active and entertained.",
+    description: "Automatic interactive ball toy for indoor cats. Features 2 speed modes, feather tail and auto shut-off. Keeps cats active and entertained.",
   },
-
   {
     id: 5,
     name: "L-Shape Cat Scratcher",
@@ -112,10 +89,8 @@ const PRODUCTS = [
     badge: "Popular",
     priceId: "price_1TSMYPKn0lmTcQ11bejbHtc0",
     images: ["/griffoir_chat.jpg", "/griffoir_chat2.jpg", "/griffoir_chat3.jpg"],
-    description:
-      "Premium L-shaped cat scratcher made from high-density corrugated cardboard. Perfect for stretching, scratching and protecting your furniture.",
+    description: "Premium L-shaped cat scratcher made from high-density corrugated cardboard. Perfect for stretching, scratching and protecting your furniture.",
   },
-
   {
     id: 6,
     name: "Feather Wand Cat Toy Set",
@@ -124,10 +99,8 @@ const PRODUCTS = [
     badge: "Fun",
     priceId: "price_1TSMbNKn0lmTcQ11ADoo7Dqy",
     images: ["/plume_chat.jpg", "/plume_chat2.jpg", "/plume_chat3.jpg"],
-    description:
-      "12-piece interactive feather toy set for cats & kittens. Includes retractable wands and colourful feather attachments for daily play.",
+    description: "12-piece interactive feather toy set for cats & kittens. Includes retractable wands and colourful feather attachments for daily play.",
   },
-
   {
     id: 7,
     name: "Premium Cat Play Tunnel",
@@ -136,8 +109,7 @@ const PRODUCTS = [
     badge: null,
     priceId: "price_1TSMeWKn0lmTcQ11TOytJsNX",
     images: ["/tunnel_chat.jpg", "/tunnel_chat2.jpg", "/tunnel_chat3.jpg"],
-    description:
-      "Collapsible cat tunnel made from durable faux-linen fabric. Includes a hanging pompom ball inside. Ideal for hiding, chasing and exploring.",
+    description: "Collapsible cat tunnel made from durable faux-linen fabric. Includes a hanging pompom ball inside. Ideal for hiding, chasing and exploring.",
   },
 ];
 
@@ -146,6 +118,95 @@ const PRODUCTS = [
 // ─────────────────────────────────────────────────────────────
 function eur(price) {
   return new Intl.NumberFormat("fr-FR", { style: "currency", currency: "EUR" }).format(price);
+}
+
+// ─────────────────────────────────────────────────────────────
+// MODAL PAGES — Privacy Policy / Terms / Returns
+// ─────────────────────────────────────────────────────────────
+const PAGES = {
+  privacy: {
+    title: "Privacy Policy",
+    content: (
+      <>
+        <p><em>Last updated: May 1, 2026</em></p>
+        <h3>1. Information We Collect</h3>
+        <p>When you place an order, we collect your name, email address, shipping address and payment information through our payment provider Stripe. We never store card details on our servers.</p>
+        <h3>2. How We Use Your Information</h3>
+        <p>Your data is used solely to process and fulfil your order, send you order confirmation and shipping updates, and respond to customer service requests.</p>
+        <h3>3. Payment Processing</h3>
+        <p>All payments are processed securely by Stripe (stripe.com), which is PCI-DSS compliant. We do not store any payment information.</p>
+        <h3>4. Cookies</h3>
+        <p>We use essential cookies to improve your browsing experience. No tracking or advertising cookies are used without your consent.</p>
+        <h3>5. Your Rights (GDPR)</h3>
+        <p>You have the right to access, correct or delete your personal data at any time. Contact us at <strong>contact@fluffhaven.shop</strong>.</p>
+        <h3>6. Contact</h3>
+        <p>📧 contact@fluffhaven.shop · 🌐 fluffhaven.shop</p>
+      </>
+    ),
+  },
+  terms: {
+    title: "Terms of Service",
+    content: (
+      <>
+        <p><em>Last updated: May 1, 2026</em></p>
+        <h3>1. General</h3>
+        <p>By placing an order on fluffhaven.shop, you agree to these Terms of Service. All orders are subject to product availability.</p>
+        <h3>2. Pricing</h3>
+        <p>All prices are listed in Euros (€) and include applicable taxes. We reserve the right to change prices at any time without prior notice.</p>
+        <h3>3. Payment</h3>
+        <p>Payments are processed securely via Stripe. We accept Visa, Mastercard and other major credit cards. Your payment is encrypted and secure.</p>
+        <h3>4. Shipping</h3>
+        <p>We offer free worldwide shipping on all orders. Delivery takes 5–8 business days. A tracking link will be sent to your email once your order ships.</p>
+        <h3>5. Returns</h3>
+        <p>You have 14 days from receipt to return any item in its original condition. Contact us at contact@fluffhaven.shop to initiate a return.</p>
+        <h3>6. Liability</h3>
+        <p>FluffHaven is not liable for any indirect, incidental or consequential damages arising from the use of our products. Products are intended for pets under supervision.</p>
+        <h3>7. Contact</h3>
+        <p>📧 contact@fluffhaven.shop · 🌐 fluffhaven.shop</p>
+      </>
+    ),
+  },
+  returns: {
+    title: "Returns & Refunds",
+    content: (
+      <>
+        <p><em>Last updated: May 1, 2026</em></p>
+        <h3>14-Day Return Guarantee</h3>
+        <p>We want you to be completely happy with your order. If you're not satisfied for any reason, you have <strong>14 days</strong> from the date of receipt to return your item.</p>
+        <h3>How to Return</h3>
+        <p>1. Email us at <strong>contact@fluffhaven.shop</strong> with your order number and reason for return.<br />
+        2. We'll send you return instructions within 24 hours.<br />
+        3. Once we receive your item in its original condition, we'll process your refund within 3–5 business days.</p>
+        <h3>Conditions</h3>
+        <p>Items must be returned in their original, unused condition and packaging. We do not accept returns for items that have been damaged through misuse.</p>
+        <h3>Refunds</h3>
+        <p>Refunds are processed to your original payment method. You'll receive a confirmation email once your refund has been issued.</p>
+        <h3>Questions?</h3>
+        <p>📧 contact@fluffhaven.shop</p>
+      </>
+    ),
+  },
+};
+
+function PageModal({ page, onClose }) {
+  const data = PAGES[page];
+  if (!data) return null;
+
+  return (
+    <div className="page-modal-overlay" onClick={onClose}>
+      <div className="page-modal" onClick={(e) => e.stopPropagation()}>
+        <div className="page-modal-header">
+          <h2>{data.title}</h2>
+          <button className="cart-close" onClick={onClose} aria-label="Close">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+              <line x1="18" y1="6" x2="6" y2="18" /><line x1="6" y1="6" x2="18" y2="18" />
+            </svg>
+          </button>
+        </div>
+        <div className="page-modal-body">{data.content}</div>
+      </div>
+    </div>
+  );
 }
 
 // ─────────────────────────────────────────────────────────────
@@ -169,44 +230,33 @@ function ProductCard({ product, onAddToCart }) {
   }
 
   function handleAddToCart() {
-  if (hasVariants && product.sizes && !selectedSize) {
-    setSizeError(true);
-    return;
-  }
+    if (hasVariants && product.sizes && !selectedSize) { setSizeError(true); return; }
+    setSizeError(false);
 
-  setSizeError(false);
-
-  let priceId = null;
-
-  if (product.variants) {
-    const v = product.variants[activeVariant];
-
-    if (product.sizes) {
-      priceId = v.priceIds[selectedSize];
+    let priceId = null;
+    if (product.variants) {
+      const v = product.variants[activeVariant];
+      priceId = product.sizes ? v.priceIds[selectedSize] : v.priceId;
     } else {
-      priceId = v.priceId;
+      priceId = product.priceId;
     }
-  } else {
-    priceId = product.priceId;
-  }
 
- onAddToCart({
-  id: product.id,
-  name: product.name,
-  price: product.price,
-  priceId,
-  image: images ? images[currentImg] : null,
-  subtitle: variant
-    ? variant.label + (selectedSize ? ` · Size ${selectedSize}` : "")
-    : product.subtitle,
-});
-}
+    onAddToCart({
+      id: product.id,
+      name: product.name,
+      price: product.price,
+      priceId,
+      image: images ? images[currentImg] : null,
+      subtitle: variant
+        ? variant.label + (selectedSize ? ` · Size ${selectedSize}` : "")
+        : product.subtitle,
+    });
+  }
 
   return (
     <div className="product">
       {product.badge && <span className="product-badge">{product.badge}</span>}
 
-      {/* IMAGE ZONE */}
       <div className="product-img-zone">
         <div className="product-img-wrap">
           {images && images.length > 0 ? (
@@ -226,16 +276,10 @@ function ProductCard({ product, onAddToCart }) {
           )}
         </div>
 
-        {/* THUMBNAILS — only for simple products with 2+ images */}
         {hasMultipleImages && !hasVariants && (
           <div className="product-thumbs">
             {images.map((src, i) => (
-              <button
-                key={i}
-                className={`product-thumb${i === currentImg ? " active" : ""}`}
-                onClick={() => setCurrentImg(i)}
-                aria-label={`Photo ${i + 1}`}
-              >
+              <button key={i} className={`product-thumb${i === currentImg ? " active" : ""}`} onClick={() => setCurrentImg(i)} aria-label={`Photo ${i + 1}`}>
                 <img src={src} alt={`${product.name} ${i + 1}`} />
               </button>
             ))}
@@ -243,58 +287,38 @@ function ProductCard({ product, onAddToCart }) {
         )}
       </div>
 
-      {/* BODY */}
       <div className="product-body">
         <div className="product-info">
           <h3>{product.name}</h3>
           <p className="product-sub">{product.subtitle}</p>
           <p className="product-desc">{product.description}</p>
 
-          {/* COLOUR SELECTOR */}
           {hasVariants && (
             <div className="variant-section">
               <p className="variant-label">Colour: <strong>{product.variants[activeVariant].label}</strong></p>
               <div className="color-swatches">
                 {product.variants.map((v, i) => (
-                  <button
-                    key={v.label}
-                    className={`color-swatch${i === activeVariant ? " active" : ""}`}
-                    style={{ "--swatch-color": v.color }}
-                    onClick={() => handleVariantChange(i)}
-                    title={v.label}
-                    aria-label={v.label}
-                  />
+                  <button key={v.label} className={`color-swatch${i === activeVariant ? " active" : ""}`} style={{ "--swatch-color": v.color }} onClick={() => handleVariantChange(i)} title={v.label} aria-label={v.label} />
                 ))}
               </div>
             </div>
           )}
 
-          {/* SIZE SELECTOR */}
           {product.sizes && (
             <div className="variant-section">
               <p className={`variant-label${sizeError ? " has-error" : ""}`}>
-                {sizeError
-                  ? <>Size: <strong className="err-msg">Please choose a size</strong></>
-                  : <>Size: <strong>{selectedSize}</strong></>
-                }
+                {sizeError ? <>Size: <strong className="err-msg">Please choose a size</strong></> : <>Size: <strong>{selectedSize}</strong></>}
               </p>
               <div className="size-buttons">
                 {product.sizes.map((s) => (
-                  <button
-                    key={s}
-                    className={`size-btn${selectedSize === s ? " active" : ""}`}
-                    onClick={() => { setSelectedSize(s); setSizeError(false); }}
-                  >{s}</button>
+                  <button key={s} className={`size-btn${selectedSize === s ? " active" : ""}`} onClick={() => { setSelectedSize(s); setSizeError(false); }}>{s}</button>
                 ))}
               </div>
             </div>
           )}
         </div>
 
-        {/* PRICE + CTA — always anchored at bottom */}
-        <div className="delivery-badge">
-          🚚 Free delivery · 5–8 business days
-        </div>
+        <div className="delivery-badge">🚚 Free delivery · 5–8 business days</div>
         <div className="product-footer">
           <span className="product-price">{eur(product.price)}</span>
           <button onClick={handleAddToCart}>Add to Cart</button>
@@ -308,57 +332,66 @@ function ProductCard({ product, onAddToCart }) {
 // APP
 // ─────────────────────────────────────────────────────────────
 export default function App() {
-  const [showCookies, setShowCookies] = useState(true);
+  // ── FIX COOKIES : on lit localStorage au démarrage ──
+  const [showCookies, setShowCookies] = useState(
+    () => localStorage.getItem("fh_cookies_accepted") !== "true"
+  );
   const [cart, setCart] = useState([]);
   const [openCart, setOpenCart] = useState(false);
   const [showBackTop, setShowBackTop] = useState(false);
   const [checkoutStatus, setCheckoutStatus] = useState(null);
+  const [activePage, setActivePage] = useState(null); // "privacy" | "terms" | "returns"
 
-  async function handleCheckout() {
-  try {
-    const response = await fetch("/.netlify/functions/create-checkout-session", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        items: cart.map((item) => ({
-          priceId: item.priceId,
-          quantity: item.quantity || 1,
-        })),
-      }),
-    });
-
-    const data = await response.json();
-
-    if (data.url) {
-      window.location.href = data.url;
-    } else {
-      console.error("Checkout error:", data);
-      alert("Checkout error. Please try again.");
-    }
-  } catch (error) {
-    console.error("Checkout error:", error);
-    alert("Something went wrong. Please try again.");
+  // ── FIX COOKIES : on sauvegarde dans localStorage ──
+  function acceptCookies() {
+    localStorage.setItem("fh_cookies_accepted", "true");
+    setShowCookies(false);
   }
-}
 
-useEffect(() => {
-  const params = new URLSearchParams(window.location.search);
-  const checkout = params.get("checkout");
+  function declineCookies() {
+    localStorage.setItem("fh_cookies_accepted", "true"); // on cache la bannière dans les deux cas
+    setShowCookies(false);
+  }
 
-  if (checkout === "success" || checkout === "cancel") {
-    setCheckoutStatus(checkout);
-
-    setTimeout(() => {
+  // ── FIX CHECKOUT STATUS : auto-dismiss après 6 secondes ──
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const checkout = params.get("checkout");
+    if (checkout === "success" || checkout === "cancel") {
+      setCheckoutStatus(checkout);
+      // Nettoie l'URL immédiatement
       window.history.replaceState({}, "", window.location.pathname);
-    }, 300);
-  }
-}, []);
+      // ── FIX : auto-dismiss après 6 secondes ──
+      const timer = setTimeout(() => setCheckoutStatus(null), 6000);
+      return () => clearTimeout(timer);
+    }
+  }, []);
 
   useEffect(() => {
     const onScroll = () => setShowBackTop(window.scrollY > 300);
     window.addEventListener("scroll", onScroll);
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
+
+  async function handleCheckout() {
+    try {
+      const response = await fetch("/.netlify/functions/create-checkout-session", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          items: cart.map((item) => ({ priceId: item.priceId, quantity: item.quantity || 1 })),
+        }),
+      });
+      const data = await response.json();
+      if (data.url) {
+        window.location.href = data.url;
+      } else {
+        alert("Checkout error. Please try again.");
+      }
+    } catch (error) {
+      alert("Something went wrong. Please try again.");
+    }
+  }
 
   const scrollTo = (id) => document.querySelector(id)?.scrollIntoView({ behavior: "smooth" });
   const addToCart = (item) => { setCart((prev) => [...prev, item]); setOpenCart(true); };
@@ -368,35 +401,21 @@ useEffect(() => {
   return (
     <div className="site">
 
-    {checkoutStatus === "success" && (
-      <div className="checkout-banner success">
-        <strong>Thank you for your order!</strong>
-        <span>Your payment was successful. We’ll prepare your FluffHaven package soon.</span>
-        <button
-          onClick={() => {
-            setCheckoutStatus(null);
-            window.history.replaceState({}, "", window.location.pathname);
-          }}
-        >
-          ×
-        </button>
-              </div>
-            )}
-
-    {checkoutStatus === "cancel" && (
-      <div className="checkout-banner cancel">
-        <strong>Checkout cancelled</strong>
-        <span>No worries — your cart is still here if you want to continue.</span>
-        <button
-          onClick={() => {
-            setCheckoutStatus(null);
-            window.history.replaceState({}, "", window.location.pathname);
-          }}
-        >
-          ×
-        </button>
-              </div>
-            )}
+      {/* ── CHECKOUT BANNERS ── */}
+      {checkoutStatus === "success" && (
+        <div className="checkout-banner success">
+          <strong>🎉 Thank you for your order!</strong>
+          <span>Your payment was successful. We'll prepare your FluffHaven package soon. Check your email for confirmation.</span>
+          <button onClick={() => setCheckoutStatus(null)} aria-label="Close">×</button>
+        </div>
+      )}
+      {checkoutStatus === "cancel" && (
+        <div className="checkout-banner cancel">
+          <strong>Checkout cancelled</strong>
+          <span>No worries — your cart is still here whenever you're ready.</span>
+          <button onClick={() => setCheckoutStatus(null)} aria-label="Close">×</button>
+        </div>
+      )}
 
       {/* TOP BAR */}
       <div className="top-bar">
@@ -489,12 +508,14 @@ useEffect(() => {
         <h2>What pet parents say</h2>
         <div className="reviews">
           {[
-            { name: "Emma R.", pet: "Golden Retriever owner", text: "The paw cleaner is genuinely incredible. My dog used to leave muddy prints everywhere — now it takes 10 seconds after every walk.", avatar: "👩" },
-            { name: "Lucas M.", pet: "Cat & dog dad", text: "Fast shipping, premium packaging, and the products actually last. I've ordered three times now and every time it's been perfect.", avatar: "👨" },
-            { name: "Sophie L.", pet: "Labrador owner", text: "The Premium Cooling Mat is perfect for hot days! My dog loves it and uses it all the time. It cools instantly and feels really high quality. Super easy to clean too. Highly recommend!", avatar: "👩‍🦱" },
+            { name: "Emma R.",   pet: "Golden Retriever owner", text: "The paw cleaner is genuinely incredible. My dog used to leave muddy prints everywhere — now it takes 10 seconds after every walk."},
+            { name: "Lucas M.", pet: "Cat & dog dad",           text: "Fast shipping, premium packaging, and the products actually last. I've ordered three times now and every time it's been perfect."},
+            { name: "Sophie L.", pet: "Labrador owner",         text: "The Premium Cooling Mat is perfect for hot days! My dog loves it and uses it all the time. It cools instantly and feels really high quality. Super easy to clean too. Highly recommend!" },
           ].map((r) => (
             <div key={r.name} className="review">
-              <div className="review-top"><span className="review-avatar">{r.avatar}</span><div><h4>{r.name}</h4><span className="review-pet">{r.pet}</span></div></div>
+              <div className="review-top"><div className="review-avatar-initials">
+                {r.name.split(" ").map(n => n[0]).join("")}
+              </div><div><h4>{r.name}</h4><span className="review-pet">{r.pet}</span></div></div>
               <div className="stars">★★★★★</div>
               <p>"{r.text}"</p>
             </div>
@@ -537,9 +558,10 @@ useEffect(() => {
           <span onClick={() => scrollTo("#about")}>About Us</span>
           <span onClick={() => scrollTo("#reviews")}>Reviews</span>
           <span onClick={() => scrollTo("#faq")}>FAQ</span>
-          <span>Privacy Policy</span>
-          <span>Terms of Service</span>
-          <span>Returns</span>
+          {/* ── PAGES LÉGALES — ouvrent une modale ── */}
+          <span onClick={() => setActivePage("privacy")}>Privacy Policy</span>
+          <span onClick={() => setActivePage("terms")}>Terms of Service</span>
+          <span onClick={() => setActivePage("returns")}>Returns</span>
         </div>
         <div className="footer-trust">
           <h4>Secure &amp; Trusted</h4>
@@ -568,7 +590,6 @@ useEffect(() => {
                 </svg>
               </button>
             </div>
-
             {cart.length === 0 ? (
               <div className="empty-cart">
                 <span>🛒</span>
@@ -599,24 +620,15 @@ useEffect(() => {
                     </div>
                   ))}
                 </div>
-
                 <div className="cart-summary">
-                  <div className="cart-total">
-                    <span>Subtotal</span>
-                    <strong>{eur(total)}</strong>
-                  </div>
+                  <div className="cart-total"><span>Subtotal</span><strong>{eur(total)}</strong></div>
                   <p className="cart-free-ship">✓ Free shipping included</p>
-
-                  {/* SECURITY BADGES IN CART */}
                   <div className="cart-security">
                     <span>🔒 SSL Secure</span>
                     <span>💳 Stripe</span>
                     <span>↩️ 14-day returns</span>
                   </div>
-
-                  <button className="checkout-btn" onClick={handleCheckout}>
-                    Continue to Checkout →
-                  </button>
+                  <button className="checkout-btn" onClick={handleCheckout}>Continue to Checkout →</button>
                   <button className="continue-shopping" onClick={() => setOpenCart(false)}>Continue shopping</button>
                 </div>
               </>
@@ -625,18 +637,21 @@ useEffect(() => {
         </div>
       )}
 
+      {/* MODAL PAGES LÉGALES */}
+      {activePage && <PageModal page={activePage} onClose={() => setActivePage(null)} />}
+
       {/* BACK TO TOP */}
       {showBackTop && (
         <button className="back-top" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })} aria-label="Back to top">↑</button>
       )}
 
-      {/* COOKIES */}
+      {/* COOKIES — FIX : sauvegardé dans localStorage */}
       {showCookies && (
         <div className="cookie">
           <p>🍪 We use cookies to improve your shopping experience.</p>
           <div className="cookie-actions">
-            <button onClick={() => setShowCookies(false)}>Decline</button>
-            <button className="accept" onClick={() => setShowCookies(false)}>Accept All</button>
+            <button onClick={declineCookies}>Decline</button>
+            <button className="accept" onClick={acceptCookies}>Accept All</button>
           </div>
         </div>
       )}
