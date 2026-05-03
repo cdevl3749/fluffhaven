@@ -1,4 +1,10 @@
-import { getStore } from "@netlify/blobs";
+let stats = {
+  visitors: 0,
+  clicks: 0,
+  stripe: 0,
+  payments: 0,
+  countries: {},
+};
 
 const HEADERS = {
   "Access-Control-Allow-Origin": "*",
@@ -7,33 +13,13 @@ const HEADERS = {
   "Content-Type": "application/json",
 };
 
-const DEFAULT_STATS = {
-  visitors: 0,
-  clicks: 0,
-  stripe: 0,
-  payments: 0,
-  countries: {},
-};
-
 export async function handler(event) {
 
   if (event.httpMethod === "OPTIONS") {
     return { statusCode: 200, headers: HEADERS, body: "" };
   }
 
-  // ✅ IMPORTANT : MODE AUTO NETLIFY
-  const store = getStore("fluffhaven-stats");
-
-  let stats;
-  try {
-    stats = await store.get("stats", { type: "json" });
-    if (!stats || typeof stats !== "object") {
-      stats = { ...DEFAULT_STATS };
-    }
-  } catch {
-    stats = { ...DEFAULT_STATS };
-  }
-
+  // GET
   if (event.httpMethod === "GET") {
     return {
       statusCode: 200,
@@ -42,6 +28,7 @@ export async function handler(event) {
     };
   }
 
+  // POST
   if (event.httpMethod === "POST") {
     let data = {};
     try { data = JSON.parse(event.body || "{}"); } catch {}
@@ -65,8 +52,6 @@ export async function handler(event) {
     if (data.type === "stripe")  stats.stripe++;
     if (data.type === "payment") stats.payments++;
 
-    await store.set("stats", stats);
-
     return {
       statusCode: 200,
       headers: HEADERS,
@@ -74,8 +59,15 @@ export async function handler(event) {
     };
   }
 
+  // RESET
   if (event.httpMethod === "DELETE") {
-    await store.set("stats", { ...DEFAULT_STATS });
+    stats = {
+      visitors: 0,
+      clicks: 0,
+      stripe: 0,
+      payments: 0,
+      countries: {},
+    };
 
     return {
       statusCode: 200,
