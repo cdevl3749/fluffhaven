@@ -1,4 +1,4 @@
-import { getStore } from "@netlify/blobs";
+const { getStore } = require("@netlify/blobs");
 
 const HEADERS = {
   "Access-Control-Allow-Origin": "*",
@@ -15,7 +15,7 @@ const DEFAULT_STATS = {
   countries: {},
 };
 
-export async function handler(event) {
+exports.handler = async function(event) {
   // OPTIONS preflight
   if (event.httpMethod === "OPTIONS") {
     return { statusCode: 200, headers: HEADERS, body: "" };
