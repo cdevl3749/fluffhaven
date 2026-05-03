@@ -5,6 +5,9 @@
 [functions]
   node_bundler = "esbuild"
 
+[functions."stats"]
+  netlify_blobs = ["fluffhaven-stats"]
+
 [[redirects]]
   from = "/*"
   to = "/index.html"
