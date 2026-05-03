@@ -4,9 +4,17 @@ export default function Dashboard() {
   const [stats, setStats] = useState(null);
 
   useEffect(() => {
-    fetch("/.netlify/functions/stats")
-      .then((res) => res.json())
-      .then((data) => setStats(data));
+    const load = () => {
+      fetch("/.netlify/functions/stats")
+        .then((res) => res.json())
+        .then(setStats);
+    };
+
+    load();
+
+    const interval = setInterval(load, 3000); // refresh auto
+
+    return () => clearInterval(interval);
   }, []);
 
   if (!stats) return <p style={{ padding: 40 }}>Loading...</p>;
@@ -22,9 +30,28 @@ export default function Dashboard() {
         <Card title="Paiements" value={stats.payments} />
       </div>
 
+      <button
+        onClick={async () => {
+          await fetch("/.netlify/functions/stats", { method: "DELETE" });
+          window.location.reload();
+        }}
+        style={{
+          marginTop: 20,
+          padding: 10,
+          background: "black",
+          color: "white",
+          borderRadius: 8,
+          cursor: "pointer"
+        }}
+      >
+        Reset stats
+      </button>
+
       <h2 style={{ marginTop: 40 }}>🌍 Pays</h2>
       {Object.entries(stats.countries || {}).map(([c, v]) => (
-        <div key={c}>{c} : {v}</div>
+        <div key={c}>
+          {c} : {v}
+        </div>
       ))}
     </div>
   );
@@ -32,12 +59,14 @@ export default function Dashboard() {
 
 function Card({ title, value }) {
   return (
-    <div style={{
-      background: "#f5f5f5",
-      padding: 20,
-      borderRadius: 10,
-      width: 200
-    }}>
+    <div
+      style={{
+        background: "#f5f5f5",
+        padding: 20,
+        borderRadius: 10,
+        width: 200
+      }}
+    >
       <p>{title}</p>
       <h2>{value}</h2>
     </div>

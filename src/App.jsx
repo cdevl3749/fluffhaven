@@ -363,19 +363,23 @@ export default function App() {
   }
 
   useEffect(() => {
-  if (sessionStorage.getItem("fh_visit")) return;
+  const KEY = "fh_visit_tracked";
 
-  fetch("https://ipapi.co/json/")
-    .then((res) => res.json())
-    .then((data) => {
-      fetch("/.netlify/functions/stats", {
-        method: "POST",
-        body: JSON.stringify({
-          type: "visit",
-          country: data.country,
-        }),
-      });
-      sessionStorage.setItem("fh_visit", "1");
+  if (sessionStorage.getItem(KEY)) return;
+
+  fetch("/.netlify/functions/stats", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      type: "visit",
+      country: "auto", // ← ton backend peut gérer ça
+    }),
+  })
+    .then(() => {
+      sessionStorage.setItem(KEY, "true");
+    })
+    .catch(() => {
+      console.log("Tracking error");
     });
 }, []);
 
@@ -386,11 +390,16 @@ export default function App() {
     if (checkout === "success" || checkout === "cancel") {
       setCheckoutStatus(checkout);
       if (checkout === "success") {
+      if (!sessionStorage.getItem("fh_payment_tracked")) {
         fetch("/.netlify/functions/stats", {
           method: "POST",
+          headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ type: "payment" }),
         });
+
+        sessionStorage.setItem("fh_payment_tracked", "true");
       }
+    }
       // Nettoie l'URL immédiatement
       window.history.replaceState({}, "", window.location.pathname);
       // ── FIX : auto-dismiss après 6 secondes ──
