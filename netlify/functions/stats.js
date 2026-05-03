@@ -1,5 +1,5 @@
-// stats.js — version sans @netlify/blobs pour diagnostiquer le 502
-// Utilise uniquement les variables d'environnement Netlify Blobs natives
+// stats.js — @netlify/blobs avec syntaxe CommonJS (compatible esbuild Netlify)
+const { getStore } = require("@netlify/blobs");
 
 const HEADERS = {
   "Access-Control-Allow-Origin": "*",
@@ -16,57 +16,27 @@ const DEFAULT_STATS = {
   countries: {},
 };
 
-// ── Helpers Netlify Blobs via fetch natif (pas besoin du package) ──
-async function getStats() {
-  try {
-    const siteId   = process.env.NETLIFY_SITE_ID;
-    const token    = process.env.NETLIFY_BLOBS_TOKEN || process.env.NETLIFY_AUTH_TOKEN;
-    const storeUrl = `https://blobs.netlify.com/api/v1/${siteId}/fluffhaven-stats/stats`;
-
-    if (!siteId || !token) {
-      // Fallback : retourne les stats vides si pas de credentials
-      return { ...DEFAULT_STATS };
-    }
-
-    const res = await fetch(storeUrl, {
-      headers: { Authorization: `Bearer ${token}` },
-    });
-
-    if (!res.ok) return { ...DEFAULT_STATS };
-    return await res.json();
-  } catch {
-    return { ...DEFAULT_STATS };
-  }
-}
-
-async function setStats(stats) {
-  try {
-    const siteId   = process.env.NETLIFY_SITE_ID;
-    const token    = process.env.NETLIFY_BLOBS_TOKEN || process.env.NETLIFY_AUTH_TOKEN;
-    const storeUrl = `https://blobs.netlify.com/api/v1/${siteId}/fluffhaven-stats/stats`;
-
-    if (!siteId || !token) return;
-
-    await fetch(storeUrl, {
-      method: "PUT",
-      headers: {
-        Authorization: `Bearer ${token}`,
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(stats),
-    });
-  } catch (e) {
-    console.error("setStats error:", e);
-  }
-}
-
 exports.handler = async function (event) {
-  // OPTIONS preflight
+
   if (event.httpMethod === "OPTIONS") {
     return { statusCode: 200, headers: HEADERS, body: "" };
   }
 
-  let stats = await getStats();
+  // Initialise le store Netlify Blobs
+  const store = getStore({
+    name: "fluffhaven-stats",
+    siteID: process.env.SITE_ID || process.env.NETLIFY_SITE_ID,
+    token:  process.env.NETLIFY_BLOBS_TOKEN || process.env.NETLIFY_AUTH_TOKEN,
+  });
+
+  // Charge les stats existantes
+  let stats;
+  try {
+    stats = await store.get("stats", { type: "json" });
+    if (!stats || typeof stats !== "object") stats = { ...DEFAULT_STATS };
+  } catch {
+    stats = { ...DEFAULT_STATS };
+  }
 
   // ── GET ──
   if (event.httpMethod === "GET") {
@@ -85,7 +55,7 @@ exports.handler = async function (event) {
     if (data.type === "visit") {
       stats.visitors = (stats.visitors || 0) + 1;
 
-      // Détection pays
+      // Détection pays via header Netlify
       let country = "Unknown";
       try {
         const geoRaw = event.headers["x-nf-geo"];
@@ -108,7 +78,11 @@ exports.handler = async function (event) {
     if (data.type === "stripe")  stats.stripe   = (stats.stripe   || 0) + 1;
     if (data.type === "payment") stats.payments = (stats.payments || 0) + 1;
 
-    await setStats(stats);
+    try {
+      await store.set("stats", stats);
+    } catch (e) {
+      console.error("Store set error:", e.message);
+    }
 
     return {
       statusCode: 200,
@@ -119,7 +93,11 @@ exports.handler = async function (event) {
 
   // ── DELETE (reset) ──
   if (event.httpMethod === "DELETE") {
-    await setStats({ ...DEFAULT_STATS });
+    try {
+      await store.set("stats", { ...DEFAULT_STATS });
+    } catch (e) {
+      console.error("Store reset error:", e.message);
+    }
     return {
       statusCode: 200,
       headers: HEADERS,
