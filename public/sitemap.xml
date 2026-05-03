@@ -36,4 +36,12 @@
     <priority>0.5</priority>
   </url>
 
+  <!-- Blog URL -->
+  <url>
+    <loc>https://www.fluffhaven.shop/blog/clean-dog-paws</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
 </urlset>
