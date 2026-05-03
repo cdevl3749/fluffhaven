@@ -1,5 +1,11 @@
 import { getStore } from "@netlify/blobs";
 
+const store = getStore({
+  name: "fluffhaven-stats",
+  siteID: process.env.NETLIFY_SITE_ID,
+  token: process.env.NETLIFY_API_TOKEN,
+});
+
 const HEADERS = {
   "Access-Control-Allow-Origin": "*",
   "Access-Control-Allow-Methods": "GET, POST, DELETE, OPTIONS",
