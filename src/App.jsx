@@ -362,12 +362,35 @@ export default function App() {
     setShowCookies(false);
   }
 
+  useEffect(() => {
+  if (sessionStorage.getItem("fh_visit")) return;
+
+  fetch("https://ipapi.co/json/")
+    .then((res) => res.json())
+    .then((data) => {
+      fetch("/.netlify/functions/stats", {
+        method: "POST",
+        body: JSON.stringify({
+          type: "visit",
+          country: data.country,
+        }),
+      });
+      sessionStorage.setItem("fh_visit", "1");
+    });
+}, []);
+
   // ── FIX CHECKOUT STATUS : auto-dismiss après 6 secondes ──
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
     const checkout = params.get("checkout");
     if (checkout === "success" || checkout === "cancel") {
       setCheckoutStatus(checkout);
+      if (checkout === "success") {
+        fetch("/.netlify/functions/stats", {
+          method: "POST",
+          body: JSON.stringify({ type: "payment" }),
+        });
+      }
       // Nettoie l'URL immédiatement
       window.history.replaceState({}, "", window.location.pathname);
       // ── FIX : auto-dismiss après 6 secondes ──
@@ -383,24 +406,39 @@ export default function App() {
   }, []);
 
   async function handleCheckout() {
-    try {
-      const response = await fetch("/.netlify/functions/create-checkout-session", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          items: cart.map((item) => ({ priceId: item.priceId, quantity: item.quantity || 1 })),
-        }),
-      });
-      const data = await response.json();
-      if (data.url) {
-        window.location.href = data.url;
-      } else {
-        alert("Checkout error. Please try again.");
-      }
-    } catch (error) {
-      alert("Something went wrong. Please try again.");
+  // track click
+  fetch("/.netlify/functions/stats", {
+    method: "POST",
+    body: JSON.stringify({ type: "click" }),
+  });
+
+  try {
+    const response = await fetch("/.netlify/functions/create-checkout-session", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        items: cart.map((item) => ({
+          priceId: item.priceId,
+          quantity: item.quantity || 1,
+        })),
+      }),
+    });
+
+    // track stripe arrive
+    fetch("/.netlify/functions/stats", {
+      method: "POST",
+      body: JSON.stringify({ type: "stripe" }),
+    });
+
+    const data = await response.json();
+
+    if (data.url) {
+      window.location.href = data.url;
     }
+  } catch (error) {
+    alert("Error");
   }
+}
 
   const scrollTo = (id) => document.querySelector(id)?.scrollIntoView({ behavior: "smooth" });
   const addToCart = (item) => { setCart((prev) => [...prev, item]); setOpenCart(true); };
