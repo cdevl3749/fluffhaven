@@ -1,11 +1,5 @@
 import { getStore } from "@netlify/blobs";
 
-const store = getStore({
-  name: "fluffhaven-stats",
-  siteID: process.env.NETLIFY_SITE_ID,
-  token: process.env.NETLIFY_API_TOKEN,
-});
-
 const HEADERS = {
   "Access-Control-Allow-Origin": "*",
   "Access-Control-Allow-Methods": "GET, POST, DELETE, OPTIONS",
@@ -27,11 +21,9 @@ export async function handler(event) {
     return { statusCode: 200, headers: HEADERS, body: "" };
   }
 
-  // getStore sans paramètres — Netlify injecte automatiquement
-  // les credentials quand la fonction tourne sur leurs serveurs
+  // ✅ IMPORTANT : MODE AUTO NETLIFY
   const store = getStore("fluffhaven-stats");
 
-  // Charge les stats
   let stats;
   try {
     stats = await store.get("stats", { type: "json" });
@@ -42,7 +34,6 @@ export async function handler(event) {
     stats = { ...DEFAULT_STATS };
   }
 
-  // ── GET ──
   if (event.httpMethod === "GET") {
     return {
       statusCode: 200,
@@ -51,13 +42,12 @@ export async function handler(event) {
     };
   }
 
-  // ── POST ──
   if (event.httpMethod === "POST") {
     let data = {};
-    try { data = JSON.parse(event.body || "{}"); } catch { data = {}; }
+    try { data = JSON.parse(event.body || "{}"); } catch {}
 
     if (data.type === "visit") {
-      stats.visitors = (stats.visitors || 0) + 1;
+      stats.visitors++;
 
       let country = "Unknown";
       try {
@@ -65,27 +55,17 @@ export async function handler(event) {
         if (geoRaw) {
           const geo = JSON.parse(geoRaw);
           country = geo.country?.name || geo.country_code || "Unknown";
-        } else {
-          country =
-            event.headers["x-country"] ||
-            event.headers["cf-ipcountry"] ||
-            "Unknown";
         }
-      } catch { country = "Unknown"; }
+      } catch {}
 
-      stats.countries = stats.countries || {};
       stats.countries[country] = (stats.countries[country] || 0) + 1;
     }
 
-    if (data.type === "click")   stats.clicks   = (stats.clicks   || 0) + 1;
-    if (data.type === "stripe")  stats.stripe   = (stats.stripe   || 0) + 1;
-    if (data.type === "payment") stats.payments = (stats.payments || 0) + 1;
+    if (data.type === "click")   stats.clicks++;
+    if (data.type === "stripe")  stats.stripe++;
+    if (data.type === "payment") stats.payments++;
 
-    try {
-      await store.set("stats", stats);
-    } catch (e) {
-      console.error("Store set error:", e.message);
-    }
+    await store.set("stats", stats);
 
     return {
       statusCode: 200,
@@ -94,13 +74,9 @@ export async function handler(event) {
     };
   }
 
-  // ── DELETE (reset) ──
   if (event.httpMethod === "DELETE") {
-    try {
-      await store.set("stats", { ...DEFAULT_STATS });
-    } catch (e) {
-      console.error("Store reset error:", e.message);
-    }
+    await store.set("stats", { ...DEFAULT_STATS });
+
     return {
       statusCode: 200,
       headers: HEADERS,
