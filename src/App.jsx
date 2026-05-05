@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import "./App.css";
-import CleanDogPaws from "./blog/clean-dog-paws";
 
 // ─────────────────────────────────────────────────────────────
 // PRODUCTS
@@ -601,9 +600,6 @@ export default function App() {
   const removeFromCart = (i) => setCart((prev) => prev.filter((_, idx) => idx !== i));
   const total = cart.reduce((acc, item) => acc + item.price, 0);
 
-  const path = window.location.pathname;
-  if (path === "/blog/clean-dog-paws") return <CleanDogPaws />;
-
   return (
     <div className="site">
 
@@ -644,7 +640,7 @@ export default function App() {
           <span onClick={() => scrollTo("#about")}>About</span>
           <span onClick={() => scrollTo("#reviews")}>Reviews</span>
           <span onClick={() => scrollTo("#faq")}>FAQ</span>
-          <span onClick={() => (window.location.href = "/blog/clean-dog-paws")}>Blog</span>
+          <span onClick={() => (window.location.href = "/blog")}>Blog</span>
         </nav>
         <button className="cart-btn" onClick={() => setOpenCart(true)} aria-label="Open cart">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -778,7 +774,7 @@ export default function App() {
           <span onClick={() => scrollTo("#about")}>About Us</span>
           <span onClick={() => scrollTo("#reviews")}>Reviews</span>
           <span onClick={() => scrollTo("#faq")}>FAQ</span>
-          <span onClick={() => (window.location.href = "/blog/clean-dog-paws")}>Blog</span>
+          <span onClick={() => (window.location.href = "/blog")}>Blog</span>
           <span onClick={() => setActivePage("privacy")}>Privacy Policy</span>
           <span onClick={() => setActivePage("terms")}>Terms of Service</span>
           <span onClick={() => setActivePage("returns")}>Returns</span>
