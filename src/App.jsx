@@ -6,6 +6,93 @@ import CleanDogPaws from "./blog/clean-dog-paws";
 // PRODUCTS
 // ─────────────────────────────────────────────────────────────
 const PRODUCTS = [
+
+  // 🔥 PRODUITS QUI CONVERTISSENT (EN PREMIER)
+  {
+    id: 8,
+    name: "Pet Hair Remover Roller",
+    category: "dog",
+    subtitle: "No tape · reusable · instant clean",
+    price: 39.90,
+    badge: "🔥 Best Seller",
+    priceId: "price_1TTQgZKn0lmTcQ11QW74njjh",
+    images: ["/brosse_anti_poils.jpg","/brosse_anti_poils2.jpg","/brosse_anti_poils3.jpg"],
+    description: "Remove pet hair in seconds. No sticky tape, no mess. Perfect for home, clothes and car.",
+    details: `
+✔ Removes pet hair instantly
+✔ No sticky tape needed
+✔ Reusable & eco-friendly
+✔ Works on sofa, clothes & car seats
+✔ Self-cleaning system
+
+Perfect for keeping your home clean every day.
+`,
+  },
+
+  {
+    id: 9,
+    name: "Dog Car Seat Cover",
+    category: "dog",
+    subtitle: "Waterproof · anti-slip · full protection",
+    price: 89.90,
+    badge: "⭐ Premium",
+    priceId: "price_1TTRPvKn0lmTcQ11Q926IlD8",
+    images: ["/housse_chien.jpg","/housse_chien2.jpg","/housse_chien3.jpg"],
+    description: "Protect your car from dirt, scratches and pet hair. Waterproof and easy to install.",
+    details: `
+✔ 100% waterproof protection
+✔ Anti-slip backing
+✔ Protects against mud, hair & scratches
+✔ Easy installation in seconds
+✔ Fits most cars & SUVs
+
+Travel with your dog stress-free.
+`,
+  },
+
+  {
+    id: 10,
+    name: "No-Pull Dog Harness",
+    category: "dog",
+    subtitle: "No-pull · strong · comfortable",
+    price: 59.90,
+    badge: "🔥 Best Seller",
+    priceId: "price_1TTRdcKn0lmTcQ11BVllH8Sy",
+    images: ["/harnais_chien.jpg","/harnais_chien2.jpg","/harnais_chien3.jpg"],
+    description: "Stop pulling instantly. Comfortable harness designed for strong dogs and daily walks.",
+    details: `
+✔ Reduces pulling instantly
+✔ Front clip control system
+✔ Comfortable padding
+✔ Strong & durable materials
+✔ Adjustable for all sizes
+
+Perfect for daily walks and training.
+`,
+  },
+
+  {
+    id: 11,
+    name: "Electric Dog Nail Grinder",
+    category: "dog",
+    subtitle: "Quiet · LED · safe grooming",
+    price: 49.90,
+    badge: "⚡ Popular",
+    priceId: "price_1TTRrOKn0lmTcQ11kjI4jVrr",
+    images: ["/ponceuse_griffe.jpg","/ponceuse_griffe2.jpg","/ponceuse_griffe3.jpg"],
+    description: "Trim your pet's nails safely and stress-free. Quiet, precise and easy to use.",
+    details: `
+✔ Safe & painless nail trimming
+✔ Quiet motor (no stress)
+✔ 2 speed settings
+✔ Built-in LED for precision
+✔ USB rechargeable
+
+Professional grooming at home.
+`,
+  },
+
+  // 🐶 PRODUITS CHIENS
   {
     id: 0,
     name: "Dog Paw Cleaner",
@@ -13,29 +100,19 @@ const PRODUCTS = [
     subtitle: "Portable silicone cleaner — S / M / L",
     price: 37.90,
     badge: "Best Seller",
-    description:
-      "Gentle silicone bristles remove mud & dirt effortlessly after every walk. No more muddy floors. Works for all breeds.",
+    description: "Gentle silicone bristles remove mud & dirt effortlessly after every walk. No more muddy floors. Works for all breeds.",
+    details: `
+✔ Soft silicone bristles
+✔ Available in S / M / L
+✔ Blue & Orange colours
+✔ Easy to clean
+✔ Works for all breeds
+
+No more muddy floors after walks.
+`,
     variants: [
-      {
-        color: "#5B9BD5",
-        label: "Blue",
-        images: ["/nettoyant_bleu.jpg"],
-        priceIds: {
-          S: "price_1TSLe2Kn0lmTcQ11HUyJFJg2",
-          M: "price_1TSLm2Kn0lmTcQ11I0ryLfKG",
-          L: "price_1TSLoaKn0lmTcQ11QLJFs164",
-        },
-      },
-      {
-        color: "#F4845F",
-        label: "Orange",
-        images: ["/nettoyant_orange.jpg"],
-        priceIds: {
-          S: "price_1TSLu2Kn0lmTcQ11mRvFvCU7",
-          M: "price_1TSLvRKn0lmTcQ110ovh6Wgw",
-          L: "price_1TSLwpKn0lmTcQ114MQiZ8Ow",
-        },
-      },
+      { color: "#5B9BD5", label: "Blue",   images: ["/nettoyant_bleu.jpg"],   priceIds: { S: "price_1TSLe2Kn0lmTcQ11HUyJFJg2", M: "price_1TSLm2Kn0lmTcQ11I0ryLfKG", L: "price_1TSLoaKn0lmTcQ11QLJFs164" } },
+      { color: "#F4845F", label: "Orange", images: ["/nettoyant_orange.jpg"], priceIds: { S: "price_1TSLu2Kn0lmTcQ11mRvFvCU7", M: "price_1TSLvRKn0lmTcQ110ovh6Wgw", L: "price_1TSLwpKn0lmTcQ114MQiZ8Ow" } },
     ],
     sizes: ["S", "M", "L"],
   },
@@ -46,12 +123,20 @@ const PRODUCTS = [
     subtitle: "Foldable silicone bowl-lid · 580 ml",
     price: 22.90,
     badge: "New",
-    description:
-      "Travel water bottle for dogs with a foldable lid that doubles as a drinking bowl. Leak-proof, BPA-free silicone, 580 ml. Perfect for hikes, walks & road trips.",
+    description: "Travel water bottle for dogs with a foldable lid that doubles as a drinking bowl. Leak-proof, BPA-free silicone, 580 ml. Perfect for hikes, walks & road trips.",
+    details: `
+✔ Foldable lid doubles as bowl
+✔ Leak-proof design
+✔ BPA-free silicone
+✔ 580 ml capacity
+✔ Available in Green, Orange & Grey
+
+Perfect for outdoor adventures.
+`,
     variants: [
-      { color: "#7DB87D", label: "Green",  images: ["/sac_vert.jpg"],    priceId: "price_1TSM4mKn0lmTcQ11yMEtLXIz" },
-      { color: "#F4845F", label: "Orange", images: ["/sac_orange.jpg"],  priceId: "price_1TSM5qKn0lmTcQ11zG9ePOa5" },
-      { color: "#888888", label: "Grey",   images: ["/sac_gris.jpg"],    priceId: "price_1TSM7EKn0lmTcQ11aw43pEVb" },
+      { color: "#7DB87D", label: "Green",  images: ["/sac_vert.jpg"],   priceId: "price_1TSM4mKn0lmTcQ11yMEtLXIz" },
+      { color: "#F4845F", label: "Orange", images: ["/sac_orange.jpg"], priceId: "price_1TSM5qKn0lmTcQ11zG9ePOa5" },
+      { color: "#888888", label: "Grey",   images: ["/sac_gris.jpg"],   priceId: "price_1TSM7EKn0lmTcQ11aw43pEVb" },
     ],
   },
   {
@@ -64,6 +149,15 @@ const PRODUCTS = [
     priceId: "price_1TSMB9Kn0lmTcQ11az73rxbZ",
     images: ["/tapis_rafraichissant.jpg", "/tapis_rafraichissant_2.jpg"],
     description: "Self-cooling silk surface keeps your pet comfortable all summer. Waterproof & non-slip bottom. Machine washable. Perfect for dogs & cats.",
+    details: `
+✔ Self-cooling silk surface
+✔ Waterproof & non-slip bottom
+✔ Machine washable
+✔ Size: 70×55 cm
+✔ Blue colour
+
+Keeps your pet cool all summer long.
+`,
   },
   {
     id: 3,
@@ -75,7 +169,18 @@ const PRODUCTS = [
     priceId: "price_1TSMRBKn0lmTcQ117Az7zJwR",
     images: ["/peigne_brosse.jpg", "/peigne_brosse_2.jpg", "/peigne_brosse_3.jpg"],
     description: "One-click steam & water spray, electric massage, and detangling bristles all in one. USB rechargeable. Helps reduce flying hair.",
+    details: `
+✔ One-click steam spray
+✔ Electric massage function
+✔ Detangling bristles
+✔ USB rechargeable
+✔ For cats & dogs
+
+Professional grooming at home.
+`,
   },
+
+  // 🐱 PRODUITS CHATS
   {
     id: 4,
     name: "Interactive Smart Cat Ball",
@@ -86,6 +191,15 @@ const PRODUCTS = [
     priceId: "price_1TSMUsKn0lmTcQ11sXCLEtkj",
     images: ["/balle_chat.jpg", "/balle_chat2.jpg", "/balle_chat3.jpg"],
     description: "Automatic interactive ball toy for indoor cats. Features 2 speed modes, feather tail and auto shut-off. Keeps cats active and entertained.",
+    details: `
+✔ 2 speed modes (Normal & Smart)
+✔ Feather tail attachment
+✔ Auto shut-off after 5 min
+✔ USB rechargeable
+✔ For small & medium cats
+
+Hours of entertainment for your cat.
+`,
   },
   {
     id: 5,
@@ -97,6 +211,15 @@ const PRODUCTS = [
     priceId: "price_1TSMYPKn0lmTcQ11bejbHtc0",
     images: ["/griffoir_chat.jpg", "/griffoir_chat2.jpg", "/griffoir_chat3.jpg"],
     description: "Premium L-shaped cat scratcher made from high-density corrugated cardboard. Perfect for stretching, scratching and protecting your furniture.",
+    details: `
+✔ 48 cm tall L-shape design
+✔ High-density corrugated cardboard
+✔ Includes ball toy
+✔ Breathable & abrasion-resistant
+✔ Protects your furniture
+
+The perfect scratching solution.
+`,
   },
   {
     id: 6,
@@ -108,6 +231,15 @@ const PRODUCTS = [
     priceId: "price_1TSMbNKn0lmTcQ11ADoo7Dqy",
     images: ["/plume_chat.jpg", "/plume_chat2.jpg", "/plume_chat3.jpg"],
     description: "12-piece interactive feather toy set for cats & kittens. Includes retractable wands and colourful feather attachments for daily play.",
+    details: `
+✔ 2 retractable wands (extends to 96 cm)
+✔ 10 colourful feather attachments
+✔ Non-toxic dyes
+✔ For cats & kittens
+✔ Easy to store
+
+Daily playtime made fun & easy.
+`,
   },
   {
     id: 7,
@@ -119,6 +251,15 @@ const PRODUCTS = [
     priceId: "price_1TSMeWKn0lmTcQ11TOytJsNX",
     images: ["/tunnel_chat.jpg", "/tunnel_chat2.jpg", "/tunnel_chat3.jpg"],
     description: "Collapsible cat tunnel made from durable faux-linen fabric. Includes a hanging pompom ball inside. Ideal for hiding, chasing and exploring.",
+    details: `
+✔ 30 cm diameter · 70 cm long
+✔ Durable faux-linen fabric
+✔ Hanging pompom ball inside
+✔ Collapsible & easy to store
+✔ Durable material
+
+Cats never get bored.
+`,
   },
 ];
 
@@ -187,9 +328,9 @@ const PAGES = {
         2. We'll send you return instructions within 24 hours.<br />
         3. Once we receive your item in its original condition, we'll process your refund within 3–5 business days.</p>
         <h3>Conditions</h3>
-        <p>Items must be returned in their original, unused condition and packaging. We do not accept returns for items that have been damaged through misuse.</p>
+        <p>Items must be returned in their original, unused condition and packaging.</p>
         <h3>Refunds</h3>
-        <p>Refunds are processed to your original payment method. You'll receive a confirmation email once your refund has been issued.</p>
+        <p>Refunds are processed to your original payment method within 3–5 business days.</p>
         <h3>Questions?</h3>
         <p>📧 contact@fluffhaven.shop</p>
       </>
@@ -200,7 +341,6 @@ const PAGES = {
 function PageModal({ page, onClose }) {
   const data = PAGES[page];
   if (!data) return null;
-
   return (
     <div className="page-modal-overlay" onClick={onClose}>
       <div className="page-modal" onClick={(e) => e.stopPropagation()}>
@@ -219,9 +359,9 @@ function PageModal({ page, onClose }) {
 }
 
 // ─────────────────────────────────────────────────────────────
-// PRODUCT CARD
+// PRODUCT CARD — sans modale dedans
 // ─────────────────────────────────────────────────────────────
-function ProductCard({ product, onAddToCart }) {
+function ProductCard({ product, onAddToCart, onShowDetails }) {
   const hasVariants = Boolean(product.variants);
   const [activeVariant, setActiveVariant] = useState(0);
   const [currentImg, setCurrentImg] = useState(0);
@@ -262,9 +402,19 @@ function ProductCard({ product, onAddToCart }) {
     });
   }
 
+  // Construit l'objet produit enrichi pour la modale
+  function handleShowDetails() {
+    onShowDetails({
+      ...product,
+      currentImage: images ? images[currentImg] : null,
+      onAddToCart: handleAddToCart,
+    });
+  }
+
   return (
     <div className="product">
       {product.badge && <span className="product-badge">{product.badge}</span>}
+      <span className="product-stock">Only a few left</span>
 
       <div className="product-img-zone">
         <div className="product-img-wrap">
@@ -286,14 +436,29 @@ function ProductCard({ product, onAddToCart }) {
         </div>
 
         {hasMultipleImages && !hasVariants && (
-          <div className="product-thumbs">
-            {images.map((src, i) => (
-              <button key={i} className={`product-thumb${i === currentImg ? " active" : ""}`} onClick={() => setCurrentImg(i)} aria-label={`Photo ${i + 1}`}>
-                <img src={src} alt={`${product.name} ${i + 1}`} />
-              </button>
-            ))}
-          </div>
-        )}
+  <>
+    {/* Flèches navigation — visibles uniquement sur mobile */}
+    <button
+      className="img-arrow img-arrow-left"
+      onClick={() => setCurrentImg((prev) => (prev === 0 ? images.length - 1 : prev - 1))}
+      aria-label="Photo précédente"
+    >‹</button>
+    <button
+      className="img-arrow img-arrow-right"
+      onClick={() => setCurrentImg((prev) => (prev === images.length - 1 ? 0 : prev + 1))}
+      aria-label="Photo suivante"
+    >›</button>
+
+    {/* Dots — cachés sur mobile, visibles sur PC */}
+    <div className="product-thumbs product-thumbs-desktop">
+      {images.map((src, i) => (
+        <button key={i} className={`product-thumb${i === currentImg ? " active" : ""}`} onClick={() => setCurrentImg(i)} aria-label={`Photo ${i + 1}`}>
+          <img src={src} alt={`${product.name} ${i + 1}`} />
+        </button>
+      ))}
+    </div>
+  </>
+)}
       </div>
 
       <div className="product-body">
@@ -328,9 +493,15 @@ function ProductCard({ product, onAddToCart }) {
         </div>
 
         <div className="delivery-badge">🚚 Free delivery · 5–8 business days</div>
+
         <div className="product-footer">
           <span className="product-price">{eur(product.price)}</span>
-          <button onClick={handleAddToCart}>Add to Cart</button>
+          <div className="product-btns">
+            {product.details && (
+              <button className="view-details-btn" onClick={handleShowDetails}>View details</button>
+            )}
+            <button onClick={handleAddToCart}>Add to Cart</button>
+          </div>
         </div>
       </div>
     </div>
@@ -341,7 +512,6 @@ function ProductCard({ product, onAddToCart }) {
 // APP
 // ─────────────────────────────────────────────────────────────
 export default function App() {
-  // ── FIX COOKIES : on lit localStorage au démarrage ──
   const [showCookies, setShowCookies] = useState(
     () => localStorage.getItem("fh_cookies_accepted") !== "true"
   );
@@ -350,60 +520,55 @@ export default function App() {
   const [showBackTop, setShowBackTop] = useState(false);
   const [activeTab, setActiveTab] = useState("all");
   const [checkoutStatus, setCheckoutStatus] = useState(null);
-  const [activePage, setActivePage] = useState(null); // "privacy" | "terms" | "returns"
+  const [activePage, setActivePage] = useState(null);
+  const [activeProduct, setActiveProduct] = useState(null); // ← modale details
 
-  // ── FIX COOKIES : on sauvegarde dans localStorage ──
+  // ── Bloque le scroll quand une modale est ouverte ──
+  useEffect(() => {
+    const isOpen = !!activeProduct || !!activePage || openCart;
+    if (isOpen) {
+      document.body.style.overflow = "hidden";
+      document.body.style.paddingRight = "15px";
+    } else {
+      document.body.style.overflow = "";
+      document.body.style.paddingRight = "";
+    }
+    return () => {
+      document.body.style.overflow = "";
+      document.body.style.paddingRight = "";
+    };
+  }, [activeProduct, activePage, openCart]);
+
   function acceptCookies() {
     localStorage.setItem("fh_cookies_accepted", "true");
     setShowCookies(false);
   }
 
   function declineCookies() {
-    localStorage.setItem("fh_cookies_accepted", "true"); // on cache la bannière dans les deux cas
+    localStorage.setItem("fh_cookies_accepted", "true");
     setShowCookies(false);
   }
 
   useEffect(() => {
-  const KEY = "fh_visit_tracked";
+    const KEY = "fh_visit_tracked";
+    if (sessionStorage.getItem(KEY)) return;
+    fetch("/.netlify/functions/stats", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ type: "visit", country: "auto" }),
+    }).then(() => sessionStorage.setItem(KEY, "true")).catch(() => {});
+  }, []);
 
-  if (sessionStorage.getItem(KEY)) return;
-
-  fetch("/.netlify/functions/stats", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({
-      type: "visit",
-      country: "auto", // ← ton backend peut gérer ça
-    }),
-  })
-    .then(() => {
-      sessionStorage.setItem(KEY, "true");
-    })
-    .catch(() => {
-      console.log("Tracking error");
-    });
-}, []);
-
-  // ── FIX CHECKOUT STATUS : auto-dismiss après 6 secondes ──
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
     const checkout = params.get("checkout");
     if (checkout === "success" || checkout === "cancel") {
       setCheckoutStatus(checkout);
-      if (checkout === "success") {
-      if (!sessionStorage.getItem("fh_payment_tracked")) {
-        fetch("/.netlify/functions/stats", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ type: "payment" }),
-        });
-
+      if (checkout === "success" && !sessionStorage.getItem("fh_payment_tracked")) {
+        fetch("/.netlify/functions/stats", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ type: "payment" }) });
         sessionStorage.setItem("fh_payment_tracked", "true");
       }
-    }
-      // Nettoie l'URL immédiatement
       window.history.replaceState({}, "", window.location.pathname);
-      // ── FIX : auto-dismiss après 6 secondes ──
       const timer = setTimeout(() => setCheckoutStatus(null), 6000);
       return () => clearTimeout(timer);
     }
@@ -416,39 +581,20 @@ export default function App() {
   }, []);
 
   async function handleCheckout() {
-  // track click
-  fetch("/.netlify/functions/stats", {
-    method: "POST",
-    body: JSON.stringify({ type: "click" }),
-  });
-
-  try {
-    const response = await fetch("/.netlify/functions/create-checkout-session", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        items: cart.map((item) => ({
-          priceId: item.priceId,
-          quantity: item.quantity || 1,
-        })),
-      }),
-    });
-
-    // track stripe arrive
-    fetch("/.netlify/functions/stats", {
-      method: "POST",
-      body: JSON.stringify({ type: "stripe" }),
-    });
-
-    const data = await response.json();
-
-    if (data.url) {
-      window.location.href = data.url;
+    fetch("/.netlify/functions/stats", { method: "POST", body: JSON.stringify({ type: "click" }) });
+    try {
+      const response = await fetch("/.netlify/functions/create-checkout-session", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ items: cart.map((item) => ({ priceId: item.priceId, quantity: item.quantity || 1 })) }),
+      });
+      fetch("/.netlify/functions/stats", { method: "POST", body: JSON.stringify({ type: "stripe" }) });
+      const data = await response.json();
+      if (data.url) window.location.href = data.url;
+    } catch (error) {
+      alert("Error");
     }
-  } catch (error) {
-    alert("Error");
   }
-}
 
   const scrollTo = (id) => document.querySelector(id)?.scrollIntoView({ behavior: "smooth" });
   const addToCart = (item) => { setCart((prev) => [...prev, item]); setOpenCart(true); };
@@ -456,15 +602,12 @@ export default function App() {
   const total = cart.reduce((acc, item) => acc + item.price, 0);
 
   const path = window.location.pathname;
-
-  if (path === "/blog/clean-dog-paws") {
-    return <CleanDogPaws />;
-  }
+  if (path === "/blog/clean-dog-paws") return <CleanDogPaws />;
 
   return (
     <div className="site">
 
-      {/* ── CHECKOUT BANNERS ── */}
+      {/* CHECKOUT BANNERS */}
       {checkoutStatus === "success" && (
         <div className="checkout-banner success">
           <strong>🎉 Thank you for your order!</strong>
@@ -534,20 +677,18 @@ export default function App() {
         <div className="trust-item"><div className="trust-icon">↩️</div><div><strong>Easy Returns</strong><span>14-day no-questions guarantee</span></div></div>
       </section>
 
-     {/* SHOP */}
+      {/* SHOP */}
       <section id="shop" className="section">
         <div className="section-label">Our Collection</div>
         <h2>Best Sellers</h2>
-
         <div className="shop-tabs">
           <button className={activeTab === "all" ? "tab active" : "tab"} onClick={() => setActiveTab("all")}>🐾 All</button>
           <button className={activeTab === "dog" ? "tab active" : "tab"} onClick={() => setActiveTab("dog")}>🐶 Dogs</button>
           <button className={activeTab === "cat" ? "tab active" : "tab"} onClick={() => setActiveTab("cat")}>🐱 Cats</button>
         </div>
-
         <div className="products">
           {PRODUCTS.filter(p => activeTab === "all" || p.category === activeTab).map((p) => (
-            <ProductCard key={p.id} product={p} onAddToCart={addToCart} />
+            <ProductCard key={p.id} product={p} onAddToCart={addToCart} onShowDetails={setActiveProduct} />
           ))}
         </div>
       </section>
@@ -581,14 +722,15 @@ export default function App() {
         <h2>What pet parents say</h2>
         <div className="reviews">
           {[
-            { name: "Emma R.",   pet: "Golden Retriever owner", text: "The paw cleaner is genuinely incredible. My dog used to leave muddy prints everywhere — now it takes 10 seconds after every walk."},
-            { name: "Lucas M.", pet: "Cat & dog dad",           text: "Fast shipping, premium packaging, and the products actually last. I've ordered three times now and every time it's been perfect."},
+            { name: "Emma R.",   pet: "Golden Retriever owner", text: "The paw cleaner is genuinely incredible. My dog used to leave muddy prints everywhere — now it takes 10 seconds after every walk." },
+            { name: "Lucas M.", pet: "Cat & dog dad",           text: "Fast shipping, premium packaging, and the products actually last. I've ordered three times now and every time it's been perfect." },
             { name: "Sophie L.", pet: "Labrador owner",         text: "The Premium Cooling Mat is perfect for hot days! My dog loves it and uses it all the time. It cools instantly and feels really high quality. Super easy to clean too. Highly recommend!" },
           ].map((r) => (
             <div key={r.name} className="review">
-              <div className="review-top"><div className="review-avatar-initials">
-                {r.name.split(" ").map(n => n[0]).join("")}
-              </div><div><h4>{r.name}</h4><span className="review-pet">{r.pet}</span></div></div>
+              <div className="review-top">
+                <div className="review-avatar-initials">{r.name.split(" ").map(n => n[0]).join("")}</div>
+                <div><h4>{r.name}</h4><span className="review-pet">{r.pet}</span></div>
+              </div>
               <div className="stars">★★★★★</div>
               <p>"{r.text}"</p>
             </div>
@@ -636,10 +778,7 @@ export default function App() {
           <span onClick={() => scrollTo("#about")}>About Us</span>
           <span onClick={() => scrollTo("#reviews")}>Reviews</span>
           <span onClick={() => scrollTo("#faq")}>FAQ</span>
-          <span onClick={() => (window.location.href = "/blog/clean-dog-paws")}>
-            Blog
-          </span>
-          {/* ── PAGES LÉGALES — ouvrent une modale ── */}
+          <span onClick={() => (window.location.href = "/blog/clean-dog-paws")}>Blog</span>
           <span onClick={() => setActivePage("privacy")}>Privacy Policy</span>
           <span onClick={() => setActivePage("terms")}>Terms of Service</span>
           <span onClick={() => setActivePage("returns")}>Returns</span>
@@ -718,6 +857,33 @@ export default function App() {
         </div>
       )}
 
+      {/* MODALE DETAILS PRODUIT — au niveau App, pas dans la carte */}
+      {activeProduct && (
+        <div className="details-overlay" onClick={() => setActiveProduct(null)}>
+          <div className="details-modal" onClick={(e) => e.stopPropagation()}>
+            <button className="details-close" onClick={() => setActiveProduct(null)}>×</button>
+            {activeProduct.currentImage && (
+              <div className="details-image-wrap">
+                <img src={activeProduct.currentImage} alt={activeProduct.name} />
+              </div>
+            )}
+            <h3>{activeProduct.name}</h3>
+            <p className="details-subtitle">{activeProduct.subtitle}</p>
+            <div className="details-text">
+              {activeProduct.details?.split("\n").filter(Boolean).map((line, i) => (
+                <p key={i}>{line}</p>
+              ))}
+            </div>
+            <button className="details-add-btn" onClick={() => {
+              activeProduct.onAddToCart();
+              setActiveProduct(null);
+            }}>
+              Add to Cart · {eur(activeProduct.price)}
+            </button>
+          </div>
+        </div>
+      )}
+
       {/* MODAL PAGES LÉGALES */}
       {activePage && <PageModal page={activePage} onClose={() => setActivePage(null)} />}
 
@@ -726,7 +892,7 @@ export default function App() {
         <button className="back-top" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })} aria-label="Back to top">↑</button>
       )}
 
-      {/* COOKIES — FIX : sauvegardé dans localStorage */}
+      {/* COOKIES */}
       {showCookies && (
         <div className="cookie">
           <p>🍪 We use cookies to improve your shopping experience.</p>
