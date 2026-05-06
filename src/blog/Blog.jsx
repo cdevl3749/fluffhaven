@@ -27,6 +27,15 @@ export default function Blog() {
         "Simple ways to keep your car seats cleaner after walks, trips and muddy adventures.",
       url: "/blog/protect-car-from-dog-hair",
     },
+    {
+      title: "Best dog accessories for summer walks",
+      category: "Summer dog guide",
+      date: "May 2026",
+      read: "5 min read",
+      description:
+        "Simple accessories to keep dogs comfortable, hydrated and cleaner during summer walks.",
+      url: "/blog/best-dog-accessories-summer-walks",
+    },
   ];
 
   return (
