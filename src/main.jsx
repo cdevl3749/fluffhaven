@@ -9,6 +9,7 @@ import Dashboard from './Dashboard.jsx'
 import Blog from './blog/Blog.jsx'
 import CleanDogPaws from './blog/clean-dog-paws.jsx'
 import RemovePetHair from './blog/remove-pet-hair.jsx'
+import ProtectCarFromDogHair from './blog/protect-car-from-dog-hair.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -21,6 +22,8 @@ createRoot(document.getElementById('root')).render(
         <CleanDogPaws />
       ) : window.location.pathname === "/blog/remove-pet-hair" ? (
         <RemovePetHair />
+      ) : window.location.pathname === "/blog/protect-car-from-dog-hair" ? (
+        <ProtectCarFromDogHair />
       ) : (
         <App />
       )

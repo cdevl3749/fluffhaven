@@ -18,6 +18,15 @@ export default function Blog() {
         "Easy tips to reduce dog and cat hair on clothes, sofas and floors.",
       url: "/blog/remove-pet-hair",
     },
+    {
+      title: "How to protect your car from dog hair and mud",
+      category: "Travel & car guide",
+      date: "May 2026",
+      read: "4 min read",
+      description:
+        "Simple ways to keep your car seats cleaner after walks, trips and muddy adventures.",
+      url: "/blog/protect-car-from-dog-hair",
+    },
   ];
 
   return (
@@ -138,16 +147,19 @@ export default function Blog() {
               >
                 {article.category}
               </p>
-                <h2
+
+              <h2
                 style={{
-                    fontSize: "clamp(24px, 3vw, 34px)",
-                    lineHeight: "1.2",
-                    margin: "0 0 12px",
-                    fontWeight: "600",
-                    color: "#3a302b",
-                    letterSpacing: "-0.02em",
+                  fontSize: "clamp(24px, 3vw, 34px)",
+                  lineHeight: "1.2",
+                  margin: "0 0 12px",
+                  fontWeight: "600",
+                  color: "#3a302b",
+                  letterSpacing: "-0.02em",
                 }}
-                ></h2>
+              >
+                {article.title}
+              </h2>
 
               <p
                 style={{
