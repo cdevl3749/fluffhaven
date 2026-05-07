@@ -682,6 +682,19 @@ export default function App() {
           <button className={activeTab === "dog" ? "tab active" : "tab"} onClick={() => setActiveTab("dog")}>🐶 Dogs</button>
           <button className={activeTab === "cat" ? "tab active" : "tab"} onClick={() => setActiveTab("cat")}>🐱 Cats</button>
         </div>
+
+        {/* BANNER — No account needed */}
+        {(activeTab === "all" || activeTab === "dog" || activeTab === "cat") && (
+          <div className="no-account-banner">
+            <span className="no-account-icon">🛍️</span>
+            <div className="no-account-text">
+              <strong>No account needed to order</strong>
+              <span>Just add to cart and checkout in seconds — it's that simple.</span>
+            </div>
+            <span className="no-account-check">✓ Instant checkout</span>
+          </div>
+        )}
+
         <div className="products">
           {PRODUCTS.filter(p => activeTab === "all" || p.category === activeTab).map((p) => (
             <ProductCard key={p.id} product={p} onAddToCart={addToCart} onShowDetails={setActiveProduct} />
