@@ -11,6 +11,8 @@ import CleanDogPaws from './blog/clean-dog-paws.jsx'
 import RemovePetHair from './blog/remove-pet-hair.jsx'
 import ProtectCarFromDogHair from './blog/protect-car-from-dog-hair.jsx'
 import BestDogAccessoriesSummerWalks from './blog/best-dog-accessories-summer-walks.jsx'
+import KeepDogCoolSummer from './blog/keep-dog-cool-summer.jsx'
+import KeepCatEntertainedIndoors from './blog/keep-cat-entertained-indoors.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -27,6 +29,10 @@ createRoot(document.getElementById('root')).render(
         <ProtectCarFromDogHair />
       ) : window.location.pathname === "/blog/best-dog-accessories-summer-walks" ? (
         <BestDogAccessoriesSummerWalks />
+      ) : window.location.pathname === "/blog/keep-dog-cool-summer" ? (
+        <KeepDogCoolSummer />
+      ) : window.location.pathname === "/blog/keep-cat-entertained-indoors" ? (
+        <KeepCatEntertainedIndoors />
       ) : (
         <App />
       )
