@@ -54,6 +54,24 @@ export default function Blog() {
         "Simple ways to keep indoor cats active, curious and less destructive at home.",
       url: "/blog/keep-cat-entertained-indoors",
     },
+    {
+      title: "Why does my cat scratch the sofa?",
+      category: "Cat behavior guide",
+      date: "May 2026",
+      read: "4 min read",
+      description:
+        "Understand why cats scratch sofas and simple ways to protect furniture while keeping cats happy indoors.",
+      url: "/blog/cat-scratch-sofa",
+    },
+    {
+      title: "Why does my cat wake me up at night?",
+      category: "Cat behavior guide",
+      date: "May 2026",
+      read: "4 min read",
+      description:
+        "Simple reasons why cats become active at night and easy ways to improve sleep for both cats and owners.",
+      url: "/blog/cat-wake-up-night",
+    },
   ];
 
   const scroll = (direction) => {

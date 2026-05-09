@@ -14,6 +14,9 @@ import BestDogAccessoriesSummerWalks from './blog/best-dog-accessories-summer-wa
 import KeepDogCoolSummer from './blog/keep-dog-cool-summer.jsx'
 import KeepCatEntertainedIndoors from './blog/keep-cat-entertained-indoors.jsx'
 
+import CatScratchSofa from './blog/cat-scratch-sofa.jsx'
+import CatWakeUpNight from './blog/cat-wake-up-night.jsx'
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {
@@ -33,6 +36,10 @@ createRoot(document.getElementById('root')).render(
         <KeepDogCoolSummer />
       ) : window.location.pathname === "/blog/keep-cat-entertained-indoors" ? (
         <KeepCatEntertainedIndoors />
+      ) : window.location.pathname === "/blog/cat-scratch-sofa" ? (
+        <CatScratchSofa />
+      ) : window.location.pathname === "/blog/cat-wake-up-night" ? (
+        <CatWakeUpNight />
       ) : (
         <App />
       )
