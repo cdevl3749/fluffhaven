@@ -72,6 +72,15 @@ export default function Blog() {
         "Simple reasons why cats become active at night and easy ways to improve sleep for both cats and owners.",
       url: "/blog/cat-wake-up-night",
     },
+    {
+      title: "Why does my cat meow at night?",
+      category: "Cat behavior guide",
+      date: "May 2026",
+      read: "4 min read",
+      description:
+        "Simple reasons why cats meow at night and easy ways to create calmer nights at home.",
+      url: "/blog/cat-meow-night",
+    },
   ];
 
   const scroll = (direction) => {

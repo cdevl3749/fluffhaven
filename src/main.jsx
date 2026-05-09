@@ -17,6 +17,8 @@ import KeepCatEntertainedIndoors from './blog/keep-cat-entertained-indoors.jsx'
 import CatScratchSofa from './blog/cat-scratch-sofa.jsx'
 import CatWakeUpNight from './blog/cat-wake-up-night.jsx'
 
+import CatMeowNight from './blog/cat-meow-night.jsx'
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {
@@ -40,6 +42,8 @@ createRoot(document.getElementById('root')).render(
         <CatScratchSofa />
       ) : window.location.pathname === "/blog/cat-wake-up-night" ? (
         <CatWakeUpNight />
+      ) : window.location.pathname === "/blog/cat-meow-night" ? (
+        <CatMeowNight />
       ) : (
         <App />
       )

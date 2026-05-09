@@ -4,7 +4,7 @@
   <!-- Homepage -->
   <url>
     <loc>https://fluffhaven.shop/</loc>
-    <lastmod>2026-05-08</lastmod>
+    <lastmod>2026-05-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -12,7 +12,7 @@
   <!-- Blog Hub -->
   <url>
     <loc>https://fluffhaven.shop/blog</loc>
-    <lastmod>2026-05-08</lastmod>
+    <lastmod>2026-05-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -76,6 +76,14 @@
   <!-- Article 8 -->
   <url>
     <loc>https://fluffhaven.shop/blog/cat-wake-up-night</loc>
+    <lastmod>2026-05-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Article 9 -->
+  <url>
+    <loc>https://fluffhaven.shop/blog/cat-meow-night</loc>
     <lastmod>2026-05-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
