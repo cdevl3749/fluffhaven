@@ -12,6 +12,16 @@ export default function KeepCatEntertainedIndoors() {
           <h1 style={title}>How to keep your cat entertained indoors</h1>
 
           <p style={meta}>Published: May 2026 · 4 min read</p>
+          <p
+          style={{
+            fontSize: '14px',
+            color: '#b46b7f',
+            marginTop: '8px',
+            fontWeight: '500'
+          }}
+        >
+          ❤️ 203 readers found this helpful
+        </p>
         </div>
 
         <div style={content}>

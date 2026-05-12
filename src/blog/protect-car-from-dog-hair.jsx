@@ -66,6 +66,16 @@ export default function ProtectCarFromDogHair() {
           <p style={{ color: "#7b6f6a", fontSize: "18px", margin: 0 }}>
             Published: May 2026 · 4 min read
           </p>
+          <p
+            style={{
+              fontSize: '14px',
+              color: '#b46b7f',
+              marginTop: '8px',
+              fontWeight: '500'
+            }}
+          >
+            ❤️ 365 readers found this helpful
+          </p>
         </div>
 
         <div style={{ padding: "42px 36px", color: "#1f1a17" }}>

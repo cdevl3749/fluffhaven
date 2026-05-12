@@ -12,6 +12,16 @@ export default function CatWakeUpNight() {
           <h1 style={title}>Why does my cat wake me up at night?</h1>
 
           <p style={meta}>Published: May 2026 · 4 min read</p>
+          <p
+            style={{
+              fontSize: '14px',
+              color: '#b46b7f',
+              marginTop: '8px',
+              fontWeight: '500'
+            }}
+          >
+            ❤️ 451 readers found this helpful
+          </p>
         </div>
 
         <div style={content}>
