@@ -4,7 +4,7 @@
   <!-- Homepage -->
   <url>
     <loc>https://fluffhaven.shop/</loc>
-    <lastmod>2026-05-09</lastmod>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -12,7 +12,7 @@
   <!-- Blog Hub -->
   <url>
     <loc>https://fluffhaven.shop/blog</loc>
-    <lastmod>2026-05-09</lastmod>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -85,6 +85,38 @@
   <url>
     <loc>https://fluffhaven.shop/blog/cat-meow-night</loc>
     <lastmod>2026-05-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Article 10 -->
+  <url>
+    <loc>https://fluffhaven.shop/blog/dog-smell-rainy-walk</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Article 11 -->
+  <url>
+    <loc>https://fluffhaven.shop/blog/dog-hair-car-seats</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Article 12 -->
+  <url>
+    <loc>https://fluffhaven.shop/blog/cat-bored-at-home</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Article 13 -->
+  <url>
+    <loc>https://fluffhaven.shop/blog/stop-cat-scratching-furniture</loc>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

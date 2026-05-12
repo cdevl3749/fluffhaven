@@ -179,7 +179,212 @@ Professional grooming at home.
 `,
   },
 
+    {
+  id: 12,
+  name: "Pet Hair Remover Glove",
+  category: "dog",
+  subtitle: "Reusable · electrostatic · easy cleaning",
+  price: 29.90,
+  badge: "🔥 Trending",
+  description: "Remove pet hair instantly from sofas, clothes, carpets and car seats. Reusable, washable and easy to use every day.",
+  details: `
+✔ Electrostatic hair removal
+✔ Reusable & washable
+✔ Works on clothes, sofas & carpets
+✔ Comfortable five-finger design
+✔ Perfect for dogs & cats
+
+A simple and effective way to keep your home clean.
+`,
+  variants: [
+    {
+      color: "#F4841F",
+      label: "Orange",
+      images: [
+        "/gant_anti_poils.jpg",
+        "/gant_anti_poils2.jpg",
+        "/gan_anti_poils3.jpg"
+      ],
+      priceId: "price_1TVz1LKn0lmTcQ11NQbngAuG"
+    },
+
+    {
+      color: "#5DA9E9",
+      label: "Blue",
+      images: [
+        "/gant_anti_poils4.jpg"
+      ],
+      priceId: "price_1TVz4qKn0lmTcQ11kjiQ0Lvl"
+    },
+  ],
+},
+
+{
+  id: 13,
+  name: "Slow Feeder Dog Bowl",
+  category: "dog",
+  subtitle: "Medium · anti-choking · slow eating",
+  price: 24.90,
+  badge: "⭐ Smart Choice",
+
+  description:
+    "Help your dog eat slower and reduce gulping. A practical slow feeder bowl designed for calmer, healthier mealtimes.",
+
+  details: `
+✔ Helps slow down fast eating
+✔ Anti-choking raised maze design
+✔ Medium size for daily meals
+✔ Easy to clean
+✔ Available in multiple colours
+
+A simple way to make mealtime calmer and safer.
+`,
+
+  variants: [
+    {
+      color: "#111111",
+      label: "Black",
+      images: [
+        "/Gamelle_chien.jpg",
+        "/gamelle_chien2.jpg",
+        "/gamelle_chien3.jpg"
+      ],
+      priceId: "price_1TVzfwKn0lmTcQ11Ew4219Uv"
+    },
+
+    {
+      color: "#2F8DBD",
+      label: "Blue",
+      images: [
+        "/gamelle_chien_bleu.jpg"
+      ],
+      priceId: "price_1TVzjFKn0lmTcQ11e622lV9l"
+    },
+
+    {
+      color: "#B7B7B7",
+      label: "Grey",
+      images: [
+        "/gamelle_chien_gris.jpg"
+      ],
+      priceId: "price_1TVzltKn0lmTcQ11vsj1zYeh"
+    },
+
+    {
+      color: "#F8B6B6",
+      label: "Light Pink",
+      images: [
+        "/gamelle_chien_rose.jpg"
+      ],
+      priceId: "price_1TVzo4Kn0lmTcQ11xs2ZMQ0f"
+    },
+
+    {
+      color: "#E91E8F",
+      label: "Pink",
+      images: [
+        "/gamelle_chien_magenta.jpg"
+      ],
+      priceId: "price_1TVzqLKn0lmTcQ11i49w7tcj"
+    }
+  ]
+},
+
+{
+  id: 15,
+  name: "Calming Donut Cat Bed",
+  category: "cat",
+  subtitle: "Ultra soft · calming · cozy nest",
+  price: 37.90,
+  badge: "☁️ Cozy",
+  priceId: "price_1TW1lQKn0lmTcQ11P0uq4z9U",
+  images: [
+    "/lit_rond_chat.jpg",
+    "/lit_rond_chat2.jpg",
+    "/lit_rond_chat3.jpg"
+  ],
+  description: "A soft and cozy donut bed designed to help your cat feel safe, warm and relaxed during naps.",
+  details: `
+✔ Ultra soft plush fabric
+✔ Calming donut shape
+✔ Raised rim for head and neck support
+✔ Non-slip bottom
+✔ Easy to clean and maintain
+✔ Perfect for cats who love curling up
+
+A warm and comfortable sleeping spot for everyday rest.
+`,
+},
   // 🐱 PRODUITS CHATS
+
+  {
+  id: 14,
+  name: "Cat Water Fountain",
+  category: "cat",
+  subtitle: "2L · quiet pump · filtered water",
+  price: 49.90,
+  badge: "💧 Premium",
+  priceId: "price_1TW0Q9Kn0lmTcQ11iSwrx9Z7",
+  images: [
+    "/fontaine_chat.jpg",
+    "/fontaine_chat3.jpg",
+    "/fontaine_chat4.jpg"
+  ],
+  description: "Encourage your cat to drink more with a quiet 2L water fountain that keeps water fresh, moving and filtered.",
+  details: `
+✔ 2L water capacity
+✔ Quiet pump for daily use
+✔ Flowing water encourages drinking
+✔ Built-in filtration system
+✔ BPA-free design
+
+A simple way to keep your cat hydrated every day.
+`,
+},
+
+{
+  id: 16,
+  name: "Cat Window Hammock",
+  category: "cat",
+  subtitle: "Window perch · soft plush · strong suction cups",
+  price: 54.90,
+  badge: "🪟 Cozy",
+  variants: [
+    {
+      color: "#F2E8DC",
+      label: "Ivory",
+      images: [
+        "/hamac_chat_couleur_ivoir.jpg",
+        "/hamac_chat2.jpg",
+        "/hamac_chat3.jpg"
+      ],
+      priceId: "price_1TW0kwKn0lmTcQ113dEfbnNA"
+    },
+
+    {
+      color: "#8A8A8A",
+      label: "Grey",
+      images: [
+        "/hamac_chat_couleur_gris.jpg",
+        "/hamac_chat2.jpg",
+        "/hamac_chat3.jpg"
+      ],
+      priceId: "price_1TW0n7Kn0lmTcQ111zYwBsMH"
+    }
+  ],
+
+  description: "A soft and elevated window hammock that gives your cat the perfect sunny spot to relax, nap and watch the world outside.",
+
+  details: `
+✔ Strong suction cup support
+✔ Soft plush removable cover
+✔ Machine washable fabric
+✔ Stable steel frame
+✔ Comfortable elevated resting spot
+
+Perfect for indoor cats who love sunlight, window views and cozy naps.
+`,
+},
   {
     id: 4,
     name: "Interactive Smart Cat Ball",
@@ -434,7 +639,7 @@ function ProductCard({ product, onAddToCart, onShowDetails }) {
           )}
         </div>
 
-        {hasMultipleImages && !hasVariants && (
+        {hasMultipleImages && (
   <>
     {/* Flèches navigation — visibles uniquement sur mobile */}
     <button
@@ -450,7 +655,7 @@ function ProductCard({ product, onAddToCart, onShowDetails }) {
 
     {/* Dots — cachés sur mobile, visibles sur PC */}
     <div className="product-thumbs product-thumbs-desktop">
-      {images.map((src, i) => (
+      {[...new Set(images)].map((src, i) => (
         <button key={i} className={`product-thumb${i === currentImg ? " active" : ""}`} onClick={() => setCurrentImg(i)} aria-label={`Photo ${i + 1}`}>
           <img src={src} alt={`${product.name} ${i + 1}`} />
         </button>
@@ -719,7 +924,7 @@ export default function App() {
           <div className="about-visual">
             <div className="about-card"><div className="about-stat">100+</div><div className="about-stat-label">Happy Pet Parents</div></div>
             <div className="about-card"><div className="about-stat">4.9★</div><div className="about-stat-label">Average Rating</div></div>
-            <div className="about-card"><div className="about-stat">12+</div><div className="about-stat-label">Products Curated</div></div>
+            <div className="about-card"><div className="about-stat">18+</div><div className="about-stat-label">Products Curated</div></div>
             <div className="about-card"><div className="about-stat">14</div><div className="about-stat-label">Day Return Policy</div></div>
           </div>
         </div>

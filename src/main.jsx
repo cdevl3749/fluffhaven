@@ -19,6 +19,12 @@ import CatWakeUpNight from './blog/cat-wake-up-night.jsx'
 
 import CatMeowNight from './blog/cat-meow-night.jsx'
 
+import DogSmellRainyWalk from './blog/dog-smell-rainy-walk.jsx'
+import DogHairCarSeats from './blog/dog-hair-car-seats.jsx'
+
+import CatBoredAtHome from './blog/cat-bored-at-home.jsx'
+import StopCatScratchingFurniture from './blog/stop-cat-scratching-furniture.jsx'
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {
@@ -44,6 +50,14 @@ createRoot(document.getElementById('root')).render(
         <CatWakeUpNight />
       ) : window.location.pathname === "/blog/cat-meow-night" ? (
         <CatMeowNight />
+      ) : window.location.pathname === "/blog/dog-smell-rainy-walk" ? (
+        <DogSmellRainyWalk />
+      ) : window.location.pathname === "/blog/dog-hair-car-seats" ? (
+        <DogHairCarSeats />
+      ) : window.location.pathname === "/blog/cat-bored-at-home" ? (
+        <CatBoredAtHome />
+      ) : window.location.pathname === "/blog/stop-cat-scratching-furniture" ? (
+        <StopCatScratchingFurniture />
       ) : (
         <App />
       )

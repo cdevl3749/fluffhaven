@@ -81,6 +81,42 @@ export default function Blog() {
         "Simple reasons why cats meow at night and easy ways to create calmer nights at home.",
       url: "/blog/cat-meow-night",
     },
+    {
+      title: "How to Remove Wet Dog Smell After Rainy Walks",
+      category: "Dog care guide",
+      date: "May 2026",
+      read: "4 min read",
+      description:
+        "Simple ways to remove wet dog smell after rainy walks and keep your home fresh and clean.",
+      url: "/blog/dog-smell-rainy-walk",
+    },
+    {
+      title: "How to Keep Dog Hair Off Car Seats",
+      category: "Dog care guide",
+      date: "May 2026",
+      read: "4 min read",
+      description:
+        "Simple ways to protect your car seats from dog hair, dirt and everyday mess after trips.",
+      url: "/blog/dog-hair-car-seats",
+    },
+    {
+      title: "Signs Your Indoor Cat Is Bored",
+      category: "Cat behavior guide",
+      date: "May 2026",
+      read: "4 min read",
+      description:
+        "Simple signs that your indoor cat may be bored and easy ways to keep them active at home.",
+      url: "/blog/cat-bored-at-home",
+    },
+    {
+      title: "How to Stop Cats Scratching Furniture",
+      category: "Cat behavior guide",
+      date: "May 2026",
+      read: "4 min read",
+      description:
+        "Simple ways to protect your sofa and redirect your cat’s scratching habits at home.",
+      url: "/blog/stop-cat-scratching-furniture",
+    },
   ];
 
   const scroll = (direction) => {
