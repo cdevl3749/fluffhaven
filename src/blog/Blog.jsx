@@ -114,7 +114,7 @@ export default function Blog() {
       date: "May 2026",
       read: "4 min read",
       description:
-        "Simple ways to protect your sofa and redirect your cat’s scratching habits at home.",
+        "Simple ways to protect your sofa and redirect your cat's scratching habits at home.",
       url: "/blog/stop-cat-scratching-furniture",
     },
     {
@@ -130,10 +130,9 @@ export default function Blog() {
 
   const scroll = (direction) => {
     const container = document.getElementById("blog-slider");
-
     if (container) {
       container.scrollBy({
-        left: direction === "left" ? -380 : 380,
+        left: direction === "left" ? -340 : 340,
         behavior: "smooth",
       });
     }
@@ -146,6 +145,7 @@ export default function Blog() {
         minHeight: "100vh",
         padding: "50px 18px",
         fontFamily: "inherit",
+        boxSizing: "border-box",
       }}
     >
       <section
@@ -158,9 +158,10 @@ export default function Blog() {
           boxShadow: "0 18px 50px rgba(0,0,0,0.08)",
         }}
       >
+        {/* HEADER */}
         <div
           style={{
-            padding: "48px 36px 34px",
+            padding: "48px 24px 34px",
             background: "linear-gradient(135deg, #fff7f8, #ffffff)",
             textAlign: "center",
             borderBottom: "1px solid #f0e6e6",
@@ -195,7 +196,7 @@ export default function Blog() {
           <h1
             style={{
               color: "#15110f",
-              fontSize: "clamp(34px, 5vw, 56px)",
+              fontSize: "clamp(28px, 5vw, 56px)",
               lineHeight: "1.05",
               margin: "0 0 16px",
             }}
@@ -208,51 +209,48 @@ export default function Blog() {
           </p>
         </div>
 
+        {/* SLIDER HEADER */}
         <div
           style={{
             display: "flex",
             justifyContent: "space-between",
             alignItems: "center",
-            padding: "26px 32px 0",
+            padding: "26px 24px 0",
           }}
         >
           <h2
             style={{
               margin: 0,
-              fontSize: "28px",
+              fontSize: "clamp(20px, 4vw, 28px)",
               color: "#221b18",
             }}
           >
             Latest articles
           </h2>
-
           <div style={{ display: "flex", gap: "12px" }}>
-            <button
-              onClick={() => scroll("left")}
-              style={arrowButton}
-            >
-              ←
-            </button>
-
-            <button
-              onClick={() => scroll("right")}
-              style={arrowButton}
-            >
-              →
-            </button>
+            <button onClick={() => scroll("left")} style={arrowButton}>←</button>
+            <button onClick={() => scroll("right")} style={arrowButton}>→</button>
           </div>
         </div>
 
+        {/* SLIDER avec scroll-snap */}
         <div
           id="blog-slider"
+          ref={(el) => { if (el) el.scrollLeft = 0; }}
           style={{
             display: "flex",
-            gap: "22px",
+            gap: "16px",
             overflowX: "auto",
-            padding: "30px 32px 44px",
+            overflowY: "visible",
+            padding: "24px 20px 40px",
             scrollBehavior: "smooth",
             scrollbarWidth: "none",
             msOverflowStyle: "none",
+            WebkitOverflowScrolling: "touch",
+            boxSizing: "border-box",
+            width: "100%",
+            /* SCROLL SNAP — force l'arrêt sur chaque carte */
+            scrollSnapType: "x mandatory",
           }}
         >
           {articles.map((article) => (
@@ -260,29 +258,31 @@ export default function Blog() {
               key={article.url}
               href={article.url}
               onMouseEnter={(e) => {
-                e.currentTarget.style.transform =
-                  "translateY(-6px)";
+                e.currentTarget.style.transform = "translateY(-6px)";
                 e.currentTarget.style.boxShadow =
                   "0 20px 40px rgba(0,0,0,0.08)";
               }}
               onMouseLeave={(e) => {
-                e.currentTarget.style.transform =
-                  "translateY(0)";
+                e.currentTarget.style.transform = "translateY(0)";
                 e.currentTarget.style.boxShadow =
                   "0 8px 24px rgba(0,0,0,0.04)";
               }}
               style={{
-                minWidth: "320px",
-                maxWidth: "320px",
+                /* Largeur = écran - padding gauche/droite - un peu pour voir la suivante */
+                flex: "0 0 calc(100vw - 120px)",
+                width: "calc(100vw - 120px)",
+                maxWidth: "320px", /* limite sur desktop */
                 background: "#fff",
-                borderRadius: "24px",
-                padding: "28px",
+                borderRadius: "20px",
+                padding: "22px",
                 textDecoration: "none",
                 color: "#15110f",
                 border: "1px solid #f2e7e7",
-                transition: "all 0.25s ease",
+                transition: "transform 0.25s ease, box-shadow 0.25s ease",
                 boxShadow: "0 8px 24px rgba(0,0,0,0.04)",
-                flexShrink: 0,
+                boxSizing: "border-box",
+                /* SCROLL SNAP — chaque carte s'aligne au début */
+                scrollSnapAlign: "start",
               }}
             >
               <p
@@ -291,8 +291,8 @@ export default function Blog() {
                   fontWeight: "800",
                   letterSpacing: "0.14em",
                   textTransform: "uppercase",
-                  fontSize: "12px",
-                  marginBottom: "12px",
+                  fontSize: "11px",
+                  margin: "0 0 10px",
                 }}
               >
                 {article.category}
@@ -300,11 +300,11 @@ export default function Blog() {
 
               <h2
                 style={{
-                  fontSize: "38px",
-                  lineHeight: "1.08",
-                  marginBottom: "14px",
+                  fontSize: "18px",
+                  lineHeight: "1.25",
+                  margin: "0 0 12px",
                   color: "#2a211d",
-                  letterSpacing: "-0.03em",
+                  letterSpacing: "-0.01em",
                 }}
               >
                 {article.title}
@@ -313,8 +313,8 @@ export default function Blog() {
               <p
                 style={{
                   color: "#85756f",
-                  fontSize: "15px",
-                  marginBottom: "18px",
+                  fontSize: "13px",
+                  margin: "0 0 14px",
                 }}
               >
                 {article.date} · {article.read}
@@ -322,8 +322,8 @@ export default function Blog() {
 
               <p
                 style={{
-                  fontSize: "18px",
-                  lineHeight: "1.65",
+                  fontSize: "14px",
+                  lineHeight: "1.6",
                   color: "#3d3531",
                   margin: 0,
                 }}
