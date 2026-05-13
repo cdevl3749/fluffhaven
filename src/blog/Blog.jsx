@@ -117,6 +117,15 @@ export default function Blog() {
         "Simple ways to protect your sofa and redirect your cat’s scratching habits at home.",
       url: "/blog/stop-cat-scratching-furniture",
     },
+    {
+      title: "How to Stop Dog Hair From Taking Over Your Home",
+      category: "Dog care guide",
+      date: "May 2026",
+      read: "5 min read",
+      description:
+        "Simple ways to reduce dog hair indoors and keep your home cleaner every day.",
+      url: "/blog/dog-hair-home",
+    },
   ];
 
   const scroll = (direction) => {

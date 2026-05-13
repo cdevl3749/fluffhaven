@@ -465,6 +465,95 @@ Daily playtime made fun & easy.
 Cats never get bored.
 `,
   },
+  {
+  id: 17,
+  name: "Interactive Cat Puzzle Feeder",
+  category: "cat",
+  subtitle: "Mental stimulation · slow feeding · boredom relief",
+  price: 34.90,
+  badge: "🧠 Smart Play",
+  priceId: "price_1TWh3AKn0lmTcQ11myH6JngD",
+
+  images: [
+    "/puzzle_chat.jpg",
+    "/puzzle_chat2.jpg",
+    "/puzzle_chat3.jpg"
+  ],
+
+  description:
+    "Interactive puzzle feeder designed to mentally stimulate indoor cats while slowing down eating and reducing boredom.",
+
+  details: `
+✔ Encourages mental stimulation
+✔ Helps reduce boredom & stress
+✔ Slow feeding design
+✔ Multiple hidden treat compartments
+✔ Interactive daily enrichment
+✔ Durable BPA-free material
+
+Perfect for indoor cats who need more stimulation, play and enrichment during the day.
+`,
+},
+{
+  id: 18,
+  name: "Cozy Cat Cave Bed",
+  category: "cat",
+  subtitle: "Soft faux-linen · cozy hideaway · removable cushion",
+  price: 49.90,
+  badge: "☁️ Cozy",
+
+  priceId: "price_1TWhvuKn0lmTcQ11dz0kPJGn",
+
+  images: [
+    "/niche_chat.jpg",
+    "/niche_chat2.jpg",
+    "/niche_chat3.jpg"
+  ],
+
+  description:
+    "A soft and cozy cat cave bed designed to create a warm, safe and calming space for indoor cats.",
+
+  details: `
+✔ Soft faux-linen fabric
+✔ Warm & comfortable cushion
+✔ Cozy enclosed hideaway design
+✔ Foldable & easy to store
+✔ Non-slip bottom
+✔ Perfect for indoor cats
+
+A calming resting space where your cat can sleep, hide and relax comfortably every day.
+`,
+},
+{
+  id: 19,
+  name: "Cat Self Grooming Brush",
+  category: "cat",
+  subtitle: "Wall mounted · soft bristles · stress relief",
+  price: 24.90,
+  badge: "✨ Relaxing",
+
+  priceId: "price_1TWiqjKn0lmTcQ11HLRMP1LK",
+
+  images: [
+    "/brush_chat.jpg",
+    "/brush_chat2.jpg",
+    "/brush_chat3.jpg"
+  ],
+
+  description:
+    "A wall-mounted self grooming brush designed to help indoor cats scratch, rub and relax whenever they want.",
+
+  details: `
+✔ Soft silicone bristles
+✔ Wall-mounted corner design
+✔ Helps remove loose hair
+✔ Encourages natural rubbing behaviour
+✔ Easy to clean
+✔ Perfect for indoor cats
+
+A simple daily grooming and relaxation spot your cat can enjoy on its own.
+`,
+},
 ];
 
 // ─────────────────────────────────────────────────────────────
@@ -924,7 +1013,7 @@ export default function App() {
           <div className="about-visual">
             <div className="about-card"><div className="about-stat">100+</div><div className="about-stat-label">Happy Pet Parents</div></div>
             <div className="about-card"><div className="about-stat">4.9★</div><div className="about-stat-label">Average Rating</div></div>
-            <div className="about-card"><div className="about-stat">18+</div><div className="about-stat-label">Products Curated</div></div>
+            <div className="about-card"><div className="about-stat">20+</div><div className="about-stat-label">Products Curated</div></div>
             <div className="about-card"><div className="about-stat">14</div><div className="about-stat-label">Day Return Policy</div></div>
           </div>
         </div>

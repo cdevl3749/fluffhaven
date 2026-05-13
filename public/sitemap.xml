@@ -121,4 +121,12 @@
     <priority>0.8</priority>
   </url>
 
+  <!-- Article 14 -->
+  <url>
+  <loc>https://fluffhaven.shop/blog/dog-hair-home</loc>
+  <lastmod>2026-05-13</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+  </url>
+
 </urlset>
