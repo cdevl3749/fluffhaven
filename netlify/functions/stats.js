@@ -9,26 +9,45 @@ const HEADERS = {
 };
 
 async function redis(cmd) {
-  const res = await fetch(`${REDIS_URL}/${cmd.map(encodeURIComponent).join("/")}`, {
-    headers: { Authorization: `Bearer ${REDIS_TOKEN}` },
-  });
+  const res = await fetch(
+    `${REDIS_URL}/${cmd.map(encodeURIComponent).join("/")}`,
+    {
+      headers: {
+        Authorization: `Bearer ${REDIS_TOKEN}`,
+      },
+    }
+  );
+
   const json = await res.json();
   return json.result;
 }
 
 export async function handler(event) {
+  // OPTIONS
   if (event.httpMethod === "OPTIONS") {
-    return { statusCode: 200, headers: HEADERS, body: "" };
+    return {
+      statusCode: 200,
+      headers: HEADERS,
+      body: "",
+    };
   }
 
+  // GET STATS
   if (event.httpMethod === "GET") {
-    const [visitors, clicks, stripe, payments, countriesRaw] = await Promise.all([
+    const [
+      visitors,
+      clicks,
+      stripe,
+      payments,
+      countriesRaw,
+    ] = await Promise.all([
       redis(["GET", "visitors"]),
       redis(["GET", "clicks"]),
       redis(["GET", "stripe"]),
       redis(["GET", "payments"]),
       redis(["GET", "countries"]),
     ]);
+
     return {
       statusCode: 200,
       headers: HEADERS,
@@ -42,43 +61,71 @@ export async function handler(event) {
     };
   }
 
+  // POST EVENTS
   if (event.httpMethod === "POST") {
     let data = {};
-    try { data = JSON.parse(event.body || "{}"); } catch {}
 
+    try {
+      data = JSON.parse(event.body || "{}");
+    } catch {}
+
+    // VISIT
     if (data.type === "visit") {
       await redis(["INCR", "visitors"]);
 
-      // Géolocalisation par IP
+      // Pays détecté automatiquement par Netlify
       let country = "Unknown";
+
       try {
-        const ip =
-          event.headers["x-nf-client-connection-ip"] ||
-          event.headers["x-forwarded-for"]?.split(",")[0]?.trim();
-        if (ip && ip !== "127.0.0.1") {
-          const geo = await fetch(`http://ip-api.com/json/${ip}?fields=country`);
-          const geoJson = await geo.json();
-          country = geoJson.country || "Unknown";
-        }
+        country =
+          event.headers["x-country"] ||
+          event.headers["cf-ipcountry"] ||
+          "Unknown";
       } catch {}
 
+      console.log("VISIT FROM:", country);
+
+      // Lecture pays existants
       const countriesRaw = await redis(["GET", "countries"]);
+
       const countries = JSON.parse(countriesRaw || "{}");
+
+      // Incrémentation pays
       countries[country] = (countries[country] || 0) + 1;
-      await redis(["SET", "countries", JSON.stringify(countries)]);
+
+      // Sauvegarde Redis
+      await redis([
+        "SET",
+        "countries",
+        JSON.stringify(countries),
+      ]);
     }
 
-    if (data.type === "click")   await redis(["INCR", "clicks"]);
-    if (data.type === "stripe")  await redis(["INCR", "stripe"]);
-    if (data.type === "payment") await redis(["INCR", "payments"]);
+    // CLICK
+    if (data.type === "click") {
+      await redis(["INCR", "clicks"]);
+    }
+
+    // STRIPE PAGE
+    if (data.type === "stripe") {
+      await redis(["INCR", "stripe"]);
+    }
+
+    // PAYMENT SUCCESS
+    if (data.type === "payment") {
+      await redis(["INCR", "payments"]);
+    }
 
     return {
       statusCode: 200,
       headers: HEADERS,
-      body: JSON.stringify({ success: true }),
+      body: JSON.stringify({
+        success: true,
+      }),
     };
   }
 
+  // RESET
   if (event.httpMethod === "DELETE") {
     await Promise.all([
       redis(["SET", "visitors", "0"]),
@@ -87,16 +134,22 @@ export async function handler(event) {
       redis(["SET", "payments", "0"]),
       redis(["SET", "countries", "{}"]),
     ]);
+
     return {
       statusCode: 200,
       headers: HEADERS,
-      body: JSON.stringify({ reset: true }),
+      body: JSON.stringify({
+        reset: true,
+      }),
     };
   }
 
+  // METHOD NOT ALLOWED
   return {
     statusCode: 405,
     headers: HEADERS,
-    body: JSON.stringify({ error: "Method not allowed" }),
+    body: JSON.stringify({
+      error: "Method not allowed",
+    }),
   };
 }
