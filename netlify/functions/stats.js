@@ -9,20 +9,36 @@ const HEADERS = {
 };
 
 async function redis(cmd) {
-  const res = await fetch(
-    `${REDIS_URL}/${cmd.map(encodeURIComponent).join("/")}`,
-    {
-      headers: {
-        Authorization: `Bearer ${REDIS_TOKEN}`,
-      },
-    }
-  );
+
+  if (!REDIS_URL || !REDIS_TOKEN) {
+    throw new Error("Missing Redis ENV variables");
+  }
+
+  const url = `${REDIS_URL}/${cmd.map(encodeURIComponent).join("/")}`;
+
+  const res = await fetch(url, {
+    headers: {
+      Authorization: `Bearer ${REDIS_TOKEN}`,
+    },
+  });
+
+  if (!res.ok) {
+    const text = await res.text();
+    throw new Error(`Redis HTTP ${res.status}: ${text}`);
+  }
 
   const json = await res.json();
+
+  if (json.error) {
+    throw new Error(json.error);
+  }
+
   return json.result;
 }
 
 export async function handler(event) {
+
+  console.log("METHOD:", event.httpMethod);
 
   // OPTIONS
   if (event.httpMethod === "OPTIONS") {
@@ -33,69 +49,82 @@ export async function handler(event) {
     };
   }
 
-  // GET STATS
+  // GET
   if (event.httpMethod === "GET") {
 
-    const [
-      visitors,
-      clicks,
-      stripe,
-      payments,
-      countriesRaw,
-    ] = await Promise.all([
-      redis(["GET", "visitors"]),
-      redis(["GET", "clicks"]),
-      redis(["GET", "stripe"]),
-      redis(["GET", "payments"]),
-      redis(["GET", "countries"]),
-    ]);
+    try {
 
-    return {
-      statusCode: 200,
-      headers: HEADERS,
-      body: JSON.stringify({
-        visitors: parseInt(visitors) || 0,
-        clicks: parseInt(clicks) || 0,
-        stripe: parseInt(stripe) || 0,
-        payments: parseInt(payments) || 0,
-        countries: JSON.parse(countriesRaw || "{}"),
-      }),
-    };
+      const [
+        visitors,
+        clicks,
+        stripe,
+        payments,
+        countriesRaw,
+      ] = await Promise.all([
+        redis(["GET", "visitors"]),
+        redis(["GET", "clicks"]),
+        redis(["GET", "stripe"]),
+        redis(["GET", "payments"]),
+        redis(["GET", "countries"]),
+      ]);
+
+      return {
+        statusCode: 200,
+        headers: HEADERS,
+        body: JSON.stringify({
+          visitors: parseInt(visitors || "0"),
+          clicks: parseInt(clicks || "0"),
+          stripe: parseInt(stripe || "0"),
+          payments: parseInt(payments || "0"),
+          countries: JSON.parse(countriesRaw || "{}"),
+        }),
+      };
+
+    } catch (err) {
+
+      console.log("GET ERROR:", err);
+
+      return {
+        statusCode: 500,
+        headers: HEADERS,
+        body: JSON.stringify({
+          error: err.message,
+        }),
+      };
+    }
   }
 
-  // POST EVENTS
+  // POST
   if (event.httpMethod === "POST") {
 
     let data = {};
 
     try {
       data = JSON.parse(event.body || "{}");
-    } catch {}
+    } catch (err) {
+      console.log("JSON PARSE ERROR:", err);
+    }
 
-    // VISIT
-    if (data.type === "visit") {
+    console.log("POST DATA:", data);
 
-      try {
+    try {
 
-        // Incrémente visiteurs
+      // VISIT
+      if (data.type === "visit") {
+
         await redis(["INCR", "visitors"]);
 
-        // Détection pays Netlify
-        let country = "Unknown";
+        const headers = event.headers || {};
 
-        try {
-          country =
-            event.headers["x-country"] ||
-            event.headers["cf-ipcountry"] ||
-            event.headers["x-vercel-ip-country"] ||
-            "Unknown";
-        } catch (e) {
-          console.log("Country detect error:", e);
-        }
+        const country =
+          headers["x-country"] ||
+          headers["cf-ipcountry"] ||
+          headers["x-vercel-ip-country"] ||
+          headers["client-country"] ||
+          "Unknown";
 
-        console.log("VISIT FROM:", country);
+        console.log("VISITOR COUNTRY:", country);
 
-        // Récupère pays existants
         const countriesRaw = await redis(["GET", "countries"]);
 
         let countries = {};
@@ -106,78 +135,87 @@ export async function handler(event) {
           countries = {};
         }
 
-        // Incrémente pays
         countries[country] = (countries[country] || 0) + 1;
 
-        // Sauvegarde
         await redis([
           "SET",
           "countries",
           JSON.stringify(countries),
         ]);
-
-      } catch (err) {
-        console.log("VISIT ERROR:", err);
       }
-    }
 
-    // CLICK
-    if (data.type === "click") {
-      try {
+      // CLICK
+      if (data.type === "click") {
         await redis(["INCR", "clicks"]);
-      } catch (err) {
-        console.log("CLICK ERROR:", err);
       }
-    }
 
-    // STRIPE
-    if (data.type === "stripe") {
-      try {
+      // STRIPE
+      if (data.type === "stripe") {
         await redis(["INCR", "stripe"]);
-      } catch (err) {
-        console.log("STRIPE ERROR:", err);
       }
-    }
 
-    // PAYMENT
-    if (data.type === "payment") {
-      try {
+      // PAYMENT
+      if (data.type === "payment") {
         await redis(["INCR", "payments"]);
-      } catch (err) {
-        console.log("PAYMENT ERROR:", err);
       }
-    }
 
-    return {
-      statusCode: 200,
-      headers: HEADERS,
-      body: JSON.stringify({
-        success: true,
-      }),
-    };
+      return {
+        statusCode: 200,
+        headers: HEADERS,
+        body: JSON.stringify({
+          success: true,
+        }),
+      };
+
+    } catch (err) {
+
+      console.log("POST ERROR:", err);
+
+      return {
+        statusCode: 500,
+        headers: HEADERS,
+        body: JSON.stringify({
+          error: err.message,
+        }),
+      };
+    }
   }
 
   // RESET
   if (event.httpMethod === "DELETE") {
 
-    await Promise.all([
-      redis(["SET", "visitors", "0"]),
-      redis(["SET", "clicks", "0"]),
-      redis(["SET", "stripe", "0"]),
-      redis(["SET", "payments", "0"]),
-      redis(["SET", "countries", "{}"]),
-    ]);
+    try {
 
-    return {
-      statusCode: 200,
-      headers: HEADERS,
-      body: JSON.stringify({
-        reset: true,
-      }),
-    };
+      await Promise.all([
+        redis(["SET", "visitors", "0"]),
+        redis(["SET", "clicks", "0"]),
+        redis(["SET", "stripe", "0"]),
+        redis(["SET", "payments", "0"]),
+        redis(["SET", "countries", "{}"]),
+      ]);
+
+      return {
+        statusCode: 200,
+        headers: HEADERS,
+        body: JSON.stringify({
+          reset: true,
+        }),
+      };
+
+    } catch (err) {
+
+      console.log("RESET ERROR:", err);
+
+      return {
+        statusCode: 500,
+        headers: HEADERS,
+        body: JSON.stringify({
+          error: err.message,
+        }),
+      };
+    }
   }
 
-  // METHOD NOT ALLOWED
   return {
     statusCode: 405,
     headers: HEADERS,
