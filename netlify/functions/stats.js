@@ -1,3 +1,4 @@
+```js
 const REDIS_URL = process.env.UPSTASH_REDIS_REST_URL;
 const REDIS_TOKEN = process.env.UPSTASH_REDIS_REST_TOKEN;
 
@@ -23,6 +24,7 @@ async function redis(cmd) {
 }
 
 export async function handler(event) {
+
   // OPTIONS
   if (event.httpMethod === "OPTIONS") {
     return {
@@ -34,6 +36,7 @@ export async function handler(event) {
 
   // GET STATS
   if (event.httpMethod === "GET") {
+
     const [
       visitors,
       clicks,
@@ -63,6 +66,7 @@ export async function handler(event) {
 
   // POST EVENTS
   if (event.httpMethod === "POST") {
+
     let data = {};
 
     try {
@@ -71,49 +75,78 @@ export async function handler(event) {
 
     // VISIT
     if (data.type === "visit") {
-      await redis(["INCR", "visitors"]);
-
-      // Pays détecté automatiquement par Netlify
-      let country = "Unknown";
 
       try {
-        country =
-          event.headers["x-country"] ||
-          event.headers["cf-ipcountry"] ||
-          "Unknown";
-      } catch {}
 
-      console.log("VISIT FROM:", country);
+        // Incrémente visiteurs
+        await redis(["INCR", "visitors"]);
 
-      // Lecture pays existants
-      const countriesRaw = await redis(["GET", "countries"]);
+        // Détection pays Netlify
+        let country = "Unknown";
 
-      const countries = JSON.parse(countriesRaw || "{}");
+        try {
+          country =
+            event.headers["x-country"] ||
+            event.headers["cf-ipcountry"] ||
+            event.headers["x-vercel-ip-country"] ||
+            "Unknown";
+        } catch (e) {
+          console.log("Country detect error:", e);
+        }
 
-      // Incrémentation pays
-      countries[country] = (countries[country] || 0) + 1;
+        console.log("VISIT FROM:", country);
 
-      // Sauvegarde Redis
-      await redis([
-        "SET",
-        "countries",
-        JSON.stringify(countries),
-      ]);
+        // Récupère pays existants
+        const countriesRaw = await redis(["GET", "countries"]);
+
+        let countries = {};
+
+        try {
+          countries = JSON.parse(countriesRaw || "{}");
+        } catch {
+          countries = {};
+        }
+
+        // Incrémente pays
+        countries[country] = (countries[country] || 0) + 1;
+
+        // Sauvegarde
+        await redis([
+          "SET",
+          "countries",
+          JSON.stringify(countries),
+        ]);
+
+      } catch (err) {
+        console.log("VISIT ERROR:", err);
+      }
     }
 
     // CLICK
     if (data.type === "click") {
-      await redis(["INCR", "clicks"]);
+      try {
+        await redis(["INCR", "clicks"]);
+      } catch (err) {
+        console.log("CLICK ERROR:", err);
+      }
     }
 
-    // STRIPE PAGE
+    // STRIPE
     if (data.type === "stripe") {
-      await redis(["INCR", "stripe"]);
+      try {
+        await redis(["INCR", "stripe"]);
+      } catch (err) {
+        console.log("STRIPE ERROR:", err);
+      }
     }
 
-    // PAYMENT SUCCESS
+    // PAYMENT
     if (data.type === "payment") {
-      await redis(["INCR", "payments"]);
+      try {
+        await redis(["INCR", "payments"]);
+      } catch (err) {
+        console.log("PAYMENT ERROR:", err);
+      }
     }
 
     return {
@@ -127,6 +160,7 @@ export async function handler(event) {
 
   // RESET
   if (event.httpMethod === "DELETE") {
+
     await Promise.all([
       redis(["SET", "visitors", "0"]),
       redis(["SET", "clicks", "0"]),
@@ -153,3 +187,4 @@ export async function handler(event) {
     }),
   };
 }
+```
