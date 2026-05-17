@@ -129,4 +129,20 @@
   <priority>0.80</priority>
   </url>
 
+  <!-- Article 15 -->
+  <url>
+    <loc>https://fluffhaven.shop/blog/dog-lick-paws-after-walks</loc>
+    <lastmod>2026-05-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- Article 16 -->
+  <url>
+    <loc>https://fluffhaven.shop/blog/reduce-cat-hair-furniture</loc>
+    <lastmod>2026-05-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
 </urlset>

@@ -26,6 +26,9 @@ import DogHairHome from './blog/dog-hair-home.jsx'
 import CatBoredAtHome from './blog/cat-bored-at-home.jsx'
 import StopCatScratchingFurniture from './blog/stop-cat-scratching-furniture.jsx'
 
+import DogLickPawsAfterWalks from './blog/dog-lick-paws-after-walks.jsx'
+import ReduceCatHairFurniture from './blog/reduce-cat-hair-furniture.jsx'
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {
@@ -61,6 +64,10 @@ createRoot(document.getElementById('root')).render(
         <CatBoredAtHome />
       ) : window.location.pathname === "/blog/stop-cat-scratching-furniture" ? (
         <StopCatScratchingFurniture />
+      ) : window.location.pathname === "/blog/dog-lick-paws-after-walks" ? (
+        <DogLickPawsAfterWalks />
+      ) : window.location.pathname === "/blog/reduce-cat-hair-furniture" ? (
+        <ReduceCatHairFurniture />
       ) : (
         <App />
       )

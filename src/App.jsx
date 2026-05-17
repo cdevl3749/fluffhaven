@@ -1075,6 +1075,16 @@ export default function App() {
               📧 contact@fluffhaven.shop
             </a>
           </p>
+          <p style={{ marginTop: "10px" }}>
+            <a
+              href="https://www.pinterest.com/0elvujxmqgf3b36bmj26ehuq52e7k1/"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: "rgba(255,255,255,0.6)", textDecoration: "none" }}
+            >
+              📌 Pinterest
+            </a>
+          </p>
         </div>
         <div className="footer-nav">
           <h4>Navigation</h4>

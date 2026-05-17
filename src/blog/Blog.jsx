@@ -123,6 +123,22 @@ export default function Blog() {
       description: "Simple ways to reduce dog hair indoors and keep your home cleaner every day.",
       url: "/blog/dog-hair-home",
     },
+    {
+  title: "Why Dogs Lick Their Paws After Walks",
+  category: "Dog care guide",
+  date: "May 2026",
+  read: "4 min read",
+  description: "Learn why dogs lick their paws after walks and discover simple ways to keep their paws clean and comfortable.",
+  url: "/blog/dog-lick-paws-after-walks",
+},
+{
+  title: "How To Reduce Cat Hair On Furniture",
+  category: "Cat care guide",
+  date: "May 2026",
+  read: "5 min read",
+  description: "Simple ways to reduce cat hair on sofas, beds, and furniture while keeping your home cleaner every day.",
+  url: "/blog/reduce-cat-hair-furniture",
+},
   ];
 
   const scroll = (direction) => {
