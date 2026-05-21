@@ -1,10 +1,10 @@
 import { useEffect } from "react";
 
-export default function CatScratchSofa() {
+export default function CalmAnxiousDogHome() {
 
   useEffect(() => {
     document.title =
-      "Why Does My Cat Scratch The Sofa? | FluffHaven";
+      "How To Calm An Anxious Dog At Home | FluffHaven";
   }, []);
 
   return (
@@ -15,11 +15,14 @@ export default function CatScratchSofa() {
             ← Back to Blog
           </a>
 
-          <p style={category}>Cat behavior guide</p>
+          <p style={category}>Dog care guide</p>
 
-          <h1 style={title}>Why does my cat scratch the sofa?</h1>
+          <h1 style={title}>
+            How To Calm An Anxious Dog At Home
+          </h1>
 
-          <p style={meta}>Published: May 2026 · 4 min read</p>
+          <p style={meta}>Published: May 2026 · 5 min read</p>
+
           <p
             style={{
               fontSize: '14px',
@@ -28,66 +31,67 @@ export default function CatScratchSofa() {
               fontWeight: '500'
             }}
           >
-            ❤️ 346 readers found this helpful
+            ❤️ 287 readers found this helpful
           </p>
         </div>
 
         <div style={content}>
           <p style={lead}>
-            Scratching is completely natural for cats, even when it becomes
-            frustrating for furniture owners.
+            Anxiety in dogs can appear in many different ways — barking,
+            pacing, destructive behavior or constant stress when left alone.
           </p>
 
           <p style={text}>
-            Cats scratch sofas, carpets and furniture to stretch their muscles,
-            mark territory and maintain healthy claws.
+            Creating a calm daily environment can help your dog feel safer,
+            happier and more relaxed at home.
           </p>
 
-          <h2 style={h2}>Why cats love scratching sofas</h2>
+          <h2 style={h2}>Why some dogs feel anxious</h2>
 
           <p style={text}>
-            Sofas often have textures cats enjoy digging their claws into. They
-            are also large objects placed in busy parts of the home.
+            Dogs can become anxious because of loud noises, loneliness,
+            boredom, changes in routine or lack of mental stimulation.
           </p>
 
           <p style={text}>
-            Cats naturally choose places where they spend time with their
-            owners, which is why scratching near the living room is very common.
+            Rescue dogs and highly energetic breeds may also be more sensitive
+            to stress inside the home environment.
           </p>
 
-          <h2 style={h2}>Simple ways to protect your furniture</h2>
+          <h2 style={h2}>Simple ways to calm your dog naturally</h2>
 
           <ul style={list}>
-            <li>Place a scratcher close to the sofa</li>
-            <li>Reward your cat when they use the scratcher</li>
-            <li>Try different scratching textures and shapes</li>
-            <li>Keep your cat mentally stimulated with daily play</li>
-            <li>Rotate toys regularly to reduce boredom</li>
+            <li>Create a quiet resting area for your dog</li>
+            <li>Keep a stable daily routine</li>
+            <li>Use calming walks and regular exercise</li>
+            <li>Provide mentally stimulating toys</li>
+            <li>Avoid shouting during stressful moments</li>
           </ul>
 
-          <h2 style={h2}>Avoid punishment</h2>
+          <h2 style={h2}>A peaceful home helps your dog feel secure</h2>
 
           <p style={text}>
-            Punishing a cat for scratching usually creates stress and confusion.
-            It is more effective to redirect the behaviour toward appropriate
-            scratching surfaces.
+            Small daily habits can greatly improve your dog’s emotional comfort
+            and reduce anxious behavior over time.
           </p>
 
           <p style={text}>
-            Most cats quickly learn new habits when they have attractive places
-            to scratch nearby.
+            Many pet owners also use calming accessories and interactive toys
+            to help create a more relaxing environment indoors.
           </p>
 
           <div style={cta}>
-            <h3 style={ctaTitle}>Help your cat scratch the right place</h3>
+            <h3 style={ctaTitle}>
+              Explore calming dog essentials
+            </h3>
 
             <p style={ctaText}>
-              Discover simple cat toys and scratching accessories from
+              Discover practical dog accessories and daily comfort products at
               FluffHaven.
             </p>
 
             <a href="https://fluffhaven.shop/#shop" style={ctaButton}>
-              View cat accessories →
+              View dog accessories →
             </a>
           </div>
         </div>

@@ -1,4 +1,12 @@
+import { useEffect } from "react";
+
 export default function CleanDogPaws() {
+
+  useEffect(() => {
+    document.title =
+      "How To Clean Dog Paws After A Walk | FluffHaven";
+  }, []);
+
   return (
     <main
       style={{

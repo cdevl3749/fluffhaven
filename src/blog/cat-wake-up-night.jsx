@@ -1,4 +1,12 @@
+import { useEffect } from "react";
+
 export default function CatWakeUpNight() {
+
+  useEffect(() => {
+    document.title =
+      "Why Does My Cat Wake Me Up At Night? | FluffHaven";
+  }, []);
+
   return (
     <main style={page}>
       <article style={article}>

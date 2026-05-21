@@ -1,10 +1,10 @@
 import { useEffect } from "react";
 
-export default function CatScratchSofa() {
+export default function IndoorCatMentalStimulation() {
 
   useEffect(() => {
     document.title =
-      "Why Does My Cat Scratch The Sofa? | FluffHaven";
+      "Why Indoor Cats Need More Mental Stimulation | FluffHaven";
   }, []);
 
   return (
@@ -15,11 +15,14 @@ export default function CatScratchSofa() {
             ← Back to Blog
           </a>
 
-          <p style={category}>Cat behavior guide</p>
+          <p style={category}>Cat care guide</p>
 
-          <h1 style={title}>Why does my cat scratch the sofa?</h1>
+          <h1 style={title}>
+            Why Indoor Cats Need More Mental Stimulation
+          </h1>
 
           <p style={meta}>Published: May 2026 · 4 min read</p>
+
           <p
             style={{
               fontSize: '14px',
@@ -28,61 +31,62 @@ export default function CatScratchSofa() {
               fontWeight: '500'
             }}
           >
-            ❤️ 346 readers found this helpful
+            ❤️ 264 readers found this helpful
           </p>
         </div>
 
         <div style={content}>
           <p style={lead}>
-            Scratching is completely natural for cats, even when it becomes
-            frustrating for furniture owners.
+            Indoor cats may appear calm and sleepy, but they still need daily
+            mental stimulation to stay happy and healthy.
           </p>
 
           <p style={text}>
-            Cats scratch sofas, carpets and furniture to stretch their muscles,
-            mark territory and maintain healthy claws.
+            Without enough activity and enrichment, many indoor cats can become
+            bored, stressed or develop destructive behaviors.
           </p>
 
-          <h2 style={h2}>Why cats love scratching sofas</h2>
+          <h2 style={h2}>Why mental stimulation matters for cats</h2>
 
           <p style={text}>
-            Sofas often have textures cats enjoy digging their claws into. They
-            are also large objects placed in busy parts of the home.
+            Cats naturally enjoy hunting, climbing, exploring and solving small
+            challenges throughout the day.
           </p>
 
           <p style={text}>
-            Cats naturally choose places where they spend time with their
-            owners, which is why scratching near the living room is very common.
+            Indoor environments are often safe and comfortable, but they can
+            sometimes lack enough variety for curious cats.
           </p>
 
-          <h2 style={h2}>Simple ways to protect your furniture</h2>
+          <h2 style={h2}>Easy ways to keep indoor cats entertained</h2>
 
           <ul style={list}>
-            <li>Place a scratcher close to the sofa</li>
-            <li>Reward your cat when they use the scratcher</li>
-            <li>Try different scratching textures and shapes</li>
-            <li>Keep your cat mentally stimulated with daily play</li>
-            <li>Rotate toys regularly to reduce boredom</li>
+            <li>Rotate toys regularly to keep interest high</li>
+            <li>Create vertical climbing spaces</li>
+            <li>Use interactive play sessions every day</li>
+            <li>Add scratching posts around the home</li>
+            <li>Offer puzzle toys and hide treats occasionally</li>
           </ul>
 
-          <h2 style={h2}>Avoid punishment</h2>
+          <h2 style={h2}>Small activities make a big difference</h2>
 
           <p style={text}>
-            Punishing a cat for scratching usually creates stress and confusion.
-            It is more effective to redirect the behaviour toward appropriate
-            scratching surfaces.
+            Daily stimulation can improve your cat’s mood, reduce stress and
+            encourage healthier behavior indoors.
           </p>
 
           <p style={text}>
-            Most cats quickly learn new habits when they have attractive places
-            to scratch nearby.
+            Many cat owners use tunnels, scratching accessories and interactive
+            toys to create a more enriching home environment.
           </p>
 
           <div style={cta}>
-            <h3 style={ctaTitle}>Help your cat scratch the right place</h3>
+            <h3 style={ctaTitle}>
+              Discover fun cat essentials
+            </h3>
 
             <p style={ctaText}>
-              Discover simple cat toys and scratching accessories from
+              Explore interactive cat accessories and cozy indoor essentials at
               FluffHaven.
             </p>
 

@@ -1,4 +1,12 @@
+import { useEffect } from "react";
+
 export default function DogHairCarSeats() {
+
+  useEffect(() => {
+    document.title =
+      "How To Keep Dog Hair Off Car Seats | FluffHaven";
+  }, []);
+
   return (
     <main style={page}>
       <article style={article}>

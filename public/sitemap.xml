@@ -145,4 +145,20 @@
     <priority>0.80</priority>
   </url>
 
+  <!-- Article 17 -->
+  <url>
+    <loc>https://fluffhaven.shop/blog/calm-anxious-dog-home</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- Article 18 -->
+  <url>
+    <loc>https://fluffhaven.shop/blog/indoor-cat-mental-stimulation</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
 </urlset>

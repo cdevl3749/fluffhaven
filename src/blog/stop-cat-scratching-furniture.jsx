@@ -1,4 +1,12 @@
+import { useEffect } from "react";
+
 export default function StopCatScratchingFurniture() {
+
+  useEffect(() => {
+    document.title =
+      "How To Stop Cats Scratching Furniture | FluffHaven";
+  }, []);
+
   return (
     <main style={page}>
       <article style={article}>

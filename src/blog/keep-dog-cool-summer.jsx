@@ -1,4 +1,12 @@
+import { useEffect } from "react";
+
 export default function KeepDogCoolSummer() {
+
+  useEffect(() => {
+    document.title =
+      "How To Keep Your Dog Cool During Summer Walks | FluffHaven";
+  }, []);
+
   return (
     <main
       style={{

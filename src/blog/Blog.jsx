@@ -139,6 +139,22 @@ export default function Blog() {
   description: "Simple ways to reduce cat hair on sofas, beds, and furniture while keeping your home cleaner every day.",
   url: "/blog/reduce-cat-hair-furniture",
 },
+{
+  title: "How To Calm An Anxious Dog At Home",
+  category: "Dog care guide",
+  date: "May 2026",
+  read: "5 min read",
+  description: "Discover simple ways to calm an anxious dog at home and create a more peaceful daily routine for your pet.",
+  url: "/blog/calm-anxious-dog-home",
+},
+{
+  title: "Why Indoor Cats Need More Mental Stimulation",
+  category: "Cat care guide",
+  date: "May 2026",
+  read: "4 min read",
+  description: "Learn why indoor cats need daily mental stimulation and how simple activities can improve their happiness and behavior.",
+  url: "/blog/indoor-cat-mental-stimulation",
+},
   ];
 
   const scroll = (direction) => {

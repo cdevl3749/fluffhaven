@@ -1,4 +1,12 @@
+import { useEffect } from "react";
+
 export default function KeepCatEntertainedIndoors() {
+
+  useEffect(() => {
+    document.title =
+      "How To Keep Your Cat Entertained Indoors | FluffHaven";
+  }, []);
+
   return (
     <main style={page}>
       <article style={article}>

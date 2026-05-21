@@ -1,4 +1,12 @@
+import { useEffect } from "react";
+
 export default function DogHairHome() {
+
+  useEffect(() => {
+    document.title =
+      "How To Stop Dog Hair From Taking Over Your Home | FluffHaven";
+  }, []);
+
   return (
     <main style={page}>
       <article style={article}>

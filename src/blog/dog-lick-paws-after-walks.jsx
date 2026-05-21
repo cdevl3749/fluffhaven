@@ -1,4 +1,12 @@
+import { useEffect } from "react";
+
 export default function DogLickPawsAfterWalks() {
+
+  useEffect(() => {
+    document.title =
+      "Why Dogs Lick Their Paws After Walks | FluffHaven";
+  }, []);
+
   return (
     <main style={page}>
       <article style={article}>

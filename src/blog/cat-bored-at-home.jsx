@@ -1,4 +1,12 @@
+import { useEffect } from "react";
+
 export default function CatBoredAtHome() {
+
+  useEffect(() => {
+    document.title =
+      "Signs Your Indoor Cat Is Bored | FluffHaven";
+  }, []);
+
   return (
     <main style={page}>
       <article style={article}>

@@ -1,4 +1,12 @@
+import { useEffect } from "react";
+
 export default function RemovePetHair() {
+
+  useEffect(() => {
+    document.title =
+      "How To Remove Pet Hair From Your Home | FluffHaven";
+  }, []);
+
   return (
     <main
       style={{

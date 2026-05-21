@@ -1,4 +1,12 @@
+import { useEffect } from "react";
+
 export default function ReduceCatHairFurniture() {
+
+  useEffect(() => {
+    document.title =
+      "How To Reduce Cat Hair On Furniture | FluffHaven";
+  }, []);
+
   return (
     <main style={page}>
       <article style={article}>

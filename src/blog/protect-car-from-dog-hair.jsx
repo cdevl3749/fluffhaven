@@ -1,4 +1,12 @@
+import { useEffect } from "react";
+
 export default function ProtectCarFromDogHair() {
+
+  useEffect(() => {
+    document.title =
+      "How To Protect Your Car From Dog Hair And Mud | FluffHaven";
+  }, []);
+
   return (
     <main
       style={{

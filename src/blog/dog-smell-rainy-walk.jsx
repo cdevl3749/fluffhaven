@@ -1,4 +1,12 @@
+import { useEffect } from "react";
+
 export default function DogSmellRainyWalk() {
+
+  useEffect(() => {
+    document.title =
+      "How To Remove Wet Dog Smell After Rainy Walks | FluffHaven";
+  }, []);
+
   return (
     <main style={page}>
       <article style={article}>
