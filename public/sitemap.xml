@@ -161,4 +161,20 @@
     <priority>0.80</priority>
   </url>
 
+    <!-- Article 19 -->
+  <url>
+    <loc>https://fluffhaven.shop/blog/dog-follow-me-everywhere</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- Article 20 -->
+  <url>
+    <loc>https://fluffhaven.shop/blog/cat-hair-on-clothes</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
 </urlset>
