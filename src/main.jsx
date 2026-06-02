@@ -35,6 +35,12 @@ import IndoorCatMentalStimulation from './blog/indoor-cat-mental-stimulation.jsx
 import DogFollowMeEverywhere from './blog/dog-follow-me-everywhere.jsx'
 import CatHairOnClothes from './blog/cat-hair-on-clothes.jsx'
 
+import SignsDogTooHotSummer from './blog/signs-dog-too-hot-summer.jsx'
+import HelpDogCoolDownHome from './blog/help-dog-cool-down-home.jsx'
+
+import CatPeeingOutsideLitterBox from './blog/cat-peeing-outside-litter-box.jsx'
+import DogHairOnClothes from './blog/dog-hair-on-clothes.jsx'
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {
@@ -82,6 +88,14 @@ createRoot(document.getElementById('root')).render(
         <DogFollowMeEverywhere />
       ) : window.location.pathname === "/blog/cat-hair-on-clothes" ? (
         <CatHairOnClothes />
+      ) : window.location.pathname === "/blog/signs-dog-too-hot-summer" ? (
+        <SignsDogTooHotSummer />
+      ) : window.location.pathname === "/blog/help-dog-cool-down-home" ? (
+        <HelpDogCoolDownHome />
+      ) : window.location.pathname === "/blog/cat-peeing-outside-litter-box" ? (
+        <CatPeeingOutsideLitterBox />
+      ) : window.location.pathname === "/blog/dog-hair-on-clothes" ? (
+        <DogHairOnClothes />
       ) : (
         <App />
       )

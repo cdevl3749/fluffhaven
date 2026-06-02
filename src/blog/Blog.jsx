@@ -173,6 +173,42 @@ export default function Blog() {
       "Simple ways to reduce cat hair on clothes, laundry, blankets, and fabrics while keeping your home cleaner every day.",
     url: "/blog/cat-hair-on-clothes",
   },
+  {
+title: "Signs Your Dog Is Too Hot During Summer Walks",
+category: "Summer dog guide",
+date: "June 2026",
+read: "5 min read",
+description:
+"Learn the most common signs dogs show when they become too hot during summer walks and simple ways to keep them safer and more comfortable.",
+url: "/blog/signs-dog-too-hot-summer",
+},
+{
+title: "Best Ways To Help Dogs Cool Down At Home",
+category: "Summer dog guide",
+date: "June 2026",
+read: "5 min read",
+description:
+"Simple ways to help dogs stay cooler and more comfortable at home during hot summer days with hydration, shade, airflow and cooling solutions.",
+url: "/blog/help-dog-cool-down-home",
+},
+{
+title: "Why Is My Cat Peeing Outside The Litter Box?",
+category: "Cat behavior guide",
+date: "June 2026",
+read: "5 min read",
+description:
+"Discover common reasons cats suddenly start peeing outside the litter box and simple steps that may help solve the problem.",
+url: "/blog/cat-peeing-outside-litter-box",
+},
+{
+title: "How To Remove Dog Hair From Clothes",
+category: "Dog care guide",
+date: "June 2026",
+read: "5 min read",
+description:
+"Simple ways to remove dog hair from clothes, blankets and laundry while keeping fabrics cleaner every day.",
+url: "/blog/dog-hair-on-clothes",
+},
   ];
 
   const scroll = (direction) => {

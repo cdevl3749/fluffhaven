@@ -177,4 +177,36 @@
     <priority>0.80</priority>
   </url>
 
+  <!-- Article 21 -->
+  <url>
+    <loc>https://fluffhaven.shop/blog/signs-dog-too-hot-summer</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- Article 22 -->
+  <url>
+    <loc>https://fluffhaven.shop/blog/help-dog-cool-down-home</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- Article 23 -->
+  <url>
+    <loc>https://fluffhaven.shop/blog/cat-peeing-outside-litter-box</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- Article 24 -->
+  <url>
+    <loc>https://fluffhaven.shop/blog/dog-hair-on-clothes</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
 </urlset>
