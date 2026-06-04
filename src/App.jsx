@@ -957,6 +957,16 @@ export default function App() {
           <h1>Happy pets,<br /><em>Happy life.</em></h1>
           <p>Carefully curated essentials for dogs & cats.<br />Free shipping · Secure checkout · Easy returns.</p>
           <button className="primary-btn" onClick={() => scrollTo("#shop")}>Shop Now <span>→</span></button>
+          <div className="hero-trust-line">
+            <span>⭐ Trusted by pet owners in</span>
+            <strong>USA</strong>
+            <span>·</span>
+            <strong>Canada</strong>
+            <span>·</span>
+            <strong>UK</strong>
+            <span>·</span>
+            <strong>Germany</strong>
+          </div>
           <div className="hero-proof">
             <div className="avatars"><span>👩</span><span>👨</span><span>👩‍🦱</span></div>
             <div><strong>100+ happy pet parents</strong><div className="stars">★★★★★</div></div>
