@@ -2102,6 +2102,80 @@ body.modal-open {
   font-weight: 800;
 }
 
+.why-fluffhaven {
+  padding: 70px 20px;
+  background: #f7f1eb;
+  text-align: center;
+}
+
+.why-card {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 52px 44px;
+  background: #ffffff;
+  border: 1px solid #eee1d8;
+  border-radius: 28px;
+  box-shadow: 0 18px 45px rgba(45, 32, 25, 0.08);
+}
+
+.why-fluffhaven h2 {
+  margin: 14px 0 18px;
+  color: #17110d;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(34px, 4vw, 54px);
+  line-height: 1.05;
+}
+
+.why-fluffhaven p {
+  max-width: 760px;
+  margin: 0 auto 34px;
+  color: #5f5550;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.criteria-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  max-width: 760px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.criteria-grid div {
+  background: #fff7f4;
+  border: 1px solid #f1ddd4;
+  border-radius: 18px;
+  padding: 16px 18px;
+  font-weight: 700;
+  color: #241a16;
+}
+
+.criteria-grid div:last-child {
+  grid-column: 1 / -1;
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  .why-fluffhaven {
+    padding: 46px 16px;
+  }
+
+  .why-card {
+    padding: 34px 22px;
+    border-radius: 22px;
+  }
+
+  .criteria-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .criteria-grid div:last-child {
+    text-align: left;
+  }
+}
+
 @media (max-width: 600px) {
   .no-account-banner {
     flex-wrap: wrap;

@@ -984,6 +984,31 @@ export default function App() {
         </div>
       </section>
 
+      {/* WHY FLUFFHAVEN */}
+      <section className="why-fluffhaven">
+        <div className="why-card">
+          <div className="section-label">Why FluffHaven?</div>
+
+          <h2>Every product must earn its place.</h2>
+
+          <p>
+            We don't add products just to grow our catalog.
+            <br />
+            Every item must meet our standards before it earns a place in our store.
+          </p>
+
+          <div className="criteria-grid">
+            <div>✅ Useful in everyday life</div>
+            <div>✅ Positive customer feedback</div>
+            <div>✅ Safe for pets</div>
+            <div>✅ Easy to use</div>
+            <div>✅ Built to last</div>
+            <div>✅ Good value for money</div>
+            <div>✅ Something we'd use with our own pets</div>
+          </div>
+        </div>
+      </section>
+
       {/* TRUST BAR */}
       <section className="trust">
         <div className="trust-item"><div className="trust-icon">🚚</div><div><strong>Free Shipping</strong><span>Worldwide · 5–8 business days</span></div></div>
