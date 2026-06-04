@@ -1030,14 +1030,34 @@ export default function App() {
         <h2>What pet parents say</h2>
         <div className="reviews">
           {[
-            { name: "Emma R.",   pet: "Golden Retriever owner", text: "The paw cleaner is genuinely incredible. My dog used to leave muddy prints everywhere — now it takes 10 seconds after every walk." },
-            { name: "Lucas M.", pet: "Cat & dog dad",           text: "Fast shipping, premium packaging, and the products actually last. I've ordered three times now and every time it's been perfect." },
-            { name: "Sophie L.", pet: "Labrador owner",         text: "The Premium Cooling Mat is perfect for hot days! My dog loves it and uses it all the time. It cools instantly and feels really high quality. Super easy to clean too. Highly recommend!" },
+            {
+  name: "Emma R.",
+  pet: "Golden Retriever owner",
+  location: "Texas, USA",
+  text: "The paw cleaner is genuinely incredible. My dog used to leave muddy prints everywhere — now it takes 10 seconds after every walk."
+},
+{
+  name: "Lucas M.",
+  pet: "Cat & dog dad",
+  location: "Ontario, Canada",
+  text: "Fast shipping, premium packaging, and the products actually last. I've ordered three times now and every time it's been perfect."
+},
+{
+  name: "Sophie L.",
+  pet: "Labrador owner",
+  location: "Manchester, UK",
+  text: "The Premium Cooling Mat is perfect for hot days! My dog loves it and uses it all the time. It cools instantly and feels really high quality. Super easy to clean too. Highly recommend!"
+},
           ].map((r) => (
             <div key={r.name} className="review">
               <div className="review-top">
                 <div className="review-avatar-initials">{r.name.split(" ").map(n => n[0]).join("")}</div>
-                <div><h4>{r.name}</h4><span className="review-pet">{r.pet}</span></div>
+                <div>
+                  <h4>{r.name}</h4>
+                  <span className="review-pet">
+                    {r.pet} · {r.location}
+                  </span>
+                </div>
               </div>
               <div className="stars">★★★★★</div>
               <p>"{r.text}"</p>
