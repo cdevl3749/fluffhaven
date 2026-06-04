@@ -955,7 +955,17 @@ export default function App() {
         <div className="hero-content">
           <div className="hero-tag">🐾 Premium Pet Essentials</div>
           <h1>Happy pets,<br /><em>Happy life.</em></h1>
-          <p>Carefully curated essentials for dogs & cats.<br />Free shipping · Secure checkout · Easy returns.</p>
+          <p>
+            Carefully curated essentials for dogs & cats.
+            <br />
+            <br />
+            No endless scrolling.
+            <br />
+            No thousands of confusing choices.
+            <br />
+            <br />
+            Only products we'd confidently use with our own pets.
+          </p>
           <button className="primary-btn" onClick={() => scrollTo("#shop")}>Shop Now <span>→</span></button>
           <div className="hero-trust-line">
             <span>⭐ Trusted by pet owners in</span>
