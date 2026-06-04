@@ -563,6 +563,11 @@ function eur(price) {
   return new Intl.NumberFormat("fr-FR", { style: "currency", currency: "EUR" }).format(price);
 }
 
+function usdApprox(price) {
+  const usd = (price * 1.13).toFixed(2);
+  return `≈ $${usd} USD`;
+}
+
 // ─────────────────────────────────────────────────────────────
 // MODAL PAGES — Privacy Policy / Terms / Returns
 // ─────────────────────────────────────────────────────────────
@@ -1143,7 +1148,21 @@ export default function App() {
                       <div className="cart-item-info">
                         <strong>{item.name}</strong>
                         <span>{item.subtitle}</span>
-                        <p>{eur(item.price)}</p>
+                        <div>
+  <p style={{ margin: 0 }}>
+    {eur(item.price)}
+  </p>
+
+  <p
+    style={{
+      margin: "2px 0 0 0",
+      fontSize: "12px",
+      color: "#888"
+    }}
+  >
+    {usdApprox(item.price)}
+  </p>
+</div>
                       </div>
                       <button className="cart-item-remove" onClick={() => removeFromCart(i)} aria-label="Remove">
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -1154,7 +1173,23 @@ export default function App() {
                   ))}
                 </div>
                 <div className="cart-summary">
-                  <div className="cart-total"><span>Subtotal</span><strong>{eur(total)}</strong></div>
+                  <div className="cart-total">
+  <span>Subtotal</span>
+
+  <div style={{ textAlign: "right" }}>
+    <strong>{eur(total)}</strong>
+
+    <div
+      style={{
+        fontSize: "13px",
+        color: "#888",
+        marginTop: "2px",
+      }}
+    >
+      {usdApprox(total)}
+    </div>
+  </div>
+</div>
                   <p className="cart-free-ship">✓ Free shipping included</p>
                   <div className="cart-security">
                     <span>🔒 SSL Secure</span>
@@ -1187,12 +1222,21 @@ export default function App() {
                 <p key={i}>{line}</p>
               ))}
             </div>
-            <button className="details-add-btn" onClick={() => {
-              activeProduct.onAddToCart();
-              setActiveProduct(null);
-            }}>
-              Add to Cart · {eur(activeProduct.price)}
-            </button>
+            <div style={{ textAlign: "center", marginBottom: "14px" }}>
+  <div style={{ fontSize: "20px", fontWeight: "800" }}>
+    {eur(activeProduct.price)}
+  </div>
+  <div style={{ fontSize: "14px", color: "#7b6f6a", marginTop: "4px" }}>
+    {usdApprox(activeProduct.price)}
+  </div>
+</div>
+
+<button className="details-add-btn" onClick={() => {
+  activeProduct.onAddToCart();
+  setActiveProduct(null);
+}}>
+  Add to Cart
+</button>
           </div>
         </div>
       )}
