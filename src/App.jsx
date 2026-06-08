@@ -953,7 +953,7 @@ export default function App() {
       {/* HERO */}
       <section id="home" className="hero">
         <div className="hero-content">
-          <div className="hero-tag">🐾 Premium Pet Essentials</div>
+          <div className="hero-tag">Premium Pet Essentials</div>
           <h1>Happy pets,<br /><em>Happy life.</em></h1>
           <p>
             We don't sell thousands of products.
@@ -962,7 +962,7 @@ export default function App() {
           </p>
           <button className="primary-btn" onClick={() => scrollTo("#shop")}>Shop Now <span>→</span></button>
           <div className="hero-trust-line">
-            <span>⭐ Trusted by pet owners in</span>
+            <span>Trusted by pet owners in</span>
             <strong>USA</strong>
             <span>·</span>
             <strong>Canada</strong>
@@ -972,8 +972,10 @@ export default function App() {
             <strong>Germany</strong>
           </div>
           <div className="hero-proof">
-            <div className="avatars"><span>👩</span><span>👨</span><span>👩‍🦱</span></div>
-            <div><strong>100+ happy pet parents</strong><div className="stars">★★★★★</div></div>
+            
+            <div>
+            <strong>Carefully selected for dogs & cats</strong>
+          </div>
           </div>
         </div>
       </section>
@@ -994,14 +996,14 @@ export default function App() {
           </p>
 
           <div className="criteria-grid">
-            <div>✅ Useful in everyday life</div>
-            <div>✅ Positive customer feedback</div>
-            <div>✅ Safe for pets</div>
-            <div>✅ Easy to use</div>
-            <div>✅ Built to last</div>
-            <div>✅ Good value for money</div>
-            <div>✅ Something we'd use with our own pets</div>
-          </div>
+          <div><span className="check-icon">✓</span> Useful in everyday life</div>
+          <div><span className="check-icon">✓</span> Positive customer feedback</div>
+          <div><span className="check-icon">✓</span> Safe for pets</div>
+          <div><span className="check-icon">✓</span> Easy to use</div>
+          <div><span className="check-icon">✓</span> Built to last</div>
+          <div><span className="check-icon">✓</span> Good value for money</div>
+          <div><span className="check-icon">✓</span> Something we'd use with our own pets</div>
+        </div>
         </div>
       </section>
 

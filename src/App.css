@@ -265,10 +265,11 @@ nav span:hover::after {
 }
 
 .hero-proof {
-  margin-top: 36px;
+  margin-top: 24px;
   display: flex;
   align-items: center;
   gap: 14px;
+  color: #555;
 }
 
 .avatars {
@@ -289,9 +290,10 @@ nav span:hover::after {
 }
 
 .hero-proof strong {
-  font-size: 13px;
+  font-size: 0.95rem;
   font-weight: 600;
-  color: var(--ink);
+  color: #555;
+  opacity: 0.85;
   display: block;
 }
 
@@ -2174,6 +2176,21 @@ body.modal-open {
   .criteria-grid div:last-child {
     text-align: left;
   }
+}
+
+.check-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  margin-right: 10px;
+  border-radius: 50%;
+  background: #111;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1;
 }
 
 @media (max-width: 600px) {
