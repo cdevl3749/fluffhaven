@@ -790,7 +790,7 @@ function ProductCard({ product, onAddToCart, onShowDetails }) {
           )}
         </div>
 
-        <div className="delivery-badge">🚚 Free delivery · 5–8 business days</div>
+        <div className="delivery-badge">📦 Free delivery · 5–8 business days</div>
 
         <div className="product-footer">
           <span className="product-price">{eur(product.price)}</span>
@@ -1009,9 +1009,9 @@ export default function App() {
 
       {/* TRUST BAR */}
       <section className="trust">
-        <div className="trust-item"><div className="trust-icon">🚚</div><div><strong>Free Shipping</strong><span>Worldwide · 5–8 business days</span></div></div>
+        <div className="trust-item"><div className="trust-icon">📦</div><div><strong>Free Shipping</strong><span>Worldwide · 5–8 business days</span></div></div>
         <div className="trust-item"><div className="trust-icon">🔒</div><div><strong>Secure Payment</strong><span>SSL encrypted · Stripe</span></div></div>
-        <div className="trust-item"><div className="trust-icon">✅</div><div><strong>Premium Quality</strong><span>Vet-approved products</span></div></div>
+        <div className="trust-item"><div className="trust-icon">🛡️</div><div><strong>Premium Quality</strong><span>Vet-approved products</span></div></div>
         <div className="trust-item"><div className="trust-icon">↩️</div><div><strong>Easy Returns</strong><span>14-day no-questions guarantee</span></div></div>
       </section>
 
@@ -1020,10 +1020,27 @@ export default function App() {
         <div className="section-label">Our Collection</div>
         <h2>Best Sellers</h2>
         <div className="shop-tabs">
-          <button className={activeTab === "all" ? "tab active" : "tab"} onClick={() => setActiveTab("all")}>🐾 All</button>
-          <button className={activeTab === "dog" ? "tab active" : "tab"} onClick={() => setActiveTab("dog")}>🐶 Dogs</button>
-          <button className={activeTab === "cat" ? "tab active" : "tab"} onClick={() => setActiveTab("cat")}>🐱 Cats</button>
-        </div>
+  <button
+    className={activeTab === "all" ? "tab active" : "tab"}
+    onClick={() => setActiveTab("all")}
+  >
+    All
+  </button>
+
+  <button
+    className={activeTab === "dog" ? "tab active" : "tab"}
+    onClick={() => setActiveTab("dog")}
+  >
+    Dogs
+  </button>
+
+  <button
+    className={activeTab === "cat" ? "tab active" : "tab"}
+    onClick={() => setActiveTab("cat")}
+  >
+    Cats
+  </button>
+</div>
 
         {/* BANNER — No account needed */}
         {(activeTab === "all" || activeTab === "dog" || activeTab === "cat") && (
