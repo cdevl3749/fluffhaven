@@ -956,15 +956,9 @@ export default function App() {
           <div className="hero-tag">🐾 Premium Pet Essentials</div>
           <h1>Happy pets,<br /><em>Happy life.</em></h1>
           <p>
-            Carefully curated essentials for dogs & cats.
+            We don't sell thousands of products.
             <br />
-            <br />
-            No endless scrolling.
-            <br />
-            No thousands of confusing choices.
-            <br />
-            <br />
-            Only products we'd confidently use with our own pets.
+            We select the ones truly worth owning.
           </p>
           <button className="primary-btn" onClick={() => scrollTo("#shop")}>Shop Now <span>→</span></button>
           <div className="hero-trust-line">
@@ -989,12 +983,14 @@ export default function App() {
         <div className="why-card">
           <div className="section-label">Why FluffHaven?</div>
 
-          <h2>Every product must earn its place.</h2>
+          <h2>Not every pet product makes the cut.</h2>
 
           <p>
-            We don't add products just to grow our catalog.
+            We only keep products that meet our standards
+            for safety, usefulness and value.
             <br />
-            Every item must meet our standards before it earns a place in our store.
+            If we wouldn't use it with our own pets,
+            it doesn't make the cut.
           </p>
 
           <div className="criteria-grid">
