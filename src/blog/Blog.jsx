@@ -209,6 +209,42 @@ description:
 "Simple ways to remove dog hair from clothes, blankets and laundry while keeping fabrics cleaner every day.",
 url: "/blog/dog-hair-on-clothes",
 },
+{
+  title: "Why Does My Dog Eat Grass?",
+  category: "Dog behavior guide",
+  date: "June 2026",
+  read: "5 min read",
+  description:
+    "Learn why dogs eat grass, whether it's normal behavior, and when it may be a sign that your dog needs veterinary attention.",
+  url: "/blog/why-dog-eat-grass",
+},
+{
+  title: "Why Is My Dog Barking At Night?",
+  category: "Dog behavior guide",
+  date: "June 2026",
+  read: "5 min read",
+  description:
+    "Discover common reasons dogs bark at night and practical ways to help your dog stay calm and sleep better.",
+  url: "/blog/dog-barking-at-night",
+},
+{
+  title: "Why Does My Cat Knock Things Off Tables?",
+  category: "Cat behavior guide",
+  date: "June 2026",
+  read: "5 min read",
+  description:
+    "Learn why cats love knocking objects off tables, shelves and counters, and what this behavior may be telling you.",
+  url: "/blog/cat-knock-things-off-table",
+},
+{
+  title: "Why Is My Cat Following Me Everywhere?",
+  category: "Cat behavior guide",
+  date: "June 2026",
+  read: "5 min read",
+  description:
+    "Discover why some cats follow their owners everywhere and what this behavior says about your cat's personality and needs.",
+  url: "/blog/cat-follow-me-everywhere",
+},
   ];
 
   const scroll = (direction) => {

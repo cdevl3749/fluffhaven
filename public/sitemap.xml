@@ -209,4 +209,36 @@
     <priority>0.80</priority>
   </url>
 
+    <!-- Article 25 -->
+  <url>
+    <loc>https://fluffhaven.shop/blog/why-dog-eat-grass</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+    <!-- Article 26 -->
+  <url>
+    <loc>https://fluffhaven.shop/blog/dog-barking-at-night</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+    <!-- Article 27 -->
+  <url>
+    <loc>https://fluffhaven.shop/blog/cat-knock-things-off-table</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+    <!-- Article 28 -->
+  <url>
+    <loc>https://fluffhaven.shop/blog/cat-follow-me-everywhere</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
 </urlset>
