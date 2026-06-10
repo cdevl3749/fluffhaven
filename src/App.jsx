@@ -15,7 +15,7 @@ const PRODUCTS = [
     price: 39.90,
     badge: "🔥 Best Seller",
     priceId: "price_1TTQgZKn0lmTcQ11QW74njjh",
-    images: ["/brosse_anti_poils.jpg","/brosse_anti_poils2.jpg","/brosse_anti_poils3.jpg"],
+    images: ["/brosse_anti_poils.webp","/brosse_anti_poils2.webp","/brosse_anti_poils3.webp"],
     description: "Remove pet hair in seconds. No sticky tape, no mess. Perfect for home, clothes and car.",
     details: `
 ✔ Removes pet hair instantly
@@ -36,7 +36,7 @@ Perfect for keeping your home clean every day.
     price: 89.90,
     badge: "⭐ Premium",
     priceId: "price_1TTRPvKn0lmTcQ11Q926IlD8",
-    images: ["/housse_chien.jpg","/housse_chien2.jpg","/housse_chien3.jpg"],
+    images: ["/housse_chien.webp","/housse_chien2.webp","/housse_chien3.webp"],
     description: "Protect your car from dirt, scratches and pet hair. Waterproof and easy to install.",
     details: `
 ✔ 100% waterproof protection
@@ -57,7 +57,7 @@ Travel with your dog stress-free.
     price: 59.90,
     badge: "🔥 Best Seller",
     priceId: "price_1TTRdcKn0lmTcQ11BVllH8Sy",
-    images: ["/harnais_chien.jpg","/harnais_chien2.jpg","/harnais_chien3.jpg"],
+    images: ["/harnais_chien.webp","/harnais_chien2.webp","/harnais_chien3.webp"],
     description: "Stop pulling instantly. Comfortable harness designed for strong dogs and daily walks.",
     details: `
 ✔ Reduces pulling instantly
@@ -78,7 +78,7 @@ Perfect for daily walks and training.
     price: 49.90,
     badge: "⚡ Popular",
     priceId: "price_1TTRrOKn0lmTcQ11kjI4jVrr",
-    images: ["/ponceuse_griffe.jpg","/ponceuse_griffe2.jpg","/ponceuse_griffe3.jpg"],
+    images: ["/ponceuse_griffe.webp","/ponceuse_griffe2.webp","/ponceuse_griffe3.webp"],
     description: "Trim your pet's nails safely and stress-free. Quiet, precise and easy to use.",
     details: `
 ✔ Safe & painless nail trimming
@@ -110,8 +110,8 @@ Professional grooming at home.
 No more muddy floors after walks.
 `,
     variants: [
-      { color: "#5B9BD5", label: "Blue",   images: ["/nettoyant_bleu.jpg"],   priceIds: { S: "price_1TSLe2Kn0lmTcQ11HUyJFJg2", M: "price_1TSLm2Kn0lmTcQ11I0ryLfKG", L: "price_1TSLoaKn0lmTcQ11QLJFs164" } },
-      { color: "#F4845F", label: "Orange", images: ["/nettoyant_orange.jpg"], priceIds: { S: "price_1TSLu2Kn0lmTcQ11mRvFvCU7", M: "price_1TSLvRKn0lmTcQ110ovh6Wgw", L: "price_1TSLwpKn0lmTcQ114MQiZ8Ow" } },
+      { color: "#5B9BD5", label: "Blue",   images: ["/nettoyant_bleu.webp"],   priceIds: { S: "price_1TSLe2Kn0lmTcQ11HUyJFJg2", M: "price_1TSLm2Kn0lmTcQ11I0ryLfKG", L: "price_1TSLoaKn0lmTcQ11QLJFs164" } },
+      { color: "#F4845F", label: "Orange", images: ["/nettoyant_orange.webp"], priceIds: { S: "price_1TSLu2Kn0lmTcQ11mRvFvCU7", M: "price_1TSLvRKn0lmTcQ110ovh6Wgw", L: "price_1TSLwpKn0lmTcQ114MQiZ8Ow" } },
     ],
     sizes: ["S", "M", "L"],
   },
@@ -133,9 +133,9 @@ No more muddy floors after walks.
 Perfect for outdoor adventures.
 `,
     variants: [
-      { color: "#7DB87D", label: "Green",  images: ["/sac_vert.jpg"],   priceId: "price_1TSM4mKn0lmTcQ11yMEtLXIz" },
-      { color: "#F4845F", label: "Orange", images: ["/sac_orange.jpg"], priceId: "price_1TSM5qKn0lmTcQ11zG9ePOa5" },
-      { color: "#888888", label: "Grey",   images: ["/sac_gris.jpg"],   priceId: "price_1TSM7EKn0lmTcQ11aw43pEVb" },
+      { color: "#7DB87D", label: "Green",  images: ["/sac_vert.webp"],   priceId: "price_1TSM4mKn0lmTcQ11yMEtLXIz" },
+      { color: "#F4845F", label: "Orange", images: ["/sac_orange.webp"], priceId: "price_1TSM5qKn0lmTcQ11zG9ePOa5" },
+      { color: "#888888", label: "Grey",   images: ["/sac_gris.webp"],   priceId: "price_1TSM7EKn0lmTcQ11aw43pEVb" },
     ],
   },
   {
@@ -146,7 +146,7 @@ Perfect for outdoor adventures.
     price: 29.90,
     badge: "Summer",
     priceId: "price_1TSMB9Kn0lmTcQ11az73rxbZ",
-    images: ["/tapis_rafraichissant.jpg", "/tapis_rafraichissant_2.jpg"],
+    images: ["/tapis_rafraichissant.webp", "/tapis_rafraichissant_2.webp"],
     description: "Self-cooling silk surface keeps your pet comfortable all summer. Waterproof & non-slip bottom. Machine washable. Perfect for dogs & cats.",
     details: `
 ✔ Self-cooling silk surface
@@ -166,7 +166,7 @@ Keeps your pet cool all summer long.
     price: 34.90,
     badge: "Popular",
     priceId: "price_1TSMRBKn0lmTcQ117Az7zJwR",
-    images: ["/peigne_brosse.jpg", "/peigne_brosse_2.jpg", "/peigne_brosse_3.jpg"],
+    images: ["/peigne_brosse.webp", "/peigne_brosse_2.webp", "/peigne_brosse_3.webp"],
     description: "One-click steam & water spray, electric massage, and detangling bristles all in one. USB rechargeable. Helps reduce flying hair.",
     details: `
 ✔ One-click steam spray
@@ -201,9 +201,9 @@ A simple and effective way to keep your home clean.
       color: "#F4841F",
       label: "Orange",
       images: [
-        "/gant_anti_poils.jpg",
-        "/gant_anti_poils2.jpg",
-        "/gan_anti_poils3.jpg"
+        "/gant_anti_poils.webp",
+        "/gant_anti_poils2.webp",
+        "/gan_anti_poils3.webp"
       ],
       priceId: "price_1TVz1LKn0lmTcQ11NQbngAuG"
     },
@@ -212,7 +212,7 @@ A simple and effective way to keep your home clean.
       color: "#5DA9E9",
       label: "Blue",
       images: [
-        "/gant_anti_poils4.jpg"
+        "/gant_anti_poils4.webp"
       ],
       priceId: "price_1TVz4qKn0lmTcQ11kjiQ0Lvl"
     },
@@ -245,9 +245,9 @@ A simple way to make mealtime calmer and safer.
       color: "#111111",
       label: "Black",
       images: [
-        "/Gamelle_chien.jpg",
-        "/gamelle_chien2.jpg",
-        "/gamelle_chien3.jpg"
+        "/Gamelle_chien.webp",
+        "/gamelle_chien2.webp",
+        "/gamelle_chien3.webp"
       ],
       priceId: "price_1TVzfwKn0lmTcQ11Ew4219Uv"
     },
@@ -256,7 +256,7 @@ A simple way to make mealtime calmer and safer.
       color: "#2F8DBD",
       label: "Blue",
       images: [
-        "/gamelle_chien_bleu.jpg"
+        "/gamelle_chien_bleu.webp"
       ],
       priceId: "price_1TVzjFKn0lmTcQ11e622lV9l"
     },
@@ -265,7 +265,7 @@ A simple way to make mealtime calmer and safer.
       color: "#B7B7B7",
       label: "Grey",
       images: [
-        "/gamelle_chien_gris.jpg"
+        "/gamelle_chien_gris.webp"
       ],
       priceId: "price_1TVzltKn0lmTcQ11vsj1zYeh"
     },
@@ -274,7 +274,7 @@ A simple way to make mealtime calmer and safer.
       color: "#F8B6B6",
       label: "Light Pink",
       images: [
-        "/gamelle_chien_rose.jpg"
+        "/gamelle_chien_rose.webp"
       ],
       priceId: "price_1TVzo4Kn0lmTcQ11xs2ZMQ0f"
     },
@@ -283,7 +283,7 @@ A simple way to make mealtime calmer and safer.
       color: "#E91E8F",
       label: "Pink",
       images: [
-        "/gamelle_chien_magenta.jpg"
+        "/gamelle_chien_magenta.webp"
       ],
       priceId: "price_1TVzqLKn0lmTcQ11i49w7tcj"
     }
@@ -299,9 +299,9 @@ A simple way to make mealtime calmer and safer.
   badge: "☁️ Cozy",
   priceId: "price_1TW1lQKn0lmTcQ11P0uq4z9U",
   images: [
-    "/lit_rond_chat.jpg",
-    "/lit_rond_chat2.jpg",
-    "/lit_rond_chat3.jpg"
+    "/lit_rond_chat.webp",
+    "/lit_rond_chat2.webp",
+    "/lit_rond_chat3.webp"
   ],
   description: "A soft and cozy donut bed designed to help your cat feel safe, warm and relaxed during naps.",
   details: `
@@ -326,9 +326,9 @@ A warm and comfortable sleeping spot for everyday rest.
   badge: "💧 Premium",
   priceId: "price_1TW0Q9Kn0lmTcQ11iSwrx9Z7",
   images: [
-    "/fontaine_chat.jpg",
-    "/fontaine_chat3.jpg",
-    "/fontaine_chat4.jpg"
+    "/fontaine_chat.webp",
+    "/fontaine_chat3.webp",
+    "/fontaine_chat4.webp"
   ],
   description: "Encourage your cat to drink more with a quiet 2L water fountain that keeps water fresh, moving and filtered.",
   details: `
@@ -354,9 +354,9 @@ A simple way to keep your cat hydrated every day.
       color: "#F2E8DC",
       label: "Ivory",
       images: [
-        "/hamac_chat_couleur_ivoir.jpg",
-        "/hamac_chat2.jpg",
-        "/hamac_chat3.jpg"
+        "/hamac_chat_couleur_ivoir.webp",
+        "/hamac_chat2.webp",
+        "/hamac_chat3.webp"
       ],
       priceId: "price_1TW0kwKn0lmTcQ113dEfbnNA"
     },
@@ -365,9 +365,9 @@ A simple way to keep your cat hydrated every day.
       color: "#8A8A8A",
       label: "Grey",
       images: [
-        "/hamac_chat_couleur_gris.jpg",
-        "/hamac_chat2.jpg",
-        "/hamac_chat3.jpg"
+        "/hamac_chat_couleur_gris.webp",
+        "/hamac_chat2.webp",
+        "/hamac_chat3.webp"
       ],
       priceId: "price_1TW0n7Kn0lmTcQ111zYwBsMH"
     }
@@ -393,7 +393,7 @@ Perfect for indoor cats who love sunlight, window views and cozy naps.
     price: 29.90,
     badge: "New",
     priceId: "price_1TSMUsKn0lmTcQ11sXCLEtkj",
-    images: ["/balle_chat.jpg", "/balle_chat2.jpg", "/balle_chat3.jpg"],
+    images: ["/balle_chat.webp", "/balle_chat2.webp", "/balle_chat3.webp"],
     description: "Automatic interactive ball toy for indoor cats. Features 2 speed modes, feather tail and auto shut-off. Keeps cats active and entertained.",
     details: `
 ✔ 2 speed modes (Normal & Smart)
@@ -413,7 +413,7 @@ Hours of entertainment for your cat.
     price: 39.90,
     badge: "Popular",
     priceId: "price_1TSMYPKn0lmTcQ11bejbHtc0",
-    images: ["/griffoir_chat.jpg", "/griffoir_chat2.jpg", "/griffoir_chat3.jpg"],
+    images: ["/griffoir_chat.webp", "/griffoir_chat2.webp", "/griffoir_chat3.webp"],
     description: "Premium L-shaped cat scratcher made from high-density corrugated cardboard. Perfect for stretching, scratching and protecting your furniture.",
     details: `
 ✔ 48 cm tall L-shape design
@@ -433,7 +433,7 @@ The perfect scratching solution.
     price: 21.90,
     badge: "Fun",
     priceId: "price_1TSMbNKn0lmTcQ11ADoo7Dqy",
-    images: ["/plume_chat.jpg", "/plume_chat2.jpg", "/plume_chat3.jpg"],
+    images: ["/plume_chat.webp", "/plume_chat2.webp", "/plume_chat3.webp"],
     description: "12-piece interactive feather toy set for cats & kittens. Includes retractable wands and colourful feather attachments for daily play.",
     details: `
 ✔ 2 retractable wands (extends to 96 cm)
@@ -453,7 +453,7 @@ Daily playtime made fun & easy.
     price: 25.90,
     badge: null,
     priceId: "price_1TSMeWKn0lmTcQ11TOytJsNX",
-    images: ["/tunnel_chat.jpg", "/tunnel_chat2.jpg", "/tunnel_chat3.jpg"],
+    images: ["/tunnel_chat.webp", "/tunnel_chat2.webp", "/tunnel_chat3.webp"],
     description: "Collapsible cat tunnel made from durable faux-linen fabric. Includes a hanging pompom ball inside. Ideal for hiding, chasing and exploring.",
     details: `
 ✔ 30 cm diameter · 70 cm long
@@ -475,9 +475,9 @@ Cats never get bored.
   priceId: "price_1TWh3AKn0lmTcQ11myH6JngD",
 
   images: [
-    "/puzzle_chat.jpg",
-    "/puzzle_chat2.jpg",
-    "/puzzle_chat3.jpg"
+    "/puzzle_chat.webp",
+    "/puzzle_chat2.webp",
+    "/puzzle_chat3.webp"
   ],
 
   description:
@@ -505,9 +505,9 @@ Perfect for indoor cats who need more stimulation, play and enrichment during th
   priceId: "price_1TWhvuKn0lmTcQ11dz0kPJGn",
 
   images: [
-    "/niche_chat.jpg",
-    "/niche_chat2.jpg",
-    "/niche_chat3.jpg"
+    "/niche_chat.webp",
+    "/niche_chat2.webp",
+    "/niche_chat3.webp"
   ],
 
   description:
@@ -535,9 +535,9 @@ A calming resting space where your cat can sleep, hide and relax comfortably eve
   priceId: "price_1TWiqjKn0lmTcQ11HLRMP1LK",
 
   images: [
-    "/brush_chat.jpg",
-    "/brush_chat2.jpg",
-    "/brush_chat3.jpg"
+    "/brush_chat.webp",
+    "/brush_chat2.webp",
+    "/brush_chat3.webp"
   ],
 
   description:
@@ -570,9 +570,9 @@ A simple daily grooming and relaxation spot your cat can enjoy on its own.
   priceId: "price_1TgVBhKn0lmTcQ11A2aHttTo",
 
   images: [
-    "/dog_shampoo.jpg",
-    "/dog_shampoo2.jpg",
-    "/dog_shampoo3.jpg"
+    "/dog_shampoo.webp",
+    "/dog_shampoo2.webp",
+    "/dog_shampoo3.webp"
   ],
 
   description:
@@ -614,9 +614,9 @@ A simple daily grooming and relaxation spot your cat can enjoy on its own.
   priceId: "price_1TgVghKn0lmTcQ113fn3DVmJ",
 
   images: [
-    "/cat_shampoo3.jpg",
-    "/cat_shampoo.jpg",
-    "/cat_shampoo2.jpg"
+    "/cat_shampoo3.webp",
+    "/cat_shampoo.webp",
+    "/cat_shampoo2.webp"
   ],
 
   description:

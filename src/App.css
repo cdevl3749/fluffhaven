@@ -198,7 +198,7 @@ nav span:hover::after {
       rgba(250,248,245,0.3) 60%,
       rgba(250,248,245,0.0) 100%
     ),
-    url("/hero-fluffhaven.png");
+    url("/hero-fluffhaven.webp");
   background-size: cover;
   background-position: center right;
 }
@@ -1363,7 +1363,7 @@ details p {
         rgba(250,248,245,0.88) 48%,
         rgba(250,248,245,0.15) 100%
       ),
-      url("/hero-fluffhaven.png");
+      url("/hero-fluffhaven.webp");
     background-size: cover;
     background-position: 65% bottom;
   }
