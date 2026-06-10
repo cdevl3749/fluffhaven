@@ -554,6 +554,94 @@ A calming resting space where your cat can sleep, hide and relax comfortably eve
 A simple daily grooming and relaxation spot your cat can enjoy on its own.
 `,
 },
+{
+  id: 20,
+
+  name: "Sensitive Skin Dog Shampoo",
+
+  category: "dog",
+
+  subtitle: "Hypoallergenic • Gentle formula • Sensitive skin",
+
+  price: 27.90,
+
+  badge: null,
+
+  priceId: "price_1TgVBhKn0lmTcQ11A2aHttTo",
+
+  images: [
+    "/dog_shampoo.jpg",
+    "/dog_shampoo2.jpg",
+    "/dog_shampoo3.jpg"
+  ],
+
+  description:
+    "A gentle hypoallergenic dog shampoo designed for sensitive skin. Helps clean, moisturise and soothe without harsh ingredients.",
+
+  details: `
+✓ Hypoallergenic formula
+
+✓ Suitable for sensitive skin
+
+✓ Helps relieve itching
+
+✓ Aloe Vera enriched
+
+✓ Moisturises dry coats
+
+✓ pH balanced formula
+
+✓ Free from harsh irritants
+
+✓ Trusted by thousands of pet owners
+  `,
+
+  sizes: [],
+},
+{
+  id: 21,
+
+  name: "Sensitive Skin Cat Shampoo",
+
+  category: "cat",
+
+  subtitle: "Hypoallergenic • Gentle formula • Sensitive skin",
+
+  price: 29.90,
+
+  badge: "",
+
+  priceId: "price_1TgVghKn0lmTcQ113fn3DVmJ",
+
+  images: [
+    "/cat_shampoo3.jpg",
+    "/cat_shampoo.jpg",
+    "/cat_shampoo2.jpg"
+  ],
+
+  description:
+    "A gentle hypoallergenic cat shampoo designed for sensitive skin. Helps clean, moisturise and soothe without harsh ingredients.",
+
+  details: `
+✓ Hypoallergenic formula
+
+✓ Suitable for sensitive skin
+
+✓ Helps relieve itching
+
+✓ Aloe Vera enriched
+
+✓ Moisturises dry coats
+
+✓ No water required
+
+✓ Free from harsh irritants
+
+✓ Trusted by thousands of pet owners
+  `,
+
+  sizes: [],
+},
 ];
 
 // ─────────────────────────────────────────────────────────────
@@ -721,7 +809,7 @@ function ProductCard({ product, onAddToCart, onShowDetails }) {
               <img
                 src={images[currentImg]}
                 alt={product.name}
-                className="product-photo"
+                className={`product-photo ${product.imageClass || ""}`}
                 onError={(e) => { e.target.style.display = "none"; e.target.nextSibling.style.display = "flex"; }}
               />
               <div className="product-emoji-fallback" style={{ display: "none" }}>🐾</div>
@@ -1078,7 +1166,7 @@ export default function App() {
           <div className="about-visual">
             <div className="about-card"><div className="about-stat">100+</div><div className="about-stat-label">Happy Pet Parents</div></div>
             <div className="about-card"><div className="about-stat">4.9★</div><div className="about-stat-label">Average Rating</div></div>
-            <div className="about-card"><div className="about-stat">20+</div><div className="about-stat-label">Products Curated</div></div>
+            <div className="about-card"><div className="about-stat">22+</div><div className="about-stat-label">Pet Essentials</div></div>
             <div className="about-card"><div className="about-stat">14</div><div className="about-stat-label">Day Return Policy</div></div>
           </div>
         </div>
