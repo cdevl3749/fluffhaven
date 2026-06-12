@@ -205,6 +205,33 @@ export default function Dashboard() {
         )}
       </div>
 
+      {/* SOURCES */}
+      <div style={styles.section}>
+        <h2 style={styles.sectionTitle}>🔗 Sources de trafic</h2>
+        {Object.keys(stats.sources || {}).length === 0 ? (
+          <p style={{ color: "#888", fontFamily: "sans-serif", fontSize: 14 }}>
+            Aucune donnée encore.
+          </p>
+        ) : (
+          <div style={styles.countryList}>
+            {Object.entries(stats.sources || {})
+              .sort((a, b) => b[1] - a[1])
+              .map(([source, count]) => {
+                const pct = stats.visitors > 0 ? Math.round((count / stats.visitors) * 100) : 0;
+                return (
+                  <div key={source} style={styles.countryRow}>
+                    <span style={styles.countryName}>{source}</span>
+                    <div style={styles.barBg}>
+                      <div style={{ ...styles.barFill, width: `${pct}%` }} />
+                    </div>
+                    <span style={styles.countryCount}>{count}</span>
+                  </div>
+                );
+              })}
+          </div>
+        )}
+      </div>
+
       {/* TOP PAGES */}
       <div style={styles.section}>
         <h2 style={styles.sectionTitle}>📄 Pages les plus visitées</h2>

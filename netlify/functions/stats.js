@@ -62,6 +62,7 @@ export async function handler(event) {
         countriesRaw,
         devicesRaw,
         pagesRaw,
+        sourcesRaw,
       ] = await Promise.all([
         redis(["GET", "visitors"]),
         redis(["GET", "clicks"]),
@@ -70,6 +71,7 @@ export async function handler(event) {
         redis(["GET", "countries"]),
         redis(["GET", "devices"]),
         redis(["GET", "pages"]),
+        redis(["GET", "sources"]),
       ]);
 
       return {
@@ -83,6 +85,7 @@ export async function handler(event) {
           countries: JSON.parse(countriesRaw || "{}"),
           devices: JSON.parse(devicesRaw || "{}"),
           pages: JSON.parse(pagesRaw || "{}"),
+          sources: JSON.parse(sourcesRaw || "{}"),
         }),
       };
 
@@ -166,6 +169,15 @@ export async function handler(event) {
           pages[data.page] = (pages[data.page] || 0) + 1;
           await redis(["SET", "pages", JSON.stringify(pages)]);
         }
+
+        // SOURCE
+        if (data.source) {
+          const srcRaw = await redis(["GET", "sources"]);
+          let sources = {};
+          try { sources = JSON.parse(srcRaw || "{}"); } catch { sources = {}; }
+          sources[data.source] = (sources[data.source] || 0) + 1;
+          await redis(["SET", "sources", JSON.stringify(sources)]);
+        }
       }
 
       // CLICK
@@ -218,6 +230,7 @@ export async function handler(event) {
         redis(["SET", "countries", "{}"]),
         redis(["SET", "devices", "{}"]),
         redis(["SET", "pages", "{}"]),
+        redis(["SET", "sources", "{}"]),
       ]);
 
       return {
