@@ -941,7 +941,7 @@ export default function App() {
     fetch("/.netlify/functions/stats", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ type: "visit", country: "auto", device: /Mobi|Android|iPhone|iPad/i.test(navigator.userAgent) ? "mobile" : "desktop", page: window.location.pathname, source: (() => { const ref = document.referrer; if (!ref) return "Direct"; if (ref.includes("reddit.com")) return "Reddit"; if (ref.includes("google.")) return "Google"; if (ref.includes("pinterest.")) return "Pinterest"; if (ref.includes("quora.com")) return "Quora"; if (ref.includes("facebook.com")) return "Facebook"; if (ref.includes("tiktok.com")) return "TikTok"; if (ref.includes("instagram.com")) return "Instagram"; return new URL(ref).hostname; })() }),
+      body: JSON.stringify({ type: "visit", country: "auto", device: /Mobi|Android|iPhone|iPad/i.test(navigator.userAgent) ? "mobile" : "desktop", page: window.location.pathname, source: (() => { const params = new URLSearchParams(window.location.search); const sourceParam = params.get("source"); if (sourceParam) return sourceParam; const ref = document.referrer; if (!ref) return "Direct"; if (ref.includes("reddit.com")) return "Reddit"; if (ref.includes("google.")) return "Google"; if (ref.includes("pinterest.")) return "Pinterest"; if (ref.includes("quora.com")) return "Quora"; if (ref.includes("facebook.com")) return "Facebook"; if (ref.includes("tiktok.com")) return "TikTok"; if (ref.includes("instagram.com")) return "Instagram"; return new URL(ref).hostname; })() }),
     }).then(() => sessionStorage.setItem(KEY, "true")).catch(() => {});
   }, []);
 
