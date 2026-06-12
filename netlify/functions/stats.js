@@ -60,12 +60,16 @@ export async function handler(event) {
         stripe,
         payments,
         countriesRaw,
+        devicesRaw,
+        pagesRaw,
       ] = await Promise.all([
         redis(["GET", "visitors"]),
         redis(["GET", "clicks"]),
         redis(["GET", "stripe"]),
         redis(["GET", "payments"]),
         redis(["GET", "countries"]),
+        redis(["GET", "devices"]),
+        redis(["GET", "pages"]),
       ]);
 
       return {
@@ -77,6 +81,8 @@ export async function handler(event) {
           stripe: parseInt(stripe || "0"),
           payments: parseInt(payments || "0"),
           countries: JSON.parse(countriesRaw || "{}"),
+          devices: JSON.parse(devicesRaw || "{}"),
+          pages: JSON.parse(pagesRaw || "{}"),
         }),
       };
 
@@ -142,6 +148,24 @@ export async function handler(event) {
           "countries",
           JSON.stringify(countries),
         ]);
+
+        // DEVICE
+        if (data.device) {
+          const devRaw = await redis(["GET", "devices"]);
+          let devices = {};
+          try { devices = JSON.parse(devRaw || "{}"); } catch { devices = {}; }
+          devices[data.device] = (devices[data.device] || 0) + 1;
+          await redis(["SET", "devices", JSON.stringify(devices)]);
+        }
+
+        // PAGE
+        if (data.page) {
+          const pagesRaw = await redis(["GET", "pages"]);
+          let pages = {};
+          try { pages = JSON.parse(pagesRaw || "{}"); } catch { pages = {}; }
+          pages[data.page] = (pages[data.page] || 0) + 1;
+          await redis(["SET", "pages", JSON.stringify(pages)]);
+        }
       }
 
       // CLICK
@@ -192,6 +216,8 @@ export async function handler(event) {
         redis(["SET", "stripe", "0"]),
         redis(["SET", "payments", "0"]),
         redis(["SET", "countries", "{}"]),
+        redis(["SET", "devices", "{}"]),
+        redis(["SET", "pages", "{}"]),
       ]);
 
       return {

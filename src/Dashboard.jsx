@@ -180,6 +180,59 @@ export default function Dashboard() {
         )}
       </div>
 
+      {/* DEVICES — PC vs Mobile */}
+      <div style={styles.section}>
+        <h2 style={styles.sectionTitle}>📱 PC vs Mobile</h2>
+        {Object.keys(stats.devices || {}).length === 0 ? (
+          <p style={{ color: "#888", fontFamily: "sans-serif", fontSize: 14 }}>
+            Aucune donnée encore.
+          </p>
+        ) : (
+          <div style={styles.countryList}>
+            {Object.entries(stats.devices || {}).map(([device, count]) => {
+              const pct = stats.visitors > 0 ? Math.round((count / stats.visitors) * 100) : 0;
+              return (
+                <div key={device} style={styles.countryRow}>
+                  <span style={styles.countryName}>{device === "mobile" ? "📱 Mobile" : "🖥️ Desktop"}</span>
+                  <div style={styles.barBg}>
+                    <div style={{ ...styles.barFill, width: `${pct}%` }} />
+                  </div>
+                  <span style={styles.countryCount}>{count}</span>
+                </div>
+              );
+            })}
+          </div>
+        )}
+      </div>
+
+      {/* TOP PAGES */}
+      <div style={styles.section}>
+        <h2 style={styles.sectionTitle}>📄 Pages les plus visitées</h2>
+        {Object.keys(stats.pages || {}).length === 0 ? (
+          <p style={{ color: "#888", fontFamily: "sans-serif", fontSize: 14 }}>
+            Aucune donnée encore.
+          </p>
+        ) : (
+          <div style={styles.countryList}>
+            {Object.entries(stats.pages || {})
+              .sort((a, b) => b[1] - a[1])
+              .slice(0, 10)
+              .map(([page, count]) => {
+                const pct = stats.visitors > 0 ? Math.round((count / stats.visitors) * 100) : 0;
+                return (
+                  <div key={page} style={{ ...styles.countryRow, gridTemplateColumns: "1fr 120px 40px" }}>
+                    <span style={{ ...styles.countryName, fontSize: 12 }}>{page}</span>
+                    <div style={styles.barBg}>
+                      <div style={{ ...styles.barFill, width: `${pct}%` }} />
+                    </div>
+                    <span style={styles.countryCount}>{count}</span>
+                  </div>
+                );
+              })}
+          </div>
+        )}
+      </div>
+
       {/* FUNNEL */}
       <div style={styles.section}>
         <h2 style={styles.sectionTitle}>🔄 Tunnel de conversion</h2>

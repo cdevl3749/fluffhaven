@@ -941,7 +941,7 @@ export default function App() {
     fetch("/.netlify/functions/stats", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ type: "visit", country: "auto" }),
+      body: JSON.stringify({ type: "visit", country: "auto", device: /Mobi|Android|iPhone|iPad/i.test(navigator.userAgent) ? "mobile" : "desktop", page: window.location.pathname }),
     }).then(() => sessionStorage.setItem(KEY, "true")).catch(() => {});
   }, []);
 
