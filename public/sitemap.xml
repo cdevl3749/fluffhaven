@@ -241,4 +241,20 @@
     <priority>0.80</priority>
   </url>
 
+  <!-- Article 29 -->
+  <url>
+    <loc>https://fluffhaven.shop/blog/dog-sensitive-skin-causes</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- Article 30 -->
+  <url>
+    <loc>https://fluffhaven.shop/blog/cat-sensitive-skin-causes</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
 </urlset>

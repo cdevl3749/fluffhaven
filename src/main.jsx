@@ -47,6 +47,9 @@ import DogBarkingAtNight from './blog/dog-barking-at-night.jsx'
 import CatKnockThingsOffTable from './blog/cat-knock-things-off-table.jsx'
 import CatFollowMeEverywhere from './blog/cat-follow-me-everywhere.jsx'
 
+import DogSensitiveSkinCauses from './blog/dog-sensitive-skin-causes.jsx'
+import CatSensitiveSkinCauses from './blog/cat-sensitive-skin-causes.jsx'
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {
@@ -110,6 +113,10 @@ createRoot(document.getElementById('root')).render(
         <CatKnockThingsOffTable />
       ) : window.location.pathname === "/blog/cat-follow-me-everywhere" ? (
         <CatFollowMeEverywhere />
+      ) : window.location.pathname === "/blog/dog-sensitive-skin-causes" ? (
+        <DogSensitiveSkinCauses />
+      ) : window.location.pathname === "/blog/cat-sensitive-skin-causes" ? (
+        <CatSensitiveSkinCauses />
       ) : (
         <App />
       )

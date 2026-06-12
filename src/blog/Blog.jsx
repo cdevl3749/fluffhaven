@@ -245,6 +245,26 @@ url: "/blog/dog-hair-on-clothes",
     "Discover why some cats follow their owners everywhere and what this behavior says about your cat's personality and needs.",
   url: "/blog/cat-follow-me-everywhere",
 },
+{
+title: "Why Does My Dog Have Sensitive Skin?",
+category: "Dog care guide",
+date: "June 2026",
+read: "5 min read",
+description:
+"Discover the most common causes of sensitive skin in dogs and simple ways to help soothe itching, dryness and irritation.",
+url: "/blog/dog-sensitive-skin-causes",
+},
+
+{
+title: "Why Does My Cat Have Sensitive Skin?",
+category: "Cat care guide",
+date: "June 2026",
+read: "5 min read",
+description:
+"Learn why some cats develop sensitive skin, what signs to watch for and how gentle grooming can help keep them comfortable.",
+url: "/blog/cat-sensitive-skin-causes",
+},
+
   ];
 
   const scroll = (direction) => {
