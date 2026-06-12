@@ -46,7 +46,7 @@ export default function Dashboard() {
     };
 
     load();
-    const interval = setInterval(load, 60000);
+    const interval = setInterval(load, 300000);
     return () => clearInterval(interval);
   }, []);
 
@@ -102,7 +102,7 @@ export default function Dashboard() {
           <span style={{ fontSize: 32 }}>🐾</span>
           <div>
             <h1 style={styles.title}>FluffHaven Dashboard</h1>
-            <p style={styles.subtitle}>Stats en temps réel · refresh toutes les 60s</p>
+            <p style={styles.subtitle}>Stats en temps réel · refresh toutes les 5min</p>
           </div>
         </div>
         <div style={{ display: "flex", gap: 10, flexWrap: "wrap" }}>
