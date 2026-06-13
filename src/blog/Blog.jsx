@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 
 export default function Blog() {
   const [isMobile, setIsMobile] = useState(false);
+  const [searchTerm, setSearchTerm] = useState("");
 
   useEffect(() => {
     const check = () => setIsMobile(window.innerWidth <= 768);
@@ -124,148 +125,143 @@ export default function Blog() {
       url: "/blog/dog-hair-home",
     },
     {
-    title: "Why Dogs Lick Their Paws After Walks",
-    category: "Dog care guide",
-    date: "May 2026",
-    read: "4 min read",
-    description: "Learn why dogs lick their paws after walks and discover simple ways to keep their paws clean and comfortable.",
-    url: "/blog/dog-lick-paws-after-walks",
-  },
-  {
-    title: "How To Reduce Cat Hair On Furniture",
-    category: "Cat care guide",
-    date: "May 2026",
-    read: "5 min read",
-    description: "Simple ways to reduce cat hair on sofas, beds, and furniture while keeping your home cleaner every day.",
-    url: "/blog/reduce-cat-hair-furniture",
-  },
-  {
-    title: "How To Calm An Anxious Dog At Home",
-    category: "Dog care guide",
-    date: "May 2026",
-    read: "5 min read",
-    description: "Discover simple ways to calm an anxious dog at home and create a more peaceful daily routine for your pet.",
-    url: "/blog/calm-anxious-dog-home",
-  },
-  {
-    title: "Why Indoor Cats Need More Mental Stimulation",
-    category: "Cat care guide",
-    date: "May 2026",
-    read: "4 min read",
-    description: "Learn why indoor cats need daily mental stimulation and how simple activities can improve their happiness and behavior.",
-    url: "/blog/indoor-cat-mental-stimulation",
-  },
-  {
-    title: "Why Does My Dog Follow Me Everywhere?",
-    category: "Dog behavior guide",
-    date: "May 2026",
-    read: "4 min read",
-    description:
-      "Learn why dogs follow their owners everywhere, what it means emotionally, and when clingy behavior may become a problem.",
-    url: "/blog/dog-follow-me-everywhere",
-  },
-  {
-    title: "How To Stop Cat Hair On Clothes",
-    category: "Cat care guide",
-    date: "May 2026",
-    read: "4 min read",
-    description:
-      "Simple ways to reduce cat hair on clothes, laundry, blankets, and fabrics while keeping your home cleaner every day.",
-    url: "/blog/cat-hair-on-clothes",
-  },
-  {
-title: "Signs Your Dog Is Too Hot During Summer Walks",
-category: "Summer dog guide",
-date: "June 2026",
-read: "5 min read",
-description:
-"Learn the most common signs dogs show when they become too hot during summer walks and simple ways to keep them safer and more comfortable.",
-url: "/blog/signs-dog-too-hot-summer",
-},
-{
-title: "Best Ways To Help Dogs Cool Down At Home",
-category: "Summer dog guide",
-date: "June 2026",
-read: "5 min read",
-description:
-"Simple ways to help dogs stay cooler and more comfortable at home during hot summer days with hydration, shade, airflow and cooling solutions.",
-url: "/blog/help-dog-cool-down-home",
-},
-{
-title: "Why Is My Cat Peeing Outside The Litter Box?",
-category: "Cat behavior guide",
-date: "June 2026",
-read: "5 min read",
-description:
-"Discover common reasons cats suddenly start peeing outside the litter box and simple steps that may help solve the problem.",
-url: "/blog/cat-peeing-outside-litter-box",
-},
-{
-title: "How To Remove Dog Hair From Clothes",
-category: "Dog care guide",
-date: "June 2026",
-read: "5 min read",
-description:
-"Simple ways to remove dog hair from clothes, blankets and laundry while keeping fabrics cleaner every day.",
-url: "/blog/dog-hair-on-clothes",
-},
-{
-  title: "Why Does My Dog Eat Grass?",
-  category: "Dog behavior guide",
-  date: "June 2026",
-  read: "5 min read",
-  description:
-    "Learn why dogs eat grass, whether it's normal behavior, and when it may be a sign that your dog needs veterinary attention.",
-  url: "/blog/why-dog-eat-grass",
-},
-{
-  title: "Why Is My Dog Barking At Night?",
-  category: "Dog behavior guide",
-  date: "June 2026",
-  read: "5 min read",
-  description:
-    "Discover common reasons dogs bark at night and practical ways to help your dog stay calm and sleep better.",
-  url: "/blog/dog-barking-at-night",
-},
-{
-  title: "Why Does My Cat Knock Things Off Tables?",
-  category: "Cat behavior guide",
-  date: "June 2026",
-  read: "5 min read",
-  description:
-    "Learn why cats love knocking objects off tables, shelves and counters, and what this behavior may be telling you.",
-  url: "/blog/cat-knock-things-off-table",
-},
-{
-  title: "Why Is My Cat Following Me Everywhere?",
-  category: "Cat behavior guide",
-  date: "June 2026",
-  read: "5 min read",
-  description:
-    "Discover why some cats follow their owners everywhere and what this behavior says about your cat's personality and needs.",
-  url: "/blog/cat-follow-me-everywhere",
-},
-{
-title: "Why Does My Dog Have Sensitive Skin?",
-category: "Dog care guide",
-date: "June 2026",
-read: "5 min read",
-description:
-"Discover the most common causes of sensitive skin in dogs and simple ways to help soothe itching, dryness and irritation.",
-url: "/blog/dog-sensitive-skin-causes",
-},
-
-{
-title: "Why Does My Cat Have Sensitive Skin?",
-category: "Cat care guide",
-date: "June 2026",
-read: "5 min read",
-description:
-"Learn why some cats develop sensitive skin, what signs to watch for and how gentle grooming can help keep them comfortable.",
-url: "/blog/cat-sensitive-skin-causes",
-},
-
+      title: "Why Dogs Lick Their Paws After Walks",
+      category: "Dog care guide",
+      date: "May 2026",
+      read: "4 min read",
+      description: "Learn why dogs lick their paws after walks and discover simple ways to keep their paws clean and comfortable.",
+      url: "/blog/dog-lick-paws-after-walks",
+    },
+    {
+      title: "How To Reduce Cat Hair On Furniture",
+      category: "Cat care guide",
+      date: "May 2026",
+      read: "5 min read",
+      description: "Simple ways to reduce cat hair on sofas, beds, and furniture while keeping your home cleaner every day.",
+      url: "/blog/reduce-cat-hair-furniture",
+    },
+    {
+      title: "How To Calm An Anxious Dog At Home",
+      category: "Dog care guide",
+      date: "May 2026",
+      read: "5 min read",
+      description: "Discover simple ways to calm an anxious dog at home and create a more peaceful daily routine for your pet.",
+      url: "/blog/calm-anxious-dog-home",
+    },
+    {
+      title: "Why Indoor Cats Need More Mental Stimulation",
+      category: "Cat care guide",
+      date: "May 2026",
+      read: "4 min read",
+      description: "Learn why indoor cats need daily mental stimulation and how simple activities can improve their happiness and behavior.",
+      url: "/blog/indoor-cat-mental-stimulation",
+    },
+    {
+      title: "Why Does My Dog Follow Me Everywhere?",
+      category: "Dog behavior guide",
+      date: "May 2026",
+      read: "4 min read",
+      description: "Learn why dogs follow their owners everywhere, what it means emotionally, and when clingy behavior may become a problem.",
+      url: "/blog/dog-follow-me-everywhere",
+    },
+    {
+      title: "How To Stop Cat Hair On Clothes",
+      category: "Cat care guide",
+      date: "May 2026",
+      read: "4 min read",
+      description: "Simple ways to reduce cat hair on clothes, laundry, blankets, and fabrics while keeping your home cleaner every day.",
+      url: "/blog/cat-hair-on-clothes",
+    },
+    {
+      title: "Signs Your Dog Is Too Hot During Summer Walks",
+      category: "Summer dog guide",
+      date: "June 2026",
+      read: "5 min read",
+      description: "Learn the most common signs dogs show when they become too hot during summer walks and simple ways to keep them safer and more comfortable.",
+      url: "/blog/signs-dog-too-hot-summer",
+    },
+    {
+      title: "Best Ways To Help Dogs Cool Down At Home",
+      category: "Summer dog guide",
+      date: "June 2026",
+      read: "5 min read",
+      description: "Simple ways to help dogs stay cooler and more comfortable at home during hot summer days with hydration, shade, airflow and cooling solutions.",
+      url: "/blog/help-dog-cool-down-home",
+    },
+    {
+      title: "Why Is My Cat Peeing Outside The Litter Box?",
+      category: "Cat behavior guide",
+      date: "June 2026",
+      read: "5 min read",
+      description: "Discover common reasons cats suddenly start peeing outside the litter box and simple steps that may help solve the problem.",
+      url: "/blog/cat-peeing-outside-litter-box",
+    },
+    {
+      title: "How To Remove Dog Hair From Clothes",
+      category: "Dog care guide",
+      date: "June 2026",
+      read: "5 min read",
+      description: "Simple ways to remove dog hair from clothes, blankets and laundry while keeping fabrics cleaner every day.",
+      url: "/blog/dog-hair-on-clothes",
+    },
+    {
+      title: "Why Does My Dog Eat Grass?",
+      category: "Dog behavior guide",
+      date: "June 2026",
+      read: "5 min read",
+      description: "Learn why dogs eat grass, whether it's normal behavior, and when it may be a sign that your dog needs veterinary attention.",
+      url: "/blog/why-dog-eat-grass",
+    },
+    {
+      title: "Why Is My Dog Barking At Night?",
+      category: "Dog behavior guide",
+      date: "June 2026",
+      read: "5 min read",
+      description: "Discover common reasons dogs bark at night and practical ways to help your dog stay calm and sleep better.",
+      url: "/blog/dog-barking-at-night",
+    },
+    {
+      title: "Why Does My Cat Knock Things Off Tables?",
+      category: "Cat behavior guide",
+      date: "June 2026",
+      read: "5 min read",
+      description: "Learn why cats love knocking objects off tables, shelves and counters, and what this behavior may be telling you.",
+      url: "/blog/cat-knock-things-off-table",
+    },
+    {
+      title: "Why Is My Cat Following Me Everywhere?",
+      category: "Cat behavior guide",
+      date: "June 2026",
+      read: "5 min read",
+      description: "Discover why some cats follow their owners everywhere and what this behavior says about your cat's personality and needs.",
+      url: "/blog/cat-follow-me-everywhere",
+    },
+    {
+      title: "Why Does My Dog Have Sensitive Skin?",
+      category: "Dog care guide",
+      date: "June 2026",
+      read: "5 min read",
+      description: "Discover the most common causes of sensitive skin in dogs and simple ways to help soothe itching, dryness and irritation.",
+      url: "/blog/dog-sensitive-skin-causes",
+    },
+    {
+      title: "Why Does My Cat Have Sensitive Skin?",
+      category: "Cat care guide",
+      date: "June 2026",
+      read: "5 min read",
+      description: "Learn why some cats develop sensitive skin, what signs to watch for and how gentle grooming can help keep them comfortable.",
+      url: "/blog/cat-sensitive-skin-causes",
+    },
   ];
+
+  // ── Filtrage par recherche ──
+  const isSearching = searchTerm.trim().length > 0;
+
+  const filteredArticles = articles.filter((article) =>
+    (article.title + article.category + article.description)
+      .toLowerCase()
+      .includes(searchTerm.toLowerCase())
+  );
 
   const scroll = (direction) => {
     const container = document.getElementById("blog-slider");
@@ -285,6 +281,25 @@ url: "/blog/cat-sensitive-skin-causes",
     boxSizing: "border-box",
     display: "block",
   };
+
+  // ── Cartes communes (mobile + résultats de recherche desktop) ──
+  const renderCards = (articles) =>
+    articles.map((article) => (
+      <a key={article.url} href={article.url} style={cardStyle}>
+        <p style={{ color: "#d14d68", fontWeight: "800", letterSpacing: "0.14em", textTransform: "uppercase", fontSize: "11px", margin: "0 0 10px" }}>
+          {article.category}
+        </p>
+        <h2 style={{ fontSize: "18px", lineHeight: "1.25", margin: "0 0 10px", color: "#2a211d" }}>
+          {article.title}
+        </h2>
+        <p style={{ color: "#85756f", fontSize: "13px", margin: "0 0 12px" }}>
+          {article.date} · {article.read}
+        </p>
+        <p style={{ fontSize: "14px", lineHeight: "1.6", color: "#3d3531", margin: 0 }}>
+          {article.description}
+        </p>
+      </a>
+    ));
 
   return (
     <main style={{ background: "#f6f2ed", minHeight: "100vh", padding: "50px 18px", fontFamily: "inherit", boxSizing: "border-box" }}>
@@ -310,69 +325,145 @@ url: "/blog/cat-sensitive-skin-causes",
         {isMobile ? (
           <div style={{ padding: "24px 16px 40px", display: "flex", flexDirection: "column", gap: "16px" }}>
             <h2 style={{ margin: "0 0 8px", fontSize: "22px", color: "#221b18" }}>Latest articles</h2>
-            {articles.map((article) => (
-              <a key={article.url} href={article.url} style={cardStyle}>
-                <p style={{ color: "#d14d68", fontWeight: "800", letterSpacing: "0.14em", textTransform: "uppercase", fontSize: "11px", margin: "0 0 10px" }}>
-                  {article.category}
-                </p>
-                <h2 style={{ fontSize: "18px", lineHeight: "1.25", margin: "0 0 10px", color: "#2a211d" }}>
-                  {article.title}
-                </h2>
-                <p style={{ color: "#85756f", fontSize: "13px", margin: "0 0 12px" }}>
-                  {article.date} · {article.read}
-                </p>
-                <p style={{ fontSize: "14px", lineHeight: "1.6", color: "#3d3531", margin: 0 }}>
-                  {article.description}
-                </p>
-              </a>
-            ))}
+            <input
+              type="text"
+              placeholder="🔍 Search articles..."
+              value={searchTerm}
+              onChange={(e) => setSearchTerm(e.target.value)}
+              style={{
+                width: "100%",
+                padding: "14px 18px",
+                borderRadius: "14px",
+                border: "1px solid #eadede",
+                fontSize: "15px",
+                outline: "none",
+                background: "#fff",
+                color: "#15110f",
+                marginBottom: "12px",
+                boxSizing: "border-box",
+              }}
+            />
+            {filteredArticles.length === 0 ? (
+              <p style={{ color: "#85756f", fontSize: "15px", textAlign: "center", padding: "20px 0" }}>
+                No articles found for "{searchTerm}"
+              </p>
+            ) : (
+              renderCards(filteredArticles)
+            )}
           </div>
         ) : (
-          /* DESKTOP : slider horizontal */
+          /* DESKTOP */
           <>
             <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "26px 24px 0" }}>
               <h2 style={{ margin: 0, fontSize: "28px", color: "#221b18" }}>Latest articles</h2>
-              <div style={{ display: "flex", gap: "12px" }}>
-                <button onClick={() => scroll("left")} style={arrowButton}>←</button>
-                <button onClick={() => scroll("right")} style={arrowButton}>→</button>
+              {/* Flèches visibles seulement quand pas de recherche */}
+              {!isSearching && (
+                <div style={{ display: "flex", gap: "12px" }}>
+                  <button onClick={() => scroll("left")} style={arrowButton}>←</button>
+                  <button onClick={() => scroll("right")} style={arrowButton}>→</button>
+                </div>
+              )}
+            </div>
+
+            {/* BARRE DE RECHERCHE */}
+            <div style={{ padding: "20px 24px 0" }}>
+              <input
+                type="text"
+                placeholder="🔍 Search articles..."
+                value={searchTerm}
+                onChange={(e) => setSearchTerm(e.target.value)}
+                style={{
+                  width: "100%",
+                  maxWidth: "420px",
+                  padding: "14px 18px",
+                  borderRadius: "14px",
+                  border: "1px solid #eadede",
+                  fontSize: "15px",
+                  outline: "none",
+                  background: "#fff",
+                  color: "#15110f",
+                  boxSizing: "border-box",
+                }}
+              />
+            </div>
+
+            {/* RÉSULTATS DE RECHERCHE — grille */}
+            {isSearching ? (
+              <div style={{ padding: "24px 24px 40px" }}>
+                {filteredArticles.length === 0 ? (
+                  <p style={{ color: "#85756f", fontSize: "15px", padding: "20px 0" }}>
+                    No articles found for "{searchTerm}"
+                  </p>
+                ) : (
+                  <div style={{
+                    display: "grid",
+                    gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))",
+                    gap: "16px",
+                  }}>
+                    {filteredArticles.map((article) => (
+                      <a
+                        key={article.url}
+                        href={article.url}
+                        onMouseEnter={(e) => { e.currentTarget.style.transform = "translateY(-6px)"; e.currentTarget.style.boxShadow = "0 20px 40px rgba(0,0,0,0.08)"; }}
+                        onMouseLeave={(e) => { e.currentTarget.style.transform = "translateY(0)"; e.currentTarget.style.boxShadow = "0 8px 24px rgba(0,0,0,0.04)"; }}
+                        style={{ ...cardStyle, transition: "transform 0.25s ease, box-shadow 0.25s ease" }}
+                      >
+                        <p style={{ color: "#d14d68", fontWeight: "800", letterSpacing: "0.14em", textTransform: "uppercase", fontSize: "11px", margin: "0 0 10px" }}>
+                          {article.category}
+                        </p>
+                        <h2 style={{ fontSize: "18px", lineHeight: "1.25", margin: "0 0 12px", color: "#2a211d" }}>
+                          {article.title}
+                        </h2>
+                        <p style={{ color: "#85756f", fontSize: "13px", margin: "0 0 14px" }}>
+                          {article.date} · {article.read}
+                        </p>
+                        <p style={{ fontSize: "14px", lineHeight: "1.6", color: "#3d3531", margin: 0 }}>
+                          {article.description}
+                        </p>
+                      </a>
+                    ))}
+                  </div>
+                )}
               </div>
-            </div>
-            <div
-              id="blog-slider"
-              style={{
-                display: "flex",
-                gap: "16px",
-                overflowX: "auto",
-                padding: "24px 24px 40px",
-                scrollBehavior: "smooth",
-                scrollbarWidth: "none",
-                msOverflowStyle: "none",
-                boxSizing: "border-box",
-              }}
-            >
-              {articles.map((article) => (
-                <a
-                  key={article.url}
-                  href={article.url}
-                  onMouseEnter={(e) => { e.currentTarget.style.transform = "translateY(-6px)"; e.currentTarget.style.boxShadow = "0 20px 40px rgba(0,0,0,0.08)"; }}
-                  onMouseLeave={(e) => { e.currentTarget.style.transform = "translateY(0)"; e.currentTarget.style.boxShadow = "0 8px 24px rgba(0,0,0,0.04)"; }}
-                  style={{ ...cardStyle, flex: "0 0 300px", width: "300px", transition: "transform 0.25s ease, box-shadow 0.25s ease" }}
-                >
-                  <p style={{ color: "#d14d68", fontWeight: "800", letterSpacing: "0.14em", textTransform: "uppercase", fontSize: "11px", margin: "0 0 10px" }}>
-                    {article.category}
-                  </p>
-                  <h2 style={{ fontSize: "18px", lineHeight: "1.25", margin: "0 0 12px", color: "#2a211d" }}>
-                    {article.title}
-                  </h2>
-                  <p style={{ color: "#85756f", fontSize: "13px", margin: "0 0 14px" }}>
-                    {article.date} · {article.read}
-                  </p>
-                  <p style={{ fontSize: "14px", lineHeight: "1.6", color: "#3d3531", margin: 0 }}>
-                    {article.description}
-                  </p>
-                </a>
-              ))}
-            </div>
+            ) : (
+              /* SLIDER NORMAL — pas de recherche */
+              <div
+                id="blog-slider"
+                style={{
+                  display: "flex",
+                  gap: "16px",
+                  overflowX: "auto",
+                  padding: "24px 24px 40px",
+                  scrollBehavior: "smooth",
+                  scrollbarWidth: "none",
+                  msOverflowStyle: "none",
+                  boxSizing: "border-box",
+                }}
+              >
+                {articles.map((article) => (
+                  <a
+                    key={article.url}
+                    href={article.url}
+                    onMouseEnter={(e) => { e.currentTarget.style.transform = "translateY(-6px)"; e.currentTarget.style.boxShadow = "0 20px 40px rgba(0,0,0,0.08)"; }}
+                    onMouseLeave={(e) => { e.currentTarget.style.transform = "translateY(0)"; e.currentTarget.style.boxShadow = "0 8px 24px rgba(0,0,0,0.04)"; }}
+                    style={{ ...cardStyle, flex: "0 0 300px", width: "300px", transition: "transform 0.25s ease, box-shadow 0.25s ease" }}
+                  >
+                    <p style={{ color: "#d14d68", fontWeight: "800", letterSpacing: "0.14em", textTransform: "uppercase", fontSize: "11px", margin: "0 0 10px" }}>
+                      {article.category}
+                    </p>
+                    <h2 style={{ fontSize: "18px", lineHeight: "1.25", margin: "0 0 12px", color: "#2a211d" }}>
+                      {article.title}
+                    </h2>
+                    <p style={{ color: "#85756f", fontSize: "13px", margin: "0 0 14px" }}>
+                      {article.date} · {article.read}
+                    </p>
+                    <p style={{ fontSize: "14px", lineHeight: "1.6", color: "#3d3531", margin: 0 }}>
+                      {article.description}
+                    </p>
+                  </a>
+                ))}
+              </div>
+            )}
           </>
         )}
 
