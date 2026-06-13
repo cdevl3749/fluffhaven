@@ -339,10 +339,32 @@ export default function Blog() {
                 outline: "none",
                 background: "#fff",
                 color: "#15110f",
-                marginBottom: "12px",
+                marginBottom: "8px",
                 boxSizing: "border-box",
               }}
             />
+            {/* POPULAR SEARCHES MOBILE */}
+            <div style={{ display: "flex", flexWrap: "wrap", gap: "8px", marginBottom: "12px" }}>
+              <span style={{ fontSize: "12px", color: "#85756f", alignSelf: "center", fontWeight: "600" }}>Popular:</span>
+              {["Skin", "Hair", "Cat", "Dog", "Summer", "Night"].map((tag) => (
+                <button
+                  key={tag}
+                  onClick={() => setSearchTerm(searchTerm === tag ? "" : tag)}
+                  style={{
+                    padding: "6px 14px",
+                    borderRadius: "999px",
+                    border: "1px solid #eadede",
+                    background: searchTerm === tag ? "#d14d68" : "#fff",
+                    color: searchTerm === tag ? "#fff" : "#3d3531",
+                    fontSize: "13px",
+                    fontWeight: "600",
+                    cursor: "pointer",
+                  }}
+                >
+                  {tag}
+                </button>
+              ))}
+            </div>
             {filteredArticles.length === 0 ? (
               <p style={{ color: "#85756f", fontSize: "15px", textAlign: "center", padding: "20px 0" }}>
                 No articles found for "{searchTerm}"
@@ -385,6 +407,28 @@ export default function Blog() {
                   boxSizing: "border-box",
                 }}
               />
+              {/* POPULAR SEARCHES DESKTOP */}
+              <div style={{ display: "flex", flexWrap: "wrap", gap: "8px", marginTop: "12px" }}>
+                <span style={{ fontSize: "12px", color: "#85756f", alignSelf: "center", fontWeight: "600" }}>Popular:</span>
+                {["Skin", "Hair", "Cat", "Dog", "Summer", "Night"].map((tag) => (
+                  <button
+                    key={tag}
+                    onClick={() => setSearchTerm(searchTerm === tag ? "" : tag)}
+                    style={{
+                      padding: "6px 14px",
+                      borderRadius: "999px",
+                      border: "1px solid #eadede",
+                      background: searchTerm === tag ? "#d14d68" : "#fff",
+                      color: searchTerm === tag ? "#fff" : "#3d3531",
+                      fontSize: "13px",
+                      fontWeight: "600",
+                      cursor: "pointer",
+                    }}
+                  >
+                    {tag}
+                  </button>
+                ))}
+              </div>
             </div>
 
             {/* RÉSULTATS DE RECHERCHE — grille */}
