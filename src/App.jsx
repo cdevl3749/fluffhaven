@@ -1359,6 +1359,7 @@ export default function App() {
   </div>
 </div>
                   <p className="cart-free-ship">✓ Free shipping included</p>
+                  <p className="cart-free-ship">✓ Secure worldwide checkout</p>
                   <div className="cart-security">
                     <span>🔒 SSL Secure</span>
                     <span>💳 Stripe</span>
