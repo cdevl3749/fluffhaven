@@ -97,8 +97,8 @@ export default function DogBarkingAtNight() {
               playtime and a happier daily routine.
             </p>
 
-            <a href="https://fluffhaven.shop/?product=13" style={ctaButton}>
-              View slow feeder bowl →
+            <a href="https://fluffhaven.shop/?product=2" style={ctaButton}>
+              View cooling mat →
             </a>
           </div>
         </div>

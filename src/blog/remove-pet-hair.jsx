@@ -143,7 +143,7 @@ export default function RemovePetHair() {
             </p>
 
             <a
-              href="https://fluffhaven.shop/?product=0"
+              href="https://fluffhaven.shop/?product=19"
               style={{
                 display: "inline-block",
                 background: "#fff",
@@ -154,7 +154,7 @@ export default function RemovePetHair() {
                 fontWeight: "800",
               }}
             >
-              View paw cleaner →
+              View cat tunnel →
             </a>
           </div>
         </div>

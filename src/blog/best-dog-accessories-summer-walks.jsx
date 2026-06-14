@@ -159,7 +159,7 @@ export default function BestDogAccessoriesSummerWalks() {
             </p>
 
             <a
-              href="https://fluffhaven.shop/?product=0"
+              href="https://fluffhaven.shop/?product=9"
               style={{
                 display: "inline-block",
                 background: "#fff",
@@ -170,7 +170,7 @@ export default function BestDogAccessoriesSummerWalks() {
                 fontWeight: "800",
               }}
             >
-              View paw cleaner →
+              View car seat cover →
             </a>
           </div>
         </div>

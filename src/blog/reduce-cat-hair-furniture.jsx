@@ -90,8 +90,8 @@ export default function ReduceCatHairFurniture() {
               from FluffHaven.
             </p>
 
-            <a href="https://fluffhaven.shop/?product=0" style={ctaButton}>
-              View paw cleaner →
+            <a href="https://fluffhaven.shop/?product=19" style={ctaButton}>
+              View cat tunnel →
             </a>
           </div>
         </div>

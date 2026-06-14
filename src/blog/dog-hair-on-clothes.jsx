@@ -111,8 +111,8 @@ export default function DogHairOnClothes() {
               accessories from FluffHaven.
             </p>
 
-            <a href="https://fluffhaven.shop/?product=0" style={ctaButton}>
-              View paw cleaner →
+            <a href="https://fluffhaven.shop/?product=9" style={ctaButton}>
+             View car seat cover →
             </a>
           </div>
         </div>

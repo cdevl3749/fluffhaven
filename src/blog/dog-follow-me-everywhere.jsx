@@ -149,7 +149,7 @@ export default function DogFollowMeEverywhere() {
             </p>
 
             <a
-              href="https://fluffhaven.shop/?product=13"
+              href="https://fluffhaven.shop/?product=2"
               style={{
                 display: "inline-block",
                 background: "#fff",
@@ -160,7 +160,7 @@ export default function DogFollowMeEverywhere() {
                 fontWeight: "800",
               }}
             >
-              View slow feeder bowl →
+              View cooling mat →
             </a>
           </div>
         </div>

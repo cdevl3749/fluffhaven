@@ -148,7 +148,7 @@ export default function CatHairOnClothes() {
             </p>
 
             <a
-              href="https://fluffhaven.shop/?product=0"
+              href="https://fluffhaven.shop/?product=19"
               style={{
                 display: "inline-block",
                 background: "#fff",

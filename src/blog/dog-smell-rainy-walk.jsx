@@ -92,8 +92,8 @@ export default function DogSmellRainyWalk() {
               FluffHaven.
             </p>
 
-            <a href="https://fluffhaven.shop/?product=0" style={ctaButton}>
-              View paw cleaner →
+            <a href="https://fluffhaven.shop/?product=2" style={ctaButton}>
+             View cooling mat →
             </a>
           </div>
         </div>
