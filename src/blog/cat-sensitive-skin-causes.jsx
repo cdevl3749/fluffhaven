@@ -123,7 +123,7 @@ export default function CatSensitiveSkinCauses() {
               moisturise and support cats with delicate skin.
             </p>
 
-            <a href="https://fluffhaven.shop/#shop" style={ctaButton}>
+            <a href="https://fluffhaven.shop/?product=21" style={ctaButton}>
               View cat shampoo →
             </a>
           </div>

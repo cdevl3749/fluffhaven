@@ -91,8 +91,8 @@ export default function StopCatScratchingFurniture() {
               FluffHaven.
             </p>
 
-            <a href="https://fluffhaven.shop/#shop" style={ctaButton}>
-              View cat accessories →
+            <a href="https://fluffhaven.shop/?product=16" style={ctaButton}>
+              View cat tunnel →
             </a>
           </div>
         </div>

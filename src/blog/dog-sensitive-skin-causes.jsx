@@ -114,7 +114,7 @@ export default function DogSensitiveSkinCauses() {
               clean, moisturise and soothe without harsh ingredients.
             </p>
 
-            <a href="https://fluffhaven.shop/#shop" style={ctaButton}>
+            <a href="https://fluffhaven.shop/?product=20" style={ctaButton}>
               View dog shampoo →
             </a>
           </div>

@@ -143,7 +143,7 @@ export default function CleanDogPaws() {
             </p>
 
             <a
-              href="https://fluffhaven.shop/#shop"
+              href="https://fluffhaven.shop/?product=0"
               style={{
                 display: "inline-block",
                 background: "#fff",

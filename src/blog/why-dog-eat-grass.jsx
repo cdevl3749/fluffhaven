@@ -103,8 +103,8 @@ export default function WhyDogEatGrass() {
               and pet care easier with FluffHaven.
             </p>
 
-            <a href="https://fluffhaven.shop/#shop" style={ctaButton}>
-              View dog accessories →
+            <a href="https://fluffhaven.shop/?product=13" style={ctaButton}>
+              View slow feeder bowl →
             </a>
           </div>
         </div>

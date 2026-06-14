@@ -90,8 +90,8 @@ export default function CalmAnxiousDogHome() {
               FluffHaven.
             </p>
 
-            <a href="https://fluffhaven.shop/#shop" style={ctaButton}>
-              View dog accessories →
+            <a href="https://fluffhaven.shop/?product=2" style={ctaButton}>
+              View cooling mat →
             </a>
           </div>
         </div>

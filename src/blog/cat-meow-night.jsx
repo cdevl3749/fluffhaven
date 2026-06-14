@@ -86,8 +86,8 @@ export default function CatMeowNight() {
               Discover simple cat toys and indoor accessories from FluffHaven.
             </p>
 
-            <a href="https://fluffhaven.shop/#shop" style={ctaButton}>
-              View cat toys →
+            <a href="https://fluffhaven.shop/?product=16" style={ctaButton}>
+              View cat tunnel →
             </a>
           </div>
         </div>

@@ -112,8 +112,8 @@ export default function CatPeeingOutsideLitterBox() {
               indoor cats feel comfortable and relaxed.
             </p>
 
-            <a href="https://fluffhaven.shop/#shop" style={ctaButton}>
-              View cat products →
+            <a href="https://fluffhaven.shop/?product=16" style={ctaButton}>
+              View cat tunnel →
             </a>
           </div>
         </div>

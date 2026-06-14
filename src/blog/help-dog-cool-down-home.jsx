@@ -147,7 +147,7 @@ export default function HelpDogCoolDownHome() {
             </p>
 
             <a
-              href="https://fluffhaven.shop/#shop"
+              href="https://fluffhaven.shop/?product=2"
               style={{
                 display: "inline-block",
                 background: "#fff",
@@ -158,7 +158,7 @@ export default function HelpDogCoolDownHome() {
                 fontWeight: "800",
               }}
             >
-              View pet accessories →
+              View cooling mat →
             </a>
           </div>
         </div>

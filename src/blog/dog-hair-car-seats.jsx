@@ -90,7 +90,7 @@ export default function DogHairCarSeats() {
               FluffHaven.
             </p>
 
-            <a href="https://fluffhaven.shop/#shop" style={ctaButton}>
+            <a href="https://fluffhaven.shop/?product=9" style={ctaButton}>
               View dog accessories →
             </a>
           </div>

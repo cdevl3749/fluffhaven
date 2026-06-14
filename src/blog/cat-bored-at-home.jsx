@@ -100,8 +100,8 @@ export default function CatBoredAtHome() {
               FluffHaven.
             </p>
 
-            <a href="https://fluffhaven.shop/#shop" style={ctaButton}>
-              View cat toys →
+            <a href="https://fluffhaven.shop/?product=16" style={ctaButton}>
+              View cat tunnel →
             </a>
           </div>
         </div>

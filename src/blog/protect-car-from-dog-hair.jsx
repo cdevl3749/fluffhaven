@@ -150,7 +150,7 @@ export default function ProtectCarFromDogHair() {
             </p>
 
             <a
-              href="https://fluffhaven.shop/#shop"
+              href="https://fluffhaven.shop/?product=9"
               style={{
                 display: "inline-block",
                 background: "#fff",

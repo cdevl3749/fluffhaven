@@ -155,7 +155,7 @@ export default function KeepDogCoolSummer() {
             </p>
 
             <a
-              href="https://fluffhaven.shop/#shop"
+              href="https://fluffhaven.shop/?product=2"
               style={{
                 display: "inline-block",
                 background: "#fff",
@@ -166,7 +166,7 @@ export default function KeepDogCoolSummer() {
                 fontWeight: "800",
               }}
             >
-              View summer accessories →
+              View cooling mat →
             </a>
           </div>
         </div>
