@@ -50,6 +50,9 @@ import CatFollowMeEverywhere from './blog/cat-follow-me-everywhere.jsx'
 import DogSensitiveSkinCauses from './blog/dog-sensitive-skin-causes.jsx'
 import CatSensitiveSkinCauses from './blog/cat-sensitive-skin-causes.jsx'
 
+import TravelSafelyWithDogSummer from './blog/travel-safely-with-dog-summer.jsx'
+import SummerVacationChecklistPets from './blog/summer-vacation-checklist-pets.jsx'
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {
@@ -117,6 +120,10 @@ createRoot(document.getElementById('root')).render(
         <DogSensitiveSkinCauses />
       ) : window.location.pathname === "/blog/cat-sensitive-skin-causes" ? (
         <CatSensitiveSkinCauses />
+      ) : window.location.pathname === "/blog/travel-safely-with-dog-summer" ? (
+        <TravelSafelyWithDogSummer />
+      ) : window.location.pathname === "/blog/summer-vacation-checklist-pets" ? (
+        <SummerVacationChecklistPets />
       ) : (
         <App />
       )

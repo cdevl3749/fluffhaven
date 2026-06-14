@@ -257,4 +257,20 @@
     <priority>0.80</priority>
   </url>
 
+  <!-- Article 31 -->
+  <url>
+    <loc>https://fluffhaven.shop/blog/travel-safely-with-dog-summer</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- Article 32 -->
+  <url>
+    <loc>https://fluffhaven.shop/blog/summer-vacation-checklist-pets</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
 </urlset>
