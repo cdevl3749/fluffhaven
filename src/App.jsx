@@ -909,6 +909,19 @@ export default function App() {
   const [activePage, setActivePage] = useState(null);
   const [activeProduct, setActiveProduct] = useState(null); // ← modale details
 
+  useEffect(() => {
+  const params = new URLSearchParams(window.location.search);
+  const productId = Number(params.get("product"));
+
+  if (productId) {
+    const product = PRODUCTS.find((p) => p.id === productId);
+
+    if (product) {
+      setActiveProduct(product);
+    }
+  }
+}, []);
+
   // ── Bloque le scroll quand une modale est ouverte ──
   useEffect(() => {
     const isOpen = !!activeProduct || !!activePage || openCart;
@@ -1400,10 +1413,25 @@ export default function App() {
   </div>
 </div>
 
-<button className="details-add-btn" onClick={() => {
-  activeProduct.onAddToCart();
-  setActiveProduct(null);
-}}>
+<button
+  className="details-add-btn"
+  onClick={() => {
+    if (activeProduct.onAddToCart) {
+      activeProduct.onAddToCart();
+    } else {
+      addToCart({
+        id: activeProduct.id,
+        name: activeProduct.name,
+        price: activeProduct.price,
+        priceId: activeProduct.priceId,
+        image: activeProduct.images ? activeProduct.images[0] : null,
+        subtitle: activeProduct.subtitle,
+      });
+    }
+
+    setActiveProduct(null);
+  }}
+>
   Add to Cart
 </button>
           </div>
