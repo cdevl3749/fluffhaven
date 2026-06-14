@@ -252,6 +252,22 @@ export default function Blog() {
       description: "Learn why some cats develop sensitive skin, what signs to watch for and how gentle grooming can help keep them comfortable.",
       url: "/blog/cat-sensitive-skin-causes",
     },
+    {
+    title: "How To Travel Safely With Your Dog This Summer",
+    category: "Dog care guide",
+    date: "June 2026",
+    read: "5 min read",
+    description: "Simple tips to keep your dog safe, comfortable and cool during summer road trips and vacations.",
+    url: "/blog/travel-safely-with-dog-summer",
+  },
+  {
+    title: "Summer Vacation Checklist For Pet Owners",
+    category: "Pet care guide",
+    date: "June 2026",
+    read: "5 min read",
+    description: "A complete summer vacation checklist to help pet owners prepare for safe and stress-free travel.",
+    url: "/blog/summer-vacation-checklist-pets",
+  },
   ];
 
   // ── Filtrage par recherche ──
