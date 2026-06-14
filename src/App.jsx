@@ -911,9 +911,10 @@ export default function App() {
 
   useEffect(() => {
   const params = new URLSearchParams(window.location.search);
-  const productId = Number(params.get("product"));
+  const productParam = params.get("product");
 
-  if (!isNaN(productId)) {
+  if (productParam !== null) {
+    const productId = Number(productParam);
     const product = PRODUCTS.find((p) => p.id === productId);
 
     if (product) {
