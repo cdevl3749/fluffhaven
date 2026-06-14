@@ -913,7 +913,7 @@ export default function App() {
   const params = new URLSearchParams(window.location.search);
   const productId = Number(params.get("product"));
 
-  if (productId) {
+  if (!isNaN(productId)) {
     const product = PRODUCTS.find((p) => p.id === productId);
 
     if (product) {
