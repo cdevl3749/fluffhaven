@@ -146,7 +146,7 @@ Perfect for outdoor adventures.
     price: 29.90,
     badge: "Summer",
     priceId: "price_1TSMB9Kn0lmTcQ11az73rxbZ",
-    images: ["/tapis_rafraichissant.webp", "/tapis_rafraichissant_2.webp"],
+    images: ["/tapis_rafraichissant.webp", "/tapis_rafraichissant_2.webp", "/tapis_rafraichissant_3.webp"],
     description: "Self-cooling silk surface keeps your pet comfortable all summer. Waterproof & non-slip bottom. Machine washable. Perfect for dogs & cats.",
     details: `
 ✔ Self-cooling silk surface
@@ -166,7 +166,7 @@ Keeps your pet cool all summer long.
     price: 34.90,
     badge: "Popular",
     priceId: "price_1TSMRBKn0lmTcQ117Az7zJwR",
-    images: ["/peigne_brosse.webp", "/peigne_brosse_2.webp", "/peigne_brosse_3.webp"],
+    images: ["/peigne_brosse_3.webp", "/peigne_brosse_2.webp", "/peigne_brosse.webp"],
     description: "One-click steam & water spray, electric massage, and detangling bristles all in one. USB rechargeable. Helps reduce flying hair.",
     details: `
 ✔ One-click steam spray
@@ -203,7 +203,7 @@ A simple and effective way to keep your home clean.
       images: [
         "/gant_anti_poils.webp",
         "/gant_anti_poils2.webp",
-        "/gan_anti_poils3.webp"
+        "/gant_anti_poils3.webp"
       ],
       priceId: "price_1TVz1LKn0lmTcQ11NQbngAuG"
     },
@@ -274,7 +274,7 @@ A simple way to make mealtime calmer and safer.
       color: "#F8B6B6",
       label: "Light Pink",
       images: [
-        "/gamelle_chien_rose.webp"
+        "/gamelle_chien_magenta.webp"
       ],
       priceId: "price_1TVzo4Kn0lmTcQ11xs2ZMQ0f"
     },
@@ -283,7 +283,7 @@ A simple way to make mealtime calmer and safer.
       color: "#E91E8F",
       label: "Pink",
       images: [
-        "/gamelle_chien_magenta.webp"
+        "/gamelle_chien_rose.webp"
       ],
       priceId: "price_1TVzqLKn0lmTcQ11i49w7tcj"
     }
@@ -570,7 +570,7 @@ A simple daily grooming and relaxation spot your cat can enjoy on its own.
   priceId: "price_1TgVBhKn0lmTcQ11A2aHttTo",
 
   images: [
-    "/dog_shampoo.webp",
+    "/dog_shampoo_bt.webp",
     "/dog_shampoo2.webp",
     "/dog_shampoo3.webp"
   ],
@@ -596,7 +596,7 @@ A simple daily grooming and relaxation spot your cat can enjoy on its own.
 ✓ Trusted by thousands of pet owners
   `,
 
-  sizes: [],
+  promo: "🌿 Gentle formula for sensitive skin",
 },
 {
   id: 21,
@@ -614,8 +614,8 @@ A simple daily grooming and relaxation spot your cat can enjoy on its own.
   priceId: "price_1TgVghKn0lmTcQ113fn3DVmJ",
 
   images: [
+    "/cat_shampoo_bt.webp",
     "/cat_shampoo3.webp",
-    "/cat_shampoo.webp",
     "/cat_shampoo2.webp"
   ],
 
@@ -640,7 +640,7 @@ A simple daily grooming and relaxation spot your cat can enjoy on its own.
 ✓ Trusted by thousands of pet owners
   `,
 
-  sizes: [],
+  promo: "🌿 Gentle formula for sensitive skin",
 },
 ];
 
@@ -1082,6 +1082,50 @@ export default function App() {
         </div>
       </section>
 
+     <section className="summer-promo">
+        <div className="summer-promo-content">
+          <div className="summer-promo-header">
+            <span>☀️ SUMMER PET CARE</span>
+            <h2>Keep dogs & cats comfortable this summer</h2>
+            <p>
+              Discover our gentle hypoallergenic shampoos designed for sensitive
+              skin and warm weather care.
+            </p>
+          </div>
+
+          <div className="summer-products">
+            <div className="summer-card">
+              <img src="/dog_shampoo_bt.webp" alt="Sensitive Skin Dog Shampoo" />
+              <h3>Dog Shampoo</h3>
+              <p>Hypoallergenic • Sensitive Skin</p>
+
+              <button
+                className="summer-btn"
+                onClick={() =>
+                  setActiveProduct(PRODUCTS.find((p) => p.id === 20))
+                }
+              >
+                View details →
+              </button>
+            </div>
+
+            <div className="summer-card">
+              <img src="/cat_shampoo_bt.webp" alt="Sensitive Skin Cat Shampoo" />
+              <h3>Cat Shampoo</h3>
+              <p>Hypoallergenic • Sensitive Skin</p>
+
+              <button
+                className="summer-btn"
+                onClick={() =>
+                  setActiveProduct(PRODUCTS.find((p) => p.id === 21))
+                }
+              >
+                View details →
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
       {/* WHY FLUFFHAVEN */}
       <section className="why-fluffhaven">
         <div className="why-card">
