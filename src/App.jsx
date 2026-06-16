@@ -901,7 +901,14 @@ export default function App() {
   const [showCookies, setShowCookies] = useState(
     () => localStorage.getItem("fh_cookies_accepted") !== "true"
   );
-  const [cart, setCart] = useState([]);
+  const [cart, setCart] = useState(() => {
+  const savedCart = localStorage.getItem("fluffhaven_cart");
+  return savedCart ? JSON.parse(savedCart) : [];
+});
+
+useEffect(() => {
+  localStorage.setItem("fluffhaven_cart", JSON.stringify(cart));
+}, [cart]);
   const [openCart, setOpenCart] = useState(false);
   const [showBackTop, setShowBackTop] = useState(false);
   const [activeTab, setActiveTab] = useState("all");
