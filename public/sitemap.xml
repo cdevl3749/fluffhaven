@@ -273,4 +273,36 @@
     <priority>0.80</priority>
   </url>
 
+  <!-- Article 33 -->
+  <url>
+    <loc>https://fluffhaven.shop/blog/why-cat-sleep-on-me</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- Article 34 -->
+  <url>
+    <loc>https://fluffhaven.shop/blog/dog-follow-me-bathroom</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- Article 35 -->
+  <url>
+    <loc>https://fluffhaven.shop/blog/can-cats-get-heatstroke</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- Article 36 -->
+  <url>
+    <loc>https://fluffhaven.shop/blog/how-to-keep-cat-cool-heatwave</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
 </urlset>

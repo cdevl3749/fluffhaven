@@ -53,6 +53,12 @@ import CatSensitiveSkinCauses from './blog/cat-sensitive-skin-causes.jsx'
 import TravelSafelyWithDogSummer from './blog/travel-safely-with-dog-summer.jsx'
 import SummerVacationChecklistPets from './blog/summer-vacation-checklist-pets.jsx'
 
+import WhyCatSleepOnMe from './blog/why-cat-sleep-on-me.jsx'
+import DogFollowMeBathroom from './blog/dog-follow-me-bathroom.jsx'
+
+import CanCatsGetHeatstroke from './blog/can-cats-get-heatstroke.jsx'
+import HowToKeepCatCoolHeatwave from './blog/how-to-keep-cat-cool-heatwave.jsx'
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {
@@ -124,6 +130,14 @@ createRoot(document.getElementById('root')).render(
         <TravelSafelyWithDogSummer />
       ) : window.location.pathname === "/blog/summer-vacation-checklist-pets" ? (
         <SummerVacationChecklistPets />
+        ) : window.location.pathname === "/blog/why-cat-sleep-on-me" ? (
+        <WhyCatSleepOnMe />
+      ) : window.location.pathname === "/blog/dog-follow-me-bathroom" ? (
+        <DogFollowMeBathroom />
+      ) : window.location.pathname === "/blog/can-cats-get-heatstroke" ? (
+        <CanCatsGetHeatstroke />
+      ) : window.location.pathname === "/blog/how-to-keep-cat-cool-heatwave" ? (
+        <HowToKeepCatCoolHeatwave />
       ) : (
         <App />
       )

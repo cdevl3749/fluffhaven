@@ -268,6 +268,43 @@ export default function Blog() {
     description: "A complete summer vacation checklist to help pet owners prepare for safe and stress-free travel.",
     url: "/blog/summer-vacation-checklist-pets",
   },
+  {
+  title: "Why Does My Cat Sleep On Me?",
+  category: "Cat behavior",
+  date: "June 2026",
+  read: "5 min read",
+  description: "Discover why cats love sleeping on their owners and what this behavior says about trust, comfort and affection.",
+  url: "/blog/why-cat-sleep-on-me",
+},
+
+{
+  title: "Why Does My Dog Follow Me To The Bathroom?",
+  category: "Dog behavior",
+  date: "June 2026",
+  read: "5 min read",
+  description: "Learn why dogs follow their owners everywhere, including the bathroom, and what it reveals about their bond with you.",
+  url: "/blog/dog-follow-me-bathroom",
+},
+
+{
+  title: "Can Cats Get Heatstroke? Warning Signs Every Owner Should Know",
+  category: "Cat health",
+  date: "June 2026",
+  read: "5 min read",
+  description:
+    "Learn the warning signs of heatstroke in cats, when it becomes an emergency, and how to keep your cat safe during hot summer days.",
+  url: "/blog/can-cats-get-heatstroke",
+},
+
+{
+  title: "How To Keep A Cat Cool During A Heatwave",
+  category: "Cat care",
+  date: "June 2026",
+  read: "5 min read",
+  description:
+    "Simple and effective ways to help your cat stay cool, hydrated, and comfortable during extreme summer heat.",
+  url: "/blog/how-to-keep-cat-cool-heatwave",
+},
   ];
 
   // ── Filtrage par recherche ──
@@ -334,6 +371,16 @@ export default function Blog() {
           </h1>
           <p style={{ color: "#7b6f6a", fontSize: "18px", margin: 0 }}>
             Simple guides for dog and cat owners
+          </p>
+          <p
+            style={{
+              color: "#d14d68",
+              fontSize: "15px",
+              fontWeight: "700",
+              marginTop: "12px",
+            }}
+          >
+            {articles.length} articles for dog and cat owners
           </p>
         </div>
 
