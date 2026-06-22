@@ -2412,3 +2412,23 @@ body.modal-open {
     padding: 8px;
   }
 }
+
+.world-cup-share-btn {
+  margin: 0 auto 18px;
+  padding: 7px 16px;
+  border-radius: 999px;
+  border: 1px solid #eadede;
+  background: #fff;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 700;
+  color: #3d3531;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.world-cup-share-btn:hover {
+  background: #d14d68;
+  color: #fff;
+}
