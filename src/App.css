@@ -2326,3 +2326,89 @@ body.modal-open {
   background: #c8475e;
   transform: translateY(-2px);
 }
+
+/* WORLD CUP 2026 DOG STYLE */
+
+.world-cup-section {
+  padding: 25px 20px 30px;
+  text-align: center;
+  background: #fffaf4;
+}
+
+.world-cup-card {
+  cursor: pointer;
+}
+
+.world-cup-intro {
+  max-width: 720px;
+  margin: 10px auto 24px;
+  color: #7b6f6a;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.world-cup-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.world-cup-card {
+  background: #ffffff;
+  border-radius: 22px;
+  overflow: hidden;
+  box-shadow: 0 14px 35px rgba(21, 17, 15, 0.08);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.world-cup-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 18px 45px rgba(21, 17, 15, 0.12);
+}
+
+.world-cup-card img {
+  width: 100%;
+  display: block;
+}
+
+.world-cup-section h2 {
+  color: #15110f;
+  font-size: 36px;
+  margin-bottom: 12px;
+}
+
+.world-cup-card h3 {
+  margin: 0;
+  padding: 14px;
+  font-size: 18px;
+  color: #8b6b5c;
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+
+  .world-cup-section {
+    padding: 20px 15px 20px;
+  }
+
+  .world-cup-section h2 {
+    font-size: 28px;
+  }
+
+  .world-cup-intro {
+    font-size: 15px;
+    margin: 8px auto 18px;
+  }
+
+  .world-cup-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .world-cup-card h3 {
+    font-size: 14px;
+    padding: 8px;
+  }
+}

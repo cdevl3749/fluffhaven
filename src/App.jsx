@@ -1133,6 +1133,64 @@ useEffect(() => {
           </div>
         </div>
       </section>
+
+     {/* WORLD CUP 2026 DOG STYLE */}
+<section className="world-cup-section">
+  <div className="section-label">World Cup 2026</div>
+
+  <h2>Golden Retriever Fan Collection</h2>
+
+  <p className="world-cup-intro">
+    Our Golden Retriever mascot is cheering for teams around the world.
+    Which team would your dog support?
+  </p>
+
+  <div className="world-cup-grid">
+    <div className="world-cup-card">
+      <img src="/world_cup_usa_2026.webp" alt="USA Golden Retriever Fan Edition" />
+      <h3>USA</h3>
+    </div>
+
+    <div className="world-cup-card">
+      <img src="/world_cup_canada_2026.webp" alt="Canada Golden Retriever Fan Edition" />
+      <h3>Canada</h3>
+    </div>
+
+    <div className="world-cup-card">
+      <img src="/world_cup_belgium_2026.webp" alt="Belgium Golden Retriever Fan Edition" />
+      <h3>Belgium</h3>
+    </div>
+
+    <div className="world-cup-card">
+      <img src="/world_cup_france_2026.webp" alt="France Golden Retriever Fan Edition" />
+      <h3>France</h3>
+    </div>
+
+    <div className="world-cup-card">
+      <img src="/world_cup_australia_2026.webp" alt="Australia Golden Retriever Fan Edition" />
+      <h3>Australia</h3>
+    </div>
+
+    <div className="world-cup-card">
+      <img src="/world_cup_brazil_2026.webp" alt="Brazil Golden Retriever Fan Edition" />
+      <h3>Brazil</h3>
+    </div>
+
+    <div className="world-cup-card">
+      <img src="/world_cup_argentina_2026.webp" alt="Argentina Golden Retriever Fan Edition" />
+      <h3>Argentina</h3>
+    </div>
+
+    <div className="world-cup-card">
+      <img
+        src="/world_cup_england_2026.webp"
+        alt="England Golden Retriever Fan Edition"
+      />
+      <h3>England</h3>
+    </div>
+  </div>
+</section>
+
       {/* WHY FLUFFHAVEN */}
       <section className="why-fluffhaven">
         <div className="why-card">
