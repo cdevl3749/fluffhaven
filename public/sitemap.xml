@@ -305,4 +305,12 @@
     <priority>0.80</priority>
   </url>
 
+  <!-- Article 37 -->
+  <url>
+    <loc>https://fluffhaven.shop/blog/can-dogs-watch-football</loc>
+    <lastmod>2026-06-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
 </urlset>

@@ -305,6 +305,16 @@ export default function Blog() {
     "Simple and effective ways to help your cat stay cool, hydrated, and comfortable during extreme summer heat.",
   url: "/blog/how-to-keep-cat-cool-heatwave",
 },
+
+{
+  title: "Can Dogs Watch Football? Why Some Dogs React To TV Sports",
+  category: "Dog behavior",
+  date: "June 2026",
+  read: "5 min read",
+  description:
+    "Discover why some dogs seem fascinated by football matches, moving balls on TV and the excitement of game day.",
+  url: "/blog/can-dogs-watch-football",
+},
   ];
 
   // ── Filtrage par recherche ──

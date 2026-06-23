@@ -59,6 +59,8 @@ import DogFollowMeBathroom from './blog/dog-follow-me-bathroom.jsx'
 import CanCatsGetHeatstroke from './blog/can-cats-get-heatstroke.jsx'
 import HowToKeepCatCoolHeatwave from './blog/how-to-keep-cat-cool-heatwave.jsx'
 
+import CanDogsWatchFootball from './blog/can-dogs-watch-football.jsx'
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {
@@ -138,7 +140,9 @@ createRoot(document.getElementById('root')).render(
         <CanCatsGetHeatstroke />
       ) : window.location.pathname === "/blog/how-to-keep-cat-cool-heatwave" ? (
         <HowToKeepCatCoolHeatwave />
-      ) : (
+     ) : window.location.pathname === "/blog/can-dogs-watch-football" ? (
+        <CanDogsWatchFootball />
+     ) : (
         <App />
       )
     }
