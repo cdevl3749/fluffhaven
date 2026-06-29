@@ -399,6 +399,13 @@ useEffect(() => {
       });
       fetch("/.netlify/functions/stats", { method: "POST", body: JSON.stringify({ type: "stripe" }) });
       const data = await response.json();
+
+      console.log(data);
+
+      if (!response.ok) {
+        alert(data.details || data.error || "Stripe checkout error");
+        return;
+      }
       if (data.url) window.location.href = data.url;
     } catch (error) {
       alert("Error");
