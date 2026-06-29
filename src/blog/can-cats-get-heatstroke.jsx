@@ -110,7 +110,7 @@ return ( <main style={page}> <article style={article}> <div style={hero}> <a hre
         </p>
 
         <a
-          href="https://fluffhaven.shop/?product=14"
+          href="/product/l-shape-cat-scratcher"
           style={ctaButton}
         >
           View Cat Water Fountain →

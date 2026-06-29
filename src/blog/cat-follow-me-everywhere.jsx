@@ -98,7 +98,7 @@ export default function CatFollowMeEverywhere() {
               to support indoor cats every day.
             </p>
 
-            <a href="https://fluffhaven.shop/?product=19" style={ctaButton}>
+            <a href="/product/cat-self-grooming-brush" style={ctaButton}>
               View cat tunnel →
             </a>
           </div>

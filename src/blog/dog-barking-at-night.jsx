@@ -97,7 +97,7 @@ export default function DogBarkingAtNight() {
               playtime and a happier daily routine.
             </p>
 
-            <a href="https://fluffhaven.shop/?product=2" style={ctaButton}>
+            <a href="/product/premium-cooling-mat" style={ctaButton}>
               View cooling mat →
             </a>
           </div>

@@ -105,7 +105,7 @@ export default function SummerVacationChecklistPets() {
               owners at home and on the go.
             </p>
 
-            <a href="https://fluffhaven.shop/?product=9" style={ctaButton}>
+            <a href="/product/dog-car-seat-cover" style={ctaButton}>
               View car seat cover →
             </a>
           </div>

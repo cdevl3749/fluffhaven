@@ -101,7 +101,7 @@ return ( <main style={page}> <article style={article}> <div style={hero}> <a hre
           comfortable and secure every day.
         </p>
 
-        <a href="https://fluffhaven.shop/?product=18" style={ctaButton}>
+        <a href="/product/cozy-cat-cave-bed" style={ctaButton}>
           View Cozy Cat Cave →
         </a>
       </div>

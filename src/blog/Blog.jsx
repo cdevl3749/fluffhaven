@@ -315,6 +315,26 @@ export default function Blog() {
     "Discover why some dogs seem fascinated by football matches, moving balls on TV and the excitement of game day.",
   url: "/blog/can-dogs-watch-football",
 },
+
+{
+  title: "Why Does My Dog Sleep Against Me?",
+  category: "Dog behavior",
+  date: "June 2026",
+  read: "5 min read",
+  description:
+    "Discover why dogs like to sleep pressed against their owners, what it means emotionally, and when this behavior is completely normal.",
+  url: "/blog/why-does-my-dog-sleep-against-me",
+},
+
+{
+  title: "Why Does My Dog Stare At Me All The Time?",
+  category: "Dog behavior",
+  date: "June 2026",
+  read: "5 min read",
+  description:
+    "Learn why your dog stares at you so often, from affection and attention-seeking to habits, communication and daily routines.",
+  url: "/blog/why-does-my-dog-stare-at-me",
+},
   ];
 
   // ── Filtrage par recherche ──

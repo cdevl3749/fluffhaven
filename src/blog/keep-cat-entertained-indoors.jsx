@@ -84,7 +84,7 @@ export default function KeepCatEntertainedIndoors() {
               Discover simple cat toys and accessories from FluffHaven.
             </p>
 
-            <a href="https://fluffhaven.shop/?product=19" style={ctaButton}>
+            <a href="/product/cat-self-grooming-brush" style={ctaButton}>
               View cat tunnel →
             </a>
           </div>

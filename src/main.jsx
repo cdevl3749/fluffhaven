@@ -1,4 +1,4 @@
-import { StrictMode } from 'react'
+import { StrictMode } from "react";
 import { createRoot } from 'react-dom/client'
 
 import './index.css'
@@ -60,6 +60,11 @@ import CanCatsGetHeatstroke from './blog/can-cats-get-heatstroke.jsx'
 import HowToKeepCatCoolHeatwave from './blog/how-to-keep-cat-cool-heatwave.jsx'
 
 import CanDogsWatchFootball from './blog/can-dogs-watch-football.jsx'
+
+import DogSleepAgainstMe from "./blog/dog-sleep-against-me.jsx";
+import DogStareAtMe from "./blog/dog-stare-at-me.jsx";
+
+import ProductPage from "./pages/ProductPage.jsx";
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -140,9 +145,19 @@ createRoot(document.getElementById('root')).render(
         <CanCatsGetHeatstroke />
       ) : window.location.pathname === "/blog/how-to-keep-cat-cool-heatwave" ? (
         <HowToKeepCatCoolHeatwave />
-     ) : window.location.pathname === "/blog/can-dogs-watch-football" ? (
+      ) : window.location.pathname === "/blog/can-dogs-watch-football" ? (
         <CanDogsWatchFootball />
-     ) : (
+      )
+      : window.location.pathname === "/blog/why-does-my-dog-sleep-against-me" ? (
+        <DogSleepAgainstMe />
+      )
+      : window.location.pathname === "/blog/why-does-my-dog-stare-at-me" ? (
+        <DogStareAtMe />
+      )
+      : window.location.pathname.startsWith("/product/") ? (
+        <ProductPage />
+      )
+      : (
         <App />
       )
     }

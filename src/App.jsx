@@ -1,648 +1,11 @@
 import { useState, useEffect } from "react";
 import "./App.css";
+import { PRODUCTS } from "./data/products";
+import ProductPage from "./pages/ProductPage";
 
 // ─────────────────────────────────────────────────────────────
 // PRODUCTS
 // ─────────────────────────────────────────────────────────────
-const PRODUCTS = [
-
-  // 🔥 PRODUITS QUI CONVERTISSENT (EN PREMIER)
-  {
-    id: 8,
-    name: "Pet Hair Remover Roller",
-    category: "dog",
-    subtitle: "No tape · reusable · instant clean",
-    price: 39.90,
-    badge: "🔥 Best Seller",
-    priceId: "price_1TTQgZKn0lmTcQ11QW74njjh",
-    images: ["/brosse_anti_poils.webp","/brosse_anti_poils2.webp","/brosse_anti_poils3.webp"],
-    description: "Remove pet hair in seconds. No sticky tape, no mess. Perfect for home, clothes and car.",
-    details: `
-✔ Removes pet hair instantly
-✔ No sticky tape needed
-✔ Reusable & eco-friendly
-✔ Works on sofa, clothes & car seats
-✔ Self-cleaning system
-
-Perfect for keeping your home clean every day.
-`,
-  },
-
-  {
-    id: 9,
-    name: "Dog Car Seat Cover",
-    category: "dog",
-    subtitle: "Waterproof · anti-slip · full protection",
-    price: 89.90,
-    badge: "⭐ Premium",
-    priceId: "price_1TTRPvKn0lmTcQ11Q926IlD8",
-    images: ["/housse_chien.webp","/housse_chien2.webp","/housse_chien3.webp"],
-    description: "Protect your car from dirt, scratches and pet hair. Waterproof and easy to install.",
-    details: `
-✔ 100% waterproof protection
-✔ Anti-slip backing
-✔ Protects against mud, hair & scratches
-✔ Easy installation in seconds
-✔ Fits most cars & SUVs
-
-Travel with your dog stress-free.
-`,
-  },
-
-  {
-    id: 10,
-    name: "No-Pull Dog Harness",
-    category: "dog",
-    subtitle: "No-pull · strong · comfortable",
-    price: 59.90,
-    badge: "🔥 Best Seller",
-    priceId: "price_1TTRdcKn0lmTcQ11BVllH8Sy",
-    images: ["/harnais_chien.webp","/harnais_chien2.webp","/harnais_chien3.webp"],
-    description: "Stop pulling instantly. Comfortable harness designed for strong dogs and daily walks.",
-    details: `
-✔ Reduces pulling instantly
-✔ Front clip control system
-✔ Comfortable padding
-✔ Strong & durable materials
-✔ Adjustable for all sizes
-
-Perfect for daily walks and training.
-`,
-  },
-
-  {
-    id: 11,
-    name: "Electric Dog Nail Grinder",
-    category: "dog",
-    subtitle: "Quiet · LED · safe grooming",
-    price: 49.90,
-    badge: "⚡ Popular",
-    priceId: "price_1TTRrOKn0lmTcQ11kjI4jVrr",
-    images: ["/ponceuse_griffe.webp","/ponceuse_griffe2.webp","/ponceuse_griffe3.webp"],
-    description: "Trim your pet's nails safely and stress-free. Quiet, precise and easy to use.",
-    details: `
-✔ Safe & painless nail trimming
-✔ Quiet motor (no stress)
-✔ 2 speed settings
-✔ Built-in LED for precision
-✔ USB rechargeable
-
-Professional grooming at home.
-`,
-  },
-
-  // 🐶 PRODUITS CHIENS
-  {
-    id: 0,
-    name: "Dog Paw Cleaner",
-    category: "dog",
-    subtitle: "Portable silicone cleaner — S / M / L",
-    price: 37.90,
-    badge: "Best Seller",
-    description: "Gentle silicone bristles remove mud & dirt effortlessly after every walk. No more muddy floors. Works for all breeds.",
-    details: `
-✔ Soft silicone bristles
-✔ Available in S / M / L
-✔ Blue & Orange colours
-✔ Easy to clean
-✔ Works for all breeds
-
-No more muddy floors after walks.
-`,
-    variants: [
-      { color: "#5B9BD5", label: "Blue",   images: ["/nettoyant_bleu.webp"],   priceIds: { S: "price_1TSLe2Kn0lmTcQ11HUyJFJg2", M: "price_1TSLm2Kn0lmTcQ11I0ryLfKG", L: "price_1TSLoaKn0lmTcQ11QLJFs164" } },
-      { color: "#F4845F", label: "Orange", images: ["/nettoyant_orange.webp"], priceIds: { S: "price_1TSLu2Kn0lmTcQ11mRvFvCU7", M: "price_1TSLvRKn0lmTcQ110ovh6Wgw", L: "price_1TSLwpKn0lmTcQ114MQiZ8Ow" } },
-    ],
-    sizes: ["S", "M", "L"],
-  },
-  {
-    id: 1,
-    name: "Portable Dog Water Bottle",
-    category: "dog",
-    subtitle: "Foldable silicone bowl-lid · 580 ml",
-    price: 22.90,
-    badge: "New",
-    description: "Travel water bottle for dogs with a foldable lid that doubles as a drinking bowl. Leak-proof, BPA-free silicone, 580 ml. Perfect for hikes, walks & road trips.",
-    details: `
-✔ Foldable lid doubles as bowl
-✔ Leak-proof design
-✔ BPA-free silicone
-✔ 580 ml capacity
-✔ Available in Green, Orange & Grey
-
-Perfect for outdoor adventures.
-`,
-    variants: [
-      { color: "#7DB87D", label: "Green",  images: ["/sac_vert.webp"],   priceId: "price_1TSM4mKn0lmTcQ11yMEtLXIz" },
-      { color: "#F4845F", label: "Orange", images: ["/sac_orange.webp"], priceId: "price_1TSM5qKn0lmTcQ11zG9ePOa5" },
-      { color: "#888888", label: "Grey",   images: ["/sac_gris.webp"],   priceId: "price_1TSM7EKn0lmTcQ11aw43pEVb" },
-    ],
-  },
-  {
-    id: 2,
-    name: "Premium Cooling Mat",
-    category: "dog",
-    subtitle: "Self-cooling silk · waterproof base · L 70×55 cm",
-    price: 29.90,
-    badge: "Summer",
-    priceId: "price_1TSMB9Kn0lmTcQ11az73rxbZ",
-    images: ["/tapis_rafraichissant.webp", "/tapis_rafraichissant_2.webp", "/tapis_rafraichissant_3.webp"],
-    description: "Self-cooling silk surface keeps your pet comfortable all summer. Waterproof & non-slip bottom. Machine washable. Perfect for dogs & cats.",
-    details: `
-✔ Self-cooling silk surface
-✔ Waterproof & non-slip bottom
-✔ Machine washable
-✔ Size: 70×55 cm
-✔ Blue colour
-
-Keeps your pet cool all summer long.
-`,
-  },
-  {
-    id: 3,
-    name: "3-in-1 Steam Grooming Brush",
-    category: "dog",
-    subtitle: "Electric spray & massage brush · USB rechargeable",
-    price: 34.90,
-    badge: "Popular",
-    priceId: "price_1TSMRBKn0lmTcQ117Az7zJwR",
-    images: ["/peigne_brosse_3.webp", "/peigne_brosse_2.webp", "/peigne_brosse.webp"],
-    description: "One-click steam & water spray, electric massage, and detangling bristles all in one. USB rechargeable. Helps reduce flying hair.",
-    details: `
-✔ One-click steam spray
-✔ Electric massage function
-✔ Detangling bristles
-✔ USB rechargeable
-✔ For cats & dogs
-
-Professional grooming at home.
-`,
-  },
-
-    {
-  id: 12,
-  name: "Pet Hair Remover Glove",
-  category: "dog",
-  subtitle: "Reusable · electrostatic · easy cleaning",
-  price: 29.90,
-  badge: "🔥 Trending",
-  description: "Remove pet hair instantly from sofas, clothes, carpets and car seats. Reusable, washable and easy to use every day.",
-  details: `
-✔ Electrostatic hair removal
-✔ Reusable & washable
-✔ Works on clothes, sofas & carpets
-✔ Comfortable five-finger design
-✔ Perfect for dogs & cats
-
-A simple and effective way to keep your home clean.
-`,
-  variants: [
-    {
-      color: "#F4841F",
-      label: "Orange",
-      images: [
-        "/gant_anti_poils.webp",
-        "/gant_anti_poils2.webp",
-        "/gant_anti_poils3.webp"
-      ],
-      priceId: "price_1TVz1LKn0lmTcQ11NQbngAuG"
-    },
-
-    {
-      color: "#5DA9E9",
-      label: "Blue",
-      images: [
-        "/gant_anti_poils4.webp"
-      ],
-      priceId: "price_1TVz4qKn0lmTcQ11kjiQ0Lvl"
-    },
-  ],
-},
-
-{
-  id: 13,
-  name: "Slow Feeder Dog Bowl",
-  category: "dog",
-  subtitle: "Medium · anti-choking · slow eating",
-  price: 24.90,
-  badge: "⭐ Smart Choice",
-
-  description:
-    "Help your dog eat slower and reduce gulping. A practical slow feeder bowl designed for calmer, healthier mealtimes.",
-
-  details: `
-✔ Helps slow down fast eating
-✔ Anti-choking raised maze design
-✔ Medium size for daily meals
-✔ Easy to clean
-✔ Available in multiple colours
-
-A simple way to make mealtime calmer and safer.
-`,
-
-  variants: [
-    {
-      color: "#111111",
-      label: "Black",
-      images: [
-        "/Gamelle_chien.webp",
-        "/gamelle_chien2.webp",
-        "/gamelle_chien3.webp"
-      ],
-      priceId: "price_1TVzfwKn0lmTcQ11Ew4219Uv"
-    },
-
-    {
-      color: "#2F8DBD",
-      label: "Blue",
-      images: [
-        "/gamelle_chien_bleu.webp"
-      ],
-      priceId: "price_1TVzjFKn0lmTcQ11e622lV9l"
-    },
-
-    {
-      color: "#B7B7B7",
-      label: "Grey",
-      images: [
-        "/gamelle_chien_gris.webp"
-      ],
-      priceId: "price_1TVzltKn0lmTcQ11vsj1zYeh"
-    },
-
-    {
-      color: "#F8B6B6",
-      label: "Light Pink",
-      images: [
-        "/gamelle_chien_magenta.webp"
-      ],
-      priceId: "price_1TVzo4Kn0lmTcQ11xs2ZMQ0f"
-    },
-
-    {
-      color: "#E91E8F",
-      label: "Pink",
-      images: [
-        "/gamelle_chien_rose.webp"
-      ],
-      priceId: "price_1TVzqLKn0lmTcQ11i49w7tcj"
-    }
-  ]
-},
-
-{
-  id: 15,
-  name: "Calming Donut Cat Bed",
-  category: "cat",
-  subtitle: "Ultra soft · calming · cozy nest",
-  price: 37.90,
-  badge: "☁️ Cozy",
-  priceId: "price_1TW1lQKn0lmTcQ11P0uq4z9U",
-  images: [
-    "/lit_rond_chat.webp",
-    "/lit_rond_chat2.webp",
-    "/lit_rond_chat3.webp"
-  ],
-  description: "A soft and cozy donut bed designed to help your cat feel safe, warm and relaxed during naps.",
-  details: `
-✔ Ultra soft plush fabric
-✔ Calming donut shape
-✔ Raised rim for head and neck support
-✔ Non-slip bottom
-✔ Easy to clean and maintain
-✔ Perfect for cats who love curling up
-
-A warm and comfortable sleeping spot for everyday rest.
-`,
-},
-  // 🐱 PRODUITS CHATS
-
-  {
-  id: 14,
-  name: "Cat Water Fountain",
-  category: "cat",
-  subtitle: "2L · quiet pump · filtered water",
-  price: 49.90,
-  badge: "💧 Premium",
-  priceId: "price_1TW0Q9Kn0lmTcQ11iSwrx9Z7",
-  images: [
-    "/fontaine_chat.webp",
-    "/fontaine_chat3.webp",
-    "/fontaine_chat4.webp"
-  ],
-  description: "Encourage your cat to drink more with a quiet 2L water fountain that keeps water fresh, moving and filtered.",
-  details: `
-✔ 2L water capacity
-✔ Quiet pump for daily use
-✔ Flowing water encourages drinking
-✔ Built-in filtration system
-✔ BPA-free design
-
-A simple way to keep your cat hydrated every day.
-`,
-},
-
-{
-  id: 16,
-  name: "Cat Window Hammock",
-  category: "cat",
-  subtitle: "Window perch · soft plush · strong suction cups",
-  price: 54.90,
-  badge: "🪟 Cozy",
-  variants: [
-    {
-      color: "#F2E8DC",
-      label: "Ivory",
-      images: [
-        "/hamac_chat_couleur_ivoir.webp",
-        "/hamac_chat2.webp",
-        "/hamac_chat3.webp"
-      ],
-      priceId: "price_1TW0kwKn0lmTcQ113dEfbnNA"
-    },
-
-    {
-      color: "#8A8A8A",
-      label: "Grey",
-      images: [
-        "/hamac_chat_couleur_gris.webp",
-        "/hamac_chat2.webp",
-        "/hamac_chat3.webp"
-      ],
-      priceId: "price_1TW0n7Kn0lmTcQ111zYwBsMH"
-    }
-  ],
-
-  description: "A soft and elevated window hammock that gives your cat the perfect sunny spot to relax, nap and watch the world outside.",
-
-  details: `
-✔ Strong suction cup support
-✔ Soft plush removable cover
-✔ Machine washable fabric
-✔ Stable steel frame
-✔ Comfortable elevated resting spot
-
-Perfect for indoor cats who love sunlight, window views and cozy naps.
-`,
-},
-  {
-    id: 4,
-    name: "Interactive Smart Cat Ball",
-    category: "cat",
-    subtitle: "Auto rolling toy · 2 speeds · USB rechargeable",
-    price: 29.90,
-    badge: "New",
-    priceId: "price_1TSMUsKn0lmTcQ11sXCLEtkj",
-    images: ["/balle_chat.webp", "/balle_chat2.webp", "/balle_chat3.webp"],
-    description: "Automatic interactive ball toy for indoor cats. Features 2 speed modes, feather tail and auto shut-off. Keeps cats active and entertained.",
-    details: `
-✔ 2 speed modes (Normal & Smart)
-✔ Feather tail attachment
-✔ Auto shut-off after 5 min
-✔ USB rechargeable
-✔ For small & medium cats
-
-Hours of entertainment for your cat.
-`,
-  },
-  {
-    id: 5,
-    name: "L-Shape Cat Scratcher",
-    category: "cat",
-    subtitle: "48 cm tall · premium corrugated cardboard · ball toy",
-    price: 39.90,
-    badge: "Popular",
-    priceId: "price_1TSMYPKn0lmTcQ11bejbHtc0",
-    images: ["/griffoir_chat.webp", "/griffoir_chat2.webp", "/griffoir_chat3.webp"],
-    description: "Premium L-shaped cat scratcher made from high-density corrugated cardboard. Perfect for stretching, scratching and protecting your furniture.",
-    details: `
-✔ 48 cm tall L-shape design
-✔ High-density corrugated cardboard
-✔ Includes ball toy
-✔ Breathable & abrasion-resistant
-✔ Protects your furniture
-
-The perfect scratching solution.
-`,
-  },
-  {
-    id: 6,
-    name: "Feather Wand Cat Toy Set",
-    category: "cat",
-    subtitle: "2 retractable wands · 10 feather & teaser refills",
-    price: 21.90,
-    badge: "Fun",
-    priceId: "price_1TSMbNKn0lmTcQ11ADoo7Dqy",
-    images: ["/plume_chat.webp", "/plume_chat2.webp", "/plume_chat3.webp"],
-    description: "12-piece interactive feather toy set for cats & kittens. Includes retractable wands and colourful feather attachments for daily play.",
-    details: `
-✔ 2 retractable wands (extends to 96 cm)
-✔ 10 colourful feather attachments
-✔ Non-toxic dyes
-✔ For cats & kittens
-✔ Easy to store
-
-Daily playtime made fun & easy.
-`,
-  },
-  {
-    id: 7,
-    name: "Premium Cat Play Tunnel",
-    category: "cat",
-    subtitle: "Foldable linen tunnel · 30×70 cm · pompom ball included",
-    price: 25.90,
-    badge: null,
-    priceId: "price_1TSMeWKn0lmTcQ11TOytJsNX",
-    images: ["/tunnel_chat.webp", "/tunnel_chat2.webp", "/tunnel_chat3.webp"],
-    description: "Collapsible cat tunnel made from durable faux-linen fabric. Includes a hanging pompom ball inside. Ideal for hiding, chasing and exploring.",
-    details: `
-✔ 30 cm diameter · 70 cm long
-✔ Durable faux-linen fabric
-✔ Hanging pompom ball inside
-✔ Collapsible & easy to store
-✔ Durable material
-
-Cats never get bored.
-`,
-  },
-  {
-  id: 17,
-  name: "Interactive Cat Puzzle Feeder",
-  category: "cat",
-  subtitle: "Mental stimulation · slow feeding · boredom relief",
-  price: 34.90,
-  badge: "🧠 Smart Play",
-  priceId: "price_1TWh3AKn0lmTcQ11myH6JngD",
-
-  images: [
-    "/puzzle_chat.webp",
-    "/puzzle_chat2.webp",
-    "/puzzle_chat3.webp"
-  ],
-
-  description:
-    "Interactive puzzle feeder designed to mentally stimulate indoor cats while slowing down eating and reducing boredom.",
-
-  details: `
-✔ Encourages mental stimulation
-✔ Helps reduce boredom & stress
-✔ Slow feeding design
-✔ Multiple hidden treat compartments
-✔ Interactive daily enrichment
-✔ Durable BPA-free material
-
-Perfect for indoor cats who need more stimulation, play and enrichment during the day.
-`,
-},
-{
-  id: 18,
-  name: "Cozy Cat Cave Bed",
-  category: "cat",
-  subtitle: "Soft faux-linen · cozy hideaway · removable cushion",
-  price: 49.90,
-  badge: "☁️ Cozy",
-
-  priceId: "price_1TWhvuKn0lmTcQ11dz0kPJGn",
-
-  images: [
-    "/niche_chat.webp",
-    "/niche_chat2.webp",
-    "/niche_chat3.webp"
-  ],
-
-  description:
-    "A soft and cozy cat cave bed designed to create a warm, safe and calming space for indoor cats.",
-
-  details: `
-✔ Soft faux-linen fabric
-✔ Warm & comfortable cushion
-✔ Cozy enclosed hideaway design
-✔ Foldable & easy to store
-✔ Non-slip bottom
-✔ Perfect for indoor cats
-
-A calming resting space where your cat can sleep, hide and relax comfortably every day.
-`,
-},
-{
-  id: 19,
-  name: "Cat Self Grooming Brush",
-  category: "cat",
-  subtitle: "Wall mounted · soft bristles · stress relief",
-  price: 24.90,
-  badge: "✨ Relaxing",
-
-  priceId: "price_1TWiqjKn0lmTcQ11HLRMP1LK",
-
-  images: [
-    "/brush_chat.webp",
-    "/brush_chat2.webp",
-    "/brush_chat3.webp"
-  ],
-
-  description:
-    "A wall-mounted self grooming brush designed to help indoor cats scratch, rub and relax whenever they want.",
-
-  details: `
-✔ Soft silicone bristles
-✔ Wall-mounted corner design
-✔ Helps remove loose hair
-✔ Encourages natural rubbing behaviour
-✔ Easy to clean
-✔ Perfect for indoor cats
-
-A simple daily grooming and relaxation spot your cat can enjoy on its own.
-`,
-},
-{
-  id: 20,
-
-  name: "Sensitive Skin Dog Shampoo",
-
-  category: "dog",
-
-  subtitle: "Hypoallergenic • Gentle formula • Sensitive skin",
-
-  price: 27.90,
-
-  badge: null,
-
-  priceId: "price_1TgVBhKn0lmTcQ11A2aHttTo",
-
-  images: [
-    "/dog_shampoo_bt.webp",
-    "/dog_shampoo2.webp",
-    "/dog_shampoo3.webp"
-  ],
-
-  description:
-    "A gentle hypoallergenic dog shampoo designed for sensitive skin. Helps clean, moisturise and soothe without harsh ingredients.",
-
-  details: `
-✓ Hypoallergenic formula
-
-✓ Suitable for sensitive skin
-
-✓ Helps relieve itching
-
-✓ Aloe Vera enriched
-
-✓ Moisturises dry coats
-
-✓ pH balanced formula
-
-✓ Free from harsh irritants
-
-✓ Trusted by thousands of pet owners
-  `,
-
-  promo: "🌿 Gentle formula for sensitive skin",
-},
-{
-  id: 21,
-
-  name: "Sensitive Skin Cat Shampoo",
-
-  category: "cat",
-
-  subtitle: "Hypoallergenic • Gentle formula • Sensitive skin",
-
-  price: 29.90,
-
-  badge: "",
-
-  priceId: "price_1TgVghKn0lmTcQ113fn3DVmJ",
-
-  images: [
-    "/cat_shampoo_bt.webp",
-    "/cat_shampoo3.webp",
-    "/cat_shampoo2.webp"
-  ],
-
-  description:
-    "A gentle hypoallergenic cat shampoo designed for sensitive skin. Helps clean, moisturise and soothe without harsh ingredients.",
-
-  details: `
-✓ Hypoallergenic formula
-
-✓ Suitable for sensitive skin
-
-✓ Helps relieve itching
-
-✓ Aloe Vera enriched
-
-✓ Moisturises dry coats
-
-✓ No water required
-
-✓ Free from harsh irritants
-
-✓ Trusted by thousands of pet owners
-  `,
-
-  promo: "🌿 Gentle formula for sensitive skin",
-},
-];
 
 // ─────────────────────────────────────────────────────────────
 // PRICE FORMATTER
@@ -654,6 +17,12 @@ function eur(price) {
 function usdApprox(price) {
   const usd = (price * 1.13).toFixed(2);
   return `≈ $${usd} USD`;
+}
+
+function usd(price) {
+  const usd = (price * 1.13).toFixed(2);
+
+  return `$${usd}`;
 }
 
 // ─────────────────────────────────────────────────────────────
@@ -790,6 +159,11 @@ function ProductCard({ product, onAddToCart, onShowDetails }) {
 
   // Construit l'objet produit enrichi pour la modale
   function handleShowDetails() {
+
+    if (product.slug) {
+    window.location.href = `/product/${product.slug}`;
+    return;
+}
     onShowDetails({
       ...product,
       currentImage: images ? images[currentImg] : null,
@@ -798,7 +172,11 @@ function ProductCard({ product, onAddToCart, onShowDetails }) {
   }
 
   return (
-    <div className="product">
+    <div
+      className="product"
+      onClick={handleShowDetails}
+      style={{ cursor: "pointer" }}
+    >
       {product.badge && <span className="product-badge">{product.badge}</span>}
       <span className="product-stock">Only a few left</span>
 
@@ -851,7 +229,7 @@ function ProductCard({ product, onAddToCart, onShowDetails }) {
         <div className="product-info">
           <h3>{product.name}</h3>
           <p className="product-sub">{product.subtitle}</p>
-          <p className="product-desc">{product.description}</p>
+          {/* <p className="product-desc">{product.description}</p> */}
 
           {hasVariants && (
             <div className="variant-section">
@@ -878,15 +256,30 @@ function ProductCard({ product, onAddToCart, onShowDetails }) {
           )}
         </div>
 
-        <div className="delivery-badge">📦 Free delivery · 5–8 business days</div>
+        <div className="delivery-badge">
+          ✓ Free delivery &nbsp;•&nbsp; Ships in 5–8 business days
+        </div>
 
         <div className="product-footer">
-          <span className="product-price">{eur(product.price)}</span>
+          <div className="product-price">
+            <div>
+              {usd(product.price)}
+              <span> USD</span>
+            </div>
+            <small>≈ {eur(product.price)}</small>
+          </div>
           <div className="product-btns">
             {product.details && (
-              <button className="view-details-btn" onClick={handleShowDetails}>View details</button>
+              <button className="view-details-btn" onClick={handleShowDetails}>View details →</button>
             )}
-            <button onClick={handleAddToCart}>Add to Cart</button>
+            <button
+            onClick={(e) => {
+              e.stopPropagation();
+              handleAddToCart();
+            }}
+          >
+            Add to Cart
+          </button>
           </div>
         </div>
       </div>
@@ -920,29 +313,15 @@ useEffect(() => {
   localStorage.setItem("fluffhaven_cart", JSON.stringify(cart));
 }, [cart]);
   const [openCart, setOpenCart] = useState(false);
+  const [cartNotice, setCartNotice] = useState(false);
   const [showBackTop, setShowBackTop] = useState(false);
   const [activeTab, setActiveTab] = useState("all");
   const [checkoutStatus, setCheckoutStatus] = useState(null);
   const [activePage, setActivePage] = useState(null);
-  const [activeProduct, setActiveProduct] = useState(null); // ← modale details
-
-  useEffect(() => {
-  const params = new URLSearchParams(window.location.search);
-  const productParam = params.get("product");
-
-  if (productParam !== null) {
-    const productId = Number(productParam);
-    const product = PRODUCTS.find((p) => p.id === productId);
-
-    if (product) {
-      setActiveProduct(product);
-    }
-  }
-}, []);
 
   // ── Bloque le scroll quand une modale est ouverte ──
   useEffect(() => {
-    const isOpen = !!activeProduct || !!activePage || openCart;
+    const isOpen = !!activePage || openCart;
     if (isOpen) {
       document.body.style.overflow = "hidden";
       document.body.style.paddingRight = "15px";
@@ -954,7 +333,7 @@ useEffect(() => {
       document.body.style.overflow = "";
       document.body.style.paddingRight = "";
     };
-  }, [activeProduct, activePage, openCart]);
+  }, [activePage, openCart]);
 
   function acceptCookies() {
     localStorage.setItem("fh_cookies_accepted", "true");
@@ -979,6 +358,19 @@ useEffect(() => {
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
     const checkout = params.get("checkout");
+    const openCart = params.get("cart");
+
+    if (openCart === "open") {
+      setOpenCart(true);
+      setCartNotice(true);
+
+      setTimeout(() => {
+        setCartNotice(false);
+      }, 3000);
+
+      window.history.replaceState({}, "", window.location.pathname);
+    }
+
     if (checkout === "success" || checkout === "cancel") {
       setCheckoutStatus(checkout);
       if (checkout === "success" && !sessionStorage.getItem("fh_payment_tracked")) {
@@ -1012,6 +404,36 @@ useEffect(() => {
       alert("Error");
     }
   }
+
+  async function handleBuyNow(item) {
+  try {
+    const response = await fetch(
+      "/.netlify/functions/create-checkout-session",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          items: [
+            {
+              priceId: item.priceId,
+              quantity: 1,
+            },
+          ],
+        }),
+      }
+    );
+
+    const data = await response.json();
+
+    if (data.url) {
+      window.location.href = data.url;
+    }
+  } catch (error) {
+    alert("Error");
+  }
+}
 
   const scrollTo = (id) => document.querySelector(id)?.scrollIntoView({ behavior: "smooth" });
   const addToCart = (item) => { setCart((prev) => [...prev, item]); setOpenCart(true); };
@@ -1116,14 +538,12 @@ useEffect(() => {
               <h3>Dog Shampoo</h3>
               <p>Hypoallergenic • Sensitive Skin</p>
 
-              <button
+              <a
                 className="summer-btn"
-                onClick={() =>
-                  setActiveProduct(PRODUCTS.find((p) => p.id === 20))
-                }
+                href="/product/sensitive-skin-dog-shampoo"
               >
                 View details →
-              </button>
+              </a>
             </div>
 
             <div className="summer-card">
@@ -1131,14 +551,12 @@ useEffect(() => {
               <h3>Cat Shampoo</h3>
               <p>Hypoallergenic • Sensitive Skin</p>
 
-              <button
+              <a
                 className="summer-btn"
-                onClick={() =>
-                  setActiveProduct(PRODUCTS.find((p) => p.id === 21))
-                }
+                href="/product/sensitive-skin-cat-shampoo"
               >
                 View details →
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -1290,7 +708,11 @@ useEffect(() => {
 
         <div className="products">
           {PRODUCTS.filter(p => activeTab === "all" || p.category === activeTab).map((p) => (
-            <ProductCard key={p.id} product={p} onAddToCart={addToCart} onShowDetails={setActiveProduct} />
+            <ProductCard
+              key={p.id}
+              product={p}
+              onAddToCart={addToCart}
+            />
           ))}
         </div>
       </section>
@@ -1511,6 +933,14 @@ useEffect(() => {
                     <span>💳 Stripe</span>
                     <span>↩️ 14-day returns</span>
                   </div>
+
+                  {cartNotice && (
+                    <div className="cart-notice">
+                      <strong>✓ Added to cart</strong>
+                      <p>Your item is ready for checkout.</p>
+                    </div>
+                  )}
+
                   <button className="checkout-btn" onClick={handleCheckout}>Continue to Checkout →</button>
                   <button className="continue-shopping" onClick={() => setOpenCart(false)}>Continue shopping</button>
                 </div>
@@ -1519,58 +949,7 @@ useEffect(() => {
           </aside>
         </div>
       )}
-
-      {/* MODALE DETAILS PRODUIT — au niveau App, pas dans la carte */}
-      {activeProduct && (
-        <div className="details-overlay" onClick={() => setActiveProduct(null)}>
-          <div className="details-modal" onClick={(e) => e.stopPropagation()}>
-            <button className="details-close" onClick={() => setActiveProduct(null)}>×</button>
-            {activeProduct.currentImage && (
-              <div className="details-image-wrap">
-                <img src={activeProduct.currentImage} alt={activeProduct.name} />
-              </div>
-            )}
-            <h3>{activeProduct.name}</h3>
-            <p className="details-subtitle">{activeProduct.subtitle}</p>
-            <div className="details-text">
-              {activeProduct.details?.split("\n").filter(Boolean).map((line, i) => (
-                <p key={i}>{line}</p>
-              ))}
-            </div>
-            <div style={{ textAlign: "center", marginBottom: "14px" }}>
-  <div style={{ fontSize: "20px", fontWeight: "800" }}>
-    {eur(activeProduct.price)}
-  </div>
-  <div style={{ fontSize: "14px", color: "#7b6f6a", marginTop: "4px" }}>
-    {usdApprox(activeProduct.price)}
-  </div>
-</div>
-
-<button
-  className="details-add-btn"
-  onClick={() => {
-    if (activeProduct.onAddToCart) {
-      activeProduct.onAddToCart();
-    } else {
-      addToCart({
-        id: activeProduct.id,
-        name: activeProduct.name,
-        price: activeProduct.price,
-        priceId: activeProduct.priceId,
-        image: activeProduct.images ? activeProduct.images[0] : null,
-        subtitle: activeProduct.subtitle,
-      });
-    }
-
-    setActiveProduct(null);
-  }}
->
-  Add to Cart
-</button>
-          </div>
-        </div>
-      )}
-
+      
       {/* MODAL PAGES LÉGALES */}
       {activePage && <PageModal page={activePage} onClose={() => setActivePage(null)} />}
 

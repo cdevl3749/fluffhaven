@@ -119,7 +119,7 @@ return ( <main style={page}> <article style={article}> <div style={hero}> <a hre
         </p>
 
         <a
-          href="https://fluffhaven.shop/?product=16"
+          href="/product/premium-cat-play-tunnel"
           style={ctaButton}
         >
           View Cat Window Hammock →

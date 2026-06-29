@@ -148,7 +148,7 @@ export default function CatHairOnClothes() {
             </p>
 
             <a
-              href="https://fluffhaven.shop/?product=19"
+              href="/product/cat-self-grooming-brush"
               style={{
                 display: "inline-block",
                 background: "#fff",

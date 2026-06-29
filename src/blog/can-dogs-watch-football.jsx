@@ -158,7 +158,7 @@ export default function CanDogsWatchFootball() {
             </p>
 
             <a
-              href="https://fluffhaven.shop/?product=2"
+              href="/product/premium-cooling-mat"
               style={{
                 display: "inline-block",
                 background: "#fff",

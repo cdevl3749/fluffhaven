@@ -159,7 +159,7 @@ export default function BestDogAccessoriesSummerWalks() {
             </p>
 
             <a
-              href="https://fluffhaven.shop/?product=9"
+              href="/product/dog-car-seat-cover"
               style={{
                 display: "inline-block",
                 background: "#fff",
