@@ -114,6 +114,10 @@ Professional grooming at home.
     subtitle: "Portable silicone cleaner — S / M / L",
     price: 37.90,
     badge: "Best Seller",
+    images: [
+    "/nettoyant_bleu.webp",
+    "/nettoyant_orange.webp",
+    ],
     description: "Gentle silicone bristles remove mud & dirt effortlessly after every walk. No more muddy floors. Works for all breeds.",
     seoTitle: "Dog Paw Cleaner | Portable Paw Washer | FluffHaven",
     seoDescription: "Clean muddy paws in seconds with this portable Dog Paw Cleaner. Soft silicone bristles, multiple sizes and perfect after every walk.",
@@ -141,6 +145,13 @@ No more muddy floors after walks.
     subtitle: "Foldable silicone bowl-lid · 580 ml",
     price: 22.90,
     badge: "New",
+
+    images: [
+      "/sac_vert.webp",
+      "/sac_orange.webp",
+      "/sac_gris.webp",
+    ],
+
     description: "Travel water bottle for dogs with a foldable lid that doubles as a drinking bowl. Leak-proof, BPA-free silicone, 580 ml. Perfect for hikes, walks & road trips.",
     seoTitle: "Portable Dog Water Bottle | Leak-Proof Travel Bottle | FluffHaven",
     seoDescription: "Keep your dog hydrated anywhere with this portable leak-proof water bottle. Foldable drinking bowl, BPA-free and perfect for walks and travel.",
@@ -155,11 +166,26 @@ No more muddy floors after walks.
 Perfect for outdoor adventures.
 `,
     variants: [
-      { color: "#7DB87D", label: "Green",  images: ["/sac_vert.webp"],   priceId: "price_1TnRogKn0lmTcQ11CFFYi5XD" },
-      { color: "#F4845F", label: "Orange", images: ["/sac_orange.webp"], priceId: "price_1TnRnFKn0lmTcQ11KadzxgRj" },
-      { color: "#888888", label: "Grey",   images: ["/sac_gris.webp"],   priceId: "price_1TnRkiKn0lmTcQ111EgJzD8U" },
+      {
+        color: "#7DB87D",
+        label: "Green",
+        images: ["/sac_vert.webp"],
+        priceId: "price_1TnRogKn0lmTcQ11CFFYi5XD",
+      },
+      {
+        color: "#F4845F",
+        label: "Orange",
+        images: ["/sac_orange.webp"],
+        priceId: "price_1TnRnFKn0lmTcQ11KadzxgRj",
+      },
+      {
+        color: "#888888",
+        label: "Grey",
+        images: ["/sac_gris.webp"],
+        priceId: "price_1TnRkiKn0lmTcQ111EgJzD8U",
+      },
     ],
-  },
+},
   {
     id: 2,
     slug: "premium-cooling-mat",
@@ -261,6 +287,15 @@ A simple and effective way to keep your home clean.
   subtitle: "Medium · anti-choking · slow eating",
   price: 24.90,
   badge: "⭐ Smart Choice",
+  images: [
+  "/Gamelle_chien.webp",
+  "/gamelle_chien2.webp",
+  "/gamelle_chien3.webp",
+  "/gamelle_chien_bleu.webp",
+  "/gamelle_chien_gris.webp",
+  "/gamelle_chien_magenta.webp",
+  "/gamelle_chien_rose.webp",
+],
 
   description:
     "Help your dog eat slower and reduce gulping. A practical slow feeder bowl designed for calmer, healthier mealtimes.",
@@ -393,6 +428,12 @@ A simple way to keep your cat hydrated every day.
   subtitle: "Window perch · soft plush · strong suction cups",
   price: 54.90,
   badge: "🪟 Cozy",
+  images: [
+  "/hamac_chat_couleur_ivoir.webp",
+  "/hamac_chat2.webp",
+  "/hamac_chat3.webp",
+  "/hamac_chat_couleur_gris.webp",
+],
   variants: [
     {
       color: "#F2E8DC",
