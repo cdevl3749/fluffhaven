@@ -114,9 +114,14 @@ const details = product.details
         type="button"
         onClick={handleBuyNow}
         >
-        Buy Now
+        Buy Now • Secure Checkout
         </button>
       </div>
+
+      <p className="checkout-reassurance">
+         🔒 Secure SSL Checkout • Free Shipping • 30-Day Returns
+      </p>
+
       <div className="product-faq">
         <h2>Frequently Asked Questions</h2>
 

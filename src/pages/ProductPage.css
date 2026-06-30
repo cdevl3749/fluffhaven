@@ -659,3 +659,11 @@
     margin-top:-2px;
     margin-bottom:12px;
 }
+
+.checkout-reassurance {
+  margin-top: 14px;
+  margin-bottom: 24px;
+  text-align: center;
+  font-size: 0.95rem;
+  color: #4a3f38;
+}
