@@ -9,7 +9,6 @@ document.title =
 return ( <main style={page}> <article style={article}> <div style={hero}> <a href="/blog" style={backLink}>
 ← Back to Blog </a>
 
-```
       <p style={category}>Cat care guide</p>
 
       <h1 style={title}>

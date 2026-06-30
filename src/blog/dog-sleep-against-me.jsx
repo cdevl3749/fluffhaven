@@ -45,7 +45,6 @@ fontWeight: "700",
 >
 ← Back to Blog </a>
 
-```
       <p
         style={{
           color: "#d14d68",

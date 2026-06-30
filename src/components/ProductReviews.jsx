@@ -1,13 +1,12 @@
-export default function ProductReviews({ product }) {
+import { REVIEWS } from "../data/reviews";
 
-    const reviews = [
-        {
-        name: "Emily",
-        country: "Texas, USA",
-        rating: 5,
-        text: "This roller removed so much hair from my couch. Highly recommended!"
-    }
-];
+export default function ProductReviews({ product }) {
+    const productReviews = REVIEWS[product?.category] || REVIEWS.dog;
+
+    const randomReview =
+        productReviews[Math.floor(Math.random() * productReviews.length)];
+
+    const stars = "⭐".repeat(randomReview.rating);
 
     return (
         <section className="product-reviews">
@@ -15,17 +14,13 @@ export default function ProductReviews({ product }) {
 
             <div className="review-card">
                 <div className="review-name">
-                    {reviews[0].name} • {reviews[0].country}
+                    {randomReview.name} • {randomReview.country}
                 </div>
 
-                <div className="review-stars">
-                    ⭐⭐⭐⭐⭐
-                </div>
+                <div className="review-stars">{stars}</div>
 
-                <p className="review-text">
-                    {reviews[0].text}
-                </p>
+                <p className="review-text">{randomReview.text}</p>
             </div>
         </section>
-            );
+    );
 }
