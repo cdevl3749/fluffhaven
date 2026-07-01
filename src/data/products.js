@@ -243,6 +243,12 @@ Professional grooming at home.
   subtitle: "Reusable · electrostatic · easy cleaning",
   price: 29.90,
   badge: "🔥 Trending",
+  images: [
+  "/gant_anti_poils.webp",
+  "/gant_anti_poils2.webp",
+  "/gant_anti_poils3.webp",
+  "/gant_anti_poils4.webp",
+],
   description: "Remove pet hair instantly from sofas, clothes, carpets and car seats. Reusable, washable and easy to use every day.",
   seoTitle: "Pet Hair Remover Glove | Reusable Pet Grooming Glove | FluffHaven",
   seoDescription: "Remove loose pet hair easily with this reusable grooming glove. Comfortable, washable and perfect for dogs and cats.",
