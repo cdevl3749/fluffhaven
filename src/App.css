@@ -1072,7 +1072,7 @@ details p {
 }
 
 .cart-items {
-  flex: 1;
+  min-height: 220px;
   overflow-y: auto;
   padding: 16px 24px;
   display: grid;
