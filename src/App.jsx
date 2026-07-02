@@ -14,15 +14,13 @@ function eur(price) {
   return new Intl.NumberFormat("fr-FR", { style: "currency", currency: "EUR" }).format(price);
 }
 
-function usdApprox(price) {
-  const usd = (price * 1.13).toFixed(2);
-  return `≈ $${usd} USD`;
+function usd(price) {
+  return `$${price.toFixed(2)}`;
 }
 
-function usd(price) {
-  const usd = (price * 1.13).toFixed(2);
-
-  return `$${usd}`;
+function eurApprox(price) {
+  const eur = (price * 0.92).toFixed(2);
+  return `≈ €${eur}`;
 }
 
 // ─────────────────────────────────────────────────────────────
@@ -266,7 +264,7 @@ function ProductCard({ product, onAddToCart, onShowDetails }) {
               {usd(product.price)}
               <span> USD</span>
             </div>
-            <small>≈ {eur(product.price)}</small>
+            
           </div>
           <div className="product-btns">
             {product.details && (
@@ -893,18 +891,9 @@ useEffect(() => {
                         <span>{item.subtitle}</span>
                         <div>
   <p style={{ margin: 0 }}>
-    {eur(item.price)}
+    {usd(item.price)} USD
   </p>
 
-  <p
-    style={{
-      margin: "2px 0 0 0",
-      fontSize: "12px",
-      color: "#888"
-    }}
-  >
-    {usdApprox(item.price)}
-  </p>
 </div>
                       </div>
                       <button className="cart-item-remove" onClick={() => removeFromCart(i)} aria-label="Remove">
@@ -920,17 +909,7 @@ useEffect(() => {
   <span>Subtotal</span>
 
   <div style={{ textAlign: "right" }}>
-    <strong>{eur(total)}</strong>
-
-    <div
-      style={{
-        fontSize: "13px",
-        color: "#888",
-        marginTop: "2px",
-      }}
-    >
-      {usdApprox(total)}
-    </div>
+    <strong>{usd(total)} USD</strong>
   </div>
 </div>
                   <p className="cart-free-ship">✓ Free shipping included</p>

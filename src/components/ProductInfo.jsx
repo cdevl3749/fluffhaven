@@ -72,7 +72,7 @@ const details = product.details
         <p className="product-price-secondary">
         🚚 Estimated delivery: 5–8 business days
         <br />
-        Approx. €{product.price.toFixed(2)} • Local taxes calculated at checkout
+        Local taxes calculated at checkout
         </p>
       </div>
 

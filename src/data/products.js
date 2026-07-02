@@ -106,85 +106,63 @@ Professional grooming at home.
   },
 
   // 🐶 PRODUITS CHIENS
-  {
-    id: 0,
-    slug: "dog-paw-cleaner",
-    name: "Dog Paw Cleaner",
-    category: "dog",
-    subtitle: "Portable silicone cleaner — S / M / L",
-    price: 37.90,
-    badge: "Best Seller",
-    images: [
-    "/nettoyant_bleu.webp",
-    "/nettoyant_orange.webp",
-    ],
-    description: "Gentle silicone bristles remove mud & dirt effortlessly after every walk. No more muddy floors. Works for all breeds.",
-    seoTitle: "Dog Paw Cleaner | Portable Paw Washer | FluffHaven",
-    seoDescription: "Clean muddy paws in seconds with this portable Dog Paw Cleaner. Soft silicone bristles, multiple sizes and perfect after every walk.",
-    brand: "FluffHaven",
-    details: `
+ {
+  id: 0,
+  slug: "dog-paw-cleaner",
+  name: "Dog Paw Cleaner",
+  category: "dog",
+  subtitle: "Portable silicone paw cleaner",
+  price: 37.90,
+  priceId: "price_1TnS1JKn0lmTcQ11MIaiRPAN",
+  badge: "Best Seller",
+  images: [
+    "/clean_orange_1.webp",
+    "/clean_orange_2.webp",
+    "/clean_plage.webp",
+  ],
+  description: "Gentle silicone bristles remove mud & dirt effortlessly after every walk. No more muddy floors. Works for all breeds.",
+  seoTitle: "Dog Paw Cleaner | Portable Paw Washer | FluffHaven",
+  seoDescription: "Clean muddy paws in seconds with this portable Dog Paw Cleaner. Soft silicone bristles, orange colour and perfect after every walk.",
+  brand: "FluffHaven",
+  details: `
 ✔ Soft silicone bristles
-✔ Available in S / M / L
-✔ Blue & Orange colours
+✔ Orange colour
 ✔ Easy to clean
 ✔ Works for all breeds
 
 No more muddy floors after walks.
 `,
-    variants: [
-      { color: "#5B9BD5", label: "Blue",   images: ["/nettoyant_bleu.webp"],   priceIds: { S: "price_1TnS7uKn0lmTcQ11ah5XaZmu", M: "price_1TnS6EKn0lmTcQ11huc2Cvaa", L: "price_1TnS4WKn0lmTcQ11jBY7xu76" } },
-      { color: "#F4845F", label: "Orange", images: ["/nettoyant_orange.webp"], priceIds: { S: "price_1TnS34Kn0lmTcQ11SC9mC0vA", M: "price_1TnS1JKn0lmTcQ11MIaiRPAN", L: "price_1TnRyvKn0lmTcQ11bGVV74Qe" } },
-    ],
-    sizes: ["S", "M", "L"],
-  },
+},
   {
-    id: 1,
-    slug: "portable-dog-water-bottle",
-    name: "Portable Dog Water Bottle",
-    category: "dog",
-    subtitle: "Foldable silicone bowl-lid · 580 ml",
-    price: 22.90,
-    badge: "New",
+  id: 1,
+  slug: "portable-dog-water-bottle",
+  name: "Portable Dog Water Bottle",
+  category: "dog",
+  subtitle: "Foldable silicone bowl-lid · 580 ml",
+  price: 22.90,
+  priceId: "price_1TnRogKn0lmTcQ11CFFYi5XD",
+  badge: "New",
 
-    images: [
-      "/sac_vert.webp",
-      "/sac_orange.webp",
-      "/sac_gris.webp",
-    ],
+  images: [
+    "/sac_vert.webp",
+    "/sac_orange.webp",
+    "/sac_gris.webp",
+  ],
 
-    description: "Travel water bottle for dogs with a foldable lid that doubles as a drinking bowl. Leak-proof, BPA-free silicone, 580 ml. Perfect for hikes, walks & road trips.",
-    seoTitle: "Portable Dog Water Bottle | Leak-Proof Travel Bottle | FluffHaven",
-    seoDescription: "Keep your dog hydrated anywhere with this portable leak-proof water bottle. Foldable drinking bowl, BPA-free and perfect for walks and travel.",
-    brand: "FluffHaven",
-    details: `
+  description: "Travel water bottle for dogs with a foldable lid that doubles as a drinking bowl. Leak-proof, BPA-free silicone, 580 ml. Perfect for hikes, walks & road trips.",
+  seoTitle: "Portable Dog Water Bottle | Leak-Proof Travel Bottle | FluffHaven",
+  seoDescription: "Keep your dog hydrated anywhere with this portable leak-proof water bottle. Foldable drinking bowl, BPA-free and perfect for walks and travel.",
+  brand: "FluffHaven",
+  details: `
 ✔ Foldable lid doubles as bowl
 ✔ Leak-proof design
 ✔ BPA-free silicone
 ✔ 580 ml capacity
-✔ Available in Green, Orange & Grey
+✔ Green colour
+✔ Perfect for hikes, walks & road trips
 
 Perfect for outdoor adventures.
 `,
-    variants: [
-      {
-        color: "#7DB87D",
-        label: "Green",
-        images: ["/sac_vert.webp"],
-        priceId: "price_1TnRogKn0lmTcQ11CFFYi5XD",
-      },
-      {
-        color: "#F4845F",
-        label: "Orange",
-        images: ["/sac_orange.webp"],
-        priceId: "price_1TnRnFKn0lmTcQ11KadzxgRj",
-      },
-      {
-        color: "#888888",
-        label: "Grey",
-        images: ["/sac_gris.webp"],
-        priceId: "price_1TnRkiKn0lmTcQ111EgJzD8U",
-      },
-    ],
 },
   {
     id: 2,
@@ -235,24 +213,33 @@ Professional grooming at home.
 `,
   },
 
-    {
+{
   id: 12,
   slug: "pet-hair-remover-glove",
   name: "Pet Hair Remover Glove",
   category: "dog",
   subtitle: "Reusable · electrostatic · easy cleaning",
   price: 29.90,
+  priceId: "price_1TnR2kKn0lmTcQ11ITawJHag",
   badge: "🔥 Trending",
+
   images: [
-  "/gant_anti_poils.webp",
-  "/gant_anti_poils2.webp",
-  "/gant_anti_poils3.webp",
-  "/gant_anti_poils4.webp",
-],
-  description: "Remove pet hair instantly from sofas, clothes, carpets and car seats. Reusable, washable and easy to use every day.",
-  seoTitle: "Pet Hair Remover Glove | Reusable Pet Grooming Glove | FluffHaven",
-  seoDescription: "Remove loose pet hair easily with this reusable grooming glove. Comfortable, washable and perfect for dogs and cats.",
+    "/gant_anti_poils.webp",
+    "/gant_anti_poils2.webp",
+    "/gant_anti_poils3.webp",
+  ],
+
+  description:
+    "Remove pet hair instantly from sofas, clothes, carpets and car seats. Reusable, washable and easy to use every day.",
+
+  seoTitle:
+    "Pet Hair Remover Glove | Reusable Pet Grooming Glove | FluffHaven",
+
+  seoDescription:
+    "Remove loose pet hair easily with this reusable grooming glove. Comfortable, washable and perfect for dogs and cats.",
+
   brand: "FluffHaven",
+
   details: `
 ✔ Electrostatic hair removal
 ✔ Reusable & washable
@@ -262,29 +249,7 @@ Professional grooming at home.
 
 A simple and effective way to keep your home clean.
 `,
-  variants: [
-    {
-      color: "#F4841F",
-      label: "Orange",
-      images: [
-        "/gant_anti_poils.webp",
-        "/gant_anti_poils2.webp",
-        "/gant_anti_poils3.webp"
-      ],
-      priceId: "price_1TnR2kKn0lmTcQ11ITawJHag"
-    },
-
-    {
-      color: "#5DA9E9",
-      label: "Blue",
-      images: [
-        "/gant_anti_poils4.webp"
-      ],
-      priceId: "price_1TnR0HKn0lmTcQ11W9ytYo7E"
-    },
-  ],
 },
-
 {
   id: 13,
   slug: "slow-feeder-dog-bowl",
@@ -292,21 +257,23 @@ A simple and effective way to keep your home clean.
   category: "dog",
   subtitle: "Medium · anti-choking · slow eating",
   price: 24.90,
+  priceId: "price_1TnQvNKn0lmTcQ115ZBiOUth",
   badge: "⭐ Smart Choice",
+
   images: [
-  "/Gamelle_chien.webp",
-  "/gamelle_chien2.webp",
-  "/gamelle_chien3.webp",
-  "/gamelle_chien_bleu.webp",
-  "/gamelle_chien_gris.webp",
-  "/gamelle_chien_magenta.webp",
-  "/gamelle_chien_rose.webp",
-],
+    "/gamelle_chien1.webp",
+    "/gamelle_chien_gris.webp",
+    "/gamelle_chien3.webp",
+  ],
 
   description:
     "Help your dog eat slower and reduce gulping. A practical slow feeder bowl designed for calmer, healthier mealtimes.",
+
   seoTitle: "Slow Feeder Dog Bowl | Healthy Eating Bowl | FluffHaven",
-  seoDescription: "Encourage healthier eating habits with this slow feeder dog bowl. Helps reduce gulping, improves digestion and is easy to clean.",
+
+  seoDescription:
+    "Encourage healthier eating habits with this slow feeder dog bowl. Helps reduce gulping, improves digestion and is easy to clean.",
+
   brand: "FluffHaven",
 
   details: `
@@ -314,59 +281,9 @@ A simple and effective way to keep your home clean.
 ✔ Anti-choking raised maze design
 ✔ Medium size for daily meals
 ✔ Easy to clean
-✔ Available in multiple colours
 
 A simple way to make mealtime calmer and safer.
 `,
-
-  variants: [
-    {
-      color: "#111111",
-      label: "Black",
-      images: [
-        "/Gamelle_chien.webp",
-        "/gamelle_chien2.webp",
-        "/gamelle_chien3.webp"
-      ],
-      priceId: "price_1TnQvNKn0lmTcQ115ZBiOUth"
-    },
-
-    {
-      color: "#2F8DBD",
-      label: "Blue",
-      images: [
-        "/gamelle_chien_bleu.webp"
-      ],
-      priceId: "price_1TnQt4Kn0lmTcQ11DX8DwEJB"
-    },
-
-    {
-      color: "#B7B7B7",
-      label: "Grey",
-      images: [
-        "/gamelle_chien_gris.webp"
-      ],
-      priceId: "price_1TnQqkKn0lmTcQ11OUZ3etAf"
-    },
-
-    {
-      color: "#F8B6B6",
-      label: "Light Pink",
-      images: [
-        "/gamelle_chien_magenta.webp"
-      ],
-      priceId: "price_1TnQg1Kn0lmTcQ11phuMn4N8"
-    },
-
-    {
-      color: "#E91E8F",
-      label: "Pink",
-      images: [
-        "/gamelle_chien_rose.webp"
-      ],
-      priceId: "price_1TnQoZKn0lmTcQ11eRd5W0i4"
-    }
-  ]
 },
 
 {
@@ -433,40 +350,23 @@ A simple way to keep your cat hydrated every day.
   category: "cat",
   subtitle: "Window perch · soft plush · strong suction cups",
   price: 54.90,
+  priceId: "price_1TnQRxKn0lmTcQ110wWlzwk3",
   badge: "🪟 Cozy",
-  images: [
-  "/hamac_chat_couleur_ivoir.webp",
-  "/hamac_chat2.webp",
-  "/hamac_chat3.webp",
-  "/hamac_chat_couleur_gris.webp",
-],
-  variants: [
-    {
-      color: "#F2E8DC",
-      label: "Ivory",
-      images: [
-        "/hamac_chat_couleur_ivoir.webp",
-        "/hamac_chat2.webp",
-        "/hamac_chat3.webp"
-      ],
-      priceId: "price_1TnQRxKn0lmTcQ110wWlzwk3"
-    },
 
-    {
-      color: "#8A8A8A",
-      label: "Grey",
-      images: [
-        "/hamac_chat_couleur_gris.webp",
-        "/hamac_chat2.webp",
-        "/hamac_chat3.webp"
-      ],
-      priceId: "price_1TnQLAKn0lmTcQ118Dv8wvcv"
-    }
+  images: [
+    "/panier_home_gris.webp",
+    "/hamac_chat_couleur_gris.webp",
+    "/hamac_chat2.webp",
   ],
 
-  description: "A soft and elevated window hammock that gives your cat the perfect sunny spot to relax, nap and watch the world outside.",
+  description:
+    "A soft and elevated window hammock that gives your cat the perfect sunny spot to relax, nap and watch the world outside.",
+
   seoTitle: "Cat Window Hammock | Cozy Window Perch | FluffHaven",
-  seoDescription: "Give your cat a cozy elevated window seat with this sturdy window hammock. Soft, comfortable and easy to install.",
+
+  seoDescription:
+    "Give your cat a cozy elevated window seat with this sturdy window hammock. Soft, comfortable and easy to install.",
+
   brand: "FluffHaven",
 
   details: `
