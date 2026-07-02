@@ -987,13 +987,15 @@ details p {
   top: 0;
   width: min(400px, 92vw);
   height: 100%;
+  height: 100dvh;
   background: var(--cream);
   box-shadow: -24px 0 80px rgba(0,0,0,0.2);
   padding: 0;
   z-index: 1000;
   display: flex;
   flex-direction: column;
-  overflow: hidden;
+  overflow-y: auto;
+  overflow-x: hidden;
   animation: slideCart 0.28s cubic-bezier(0.32, 0.72, 0, 1);
 }
 
@@ -1009,6 +1011,10 @@ details p {
   padding: 28px 24px 20px;
   border-bottom: 1px solid var(--border);
   background: var(--white);
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  flex-shrink: 0;
 }
 
 .cart-header h3 {
@@ -1073,10 +1079,9 @@ details p {
 }
 
 .cart-items {
-  flex: 1;
+  flex: 1 1 auto;
+  min-height: 0;
   overflow-y: auto;
-  min-height: 50px;
-  max-height: 50px;
   padding: 16px 24px;
   display: grid;
   align-content: start;
@@ -1084,14 +1089,9 @@ details p {
 }
 
 .cart-item {
-  display: grid;
-  grid-template-columns: 48px 1fr 32px;
-  gap: 12px;
+  display: flex;
   align-items: center;
-  background: var(--white);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-sm);
-  padding: 8px 12px;
+  gap: 12px;
 }
 
 .cart-item-icon {
@@ -1102,6 +1102,12 @@ details p {
   background: var(--cream);
   border-radius: 8px;
   font-size: 20px;
+  flex-shrink: 0;
+}
+
+.cart-item-info {
+  flex: 1;
+  min-width: 0;
 }
 
 .cart-item-info strong {
@@ -1136,6 +1142,7 @@ details p {
   place-items: center;
   transition: all 0.2s;
   padding: 0;
+  flex-shrink: 0;
 }
 
 .cart-item-remove svg {
@@ -1154,18 +1161,19 @@ details p {
 }
 
 .cart-summary {
-  padding: 20px 24px 28px;
+  padding: 12px 24px 12px;
   border-top: 1px solid var(--border);
   background: var(--white);
   display: grid;
-  gap: 12px;
+  gap: 8px;
+  flex-shrink: 0; 
 }
 
 .cart-total {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .cart-total span {
