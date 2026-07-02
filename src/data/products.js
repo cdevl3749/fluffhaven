@@ -7,7 +7,7 @@ export const PRODUCTS = [
     name: "Pet Hair Remover Roller",
     category: "dog",
     subtitle: "No tape · reusable · instant clean",
-    price: 39.90,
+    price: 45.09,
     badge: "🔥 Best Seller",
     rating: 4.9,
     reviews: 284,
@@ -36,7 +36,7 @@ Perfect for keeping your home clean every day.
     name: "Dog Car Seat Cover",
     category: "dog",
     subtitle: "Waterproof · anti-slip · full protection",
-    price: 89.90,
+    price: 100.57,
     badge: "⭐ Premium",
     priceId: "price_1TnRJKKn0lmTcQ11EWFaj5lt",
     images: ["/housse_chien.webp","/housse_chien2.webp","/housse_chien3.webp"],
@@ -61,7 +61,7 @@ Travel with your dog stress-free.
     name: "No-Pull Dog Harness",
     category: "dog",
     subtitle: "No-pull · strong · comfortable",
-    price: 59.90,
+    price: 67.69,
     badge: "🔥 Best Seller",
     priceId: "price_1TnRHQKn0lmTcQ11EgBfVKzy",
     images: ["/harnais_chien.webp","/harnais_chien2.webp","/harnais_chien3.webp"],
@@ -86,7 +86,7 @@ Perfect for daily walks and training.
     name: "Electric Dog Nail Grinder",
     category: "dog",
     subtitle: "Quiet · LED · safe grooming",
-    price: 49.90,
+    price: 56.39,
     badge: "⚡ Popular",
     priceId: "price_1TnRF0Kn0lmTcQ115JFX0Ue8",
     images: ["/ponceuse_griffe.webp","/ponceuse_griffe2.webp","/ponceuse_griffe3.webp"],
@@ -112,7 +112,7 @@ Professional grooming at home.
   name: "Dog Paw Cleaner",
   category: "dog",
   subtitle: "Portable silicone paw cleaner",
-  price: 37.90,
+  price: 42.83,
   priceId: "price_1TnS1JKn0lmTcQ11MIaiRPAN",
   badge: "Best Seller",
   images: [
@@ -139,7 +139,7 @@ No more muddy floors after walks.
   name: "Portable Dog Water Bottle",
   category: "dog",
   subtitle: "Foldable silicone bowl-lid · 580 ml",
-  price: 22.90,
+  price: 25.88,
   priceId: "price_1TnRogKn0lmTcQ11CFFYi5XD",
   badge: "New",
 
@@ -170,7 +170,7 @@ Perfect for outdoor adventures.
     name: "Premium Cooling Mat",
     category: "dog",
     subtitle: "Self-cooling silk · waterproof base · L 70×55 cm",
-    price: 29.90,
+    price: 33.79,
     badge: "Summer",
     priceId: "price_1TnRi3Kn0lmTcQ11LovAAnUy",
     images: ["/tapis_rafraichissant.webp", "/tapis_rafraichissant_2.webp", "/tapis_rafraichissant_3.webp"],
@@ -194,7 +194,7 @@ Keeps your pet cool all summer long.
     name: "3-in-1 Steam Grooming Brush",
     category: "dog",
     subtitle: "Electric spray & massage brush · USB rechargeable",
-    price: 34.90,
+    price: 39.44,
     badge: "Popular",
     priceId: "price_1TnRbAKn0lmTcQ11q9YMW9qe",
     images: ["/peigne_brosse_3.webp", "/peigne_brosse_2.webp", "/peigne_brosse.webp"],
@@ -219,7 +219,7 @@ Professional grooming at home.
   name: "Pet Hair Remover Glove",
   category: "dog",
   subtitle: "Reusable · electrostatic · easy cleaning",
-  price: 29.90,
+  price: 33.79,
   priceId: "price_1TnR2kKn0lmTcQ11ITawJHag",
   badge: "🔥 Trending",
 
@@ -256,7 +256,7 @@ A simple and effective way to keep your home clean.
   name: "Slow Feeder Dog Bowl",
   category: "dog",
   subtitle: "Medium · anti-choking · slow eating",
-  price: 24.90,
+  price: 28.14,
   priceId: "price_1TnQvNKn0lmTcQ115ZBiOUth",
   badge: "⭐ Smart Choice",
 
@@ -292,7 +292,7 @@ A simple way to make mealtime calmer and safer.
   name: "Calming Donut Cat Bed",
   category: "cat",
   subtitle: "Ultra soft · calming · cozy nest",
-  price: 37.90,
+  price: 42.83,
   badge: "☁️ Cozy",
   priceId: "price_1TnQFyKn0lmTcQ11WmQulDvE",
   images: [
@@ -323,7 +323,7 @@ A warm and comfortable sleeping spot for everyday rest.
   name: "Cat Water Fountain",
   category: "cat",
   subtitle: "2L · quiet pump · filtered water",
-  price: 49.90,
+  price: 45.09,
   badge: "💧 Premium",
   priceId: "price_1TnQUSKn0lmTcQ11G4oFY4Xq",
   images: [
@@ -349,7 +349,7 @@ A simple way to keep your cat hydrated every day.
   name: "Cat Window Hammock",
   category: "cat",
   subtitle: "Window perch · soft plush · strong suction cups",
-  price: 54.90,
+  price: 62.04,
   priceId: "price_1TnQRxKn0lmTcQ110wWlzwk3",
   badge: "🪟 Cozy",
 
@@ -385,7 +385,7 @@ Perfect for indoor cats who love sunlight, window views and cozy naps.
     name: "Interactive Smart Cat Ball",
     category: "cat",
     subtitle: "Auto rolling toy · 2 speeds · USB rechargeable",
-    price: 29.90,
+    price: 33.79,
     badge: "New",
     priceId: "price_1TnRYnKn0lmTcQ11ZAJNfpvw",
     images: ["/balle_chat.webp", "/balle_chat2.webp", "/balle_chat3.webp"],
@@ -409,7 +409,7 @@ Hours of entertainment for your cat.
     name: "L-Shape Cat Scratcher",
     category: "cat",
     subtitle: "48 cm tall · premium corrugated cardboard · ball toy",
-    price: 39.90,
+    price: 45.09,
     badge: "Popular",
     priceId: "price_1TnRVlKn0lmTcQ11jId6Q9sK",
     images: ["/griffoir_chat.webp", "/griffoir_chat2.webp", "/griffoir_chat3.webp"],
@@ -433,7 +433,7 @@ The perfect scratching solution.
     name: "Feather Wand Cat Toy Set",
     category: "cat",
     subtitle: "2 retractable wands · 10 feather & teaser refills",
-    price: 21.90,
+    price: 24.75,
     badge: "Fun",
     priceId: "price_1TnRPPKn0lmTcQ112OPwMWwn",
     images: ["/plume_chat.webp", "/plume_chat2.webp", "/plume_chat3.webp"],
@@ -457,7 +457,7 @@ Daily playtime made fun & easy.
     name: "Premium Cat Play Tunnel",
     category: "cat",
     subtitle: "Foldable linen tunnel · 30×70 cm · pompom ball included",
-    price: 25.90,
+    price: 29.27,
     badge: null,
     priceId: "price_1TnRTFKn0lmTcQ11pRh2KjlR",
     images: ["/tunnel_chat.webp", "/tunnel_chat2.webp", "/tunnel_chat3.webp"],
@@ -481,7 +481,7 @@ Cats never get bored.
   name: "Interactive Cat Puzzle Feeder",
   category: "cat",
   subtitle: "Mental stimulation · slow feeding · boredom relief",
-  price: 34.90,
+  price: 39.44,
   badge: "🧠 Smart Play",
   priceId: "price_1TnQDJKn0lmTcQ110FNngvHn",
 
@@ -514,7 +514,7 @@ Perfect for indoor cats who need more stimulation, play and enrichment during th
   name: "Cozy Cat Cave Bed",
   category: "cat",
   subtitle: "Soft faux-linen · cozy hideaway · removable cushion",
-  price: 49.90,
+  price: 56.39,
   badge: "☁️ Cozy",
 
   priceId: "price_1TnQ8ZKn0lmTcQ11KvM6Ve8y",
@@ -548,7 +548,7 @@ A calming resting space where your cat can sleep, hide and relax comfortably eve
   name: "Cat Self Grooming Brush",
   category: "cat",
   subtitle: "Wall mounted · soft bristles · stress relief",
-  price: 24.90,
+  price: 28.14,
   badge: "✨ Relaxing",
 
   priceId: "price_1TnQ4HKn0lmTcQ117lpavjZZ",
@@ -587,7 +587,7 @@ A simple daily grooming and relaxation spot your cat can enjoy on its own.
 
   subtitle: "Hypoallergenic • Gentle formula • Sensitive skin",
 
-  price: 27.90,
+  price: 31.53,
 
   badge: null,
 
@@ -636,7 +636,7 @@ A simple daily grooming and relaxation spot your cat can enjoy on its own.
 
   subtitle: "Hypoallergenic • Gentle formula • Sensitive skin",
 
-  price: 29.90,
+  price: 45.09,
 
   badge: "",
 

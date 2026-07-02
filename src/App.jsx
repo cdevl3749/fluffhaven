@@ -906,14 +906,21 @@ useEffect(() => {
                 </div>
                 <div className="cart-summary">
                   <div className="cart-total">
-  <span>Subtotal</span>
+                  <div className="cart-summary-label">
+                  <small>Order Summary</small>
+                  <span>Subtotal</span>
+                </div>
 
-  <div style={{ textAlign: "right" }}>
-    <strong>{usd(total)} USD</strong>
-  </div>
-</div>
+                  <div style={{ textAlign: "right" }}>
+                  <span className="cart-subtotal-value">{usd(total)}</span>
+                </div>
+                </div>
                   <p className="cart-free-ship">✓ Free shipping included</p>
                   <p className="cart-free-ship">✓ Secure worldwide checkout</p>
+                  <div className="cart-final-total">
+                    <span>Total</span>
+                    <strong>{usd(total)} USD</strong>
+                  </div>
                   <div className="cart-security">
                     <span>🔒 SSL Secure</span>
                     <span>💳 Stripe</span>

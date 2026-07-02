@@ -1170,15 +1170,19 @@ details p {
 }
 
 .cart-total strong {
-  font-size: 22px;
-  font-family: var(--font-display);
+  font-size: 18px;
+  font-family: inherit;
+  font-weight: 600;
   color: var(--ink);
 }
 
 .cart-free-ship {
-  font-size: 12px;
+  font-size: 13px;
   color: #2a9d2a;
   font-weight: 600;
+
+  text-align: left;
+  margin: 8px 0 8px 28px;
 }
 
 .checkout-btn {
@@ -2513,4 +2517,49 @@ body.modal-open {
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+.cart-summary-label {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.cart-summary-label small {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: #9b8b80;
+  font-weight: 600;
+}
+
+.cart-summary-label span {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.cart-final-total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 18px;
+  padding-top: 18px;
+
+  border-top: 1px solid #e9e2db;
+}
+
+.cart-final-total span {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.cart-final-total strong {
+  font-size: 18px;
+  font-family: inherit;
+  font-weight: 700;
+  color: var(--ink);
+  letter-spacing: -0.01em;
 }
