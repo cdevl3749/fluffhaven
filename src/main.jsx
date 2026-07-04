@@ -64,6 +64,9 @@ import CanDogsWatchFootball from './blog/can-dogs-watch-football.jsx'
 import DogSleepAgainstMe from "./blog/dog-sleep-against-me.jsx";
 import DogStareAtMe from "./blog/dog-stare-at-me.jsx";
 
+import WhyDoesMyDogSitOnMyFeet from "./blog/why-does-my-dog-sit-on-my-feet.jsx";
+import WhyDoesMyCatKnockThingsOffTables from "./blog/why-does-my-cat-knock-things-off-tables.jsx";
+
 import ProductPage from "./pages/ProductPage.jsx";
 
 createRoot(document.getElementById('root')).render(
@@ -153,6 +156,12 @@ createRoot(document.getElementById('root')).render(
       )
       : window.location.pathname === "/blog/why-does-my-dog-stare-at-me" ? (
         <DogStareAtMe />
+      )
+      : window.location.pathname === "/blog/why-does-my-dog-sit-on-my-feet" ? (
+        <WhyDoesMyDogSitOnMyFeet />
+      )
+      : window.location.pathname === "/blog/why-does-my-cat-knock-things-off-tables" ? (
+        <WhyDoesMyCatKnockThingsOffTables />
       )
       : window.location.pathname.startsWith("/product/") ? (
         <ProductPage />

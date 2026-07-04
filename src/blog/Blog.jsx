@@ -335,6 +335,26 @@ export default function Blog() {
     "Learn why your dog stares at you so often, from affection and attention-seeking to habits, communication and daily routines.",
   url: "/blog/why-does-my-dog-stare-at-me",
 },
+
+{
+  title: "Why Does My Dog Sit on My Feet? 7 Sweet Reasons Behind This Behavior",
+  category: "Dog behavior",
+  date: "July 2026",
+  read: "6 min read",
+  description:
+    "Discover why dogs love sitting on their owner's feet, from affection and protection to comfort and trust, and learn what this adorable behavior really means.",
+  url: "/blog/why-does-my-dog-sit-on-my-feet",
+},
+
+{
+  title: "Why Does My Cat Knock Things Off Tables? The Funny Truth Behind This Habit",
+  category: "Cat behavior",
+  date: "July 2026",
+  read: "6 min read",
+  description:
+    "Discover why cats love knocking objects off tables, from curiosity and hunting instincts to attention-seeking and play, and what this quirky behavior really means.",
+  url: "/blog/why-does-my-cat-knock-things-off-tables",
+},
   ];
 
   // ── Filtrage par recherche ──
