@@ -1,0 +1,528 @@
+.ponpon-home {
+  background: #fffdf9;
+  padding: 70px 40px;
+}
+
+.ponpon-hero {
+  max-width: 1350px;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 80px;
+}
+
+.ponpon-image-side {
+  position: relative;
+  flex: 1;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.ponpon-photo-wrap {
+  width: 100%;
+  max-width: 620px;
+
+  border-radius: 50%;
+  overflow: hidden;
+
+  border: 6px solid #efe2d4;
+}
+
+.ponpon-photo-wrap img {
+  display: block;
+  width: 100%;
+}
+
+.ponpon-badge {
+  position: absolute;
+
+  left: -20px;
+  bottom: 40px;
+
+  width: 170px;
+  height: 170px;
+
+  border-radius: 50%;
+
+  background: #c89262;
+
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+
+  font-size: 32px;
+  line-height: 1.15;
+  font-weight: 700;
+
+  transform: rotate(-12deg);
+
+  box-shadow: 0 18px 40px rgba(0,0,0,.15);
+}
+
+.ponpon-text-side {
+  flex: 1;
+}
+
+.ponpon-small-title {
+  color: #8b633f;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 18px;
+}
+
+.ponpon-text-side h1 {
+  font-size: 72px;
+  line-height: 1.05;
+  margin-bottom: 25px;
+}
+
+.ponpon-text-side h1 span {
+  color: #c89262;
+}
+
+.ponpon-text-side p {
+  font-size: 26px;
+  line-height: 1.7;
+  color: #444;
+  max-width: 560px;
+}
+
+.ponpon-btn {
+  margin-top: 40px;
+
+  padding: 18px 42px;
+
+  border: none;
+  border-radius: 999px;
+
+  background: #1f1a17;
+  color: white;
+
+  font-size: 20px;
+  font-weight: 700;
+
+  cursor: pointer;
+
+  transition: .25s;
+}
+
+.ponpon-btn:hover {
+  transform: translateY(-3px);
+}
+
+.ponpon-container {
+  max-width: 1400px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: flex-start;
+  gap: 80px;
+}
+
+.ponpon-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 600px;
+}
+
+.ponpon-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ponpon-title {
+  font-size: 5rem;
+  line-height: 1.05;
+  margin: 20px 0;
+  color: #111;
+}
+
+.ponpon-title span {
+  color: #c8935f;
+}
+
+.ponpon-description {
+  font-size: 1.45rem;
+  line-height: 1.7;
+  color: #555;
+  max-width: 550px;
+}
+
+.ponpon-kicker {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+
+  font-size: 1rem;
+  letter-spacing: 3px;
+  color: #8c633d;
+  font-weight: 700;
+}
+
+.ponpon-kicker::after {
+  content: "";
+  width: 52px;
+  height: 2px;
+  background: #c8935f;
+  border-radius: 999px;
+}
+
+.ponpon-photo {
+  width: 620px;
+  height: 620px;
+
+  border-radius: 50%;
+
+  overflow: hidden;
+
+  border: 6px solid #efe4d8;
+
+  background: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  box-shadow: 0 25px 60px rgba(0,0,0,.08);
+}
+
+.ponpon-photo img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+
+  display: block;
+}
+
+/* Responsive base for Ponpon hero */
+.ponpon-home {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.ponpon-container {
+  width: 100%;
+}
+
+.ponpon-photo {
+  width: min(560px, 42vw);
+  height: min(560px, 42vw);
+}
+
+.ponpon-title {
+  font-size: clamp(3rem, 5.2vw, 4.8rem);
+  text-align: left;
+}
+
+.ponpon-description {
+  font-size: clamp(1.1rem, 1.8vw, 1.45rem);
+  max-width: 520px;
+}
+
+.ponpon-right {
+  text-align: left;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .ponpon-home {
+    padding: 40px 20px;
+    min-height: auto;
+  }
+
+  .ponpon-container {
+    grid-template-columns: 1fr;
+    gap: 35px;
+    text-align: center;
+  }
+
+  .ponpon-left {
+    min-height: auto;
+    order: 1;
+  }
+
+  .ponpon-right {
+    order: 2;
+    text-align: center;
+    align-items: center;
+  }
+
+  .ponpon-photo {
+    width: min(300px, 80vw);
+    height: min(300px, 80vw);
+  }
+
+  .ponpon-title {
+    font-size: clamp(2.4rem, 12vw, 3.5rem);
+    text-align: center;
+  }
+
+  .ponpon-description {
+    font-size: 1.05rem;
+    line-height: 1.6;
+    max-width: 330px;
+  }
+
+  .ponpon-kicker {
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+  }
+
+  .ponpon-badge {
+    width: 95px;
+    height: 95px;
+    font-size: 17px;
+    left: 5px;
+    bottom: 5px;
+  }
+}
+
+.ponpon-shop-btn {
+  width: fit-content;
+  align-self: flex-start;
+  margin-top: 32px;
+  padding: 18px 42px;
+
+  border: none;
+  border-radius: 999px;
+
+  background: #171412;
+  color: white;
+
+  font-size: 1.05rem;
+  font-weight: 800;
+  letter-spacing: 3px;
+
+  cursor: pointer;
+
+  box-shadow: 0 18px 35px rgba(0,0,0,.18);
+  transition: transform .25s ease, box-shadow .25s ease;
+}
+
+.ponpon-shop-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 24px 45px rgba(0,0,0,.22);
+}
+
+@media (max-width: 768px) {
+  .ponpon-shop-btn {
+    align-self: center;
+    margin-top: 22px;
+    padding: 14px 30px;
+    font-size: .85rem;
+    letter-spacing: 2px;
+  }
+}
+.ponpon-features {
+  margin-top: 55px;
+  width: 100%;
+
+  background: rgba(255, 255, 255, 0.82);
+  border: 1px solid #efe7de;
+  border-radius: 28px;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  box-shadow: 0 18px 55px rgba(0, 0, 0, 0.06);
+  overflow: hidden;
+}
+
+.ponpon-feature {
+  padding: 30px 22px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  gap: 10px;
+}
+
+.ponpon-feature:not(:last-child) {
+  border-right: 1px solid #efe7de;
+}
+
+.ponpon-icon {
+  width: 34px;
+  height: 34px;
+
+  border-radius: 50%;
+  background: #171412;
+  color: #fff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 1rem;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.ponpon-feature strong {
+  display: block;
+  font-size: 1rem;
+  line-height: 1.3;
+  color: #111;
+}
+
+.ponpon-feature span {
+  display: block;
+  font-size: 0.9rem;
+  line-height: 1.45;
+  color: #6f6f6f;
+}
+
+@media (max-width: 768px) {
+
+  .ponpon-features {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .ponpon-feature:not(:last-child) {
+    border-right: none;
+  }
+
+  .ponpon-feature:nth-child(1),
+  .ponpon-feature:nth-child(2) {
+    border-bottom: 1px solid #efe7de;
+  }
+
+  .ponpon-feature:nth-child(odd) {
+    border-right: 1px solid #efe7de;
+  }
+
+}
+
+.ponpon-story {
+  margin-top: 70px;
+  padding: 45px 50px;
+
+  background: #fffaf5;
+  border: 1px solid #efe7de;
+  border-radius: 32px;
+
+  box-shadow: 0 18px 55px rgba(0, 0, 0, 0.05);
+}
+
+.ponpon-story-tag {
+  display: inline-block;
+  margin-bottom: 14px;
+
+  color: #b98555;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+}
+
+.ponpon-story h2 {
+  margin: 0 0 18px;
+  color: #141414;
+  font-size: clamp(2rem, 3vw, 3.2rem);
+  line-height: 1.1;
+}
+
+.ponpon-story p {
+  margin: 0;
+  max-width: 720px;
+
+  color: #444;
+  font-size: 1.15rem;
+  line-height: 1.7;
+}
+
+@media (max-width: 768px) {
+  .ponpon-story {
+    margin-top: 35px;
+    padding: 30px 24px;
+    text-align: center;
+  }
+
+  .ponpon-story p {
+    font-size: 1rem;
+  }
+}
+
+.ponpon-why {
+  max-width: 1320px;
+  margin: 80px auto 0;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.ponpon-section-tag {
+  display: inline-block;
+  margin-bottom: 14px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #9a6b4f;
+}
+
+.ponpon-why h2 {
+  margin: 0 0 34px;
+  font-size: clamp(2rem, 4vw, 3rem);
+  line-height: 1.08;
+  color: #2f2521;
+}
+
+.ponpon-why-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+
+.ponpon-why-card {
+  background: #fffaf4;
+  border: 1px solid rgba(126, 87, 64, 0.14);
+  border-radius: 24px;
+  padding: 34px 30px;
+  text-align: left;
+  box-shadow: 0 18px 45px rgba(70, 45, 30, 0.06);
+}
+
+.ponpon-why-card strong {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1.05rem;
+  color: #2f2521;
+}
+
+.ponpon-why-card p {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.65;
+  color: #6f5b50;
+}
+
+@media (max-width: 768px) {
+  .ponpon-why {
+    margin-top: 58px;
+    padding: 0 16px;
+  }
+
+  .ponpon-why-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .ponpon-why-card {
+    padding: 24px 22px;
+    border-radius: 20px;
+  }
+}

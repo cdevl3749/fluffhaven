@@ -2,6 +2,8 @@ import { useState, useEffect } from "react";
 import "./App.css";
 import { PRODUCTS } from "./data/products";
 import ProductPage from "./pages/ProductPage";
+import HomeSwitcher from "./home/HomeSwitcher";
+import HomeClassic from "./home/HomeClassic";
 
 // ─────────────────────────────────────────────────────────────
 // PRODUCTS
@@ -497,6 +499,8 @@ useEffect(() => {
       </header>
 
       {/* HERO */}
+      <HomeSwitcher />
+      <HomeClassic>
       <section id="home" className="hero">
         <div className="hero-content">
           <div className="hero-tag">Premium Pet Essentials</div>
@@ -525,7 +529,7 @@ useEffect(() => {
           </div>
         </div>
       </section>
-
+      </HomeClassic>
      <section className="summer-promo">
         <div className="summer-promo-content">
           <div className="summer-promo-header">

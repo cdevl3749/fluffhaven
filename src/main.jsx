@@ -1,6 +1,8 @@
 import { StrictMode } from "react";
 import { createRoot } from 'react-dom/client'
 
+import PonponPreview from "./PonponPreview.jsx";
+
 import './index.css'
 
 import App from './App.jsx'
@@ -165,6 +167,9 @@ createRoot(document.getElementById('root')).render(
       )
       : window.location.pathname.startsWith("/product/") ? (
         <ProductPage />
+      )
+      : window.location.pathname === "/ponpon-preview" ? (
+        <PonponPreview />
       )
       : (
         <App />
