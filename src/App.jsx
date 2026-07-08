@@ -4,6 +4,7 @@ import { PRODUCTS } from "./data/products";
 import ProductPage from "./pages/ProductPage";
 import HomeSwitcher from "./home/HomeSwitcher";
 import HomeClassic from "./home/HomeClassic";
+import PonponPick from "./components/PonponPick";
 
 // ─────────────────────────────────────────────────────────────
 // PRODUCTS
@@ -530,6 +531,9 @@ useEffect(() => {
         </div>
       </section>
       </HomeClassic>
+
+      <PonponPick />
+
      <section className="summer-promo">
         <div className="summer-promo-content">
           <div className="summer-promo-header">
