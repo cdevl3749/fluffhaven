@@ -355,6 +355,26 @@ export default function Blog() {
     "Discover why cats love knocking objects off tables, from curiosity and hunting instincts to attention-seeking and play, and what this quirky behavior really means.",
   url: "/blog/why-does-my-cat-knock-things-off-tables",
 },
+
+{
+  title: "Why Does My Dog Pull On The Leash? Causes And Simple Solutions",
+  category: "Dog behavior",
+  date: "July 2026",
+  read: "6 min read",
+  description:
+    "Discover why dogs pull on the leash, what causes this common walking behavior, and how to encourage calmer, safer walks.",
+  url: "/blog/why-does-my-dog-pull-on-the-leash",
+},
+
+{
+  title: "Why Does My Cat Slow Blink At Me? The Meaning Behind The Cat Kiss",
+  category: "Cat behavior",
+  date: "July 2026",
+  read: "6 min read",
+  description:
+    "Discover why cats slow blink at their owners, what this famous 'cat kiss' means, and how to respond to strengthen your bond.",
+  url: "/blog/why-does-my-cat-slow-blink",
+},
   ];
 
   // ── Filtrage par recherche ──

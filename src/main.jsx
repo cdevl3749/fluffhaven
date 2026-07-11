@@ -71,6 +71,9 @@ import WhyDoesMyCatKnockThingsOffTables from "./blog/why-does-my-cat-knock-thing
 
 import ProductPage from "./pages/ProductPage.jsx";
 
+import WhyDoesMyDogPullOnTheLeash from "./blog/why-does-my-dog-pull-on-the-leash.jsx";
+import WhyDoesMyCatSlowBlink from "./blog/why-does-my-cat-slow-blink.jsx";
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {
@@ -164,6 +167,12 @@ createRoot(document.getElementById('root')).render(
       )
       : window.location.pathname === "/blog/why-does-my-cat-knock-things-off-tables" ? (
         <WhyDoesMyCatKnockThingsOffTables />
+      )
+      : window.location.pathname === "/blog/why-does-my-dog-pull-on-the-leash" ? (
+        <WhyDoesMyDogPullOnTheLeash />
+      )
+      : window.location.pathname === "/blog/why-does-my-cat-slow-blink" ? (
+        <WhyDoesMyCatSlowBlink />
       )
       : window.location.pathname.startsWith("/product/") ? (
         <ProductPage />
