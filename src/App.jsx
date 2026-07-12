@@ -398,7 +398,10 @@ useEffect(() => {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ items: cart.map((item) => ({ priceId: item.priceId, quantity: item.quantity || 1 })) }),
       });
-      fetch("/.netlify/functions/stats", { method: "POST", body: JSON.stringify({ type: "stripe" }) });
+      await fetch("/.netlify/functions/stats", {
+        method: "POST",
+        body: JSON.stringify({ type: "stripe" }),
+      });
       const data = await response.json();
 
       console.log(data);
