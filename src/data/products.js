@@ -2,6 +2,45 @@ export const PRODUCTS = [
 
   // 🔥 PRODUITS QUI CONVERTISSENT (EN PREMIER)
   {
+  id: 22,
+  slug: "premium-dog-cooling-vest",
+  name: "Premium Dog Cooling Vest",
+  category: "dog",
+  subtitle: "Evaporative cooling · lightweight · reusable",
+  price: 159,
+  badge: "☀️ Summer Pick",
+  priceId: "price_1Tt4LVKn0lmTcQ11AX2x3V9V",
+
+  images: [
+    "/gilet_rafraichissant.webp",
+    "/gilet_rafraichissant2.webp",
+    "/gilet_rafraichissant3.webp",
+  ],
+
+  description:
+    "Help your dog stay cool during hot summer days with this premium evaporative cooling vest. Lightweight, reusable and designed for maximum comfort during walks, hikes and outdoor adventures.",
+
+  seoTitle:
+    "Premium Dog Cooling Vest | Cooling Vest for Dogs | FluffHaven",
+
+  seoDescription:
+    "Keep your dog cool and comfortable during hot weather with this premium cooling vest. Lightweight, reusable and ideal for walks, hikes and outdoor adventures.",
+
+  brand: "FluffHaven",
+
+  details: `
+✔ Activated with fresh water
+✔ Natural evaporative cooling
+✔ Lightweight & breathable
+✔ Adjustable straps
+✔ Comfortable fit
+✔ Reusable & machine washable
+✔ Perfect for walks, hikes & summer adventures
+
+Designed to help keep your dog cool and comfortable during warm weather.
+`,
+},
+  {
     id: 8,
     slug: "pet-hair-remover-roller",
     name: "Pet Hair Remover Roller",
@@ -283,6 +322,48 @@ A simple and effective way to keep your home clean.
 ✔ Easy to clean
 
 A simple way to make mealtime calmer and safer.
+`,
+},
+
+{
+  id: 23,
+  slug: "premium-cat-travel-backpack",
+  name: "Premium Cat Travel Backpack",
+  category: "cat",
+  subtitle: "Breathable · spacious · travel-ready",
+  price: 79,
+  badge: "🎒 Travel Pick",
+  priceId: "price_1Tt5QHKn0lmTcQ11kU8wSKqS",
+
+  images: [
+    "/sac_transport_chat.webp",
+    "/sac_transport_chat2.webp",
+    "/sac_transport_chat3.webp",
+  ],
+
+  description:
+    "Travel comfortably with your cat using this spacious and breathable premium backpack. Designed with mesh ventilation, a supportive interior and secure openings for stress-free trips, vet visits and outdoor adventures.",
+
+  seoTitle:
+    "Premium Cat Travel Backpack | Breathable Cat Carrier | FluffHaven",
+
+  seoDescription:
+    "Travel safely with your cat using this breathable premium travel backpack. Spacious, comfortable and ideal for trips, vet visits and outdoor adventures.",
+
+  brand: "FluffHaven",
+
+  details: `
+✔ Size L for extra comfort
+✔ Breathable mesh ventilation
+✔ Spacious interior
+✔ Supportive honeycomb base
+✔ Top access window
+✔ Secure zippers and safety leash
+✔ Padded shoulder straps
+✔ Side storage pocket
+✔ Ideal for trips, vet visits and outdoor adventures
+
+A comfortable and secure way to travel with your cat.
 `,
 },
 
