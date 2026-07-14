@@ -5,6 +5,7 @@ import ProductPage from "./pages/ProductPage";
 import HomeSwitcher from "./home/HomeSwitcher";
 import HomeClassic from "./home/HomeClassic";
 import PonponPick from "./components/PonponPick";
+import PonponRecommends from "./components/PonponRecommends";
 
 // ─────────────────────────────────────────────────────────────
 // PRODUCTS
@@ -536,6 +537,8 @@ useEffect(() => {
       </HomeClassic>
 
       <PonponPick />
+
+      <PonponRecommends />
 
      <section className="summer-promo">
         <div className="summer-promo-content">

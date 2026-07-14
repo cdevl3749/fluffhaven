@@ -1,0 +1,155 @@
+.ponpon-recommends {
+    padding: 22px 20px 34px;
+    background: #fffaf5;
+}
+
+.ponpon-recommends-bar {
+    max-width: 1120px;
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    gap: 22px;
+
+    background: #ffffff;
+    border: 1px solid #eadfd5;
+    border-radius: 22px;
+
+    padding: 18px 24px;
+
+    box-shadow: 0 10px 28px rgba(90,70,53,.08);
+
+    cursor: pointer;
+    transition: .25s;
+}
+
+.ponpon-recommends-bar:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 16px 34px rgba(90,70,53,.12);
+}
+
+.ponpon-avatar {
+    width: 72px;
+    height: 72px;
+
+    border-radius: 50%;
+    object-fit: cover;
+
+    border: 3px solid #ead8c8;
+
+    flex-shrink: 0;
+}
+
+.ponpon-content {
+    flex: 1;
+}
+
+.ponpon-label {
+    display: block;
+
+    margin-bottom: 6px;
+
+    font-size: 12px;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+
+    font-weight: 700;
+    color: #a06a28;
+}
+
+.ponpon-content h3 {
+    margin: 0;
+
+    color: #5d4634;
+
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.ponpon-content p {
+    margin-top: 6px;
+
+    color: #74675d;
+
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.ponpon-button {
+
+    border: none;
+
+    border-radius: 999px;
+
+    background: #171411;
+
+    color: white;
+
+    padding: 12px 18px;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: .2s;
+
+    flex-shrink: 0;
+}
+
+.ponpon-button:hover {
+    background: #5d4634;
+}
+
+@media (max-width:768px) {
+
+    .ponpon-recommends {
+        padding: 18px 14px 26px;
+    }
+
+    .ponpon-recommends-bar {
+
+        flex-direction: column;
+
+        text-align: center;
+
+        gap: 14px;
+
+        padding: 18px;
+
+    }
+
+    .ponpon-avatar {
+
+        width: 62px;
+        height: 62px;
+
+    }
+
+    .ponpon-content h3 {
+
+        font-size: 21px;
+
+    }
+
+    .ponpon-content p {
+
+        font-size: 14px;
+
+        margin-top: 4px;
+
+    }
+
+    .ponpon-button {
+
+        width: auto;
+
+        padding: 12px 18px;
+
+        font-size: 14px;
+
+    }
+
+}
