@@ -1,6 +1,99 @@
 export const PRODUCTS = [
 
   // 🔥 PRODUITS QUI CONVERTISSENT (EN PREMIER)
+{
+  id: 25,
+
+  slug: "cooling-dog-bandana",
+
+  name: "Cooling Dog Bandana",
+
+  category: "dog",
+
+  subtitle: "Cooling neck wrap • lightweight • summer comfort",
+
+  price: 29.90,
+
+  badge: "❄️ Summer Essential",
+
+  priceId: "price_1TtsZEKn0lmTcQ11FTeKlXaI",
+
+  images: [
+    "/cooling-bandana.webp",
+    "/cooling-bandana2.webp",
+    "/cooling-bandana3.webp",
+  ],
+
+  description:
+    "Keep your dog cool and comfortable on hot summer days with this lightweight cooling bandana. Simply soak it in cold water, wring it out, and place it around your dog's neck for refreshing cooling relief during walks, outdoor adventures, or relaxing in the garden.",
+
+  seoTitle:
+    "Cooling Dog Bandana | Cooling Neck Wrap for Dogs | FluffHaven",
+
+  seoDescription:
+    "Premium cooling dog bandana designed to help keep dogs cool during hot summer days. Lightweight, reusable and comfortable for everyday adventures.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Cooling fabric activated with water
+✓ Lightweight & breathable
+✓ Comfortable around the neck
+✓ Reusable all summer long
+✓ Ideal for walks & outdoor activities
+✓ Easy to soak and reuse
+✓ Suitable for small, medium & large dogs
+
+Designed to help your dog stay cool, comfortable and happy during warm weather.
+  `,
+},
+{
+  id: 24,
+
+  slug: "dog-splash-pad",
+
+  name: "Dog Splash Pad",
+
+  category: "dog",
+
+  subtitle: "Cooling water play mat • non-slip • summer fun",
+
+  price: 49.90,
+
+  badge: "💦 Summer Essential",
+
+  priceId: "price_1TtrC9Kn0lmTcQ116bi2u5zg",
+
+  images: [
+    "/dog-splash-pad.webp",
+    "/dog-splash-pad-size.webp",
+    "/dog-splash-pad-safety.webp",
+  ],
+
+  description:
+    "Keep your dog cool and active during hot summer days with this durable splash pad. Designed with a non-slip surface and refreshing water spray, it's perfect for outdoor fun, exercise and staying comfortable in warm weather.",
+
+  seoTitle:
+    "Dog Splash Pad | Cooling Water Play Mat for Dogs | FluffHaven",
+
+  seoDescription:
+    "Premium splash pad for dogs with refreshing water spray, non-slip surface and durable construction. The perfect summer accessory to keep your pet cool and entertained.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Refreshing water sprinkler
+✓ Non-slip textured surface
+✓ Durable PVC construction
+✓ Easy garden hose connection
+✓ Adjustable water pressure
+✓ Foldable & easy to store
+✓ Ideal for hot summer days
+
+Designed to help dogs stay cool, active and happy during warm weather.
+`,
+},
+
   {
   id: 22,
   slug: "premium-dog-cooling-vest",
