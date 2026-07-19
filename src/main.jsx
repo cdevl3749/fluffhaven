@@ -74,6 +74,9 @@ import ProductPage from "./pages/ProductPage.jsx";
 import WhyDoesMyDogPullOnTheLeash from "./blog/why-does-my-dog-pull-on-the-leash.jsx";
 import WhyDoesMyCatSlowBlink from "./blog/why-does-my-cat-slow-blink.jsx";
 
+import DogBringMeToys from "./blog/why-does-my-dog-bring-me-toys.jsx";
+import CatRubAgainstLegs from "./blog/why-does-my-cat-rub-against-my-legs.jsx";
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {
@@ -173,6 +176,12 @@ createRoot(document.getElementById('root')).render(
       )
       : window.location.pathname === "/blog/why-does-my-cat-slow-blink" ? (
         <WhyDoesMyCatSlowBlink />
+      )
+      : window.location.pathname === "/blog/why-does-my-dog-bring-me-toys" ? (
+        <DogBringMeToys />
+      )
+      : window.location.pathname === "/blog/why-does-my-cat-rub-against-my-legs" ? (
+        <CatRubAgainstLegs />
       )
       : window.location.pathname.startsWith("/product/") ? (
         <ProductPage />

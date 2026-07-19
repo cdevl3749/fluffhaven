@@ -375,6 +375,26 @@ export default function Blog() {
     "Discover why cats slow blink at their owners, what this famous 'cat kiss' means, and how to respond to strengthen your bond.",
   url: "/blog/why-does-my-cat-slow-blink",
 },
+
+{
+  title: "Why Does My Dog Bring Me Toys? What This Sweet Behavior Really Means",
+  category: "Dog behavior",
+  date: "July 2026",
+  read: "6 min read",
+  description:
+    "Discover why dogs love bringing toys to their owners, what this adorable behavior means, and how it reflects trust, playfulness and affection.",
+  url: "/blog/why-does-my-dog-bring-me-toys",
+},
+
+{
+  title: "Why Does My Cat Rub Against My Legs? Understanding This Affectionate Behavior",
+  category: "Cat behavior",
+  date: "July 2026",
+  read: "6 min read",
+  description:
+    "Learn why cats rub against their owners' legs, what this affectionate behavior means, and how it helps strengthen the bond between you and your cat.",
+  url: "/blog/why-does-my-cat-rub-against-my-legs",
+},
   ];
 
   // ── Filtrage par recherche ──
