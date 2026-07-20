@@ -581,74 +581,75 @@ useEffect(() => {
         </div>
       </section>
 
-    {/* WORLD CUP 2026 DOG STYLE */}
+{/* PONPON'S AUTUMN PICKS */}
 <section className="world-cup-section">
-  <div className="section-label">World Cup 2026</div>
-  <h2>Golden Retriever Fan Collection</h2>
+  <div className="section-label">🍂 Ponpon's Autumn Picks</div>
+
+  <h2>Cozy Essentials for Autumn Adventures</h2>
+
   <p className="world-cup-intro">
-    Our Golden Retriever mascot is cheering for teams around the world.
-    Which team would your dog support?
+    Ponpon has selected her favorite essentials for cozy walks, rainy
+    adventures and comfortable moments as the seasons change.
   </p>
+
   <div className="world-cup-grid">
-    <div className="world-cup-card">
-      <img src="/world_cup_usa_2026.webp" alt="USA Golden Retriever Fan Edition" />
-      <h3>USA</h3>
-      <button onClick={() => handleShare("USA")} className="world-cup-share-btn">
-        🔗 Share
-      </button>
-    </div>
-    <div className="world-cup-card">
-      <img src="/world_cup_canada_2026.webp" alt="Canada Golden Retriever Fan Edition" />
-      <h3>Canada</h3>
-      <button onClick={() => handleShare("Canada")} className="world-cup-share-btn">
-        🔗 Share
-      </button>
-    </div>
-    <div className="world-cup-card">
-      <img src="/world_cup_belgium_2026.webp" alt="Belgium Golden Retriever Fan Edition" />
-      <h3>Belgium</h3>
-      <button onClick={() => handleShare("Belgium")} className="world-cup-share-btn">
-        🔗 Share
-      </button>
-    </div>
-    <div className="world-cup-card">
-      <img src="/world_cup_france_2026.webp" alt="France Golden Retriever Fan Edition" />
-      <h3>France</h3>
-      <button onClick={() => handleShare("France")} className="world-cup-share-btn">
-        🔗 Share
-      </button>
-    </div>
-    <div className="world-cup-card">
-      <img src="/world_cup_australia_2026.webp" alt="Australia Golden Retriever Fan Edition" />
-      <h3>Australia</h3>
-      <button onClick={() => handleShare("Australia")} className="world-cup-share-btn">
-        🔗 Share
-      </button>
-    </div>
-    <div className="world-cup-card">
-      <img src="/world_cup_brazil_2026.webp" alt="Brazil Golden Retriever Fan Edition" />
-      <h3>Brazil</h3>
-      <button onClick={() => handleShare("Brazil")} className="world-cup-share-btn">
-        🔗 Share
-      </button>
-    </div>
-    <div className="world-cup-card">
-      <img src="/world_cup_argentina_2026.webp" alt="Argentina Golden Retriever Fan Edition" />
-      <h3>Argentina</h3>
-      <button onClick={() => handleShare("Argentina")} className="world-cup-share-btn">
-        🔗 Share
-      </button>
-    </div>
+
     <div className="world-cup-card">
       <img
-        src="/world_cup_england_2026.webp"
-        alt="England Golden Retriever Fan Edition"
+        src="/autumn_walks.webp"
+        alt="Ponpon enjoying a cozy autumn walk"
       />
-      <h3>England</h3>
-      <button onClick={() => handleShare("England")} className="world-cup-share-btn">
-        🔗 Share
+      <h3>🍂 Autumn Walks</h3>
+      <button
+        onClick={() => (window.location.href = "/product/premium-reflective-dog-harness")}
+        className="world-cup-share-btn"
+      >
+        🍂 View Collection
       </button>
     </div>
+
+    <div className="world-cup-card">
+      <img
+        src="/rainy_day_jaune_section.webp"
+        alt="Ponpon ready for rainy days"
+      />
+      <h3>☔ Rainy Days</h3>
+      <button
+        onClick={() => (window.location.href = "/product/premium-waterproof-dog-raincoat")}
+        className="world-cup-share-btn"
+      >
+        ☔ View Collection
+      </button>
+    </div>
+
+    <div className="world-cup-card">
+      <img
+        src="/stay_warm.webp"
+        alt="Ponpon staying warm during autumn"
+      />
+      <h3>🧣 Stay Warm</h3>
+      <button
+        onClick={() => (window.location.href = "/product/premium-orthopedic-dog-bed")}
+        className="world-cup-share-btn"
+      >
+        🧣 View Collection
+      </button>
+    </div>
+
+    <div className="world-cup-card">
+      <img
+        src="/ponpon_favorite.webp"
+        alt="Ponpon's favorite autumn essential"
+      />
+      <h3>❤️ Ponpon's Favorite</h3>
+      <button
+        onClick={() => (window.location.href = "/product/premium-dog-snuffle-mat")}
+        className="world-cup-share-btn"
+      >
+        ❤️ View Collection
+      </button>
+    </div>
+
   </div>
 </section>
       {/* WHY FLUFFHAVEN */}
@@ -726,7 +727,10 @@ useEffect(() => {
         )}
 
         <div className="products">
-          {PRODUCTS.filter(p => activeTab === "all" || p.category === activeTab).map((p) => (
+          {PRODUCTS
+          .filter(p => !p.hidden)
+          .filter(p => activeTab === "all" || p.category === activeTab)
+          .map((p) => (
             <ProductCard
               key={p.id}
               product={p}
@@ -753,7 +757,7 @@ useEffect(() => {
           <div className="about-visual">
             <div className="about-card"><div className="about-stat">100+</div><div className="about-stat-label">Happy Pet Parents</div></div>
             <div className="about-card"><div className="about-stat">4.9★</div><div className="about-stat-label">Average Rating</div></div>
-            <div className="about-card"><div className="about-stat">26+</div><div className="about-stat-label">Pet Essentials</div></div>
+            <div className="about-card"><div className="about-stat">30+</div><div className="about-stat-label">Pet Essentials</div></div>
             <div className="about-card"><div className="about-stat">14</div><div className="about-stat-label">Day Return Policy</div></div>
           </div>
         </div>

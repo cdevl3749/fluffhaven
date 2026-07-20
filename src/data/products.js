@@ -848,4 +848,214 @@ A simple daily grooming and relaxation spot your cat can enjoy on its own.
 
   promo: "🌿 Gentle formula for sensitive skin",
 },
+
+// 🍂 AUTUMN COLLECTION
+{
+  id: 26,
+
+  slug: "premium-reflective-dog-harness",
+
+  name: "Premium Reflective Dog Harness",
+
+  category: "dog",
+
+  subtitle: "Reflective • Comfortable • Harness & Leash Set",
+
+  price: 89.90,
+
+  badge: "🍂 Autumn Pick",
+
+  season: "autumn",
+
+  hidden: true,
+
+  priceId: "price_1TvNNTKn0lmTcQ11fJ1XNmos",
+
+  images: [
+    "/premium-reflective-dog-harness-main.webp",
+    "/premium-reflective-dog-harness-features.webp",
+    "/premium-reflective-dog-harness-lifestyle.webp",
+  ],
+
+  description:
+    "Enjoy safer and more comfortable autumn walks with this premium reflective dog harness and leash set. Designed with adjustable straps, reflective stitching and a soft padded fit for everyday adventures.",
+
+  seoTitle:
+    "Premium Reflective Dog Harness | FluffHaven",
+
+  seoDescription:
+    "Premium reflective dog harness with matching leash. Comfortable, adjustable and perfect for safe everyday walks with your dog.",
+
+  brand: "FluffHaven",
+
+  details: `
+✔ Premium reflective harness
+✔ Matching climbing rope leash
+✔ Soft foam handle
+✔ Adjustable straps
+✔ Reflective stitching
+✔ Strong metal D-ring
+✔ 360° rotating quick-release hook
+✔ Comfortable for everyday walks
+
+Designed for safe and enjoyable adventures with your best friend.
+`,
+},
+
+{
+  id: 27,
+
+  slug: "premium-waterproof-dog-raincoat",
+
+  name: "Premium Waterproof Dog Raincoat",
+
+  category: "dog",
+
+  subtitle: "Waterproof • Windproof • Reflective",
+
+  price: 99.90,
+
+  badge: "🌧️ Rainy Days",
+
+  season: "autumn",
+
+  hidden: true,
+
+  priceId: "price_1TvOMFKn0lmTcQ11yd8uiBoA",
+
+  images: [
+    "/premium-waterproof-dog-raincoat-main.webp",
+    "/premium-waterproof-dog-raincoat-features.webp",
+    "/premium-waterproof-dog-raincoat-lifestyle.webp",
+  ],
+
+  description:
+    "Keep your dog dry and comfortable during rainy walks with this premium waterproof raincoat. Designed with reflective details, an adjustable fit and a convenient harness opening for everyday autumn adventures.",
+
+  seoTitle:
+    "Premium Waterproof Dog Raincoat | FluffHaven",
+
+  seoDescription:
+    "Premium waterproof dog raincoat with reflective safety trim, adjustable fit and harness opening. Perfect for rainy autumn walks.",
+
+  brand: "FluffHaven",
+
+  details: `
+✔ 100% waterproof fabric
+✔ Windproof protection
+✔ Reflective safety trim
+✔ Harness opening
+✔ Adjustable fit
+✔ Lightweight & breathable
+✔ Comfortable for everyday use
+✔ Perfect for rainy walks
+
+Designed to keep your dog dry, comfortable and visible during wet weather adventures.
+`,
+},
+
+{
+  id: 28,
+
+  slug: "premium-orthopedic-dog-bed",
+
+  name: "Premium Orthopedic Dog Bed",
+
+  category: "dog",
+
+  subtitle: "Orthopedic • Ultra Soft • Machine Washable",
+
+  price: 69.90,
+
+  badge: "🔥 Stay Warm",
+
+  season: "autumn",
+
+  hidden: true,
+
+  priceId: "price_1TvOmqKn0lmTcQ11XOYQCamu",
+
+  images: [
+    "/premium-orthopedic-dog-bed-main.webp",
+    "/premium-orthopedic-dog-bed-washable.webp",
+    "/premium-orthopedic-dog-bed-orthopedic.webp",
+  ],
+
+  description:
+    "Give your dog the comfort they deserve with this premium orthopedic dog bed. Designed with pressure-relieving foam, supportive bolsters and a removable machine-washable cover for warm, restful sleep all year round.",
+
+  seoTitle:
+    "Premium Orthopedic Dog Bed | FluffHaven",
+
+  seoDescription:
+    "Premium orthopedic dog bed with pressure-relieving foam, ultra-soft fabric and removable washable cover. Designed for superior comfort and support.",
+
+  brand: "FluffHaven",
+
+  details: `
+✔ Orthopedic egg-crate foam
+✔ Pressure-relieving support
+✔ Ultra-soft plush surface
+✔ Removable machine-washable cover
+✔ Waterproof inner lining
+✔ Non-slip bottom
+✔ Raised bolsters for head & neck support
+✔ Perfect for everyday comfort
+
+Designed to give your dog warm, supportive and restful sleep every day.
+`,
+},
+
+{
+  id: 29,
+
+  slug: "premium-dog-snuffle-mat",
+
+  name: "Premium Dog Snuffle Mat",
+
+  category: "dog",
+
+  subtitle: "Mental Enrichment • Stress Relief • Machine Washable",
+
+  price: 49.90,
+
+  badge: "❤️ Ponpon's Favorite",
+
+  season: "autumn",
+
+  hidden: true,
+
+  priceId: "price_1TvPCgKn0lmTcQ115CtXEus9",
+
+  images: [
+    "/premium-dog-snuffle-mat-main.webp",
+    "/premium-dog-snuffle-mat-features.webp",
+    "/premium-dog-snuffle-mat-details.webp",
+  ],
+
+  description:
+    "Keep your dog mentally stimulated and entertained with this premium snuffle mat. Designed to encourage natural foraging behaviour, reduce boredom and provide enriching daily play while helping slow down eating.",
+
+  seoTitle:
+    "Premium Dog Snuffle Mat | FluffHaven",
+
+  seoDescription:
+    "Premium dog snuffle mat designed for mental enrichment, stress relief and slow feeding. Machine washable and perfect for daily enrichment.",
+
+  brand: "FluffHaven",
+
+  details: `
+✔ Encourages natural foraging
+✔ Helps reduce boredom & stress
+✔ Slow feeding enrichment
+✔ Ultra-soft premium fabric
+✔ Non-slip base
+✔ Machine washable
+✔ Durable everyday design
+✔ Suitable for all breeds
+
+Designed to provide daily mental stimulation while making mealtime and playtime more fun.
+`,
+},
+
 ];
