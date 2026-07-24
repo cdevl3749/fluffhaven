@@ -1056,6 +1056,57 @@ Designed to give your dog warm, supportive and restful sleep every day.
 
 Designed to provide daily mental stimulation while making mealtime and playtime more fun.
 `,
-},
+  },
 
+  {
+    id: 30,
+
+    slug: "ponpons-signature-bandana-pack",
+
+    name: "Ponpon's Signature Bandana Pack",
+
+    category: "dog",
+
+    subtitle: "5 Custom Bandanas • One Complete Pack • Ponpon Approved",
+
+    price: 74.90,
+
+    badge: "🐾 Ponpon's Signature Collection",
+
+    hidden: true,
+
+    priceId: "price_1TwWRvKn0lmTcQ11wpEQVlcV",
+
+    images: [
+      "/ponpon-bandana-pack-main.webp",
+      "/ponpon-bandana-pack-designs.webp",
+      "/ponpon-bandana-pack-details.webp",
+    ],
+
+    description:
+      "Give your dog a fresh new look throughout the week with Ponpon's Signature Bandana Pack. This exclusive bundle includes five colourful custom-made bandanas selected and approved by Ponpon. Soft, comfortable and designed for everyday walks, adventures and special moments.",
+
+    seoTitle:
+      "Ponpon's Signature Bandana Pack – 5 Dog Bandanas | FluffHaven",
+
+    seoDescription:
+      "Discover Ponpon's Signature Bandana Pack featuring five colourful, comfortable and custom-made dog bandanas in one exclusive FluffHaven bundle.",
+
+    brand: "FluffHaven",
+
+    details: `
+✓ Complete pack of 5 bandanas
+✓ Five unique colourful designs
+✓ Custom-made signature collection
+✓ Soft and comfortable fabric
+✓ Lightweight and breathable
+✓ Suitable for everyday walks
+✓ Easy to clean
+✓ Designed for small to large dogs
+✓ Sold exclusively as one complete pack
+✓ Selected and approved by Ponpon
+
+This product includes all five bandanas shown in the pictures. The bandanas are not sold separately.
+    `,
+  },
 ];

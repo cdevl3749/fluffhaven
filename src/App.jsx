@@ -6,6 +6,7 @@ import HomeSwitcher from "./home/HomeSwitcher";
 import HomeClassic from "./home/HomeClassic";
 import PonponPick from "./components/PonponPick";
 import PonponRecommends from "./components/PonponRecommends";
+import BandanaPopup from "./components/BandanaPopup";
 
 // ─────────────────────────────────────────────────────────────
 // PRODUCTS
@@ -454,6 +455,7 @@ useEffect(() => {
 
   return (
     <div className="site">
+      <BandanaPopup />
 
       {/* CHECKOUT BANNERS */}
       {checkoutStatus === "success" && (
@@ -757,7 +759,7 @@ useEffect(() => {
           <div className="about-visual">
             <div className="about-card"><div className="about-stat">100+</div><div className="about-stat-label">Happy Pet Parents</div></div>
             <div className="about-card"><div className="about-stat">4.9★</div><div className="about-stat-label">Average Rating</div></div>
-            <div className="about-card"><div className="about-stat">30+</div><div className="about-stat-label">Pet Essentials</div></div>
+            <div className="about-card"><div className="about-stat">31+</div><div className="about-stat-label">Pet Essentials</div></div>
             <div className="about-card"><div className="about-stat">14</div><div className="about-stat-label">Day Return Policy</div></div>
           </div>
         </div>
