@@ -395,6 +395,26 @@ export default function Blog() {
     "Learn why cats rub against their owners' legs, what this affectionate behavior means, and how it helps strengthen the bond between you and your cat.",
   url: "/blog/why-does-my-cat-rub-against-my-legs",
 },
+
+{
+  title: "Why Does My Dog Tilt Its Head? Understanding This Adorable Behavior",
+  category: "Dog behavior",
+  date: "July 2026",
+  read: "6 min read",
+  description:
+    "Discover why dogs tilt their heads, what this adorable behavior means, when it's completely normal, and when it could signal a health issue.",
+  url: "/blog/why-does-my-dog-tilt-its-head",
+},
+
+{
+  title: "Why Does My Cat Chatter at Birds? The Mystery Explained",
+  category: "Cat behavior",
+  date: "July 2026",
+  read: "6 min read",
+  description:
+    "Learn why cats chatter at birds through the window, what this fascinating hunting behavior means, and when you should pay attention.",
+  url: "/blog/why-does-my-cat-chatter-at-birds",
+},
   ];
 
   // ── Filtrage par recherche ──

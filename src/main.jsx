@@ -77,6 +77,9 @@ import WhyDoesMyCatSlowBlink from "./blog/why-does-my-cat-slow-blink.jsx";
 import DogBringMeToys from "./blog/why-does-my-dog-bring-me-toys.jsx";
 import CatRubAgainstLegs from "./blog/why-does-my-cat-rub-against-my-legs.jsx";
 
+import WhyDoesMyDogTiltItsHead from "./blog/why-does-my-dog-tilt-its-head.jsx";
+import WhyDoesMyCatChatterAtBirds from "./blog/why-does-my-cat-chatter-at-birds.jsx";
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {
@@ -182,6 +185,12 @@ createRoot(document.getElementById('root')).render(
       )
       : window.location.pathname === "/blog/why-does-my-cat-rub-against-my-legs" ? (
         <CatRubAgainstLegs />
+      )
+      : window.location.pathname === "/blog/why-does-my-dog-tilt-its-head" ? (
+        <WhyDoesMyDogTiltItsHead />
+      )
+      : window.location.pathname === "/blog/why-does-my-cat-chatter-at-birds" ? (
+        <WhyDoesMyCatChatterAtBirds />
       )
       : window.location.pathname.startsWith("/product/") ? (
         <ProductPage />
