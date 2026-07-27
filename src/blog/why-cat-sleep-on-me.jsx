@@ -31,16 +31,20 @@ return ( <main style={page}> <article style={article}> <div style={hero}> <a hre
 
     <div style={content}>
       <p style={lead}>
-        Does your cat regularly sleep on your chest, lap or legs?
+        Does your cat love sleeping on your chest, lap, legs or even next to
+        your head every night?
       </p>
 
       <p style={text}>
-        While every cat is different, sleeping on their owner is usually a
-        positive sign. It often means your cat feels safe, comfortable and
-        deeply connected to you.
+        If you've ever wondered, <strong>why does my cat sleep on me?</strong>,
+        you're certainly not alone. This is one of the most common questions cat
+        owners ask. In most cases, this behavior is a wonderful sign of trust,
+        affection and comfort. Cats choose to sleep close to the people who make
+        them feel safe, and understanding this behavior can help strengthen the
+        bond you share with your feline companion.
       </p>
 
-      <h2 style={h2}>Your cat trusts you</h2>
+      <h2 style={h2}>Your cat sleeps on you because they trust you</h2>
 
       <p style={text}>
         Cats are naturally cautious animals. When they choose to sleep near
@@ -54,6 +58,20 @@ return ( <main style={page}> <article style={article}> <div style={hero}> <a hre
 
       <h2 style={h2}>Warmth and comfort</h2>
 
+      <h2 style={h2}>Why does your cat choose to sleep on specific body parts?</h2>
+
+      <p style={text}>
+        Some cats have favorite sleeping spots on their owners. Sleeping on your
+        chest allows them to hear your heartbeat, while your lap offers warmth and
+        security. Others prefer your legs because they provide a stable place to
+        rest without being disturbed.
+      </p>
+
+      <p style={text}>
+        Wherever your cat chooses to sleep, the behavior usually reflects comfort,
+        trust and a strong bond rather than coincidence.
+      </p>
+
       <p style={text}>
         Cats love warm places. Your body naturally provides heat and a soft
         place to rest.
@@ -66,13 +84,15 @@ return ( <main style={page}> <article style={article}> <div style={hero}> <a hre
 
       <h2 style={h2}>Other reasons cats sleep on their owners</h2>
 
-      <ul style={list}>
-        <li>They feel secure around you</li>
-        <li>They enjoy your scent</li>
-        <li>They are seeking warmth</li>
-        <li>They want affection and closeness</li>
-        <li>It has become part of their routine</li>
-      </ul>
+     <p style={text}>• They feel completely safe around you.</p>
+
+      <p style={text}>• Your scent is familiar and reassuring.</p>
+
+      <p style={text}>• Your body provides comforting warmth.</p>
+
+      <p style={text}>• Sleeping together strengthens your bond.</p>
+
+      <p style={text}>• It has become part of their daily routine.</p>
 
       <p style={text}>
         Cats often repeat behaviors that make them feel relaxed and secure.
