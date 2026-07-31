@@ -373,7 +373,7 @@ nav span:hover::after {
 /* ─── PRODUCTS ─────────────────────────────────── */
 .products {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 28px;
 }
 
@@ -496,6 +496,23 @@ nav span:hover::after {
 
 .product-info {
   flex: 1;
+}
+
+.product-rating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #8a6958;
+}
+
+.product-stars {
+  color: #f4b942;
+  letter-spacing: 1px;
+  font-size: 14px;
 }
 
 .product-body h3 {
@@ -2044,24 +2061,25 @@ body.modal-open {
 }
 
 .view-details-btn {
-  background: transparent;
-  border: 1.5px solid var(--border);
-  color: var(--ink);
-  padding: 9px 16px;
-  border-radius: var(--radius-sm);
-  font-size: 13px;
-  font-weight: 600;
+  background: #8a6958 !important;
+  border: none;
+  color: #ffffff !important;
+  padding: 12px 18px;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 700;
   cursor: pointer;
-  transition: all 0.2s;
+  transition: all 0.25s ease;
   white-space: nowrap;
   font-family: var(--font-body);
+  box-shadow: 0 6px 16px rgba(138, 105, 88, 0.22);
 }
 
 .view-details-btn:hover {
-  border-color: var(--ink);
-  background: var(--ink);
-  color: white;
-  transform: translateY(-1px);
+  background: #705344 !important;
+  color: #ffffff !important;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 22px rgba(112, 83, 68, 0.3);
 }
 
 /* ─── FLÈCHES NAVIGATION PHOTO (mobile only) ─── */

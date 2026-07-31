@@ -231,6 +231,10 @@ function ProductCard({ product, onAddToCart, onShowDetails }) {
       <div className="product-body">
         <div className="product-info">
           <h3>{product.name}</h3>
+            <div className="product-rating">
+              <span className="product-stars">★★★★★</span>
+              <span>Loved by Ponpon</span>
+            </div>
           <p className="product-sub">{product.subtitle}</p>
           {/* <p className="product-desc">{product.description}</p> */}
 
@@ -759,7 +763,7 @@ useEffect(() => {
           <div className="about-visual">
             <div className="about-card"><div className="about-stat">100+</div><div className="about-stat-label">Happy Pet Parents</div></div>
             <div className="about-card"><div className="about-stat">4.9★</div><div className="about-stat-label">Average Rating</div></div>
-            <div className="about-card"><div className="about-stat">31+</div><div className="about-stat-label">Pet Essentials</div></div>
+            <div className="about-card"><div className="about-stat">42+</div><div className="about-stat-label">Pet Essentials</div></div>
             <div className="about-card"><div className="about-stat">14</div><div className="about-stat-label">Day Return Policy</div></div>
           </div>
         </div>
@@ -851,9 +855,22 @@ useEffect(() => {
               📌 Pinterest
             </a>
           </p>
+
+          <p style={{ marginTop: "10px" }}>
+            <a
+              href="https://www.linkedin.com/in/christophe-devleeshouwer-882377399/"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: "rgba(255,255,255,0.6)", textDecoration: "none" }}
+            >
+              💼 LinkedIn
+            </a>
+          </p>
+
         </div>
         <div className="footer-nav">
           <h4>Navigation</h4>
+          <span onClick={() => window.location.href = "/#shop"}>Shop</span>
           <span onClick={() => scrollTo("#about")}>About Us</span>
           <span onClick={() => scrollTo("#reviews")}>Reviews</span>
           <span onClick={() => scrollTo("#faq")}>FAQ</span>

@@ -1,6 +1,328 @@
 export const PRODUCTS = [
 
   // 🔥 PRODUITS QUI CONVERTISSENT (EN PREMIER)
+  {
+  id: 40,
+
+  slug: "premium-rope-play-box",
+
+  name: "Premium Rope Play Box",
+
+  category: "dog",
+
+  subtitle: "4 rope toys • Dental cleaning • Interactive play",
+
+  price: 27.90,
+
+  badge: "🦴 Rope Play Collection",
+
+  priceId: "price_1Tz2rMKn0lmTcQ11j5Nzha02",
+
+  images: [
+    "/premium-rope-play-box-main.webp",
+    "/premium-rope-play-box-features.webp",
+    "/premium-rope-play-box-lifestyle.webp",
+  ],
+
+  description:
+    "Keep your dog active, entertained and happy with our Premium Rope Play Box. This carefully selected 4-piece toy set includes a rope ball, rope bone, rope duck and rope tug toy, designed for interactive play, healthy chewing and everyday fun while helping support dental hygiene.",
+
+  seoTitle:
+    "Premium Rope Play Box | 4 Rope Dog Toys | FluffHaven",
+
+  seoDescription:
+    "Premium 4-piece rope toy set for dogs. Includes a rope ball, bone, duck and tug toy for interactive play, dental cleaning and everyday enrichment. Free worldwide shipping from FluffHaven.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Includes 4 premium rope toys
+✓ Rope ball
+✓ Rope bone
+✓ Rope duck
+✓ Rope tug toy
+✓ Encourages interactive play
+✓ Helps clean teeth naturally
+✓ Durable woven cotton rope
+✓ Supports healthy chewing habits
+✓ Suitable for small and medium dogs
+✓ Perfect for fetch and tug games
+✓ Soft yet durable construction
+✓ Everyday mental stimulation
+✓ FluffHaven premium quality
+
+A complete rope toy collection designed to keep your dog entertained, active and engaged while supporting healthier teeth through natural chewing.
+  `,
+
+  inStock: true,
+
+  featured: true,
+},
+  {
+  id: 38,
+
+  slug: "premium-dog-enrichment-duo",
+
+  name: "Premium Dog Enrichment Duo",
+
+  category: "dog",
+
+  subtitle: "2 slow feeding mats • Mental stimulation • Blue + Pink",
+
+  price: 29.90,
+
+  badge: "🐶 Enrichment Essential",
+
+  priceId: "price_1TyWh6Kn0lmTcQ114WXuNxfj",
+
+  images: [
+    "/dog-enrichment-duo-main.webp",
+    "/dog-enrichment-duo-features.webp",
+    "/dog-enrichment-duo-bowl.webp",
+  ],
+
+  description:
+    "Turn every meal into a healthier and more stimulating experience with our Premium Dog Enrichment Duo. Each order includes two slow feeding mats — one blue and one pink — designed to encourage slower eating, reduce gulping and keep your dog mentally engaged during mealtime.",
+
+  seoTitle:
+    "Premium Dog Enrichment Duo | 2 Slow Feeding Mats | FluffHaven",
+
+  seoDescription:
+    "Premium dog enrichment duo with 2 slow feeding mats in blue and pink. Encourage slower eating, mental stimulation and healthier mealtime habits with FluffHaven.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Includes 2 slow feeding mats
+✓ 1 Blue + 1 Pink
+✓ Encourages slower eating
+✓ Helps reduce gulping
+✓ Supports healthier digestion
+✓ Provides daily mental stimulation
+✓ Soft food-grade silicone
+✓ Strong suction base
+✓ Fits most pet bowls
+✓ Suitable for wet food, treats and dry kibble
+✓ Easy to clean
+✓ Dishwasher safe
+✓ Perfect for dogs of all sizes
+✓ FluffHaven premium quality
+
+A practical two-piece enrichment set designed to make every meal calmer, healthier and more enjoyable for your dog.
+  `,
+
+  inStock: true,
+
+  featured: true,
+},
+  {
+  id: 34,
+
+  slug: "premium-dog-paw-balm",
+
+  name: "Premium Dog Paw Balm",
+
+  category: "dog",
+
+  subtitle: "Protect • Repair • Moisturize",
+
+  price: 32.90,
+
+  badge: "🐾 Paw Care",
+
+  priceId: "price_1Txn99Kn0lmTcQ115C7OCmsw",
+
+  images: [
+    "/premium-dog-paw-balm-main.webp",
+    "/premium-dog-paw-balm-benefits.webp",
+    "/premium-dog-paw-balm-features.webp",
+  ],
+
+  description:
+    "Protect your dog's paws all year round with our Premium Dog Paw Balm. Designed to deeply moisturize, repair cracked paw pads and create a natural barrier against hot pavement, winter salt and rough terrain. Gentle, effective and perfect for everyday adventures.",
+
+  seoTitle:
+    "Premium Dog Paw Balm | Natural Paw Protection | FluffHaven",
+
+  seoDescription:
+    "Keep your dog's paws soft, healthy and protected with FluffHaven's Premium Dog Paw Balm. Natural care for cracked paws, hot pavement and winter salt.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Repairs cracked paws
+✓ Deep hydration
+✓ Natural ingredients
+✓ Hot pavement protection
+✓ Winter salt protection
+✓ Safe for daily use
+✓ Lightweight stick format
+✓ Easy to apply
+✓ Suitable for all dog breeds
+✓ FluffHaven premium quality
+
+Keep your dog's paws soft, healthy and protected during every walk. Perfect for daily care in every season.
+  `,
+},
+
+{
+  id: 33,
+
+  slug: "smart-rolling-dog-ball",
+
+  name: "Smart Rolling Dog Ball",
+
+  category: "dog",
+
+  subtitle: "Automatic toy • USB rechargeable • mental stimulation",
+
+  price: 47.90,
+
+  badge: "⚡ Smart Interactive Toy",
+
+  priceId: "price_1TxZhCKn0lmTcQ11lQAiH4C6",
+
+  images: [
+    "/smart-rolling-dog-ball-main.webp",
+    "/smart-rolling-dog-ball-detail-1.webp",
+    "/smart-rolling-dog-ball-detail-2.webp",
+  ],
+
+  description:
+    "Keep your dog active, entertained and mentally stimulated with this smart rolling dog ball. Featuring automatic movement, bouncing action and USB rechargeable technology, it encourages healthy exercise while satisfying your dog's natural chasing instincts. Built from durable, pet-safe materials for endless interactive fun.",
+
+  seoTitle:
+    "Smart Rolling Dog Ball | Automatic Interactive Dog Toy | FluffHaven",
+
+  seoDescription:
+    "Premium smart rolling dog ball with automatic movement, USB rechargeable battery and interactive play. Designed to stimulate your dog's mind while encouraging healthy daily exercise.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Automatic rolling & bouncing
+✓ Changes direction automatically
+✓ Encourages active daily exercise
+✓ Provides healthy mental stimulation
+✓ Helps reduce boredom & destructive behaviour
+✓ USB rechargeable battery
+✓ Long battery life
+✓ Durable pet-safe construction
+✓ Easy to clean & water resistant
+✓ Suitable for small, medium & large dogs
+
+Designed to keep your dog moving, thinking and having fun while promoting a healthier and more active lifestyle.
+  `,
+
+  inStock: true,
+
+  featured: true,
+},
+
+{
+  id: 32,
+
+  slug: "dog-treat-ball",
+
+  name: "Interactive Dog Treat Ball",
+
+  category: "dog",
+
+  subtitle: "Puzzle toy • slow feeder • mental stimulation",
+
+  price: 37.90,
+
+  badge: "🧠 Enrichment Essential",
+
+  priceId: "price_1TxZ13Kn0lmTcQ11e7B5Y6el",
+
+  images: [
+    "/dog-treat-ball-main.webp",
+    "/dog-treat-ball-detail-1.webp",
+    "/dog-treat-ball-detail-2.webp",
+  ],
+
+  description:
+    "Keep your dog happy, active and mentally stimulated with this interactive treat ball. Designed as both a puzzle toy and slow feeder, it encourages healthy eating habits while rewarding play. Made from durable, BPA-free materials and suitable for treats or kibble.",
+
+  seoTitle:
+    "Interactive Dog Treat Ball | Puzzle Toy & Slow Feeder | FluffHaven",
+
+  seoDescription:
+    "Premium interactive dog treat ball that combines mental stimulation, slow feeding and rewarding play. BPA-free, durable and suitable for dogs of all sizes.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Interactive puzzle toy
+✓ Dispenses treats gradually
+✓ Encourages slower eating
+✓ Provides healthy mental stimulation
+✓ Helps reduce boredom & anxiety
+✓ Durable BPA-free construction
+✓ Suitable for treats & kibble
+✓ Easy to fill & clean
+✓ Ideal for daily enrichment
+✓ Suitable for small, medium & large dogs
+
+Designed to turn every snack into a fun, rewarding and engaging experience.
+  `,
+
+  inStock: true,
+
+  featured: true,
+},
+
+{
+  id: 31,
+
+  slug: "dog-lick-mat",
+
+  name: "Premium Dog Lick Mat",
+
+  category: "dog",
+
+  subtitle: "Slow feeder • enrichment • calming",
+
+  price: 27.90,
+
+  badge: "🧠 Enrichment Essential",
+
+  priceId: "price_1TxYVYKn0lmTcQ11qVSRBQzZ",
+
+  images: [
+    "/dog-lick-mat-main.webp",
+    "/dog-lick-mat-detail-1.webp",
+    "/dog-lick-mat-detail-2.webp",
+  ],
+
+  description:
+    "Turn every treat into a fun and calming experience. This premium silicone lick mat helps reduce boredom, encourages slower eating and provides healthy mental enrichment. Perfect for peanut butter, yogurt, wet food and frozen treats.",
+
+  seoTitle:
+    "Premium Dog Lick Mat | Slow Feeder & Enrichment Mat | FluffHaven",
+
+  seoDescription:
+    "Premium silicone dog lick mat designed to reduce boredom, slow down eating and provide healthy mental stimulation. BPA-free, freezer and dishwasher safe.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Slows down fast eating
+✓ Reduces boredom & anxiety
+✓ Encourages healthy mental stimulation
+✓ Strong suction cups
+✓ Food-grade BPA-free silicone
+✓ Dishwasher safe
+✓ Freezer safe
+✓ Easy to clean
+✓ Perfect for peanut butter, yogurt & wet food
+✓ Suitable for small, medium & large dogs
+
+Designed to make every treat healthier, calmer and more enjoyable.
+  `,
+},
+
 {
   id: 25,
 
@@ -416,6 +738,283 @@ A simple and effective way to keep your home clean.
 
 A simple way to make mealtime calmer and safer.
 `,
+},
+
+{
+  id: 37,
+
+  slug: "premium-cat-enrichment-duo",
+
+  name: "Premium Cat Enrichment Duo",
+
+  category: "cat",
+
+  subtitle: "2 slow feeding mats • Mental stimulation • Blue + Pink",
+
+  price: 29.90,
+
+  badge: "🐱 Enrichment Essential",
+
+  priceId: "price_1TyHOPKn0lmTcQ11O213nk3M",
+
+  images: [
+    "/premium-cat-enrichment-duo-main.webp",
+    "/premium-cat-enrichment-duo-features.webp",
+    "/premium-cat-enrichment-duo-bowl.webp",
+  ],
+
+  description:
+    "Turn every meal into a healthier and more stimulating experience with our Premium Cat Enrichment Duo. Each order includes two slow feeding mats — one blue and one pink — designed to encourage slower eating, reduce gulping and keep your cat mentally engaged during mealtime.",
+
+  seoTitle:
+    "Premium Cat Enrichment Duo | 2 Slow Feeding Mats | FluffHaven",
+
+  seoDescription:
+    "Premium cat enrichment duo with 2 slow feeding mats in blue and pink. Encourage slower eating, mental stimulation and healthier mealtime habits with FluffHaven.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Includes 2 slow feeding mats
+✓ 1 Blue + 1 Pink
+✓ Encourages slower eating
+✓ Helps reduce gulping
+✓ Supports healthier digestion
+✓ Provides daily mental stimulation
+✓ Soft food-grade silicone
+✓ Strong suction base
+✓ Fits most pet bowls
+✓ Suitable for wet food, treats and dry kibble
+✓ Easy to clean
+✓ Dishwasher safe
+✓ Perfect for cats of all ages
+✓ FluffHaven premium quality
+
+A practical two-piece enrichment set designed to make every meal calmer, healthier and more enjoyable for your cat.
+  `,
+
+  inStock: true,
+
+  featured: true,
+},
+
+{
+  id: 41,
+
+  slug: "premium-cat-play-box",
+
+  name: "Premium Cat Play Box",
+
+  category: "cat",
+
+  subtitle: "4 interactive toys • Mental stimulation • Endless fun",
+
+  price: 27.90,
+
+  badge: "🐱 Interactive Play Collection",
+
+  priceId: "price_1TzEPvKn0lmTcQ11CCKTDVaB",
+
+  images: [
+    "/premium-cat-play-box-main.webp",
+    "/premium-cat-play-box-features.webp",
+    "/premium-cat-play-box-lifestyle.webp",
+  ],
+
+  description:
+    "Keep your cat active, curious and entertained with our Premium Cat Play Box. This carefully selected 4-piece toy set includes a plush mouse, feather teaser, rope ball and bell ball to encourage natural hunting instincts, daily exercise and interactive play while strengthening the bond with your feline companion.",
+
+  seoTitle:
+    "Premium Cat Play Box | Interactive Cat Toy Set | FluffHaven",
+
+  seoDescription:
+    "Premium Cat Play Box with 4 interactive cat toys including a plush mouse, feather teaser, rope ball and bell ball. Designed to stimulate natural instincts, encourage daily exercise and provide endless fun for cats of all ages.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Includes 4 interactive cat toys
+✓ Plush Mouse included
+✓ Feather Teaser included
+✓ Rope Ball included
+✓ Bell Ball included
+✓ Stimulates natural hunting instincts
+✓ Encourages daily exercise
+✓ Supports mental stimulation
+✓ Interactive playtime
+✓ Suitable for kittens and adult cats
+✓ Safe & non-toxic materials
+✓ Durable premium construction
+✓ Perfect daily enrichment
+✓ FluffHaven premium quality
+
+A carefully selected four-piece toy collection designed to keep your cat happy, active and mentally stimulated every day while encouraging healthy exercise and natural play.
+  `,
+
+  inStock: true,
+
+  featured: true,
+},
+
+{
+  id: 39,
+
+  slug: "premium-cat-grass-growing-kit",
+
+  name: "Premium Cat Grass Growing Kit",
+
+  category: "cat",
+
+  subtitle: "Fresh cat grass • Complete growing kit • Indoor cats",
+
+  price: 29.90,
+
+  badge: "🌿 Indoor Essential",
+
+  priceId: "price_1TydDSKn0lmTcQ11mbTmiKpI",
+
+  images: [
+    "/premium-cat-grass-growing-kit-main.webp",
+    "/premium-cat-grass-growing-kit-features.webp",
+    "/premium-cat-grass-growing-kit-lifestyle.webp",
+  ],
+
+  description:
+    "Give your cat fresh, natural grass anytime with our Premium Cat Grass Growing Kit. This complete indoor growing kit includes a reusable planter, growing basket, drainage tray and premium wheat grass seeds, making it easy to grow healthy greens your cat will love in just a few days.",
+
+  seoTitle:
+    "Premium Cat Grass Growing Kit | Indoor Cat Grass | FluffHaven",
+
+  seoDescription:
+    "Grow fresh, natural cat grass at home with FluffHaven's Premium Cat Grass Growing Kit. Complete reusable growing system with premium wheat grass seeds for happier, healthier indoor cats.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Complete indoor growing kit
+✓ Premium reusable planter
+✓ Includes growing basket
+✓ Includes drainage tray
+✓ Premium wheat grass seeds included
+✓ Fresh grass in just 5–7 days
+✓ Rich in natural fiber & nutrients
+✓ Helps support healthy digestion
+✓ Encourages natural chewing instincts
+✓ Safe for indoor cats
+✓ Easy to grow & maintain
+✓ Reusable eco-friendly design
+✓ FluffHaven premium quality
+
+Grow fresh, healthy cat grass at home with this complete reusable kit designed to support your cat's wellbeing while satisfying their natural grazing instincts.
+  `,
+
+  inStock: true,
+
+  featured: true,
+},
+
+{
+  id: 35,
+
+  slug: "premium-cat-paw-balm",
+
+  name: "Premium Cat Paw Balm",
+
+  category: "cat",
+
+  subtitle: "Protect • Repair • Moisturize",
+
+  price: 32.90,
+
+  badge: "🐾 Cat Care",
+
+  priceId: "price_1TxxKfKn0lmTcQ11wNDe6Ikh",
+
+  images: [
+    "/premium-cat-paw-balm-main.webp",
+    "/premium-cat-paw-balm-benefits.webp",
+    "/premium-cat-paw-balm-features.webp",
+  ],
+
+  description:
+    "Protect your cat's delicate paw pads with our Premium Cat Paw Balm. Formulated to deeply moisturize, repair dry or cracked paws and create a natural protective barrier against rough indoor surfaces, hot pavements and cold weather. Gentle, lick-safe and perfect for daily care.",
+
+  seoTitle:
+    "Premium Cat Paw Balm | Natural Paw Protection | FluffHaven",
+
+  seoDescription:
+    "Keep your cat's paws soft, healthy and protected with FluffHaven's Premium Cat Paw Balm. Natural care for dry, cracked and sensitive paw pads.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Repairs cracked paws
+✓ Deep hydration
+✓ Natural ingredients
+✓ Indoor & outdoor protection
+✓ Safe for daily use
+✓ Lick-safe formula
+✓ Gentle on sensitive paws
+✓ Easy to apply
+✓ Suitable for all cat breeds
+✓ FluffHaven premium quality
+
+Keep your cat's paws soft, healthy and protected every day with gentle natural care.
+  `,
+},
+
+{
+  id: 36,
+
+  slug: "premium-cat-grooming-mist-brush",
+
+  name: "Premium Cat Grooming Mist Brush",
+
+  category: "cat",
+
+  subtitle: "Gentle mist • Reduces shedding • Self-cleaning",
+
+  price: 39.90,
+
+  badge: "🪮 Grooming Essential",
+
+  priceId: "price_1TyE8eKn0lmTcQ11nufBzFgB",
+
+  images: [
+    "/premium-cat-grooming-mist-brush-main.webp",
+    "/premium-cat-grooming-mist-brush-benefits.webp",
+    "/premium-cat-grooming-mist-brush-features.webp",
+  ],
+
+  description:
+    "Keep your cat's coat soft, healthy and beautifully groomed with our Premium Cat Grooming Mist Brush. Featuring a gentle mist spray, self-cleaning technology and soft rounded bristles, it helps reduce shedding while providing a calm and relaxing grooming experience.",
+
+  seoTitle:
+    "Premium Cat Grooming Mist Brush | Self-Cleaning Cat Brush | FluffHaven",
+
+  seoDescription:
+    "Premium self-cleaning cat grooming brush with gentle mist technology. Reduce shedding, remove loose hair and enjoy stress-free daily grooming with FluffHaven.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Gentle mist technology
+✓ Removes loose hair
+✓ Helps reduce shedding
+✓ One-click self-cleaning
+✓ Soft rounded bristles
+✓ Comfortable ergonomic handle
+✓ USB-C rechargeable
+✓ Quiet operation
+✓ Suitable for all cat breeds
+✓ FluffHaven premium quality
+
+Designed to make daily grooming easier while keeping your cat's coat soft, healthy and beautifully maintained.
+  `,
+
+  inStock: true,
+
+  featured: true,
 },
 
 {

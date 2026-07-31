@@ -415,6 +415,26 @@ export default function Blog() {
     "Learn why cats chatter at birds through the window, what this fascinating hunting behavior means, and when you should pay attention.",
   url: "/blog/why-does-my-cat-chatter-at-birds",
 },
+
+{
+  title: "Why Does My Dog Lean On Me? What This Affectionate Behavior Really Means",
+  category: "Dog behavior",
+  date: "July 2026",
+  read: "6 min read",
+  description:
+    "Discover why dogs lean against their owners, what this affectionate behavior means, and how it reflects trust, comfort and companionship.",
+  url: "/blog/why-does-my-dog-lean-on-me",
+},
+
+{
+  title: "Why Does My Cat Knead Blankets? The Surprising Reasons Explained",
+  category: "Cat behavior",
+  date: "July 2026",
+  read: "6 min read",
+  description:
+    "Learn why cats knead blankets, where this comforting habit comes from, and what it reveals about your cat's emotions and instincts.",
+  url: "/blog/why-does-my-cat-knead-blankets",
+},
   ];
 
   // ── Filtrage par recherche ──

@@ -473,6 +473,84 @@
   <changefreq>weekly</changefreq>
   <priority>0.8</priority>
 </url>
+
+<url>
+  <loc>https://fluffhaven.shop/product/dog-lick-mat</loc>
+  <lastmod>2026-07-26</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+
+<url>
+  <loc>https://fluffhaven.shop/product/dog-treat-ball</loc>
+  <lastmod>2026-07-26</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+
+<url>
+  <loc>https://fluffhaven.shop/product/smart-rolling-dog-ball</loc>
+  <lastmod>2026-07-26</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+
+<url>
+  <loc>https://fluffhaven.shop/product/premium-dog-paw-balm</loc>
+  <lastmod>2026-07-27</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+
+<url>
+  <loc>https://fluffhaven.shop/product/premium-cat-paw-balm</loc>
+  <lastmod>2026-07-28</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+
+<url>
+  <loc>https://fluffhaven.shop/product/premium-cat-grooming-mist-brush</loc>
+  <lastmod>2026-07-28</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+
+<url>
+  <loc>https://fluffhaven.shop/product/premium-cat-enrichment-duo</loc>
+  <lastmod>2026-07-28</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+
+<url>
+  <loc>https://fluffhaven.shop/product/premium-dog-enrichment-duo</loc>
+  <lastmod>2026-07-29</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+
+<url>
+  <loc>https://fluffhaven.shop/product/premium-cat-grass-growing-kit</loc>
+  <lastmod>2026-07-29</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+
+<url>
+  <loc>https://fluffhaven.shop/product/premium-cat-play-box</loc>
+  <lastmod>2026-07-31</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+
+<url>
+  <loc>https://fluffhaven.shop/product/premium-rope-play-box</loc>
+  <lastmod>2026-07-31</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+
 <url>
   <loc>https://fluffhaven.shop/blog/why-does-my-dog-bring-me-toys</loc>
   <lastmod>2026-07-19</lastmod>
@@ -486,4 +564,19 @@
   <changefreq>monthly</changefreq>
   <priority>0.8</priority>
 </url>
+
+<url>
+  <loc>https://fluffhaven.shop/blog/why-does-my-dog-lean-on-me</loc>
+  <lastmod>2026-07-28</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+
+<url>
+  <loc>https://fluffhaven.shop/blog/why-does-my-cat-knead-blankets</loc>
+  <lastmod>2026-07-28</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+
 </urlset>
