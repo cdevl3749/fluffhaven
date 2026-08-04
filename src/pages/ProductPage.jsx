@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import "./ProductPage.css";
 import { PRODUCTS } from "../data/products";
 
@@ -11,6 +12,18 @@ export default function ProductPage({ onAddToCart }) {
   const slug = window.location.pathname.replace("/product/", "");
 
   const product = PRODUCTS.find((item) => item.slug === slug);
+
+  useEffect(() => {
+  fetch("/.netlify/functions/stats", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      type: "productView",
+    }),
+  }).catch(() => {});
+}, []);
 
   function handleAddToCart(product) {
   const savedCart = localStorage.getItem("fluffhaven_cart");

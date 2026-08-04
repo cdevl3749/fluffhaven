@@ -59,6 +59,7 @@ export async function handler(event) {
         clicks,
         stripe,
         payments,
+        productViews,
         countriesRaw,
         devicesRaw,
         pagesRaw,
@@ -68,6 +69,7 @@ export async function handler(event) {
         redis(["GET", "clicks"]),
         redis(["GET", "stripe"]),
         redis(["GET", "payments"]),
+        redis(["GET", "productViews"]),
         redis(["GET", "countries"]),
         redis(["GET", "devices"]),
         redis(["GET", "pages"]),
@@ -82,6 +84,7 @@ export async function handler(event) {
           clicks: parseInt(clicks || "0"),
           stripe: parseInt(stripe || "0"),
           payments: parseInt(payments || "0"),
+          productViews: parseInt(productViews || "0"),
           countries: JSON.parse(countriesRaw || "{}"),
           devices: JSON.parse(devicesRaw || "{}"),
           pages: JSON.parse(pagesRaw || "{}"),
@@ -180,6 +183,11 @@ export async function handler(event) {
         }
       }
 
+      // PRODUCT VIEW
+      if (data.type === "productView") {
+        await redis(["INCR", "productViews"]);
+      }
+
       // CLICK
       if (data.type === "click") {
         await redis(["INCR", "clicks"]);
@@ -227,6 +235,7 @@ export async function handler(event) {
         redis(["SET", "clicks", "0"]),
         redis(["SET", "stripe", "0"]),
         redis(["SET", "payments", "0"]),
+        redis(["SET", "productViews", "0"]),
         redis(["SET", "countries", "{}"]),
         redis(["SET", "devices", "{}"]),
         redis(["SET", "pages", "{}"]),

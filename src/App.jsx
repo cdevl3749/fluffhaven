@@ -307,6 +307,14 @@ const handleShare = (country) => {
     alert("Link copied! Share it anywhere 🐾");
   }
 };
+
+function productHasSeason(product, season) {
+  if (Array.isArray(product.seasons)) {
+    return product.seasons.includes(season);
+  }
+
+  return product.season === season;
+}
 export default function App() {
   const [showCookies, setShowCookies] = useState(
     () => localStorage.getItem("fh_cookies_accepted") !== "true"
@@ -323,6 +331,69 @@ useEffect(() => {
   const [cartNotice, setCartNotice] = useState(false);
   const [showBackTop, setShowBackTop] = useState(false);
   const [activeTab, setActiveTab] = useState("all");
+  const [petFilter, setPetFilter] = useState("all");
+  const [seasonFilter, setSeasonFilter] = useState("all");
+ const visibleProducts = PRODUCTS.filter(
+  (product) => !product.hidden
+);
+
+const totalProducts = visibleProducts.length;
+
+const dogCount = visibleProducts.filter(
+  (product) => product.category === "dog"
+).length;
+
+const catCount = visibleProducts.filter(
+  (product) => product.category === "cat"
+).length;
+
+const summerCount = PRODUCTS.filter(
+  (product) => productHasSeason(product, "summer")
+).length;
+
+const autumnCount = PRODUCTS.filter(
+  (product) => productHasSeason(product, "autumn")
+).length;
+
+const winterCount = PRODUCTS.filter(
+  (product) => productHasSeason(product, "winter")
+).length;
+const filteredProducts = PRODUCTS.filter((product) => {
+  // Les produits cachés restent absents du Shop classique,
+  // sauf lorsqu'on consulte leur saison.
+  if (product.hidden) {
+    const seasonalFilterActive =
+      seasonFilter === "summer" ||
+      seasonFilter === "autumn" ||
+      seasonFilter === "winter";
+
+    if (!seasonalFilterActive) {
+      return false;
+    }
+
+    if (!productHasSeason(product, seasonFilter)) {
+      return false;
+    }
+  }
+
+  // Filtre animal
+  if (
+    petFilter !== "all" &&
+    product.category !== petFilter
+  ) {
+    return false;
+  }
+
+  // Filtre saison
+  if (
+    seasonFilter !== "all" &&
+    !productHasSeason(product, seasonFilter)
+  ) {
+    return false;
+  }
+
+  return true;
+});
   const [checkoutStatus, setCheckoutStatus] = useState(null);
   const [activePage, setActivePage] = useState(null);
 
@@ -698,27 +769,55 @@ useEffect(() => {
         <div className="section-label">Our Collection</div>
         <h2>Best Sellers</h2>
         <div className="shop-tabs">
-  <button
-    className={activeTab === "all" ? "tab active" : "tab"}
-    onClick={() => setActiveTab("all")}
-  >
-    All
-  </button>
 
-  <button
-    className={activeTab === "dog" ? "tab active" : "tab"}
-    onClick={() => setActiveTab("dog")}
-  >
-    Dogs
-  </button>
+  <select
+  value={petFilter}
+  onChange={(e) => setPetFilter(e.target.value)}
+  className="shop-select"
+>
+  <option value="all">
+    🐾 All Pets
+  </option>
 
-  <button
-    className={activeTab === "cat" ? "tab active" : "tab"}
-    onClick={() => setActiveTab("cat")}
-  >
-    Cats
-  </button>
+  <option value="dog">
+    🐶 Dogs
+  </option>
+
+  <option value="cat">
+    🐱 Cats
+  </option>
+</select>
+
+ <select
+  value={seasonFilter}
+  onChange={(e) => setSeasonFilter(e.target.value)}
+  className="shop-select"
+>
+  <option value="all">
+    🌍 All Seasons
+  </option>
+
+  <option value="summer">
+    ☀️ Summer
+  </option>
+
+  <option value="autumn">
+    🍂 Autumn
+  </option>
+
+  <option value="winter">
+    ❄️ Winter
+  </option>
+</select>
+
 </div>
+
+<p className="products-found">
+  {filteredProducts.length}{" "}
+  {filteredProducts.length === 1
+    ? "product found"
+    : "products found"}
+</p>
 
         {/* BANNER — No account needed */}
         {(activeTab === "all" || activeTab === "dog" || activeTab === "cat") && (
@@ -732,18 +831,15 @@ useEffect(() => {
           </div>
         )}
 
-        <div className="products">
-          {PRODUCTS
-          .filter(p => !p.hidden)
-          .filter(p => activeTab === "all" || p.category === activeTab)
-          .map((p) => (
-            <ProductCard
-              key={p.id}
-              product={p}
-              onAddToCart={addToCart}
-            />
-          ))}
-        </div>
+     <div className="products">
+        {filteredProducts.map((product) => (
+          <ProductCard
+            key={product.id}
+            product={product}
+            onAddToCart={addToCart}
+          />
+        ))}
+      </div>
       </section>
 
       {/* ABOUT */}
@@ -763,7 +859,7 @@ useEffect(() => {
           <div className="about-visual">
             <div className="about-card"><div className="about-stat">100+</div><div className="about-stat-label">Happy Pet Parents</div></div>
             <div className="about-card"><div className="about-stat">4.9★</div><div className="about-stat-label">Average Rating</div></div>
-            <div className="about-card"><div className="about-stat">42+</div><div className="about-stat-label">Pet Essentials</div></div>
+            <div className="about-card"><div className="about-stat">48+</div><div className="about-stat-label">Pet Essentials</div></div>
             <div className="about-card"><div className="about-stat">14</div><div className="about-stat-label">Day Return Policy</div></div>
           </div>
         </div>

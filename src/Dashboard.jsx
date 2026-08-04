@@ -83,6 +83,7 @@ export default function Dashboard() {
 
   const cards = [
     { label: "Visiteurs",      value: stats.visitors,  icon: "👁️",  color: "#4f7ef8" },
+    { label: "Produits vus",   value: stats.productViews,  icon: "👁️", color: "#0ea5e9" },
     { label: "Clic Checkout",  value: stats.clicks,    icon: "🛒",  color: "#f59e0b" },
     { label: "Arrivés Stripe", value: stats.stripe,    icon: "💳",  color: "#8b5cf6" },
     { label: "Paiements",      value: stats.payments,  icon: "✅",  color: "#10b981" },

@@ -1,6 +1,67 @@
 export const PRODUCTS = [
 
   // 🔥 PRODUITS QUI CONVERTISSENT (EN PREMIER)
+
+  {
+  id: 47,
+
+  slug: "premium-winter-dog-blanket-trio",
+
+  name: "Premium Winter Dog Blanket Trio",
+
+  category: "dog",
+
+  seasons: ["autumn", "winter"],
+
+  subtitle: "3 warm blankets • Size M • Ultimate winter comfort",
+
+  price: 59.90,
+
+  badge: "🍂❄️ Autumn & Winter Comfort Pack",
+
+  priceId: "price_1Tzlr9Kn0lmTcQ11atEu46ab",
+
+  images: [
+    "/premium-winter-dog-blanket-trio-main.webp",
+    "/premium-winter-dog-blanket-trio-features.webp",
+    "/premium-winter-dog-blanket-trio-car.webp",
+  ],
+
+  description:
+    "Keep your dog warm wherever you go with our Premium Winter Dog Blanket Trio. This premium pack includes three ultra-soft Size M blankets in elegant white, orange and pink colors. Perfect for home, the sofa, the car or travel, these cozy fleece blankets provide exceptional warmth and comfort throughout autumn and winter.",
+
+  seoTitle:
+    "Premium Winter Dog Blanket Trio | Cozy Dog Blanket Pack | FluffHaven",
+
+  seoDescription:
+    "Premium pack of 3 ultra-soft Size M dog blankets. Warm fleece, lightweight, machine washable and perfect for home, car and winter adventures.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Pack of 3 premium dog blankets
+✓ White, Orange & Pink colors
+✓ Size M
+✓ Ultra-soft fleece fabric
+✓ Warm and breathable
+✓ Lightweight & portable
+✓ Perfect for home & travel
+✓ Ideal for the sofa, bed or crate
+✓ Great for the car
+✓ Machine washable
+✓ Durable premium stitching
+✓ Suitable for small & medium dogs
+✓ Perfect for autumn & winter
+✓ FluffHaven premium quality
+
+Designed to keep your dog warm and comfortable wherever life takes you. This Premium Winter Dog Blanket Trio includes three ultra-soft Size M fleece blankets that are perfect for home, the sofa, your pet's bed or the car. Lightweight yet incredibly cozy, they provide extra warmth during cooler autumn and winter days while remaining easy to wash and carry. A practical premium bundle for everyday comfort and travel.
+  `,
+
+  inStock: true,
+
+  featured: true,
+},
+
   {
   id: 40,
 
@@ -123,6 +184,8 @@ A practical two-piece enrichment set designed to make every meal calmer, healthi
   name: "Premium Dog Paw Balm",
 
   category: "dog",
+
+  seasons: ["autumn", "winter"],
 
   subtitle: "Protect • Repair • Moisturize",
 
@@ -332,6 +395,8 @@ Designed to make every treat healthier, calmer and more enjoyable.
 
   category: "dog",
 
+  seasons: ["summer"],
+
   subtitle: "Cooling neck wrap • lightweight • summer comfort",
 
   price: 29.90,
@@ -378,6 +443,8 @@ Designed to help your dog stay cool, comfortable and happy during warm weather.
 
   category: "dog",
 
+  seasons: ["summer"],
+
   subtitle: "Cooling water play mat • non-slip • summer fun",
 
   price: 49.90,
@@ -421,6 +488,7 @@ Designed to help dogs stay cool, active and happy during warm weather.
   slug: "premium-dog-cooling-vest",
   name: "Premium Dog Cooling Vest",
   category: "dog",
+  seasons: ["summer"],
   subtitle: "Evaporative cooling · lightweight · reusable",
   price: 159,
   badge: "☀️ Summer Pick",
@@ -565,6 +633,7 @@ Professional grooming at home.
   slug: "dog-paw-cleaner",
   name: "Dog Paw Cleaner",
   category: "dog",
+  seasons: ["autumn", "winter"],
   subtitle: "Portable silicone paw cleaner",
   price: 42.83,
   priceId: "price_1TnS1JKn0lmTcQ11MIaiRPAN",
@@ -592,6 +661,7 @@ No more muddy floors after walks.
   slug: "portable-dog-water-bottle",
   name: "Portable Dog Water Bottle",
   category: "dog",
+  seasons: ["summer", "autumn"],
   subtitle: "Foldable silicone bowl-lid · 580 ml",
   price: 25.88,
   priceId: "price_1TnRogKn0lmTcQ11CFFYi5XD",
@@ -623,6 +693,7 @@ Perfect for outdoor adventures.
     slug: "premium-cooling-mat",
     name: "Premium Cooling Mat",
     category: "dog",
+    seasons: ["summer"],
     subtitle: "Self-cooling silk · waterproof base · L 70×55 cm",
     price: 33.79,
     badge: "Summer",
@@ -738,6 +809,299 @@ A simple and effective way to keep your home clean.
 
 A simple way to make mealtime calmer and safer.
 `,
+},
+
+{
+  id: 46,
+
+  slug: "premium-winter-cat-jacket-duo",
+
+  name: "Premium Winter Cat Jacket Duo",
+
+  category: "cat",
+
+  seasons: ["winter"],
+
+  subtitle: "2 winter jackets • Size M • Warm & stylish comfort",
+
+  price: 44.90,
+
+  badge: "❄️ Winter Fashion Pack",
+
+  priceId: "price_1TzlGAKn0lmTcQ11IVXhLqyn",
+
+  images: [
+    "/premium-winter-cat-jacket-duo-main.webp",
+    "/premium-winter-cat-jacket-duo-features.webp",
+    "/premium-winter-cat-jacket-duo-details.webp",
+  ],
+
+  description:
+    "Keep your feline companion warm, stylish and comfortable with our Premium Winter Cat Jacket Duo. This premium winter pack includes two Size M jackets in elegant white and black colors. Featuring ultra-soft fleece collars, windproof fabric, secure D-rings and smooth zipper closures, these jackets provide warmth, comfort and protection during colder days while giving your cat a fashionable winter look.",
+
+  seoTitle:
+    "Premium Winter Cat Jacket Duo | Warm Cat Jacket Pack | FluffHaven",
+
+  seoDescription:
+    "Premium pack of 2 Size M winter cat jackets with ultra-soft fleece collars, windproof fabric, built-in D-ring and stylish white & black design. Perfect for winter.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Pack of 2 premium winter jackets
+✓ White & Black color combination
+✓ Size M
+✓ Ultra-soft fleece collar
+✓ Warm padded interior
+✓ Windproof & water-resistant fabric
+✓ Built-in D-ring for leash attachment
+✓ Smooth front zipper
+✓ Comfortable lightweight design
+✓ Easy to put on & remove
+✓ Machine washable
+✓ Perfect for winter walks
+✓ FluffHaven premium quality
+
+Designed for cats who enjoy exploring while staying warm and comfortable. The Premium Winter Cat Jacket Duo includes two premium Size M jackets featuring ultra-soft fleece collars, warm insulated padding, durable windproof fabric and secure built-in D-rings for leash attachment. Whether you're heading outdoors or simply keeping your cat cozy during colder months, this premium winter pack combines comfort, protection and elegant style all season long.
+  `,
+
+  inStock: true,
+
+  featured: true,
+},
+
+{
+  id: 45,
+
+  slug: "cozy-cat-cave-duo",
+
+  name: "Cozy Cat Cave Duo",
+
+  category: "cat",
+
+  seasons: ["winter"],
+
+  subtitle: "2 cozy caves • Size M • Ultra-soft winter comfort",
+
+  price: 49.90,
+
+  badge: "❄️ Winter Comfort Pack",
+
+  priceId: "price_1TzkraKn0lmTcQ11heDtNL9W",
+
+  images: [
+    "/cozy-cat-cave-duo-main.webp",
+    "/cozy-cat-cave-duo-features.webp",
+    "/cozy-cat-cave-duo-details.webp",
+  ],
+
+  description:
+    "Give your cat the ultimate winter comfort with our Cozy Cat Cave Duo. This premium pack includes two ultra-soft Size M cat caves in beautiful blue and green colors. Designed with plush fleece interiors, enclosed cave beds and soft removable cushions, they provide a warm, private and secure sleeping space your cat will love throughout the colder season.",
+
+  seoTitle:
+    "Cozy Cat Cave Duo | Winter Cat Cave Bed Pack | FluffHaven",
+
+  seoDescription:
+    "Premium pack of 2 ultra-soft Size M cat cave beds with plush fleece lining, removable cushions and cozy enclosed design. Perfect for winter comfort.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Pack of 2 premium cat caves
+✓ Blue & Green color combination
+✓ Size M
+✓ Ultra-soft plush fleece interior
+✓ Cozy enclosed cave design
+✓ Soft removable cushion
+✓ Hanging pom-pom toy included
+✓ Warm & private sleeping space
+✓ Machine washable
+✓ Durable premium fabric
+✓ Perfect for indoor cats
+✓ Ideal for winter
+✓ FluffHaven premium quality
+
+Designed for cats who love warm, private and secure sleeping spaces. The Cozy Cat Cave Duo includes two premium Size M cave beds featuring ultra-soft plush fleece interiors, removable cushions and a cozy enclosed design that helps your cat feel safe and relaxed. Perfect for multi-cat households or for placing one bed in different rooms, this premium winter pack keeps your feline companion comfortable all season long.
+  `,
+
+  inStock: true,
+
+  featured: true,
+},
+
+{
+  id: 44,
+
+  slug: "self-warming-cat-mat",
+
+  name: "Self-Warming Cat Mat",
+
+  category: "cat",
+
+  seasons: ["autumn", "winter"],
+
+  subtitle: "Self-heating • Ultra-soft fleece • Cozy comfort",
+
+  price: 34.90,
+
+  badge: "🍂❄️ Autumn & Winter Essential",
+
+  priceId: "price_1TzkK9Kn0lmTcQ11rXeoj4va",
+
+  images: [
+    "/self-warming-cat-mat-main.webp",
+    "/self-warming-cat-mat-features.webp",
+    "/self-warming-cat-mat-cozy.webp",
+  ],
+
+  description:
+    "Keep your cat warm and comfortable during cooler days with our Self-Warming Cat Mat. Using a heat-reflective inner layer, it naturally reflects your cat's body heat without electricity. The ultra-soft fleece surface, non-slip base and machine-washable design make it the perfect cozy resting spot for autumn and winter.",
+
+  seoTitle:
+    "Self-Warming Cat Mat | Cozy Heated Cat Bed | FluffHaven",
+
+  seoDescription:
+    "Ultra-soft self-warming cat mat with heat-reflective technology, non-slip bottom and machine-washable fabric. The perfect cozy bed for autumn and winter.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Self-warming heat-reflective layer
+✓ No electricity required
+✓ Ultra-soft fleece surface
+✓ Comfortable & cozy sleeping area
+✓ Non-slip bottom
+✓ Machine washable
+✓ Lightweight & portable
+✓ Ideal for autumn & winter
+✓ Suitable for kittens & adult cats
+✓ Perfect for sofas, floors & pet beds
+✓ Premium comfort for everyday use
+✓ FluffHaven premium quality
+
+Designed to naturally reflect your cat's body heat, this premium self-warming mat provides a warm and cozy resting place without using electricity. The ultra-soft fleece fabric offers exceptional comfort while the non-slip base keeps the mat securely in place. Perfect for cooler autumn and winter days, whether at home, on the sofa or inside your cat's favorite sleeping spot.
+  `,
+
+  inStock: true,
+
+  featured: true,
+},
+
+{
+  id: 43,
+
+  slug: "premium-cat-harness-leash-set",
+
+  name: "Premium Cat Harness & Leash Set",
+
+  category: "cat",
+
+  seasons: ["summer", "autumn"],
+
+  subtitle: "Escape-proof • Adjustable fit • Outdoor adventures",
+
+  price: 44.90,
+
+  badge: "🐱 Outdoor Adventure",
+
+  priceId: "price_1TzPJVKn0lmTcQ11GCcDwdHX",
+
+  images: [
+    "/premium-cat-harness-leash-set-main.webp",
+    "/premium-cat-harness-leash-set-outdoor.webp",
+    "/premium-cat-harness-leash-set-details.webp",
+  ],
+
+  description:
+    "Give your feline companion the confidence to safely explore the outdoors with our Premium Cat Harness & Leash Set. Featuring a comfortable escape-proof design, breathable mesh fabric and an adjustable fit, this premium harness includes a matching leash to provide secure walks while keeping your cat comfortable during every adventure.",
+
+  seoTitle:
+    "Premium Cat Harness & Leash Set | Escape-Proof Cat Harness | FluffHaven",
+
+  seoDescription:
+    "Premium Cat Harness & Leash Set with breathable mesh, adjustable straps and escape-proof design. Includes matching leash for safe outdoor adventures with kittens and adult cats.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Premium harness & leash set
+✓ Matching leash included
+✓ Escape-proof secure design
+✓ Adjustable neck & chest straps
+✓ Breathable soft mesh fabric
+✓ Lightweight & comfortable
+✓ Durable quick-release buckle
+✓ Reflective safety accents
+✓ Perfect for outdoor walks
+✓ Encourages safe exploration
+✓ Suitable for kittens and adult cats
+✓ Comfortable everyday use
+✓ FluffHaven premium quality
+
+Designed for adventurous indoor cats who love discovering the outdoors safely. The breathable premium harness provides a secure and comfortable fit while the included matching leash offers better control, allowing enjoyable walks and new experiences with complete confidence.
+  `,
+
+  inStock: true,
+
+  featured: true,
+},
+
+{
+  id: 42,
+
+  slug: "interactive-flying-cat-toy-set",
+
+  name: "Interactive Flying Cat Toy Set",
+
+  category: "cat",
+
+  subtitle: "10 flying discs • Active play • Indoor exercise",
+
+  price: 31.90,
+
+  badge: "🐱 Interactive Indoor Toy",
+
+  priceId: "price_1TzOCGKn0lmTcQ11eEAlnibO",
+
+  images: [
+    "/interactive-flying-cat-toy-set.webp",
+    "/interactive-flying-cat-toy-set-features.webp",
+    "/interactive-flying-cat-toy-set-details.webp",
+  ],
+
+  description:
+    "Keep your indoor cat active and entertained with our Interactive Flying Cat Toy Set. This fun launcher comes with 10 colorful flying discs designed to encourage jumping, chasing and natural hunting instincts while providing healthy daily exercise and strengthening the bond between you and your feline companion.",
+
+  seoTitle:
+    "Interactive Flying Cat Toy Set | Cat Launcher Toy | FluffHaven",
+
+  seoDescription:
+    "Interactive Flying Cat Toy Set with launcher and 10 colorful flying discs. Encourages exercise, natural hunting instincts, mental stimulation and endless indoor fun for kittens and adult cats.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Includes launcher
+✓ 10 flying discs included
+✓ 4 bright disc colors
+✓ Encourages natural hunting instincts
+✓ Promotes daily exercise
+✓ Keeps indoor cats active
+✓ Improves agility and coordination
+✓ Great mental stimulation
+✓ Interactive play with your cat
+✓ Suitable for kittens and adult cats
+✓ Safe & durable materials
+✓ Lightweight & easy to use
+✓ Perfect daily enrichment
+✓ FluffHaven premium quality
+
+An exciting interactive toy set designed to keep your cat active, healthy and mentally stimulated. The launcher and colorful flying discs encourage chasing, jumping and playful exercise while creating fun bonding moments with your feline friend every day.
+  `,
+
+  inStock: true,
+
+  featured: true,
 },
 
 {
@@ -922,6 +1286,8 @@ Grow fresh, healthy cat grass at home with this complete reusable kit designed t
 
   category: "cat",
 
+  seasons: ["autumn", "winter"],
+
   subtitle: "Protect • Repair • Moisturize",
 
   price: 32.90,
@@ -1022,6 +1388,7 @@ Designed to make daily grooming easier while keeping your cat's coat soft, healt
   slug: "premium-cat-travel-backpack",
   name: "Premium Cat Travel Backpack",
   category: "cat",
+  seasons: ["summer", "autumn"],
   subtitle: "Breathable · spacious · travel-ready",
   price: 79,
   badge: "🎒 Travel Pick",
@@ -1064,6 +1431,7 @@ A comfortable and secure way to travel with your cat.
   slug: "calming-donut-cat-bed",
   name: "Calming Donut Cat Bed",
   category: "cat",
+  seasons: ["autumn", "winter"],
   subtitle: "Ultra soft · calming · cozy nest",
   price: 42.83,
   badge: "☁️ Cozy",
@@ -1095,6 +1463,7 @@ A warm and comfortable sleeping spot for everyday rest.
   slug: "cat-water-fountain",
   name: "Cat Water Fountain",
   category: "cat",
+  seasons: ["summer"],
   subtitle: "2L · quiet pump · filtered water",
   price: 45.09,
   badge: "💧 Premium",
@@ -1286,6 +1655,7 @@ Perfect for indoor cats who need more stimulation, play and enrichment during th
   slug: "cozy-cat-cave-bed",
   name: "Cozy Cat Cave Bed",
   category: "cat",
+  seasons: ["autumn", "winter"],
   subtitle: "Soft faux-linen · cozy hideaway · removable cushion",
   price: 56.39,
   badge: "☁️ Cozy",
@@ -1358,6 +1728,8 @@ A simple daily grooming and relaxation spot your cat can enjoy on its own.
 
   category: "dog",
 
+  seasons: ["summer", "autumn"],
+
   subtitle: "Hypoallergenic • Gentle formula • Sensitive skin",
 
   price: 31.53,
@@ -1406,6 +1778,8 @@ A simple daily grooming and relaxation spot your cat can enjoy on its own.
   name: "Sensitive Skin Cat Shampoo",
 
   category: "cat",
+
+  seasons: ["summer", "autumn"],
 
   subtitle: "Hypoallergenic • Gentle formula • Sensitive skin",
 
@@ -1458,13 +1832,13 @@ A simple daily grooming and relaxation spot your cat can enjoy on its own.
 
   category: "dog",
 
+  seasons: ["autumn", "winter"],
+
   subtitle: "Reflective • Comfortable • Harness & Leash Set",
 
   price: 89.90,
 
-  badge: "🍂 Autumn Pick",
-
-  season: "autumn",
+  badge: "🍂❄️ Autumn & Winter Pick",
 
   hidden: true,
 
@@ -1510,13 +1884,13 @@ Designed for safe and enjoyable adventures with your best friend.
 
   category: "dog",
 
+  seasons: ["autumn", "winter"],
+
   subtitle: "Waterproof • Windproof • Reflective",
 
   price: 99.90,
 
   badge: "🌧️ Rainy Days",
-
-  season: "autumn",
 
   hidden: true,
 
@@ -1562,13 +1936,13 @@ Designed to keep your dog dry, comfortable and visible during wet weather advent
 
   category: "dog",
 
+  seasons: ["autumn", "winter"],
+
   subtitle: "Orthopedic • Ultra Soft • Machine Washable",
 
   price: 69.90,
 
   badge: "🔥 Stay Warm",
-
-  season: "autumn",
 
   hidden: true,
 
@@ -1614,13 +1988,13 @@ Designed to give your dog warm, supportive and restful sleep every day.
 
   category: "dog",
 
+  seasons: ["autumn", "winter"],
+
   subtitle: "Mental Enrichment • Stress Relief • Machine Washable",
 
   price: 49.90,
 
   badge: "❤️ Ponpon's Favorite",
-
-  season: "autumn",
 
   hidden: true,
 
