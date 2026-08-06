@@ -397,6 +397,17 @@ const filteredProducts = PRODUCTS.filter((product) => {
   const [checkoutStatus, setCheckoutStatus] = useState(null);
   const [activePage, setActivePage] = useState(null);
 
+  useEffect(() => {
+  if (window.location.hash === "#shop") {
+    setTimeout(() => {
+      document.getElementById("shop")?.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    }, 200);
+  }
+}, []);
+
   // ── Bloque le scroll quand une modale est ouverte ──
   useEffect(() => {
     const isOpen = !!activePage || openCart;
@@ -859,7 +870,7 @@ const filteredProducts = PRODUCTS.filter((product) => {
           <div className="about-visual">
             <div className="about-card"><div className="about-stat">100+</div><div className="about-stat-label">Happy Pet Parents</div></div>
             <div className="about-card"><div className="about-stat">4.9★</div><div className="about-stat-label">Average Rating</div></div>
-            <div className="about-card"><div className="about-stat">48+</div><div className="about-stat-label">Pet Essentials</div></div>
+            <div className="about-card"><div className="about-stat">56+</div><div className="about-stat-label">Pet Essentials</div></div>
             <div className="about-card"><div className="about-stat">14</div><div className="about-stat-label">Day Return Policy</div></div>
           </div>
         </div>

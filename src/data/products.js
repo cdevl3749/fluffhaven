@@ -3,6 +3,366 @@ export const PRODUCTS = [
   // 🔥 PRODUITS QUI CONVERTISSENT (EN PREMIER)
 
   {
+  id: 55,
+
+  slug: "premium-beach-bundle",
+
+  name: "Premium Beach Bundle",
+
+  category: "dog",
+
+  seasons: ["summer"],
+
+  subtitle: "Beach bag • 4 floating toys • Premium towel",
+
+  price: 89.90,
+
+  badge: "🏖️ Beach Adventure",
+
+  priceId: "price_1U1RaYKn0lmTcQ11ra8NZAc7",
+
+  images: [
+    "/premium-beach-bundle-main.webp",
+    "/premium-beach-bundle-bag.webp",
+    "/premium-beach-bundle-details.webp",
+  ],
+
+  description:
+    "Everything your dog needs for the perfect beach day. The Premium Beach Bundle includes a premium FluffHaven beach bag, four floating water toys and a soft microfiber towel. Designed for beach adventures, pool days and unforgettable summer memories.",
+
+  seoTitle:
+    "Premium Beach Bundle | Dog Beach Kit | FluffHaven",
+
+  seoDescription:
+    "Premium Beach Bundle for dogs including a FluffHaven beach bag, microfiber towel and 4 floating toys. The perfect summer kit for beach trips, pool days and outdoor adventures.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Premium FluffHaven beach bag
+✓ Premium microfiber towel
+✓ 4 floating water toys included
+✓ Perfect for beach & pool days
+✓ Durable outdoor materials
+✓ Lightweight & travel friendly
+✓ Interactive fetch toys
+✓ Quick-drying towel
+✓ Easy to carry
+✓ Designed for summer adventures
+✓ Great for medium & large dogs
+✓ Exclusive FluffHaven bundle
+✓ Premium quality
+
+Turn every beach trip into an unforgettable adventure with the Premium Beach Bundle. This exclusive FluffHaven set combines everything your dog needs for a fun day by the water: a stylish premium beach bag, a soft microfiber towel and four durable floating toys for endless games of fetch. Lightweight, practical and designed for active dogs, it's the ultimate summer companion for beach vacations, pool days and outdoor adventures.
+  `,
+
+  inStock: true,
+
+  featured: true,
+},
+
+  {
+  id: 54,
+
+  slug: "premium-lick-mat-trio-pack",
+
+  name: "Premium Lick Mat Trio Pack",
+
+  category: "dog",
+
+  seasons: ["summer"],
+
+  subtitle: "3 mats • Slow feeding • Dogs & Cats",
+
+  price: 44.90,
+
+  badge: "🧠 Summer Enrichment",
+
+  priceId: "price_1U1QQ2Kn0lmTcQ11X4U3hJeM",
+
+  images: [
+    "/premium-lick-mat-trio-pack-main.webp",
+    "/premium-lick-mat-trio-pack-kitchen.webp",
+    "/premium-lick-mat-trio-pack-details.webp",
+  ],
+
+  description:
+    "Keep your dog or cat entertained, relaxed and mentally stimulated with our Premium Lick Mat Trio Pack. Featuring three different food-grade silicone mats with unique textures, this premium enrichment set helps slow feeding, reduce boredom and create refreshing frozen treats during hot summer days.",
+
+  seoTitle:
+    "Premium Lick Mat Trio Pack | Slow Feeder Mats for Dogs & Cats | FluffHaven",
+
+  seoDescription:
+    "Premium set of 3 silicone lick mats for dogs and cats. Slow feeding, anxiety relief, freezer safe, dishwasher safe and perfect for healthy summer enrichment.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Set of 3 premium lick mats
+✓ 3 unique enrichment textures
+✓ Food-grade BPA-free silicone
+✓ Helps reduce anxiety & boredom
+✓ Encourages slower eating
+✓ Supports healthy digestion
+✓ Strong suction cup design
+✓ Freezer safe for frozen treats
+✓ Dishwasher safe
+✓ Easy to clean
+✓ Suitable for dogs & cats
+✓ Perfect for summer enrichment
+✓ FluffHaven premium quality
+
+Make every mealtime more fun and enriching with the Premium Lick Mat Trio Pack. Designed for both dogs and cats, the three unique textured mats encourage slower eating while helping reduce stress and boredom. Fill them with yogurt, wet food, peanut butter or healthy treats, then freeze them for a refreshing summer activity your pet will love.
+  `,
+
+  inStock: true,
+
+  featured: true,
+},
+
+  {
+  id: 52,
+
+  slug: "premium-cooling-gel-dog-mat",
+
+  name: "Premium Cooling Gel Dog Mat",
+
+  category: "dog",
+
+  seasons: ["summer"],
+
+  subtitle: "Cooling gel • Size M • Fish design",
+
+  price: 34.90,
+
+  badge: "☀️❄️ Summer Essential",
+
+  priceId: "price_1U1NZCKn0lmTcQ11BaaQWged",
+
+  images: [
+    "/premium-cooling-gel-dog-mat-main.webp",
+    "/premium-cooling-gel-dog-mat-garden.webp",
+    "/premium-cooling-gel-dog-mat-details.webp",
+  ],
+
+  description:
+    "Help your dog stay cool and comfortable during hot summer days with our Premium Cooling Gel Dog Mat. Featuring a self-cooling gel core, a fun fish design and a durable waterproof surface, this lightweight Size M mat provides refreshing comfort at home, in the garden, in the car or while travelling.",
+
+  seoTitle:
+    "Premium Cooling Gel Dog Mat | Self Cooling Dog Mat | FluffHaven",
+
+  seoDescription:
+    "Premium self-cooling gel dog mat with waterproof surface, fish design and Size M comfort. Lightweight, non-toxic and perfect for keeping dogs cool all summer long.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Self cooling gel technology
+✓ Refreshing without refrigeration
+✓ Fun tropical fish design
+✓ Size M
+✓ Waterproof surface
+✓ Non-toxic materials
+✓ Soft & comfortable
+✓ Durable stitched edges
+✓ Anti-slip bottom
+✓ Lightweight & portable
+✓ Easy to wipe clean
+✓ Indoor & outdoor use
+✓ Perfect for hot summer days
+✓ FluffHaven premium quality
+
+Keep your dog cool and relaxed during warm weather with the Premium Cooling Gel Dog Mat. The advanced self-cooling gel activates naturally through your dog's body contact, providing refreshing comfort without electricity or refrigeration. Its waterproof surface, durable construction and playful fish pattern make it a practical and stylish summer essential for use at home, in the garden, in the car or while travelling.
+  `,
+
+  inStock: true,
+
+  featured: true,
+},
+
+  {
+  id: 50,
+
+  slug: "premium-microfiber-drying-towel-duo",
+
+  name: "Premium Microfiber Drying Towel Duo",
+
+  category: "dog",
+
+  seasons: ["autumn", "winter"],
+
+  subtitle: "2 towels • 50 × 100 cm • Ultra absorbent",
+
+  price: 32.90,
+
+  badge: "🍂🛁 Drying Essential",
+
+  priceId: "price_1U1C4EKn0lmTcQ114qVXjfbL",
+
+  images: [
+    "/premium-microfiber-drying-towel-duo-main.webp",
+    "/premium-microfiber-drying-towel-duo-dog.webp",
+    "/premium-microfiber-drying-towel-duo-details.webp",
+  ],
+
+  description:
+    "Keep your dog warm, dry and comfortable after every rainy walk with our Premium Microfiber Drying Towel Duo. This premium bundle includes two ultra-soft microfiber towels in elegant Grey and Pink colors. Highly absorbent, quick drying and machine washable, these large 50 × 100 cm towels are perfect for autumn and winter adventures.",
+
+  seoTitle:
+    "Premium Microfiber Drying Towel Duo | Dog Drying Towels | FluffHaven",
+
+  seoDescription:
+    "Premium duo pack of ultra-soft microfiber dog towels. Grey & Pink, 50 × 100 cm, ultra absorbent, quick drying and machine washable. Perfect for autumn and winter.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Duo Pack included
+✓ Grey & Pink colors
+✓ Size 50 × 100 cm
+✓ Ultra absorbent microfiber
+✓ Super soft fabric
+✓ Quick drying
+✓ Machine washable
+✓ Lightweight & portable
+✓ Gentle on skin & fur
+✓ Premium stitched edges
+✓ Durable everyday quality
+✓ Perfect after rainy walks
+✓ Ideal for autumn & winter
+✓ FluffHaven premium quality
+
+Dry your dog quickly and comfortably after every adventure with the Premium Microfiber Drying Towel Duo. This premium bundle includes two large 50 × 100 cm microfiber towels in elegant Grey and Pink colors. Designed to absorb water fast while remaining incredibly soft on your dog's coat, they dry quickly, are machine washable and built for everyday use. A practical premium essential for rainy autumn walks, bath time and outdoor adventures.
+  `,
+
+  inStock: true,
+
+  featured: true,
+},
+
+  {
+  id: 49,
+
+  slug: "premium-reflective-dog-raincoat",
+
+  name: "Premium Reflective Dog Raincoat",
+
+  category: "dog",
+
+  seasons: ["autumn", "winter"],
+
+  subtitle: "Waterproof • Size M • Reflective protection",
+
+  price: 39.90,
+
+  badge: "🌧🍂 Rainy Day Essential",
+
+  priceId: "price_1U1AzCKn0lmTcQ11UcbyQyti",
+
+  images: [
+    "/premium-reflective-dog-raincoat-main.webp",
+    "/premium-reflective-dog-raincoat-rain.webp",
+    "/premium-reflective-dog-raincoat-details.webp",
+  ],
+
+  description:
+    "Keep your dog dry, comfortable and visible during rainy adventures with our Premium Reflective Dog Raincoat. Designed with waterproof fabric, reflective safety strips and a convenient harness opening, this lightweight Size M raincoat offers premium protection for autumn and winter walks.",
+
+  seoTitle:
+    "Premium Reflective Dog Raincoat | Waterproof Dog Coat | FluffHaven",
+
+  seoDescription:
+    "Premium waterproof dog raincoat with reflective safety strips, harness opening and lightweight comfort. Size M. Perfect for rainy autumn and winter walks.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Waterproof premium fabric
+✓ Reflective safety strips
+✓ Bright yellow color
+✓ Size M
+✓ Lightweight & comfortable
+✓ Adjustable secure fit
+✓ Harness opening
+✓ Protective hood
+✓ Wind resistant
+✓ Easy to clean
+✓ Durable premium construction
+✓ Perfect for rainy walks
+✓ Ideal for autumn & winter
+✓ FluffHaven premium quality
+
+Enjoy every rainy adventure with the Premium Reflective Dog Raincoat. Crafted from waterproof premium fabric, this lightweight Size M raincoat keeps your dog dry while reflective safety strips improve visibility during darker autumn and winter walks. Featuring a protective hood, adjustable straps and a practical harness opening, it offers comfort, safety and style in every weather condition.
+  `,
+
+  inStock: true,
+
+  featured: true,
+},
+
+  {
+  id: 48,
+
+  slug: "premium-led-safety-collar-twin-pack",
+
+  name: "Premium LED Safety Collar Twin Pack",
+
+  category: "dog",
+
+  seasons: ["autumn", "winter"],
+
+  subtitle: "2 LED collars • Size M • USB rechargeable",
+
+  price: 44.90,
+
+  badge: "🌙🍂 Night Walk Essential",
+
+  priceId: "price_1U1AQzKn0lmTcQ11fuTfy1rp",
+
+  images: [
+    "/led-safety-collar-twin-pack-main.webp",
+    "/led-safety-collar-twin-pack-outdoor.webp",
+    "/led-safety-collar-twin-pack-details.webp",
+  ],
+
+  description:
+    "Keep every evening walk safe with our Premium LED Safety Collar Twin Pack. This premium bundle includes two USB rechargeable LED collars in Flash Red and Flash Green. Featuring three lighting modes, weather-resistant construction and high visibility up to 500 meters, these collars help your dog stay visible during autumn and winter adventures.",
+
+  seoTitle:
+    "Premium LED Safety Collar Twin Pack | USB Rechargeable Dog Collar | FluffHaven",
+
+  seoDescription:
+    "Premium twin pack of rechargeable LED dog collars. Flash Red & Flash Green, 3 light modes, weather resistant, high visibility up to 500m and perfect for autumn and winter walks.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Twin Pack included
+✓ Flash Red & Flash Green
+✓ Size M
+✓ USB rechargeable
+✓ 3 lighting modes
+✓ Quick flash mode
+✓ Slow flash mode
+✓ Steady light mode
+✓ High visibility up to 500 m
+✓ Weather resistant
+✓ Lightweight & comfortable
+✓ Adjustable fit
+✓ Durable premium design
+✓ Perfect for evening walks
+✓ Ideal for autumn & winter
+✓ FluffHaven premium quality
+
+Stay visible and enjoy every walk with the Premium LED Safety Collar Twin Pack. Designed for safer evening adventures, this premium bundle includes two rechargeable LED collars in Flash Red and Flash Green. Featuring three lighting modes, weather-resistant construction and visibility up to 500 meters, these collars provide extra peace of mind during autumn and winter walks. Lightweight, comfortable and easy to recharge with USB, they are perfect for everyday use while maintaining the premium FluffHaven style.
+  `,
+
+  inStock: true,
+
+  featured: true,
+},
+
+  {
   id: 47,
 
   slug: "premium-winter-dog-blanket-trio",
@@ -980,6 +1340,124 @@ Designed for cats who love warm, private and secure sleeping spaces. The Cozy Ca
 ✓ FluffHaven premium quality
 
 Designed to naturally reflect your cat's body heat, this premium self-warming mat provides a warm and cozy resting place without using electricity. The ultra-soft fleece fabric offers exceptional comfort while the non-slip base keeps the mat securely in place. Perfect for cooler autumn and winter days, whether at home, on the sofa or inside your cat's favorite sleeping spot.
+  `,
+
+  inStock: true,
+
+  featured: true,
+},
+
+{
+  id: 53,
+
+  slug: "premium-cooling-cat-bed",
+
+  name: "Premium Cooling Cat Bed",
+
+  category: "cat",
+
+  seasons: ["summer"],
+
+  subtitle: "Cooling bed • Size M • Soft comfort",
+
+  price: 39.90,
+
+  badge: "🌸 Cooling Lounge",
+
+  priceId: "price_1U1P5sKn0lmTcQ11Cy7gqMaQ",
+
+  images: [
+    "/premium-cooling-cat-bed-main.webp",
+    "/premium-cooling-cat-bed-bedroom.webp",
+    "/premium-cooling-cat-bed-details.webp",
+  ],
+
+  description:
+    "Give your cat the perfect place to relax during hot summer days with our Premium Cooling Cat Bed. Designed with a refreshing cooling surface, soft raised edges and a comfortable Size M design, this premium bed helps keep your feline cool, relaxed and comfortable without electricity.",
+
+  seoTitle:
+    "Premium Cooling Cat Bed | Cooling Summer Cat Bed | FluffHaven",
+
+  seoDescription:
+    "Premium Cooling Cat Bed in elegant pink. Soft cooling surface, raised supportive edges and comfortable Size M design for refreshing summer naps. Perfect for indoor cats.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Cooling summer surface
+✓ Comfortable Size M
+✓ Elegant pink design
+✓ Soft raised supportive edges
+✓ Lightweight construction
+✓ Breathable fabric
+✓ Comfortable everyday naps
+✓ Easy to clean
+✓ Indoor use
+✓ Perfect for hot summer days
+✓ Suitable for most adult cats
+✓ Premium stitched finish
+✓ FluffHaven premium quality
+
+Help your cat enjoy cooler and more comfortable naps during warm summer days with the Premium Cooling Cat Bed. The refreshing cooling surface offers pleasant comfort while the raised soft edges provide extra support for your cat's head and body. Lightweight, elegant and easy to maintain, this premium Size M cooling bed is a beautiful addition to any home and a perfect summer essential for your feline companion.
+  `,
+
+  inStock: true,
+
+  featured: true,
+},
+
+{
+  id: 51,
+
+  slug: "premium-cooling-gel-cat-mat",
+
+  name: "Premium Cooling Gel Cat Mat",
+
+  category: "cat",
+
+  seasons: ["summer"],
+
+  subtitle: "Self-cooling • Soft comfort • Refreshing relief",
+
+  price: 32.90,
+
+  badge: "❄️ Summer Essential",
+
+  priceId: "price_1U1DTVKn0lmTcQ11wKwPpO0f",
+
+  images: [
+    "/premium-cooling-gel-cat-mat-main.webp",
+    "/premium-cooling-gel-cat-mat-outdoor.webp",
+    "/premium-cooling-gel-cat-mat-details.webp",
+  ],
+
+  description:
+    "Help your cat stay cool and comfortable during hot summer days with our Premium Cooling Gel Cat Mat. Featuring a self-cooling gel core, soft waterproof surface and lightweight portable design, this premium cooling mat provides refreshing comfort without electricity or refrigeration.",
+
+  seoTitle:
+    "Premium Cooling Gel Cat Mat | Self Cooling Summer Mat | FluffHaven",
+
+  seoDescription:
+    "Premium self-cooling gel mat for cats. Soft, lightweight, waterproof and perfect for keeping your cat cool during warm summer days. No electricity required.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Self-cooling gel technology
+✓ No electricity required
+✓ Soft & comfortable surface
+✓ Waterproof finish
+✓ Lightweight & portable
+✓ Foldable for easy storage
+✓ Easy to wipe clean
+✓ Durable premium construction
+✓ Refreshing summer comfort
+✓ Suitable for cats of all sizes
+✓ Indoor & outdoor use
+✓ Perfect for hot weather
+✓ FluffHaven premium quality
+
+Keep your cat cool, relaxed and comfortable throughout the summer with the Premium Cooling Gel Cat Mat. The advanced self-cooling gel provides natural cooling without electricity or refrigeration, while the soft waterproof surface offers lasting comfort. Lightweight, foldable and easy to clean, it's the perfect summer essential for home, travel or outdoor relaxation.
   `,
 
   inStock: true,

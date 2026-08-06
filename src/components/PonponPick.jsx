@@ -3,43 +3,43 @@ export default function PonponPick() {
     <section className="ponpon-pick">
       <div className="ponpon-pick-card">
 
-       <div className="ponpon-pick-visual">
+        <div className="ponpon-pick-visual">
 
-        <img
-            src="/ponpon-card.webp"
-            alt="Ponpon"
+          <img
+            src="/ponpon-beach.webp"
+            alt="Ponpon at the beach"
             className="ponpon-pick-photo"
-        />
+          />
 
-        <img
-            src="/gourde_ponpon.png"
-            alt="Portable Dog Water Bottle"
+          <img
+            src="/premium-beach-bundle-bag.webp"
+            alt="Premium Beach Bundle"
             className="ponpon-pick-product"
-        />
+          />
 
         </div>
 
         <div className="ponpon-pick-right">
 
           <span className="ponpon-pick-badge">
-            <span className="ponpon-pick-paw">🐾</span>
-              Ponpon's Summer Pick
+            <span className="ponpon-pick-paw">🌴</span>
+            Ponpon's Beach Adventure
           </span>
 
           <h3>
-            Ponpon's favourite summer essential
+            Ponpon's favourite beach bundle
           </h3>
 
           <p>
-            Ponpon never goes on a summer walk without his
-            favourite portable water bottle.
+            Everything Ponpon needs for the perfect beach day:
+            premium beach bag, floating toys and a soft microfiber towel.
           </p>
 
           <a
-            href="/product/portable-dog-water-bottle"
+            href="/product/premium-beach-bundle"
             className="ponpon-btn"
           >
-            View Product →
+            Explore Bundle →
           </a>
 
         </div>
