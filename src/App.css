@@ -2796,3 +2796,548 @@ body.modal-open {
 }
 
 }
+
+/* =========================================================
+   FEATURED PRODUCT — PREMIUM FLOATING ROPE BALL
+   ========================================================= */
+
+.featured-rope-section {
+  padding: 70px 24px;
+  background: linear-gradient(180deg, #fffaf5 0%, #f8fbff 100%);
+}
+
+.featured-rope-content {
+  width: 100%;
+  max-width: 1250px;
+  margin: 0 auto;
+  background: #ffffff;
+  border: 1px solid #eadfd7;
+  border-radius: 28px;
+  padding: 42px;
+  box-shadow: 0 18px 50px rgba(40, 30, 20, 0.08);
+}
+
+.featured-rope-header {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 38px;
+}
+
+.featured-rope-header span {
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  color: #bf5d4c;
+}
+
+.featured-rope-header h2 {
+  margin: 0 0 12px;
+  font-size: clamp(32px, 4vw, 52px);
+  line-height: 1.08;
+  color: #211d1a;
+}
+
+.featured-rope-header p {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #675f59;
+}
+
+.featured-rope-showcase {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 30px;
+  align-items: start;
+}
+
+/* ---------- LEFT GALLERY ---------- */
+
+.featured-rope-gallery {
+  min-width: 0;
+}
+
+.featured-rope-main-image {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border-radius: 22px;
+  overflow: hidden;
+  background: #f6f3ef;
+  border: 1px solid #ebe3dc;
+}
+
+.featured-rope-main-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.featured-rope-thumbnails {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.featured-rope-thumb {
+  padding: 0;
+  border: 2px solid transparent;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #ffffff;
+  cursor: pointer;
+  aspect-ratio: 1 / 1;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.featured-rope-thumb:hover {
+  transform: translateY(-2px);
+}
+
+.featured-rope-thumb.active {
+  border-color: #9a735f;
+}
+
+.featured-rope-thumb img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+/* ---------- RIGHT SIDE ---------- */
+
+.featured-rope-info {
+  min-width: 0;
+}
+
+.featured-rope-video {
+  width: 100%;
+  border-radius: 22px;
+  overflow: hidden;
+  background: #111;
+  margin-bottom: 24px;
+  border: 1px solid #ebe3dc;
+}
+
+.featured-rope-video video {
+  display: block;
+  width: 100%;
+  max-height: 355px;
+  object-fit: cover;
+  background: #111;
+}
+
+.featured-rope-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 9px 15px;
+  border-radius: 999px;
+  background: #e8f7fb;
+  color: #126d82;
+  font-size: 14px;
+  font-weight: 800;
+  margin-bottom: 14px;
+}
+
+.featured-rope-info h3 {
+  margin: 0 0 10px;
+  font-size: clamp(28px, 3vw, 40px);
+  line-height: 1.15;
+  color: #211d1a;
+}
+
+.featured-rope-rating {
+  margin-bottom: 15px;
+  font-size: 19px;
+  color: #f4a21d;
+  font-weight: 700;
+}
+
+.featured-rope-rating span {
+  margin-left: 8px;
+}
+
+.featured-rope-description {
+  margin: 0 0 18px;
+  font-size: 17px;
+  line-height: 1.6;
+  color: #675f59;
+}
+
+.featured-rope-delivery {
+  padding: 13px 16px;
+  border: 1px solid #f0d7d2;
+  background: #fff9f7;
+  border-radius: 14px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #433c37;
+}
+
+.featured-rope-price {
+  margin-bottom: 22px;
+  font-size: 38px;
+  line-height: 1;
+  font-weight: 800;
+  color: #332d29;
+}
+
+.featured-rope-price span {
+  font-size: 17px;
+  font-weight: 600;
+  color: #8a817a;
+}
+
+.featured-rope-actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.featured-rope-cart,
+.featured-rope-buy {
+  min-height: 54px;
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 22px;
+  font-size: 16px;
+  font-weight: 800;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.featured-rope-cart {
+  border: 1px solid #1f1b18;
+  background: #1f1b18;
+  color: #ffffff;
+}
+
+.featured-rope-buy {
+  border: 1px solid #9a735f;
+  background: #9a735f;
+  color: #ffffff;
+}
+
+.featured-rope-cart:hover,
+.featured-rope-buy:hover {
+  opacity: 0.9;
+}
+
+.featured-rope-secure {
+  margin: 16px 0 0;
+  text-align: center;
+  font-size: 14px;
+  color: #77706a;
+}
+
+/* =========================================================
+   TABLET
+   ========================================================= */
+
+@media (max-width: 900px) {
+  .featured-rope-content {
+    padding: 30px;
+  }
+
+  .featured-rope-showcase {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .featured-rope-video video {
+    max-height: 430px;
+  }
+}
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 600px) {
+  .featured-rope-section {
+    padding: 35px 12px;
+  }
+
+  .featured-rope-content {
+    padding: 20px 14px;
+    border-radius: 20px;
+  }
+
+  .featured-rope-header {
+    margin-bottom: 14px;
+  }
+
+  .featured-rope-header span {
+    font-size: 12px;
+    letter-spacing: 1.3px;
+  }
+
+  .featured-rope-header h2 {
+    font-size: 30px;
+  }
+
+  .featured-rope-header p {
+    font-size: 15px;
+  }
+
+  .featured-rope-showcase {
+    gap: 26px;
+  }
+
+  .featured-rope-main-image {
+    border-radius: 16px;
+  }
+
+  .featured-rope-thumbnails {
+    gap: 6px;
+  }
+
+  .featured-rope-thumb {
+    border-radius: 9px;
+  }
+
+  .featured-rope-video {
+    border-radius: 16px;
+    margin-bottom: 20px;
+  }
+
+  .featured-rope-video video {
+    max-height: none;
+  }
+
+  .featured-rope-info h3 {
+    font-size: 28px;
+  }
+
+  .featured-rope-rating {
+    font-size: 17px;
+  }
+
+  .featured-rope-description {
+    font-size: 15px;
+  }
+
+  .featured-rope-price {
+    font-size: 34px;
+  }
+
+  .featured-rope-actions {
+    grid-template-columns: 1fr;
+  }
+
+  .featured-rope-cart,
+  .featured-rope-buy {
+    width: 100%;
+    min-height: 54px;
+  }
+}
+
+/* =========================================================
+   FEATURED ROPE BALL — DESKTOP SIZE FIX
+   ========================================================= */
+
+@media (min-width: 901px) {
+  .featured-rope-section {
+    padding: 45px 24px;
+  }
+
+  .featured-rope-content {
+    max-width: 1180px;
+    padding: 32px 38px;
+  }
+
+  .featured-rope-header {
+    margin-bottom: 28px;
+  }
+
+  .featured-rope-header h2 {
+    font-size: 42px;
+  }
+
+  .featured-rope-header p {
+    font-size: 16px;
+  }
+
+  .featured-rope-showcase {
+    grid-template-columns: 0.95fr 1.05fr;
+    gap: 34px;
+    align-items: start;
+  }
+
+  .featured-rope-main-image {
+    width: 100%;
+    height: 390px;
+    aspect-ratio: auto;
+    overflow: hidden;
+    border-radius: 18px;
+  }
+
+  .featured-rope-main-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+  }
+
+  .featured-rope-thumbnails {
+    margin-top: 12px;
+    gap: 8px;
+  }
+
+  .featured-rope-video {
+    margin-bottom: 18px;
+  }
+
+  .featured-rope-video video {
+    height: 300px;
+    max-height: 300px;
+    object-fit: cover;
+  }
+
+  .featured-rope-info h3 {
+    font-size: 32px;
+  }
+
+  .featured-rope-price {
+    font-size: 34px;
+    margin-bottom: 18px;
+  }
+
+  .featured-rope-cart,
+  .featured-rope-buy {
+    min-height: 50px;
+  }
+}
+
+/* =========================================================
+   FEATURED ROPE BALL — FINAL DESKTOP TUNING
+   ========================================================= */
+
+@media (min-width: 901px) {
+  .featured-rope-content {
+    max-width: 1080px;
+    padding: 28px 32px;
+  }
+
+  .featured-rope-header {
+    margin-bottom: 24px;
+  }
+
+  .featured-rope-header h2 {
+    font-size: 38px;
+  }
+
+  .featured-rope-showcase {
+    gap: 28px;
+  }
+
+  .featured-rope-main-image {
+    height: 340px;
+    border: none;
+    box-shadow: none;
+  }
+
+  .featured-rope-video {
+    border: none;
+    box-shadow: none;
+  }
+
+  .featured-rope-video video {
+    height: 260px;
+    max-height: 260px;
+  }
+
+  .featured-rope-thumbnails {
+    margin-top: 10px;
+  }
+
+  .featured-rope-info h3 {
+    font-size: 30px;
+  }
+
+  .featured-rope-description {
+    font-size: 16px;
+  }
+
+  .featured-rope-delivery {
+    margin-bottom: 16px;
+  }
+
+  .featured-rope-price {
+    font-size: 32px;
+  }
+}
+
+/* =========================================================
+   FEATURED ROPE BALL — SPACING + CLEAN IMAGE EDGES
+   ========================================================= */
+
+.featured-rope-section {
+  padding-top: 24px;
+}
+
+.featured-rope-main-image,
+.featured-rope-image-wrapper {
+  border: 0 !important;
+  outline: 0 !important;
+  box-shadow: none !important;
+  overflow: hidden;
+}
+
+.featured-rope-main-image img {
+  display: block;
+  border: 0 !important;
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+
+/* MOBILE */
+@media (max-width: 900px) {
+  .featured-rope-section {
+    padding-top: 12px;
+  }
+}
+
+@media (min-width: 901px) {
+  .cart-items {
+    min-height: 160px;
+    max-height: 45vh;
+  }
+
+  .cart-summary {
+    padding: 10px 24px 10px;
+    gap: 6px;
+  }
+
+  .cart-free-ship {
+    margin: 2px 0 2px 28px;
+  }
+
+  .cart-final-total {
+    margin-top: 10px;
+    padding-top: 10px;
+  }
+
+  .cart-security {
+    padding: 6px 0;
+  }
+}
+
+/* ─── Boutons du panier toujours visibles en bas ─── */
+.cart-actions-sticky {
+  position: sticky;
+  bottom: 0;
+  background: var(--white);
+  padding-top: 12px;
+  margin-top: 8px;
+  display: grid;
+  gap: 10px;
+}

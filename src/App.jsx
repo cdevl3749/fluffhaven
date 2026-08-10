@@ -333,6 +333,21 @@ useEffect(() => {
   const [activeTab, setActiveTab] = useState("all");
   const [petFilter, setPetFilter] = useState("all");
   const [seasonFilter, setSeasonFilter] = useState("all");
+  const featuredSummerProduct = PRODUCTS.find(
+  (product) => product.slug === "premium-floating-rope-ball"
+);
+
+const featuredSummerImages = [
+  "/premium-floating-rope-ball-main.webp",
+  "/premium-floating-rope-ball-beach.webp",
+  "/premium-floating-rope-ball-details.webp",
+  "/premium-floating-rope-ball-pool.webp",
+  "/premium-floating-rope-ball-underwater.webp",
+];
+
+const [featuredSummerImage, setFeaturedSummerImage] = useState(
+  featuredSummerImages[0]
+);
  const visibleProducts = PRODUCTS.filter(
   (product) => !product.hidden
 );
@@ -628,46 +643,122 @@ const filteredProducts = PRODUCTS.filter((product) => {
 
       <PonponRecommends />
 
-     <section className="summer-promo">
-        <div className="summer-promo-content">
-          <div className="summer-promo-header">
-            <span>☀️ SUMMER PET CARE</span>
-            <h2>Keep dogs & cats comfortable this summer</h2>
-            <p>
-              Discover our gentle hypoallergenic shampoos designed for sensitive
-              skin and warm weather care.
-            </p>
+     <section className="featured-rope-section">
+  <div className="featured-rope-content">
+
+    <div className="featured-rope-header">
+      <span>💦 PONPON'S SUMMER PICK</span>
+      <h2>Make Every Splash Count</h2>
+      <p>
+        Meet the Premium Floating Rope Ball — made for pool, lake and beach
+        adventures with your best friend.
+      </p>
+    </div>
+
+    {featuredSummerProduct && (
+      <div className="featured-rope-showcase">
+
+        <div className="featured-rope-gallery">
+          <div className="featured-rope-main-image">
+            <img
+              src={featuredSummerImage}
+              alt="Premium Floating Rope Ball"
+            />
           </div>
 
-          <div className="summer-products">
-            <div className="summer-card">
-              <img src="/dog_shampoo_bt.webp" alt="Sensitive Skin Dog Shampoo" />
-              <h3>Dog Shampoo</h3>
-              <p>Hypoallergenic • Sensitive Skin</p>
-
-              <a
-                className="summer-btn"
-                href="/product/sensitive-skin-dog-shampoo"
+          <div className="featured-rope-thumbnails">
+            {featuredSummerImages.map((image, index) => (
+              <button
+                key={image}
+                type="button"
+                className={
+                  featuredSummerImage === image
+                    ? "featured-rope-thumb active"
+                    : "featured-rope-thumb"
+                }
+                onClick={() => setFeaturedSummerImage(image)}
+                aria-label={`View Premium Floating Rope Ball image ${index + 1}`}
               >
-                View details →
-              </a>
-            </div>
-
-            <div className="summer-card">
-              <img src="/cat_shampoo_bt.webp" alt="Sensitive Skin Cat Shampoo" />
-              <h3>Cat Shampoo</h3>
-              <p>Hypoallergenic • Sensitive Skin</p>
-
-              <a
-                className="summer-btn"
-                href="/product/sensitive-skin-cat-shampoo"
-              >
-                View details →
-              </a>
-            </div>
+                <img
+                  src={image}
+                  alt={`Premium Floating Rope Ball view ${index + 1}`}
+                />
+              </button>
+            ))}
           </div>
         </div>
-      </section>
+
+        <div className="featured-rope-info">
+
+          <div className="featured-rope-video">
+            <video
+              controls
+              playsInline
+              preload="metadata"
+              poster="/premium-floating-rope-ball-main.webp"
+            >
+              <source
+                src="/premium-floating-rope-ball-video.mp4"
+                type="video/mp4"
+              />
+              Your browser does not support video playback.
+            </video>
+          </div>
+
+          <span className="featured-rope-badge">
+            💦 Water Adventure
+          </span>
+
+          <h3>{featuredSummerProduct.name}</h3>
+
+          <div className="featured-rope-rating">
+            ★★★★★ <span>Loved by Ponpon</span>
+          </div>
+
+          <p className="featured-rope-description">
+            {featuredSummerProduct.subtitle}
+          </p>
+
+          <div className="featured-rope-delivery">
+            ✓ Free delivery &nbsp; • &nbsp; Ships in 5–8 business days
+          </div>
+
+          <div className="featured-rope-price">
+            ${featuredSummerProduct.price.toFixed(2)}
+            <span> USD</span>
+          </div>
+
+          <div className="featured-rope-actions">
+            <button
+              type="button"
+              className="featured-rope-cart"
+              onClick={() => {
+                addToCart(featuredSummerProduct);
+                setCartNotice(true);
+              }}
+            >
+              Add to cart
+            </button>
+
+            <button
+              type="button"
+              className="featured-rope-buy"
+              onClick={() => handleBuyNow(featuredSummerProduct)}
+            >
+              Buy now →
+            </button>
+          </div>
+
+          <p className="featured-rope-secure">
+            🔒 Secure checkout powered by Stripe
+          </p>
+
+        </div>
+      </div>
+    )}
+
+  </div>
+</section>
 
 {/* PONPON'S AUTUMN PICKS */}
 <section className="world-cup-section">
@@ -1101,8 +1192,10 @@ const filteredProducts = PRODUCTS.filter((product) => {
                     </div>
                   )}
 
-                  <button className="checkout-btn" onClick={handleCheckout}>Continue to Checkout →</button>
-                  <button className="continue-shopping" onClick={() => setOpenCart(false)}>Continue shopping</button>
+                  <div className="cart-actions-sticky">
+                    <button className="checkout-btn" onClick={handleCheckout}>Continue to Checkout →</button>
+                    <button className="continue-shopping" onClick={() => setOpenCart(false)}>Continue shopping</button>
+                  </div>
                 </div>
               </>
             )}
