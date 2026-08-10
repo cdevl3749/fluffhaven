@@ -435,6 +435,26 @@ export default function Blog() {
     "Learn why cats knead blankets, where this comforting habit comes from, and what it reveals about your cat's emotions and instincts.",
   url: "/blog/why-does-my-cat-knead-blankets",
 },
+
+{
+  title: "Why Does My Dog Lick Me So Much? What This Common Behavior Means",
+  category: "Dog behavior",
+  date: "August 2026",
+  read: "7 min read",
+  description:
+    "Discover why dogs lick their owners, from affection and attention to interesting smells, learned habits and everyday communication.",
+  url: "/blog/why-does-my-dog-lick-me-so-much",
+},
+
+{
+  title: "Why Does My Cat Sleep In Boxes? The Cozy Reasons Explained",
+  category: "Cat behavior",
+  date: "August 2026",
+  read: "7 min read",
+  description:
+    "Discover why cats love sleeping in cardboard boxes and how enclosed spaces provide warmth, security, privacy and comfort.",
+  url: "/blog/why-does-my-cat-sleep-in-boxes",
+},
   ];
 
   // ── Filtrage par recherche ──

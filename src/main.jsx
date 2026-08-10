@@ -83,6 +83,9 @@ import WhyDoesMyCatChatterAtBirds from "./blog/why-does-my-cat-chatter-at-birds.
 import WhyDoesMyDogLeanOnMe from "./blog/why-does-my-dog-lean-on-me.jsx";
 import WhyDoesMyCatKneadBlankets from "./blog/why-does-my-cat-knead-blankets.jsx";
 
+import WhyDoesMyDogLickMeSoMuch from "./blog/why-does-my-dog-lick-me-so-much.jsx";
+import WhyDoesMyCatSleepInBoxes from "./blog/why-does-my-cat-sleep-in-boxes.jsx";
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {
@@ -200,6 +203,12 @@ createRoot(document.getElementById('root')).render(
       )
       : window.location.pathname === "/blog/why-does-my-cat-knead-blankets" ? (
         <WhyDoesMyCatKneadBlankets />
+      )
+      : window.location.pathname === "/blog/why-does-my-dog-lick-me-so-much" ? (
+        <WhyDoesMyDogLickMeSoMuch />
+      )
+      : window.location.pathname === "/blog/why-does-my-cat-sleep-in-boxes" ? (
+        <WhyDoesMyCatSleepInBoxes />
       )
       : window.location.pathname.startsWith("/product/") ? (
         <ProductPage />

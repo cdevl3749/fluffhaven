@@ -61,6 +61,777 @@ Turn every beach trip into an unforgettable adventure with the Premium Beach Bun
   featured: true,
 },
 
+{
+  id: 60,
+
+  slug: "premium-floating-fetch-ring-duo",
+
+  name: "Premium Floating Fetch Ring Duo",
+
+  category: "dog",
+
+  seasons: ["summer"],
+
+  subtitle: "2 floating rings • Yellow & Blue • Water fun",
+
+  price: 32.90,
+
+  badge: "💦 Pool Essential",
+
+  priceId: "price_1U1nXJKn0lmTcQ11mErx2CjR",
+
+  images: [
+    "/premium-floating-fetch-ring-duo-main.webp",
+    "/premium-floating-fetch-ring-duo-poolside.webp",
+    "/premium-floating-fetch-ring-duo-details.webp",
+  ],
+
+  description:
+    "Bring endless summer fun to every adventure with the Premium Floating Fetch Ring Duo. This premium FluffHaven set includes two lightweight floating EVA rings in bright yellow and blue, designed for exciting games of fetch at the pool, beach or lake. Durable, gentle on teeth and easy to spot on the water, they're the perfect summer toy for active dogs.",
+
+  seoTitle:
+    "Premium Floating Fetch Ring Duo | Floating Dog Toy | FluffHaven",
+
+  seoDescription:
+    "Premium Floating Fetch Ring Duo for dogs. Two lightweight EVA floating rings in yellow and blue, perfect for pools, beaches, lakes and summer fetch games.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Duo pack (Yellow & Blue)
+✓ Premium EVA material
+✓ Floats on water
+✓ Gentle on teeth & gums
+✓ Lightweight design
+✓ Durable & bite resistant
+✓ Easy to throw & retrieve
+✓ Perfect for pool, lake & beach
+✓ High visibility colors
+✓ Non-toxic & BPA free
+✓ Designed for summer adventures
+✓ Ideal for medium & large dogs
+✓ Premium FluffHaven quality
+
+Enjoy unforgettable summer adventures with the Premium Floating Fetch Ring Duo. This exclusive FluffHaven set includes two floating EVA fetch rings in bright yellow and blue, specially designed for endless fun in pools, lakes and at the beach. Lightweight, durable and gentle on your dog's teeth, these premium floating rings are easy to throw, easy to retrieve and highly visible on the water. Whether you're enjoying a relaxing pool day or an exciting beach vacation, this duo pack keeps your dog active, entertained and happy all summer long.
+  `,
+
+  inStock: true,
+
+  featured: true,
+},
+
+{
+  id: 62,
+
+  slug: "premium-floating-rope-ball",
+
+  name: "Premium Floating Rope Ball",
+
+  category: "dog",
+
+  seasons: ["summer"],
+
+  subtitle: "Floating EVA ball • Rope handle • Water fun",
+
+  price: 29.90,
+
+  badge: "💦 Water Adventure",
+
+  priceId: "price_1U1tkjKn0lmTcQ11zuR9BHNI",
+
+  images: [
+    "/premium-floating-rope-ball-main.webp",
+    "/premium-floating-rope-ball-beach.webp",
+    "/premium-floating-rope-ball-details.webp",
+  ],
+
+  description:
+    "Make every splash count with the Premium Floating Rope Ball. Crafted from lightweight EVA foam with a durable rope handle, this floating fetch toy is perfect for pools, lakes and beach adventures. Easy to throw, highly visible on the water and gentle on your dog's teeth, it's designed for endless summer fun.",
+
+  seoTitle:
+    "Premium Floating Rope Ball | Floating Dog Water Toy | FluffHaven",
+
+  seoDescription:
+    "Premium Floating Rope Ball made from lightweight EVA foam with durable rope. Floats on water and is perfect for beach, pool and lake adventures.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Premium EVA foam ball
+✓ Floats on water
+✓ Strong braided rope handle
+✓ Lightweight & easy to throw
+✓ Gentle on teeth & gums
+✓ High visibility yellow color
+✓ Durable & bite resistant
+✓ Perfect for pool, lake & beach
+✓ Quick drying material
+✓ Comfortable grip
+✓ Designed for summer adventures
+✓ Ideal for active dogs
+✓ Premium FluffHaven quality
+
+Bring excitement to every water adventure with the Premium Floating Rope Ball. Designed with lightweight EVA foam and a durable braided rope, this premium fetch toy floats effortlessly, making it easy for your dog to spot and retrieve in pools, lakes and at the beach. Built for active play while remaining gentle on teeth and gums, it's the perfect companion for unforgettable summer adventures with your best friend.
+  `,
+
+  inStock: true,
+
+  featured: true,
+},
+
+{
+  id: 73,
+
+  slug: "premium-full-body-cooling-dog-vest",
+
+  name: "Premium Full-Body Cooling Dog Vest",
+
+  category: "dog",
+
+  seasons: ["summer"],
+
+  subtitle: "Full-body cooling • Breathable mesh • Blue • XL 10–15 kg",
+
+  price: 87.90,
+
+  badge: "❄️ Premium Cooling",
+
+  priceId: "price_1U2tVJKn0lmTcQ11gyd5TqiK",
+
+  images: [
+    "/premium-full-body-cooling-dog-vest-main.webp",
+    "/premium-full-body-cooling-dog-vest-lakeside.webp",
+    "/premium-full-body-cooling-dog-vest-details-xl.webp",
+  ],
+
+  description:
+    "Help your dog stay more comfortable during warm summer days with the Premium Full-Body Cooling Dog Vest. Designed with lightweight breathable mesh and full-body coverage, this premium blue cooling vest helps provide refreshing comfort while allowing airflow around the body. Available in XL for dogs weighing approximately 10–15 kg, it's ideal for summer walks, outdoor activities and warm-weather adventures.",
+
+  seoTitle:
+    "Premium Full-Body Cooling Dog Vest | Summer Cooling Vest | FluffHaven",
+
+  seoDescription:
+    "Premium blue full-body cooling vest for dogs with breathable mesh and lightweight coverage. Size XL for dogs approximately 10–15 kg, ideal for warm summer days.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Premium full-body cooling dog vest
+✓ Blue color
+✓ Size XL
+✓ Designed for dogs approximately 10–15 kg
+✓ Lightweight breathable mesh
+✓ Full-body coverage
+✓ Designed for warm summer weather
+✓ Helps provide refreshing comfort
+✓ Breathable construction promotes airflow
+✓ Comfortable lightweight design
+✓ Suitable for summer walks
+✓ Great for outdoor activities
+✓ Practical for warm-weather adventures
+✓ Easy everyday summer wear
+✓ Premium FluffHaven quality
+
+
+Keep your dog more comfortable during warm-weather adventures with the Premium Full-Body Cooling Dog Vest. Its lightweight mesh construction is designed to provide breathable full-body coverage while allowing airflow around your dog during hot summer days.
+
+
+The vest comes in our selected blue color and size XL, designed for dogs weighing approximately 10–15 kg. Its full-body design makes it a practical summer accessory for walks, outdoor activities and everyday adventures when temperatures rise.
+
+
+Whether you're heading to the park, enjoying a summer trip or simply going for a walk on a warm afternoon, this premium FluffHaven cooling vest combines breathable comfort, lightweight coverage and a stylish summer look.
+  `,
+
+  inStock: true,
+
+  featured: true,
+},
+
+{
+  id: 74,
+
+  slug: "premium-olive-cozy-dog-bed",
+
+  name: "Premium Olive Cozy Dog Bed",
+
+  category: "dog",
+
+  seasons: ["autumn", "winter"],
+
+  subtitle: "Ultra-soft comfort • Olive Green • Size L • 65 × 45 cm",
+
+  price: 64.90,
+
+  badge: "🍂 Cozy Season Essential",
+
+  priceId: "price_1U2tptKn0lmTcQ113dWGKrqJ",
+
+  images: [
+    "/premium-olive-cozy-dog-bed-main.webp",
+    "/premium-olive-cozy-dog-bed-bedroom.webp",
+    "/premium-olive-cozy-dog-bed-details.webp",
+  ],
+
+  description:
+    "Give your dog a warm and comfortable place to relax with the Premium Olive Cozy Dog Bed. Designed in an elegant olive green color, this soft padded bed features raised supportive edges and a cozy sleeping surface for everyday rest. Size L measures approximately 65 × 45 cm, making it a stylish and practical choice for autumn and winter comfort at home.",
+
+  seoTitle:
+    "Premium Olive Cozy Dog Bed | Soft Autumn & Winter Bed | FluffHaven",
+
+  seoDescription:
+    "Premium olive green cozy dog bed with soft cushioning and supportive raised edges. Size L 65 × 45 cm, ideal for comfortable autumn and winter rest.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Premium cozy dog bed
+✓ Elegant olive green color
+✓ Size L
+✓ Approximately 65 × 45 cm
+✓ Soft and cozy sleeping surface
+✓ Comfortable padded base
+✓ Supportive raised edges
+✓ Designed for everyday relaxation
+✓ Cozy enclosed feeling
+✓ Ideal for indoor use
+✓ Perfect for bedrooms and living rooms
+✓ Great for cooler autumn days
+✓ Warm and comfortable for winter
+✓ Stylish neutral design
+✓ Premium FluffHaven quality
+
+
+Create a cozy resting space for your dog with the Premium Olive Cozy Dog Bed. Its soft sleeping surface and raised padded edges provide a comfortable place where your dog can curl up, relax and enjoy everyday rest.
+
+
+The elegant olive green color fits beautifully into warm and natural home interiors, while the Size L design measures approximately 65 × 45 cm. It's a practical choice for creating a dedicated sleeping area in the bedroom, living room or any quiet corner of the home.
+
+
+Especially suited to the cooler autumn and winter months, this premium FluffHaven dog bed combines cozy comfort, supportive edges and an elegant seasonal look for everyday relaxation.
+  `,
+
+  inStock: true,
+
+  featured: true,
+},
+
+{
+  id: 72,
+
+  slug: "premium-treat-dispensing-chew-ball-duo",
+
+  name: "Premium Treat Dispensing Chew Ball Duo",
+
+  category: "dog",
+
+  seasons: ["summer", "autumn", "winter"],
+
+  subtitle: "2-pack • Treat dispensing • Black & Blue • 9 cm",
+
+  price: 37.90,
+
+  badge: "🧠 Smart Treat Duo",
+
+  priceId: "price_1U2t4LKn0lmTcQ11ACeW1gSG", 
+
+  images: [
+    "/premium-treat-dispensing-chew-ball-duo-main.webp",
+    "/premium-treat-dispensing-chew-ball-duo-play.webp",
+    "/premium-treat-dispensing-chew-ball-duo-details.webp",
+  ],
+
+  description:
+    "Turn treat time into an exciting game with the Premium Treat Dispensing Chew Ball Duo. This 2-pack includes one black and one blue 9 cm interactive ball designed to release kibble or treats while rolling. The textured TPR surface, engaging movement and treat-dispensing design encourage your dog to play, explore and stay mentally stimulated.",
+
+  seoTitle:
+    "Premium Treat Dispensing Chew Ball Duo | Interactive Dog Toy | FluffHaven",
+
+  seoDescription:
+    "Premium treat dispensing chew ball duo for dogs. Includes black and blue 9 cm interactive balls designed for treats, enrichment and engaging play.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Premium interactive dog ball duo
+✓ 2-pack included
+✓ One black ball + one blue ball
+✓ 9 cm size
+✓ Treat dispensing design
+✓ Releases kibble or treats while rolling
+✓ Encourages mental stimulation
+✓ Supports natural foraging instincts
+✓ Textured TPR surface
+✓ Designed for interactive play
+✓ Rolling action keeps dogs engaged
+✓ Suitable for indoor and outdoor play
+✓ Great boredom-buster activity
+✓ Reusable and easy to use
+✓ Premium FluffHaven quality
+
+
+Make treat time more exciting with the Premium Treat Dispensing Chew Ball Duo. This premium 2-pack includes one black and one blue 9 cm interactive ball, giving your dog two fun options for everyday enrichment and play.
+
+
+Simply place suitable kibble or treats inside the ball and let your dog roll, push and explore. As the ball moves, treats can gradually be released, encouraging natural foraging behavior and helping turn reward time into a more stimulating activity.
+
+
+The textured TPR design adds another dimension to play while the rolling movement helps keep your dog interested and active. Perfect for indoor enrichment, rainy autumn days or everyday play, this FluffHaven duo is a practical way to combine treats, activity and mental stimulation.
+  `,
+
+  inStock: true,
+
+  featured: true,
+},
+
+{
+  id: 71,
+
+  slug: "premium-silicone-slow-feeder-puzzle-mat",
+
+  name: "Premium Silicone Slow Feeder Puzzle Mat",
+
+  category: "dog",
+
+  seasons: ["summer", "autumn", "winter"],
+
+  subtitle: "Premium silicone • Slow feeding • Enrichment play",
+
+  price: 37.90,
+
+  badge: "🧠 Everyday Enrichment",
+
+  priceId: "price_1U2qwhKn0lmTcQ11cnePgLYX", 
+
+  images: [
+    "/premium-silicone-slow-feeder-puzzle-mat-main.webp",
+    "/premium-silicone-slow-feeder-puzzle-mat-cleaning.webp",
+    "/premium-silicone-slow-feeder-puzzle-mat-details.webp",
+  ],
+
+  description:
+    "Turn treat time into an engaging activity with the Premium Silicone Slow Feeder Puzzle Mat. Designed with multiple textured sections that encourage slower eating, licking and interactive treat searching, this premium silicone mat helps make everyday feeding more stimulating. Easy to clean and reusable, it's a practical enrichment accessory for treats, dry food, yogurt and other dog-friendly snacks.",
+
+  seoTitle:
+    "Premium Silicone Slow Feeder Puzzle Mat | Dog Enrichment Mat | FluffHaven",
+
+  seoDescription:
+    "Premium silicone slow feeder puzzle mat for dogs, designed for treats, slower feeding and interactive enrichment. Easy to clean, reusable and practical for everyday use.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Premium silicone puzzle mat
+✓ Interactive textured design
+✓ Encourages slower feeding
+✓ Designed for treats and dry food
+✓ Suitable for dog-friendly yogurt and snacks
+✓ Helps make feeding more engaging
+✓ Encourages natural searching behavior
+✓ Reusable design
+✓ Easy to clean
+✓ Practical for everyday use
+✓ Lightweight and convenient
+✓ Suitable for indoor enrichment
+✓ Great for rainy autumn days
+✓ Useful throughout the year
+✓ Premium FluffHaven quality
+
+
+Make everyday treat time more interesting with the Premium Silicone Slow Feeder Puzzle Mat. Its textured surface creates multiple small spaces for treats, dry food and dog-friendly snacks, encouraging your dog to spend more time exploring and enjoying their reward.
+
+The reusable silicone design also makes cleanup simple after play or feeding sessions. It's a practical enrichment accessory for indoor activities, rainy autumn days and everyday routines throughout the year.
+
+Whether used for slower feeding or an interactive treat activity, this FluffHaven puzzle mat provides a simple way to add extra stimulation to your dog's daily routine.
+  `,
+
+  inStock: true,
+
+  featured: true,
+},
+
+{
+  id: 65,
+
+  slug: "premium-electric-dog-paw-cleaner",
+
+  name: "Premium Electric Dog Paw Cleaner",
+
+  category: "dog",
+
+  seasons: ["autumn", "winter"],
+
+  subtitle: "Automatic cleaning • USB rechargeable • Deep paw care",
+
+  price: 52.90,
+
+  badge: "🐾 Paw Care Essential",
+
+  priceId: "price_1U2bqwKn0lmTcQ110a3QtnUr",
+
+  images: [
+    "/premium-electric-dog-paw-cleaner-main.webp",
+    "/premium-electric-dog-paw-cleaner-cleaning.webp",
+    "/premium-electric-dog-paw-cleaner-charging.webp",
+  ],
+
+  description:
+    "Make muddy paw cleanup quick and easy with the Premium Electric Dog Paw Cleaner. Designed with soft rotating silicone bristles, this rechargeable paw cleaner gently surrounds your dog's paw to help remove dirt, mud and debris after outdoor walks. Its portable cordless design makes it especially useful during rainy autumn days and messy winter adventures.",
+
+  seoTitle:
+    "Premium Electric Dog Paw Cleaner | Rechargeable Automatic Paw Washer | FluffHaven",
+
+  seoDescription:
+    "Premium rechargeable electric dog paw cleaner with soft rotating silicone bristles for quick and gentle cleaning after muddy autumn and winter walks.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Premium electric dog paw cleaner
+✓ Automatic rotating cleaning
+✓ Soft silicone cleaning bristles
+✓ Gentle paw massage action
+✓ Helps remove mud, dirt & debris
+✓ USB rechargeable
+✓ Cordless & portable design
+✓ Easy one-button operation
+✓ Comfortable for everyday paw care
+✓ Easy to clean after use
+✓ Perfect after rainy walks
+✓ Ideal for autumn & winter
+✓ Blue FluffHaven edition
+✓ Premium FluffHaven quality
+
+
+Keep muddy paws under control with the Premium Electric Dog Paw Cleaner. Designed for rainy autumn walks and messy winter adventures, its automatic rotating system uses soft silicone bristles to gently clean around your dog's paws while helping remove dirt, mud and everyday debris.
+
+The rechargeable cordless design makes paw cleaning quick and convenient at home or after outdoor adventures. Simply add a suitable amount of water, place your dog's paw gently inside and let the soft cleaning system help do the work. After cleaning, remove the inner section for easy rinsing and maintenance.
+
+A practical upgrade from a traditional manual paw cleaner, the Premium Electric Dog Paw Cleaner combines convenience, gentle cleaning and everyday paw care in one compact FluffHaven essential.
+  `,
+
+  inStock: true,
+
+  featured: true,
+},
+
+{
+  id: 64,
+
+  slug: "premium-winter-reflective-dog-coat",
+
+  name: "Premium Winter Reflective Dog Coat",
+
+  category: "dog",
+
+  seasons: ["winter"],
+
+  subtitle: "Warm padded coat • Reflective trim • Size L",
+
+  price: 47.90,
+
+  badge: "❄️ Winter Essential",
+
+  priceId: "price_1U2bEBKn0lmTcQ11UUOMTbm2",
+
+  images: [
+    "/premium-winter-reflective-dog-coat-main.webp",
+    "/premium-winter-reflective-dog-coat-garden.webp",
+    "/premium-winter-reflective-dog-coat-details.webp",
+  ],
+
+  description:
+    "Keep your dog warm, comfortable and protected during cold winter adventures with the Premium Winter Reflective Dog Coat. Designed with a warm padded lining, water-resistant outer layer and reflective trim for better visibility, this premium coat is perfect for winter walks, chilly mornings and outdoor adventures. Available in Size L for a comfortable and secure fit.",
+
+  seoTitle:
+    "Premium Winter Reflective Dog Coat | Warm Waterproof Dog Jacket | FluffHaven",
+
+  seoDescription:
+    "Premium winter dog coat in Size L with warm padded lining, water-resistant outer layer and reflective trim. Perfect for cold-weather walks and winter adventures.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Premium winter dog coat
+✓ Size L
+✓ Chest: 60–70 cm
+✓ Neck: 45–50 cm
+✓ Back length: 50 cm
+✓ Suggested dog weight: 15–22.5 kg
+✓ Warm padded lining
+✓ Water-resistant outer layer
+✓ Reflective trim for better visibility
+✓ Comfortable protective coverage
+✓ Easy to put on and take off
+✓ Perfect for cold winter walks
+✓ Ideal for outdoor adventures
+✓ Premium FluffHaven quality
+
+
+Make cold-weather walks warmer and more comfortable with the Premium Winter Reflective Dog Coat. Designed for winter adventures, this premium coat combines a warm padded construction with a water-resistant outer layer to help protect your dog from cold and damp conditions. Reflective trim improves visibility during darker winter mornings and evenings, while the comfortable design allows your dog to move naturally during walks and outdoor activities.
+
+This FluffHaven edition is offered exclusively in Size L. For the best fit, please measure your dog before ordering. Recommended measurements: chest 60–70 cm, neck 45–50 cm, back length 50 cm and suggested weight 15–22.5 kg.
+  `,
+
+  inStock: true,
+
+  featured: true,
+},
+
+{
+  id: 69,
+
+  slug: "premium-arctic-waterproof-dog-vest",
+
+  name: "Premium Arctic Waterproof Dog Vest",
+
+  category: "dog",
+
+  seasons: ["winter"],
+
+  subtitle: "Warm waterproof vest • Wind protection • Size L",
+
+  price: 37.90,
+
+  badge: "❄️ Winter Outdoor Essential",
+
+  priceId: "price_1U2dz3Kn0lmTcQ114PvfpiuM",
+
+  images: [
+    "/premium-arctic-waterproof-dog-vest-main.webp",
+    "/premium-arctic-waterproof-dog-vest-forest.webp",
+    "/premium-arctic-waterproof-dog-vest-details.webp",
+  ],
+
+  description:
+    "Keep your dog warm, comfortable and protected during cold winter walks with the Premium Arctic Waterproof Dog Vest. Designed with a warm insulated construction and protective outer layer, this winter vest helps shield your dog from cold wind and damp weather while allowing comfortable freedom of movement. The blue contrast panel adds a sporty premium look, making it perfect for winter walks, forest adventures and everyday outdoor use.",
+
+  seoTitle:
+    "Premium Arctic Waterproof Dog Vest | Warm Winter Dog Coat | FluffHaven",
+
+  seoDescription:
+    "Premium warm winter dog vest in Size L with protective outer layer, insulated comfort and sporty blue design. Ideal for cold-weather walks and outdoor adventures.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Premium winter dog vest
+✓ Size L
+✓ Blue & black design
+✓ Warm insulated construction
+✓ Protective outer layer
+✓ Designed for cold winter weather
+✓ Helps protect against chilly wind
+✓ Comfortable outdoor coverage
+✓ Lightweight padded design
+✓ Comfortable freedom of movement
+✓ Easy to put on and take off
+✓ Sporty premium appearance
+✓ Perfect for winter walks
+✓ Ideal for forest adventures
+✓ Suitable for everyday outdoor use
+✓ Premium FluffHaven winter quality
+
+
+Keep winter adventures comfortable with the Premium Arctic Waterproof Dog Vest. Designed especially for cold-weather outings, this premium vest combines warm padded protection with a practical outer layer to help keep your dog comfortable when temperatures drop.
+
+The blue and black design gives the vest a sporty outdoor look while providing comfortable coverage without unnecessarily restricting movement. It's an excellent choice for everyday winter walks, trips to the park and colder forest adventures.
+
+This FluffHaven edition is offered exclusively in Size L. Please measure your dog carefully and compare the measurements with the size guide before ordering to ensure the best possible fit.
+  `,
+
+  inStock: true,
+
+  featured: true,
+},
+
+{
+  id: 70,
+
+  slug: "premium-autumn-fleece-dog-vest-duo",
+
+  name: "Premium Autumn Fleece Dog Vest Duo",
+
+  category: "dog",
+
+  seasons: ["autumn"],
+
+  subtitle: "2 fleece vests • Pink & Green • Size L",
+
+  price: 49.90,
+
+  badge: "🍂 Autumn Cozy Duo",
+
+  priceId: "price_1U2qAgKn0lmTcQ11kQ0so0KU",
+
+  images: [
+    "/premium-autumn-fleece-dog-vest-duo-main.webp",
+    "/premium-autumn-fleece-dog-vest-duo-forest.webp",
+    "/premium-autumn-fleece-dog-vest-duo-details.webp",
+  ],
+
+  description:
+    "Make autumn walks warmer and cozier with the Premium Autumn Fleece Dog Vest Duo. This FluffHaven duo includes two soft fleece vests in Pink and Green, giving your dog two stylish options for cooler autumn days. Designed with a lightweight, comfortable construction and an easy-to-wear sleeveless shape, these cozy vests are perfect for everyday walks, park outings and relaxed autumn adventures.",
+
+  seoTitle:
+    "Premium Autumn Fleece Dog Vest Duo | 2 Cozy Dog Vests | FluffHaven",
+
+  seoDescription:
+    "Premium autumn dog vest duo with 2 soft fleece vests in Pink and Green, Size L. Warm, lightweight and comfortable for cool autumn walks.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Premium autumn fleece dog vest duo
+✓ Pack of 2 vests
+✓ Pink vest × 1
+✓ Green vest × 1
+✓ Size L
+✓ Back length: 40 cm
+✓ Chest: 56–66 cm
+✓ Neck: 40–44 cm
+✓ Soft & warm fleece
+✓ Lightweight and comfortable
+✓ Sleeveless design
+✓ Easy to put on and take off
+✓ Comfortable freedom of movement
+✓ Machine washable
+✓ Perfect for cool autumn days
+✓ Ideal for everyday walks
+✓ Cozy seasonal design
+✓ Premium FluffHaven autumn quality
+
+
+Give your dog two cozy looks for cooler autumn days with the Premium Autumn Fleece Dog Vest Duo. This special FluffHaven pack includes one Pink fleece vest and one Green fleece vest, making it easy to switch styles while keeping your dog comfortable during everyday autumn adventures.
+
+The soft fleece construction provides comfortable warmth without the bulk of a heavy winter coat. Its lightweight sleeveless design allows natural movement, making these vests ideal for walks, park visits and relaxed outdoor outings during cooler autumn weather.
+
+This FluffHaven duo is offered exclusively in Size L. Recommended measurements are approximately 40 cm back length, 56–66 cm chest and 40–44 cm neck. Please measure your dog carefully before ordering and allow a small 1–3 cm difference when comparing measurements.
+  `,
+
+  inStock: true,
+
+  featured: true,
+},
+
+{
+  id: 63,
+
+  slug: "premium-led-glow-dog-flying-disc",
+
+  name: "Premium LED Glow Dog Flying Disc",
+
+  category: "dog",
+
+  seasons: ["autumn", "winter"],
+
+  subtitle: "USB rechargeable • Red LED glow • Outdoor play",
+
+  price: 37.90,
+
+  badge: "🌙 Night Adventure",
+
+  priceId: "price_1U2Z4uKn0lmTcQ11jXAUMtUR",
+
+  images: [
+    "/premium-led-glow-dog-flying-disc-main.webp",
+    "/premium-led-glow-dog-flying-disc-garden.webp",
+    "/premium-led-glow-dog-flying-disc-details.webp",
+  ],
+
+  description:
+    "Keep the fun going after sunset with the Premium LED Glow Dog Flying Disc. Featuring a bright red LED rim for excellent nighttime visibility, this rechargeable flying disc is designed for exciting outdoor games during darker autumn and winter evenings. Lightweight, durable and easy to throw, it's the perfect companion for active dogs who love fetch adventures day or night.",
+
+  seoTitle:
+    "Premium LED Glow Dog Flying Disc | Rechargeable LED Dog Frisbee | FluffHaven",
+
+  seoDescription:
+    "Premium rechargeable LED dog flying disc with bright red glow for nighttime visibility. Lightweight, durable and perfect for autumn and winter outdoor play.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Premium LED flying disc
+✓ Bright red LED glow
+✓ Excellent nighttime visibility
+✓ USB rechargeable
+✓ Lightweight & easy to throw
+✓ Durable construction
+✓ Comfortable for active play
+✓ Easy for dogs to spot after sunset
+✓ Perfect for fetch & outdoor games
+✓ Ideal for autumn & winter evenings
+✓ Portable for walks & adventures
+✓ Designed for active dogs
+✓ Premium FluffHaven quality
+
+
+Keep every adventure going long after the sun goes down with the Premium LED Glow Dog Flying Disc. Designed for darker autumn and winter evenings, its bright red LED glow makes the disc easy to spot during outdoor play while adding excitement to every game of fetch. The lightweight design makes it easy to throw and carry, while its durable construction is made for energetic play. Recharge it by USB and take it along for evening walks, garden games and nighttime adventures with your best friend.
+  `,
+
+  inStock: true,
+
+  featured: true,
+},
+
+{
+  id: 61,
+
+  slug: "premium-dog-floating-swim-ring",
+
+  name: "Premium Dog Floating Swim Ring",
+
+  category: "dog",
+
+  seasons: ["summer"],
+
+  subtitle: "Inflatable swim ring • Anti-slip • Water fun",
+
+  price: 42.90,
+
+  badge: "🏖️ Summer Favorite",
+
+  priceId: "price_1U1somKn0lmTcQ114fFXnUom",
+
+  images: [
+    "/premium-dog-floating-swim-ring-main.webp",
+    "/premium-dog-floating-swim-ring-lifestyle.webp",
+    "/premium-dog-floating-swim-ring-details.webp",
+  ],
+
+  description:
+    "Turn every summer adventure into a safe and unforgettable experience with the Premium Dog Floating Swim Ring. Designed for pools, lakes and beach days, this premium inflatable ring features a comfortable anti-slip mesh seat that keeps your dog supported while enjoying the water. Lightweight, portable and easy to inflate, it's the perfect companion for active dogs who love swimming and relaxing in style.",
+
+  seoTitle:
+    "Premium Dog Floating Swim Ring | Inflatable Dog Pool Float | FluffHaven",
+
+  seoDescription:
+    "Premium inflatable dog floating swim ring with anti-slip mesh seat. Perfect for pools, lakes and beaches. Lightweight, durable and designed for safe summer adventures.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Premium inflatable swim ring
+✓ Comfortable anti-slip mesh seat
+✓ Durable PVC construction
+✓ Stable & buoyant design
+✓ Lightweight & portable
+✓ Easy to inflate & deflate
+✓ Perfect for pools, lakes & beaches
+✓ Comfortable floating support
+✓ Water-resistant materials
+✓ Compact for travel
+✓ Designed for summer adventures
+✓ Ideal for small & medium dogs
+✓ Premium FluffHaven quality
+
+Enjoy endless summer fun with the Premium Dog Floating Swim Ring. Designed for adventurous dogs who love the water, this premium inflatable float combines comfort, safety and style. The anti-slip mesh seat offers excellent support while floating, while the durable PVC construction provides long-lasting performance for every adventure. Whether relaxing in the swimming pool, spending the day at the lake or enjoying a beach vacation, your dog can stay cool, comfortable and secure all summer long with FluffHaven's premium quality.
+  `,
+
+  inStock: true,
+
+  featured: true,
+},
+
   {
   id: 54,
 
@@ -233,6 +1004,64 @@ Keep your dog cool and relaxed during warm weather with the Premium Cooling Gel 
 ✓ FluffHaven premium quality
 
 Dry your dog quickly and comfortably after every adventure with the Premium Microfiber Drying Towel Duo. This premium bundle includes two large 50 × 100 cm microfiber towels in elegant Grey and Pink colors. Designed to absorb water fast while remaining incredibly soft on your dog's coat, they dry quickly, are machine washable and built for everyday use. A practical premium essential for rainy autumn walks, bath time and outdoor adventures.
+  `,
+
+  inStock: true,
+
+  featured: true,
+},
+
+{
+  id: 59,
+
+  slug: "premium-winter-teepee-dog-bed",
+
+  name: "Premium Winter Teepee Dog Bed",
+
+  category: "dog",
+
+  seasons: ["autumn", "winter"],
+
+  subtitle: "Ultra-soft fleece • Size M • Cozy hideaway",
+
+  price: 57.90,
+
+  badge: "❄️ Winter Favorite",
+
+  priceId: "price_1U1kxUKn0lmTcQ11vQ6Uy4G7",
+
+  images: [
+    "/premium-winter-teepee-dog-bed-main.webp",
+    "/premium-winter-teepee-dog-bed-bedroom.webp",
+    "/premium-winter-teepee-dog-bed-details.webp",
+  ],
+
+  description:
+    "Give your dog a warm, private and comfortable place to rest with our Premium Winter Teepee Dog Bed. Featuring ultra-soft fleece, a removable cushion and a cozy enclosed design, this premium Size M bed keeps your dog warm throughout autumn and winter.",
+
+  seoTitle:
+    "Premium Winter Teepee Dog Bed | Cozy Heated Dog Bed | FluffHaven",
+
+  seoDescription:
+    "Premium winter teepee dog bed with ultra-soft fleece, removable cushion and cozy enclosed design. Size M (45 × 45 × 38 cm). Perfect for autumn and winter comfort.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Premium insulated teepee design
+✓ Ultra-soft fleece interior
+✓ Cozy enclosed hideaway
+✓ Size M (45 × 45 × 38 cm)
+✓ Removable washable cushion
+✓ Non-slip bottom
+✓ Machine washable
+✓ Warm & comfortable
+✓ Lightweight premium construction
+✓ Perfect for small & medium dogs
+✓ Ideal for autumn & winter
+✓ FluffHaven premium quality
+
+Create the perfect warm retreat for your dog with the Premium Winter Teepee Dog Bed. Designed with a cozy enclosed shape and ultra-soft fleece lining, it helps your dog feel safe, relaxed and protected from the cold. The removable washable cushion makes cleaning effortless while the non-slip base keeps the bed securely in place. A premium sleeping space for chilly autumn evenings and cold winter days.
   `,
 
   inStock: true,
@@ -431,6 +1260,8 @@ Designed to keep your dog warm and comfortable wherever life takes you. This Pre
 
   category: "dog",
 
+  seasons: ["summer", "autumn", "winter"],
+
   subtitle: "4 rope toys • Dental cleaning • Interactive play",
 
   price: 27.90,
@@ -487,6 +1318,8 @@ A complete rope toy collection designed to keep your dog entertained, active and
   name: "Premium Dog Enrichment Duo",
 
   category: "dog",
+
+  seasons: ["summer", "autumn", "winter"],
 
   subtitle: "2 slow feeding mats • Mental stimulation • Blue + Pink",
 
@@ -597,6 +1430,8 @@ Keep your dog's paws soft, healthy and protected during every walk. Perfect for 
 
   category: "dog",
 
+  seasons: ["summer", "autumn", "winter"],
+
   subtitle: "Automatic toy • USB rechargeable • mental stimulation",
 
   price: 47.90,
@@ -651,6 +1486,8 @@ Designed to keep your dog moving, thinking and having fun while promoting a heal
 
   category: "dog",
 
+  seasons: ["summer", "autumn", "winter"],
+
   subtitle: "Puzzle toy • slow feeder • mental stimulation",
 
   price: 37.90,
@@ -704,6 +1541,8 @@ Designed to turn every snack into a fun, rewarding and engaging experience.
   name: "Premium Dog Lick Mat",
 
   category: "dog",
+
+  seasons: ["summer", "autumn", "winter"],
 
   subtitle: "Slow feeder • enrichment • calming",
 
@@ -888,6 +1727,7 @@ Designed to help keep your dog cool and comfortable during warm weather.
     slug: "pet-hair-remover-roller",
     name: "Pet Hair Remover Roller",
     category: "dog",
+    seasons: ["summer", "autumn", "winter"],
     subtitle: "No tape · reusable · instant clean",
     price: 45.09,
     badge: "🔥 Best Seller",
@@ -917,6 +1757,7 @@ Perfect for keeping your home clean every day.
     slug: "dog-car-seat-cover",
     name: "Dog Car Seat Cover",
     category: "dog",
+    seasons: ["summer", "autumn", "winter"],
     subtitle: "Waterproof · anti-slip · full protection",
     price: 100.57,
     badge: "⭐ Premium",
@@ -942,6 +1783,7 @@ Travel with your dog stress-free.
     slug: "no-pull-dog-harness",
     name: "No-Pull Dog Harness",
     category: "dog",
+    seasons: ["summer", "autumn", "winter"],
     subtitle: "No-pull · strong · comfortable",
     price: 67.69,
     badge: "🔥 Best Seller",
@@ -967,6 +1809,7 @@ Perfect for daily walks and training.
     slug: "electric-dog-nail-grinder",
     name: "Electric Dog Nail Grinder",
     category: "dog",
+    seasons: ["summer", "autumn", "winter"],
     subtitle: "Quiet · LED · safe grooming",
     price: 56.39,
     badge: "⚡ Popular",
@@ -1078,6 +1921,7 @@ Keeps your pet cool all summer long.
     slug: "3-in-1-steam-grooming-brush",
     name: "3-in-1 Steam Grooming Brush",
     category: "dog",
+    seasons: ["summer", "autumn", "winter"],
     subtitle: "Electric spray & massage brush · USB rechargeable",
     price: 39.44,
     badge: "Popular",
@@ -1103,6 +1947,7 @@ Professional grooming at home.
   slug: "pet-hair-remover-glove",
   name: "Pet Hair Remover Glove",
   category: "dog",
+  seasons: ["summer", "autumn", "winter"],
   subtitle: "Reusable · electrostatic · easy cleaning",
   price: 33.79,
   priceId: "price_1TnR2kKn0lmTcQ11ITawJHag",
@@ -1140,6 +1985,7 @@ A simple and effective way to keep your home clean.
   slug: "slow-feeder-dog-bowl",
   name: "Slow Feeder Dog Bowl",
   category: "dog",
+  seasons: ["summer", "autumn", "winter"],
   subtitle: "Medium · anti-choking · slow eating",
   price: 28.14,
   priceId: "price_1TnQvNKn0lmTcQ115ZBiOUth",
@@ -1290,6 +2136,124 @@ Designed for cats who love warm, private and secure sleeping spaces. The Cozy Ca
 },
 
 {
+  id: 58,
+
+  slug: "premium-autumn-cozy-cat-blanket",
+
+  name: "Premium Autumn Cozy Cat Blanket",
+
+  category: "cat",
+
+  seasons: ["autumn"],
+
+  subtitle: "Ultra-soft fleece • 70 × 100 cm • Cozy warmth",
+
+  price: 39.90,
+
+  badge: "🍂 Autumn Favorite",
+
+  priceId: "price_1U1YuyKn0lmTcQ11YB0VNkOX",
+
+  images: [
+    "/premium-autumn-cozy-cat-blanket-main.webp",
+    "/premium-autumn-cozy-cat-blanket-material.webp",
+    "/premium-autumn-cozy-cat-blanket-details.webp",
+  ],
+
+  description:
+    "Wrap your cat in warmth and comfort during chilly autumn days with our Premium Autumn Cozy Cat Blanket. Made from ultra-soft fleece with a plush sherpa lining, this premium blanket offers a cozy resting place while adding a beautiful seasonal touch to your home.",
+
+  seoTitle:
+    "Premium Autumn Cozy Cat Blanket | Soft Fleece Cat Blanket | FluffHaven",
+
+  seoDescription:
+    "Premium Autumn Cozy Cat Blanket with ultra-soft fleece, warm sherpa lining and generous 70 × 100 cm size. Perfect for autumn naps, sofas, beds and cozy cat moments.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Ultra-soft premium fleece
+✓ Warm sherpa backing
+✓ Large 70 × 100 cm size
+✓ Cozy autumn design
+✓ Lightweight and breathable
+✓ Gentle on fur and skin
+✓ Machine washable
+✓ Perfect for beds, sofas and carriers
+✓ Comfortable everyday use
+✓ Ideal for chilly autumn days
+✓ Durable premium stitching
+✓ Elegant seasonal pattern
+✓ FluffHaven premium quality
+
+Give your feline companion a warm and cozy place to relax with the Premium Autumn Cozy Cat Blanket. Crafted from soft fleece with a plush sherpa lining, this premium blanket provides exceptional comfort while keeping your cat warm during cooler autumn weather. Its generous 70 × 100 cm size makes it ideal for sofas, beds, carriers or your cat's favorite resting spot. Stylish, durable and easy to maintain, it's the perfect autumn essential for every cozy home.
+  `,
+
+  inStock: true,
+
+  featured: true,
+},
+
+{
+  id: 57,
+
+  slug: "premium-autumn-teddy-cat-vest",
+
+  name: "Premium Autumn Teddy Cat Vest",
+
+  category: "cat",
+
+  seasons: ["autumn"],
+
+  subtitle: "Soft fleece • Size M • Cozy comfort",
+
+  price: 32.90,
+
+  badge: "🍂 Autumn Favorite",
+
+  priceId: "price_1U1YVJKn0lmTcQ115kW1QJSg",
+
+  images: [
+    "/premium-autumn-teddy-cat-vest-main.webp",
+    "/premium-autumn-teddy-cat-vest-outdoor.webp",
+    "/premium-autumn-teddy-cat-vest-details.webp",
+  ],
+
+  description:
+    "Keep your cat warm, comfortable and adorable during cooler autumn days with our Premium Autumn Teddy Cat Vest. Made from soft fleece with a charming teddy bear pocket, this lightweight Size M vest provides cozy comfort while allowing your cat to move freely. Perfect for everyday indoor wear or relaxing autumn moments.",
+
+  seoTitle:
+    "Premium Autumn Teddy Cat Vest | Cozy Cat Fleece Vest | FluffHaven",
+
+  seoDescription:
+    "Premium Autumn Teddy Cat Vest with soft fleece fabric, adorable teddy pocket and comfortable Size M fit. Lightweight, warm and perfect for autumn weather.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Soft premium fleece fabric
+✓ Comfortable Size M
+✓ Adorable teddy bear pocket
+✓ Lightweight everyday comfort
+✓ Cozy autumn warmth
+✓ Gentle on your cat's fur
+✓ Comfortable stretchy neckline
+✓ Easy to put on and remove
+✓ Machine washable
+✓ Indoor everyday wear
+✓ Perfect for cooler autumn days
+✓ Cute teddy print design
+✓ FluffHaven premium quality
+
+Keep your feline companion warm and stylish throughout the autumn season with the Premium Autumn Teddy Cat Vest. Crafted from soft fleece material, this cozy vest offers lightweight warmth without restricting movement. The charming teddy bear pocket and elegant teddy print create an adorable premium look, while the comfortable Size M fit makes it ideal for everyday wear. Easy to clean, comfortable to wear and designed for cozy autumn adventures, it's the perfect seasonal essential for your cat.
+  `,
+
+  inStock: true,
+
+  featured: true,
+},
+
+{
   id: 44,
 
   slug: "self-warming-cat-mat",
@@ -1340,6 +2304,272 @@ Designed for cats who love warm, private and secure sleeping spaces. The Cozy Ca
 ✓ FluffHaven premium quality
 
 Designed to naturally reflect your cat's body heat, this premium self-warming mat provides a warm and cozy resting place without using electricity. The ultra-soft fleece fabric offers exceptional comfort while the non-slip base keeps the mat securely in place. Perfect for cooler autumn and winter days, whether at home, on the sofa or inside your cat's favorite sleeping spot.
+  `,
+
+  inStock: true,
+
+  featured: true,
+},
+
+{
+  id: 68,
+
+  slug: "premium-arctic-winter-cat-snowsuit",
+
+  name: "Premium Arctic Winter Cat Snowsuit",
+
+  category: "cat",
+
+  seasons: ["winter"],
+
+  subtitle: "Ultra-warm winter snowsuit • Padded protection • Size S",
+
+  price: 59.90,
+
+  badge: "❄️ Arctic Winter Essential",
+
+  priceId: "price_1U2d9XKn0lmTcQ11OnJ6Jnfl",
+
+  images: [
+    "/premium-arctic-winter-cat-snowsuit-main.webp",
+    "/premium-arctic-winter-cat-snowsuit-outdoor.webp",
+    "/premium-arctic-winter-cat-snowsuit-details.webp",
+  ],
+
+  description:
+    "Keep your cat warm and protected during cold winter outings with the Premium Arctic Winter Cat Snowsuit. Designed especially for chilly weather, this premium padded suit provides full-body coverage with a cozy insulated construction and protective hood. Its lightweight yet warm design helps provide extra comfort during winter walks, outdoor adventures and cold-weather travel.",
+
+  seoTitle:
+    "Premium Arctic Winter Cat Snowsuit | Warm Cat Jacket | FluffHaven",
+
+  seoDescription:
+    "Premium ultra-warm padded winter snowsuit for cats in Size S. Full-body coverage, cozy insulation and protective hood for cold winter outings.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Premium winter cat snowsuit
+✓ Size S
+✓ Designed specifically for winter
+✓ Ultra-warm padded construction
+✓ Full-body cold-weather coverage
+✓ Cozy insulated design
+✓ Protective hood
+✓ Helps protect against chilly weather
+✓ Comfortable four-leg design
+✓ Lightweight winter protection
+✓ Soft and comfortable interior
+✓ Designed for outdoor winter outings
+✓ Ideal for cold-weather walks
+✓ Perfect for winter travel
+✓ Stylish premium white finish
+✓ Premium FluffHaven winter quality
+
+
+Give your cat extra warmth during the coldest season with the Premium Arctic Winter Cat Snowsuit. Designed specifically for winter, this premium padded outfit combines cozy insulation with full-body coverage to help keep your cat comfortable during chilly outdoor adventures.
+
+
+The four-leg construction provides extended coverage while the protective hood adds extra comfort around the neck and head area. Its warm padded design makes it particularly suitable for cats that need additional protection when temperatures drop.
+
+
+This FluffHaven edition is offered in Size S with a premium white finish. Warm, stylish and designed for winter outings, it's a standout seasonal piece for cats venturing outside during the colder months.
+  `,
+
+  inStock: true,
+
+  featured: true,
+},
+
+{
+  id: 67,
+
+  slug: "premium-arctic-cozy-cat-cave",
+
+  name: "Premium Arctic Cozy Cat Cave",
+
+  category: "cat",
+
+  seasons: ["autumn", "winter"],
+
+  subtitle: "Ultra-warm cat cave • Arctic fleece • Size S",
+
+  price: 52.90,
+
+  badge: "❄️ Premium Winter Comfort",
+
+  priceId: "price_1U2chVKn0lmTcQ11ihxfonBr",
+
+  images: [
+    "/premium-arctic-cozy-cat-cave-main.webp",
+    "/premium-arctic-cozy-cat-cave-bedroom.webp",
+    "/premium-arctic-cozy-cat-cave-details.webp",
+  ],
+
+  description:
+    "Give your cat an exceptionally warm and cozy retreat during the coldest months with the Premium Arctic Cozy Cat Cave. Designed with a thick insulated structure, ultra-soft Arctic fleece interior and enclosed cave shape, it creates a comfortable private space that helps retain warmth. Perfect for chilly autumn evenings and cold winter days, this premium FluffHaven cat cave combines warmth, comfort and beautiful seasonal style.",
+
+  seoTitle:
+    "Premium Arctic Cozy Cat Cave | Ultra-Warm Winter Cat Bed | FluffHaven",
+
+  seoDescription:
+    "Premium ultra-warm cat cave in Size S with soft Arctic fleece, thick padded walls and a cozy enclosed design. Ideal for autumn and cold winter days.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Premium ultra-warm cat cave
+✓ Size S: 45 × 30 × 19 cm
+✓ Designed for autumn & winter
+✓ Ultra-soft Arctic fleece interior
+✓ Thick padded construction
+✓ Cozy enclosed cave design
+✓ Helps retain body warmth
+✓ Soft and comfortable sleeping surface
+✓ Warm protective interior
+✓ Private space for resting & sleeping
+✓ Comfortable raised sides
+✓ Perfect for chilly rooms
+✓ Ideal for cold autumn evenings
+✓ Excellent winter sleeping spot
+✓ Lightweight & easy to move
+✓ Premium FluffHaven winter quality
+
+
+Turn cold days into cozy moments with the Premium Arctic Cozy Cat Cave. Created especially for autumn and winter, this premium cat bed provides a warm, enclosed retreat where your cat can curl up, relax and sleep comfortably.
+
+
+The soft Arctic fleece interior and thick padded construction create a cozy environment while the cave-style shape surrounds your cat with extra comfort. Its enclosed design makes it particularly suitable for cats that love small, warm and protected sleeping spaces during colder weather.
+
+
+This FluffHaven edition is offered in Size S, measuring approximately 45 × 30 × 19 cm. Compact, warm and beautifully designed, it's a premium winter retreat made for cozy naps throughout the coldest months.
+  `,
+
+  inStock: true,
+
+  featured: true,
+},
+
+{
+  id: 66,
+
+  slug: "premium-foldable-cat-playpen",
+
+  name: "Premium Foldable Cat Playpen",
+
+  category: "cat",
+
+  seasons: ["summer", "autumn"],
+
+  subtitle: "Foldable playpen • Indoor & outdoor • 73 × 73 × 43 cm",
+
+  price: 49.90,
+
+  badge: "🐱 Safe Outdoor Space",
+
+  priceId: "price_1U2cJgKn0lmTcQ11Jhymhd4O",
+
+  images: [
+    "/premium-foldable-cat-playpen-main.webp",
+    "/premium-foldable-cat-playpen-indoor.webp",
+    "/premium-foldable-cat-playpen-details.webp",
+  ],
+
+  description:
+    "Give your cat a safe and comfortable space to relax, play and enjoy the surroundings with the Premium Foldable Cat Playpen. Designed with breathable mesh panels and a spacious enclosed interior, this portable playpen is perfect for use at home, in the garden, on the balcony or while travelling. Its lightweight foldable design makes setup, storage and transport quick and easy.",
+
+  seoTitle:
+    "Premium Foldable Cat Playpen | Indoor & Outdoor Cat Enclosure | FluffHaven",
+
+  seoDescription:
+    "Premium foldable cat playpen with breathable mesh, spacious 73 × 73 × 43 cm design and easy portable storage. Ideal for indoor, outdoor and travel use.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Premium foldable cat playpen
+✓ Size: 73 × 73 × 43 cm
+✓ Spacious enclosed design
+✓ Breathable mesh panels
+✓ Excellent airflow & visibility
+✓ Suitable for indoor & outdoor use
+✓ Large front zippered entrance
+✓ Convenient top access
+✓ Quick pop-up setup
+✓ Folds flat for easy storage
+✓ Lightweight & portable
+✓ Easy to carry while travelling
+✓ Ideal for home, garden & balcony
+✓ Comfortable space for relaxing & playing
+✓ Durable pet-friendly construction
+✓ Premium FluffHaven quality
+
+
+Give your cat a comfortable space of their own with the Premium Foldable Cat Playpen. Its spacious enclosed design combines breathable mesh panels with excellent visibility and ventilation, creating a secure area where your cat can relax, play or simply watch the world around them.
+
+
+Designed for versatility, the playpen can be used indoors or outdoors and is ideal for the home, garden, balcony or travel. The convenient foldable construction allows it to pop up quickly and fold flat again for compact storage and easy transport.
+
+
+This FluffHaven edition comes in one practical size: 73 × 73 × 43 cm. Lightweight, portable and easy to use, it's a convenient way to create a dedicated space for your cat wherever your adventures take you.
+  `,
+
+  inStock: true,
+
+  featured: true,
+},
+
+{
+  id: 56,
+
+  slug: "premium-floating-water-play-mat-cat",
+
+  name: "Premium Floating Water Play Mat",
+
+  category: "cat",
+
+  seasons: ["summer"],
+
+  subtitle: "Interactive water toy • Cooling fun • 70 cm",
+
+  price: 29.90,
+
+  badge: "💦 Summer Essential",
+
+  priceId: "price_1U1Y3uKn0lmTcQ11aI9faeCp",
+
+  images: [
+    "/premium-floating-water-play-mat-cat-main.webp",
+    "/premium-floating-water-play-mat-cat-play.webp",
+    "/premium-floating-water-play-mat-cat-details.webp",
+  ],
+
+  description:
+    "Keep your cat entertained and refreshed during hot summer days with our Premium Floating Water Play Mat. Filled with water and featuring colorful floating fish, this interactive play mat stimulates your cat's natural hunting instincts while providing a fun cooling surface. Easy to inflate, durable and perfect for indoor play.",
+
+  seoTitle:
+    "Premium Floating Water Play Mat for Cats | Summer Cat Toy | FluffHaven",
+
+  seoDescription:
+    "Interactive floating water play mat for cats with colorful floating fish. Cooling summer toy made from durable PVC for hours of fun and enrichment.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Interactive floating fish
+✓ Cooling water play surface
+✓ Large 70 cm diameter
+✓ Thickened PVC material
+✓ Leak-resistant construction
+✓ Bright colorful underwater design
+✓ Encourages natural hunting instincts
+✓ Provides mental stimulation
+✓ Easy to inflate and fill
+✓ Foldable for easy storage
+✓ Indoor and outdoor use
+✓ Suitable for cats of all ages
+✓ FluffHaven premium quality
+
+Turn every summer day into an exciting play session with the Premium Floating Water Play Mat. Simply inflate the outer ring, fill the center with water and watch the colorful floating fish move as your cat touches the surface. The gentle water movement encourages curiosity, exercise and mental stimulation while offering a refreshing play experience during warm weather. Lightweight, portable and easy to store, it's the perfect summer enrichment toy for every indoor cat.
   `,
 
   inStock: true,
@@ -1533,6 +2763,8 @@ Designed for adventurous indoor cats who love discovering the outdoors safely. T
 
   category: "cat",
 
+  seasons: ["summer", "autumn", "winter"],
+
   subtitle: "10 flying discs • Active play • Indoor exercise",
 
   price: 31.90,
@@ -1590,6 +2822,8 @@ An exciting interactive toy set designed to keep your cat active, healthy and me
   name: "Premium Cat Enrichment Duo",
 
   category: "cat",
+
+  seasons: ["summer", "autumn", "winter"],
 
   subtitle: "2 slow feeding mats • Mental stimulation • Blue + Pink",
 
@@ -1649,6 +2883,8 @@ A practical two-piece enrichment set designed to make every meal calmer, healthi
 
   category: "cat",
 
+  seasons: ["summer", "autumn", "winter"],
+
   subtitle: "4 interactive toys • Mental stimulation • Endless fun",
 
   price: 27.90,
@@ -1706,6 +2942,8 @@ A carefully selected four-piece toy collection designed to keep your cat happy, 
   name: "Premium Cat Grass Growing Kit",
 
   category: "cat",
+
+  seasons: ["summer", "autumn", "winter"],
 
   subtitle: "Fresh cat grass • Complete growing kit • Indoor cats",
 
@@ -1815,6 +3053,8 @@ Keep your cat's paws soft, healthy and protected every day with gentle natural c
   name: "Premium Cat Grooming Mist Brush",
 
   category: "cat",
+
+  seasons: ["summer", "autumn", "winter"],
 
   subtitle: "Gentle mist • Reduces shedding • Self-cleaning",
 
@@ -1968,6 +3208,7 @@ A simple way to keep your cat hydrated every day.
   slug: "cat-window-hammock",
   name: "Cat Window Hammock",
   category: "cat",
+  seasons: ["summer", "autumn", "winter"],
   subtitle: "Window perch · soft plush · strong suction cups",
   price: 62.04,
   priceId: "price_1TnQRxKn0lmTcQ110wWlzwk3",
@@ -2004,6 +3245,7 @@ Perfect for indoor cats who love sunlight, window views and cozy naps.
     slug: "interactive-smart-cat-ball",
     name: "Interactive Smart Cat Ball",
     category: "cat",
+    seasons: ["summer", "autumn", "winter"],
     subtitle: "Auto rolling toy · 2 speeds · USB rechargeable",
     price: 33.79,
     badge: "New",
@@ -2028,6 +3270,7 @@ Hours of entertainment for your cat.
     slug: "l-shape-cat-scratcher",
     name: "L-Shape Cat Scratcher",
     category: "cat",
+    seasons: ["summer", "autumn", "winter"],
     subtitle: "48 cm tall · premium corrugated cardboard · ball toy",
     price: 45.09,
     badge: "Popular",
@@ -2052,6 +3295,7 @@ The perfect scratching solution.
     slug: "feather-wand-cat-toy-set",
     name: "Feather Wand Cat Toy Set",
     category: "cat",
+    seasons: ["summer", "autumn", "winter"],
     subtitle: "2 retractable wands · 10 feather & teaser refills",
     price: 24.75,
     badge: "Fun",
@@ -2076,6 +3320,7 @@ Daily playtime made fun & easy.
     slug: "premium-cat-play-tunnel",
     name: "Premium Cat Play Tunnel",
     category: "cat",
+    seasons: ["summer", "autumn", "winter"],
     subtitle: "Foldable linen tunnel · 30×70 cm · pompom ball included",
     price: 29.27,
     badge: null,
@@ -2100,6 +3345,7 @@ Cats never get bored.
   slug: "interactive-cat-puzzle-feeder",
   name: "Interactive Cat Puzzle Feeder",
   category: "cat",
+  seasons: ["summer", "autumn", "winter"],
   subtitle: "Mental stimulation · slow feeding · boredom relief",
   price: 39.44,
   badge: "🧠 Smart Play",
@@ -2168,6 +3414,7 @@ A calming resting space where your cat can sleep, hide and relax comfortably eve
   slug: "cat-self-grooming-brush",
   name: "Cat Self Grooming Brush",
   category: "cat",
+  seasons: ["summer", "autumn", "winter"],
   subtitle: "Wall mounted · soft bristles · stress relief",
   price: 28.14,
   badge: "✨ Relaxing",
@@ -2517,6 +3764,8 @@ Designed to provide daily mental stimulation while making mealtime and playtime 
     name: "Ponpon's Signature Bandana Pack",
 
     category: "dog",
+
+    seasons: ["summer", "autumn", "winter"],
 
     subtitle: "5 Custom Bandanas • One Complete Pack • Ponpon Approved",
 

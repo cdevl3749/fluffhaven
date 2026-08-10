@@ -858,8 +858,15 @@ const filteredProducts = PRODUCTS.filter((product) => {
         <div className="about-inner">
           <div className="about-text">
             <div className="section-label">Our Story</div>
-            <h2 style={{ textAlign: "left" }}>Designed for<br />comfort & simplicity</h2>
-            <p>FluffHaven brings you carefully selected pet products designed to improve daily life. No accounts, no complexity — just fast checkout, free delivery and trusted quality for the pets you love.</p>
+
+            <h2 style={{ textAlign: "left" }}>
+              Designed for<br />comfort & simplicity
+            </h2>
+
+            <p>
+              FluffHaven brings you carefully selected pet products designed to improve daily life. No accounts, no complexity — just fast checkout, free delivery and trusted quality for the pets you love.
+            </p>
+
             <ul className="about-list">
               <li>✦ Vet-approved product selection</li>
               <li>✦ No account required to order</li>
@@ -867,11 +874,27 @@ const filteredProducts = PRODUCTS.filter((product) => {
               <li>✦ Ships worldwide, always free</li>
             </ul>
           </div>
+
           <div className="about-visual">
-            <div className="about-card"><div className="about-stat">100+</div><div className="about-stat-label">Happy Pet Parents</div></div>
-            <div className="about-card"><div className="about-stat">4.9★</div><div className="about-stat-label">Average Rating</div></div>
-            <div className="about-card"><div className="about-stat">56+</div><div className="about-stat-label">Pet Essentials</div></div>
-            <div className="about-card"><div className="about-stat">14</div><div className="about-stat-label">Day Return Policy</div></div>
+            <div className="about-card">
+              <div className="about-stat">75+</div>
+              <div className="about-stat-label">Carefully Selected Products</div>
+            </div>
+
+            <div className="about-card">
+              <div className="about-stat">5–8</div>
+              <div className="about-stat-label">Business Days Delivery</div>
+            </div>
+
+            <div className="about-card">
+              <div className="about-stat">FREE</div>
+              <div className="about-stat-label">Worldwide Shipping</div>
+            </div>
+
+            <div className="about-card">
+              <div className="about-stat">14</div>
+              <div className="about-stat-label">Day Return Policy</div>
+            </div>
           </div>
         </div>
       </section>
