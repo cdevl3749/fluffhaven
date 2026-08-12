@@ -1109,35 +1109,7 @@ const filteredProducts = PRODUCTS.filter((product) => {
             <div className="trust-badge"><span>↩️</span> 14-Day Returns</div>
           </div>
         </div>
-        <div
-  className="footer-copy"
-  style={{
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "center",
-    gap: "18px",
-    flexWrap: "wrap"
-  }}
->
-  <span>© 2026 FluffHaven. All rights reserved.</span>
-
-  <a
-    href="https://launchpadly.co/startup/fluffhaven?ref=badge"
-    target="_blank"
-    rel="noopener noreferrer"
-    data-launchpadly-badge="fluffhaven"
-    data-launchpadly-badge-variant="minimal"
-    style={{ opacity: 0.65 }}
-  >
-    <img
-      src="https://launchpadly.co/embed/badges/startup/fluffhaven.svg?variant=minimal"
-      alt="Launchpadly Startup Directory"
-      width="165"
-      height="21"
-      style={{ display: "block", border: 0 }}
-    />
-  </a>
-</div>
+        <div className="footer-copy">© 2026 FluffHaven. All rights reserved.</div>
       </footer>
 
       {/* CART DRAWER */}
