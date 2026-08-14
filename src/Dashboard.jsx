@@ -269,7 +269,7 @@ export default function Dashboard() {
           {[
             { label: "Visiteurs",       val: stats.visitors, bg: "#4f7ef815" },
             { label: "Produits vus", val: stats.productViews, bg: "#0ea5e915" },
-            { label: "Ajouts panier", val: stats.addToCart, bg: "#ec489915" },
+            { label: "Ajouts panier", val: stats.cartAdds, bg: "#ec489915" },
             { label: "Checkout cliqué", val: stats.clicks,   bg: "#f59e0b15" },
             { label: "Arrivés Stripe",  val: stats.stripe,   bg: "#8b5cf615" },
             { label: "Paiements",       val: stats.payments, bg: "#10b98115" },
