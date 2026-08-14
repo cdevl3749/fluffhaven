@@ -84,6 +84,7 @@ export default function Dashboard() {
   const cards = [
     { label: "Visiteurs",      value: stats.visitors,  icon: "👁️",  color: "#4f7ef8" },
     { label: "Produits vus",   value: stats.productViews,  icon: "👁️", color: "#0ea5e9" },
+    { label: "Ajouts panier", value: stats.cartAdds || 0, icon: "🛒", color: "#22c55e" },
     { label: "Clic Checkout",  value: stats.clicks,    icon: "🛒",  color: "#f59e0b" },
     { label: "Arrivés Stripe", value: stats.stripe,    icon: "💳",  color: "#8b5cf6" },
     { label: "Paiements",      value: stats.payments,  icon: "✅",  color: "#10b981" },
@@ -267,6 +268,8 @@ export default function Dashboard() {
         <div style={styles.funnel}>
           {[
             { label: "Visiteurs",       val: stats.visitors, bg: "#4f7ef815" },
+            { label: "Produits vus", val: stats.productViews, bg: "#0ea5e915" },
+            { label: "Ajouts panier", val: stats.addToCart, bg: "#ec489915" },
             { label: "Checkout cliqué", val: stats.clicks,   bg: "#f59e0b15" },
             { label: "Arrivés Stripe",  val: stats.stripe,   bg: "#8b5cf615" },
             { label: "Paiements",       val: stats.payments, bg: "#10b98115" },

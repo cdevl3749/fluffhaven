@@ -550,7 +550,16 @@ const filteredProducts = PRODUCTS.filter((product) => {
 }
 
   const scrollTo = (id) => document.querySelector(id)?.scrollIntoView({ behavior: "smooth" });
-  const addToCart = (item) => { setCart((prev) => [...prev, item]); setOpenCart(true); };
+  const addToCart = (item) => {
+  setCart((prev) => [...prev, item]);
+  setOpenCart(true);
+
+  fetch("/.netlify/functions/stats", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ type: "addToCart" }),
+  }).catch(() => {});
+};
   const removeFromCart = (i) => setCart((prev) => prev.filter((_, idx) => idx !== i));
   const total = cart.reduce((acc, item) => acc + item.price, 0);
 
