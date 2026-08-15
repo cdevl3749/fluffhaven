@@ -39,11 +39,17 @@ export default function ProductPage({ onAddToCart }) {
   };
 
   localStorage.setItem(
-    "fluffhaven_cart",
-    JSON.stringify([...currentCart, cartProduct])
-  );
+  "fluffhaven_cart",
+      JSON.stringify([...currentCart, cartProduct])
+    );
 
-  window.location.href = "/?cart=open";
+    fetch("/.netlify/functions/stats", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ type: "addToCart" }),
+    }).catch(() => {});
+
+    window.location.href = "/?cart=open";
 }
 
   if (!product) {

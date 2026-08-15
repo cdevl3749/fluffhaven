@@ -12,6 +12,11 @@ const details = product.details
 
   async function handleBuyNow() {
   try {
+    fetch("/.netlify/functions/stats", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ type: "click" }),
+  }).catch(() => {});
     const response = await fetch("/.netlify/functions/create-checkout-session", {
       method: "POST",
       headers: {
