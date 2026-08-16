@@ -407,7 +407,30 @@ const filteredProducts = PRODUCTS.filter((product) => {
     return false;
   }
 
-  return true;
+    return true;
+}).sort((a, b) => {
+  // Quand "All Seasons" est sélectionné,
+  // on garde exactement l'ordre actuel du catalogue.
+  if (seasonFilter === "all") {
+    return 0;
+  }
+
+  // Nombre de saisons attribuées à chaque produit.
+  // Plus le nombre est petit, plus le produit est
+  // spécifique à la saison sélectionnée.
+  const aSeasonCount = Array.isArray(a.seasons)
+    ? a.seasons.length
+    : a.season
+    ? 1
+    : 99;
+
+  const bSeasonCount = Array.isArray(b.seasons)
+    ? b.seasons.length
+    : b.season
+    ? 1
+    : 99;
+
+  return aSeasonCount - bSeasonCount;
 });
   const [checkoutStatus, setCheckoutStatus] = useState(null);
   const [activePage, setActivePage] = useState(null);
@@ -521,6 +544,18 @@ const filteredProducts = PRODUCTS.filter((product) => {
 
   async function handleBuyNow(item) {
   try {
+    // Dashboard : compte le clic sur "Buy now"
+    fetch("/.netlify/functions/stats", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        type: "click",
+      }),
+    }).catch(() => {});
+
+    // Création de la session Stripe
     const response = await fetch(
       "/.netlify/functions/create-checkout-session",
       {
@@ -977,7 +1012,7 @@ const filteredProducts = PRODUCTS.filter((product) => {
 
           <div className="about-visual">
             <div className="about-card">
-              <div className="about-stat">75+</div>
+              <div className="about-stat">100+</div>
               <div className="about-stat-label">Carefully Selected Products</div>
             </div>
 

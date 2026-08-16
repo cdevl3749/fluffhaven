@@ -455,6 +455,27 @@ export default function Blog() {
     "Discover why cats love sleeping in cardboard boxes and how enclosed spaces provide warmth, security, privacy and comfort.",
   url: "/blog/why-does-my-cat-sleep-in-boxes",
 },
+
+  {
+    title: "Why Does My Dog Stare at Me? Reasons Behind Your Dog's Staring",
+    category: "Dog behavior",
+    date: "August 2026",
+    read: "8 min read",
+    description:
+      "Discover why your dog stares at you, from attention and affection to food, walks, routines and everyday canine communication.",
+    url: "/blog/why-does-my-dog-stare-at-me",
+  },
+
+  {
+  title: "Why Does My Cat Follow Me Everywhere? Reasons Your Cat Follows You",
+  category: "Cat behavior",
+  date: "August 2026",
+  read: "8 min read",
+  description:
+    "Discover why your cat follows you everywhere, from affection and curiosity to food, routines, attention and everyday feline behavior.",
+  url: "/blog/why-does-my-cat-follow-me-everywhere",
+},
+
   ];
 
   // ── Filtrage par recherche ──

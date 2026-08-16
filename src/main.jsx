@@ -64,7 +64,7 @@ import HowToKeepCatCoolHeatwave from './blog/how-to-keep-cat-cool-heatwave.jsx'
 import CanDogsWatchFootball from './blog/can-dogs-watch-football.jsx'
 
 import DogSleepAgainstMe from "./blog/dog-sleep-against-me.jsx";
-import DogStareAtMe from "./blog/dog-stare-at-me.jsx";
+import WhyDoesMyDogStareAtMe from "./blog/why-does-my-dog-stare-at-me.jsx";
 
 import WhyDoesMyDogSitOnMyFeet from "./blog/why-does-my-dog-sit-on-my-feet.jsx";
 import WhyDoesMyCatKnockThingsOffTables from "./blog/why-does-my-cat-knock-things-off-tables.jsx";
@@ -85,6 +85,8 @@ import WhyDoesMyCatKneadBlankets from "./blog/why-does-my-cat-knead-blankets.jsx
 
 import WhyDoesMyDogLickMeSoMuch from "./blog/why-does-my-dog-lick-me-so-much.jsx";
 import WhyDoesMyCatSleepInBoxes from "./blog/why-does-my-cat-sleep-in-boxes.jsx";
+
+import WhyDoesMyCatFollowMeEverywhere from "./blog/why-does-my-cat-follow-me-everywhere.jsx";
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -172,7 +174,10 @@ createRoot(document.getElementById('root')).render(
         <DogSleepAgainstMe />
       )
       : window.location.pathname === "/blog/why-does-my-dog-stare-at-me" ? (
-        <DogStareAtMe />
+        <WhyDoesMyDogStareAtMe />
+      )
+      : window.location.pathname === "/blog/why-does-my-cat-follow-me-everywhere" ? (
+        <WhyDoesMyCatFollowMeEverywhere />
       )
       : window.location.pathname === "/blog/why-does-my-dog-sit-on-my-feet" ? (
         <WhyDoesMyDogSitOnMyFeet />
