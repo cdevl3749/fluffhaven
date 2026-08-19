@@ -3,13 +3,22 @@ import { useState } from "react";
 export default function ProductGallery({ product }) {
     const [selectedImage, setSelectedImage] = useState(product.images[0]);
 
+    const [isZoomOpen, setIsZoomOpen] = useState(false);
+
     return (
         <section className="product-gallery">
-            <img
-                className="product-main-image"
-                src={selectedImage}
-                alt={product.name}
-            />
+            <button
+                type="button"
+                className="product-main-image-button"
+                onClick={() => setIsZoomOpen(true)}
+                aria-label={`View ${product.name} image larger`}
+            >
+                <img
+                    className="product-main-image"
+                    src={selectedImage}
+                    alt={product.name}
+                />
+            </button>
 
             <div className="product-thumbnails">
                 {product.images.map((image, index) => (
@@ -30,6 +39,28 @@ export default function ProductGallery({ product }) {
                     </button>
                 ))}
             </div>
+            {isZoomOpen && (
+            <div
+                className="product-lightbox"
+                onClick={() => setIsZoomOpen(false)}
+            >
+                <button
+                    type="button"
+                    className="product-lightbox-close"
+                    onClick={() => setIsZoomOpen(false)}
+                    aria-label="Close enlarged image"
+                >
+                    ×
+                </button>
+
+                <img
+                    className="product-lightbox-image"
+                    src={selectedImage}
+                    alt={`${product.name} enlarged`}
+                    onClick={(e) => e.stopPropagation()}
+                />
+            </div>
+        )}
         </section>
     );
 }
