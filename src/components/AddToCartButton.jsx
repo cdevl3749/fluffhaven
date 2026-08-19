@@ -1,6 +1,6 @@
 export default function AddToCartButton({
   onClick,
-  children = "Add to Cart • Free Shipping",
+  children = "Add to Cart",
 }) {
   return (
     <button

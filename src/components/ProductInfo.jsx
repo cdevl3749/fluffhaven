@@ -135,7 +135,7 @@ export default function ProductInfo({ product, onAddToCart }) {
           type="button"
           onClick={handleBuyNow}
         >
-          Buy Now • Secure Checkout
+          Buy Now →
         </button>
       </div>
 
