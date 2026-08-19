@@ -1,8 +1,23 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import AddToCartButton from "./AddToCartButton";
 
 export default function ProductInfo({ product, onAddToCart }) {
   const [openFaq, setOpenFaq] = useState(0);
+  const [showScrollTop, setShowScrollTop] = useState(false);
+
+  const [showAllDetails, setShowAllDetails] = useState(false);
+
+  useEffect(() => {
+  const handleScroll = () => {
+    setShowScrollTop(window.scrollY > 600);
+  };
+
+  window.addEventListener("scroll", handleScroll);
+
+  return () => {
+    window.removeEventListener("scroll", handleScroll);
+  };
+}, []);
 
   const details = product.details
     ? product.details
@@ -10,6 +25,13 @@ export default function ProductInfo({ product, onAddToCart }) {
         .split("\n")
         .filter((line) => line.trim() !== "")
     : [];
+
+    function scrollToTop() {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
+}
 
   async function handleBuyNow() {
     try {
@@ -126,18 +148,45 @@ export default function ProductInfo({ product, onAddToCart }) {
         {product.description}
       </p>
 
-      {/* PRODUCT DETAILS */}
-      {details.length > 0 && (
-        <div className="product-benefits">
-          <h2>Why you'll love it</h2>
+     {/* PRODUCT DETAILS */}
+{details.length > 0 && (
+  <div className="product-benefits">
+    <h2>Why you'll love it</h2>
 
-          <ul className="product-details">
-            {details.map((detail, index) => (
-              <li key={index}>{detail}</li>
-            ))}
-          </ul>
-        </div>
+    <ul className="product-details">
+      {(showAllDetails ? details : details.slice(0, 5)).map(
+        (detail, index) => (
+          <li key={index}>{detail}</li>
+        )
       )}
+    </ul>
+
+    {details.length > 5 && (
+      <button
+  type="button"
+  className="product-read-more"
+  onClick={() => {
+    if (showAllDetails) {
+      setShowAllDetails(false);
+
+      setTimeout(() => {
+        document
+          .querySelector(".product-benefits")
+          ?.scrollIntoView({
+            behavior: "smooth",
+            block: "start",
+          });
+      }, 50);
+    } else {
+      setShowAllDetails(true);
+    }
+  }}
+>
+  {showAllDetails ? "Show less ↑" : "Read more ↓"}
+</button>
+    )}
+      </div>
+    )}
 
       {/* FAQ */}
       <div className="product-faq">
@@ -195,6 +244,16 @@ export default function ProductInfo({ product, onAddToCart }) {
           )}
         </div>
       </div>
+            {showScrollTop && (
+        <button
+          className="product-scroll-top"
+          type="button"
+          onClick={scrollToTop}
+          aria-label="Back to top"
+        >
+          ↑
+        </button>
+      )}
     </section>
   );
 }
