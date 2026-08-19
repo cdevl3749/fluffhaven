@@ -672,7 +672,7 @@ nav span:hover::after {
 }
 
 .product-footer button:hover {
-  background: var(--rose);
+  background: black;
   transform: translateY(-1px);
 }
 
@@ -1881,7 +1881,7 @@ details p {
 }
 
 .add-to-cart-btn:hover {
-  background: var(--rose);
+  background: #9a735f !important;
   transform: translateY(-2px);
 }
 
@@ -3020,9 +3020,9 @@ body.modal-open {
 }
 
 .featured-rope-buy {
-  border: 1px solid #9a735f;
-  background: #9a735f;
-  color: #ffffff;
+  border: 1px solid #F4B942;
+  background: #F4B942;
+  color: #24170f;
 }
 
 .featured-rope-cart:hover,
@@ -3515,4 +3515,10 @@ body.modal-open {
     top: 12px;
     right: 12px;
   }
+}
+
+.product-buttons .product-buy-button {
+  background: #F4B942 !important;
+  border-color: #F4B942 !important;
+  color: #24170f !important;
 }
