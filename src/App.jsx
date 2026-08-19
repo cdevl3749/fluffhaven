@@ -60,7 +60,7 @@ const PAGES = {
         <h3>1. General</h3>
         <p>By placing an order on fluffhaven.shop, you agree to these Terms of Service. All orders are subject to product availability.</p>
         <h3>2. Pricing</h3>
-        <p>All prices are listed in Euros (€) and include applicable taxes. We reserve the right to change prices at any time without prior notice.</p>
+        <p>All prices are listed in US Dollars (USD). Any applicable taxes are calculated during checkout where required. We reserve the right to change prices at any time without prior notice.</p>
         <h3>3. Payment</h3>
         <p>Payments are processed securely via Stripe. We accept Visa, Mastercard and other major credit cards. Your payment is encrypted and secure.</p>
         <h3>4. Shipping</h3>
@@ -82,11 +82,17 @@ const PAGES = {
         <h3>14-Day Return Guarantee</h3>
         <p>We want you to be completely happy with your order. If you're not satisfied for any reason, you have <strong>14 days</strong> from the date of receipt to return your item.</p>
         <h3>How to Return</h3>
-        <p>1. Email us at <strong>contact@fluffhaven.shop</strong> with your order number and reason for return.<br />
-        2. We'll send you return instructions within 24 hours.<br />
-        3. Once we receive your item in its original condition, we'll process your refund within 3–5 business days.</p>
+        <p>
+          1. Email us at <strong>contact@fluffhaven.shop</strong> with your order number and reason for return.<br />
+          2. We'll send you free return instructions within 24 hours.<br />
+          3. Return shipping is free for eligible returns.<br />
+          4. Once we receive your item in its original condition, we'll process your refund within 3–5 business days.
+        </p>
         <h3>Conditions</h3>
-        <p>Items must be returned in their original, unused condition and packaging.</p>
+        <p>
+          Items must be returned in their original, unused condition and packaging. 
+          Free return shipping applies to eligible returns initiated within 14 days of receipt.
+        </p>
         <h3>Refunds</h3>
         <p>Refunds are processed to your original payment method within 3–5 business days.</p>
         <h3>Questions?</h3>
@@ -94,6 +100,44 @@ const PAGES = {
       </>
     ),
   },
+  shipping: {
+  title: "Shipping Policy",
+  content: (
+    <>
+      <p><em>Last updated: August 19, 2026</em></p>
+
+      <h3>Free Worldwide Shipping</h3>
+      <p>
+        FluffHaven offers free standard shipping on all orders with no minimum
+        purchase required.
+      </p>
+
+      <h3>Delivery Time</h3>
+      <p>
+        Estimated delivery is 5–8 business days after your order has been
+        processed and shipped.
+      </p>
+
+      <h3>Order Tracking</h3>
+      <p>
+        When tracking information is available, a tracking link will be sent
+        to the email address provided during checkout.
+      </p>
+
+      <h3>Delivery Address</h3>
+      <p>
+        Please make sure your shipping address is complete and accurate when
+        placing your order through our secure Stripe checkout.
+      </p>
+
+      <h3>Questions?</h3>
+      <p>
+        For questions about your shipment, contact us at
+        <strong> contact@fluffhaven.shop</strong>.
+      </p>
+    </>
+  ),
+},
 };
 
 function PageModal({ page, onClose }) {
@@ -906,7 +950,7 @@ const filteredProducts = PRODUCTS.filter((product) => {
       <section className="trust">
         <div className="trust-item"><div className="trust-icon">📦</div><div><strong>Free Shipping</strong><span>Worldwide · 5–8 business days</span></div></div>
         <div className="trust-item"><div className="trust-icon">🔒</div><div><strong>Secure Payment</strong><span>SSL encrypted · Stripe</span></div></div>
-        <div className="trust-item"><div className="trust-icon">🛡️</div><div><strong>Premium Quality</strong><span>Vet-approved products</span></div></div>
+        <div className="trust-item"><div className="trust-icon">🛡️</div><div><strong>Carefully Selected</strong><span>Quality pet essentials</span></div></div>
         <div className="trust-item"><div className="trust-icon">↩️</div><div><strong>Easy Returns</strong><span>14-day no-questions guarantee</span></div></div>
       </section>
 
@@ -1003,7 +1047,7 @@ const filteredProducts = PRODUCTS.filter((product) => {
             </p>
 
             <ul className="about-list">
-              <li>✦ Vet-approved product selection</li>
+              <li>✦ Carefully selected pet essentials</li>
               <li>✦ No account required to order</li>
               <li>✦ 14-day hassle-free returns</li>
               <li>✦ Ships worldwide, always free</li>
@@ -1143,6 +1187,7 @@ const filteredProducts = PRODUCTS.filter((product) => {
           <span onClick={() => setActivePage("privacy")}>Privacy Policy</span>
           <span onClick={() => setActivePage("terms")}>Terms of Service</span>
           <span onClick={() => setActivePage("returns")}>Returns</span>
+          <span onClick={() => setActivePage("shipping")}>Shipping Policy</span>
         </div>
         <div className="footer-trust">
           <h4>Secure &amp; Trusted</h4>
