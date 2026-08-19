@@ -480,6 +480,14 @@ const filteredProducts = PRODUCTS.filter((product) => {
   const [activePage, setActivePage] = useState(null);
 
   useEffect(() => {
+  const path = window.location.pathname.replace(/\/+$/, "");
+
+  if (path === "/returns") {
+    setActivePage("returns");
+  }
+}, []);
+
+  useEffect(() => {
   if (window.location.hash === "#shop") {
     setTimeout(() => {
       document.getElementById("shop")?.scrollIntoView({
@@ -1186,7 +1194,7 @@ const filteredProducts = PRODUCTS.filter((product) => {
           <span onClick={() => (window.location.href = "/blog")}>Blog</span>
           <span onClick={() => setActivePage("privacy")}>Privacy Policy</span>
           <span onClick={() => setActivePage("terms")}>Terms of Service</span>
-          <span onClick={() => setActivePage("returns")}>Returns</span>
+          <span onClick={() => (window.location.href = "/returns")}>Returns</span>
           <span onClick={() => setActivePage("shipping")}>Shipping Policy</span>
         </div>
         <div className="footer-trust">
