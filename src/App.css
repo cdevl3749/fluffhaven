@@ -3523,3 +3523,64 @@ body.modal-open {
   border-color: #F4B942 !important;
   color: #24170f !important;
 }
+
+/* ── FLOATING CART ── */
+.floating-cart {
+  position: fixed;
+  right: 92px;
+  bottom: 24px;
+  z-index: 999;
+  width: 56px;
+  height: 56px;
+  border: none;
+  border-radius: 50%;
+  background: #111;
+  color: white;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.22);
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 22px;
+}
+
+.floating-cart:hover {
+  background: #c99a3d;
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 22px rgba(201, 154, 61, 0.35);
+}
+
+.floating-cart-count {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+
+  min-width: 21px;
+  height: 21px;
+  padding: 0 5px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #d44c63;
+  color: white;
+  border: 2px solid white;
+  border-radius: 999px;
+
+  font-size: 11px;
+  font-weight: 700;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .floating-cart {
+    right: 82px;
+    bottom: 20px;
+    width: 52px;
+    height: 52px;
+  }
+}

@@ -1303,6 +1303,18 @@ const filteredProducts = PRODUCTS.filter((product) => {
       {/* MODAL PAGES LÉGALES */}
       {activePage && <PageModal page={activePage} onClose={() => setActivePage(null)} />}
 
+      {/* FLOATING CART */}
+        {cart.length > 0 && !openCart && showBackTop && (
+          <button
+            className="floating-cart"
+            onClick={() => setOpenCart(true)}
+            aria-label="Open cart"
+          >
+            <span className="floating-cart-icon">🛒</span>
+            <span className="floating-cart-count">{cart.length}</span>
+          </button>
+        )}
+
       {/* BACK TO TOP */}
       {showBackTop && (
         <button className="back-top" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })} aria-label="Back to top">↑</button>
