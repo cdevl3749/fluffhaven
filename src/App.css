@@ -127,7 +127,7 @@ nav span::after {
   left: 0;
   width: 0;
   height: 1.5px;
-  background: var(--rose);
+  background: #b97b47;
   transition: width 0.25s ease;
 }
 
@@ -160,8 +160,8 @@ nav span:hover::after {
 }
 
 .cart-btn:hover {
-  background: var(--ink);
-  border-color: var(--ink);
+  background: #f9bd3f;
+  border-color: #f9bd3f;
 }
 
 .cart-btn:hover svg {
@@ -175,7 +175,7 @@ nav span:hover::after {
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background: var(--rose);
+  background: #f0ad24;
   color: white;
   font-size: 11px;
   font-weight: 700;
@@ -1112,8 +1112,8 @@ details p {
 }
 
 .cart-item-icon {
-  width: 42px;
-  height: 42px;
+  width: 56px;
+  height: 56px;
   display: grid;
   place-items: center;
   background: var(--cream);
@@ -1145,7 +1145,7 @@ details p {
 .cart-item-info p {
   font-size: 14px;
   font-weight: 700;
-  color: var(--rose);
+  color: #d99a20;
 }
 
 .cart-item-remove {
@@ -1227,7 +1227,7 @@ details p {
 }
 
 .checkout-btn:hover {
-  background: var(--rose);
+  background: #e6a82f;
 }
 
 .continue-shopping {
@@ -1243,7 +1243,8 @@ details p {
 }
 
 .continue-shopping:hover {
-  border-color: var(--ink);
+  background: #f7f1e8;
+  border-color: #d8c8b8;
   color: var(--ink);
 }
 
