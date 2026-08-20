@@ -1064,7 +1064,7 @@ const filteredProducts = PRODUCTS.filter((product) => {
 
           <div className="about-visual">
             <div className="about-card">
-              <div className="about-stat">100+</div>
+              <div className="about-stat">105+</div>
               <div className="about-stat-label">Carefully Selected Products</div>
             </div>
 

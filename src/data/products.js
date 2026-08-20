@@ -3,6 +3,417 @@ export const PRODUCTS = [
   // 🔥 PRODUITS QUI CONVERTISSENT (EN PREMIER)
 
   {
+  id: 104,
+
+  slug: "premium-winter-cozy-dog-blanket",
+
+  name: "Premium Winter Cozy Dog Blanket",
+
+  category: "dog",
+
+  seasons: ["autumn", "winter"],
+
+  subtitle: "Reversible cozy blanket • Soft fleece & velvety sides • Size L 100 × 70 cm",
+
+  price: 24.90,
+
+  badge: "❄️ Winter Cozy Essential",
+
+  priceId: "price_1U6CanKn0lmTcQ11jer1QPVi",
+
+  images: [
+    "/premium-winter-cozy-dog-blanket-main.webp",
+    "/premium-winter-cozy-dog-blanket-armchair.webp",
+    "/premium-winter-cozy-dog-blanket-details.webp",
+  ],
+
+  description:
+    "Bring extra warmth and comfort to your dog's favorite resting place with the Premium Winter Cozy Dog Blanket. Designed in a generous Size L measuring 100 × 70 cm, this reversible blanket combines a soft winter-patterned velvety side with a warm fleece side for cozy everyday relaxation. Its lightweight design makes it easy to use on sofas, beds, crates or while traveling, while the machine-washable construction keeps everyday care simple. Warm, practical and full of winter charm, this FluffHaven blanket is a cozy companion for colder days.",
+
+  seoTitle:
+    "Premium Winter Cozy Dog Blanket | Reversible Fleece Blanket | FluffHaven",
+
+  seoDescription:
+    "Premium reversible dog blanket with soft velvety winter design and warm fleece side. Size L 100 × 70 cm, machine washable and ideal for sofas, beds and travel.",
+
+  brand: "FluffHaven",
+
+  details: `
+
+✓ Premium winter cozy dog blanket
+
+✓ Size L
+
+✓ Measures 100 × 70 cm
+
+✓ Reversible 2-in-1 design
+
+✓ Two comfortable sides
+
+✓ Soft velvety printed side
+
+✓ Warm fleece reverse side
+
+✓ Cozy winter dog and tree pattern
+
+✓ Designed for colder days
+
+✓ Soft and comfortable texture
+
+✓ Warm and inviting resting surface
+
+✓ Ideal for everyday relaxation
+
+✓ Perfect for naps and sleep
+
+✓ Helps create a cozy resting space
+
+✓ Suitable for sofas
+
+✓ Great for dog beds
+
+✓ Ideal for crates
+
+✓ Convenient for travel
+
+✓ Helps protect furniture
+
+✓ Lightweight design
+
+✓ Easy to fold
+
+✓ Easy to carry and store
+
+✓ Machine washable
+
+✓ Practical everyday care
+
+✓ Neatly finished edges
+
+✓ Designed for regular indoor use
+
+✓ Attractive winter-inspired design
+
+✓ Great for autumn and winter
+
+✓ Generous 100 × 70 cm size
+
+✓ Premium FluffHaven winter comfort
+
+
+Make colder days warmer and more comfortable with the Premium Winter Cozy Dog Blanket, a reversible blanket designed to bring a soft and inviting FluffHaven touch to your dog's favorite resting space.
+
+
+The generous Size L measures 100 × 70 cm, providing plenty of room for your dog to curl up comfortably. It can be placed on a sofa, inside a dog bed or crate, or taken along when traveling.
+
+
+Its reversible 2-in-1 construction gives you two cozy surfaces. One side features a soft velvety finish decorated with a charming winter-inspired dog and tree pattern, while the reverse provides a warm fleece surface perfect for chilly days.
+
+
+The lightweight construction makes the blanket simple to fold, carry and store. It can also help create a comfortable barrier between your dog and sofas, beds or other furniture while keeping their resting area warm and inviting.
+
+
+For convenient everyday care, the blanket is machine washable, making it easy to keep fresh throughout the colder seasons.
+
+
+Combining a reversible design, warm materials, generous dimensions and playful winter styling, the Premium Winter Cozy Dog Blanket brings comfort and seasonal charm to your dog's autumn and winter FluffHaven experience.
+
+  `,
+
+  inStock: true,
+
+  featured: true,
+
+},
+
+  {
+  id: 103,
+
+  slug: "premium-pet-toy-storage-basket",
+
+  name: "Premium Pet Toy Storage Basket",
+
+  category: "dog",
+
+  seasons: ["autumn", "winter"],
+
+  subtitle: "Durable cotton rope • Easy-carry handles • Ø 27 × H 24 cm",
+
+  price: 24.90,
+
+  badge: "🧺 Tidy Home Essential",
+
+  priceId: "price_1U6C3JKn0lmTcQ11gkgoFbXj",
+
+  images: [
+    "/premium-pet-toy-storage-basket-main.webp",
+    "/premium-pet-toy-storage-basket-garden.webp",
+    "/premium-pet-toy-storage-basket-details.webp",
+  ],
+
+  description:
+    "Keep your pet's favorite toys neatly organized with the Premium Pet Toy Storage Basket. Made from durable cotton rope, this stylish black and cream basket combines practical everyday storage with a warm, home-friendly design. Measuring Ø 27 × H 24 cm, it offers convenient space for balls, plush toys, ropes and other pet accessories. Built-in handles make it easy to carry from room to room, while its soft woven construction blends naturally into living rooms, bedrooms and dedicated pet spaces.",
+
+  seoTitle:
+    "Premium Pet Toy Storage Basket | Cotton Rope Pet Basket | FluffHaven",
+
+  seoDescription:
+    "Premium cotton rope pet toy storage basket with built-in handles and stylish black and cream design. Ø 27 × H 24 cm for toys, balls and accessories.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Premium pet toy storage basket
+
+✓ Ø 27 cm diameter
+
+✓ 24 cm height
+
+✓ Durable cotton rope construction
+
+✓ Soft woven material
+
+✓ Strong and practical design
+
+✓ Built-in carrying handles
+
+✓ Easy to move from room to room
+
+✓ Convenient everyday pet storage
+
+✓ Ideal for dog toys
+
+✓ Perfect for balls
+
+✓ Great for plush toys
+
+✓ Suitable for rope toys
+
+✓ Stores small pet accessories
+
+✓ Helps keep play areas organized
+
+✓ Reduces toy clutter around the home
+
+✓ Stylish black and cream design
+
+✓ Neutral colors blend into home interiors
+
+✓ Attractive woven texture
+
+✓ Compact circular shape
+
+✓ Generous everyday storage space
+
+✓ Easy-access open top
+
+✓ Lightweight and convenient
+
+✓ Suitable for living rooms
+
+✓ Great for bedrooms
+
+✓ Perfect for dedicated pet areas
+
+✓ Practical beside your pet's bed
+
+✓ Home-friendly decorative design
+
+✓ Useful throughout the year
+
+✓ Premium FluffHaven organization
+
+
+Keep playtime organized with the Premium Pet Toy Storage Basket, a practical and stylish home accessory designed to give your pet's favorite toys their own dedicated place.
+
+
+Measuring Ø 27 × H 24 cm, the basket provides convenient storage space for everyday pet essentials including balls, plush toys, ropes and other small accessories. Its open design also makes toys easy to see and reach whenever playtime begins.
+
+
+The durable cotton rope construction creates a soft woven finish while maintaining a practical shape for everyday storage. Integrated handles on both sides make the basket easy to pick up and move between rooms whenever needed.
+
+
+Its timeless black and cream design blends naturally with many home interiors. Whether placed beside a sofa, in a bedroom or near your pet's favorite resting area, it helps keep toys organized without looking like ordinary storage.
+
+
+Combining practical organization, convenient handles and a warm decorative appearance, the Premium Pet Toy Storage Basket brings a tidy and stylish FluffHaven touch to your pet's everyday space.
+  `,
+
+  inStock: true,
+
+  featured: true,
+},
+
+  {
+  id: 100,
+
+  slug: "premium-cozy-dog-blanket-duo",
+
+  name: "Premium Cozy Dog Blanket Duo",
+
+  category: "dog",
+
+  seasons: ["autumn", "winter"],
+
+  subtitle: "2 ultra-soft blankets • Blue & beige • Size L 75 × 50 cm",
+
+  price: 23.90,
+
+  badge: "🧸 Cozy Duo",
+
+  priceId: "price_1U5WuwKn0lmTcQ11xd6FdxTk",
+
+  images: [
+    "/premium-cozy-dog-blanket-duo-main.webp",
+    "/premium-cozy-dog-blanket-duo-sofa.webp",
+    "/premium-cozy-dog-blanket-duo-details.webp",
+  ],
+
+  description:
+    "Bring extra warmth and comfort to your dog's favorite resting spots with the Premium Cozy Dog Blanket Duo. This soft two-blanket set includes one blue and one beige blanket, each measuring 75 × 50 cm. Perfect for beds, sofas, crates or car seats, the cozy fleece fabric provides a comfortable layer while helping protect furniture from everyday pet hair and dirt. With two complementary colors and practical machine-washable care, this FluffHaven duo makes everyday comfort easy.",
+
+  seoTitle:
+    "Premium Cozy Dog Blanket Duo | Soft Pet Blankets | FluffHaven",
+
+  seoDescription:
+    "Premium 2-piece dog blanket set in blue and beige. Soft cozy fleece, Size L 75 × 50 cm, machine washable and ideal for beds, sofas, crates and cars.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Premium 2-piece dog blanket duo
+✓ Includes 1 blue blanket
+✓ Includes 1 beige blanket
+✓ Size L
+✓ Each blanket measures 75 × 50 cm
+✓ Ultra-soft cozy fleece feel
+✓ Soft and gentle for everyday comfort
+✓ Warm and comfortable
+✓ Paw and bone pattern
+✓ Two complementary colors
+✓ Ideal for dog beds
+✓ Perfect for sofas and furniture
+✓ Suitable for crates
+✓ Great for car seats and travel
+✓ Helps protect furniture from pet hair
+✓ Helps keep resting areas cozy
+✓ Lightweight and easy to move
+✓ Practical for everyday use
+✓ Machine washable up to 60°C
+✓ Easy-care design
+✓ Reinforced edges for everyday durability
+✓ Suitable for autumn and winter
+✓ Two blankets for multiple resting spots
+✓ Premium FluffHaven comfort
+
+
+Give your dog an extra layer of everyday comfort with the Premium Cozy Dog Blanket Duo. This practical FluffHaven set includes two soft blankets in complementary blue and beige colors, making it easy to create a warm and inviting resting space around your home.
+
+
+Each blanket measures 75 × 50 cm in Size L and features a cozy fleece feel with a charming paw and bone pattern. The soft material provides a comfortable surface for relaxing, napping and curling up during cooler days.
+
+
+With two blankets included, you can keep one on your dog's bed and another on the sofa, inside a crate or in the car. They also provide a practical protective layer between your pet and furniture, helping manage everyday pet hair and dirt.
+
+
+For easy everyday care, the blankets are machine washable up to 60°C. Their lightweight design also makes them convenient to fold, store or take with you when travelling with your dog.
+
+
+Combining two versatile colors, soft everyday comfort and practical easy-care convenience, the Premium Cozy Dog Blanket Duo is a simple way to make your dog's favorite spaces even more welcoming.
+  `,
+
+  inStock: true,
+
+  featured: true,
+},
+
+{
+  id: 101,
+
+  slug: "premium-cozy-pet-sofa-bed",
+
+  name: "Premium Cozy Pet Sofa Bed",
+
+  category: "dog",
+
+  seasons: ["autumn", "winter"],
+
+  subtitle: "Ultra-soft pet bed • Supportive raised sides • Size L 90 × 63 × 18 cm",
+
+  price: 34.90,
+
+  badge: "🛏️ Cozy Sleep Essential",
+
+  priceId: "price_1U5XcHKn0lmTcQ11TNJpZciV",
+
+  images: [
+    "/premium-cozy-pet-sofa-bed-main.webp",
+    "/premium-cozy-pet-sofa-bed-living-room.webp",
+    "/premium-cozy-pet-sofa-bed-details.webp",
+  ],
+
+  description:
+    "Create a warm and comfortable resting space for your pet with the Premium Cozy Pet Sofa Bed. Designed in a generous Size L measuring 90 × 63 × 18 cm, this spacious bed combines a soft plush interior with supportive raised sides for cozy everyday relaxation. Its warm brown and beige design blends beautifully into the home while providing a comfortable place for dogs to rest, nap and sleep. Practical, inviting and designed for everyday comfort, this FluffHaven bed makes a cozy addition to your pet's favorite space.",
+
+  seoTitle:
+    "Premium Cozy Pet Sofa Bed | Large Dog Bed | FluffHaven",
+
+  seoDescription:
+    "Premium large pet sofa bed with ultra-soft plush interior and supportive raised sides. Size L 90 × 63 × 18 cm for comfortable everyday rest.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Premium cozy pet sofa bed
+✓ Size L
+✓ Measures 90 × 63 × 18 cm
+✓ Generous sleeping area
+✓ Ultra-soft plush interior
+✓ Soft and cozy resting surface
+✓ Supportive raised sides
+✓ Raised edges provide a cozy sleeping space
+✓ Comfortable padded base
+✓ Warm brown and beige design
+✓ Stylish paw detail
+✓ Designed for everyday relaxation
+✓ Ideal for naps and nighttime rest
+✓ Great for living rooms
+✓ Perfect for bedrooms
+✓ Suitable for your pet's favorite resting area
+✓ Durable fabric exterior
+✓ Soft interior lining
+✓ Comfortable supportive construction
+✓ Easy to integrate into home interiors
+✓ Spacious rectangular design
+✓ Low front entrance for easy access
+✓ Helps create a dedicated resting space
+✓ Suitable for medium to larger dogs
+✓ Suitable for everyday indoor use
+✓ Cozy choice for autumn and winter
+✓ Premium FluffHaven comfort
+
+
+Give your pet a comfortable place to relax with the Premium Cozy Pet Sofa Bed. Designed to combine everyday comfort with a warm home-friendly appearance, this spacious bed creates an inviting resting area for naps, relaxation and nighttime sleep.
+
+
+The generous Size L measures 90 × 63 × 18 cm, providing plenty of room for medium to larger dogs to stretch out or curl up comfortably. Its rectangular shape makes it easy to position beside a sofa, in a bedroom or in your pet's favorite corner of the home.
+
+
+A soft plush interior creates a cozy sleeping surface, while the padded raised sides surround your pet with additional comfort. The lowered front entrance also makes getting in and out of the bed simple and convenient.
+
+
+The warm brown exterior and soft beige interior give the bed a timeless look that blends naturally with many home interiors. A decorative paw detail adds a playful FluffHaven touch without compromising its clean premium appearance.
+
+
+Combining generous dimensions, soft materials and supportive raised sides, the Premium Cozy Pet Sofa Bed turns everyday rest into a warm and comfortable FluffHaven experience.
+  `,
+
+  inStock: true,
+
+  featured: true,
+},
+
+  {
   id: 99,
 
   slug: "premium-puppy-treat-play-duo",
@@ -816,6 +1227,124 @@ When playtime is over, the premium storage basket provides a stylish and practic
 
 
 Perfect for indoor play, garden adventures or as a thoughtful gift for a dog lover, the Premium Dog Playtime Gift Basket combines enrichment, entertainment and practical storage in one complete FluffHaven bundle — created for happy dogs and happy hearts.
+  `,
+
+  inStock: true,
+
+  featured: true,
+},
+
+{
+  id: 102,
+
+  slug: "premium-dog-splash-cooling-mat",
+
+  name: "Premium Dog Splash & Cooling Mat",
+
+  category: "dog",
+
+  seasons: ["summer"],
+
+  subtitle: "Refreshing water splash pad • Easy garden hose connection • Ø 100 cm",
+
+  price: 29.90,
+
+  badge: "💦 Summer Cooling Fun",
+
+  priceId: "price_1U6Bd8Kn0lmTcQ11uT4zGDQ1",
+
+  images: [
+    "/premium-dog-splash-cooling-mat-main.webp",
+    "/premium-dog-splash-cooling-mat-garden.webp",
+    "/premium-dog-splash-cooling-mat-details.webp",
+  ],
+
+  description:
+    "Turn warm summer days into refreshing outdoor fun with the Premium Dog Splash & Cooling Mat. Measuring Ø 100 cm, this spacious splash pad connects easily to a standard garden hose and creates refreshing water jets around the edge for exciting 360° water play. Made from durable PVC and designed for quick setup, it provides a fun way for dogs to play and cool down in the garden or on the patio. Lightweight, foldable and easy to store, this FluffHaven summer essential is ready for sunny-day adventures.",
+
+  seoTitle:
+    "Premium Dog Splash & Cooling Mat | Dog Splash Pad | FluffHaven",
+
+  seoDescription:
+    "Premium Ø 100 cm dog splash and cooling mat with refreshing 360° water jets, durable PVC construction and easy garden hose connection for summer fun.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Premium dog splash and cooling mat
+
+✓ Ø 100 cm diameter
+
+✓ Designed for refreshing summer water play
+
+✓ 360° surround spray design
+
+✓ Multiple water jets around the outer edge
+
+✓ Creates a fun splash zone for dogs
+
+✓ Easy garden hose connection
+
+✓ Fits standard garden hoses
+
+✓ Quick and simple outdoor setup
+
+✓ Durable PVC material
+
+✓ Strong and practical construction
+
+✓ Comfortable splash surface
+
+✓ Easy to clean after outdoor play
+
+✓ Lightweight and convenient design
+
+✓ Folds flat for easy storage
+
+✓ Easy to carry and transport
+
+✓ Ideal for warm summer days
+
+✓ Helps provide refreshing outdoor fun
+
+✓ Great for gardens
+
+✓ Perfect for patios and terraces
+
+✓ Suitable for outdoor play areas
+
+✓ Spacious circular design
+
+✓ Fun interactive water experience
+
+✓ Encourages active outdoor play
+
+✓ Simple hose-powered operation
+
+✓ No complicated installation required
+
+✓ Easy to set up and put away
+
+✓ Bright blue summer design
+
+✓ Perfect addition to summer playtime
+
+✓ Premium FluffHaven summer fun
+
+
+Make sunny days even more exciting with the Premium Dog Splash & Cooling Mat. Designed for outdoor summer fun, this refreshing splash pad combines water play with a spacious Ø 100 cm circular play area.
+
+
+Simply connect the mat to a standard garden hose and water flows around the outer edge, creating multiple refreshing jets. The 360° spray design surrounds your dog with playful streams of water for an entertaining outdoor experience.
+
+
+With its generous 100 cm diameter, the splash pad provides plenty of room for dogs to move, splash and enjoy the water. It is ideal for use in the garden, on a patio or anywhere you have access to a suitable outdoor water connection.
+
+
+The durable PVC construction is designed for practical everyday summer use while remaining lightweight and easy to handle. Once playtime is over, the mat can be emptied, folded flat and stored without taking up much space.
+
+
+Quick to set up, easy to store and made for refreshing outdoor adventures, the Premium Dog Splash & Cooling Mat brings playful summer moments to your dog's FluffHaven experience.
   `,
 
   inStock: true,
@@ -4806,13 +5335,13 @@ A carefully selected four-piece toy collection designed to keep your cat happy, 
 
   slug: "premium-cat-grass-growing-kit",
 
-  name: "Premium Cat Grass Growing Kit",
+  name: "Premium Indoor Cat Garden Kit",
 
   category: "cat",
 
   seasons: ["summer", "autumn", "winter"],
 
-  subtitle: "Fresh cat grass • Complete growing kit • Indoor cats",
+  subtitle: "Fresh indoor greens • Reusable planter • For cats",
 
   price: 29.90,
 
@@ -4827,13 +5356,13 @@ A carefully selected four-piece toy collection designed to keep your cat happy, 
   ],
 
   description:
-    "Give your cat fresh, natural grass anytime with our Premium Cat Grass Growing Kit. This complete indoor growing kit includes a reusable planter, growing basket, drainage tray and premium wheat grass seeds, making it easy to grow healthy greens your cat will love in just a few days.",
+  "Create a fresh indoor garden for your cat with our Premium Indoor Cat Garden Kit. This reusable pet planter includes a basket, drainage tray and cat-friendly wheatgrass seeds, providing a simple way to offer fresh greens indoors.",
 
   seoTitle:
-    "Premium Cat Grass Growing Kit | Indoor Cat Grass | FluffHaven",
+  "Premium Indoor Cat Garden Kit | FluffHaven",
 
   seoDescription:
-    "Grow fresh, natural cat grass at home with FluffHaven's Premium Cat Grass Growing Kit. Complete reusable growing system with premium wheat grass seeds for happier, healthier indoor cats.",
+  "Premium indoor cat garden with reusable planter, drainage tray and cat-friendly wheatgrass seeds. Designed for indoor cats by FluffHaven.",
 
   brand: "FluffHaven",
 
