@@ -1966,22 +1966,22 @@ body.modal-open {
   font-size: 14px;
 }
 
-/* BOUTON ADD */
 .details-add-btn {
   margin-top: 15px;
   width: 100%;
   padding: 14px;
   border-radius: 14px;
   border: none;
-  background: black;
-  color: white;
+  background: #f6b93b !important;
+  color: #171411 !important;
   font-weight: bold;
   cursor: pointer;
   transition: all 0.2s ease;
 }
 
 .details-add-btn:hover {
-  background: var(--rose);
+  background: #d89b2b !important;
+  color: #171411 !important;
   transform: translateY(-2px);
 }
 
@@ -2088,8 +2088,8 @@ body.modal-open {
 .details-add-btn {
   width: 100%;
   margin-top: 24px;
-  background: #1a1714;
-  color: white;
+  background: #f6b93b !important;
+  color: #171411 !important;
   border: none;
   border-radius: 10px;
   padding: 15px;
@@ -2100,7 +2100,8 @@ body.modal-open {
 }
 
 .details-add-btn:hover {
-  background: #c8475e;
+  background: #d89b2b !important;
+  color: #171411 !important;
 }
 
 .product-btns {
@@ -3583,4 +3584,15 @@ body.modal-open {
     width: 52px;
     height: 52px;
   }
+}
+
+/* SHOP - ADD TO CART */
+.shop-add-cart-btn {
+  background: #e6a52a !important;
+  color: #171411 !important;
+  border: none !important;
+}
+
+.shop-add-cart-btn:hover {
+  background: #d8922b !important;
 }

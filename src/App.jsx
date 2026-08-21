@@ -323,7 +323,7 @@ function ProductCard({ product, onAddToCart, onShowDetails }) {
             {product.details && (
               <button className="view-details-btn" onClick={handleShowDetails}>View details →</button>
             )}
-            <button
+            <button className="shop-add-cart-btn"
             onClick={(e) => {
               e.stopPropagation();
               handleAddToCart();

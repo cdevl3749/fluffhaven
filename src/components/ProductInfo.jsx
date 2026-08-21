@@ -6,6 +6,7 @@ export default function ProductInfo({ product, onAddToCart }) {
   const [showScrollTop, setShowScrollTop] = useState(false);
 
   const [showAllDetails, setShowAllDetails] = useState(false);
+  const [showFullDescription, setShowFullDescription] = useState(false);
 
   useEffect(() => {
   const handleScroll = () => {
@@ -103,8 +104,6 @@ export default function ProductInfo({ product, onAddToCart }) {
 
         <p className="product-price-secondary">
           🚚 Estimated delivery: 5–8 business days
-          <br />
-          Local taxes calculated at checkout
         </p>
       </div>
 
@@ -139,14 +138,19 @@ export default function ProductInfo({ product, onAddToCart }) {
         </button>
       </div>
 
-      <p className="checkout-reassurance">
-        🔒 Secure SSL Checkout • Free Shipping • 14-Day Returns
-      </p>
+     <div className="product-description-wrapper">
+        <p className={`product-description ${showFullDescription ? "expanded" : "collapsed"}`}>
+          {product.description}
+        </p>
 
-      {/* PRODUCT DESCRIPTION */}
-      <p className="product-description">
-        {product.description}
-      </p>
+        <button
+          type="button"
+          className="description-read-more"
+          onClick={() => setShowFullDescription(!showFullDescription)}
+        >
+          {showFullDescription ? "Show less ↑" : "Read more ↓"}
+        </button>
+      </div>
 
      {/* PRODUCT DETAILS */}
 {details.length > 0 && (
@@ -154,37 +158,12 @@ export default function ProductInfo({ product, onAddToCart }) {
     <h2>Why you'll love it</h2>
 
     <ul className="product-details">
-      {(showAllDetails ? details : details.slice(0, 5)).map(
+      {details.map(
         (detail, index) => (
           <li key={index}>{detail}</li>
         )
       )}
     </ul>
-
-    {details.length > 5 && (
-      <button
-  type="button"
-  className="product-read-more"
-  onClick={() => {
-    if (showAllDetails) {
-      setShowAllDetails(false);
-
-      setTimeout(() => {
-        document
-          .querySelector(".product-benefits")
-          ?.scrollIntoView({
-            behavior: "smooth",
-            block: "start",
-          });
-      }, 50);
-    } else {
-      setShowAllDetails(true);
-    }
-  }}
->
-  {showAllDetails ? "Show less ↑" : "Read more ↓"}
-</button>
-    )}
       </div>
     )}
 
