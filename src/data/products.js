@@ -3,6 +3,297 @@ export const PRODUCTS = [
   // 🔥 PRODUITS QUI CONVERTISSENT (EN PREMIER)
 
   {
+  id: 108,
+
+  slug: "premium-mint-adventure-dog-collar",
+
+  name: "Premium Mint Adventure Dog Collar",
+
+  category: "dog",
+
+  seasons: ["summer", "autumn", "winter"],
+
+  subtitle: "Soft woven collar • Vegan leather details • Size XL • Neck 52–58 cm",
+
+  price: 21.90,
+
+  badge: "🌿 Stylish Walk Essential",
+
+  priceId: "price_1U7hauKn0lmTcQ11offyndO7",
+
+  images: [
+    "/premium-mint-adventure-dog-collar-outdoor.webp",
+    "/premium-mint-adventure-dog-collar-main.webp",
+    "/premium-mint-adventure-dog-collar-details.webp",
+  ],
+
+  description:
+    "Bring comfort and style to everyday walks with the Premium Mint Adventure Dog Collar. Featuring a soft woven design with elegant vegan leather details and durable hardware, this XL collar combines a distinctive mint finish with reliable everyday comfort. Designed for dogs with a neck circumference of 52–58 cm.",
+
+  seoTitle:
+    "Premium Mint Adventure Dog Collar | Size XL | FluffHaven",
+
+  seoDescription:
+    "Stylish mint dog collar with soft woven material, vegan leather details and durable hardware. Size XL for necks 52–58 cm, width 38 mm.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Size XL — neck 52–58 cm
+✓ 38 mm wide for a comfortable fit
+✓ Soft woven material
+✓ Vegan leather details
+✓ Durable buckle and D-ring
+
+Add a stylish touch to everyday walks with the Premium Mint Adventure Dog Collar.
+
+Its soft woven design and wide 38 mm fit combine comfort with a distinctive premium look.
+
+Designed for necks measuring 52–58 cm, it's a stylish FluffHaven essential for daily walks and outdoor adventures.
+`,
+
+  inStock: true,
+  featured: true,
+},
+
+{
+  id: 109,
+
+  slug: "premium-dog-playtime-trio",
+
+  name: "Premium Dog Playtime Trio",
+
+  category: "dog",
+
+  seasons: ["summer", "autumn", "winter"],
+
+  subtitle: "Rope toy • Flying disc • Squeaky ball • Free FluffHaven play mat",
+
+  price: 19.90,
+
+  badge: "🎁 Playtime Trio + Free Mat",
+
+  priceId: "price_1U7i5uKn0lmTcQ11pWAdvYJv",
+
+  images: [
+    "/premium-dog-playtime-trio-main.webp",
+    "/premium-dog-playtime-trio-living-room.webp",
+    "/premium-dog-playtime-trio-details.webp",
+  ],
+
+  description:
+    "Make playtime even more exciting with the Premium Dog Playtime Trio. This fun set combines a knotted rope toy, flying disc and squeaky ball for different ways to play, fetch and interact. As a FluffHaven bonus, the trio also includes a free FluffHaven play mat.",
+
+  seoTitle:
+    "Premium Dog Playtime Trio + Free Mat | Dog Toy Set | FluffHaven",
+
+  seoDescription:
+    "Dog playtime trio with knotted rope, flying disc and squeaky ball, plus a free FluffHaven play mat. A fun set for fetch, tug and everyday play.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ 3-piece dog toy set
+
+✓ Knotted rope for tug & play
+
+✓ Flying disc for fetch games
+
+✓ Squeaky ball for interactive fun
+
+✓ FREE FluffHaven play mat included
+
+Three different toys, three ways to make playtime more exciting.
+
+The Premium Dog Playtime Trio combines a rope toy, flying disc and squeaky ball for fetch, tug and everyday fun.
+
+And to make the bundle even better, a FluffHaven play mat is included free.
+`,
+
+  inStock: true,
+
+  featured: true,
+},
+
+  {
+  id: 107,
+
+  slug: "premium-dog-activity-flip-board",
+
+  name: "Premium Dog Activity Flip Board",
+
+  category: "dog",
+
+  seasons: ["summer", "autumn", "winter"],
+
+  subtitle: "Interactive treat puzzle • Mental stimulation • Multiple challenges • Ø 23 cm",
+
+  price: 17.90,
+
+  badge: "🧠 Mental Enrichment Essential",
+
+  priceId: "price_1U7hIrKn0lmTcQ11gMCCbgnv",
+
+  images: [
+    "/premium-dog-activity-flip-board-main.webp",
+    "/premium-dog-activity-flip-board-kitchen.webp",
+    "/premium-dog-activity-flip-board-details.webp",
+  ],
+
+  description:
+    "Turn treat time into a fun mental challenge with the Premium Dog Activity Flip Board. This interactive Ø 23 cm puzzle features different compartments, lids, sliders and movable elements that encourage your dog to explore and discover hidden treats. A playful way to provide mental stimulation and help keep dogs engaged during everyday enrichment sessions.",
+
+  seoTitle:
+    "Premium Dog Activity Flip Board | Interactive Treat Puzzle | FluffHaven",
+
+  seoDescription:
+    "Interactive dog treat puzzle with multiple challenges and hidden compartments. Designed for mental stimulation, enrichment and rewarding play. Ø 23 cm.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Ø 23 cm interactive puzzle
+
+✓ Multiple treat compartments
+
+✓ Lids, sliders and movable elements
+
+✓ Encourages mental stimulation
+
+✓ Fun enrichment for everyday play
+
+Turn treat time into an engaging challenge with the Premium Dog Activity Flip Board.
+
+Hide your dog's favorite treats inside the different compartments and let them explore, slide and uncover their rewards.
+
+A fun and rewarding way to encourage curiosity and keep your dog mentally active.
+`,
+
+  inStock: true,
+
+  featured: true,
+},
+
+  {
+  id: 106,
+
+  slug: "premium-dog-treat-training-pouch",
+
+  name: "Premium Dog Treat Training Pouch",
+
+  category: "dog",
+
+  seasons: ["summer", "autumn", "winter"],
+
+  subtitle: "Compact treat pouch • Secure drawstring • Easy access • 10 × 14 cm",
+
+  price: 14.90,
+
+  badge: "🐾 Walk & Train Essential",
+
+  priceId: "price_1U7gvUKn0lmTcQ11tdrEEHDa",
+
+  images: [
+    "/premium-dog-treat-training-pouch-main.webp",
+    "/premium-dog-treat-training-pouch-outdoor.webp",
+    "/premium-dog-treat-training-pouch-details.webp",
+  ],
+
+  description:
+    "Make walks and training sessions easier with the Premium Dog Treat Training Pouch. Designed for quick and convenient access to your dog's favorite rewards, this compact 10 × 14 cm pouch features a secure drawstring closure to help keep treats safely inside. Its lightweight and durable design makes it easy to carry during everyday walks, training sessions and outdoor adventures.",
+
+  seoTitle:
+    "Premium Dog Treat Training Pouch | Walk & Training Accessory | FluffHaven",
+
+  seoDescription:
+    "Compact dog treat training pouch with secure drawstring closure and easy-access design. Lightweight, durable and ideal for walks and training. Size 10 × 14 cm.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Compact size — 10 × 14 cm
+✓ Secure adjustable drawstring closure
+✓ Easy access to treats during walks and training
+✓ Sturdy belt loop for convenient carrying
+✓ Lightweight and durable everyday design
+
+Keep your dog's favorite rewards close at hand with the Premium Dog Treat Training Pouch.
+
+Its compact 10 × 14 cm design provides convenient storage for treats without adding unnecessary bulk during everyday walks or training sessions.
+
+The secure adjustable drawstring helps keep treats safely inside while allowing quick access whenever your dog earns a reward.
+
+A sturdy belt loop makes the pouch easy to attach while keeping your hands free during walks and outdoor adventures.
+
+Lightweight, practical and designed for everyday use, it's a simple FluffHaven essential for happier walks and rewarding training sessions.
+`,
+
+  inStock: true,
+
+  featured: true,
+},
+
+  {
+  id: 105,
+
+  slug: "premium-paw-print-ceramic-pet-bowl",
+
+  name: "Premium Paw Print Ceramic Pet Bowl",
+
+  category: "dog",
+
+  seasons: ["summer", "autumn", "winter"],
+
+  subtitle: "Premium ceramic • 0.3 L capacity • 12 cm diameter • Cats & small dogs",
+
+  price: 17.90,
+
+  badge: "🐾 Everyday Feeding Essential",
+
+  priceId: "price_1U7bP5Kn0lmTcQ11nie9k9uJ",
+
+  images: [
+    "/premium-paw-print-ceramic-pet-bowl-kitchen.webp",
+    "/premium-paw-print-ceramic-pet-bowl-main.webp",
+    "/premium-paw-print-ceramic-pet-bowl-details.webp",
+  ],
+
+  description:
+    "Make everyday mealtime a little more stylish with the Premium Paw Print Ceramic Pet Bowl. Made from durable ceramic with a charming paw print design, this compact 0.3 L bowl measures 12 cm in diameter and is ideal for cats and small dogs. Its sturdy construction provides a stable feeding surface for food or water while fitting beautifully into any home.",
+
+  seoTitle:
+    "Premium Paw Print Ceramic Pet Bowl | Cats & Small Dogs | FluffHaven",
+
+  seoDescription:
+    "Premium ceramic pet bowl with paw print design. 0.3 L capacity, 12 cm diameter and ideal for food or water for cats and small dogs.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Premium ceramic construction
+✓ 0.3 L capacity — 12 cm diameter
+✓ Suitable for food or water
+✓ Stable everyday feeding design
+✓ Ideal for cats and small dogs
+
+Bring a stylish touch to everyday mealtime with the Premium Paw Print Ceramic Pet Bowl.
+
+Its durable ceramic construction provides a sturdy and comfortable feeding solution for daily food or water.
+
+With a compact 0.3 L capacity and 12 cm diameter, it's particularly well suited to cats and small dogs.
+
+The black finish and charming paw print pattern create a playful premium look that fits easily into modern interiors.
+
+Practical and stylish, it's a simple FluffHaven essential for everyday feeding.
+`,
+
+  inStock: true,
+
+  featured: true,
+
+},
+
+  {
   id: 104,
 
   slug: "premium-winter-cozy-dog-blanket",
