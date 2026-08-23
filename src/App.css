@@ -2141,27 +2141,8 @@ body.modal-open {
 
 @media (max-width: 900px) {
   .img-arrow {
-    display: grid;
-    place-items: center;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    background: rgba(255,255,255,0.9);
-    border: none;
-    font-size: 22px;
-    font-weight: 700;
-    cursor: pointer;
-    z-index: 5;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
-    color: #1a1714;
-    line-height: 1;
+    display: none;
   }
-
-  .img-arrow-left  { left: 8px;  }
-  .img-arrow-right { right: 8px; }
 
   /* Cache les miniatures sur mobile */
   .product-thumbs-desktop {

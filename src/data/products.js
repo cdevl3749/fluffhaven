@@ -28,7 +28,7 @@ export const PRODUCTS = [
   ],
 
   description:
-    "Bring extra warmth and comfort to your dog's favorite resting place with the Premium Winter Cozy Dog Blanket. Designed in a generous Size L measuring 100 × 70 cm, this reversible blanket combines a soft winter-patterned velvety side with a warm fleece side for cozy everyday relaxation. Its lightweight design makes it easy to use on sofas, beds, crates or while traveling, while the machine-washable construction keeps everyday care simple. Warm, practical and full of winter charm, this FluffHaven blanket is a cozy companion for colder days.",
+  "Bring extra warmth and comfort to your dog's favorite resting place with the Premium Winter Cozy Dog Blanket. Designed in a generous Size L measuring 100 × 70 cm, this reversible blanket combines a soft winter-patterned velvety side with a warm fleece side for cozy everyday relaxation. Its lightweight design makes it easy to use on sofas, beds, crates or while traveling, while the machine-washable construction keeps everyday care simple.",
 
   seoTitle:
     "Premium Winter Cozy Dog Blanket | Reversible Fleece Blanket | FluffHaven",
@@ -39,86 +39,22 @@ export const PRODUCTS = [
   brand: "FluffHaven",
 
   details: `
-
-✓ Premium winter cozy dog blanket
-
-✓ Size L
-
-✓ Measures 100 × 70 cm
-
+✓ Size L — 100 × 70 cm
 ✓ Reversible 2-in-1 design
+✓ Soft velvety printed side & warm fleece reverse
+✓ Lightweight, foldable and ideal for sofas, beds, crates or travel
+✓ Machine washable for easy everyday care
 
-✓ Two comfortable sides
+Make colder days warmer and more comfortable with the Premium Winter Cozy Dog Blanket, designed to create a soft and inviting resting space.
 
-✓ Soft velvety printed side
+Its generous 100 × 70 cm size gives your dog plenty of room to curl up comfortably, while the reversible design offers a soft velvety side and a warm fleece side.
 
-✓ Warm fleece reverse side
+Lightweight and easy to fold, it can be used on sofas, dog beds, in crates or while traveling.
 
-✓ Cozy winter dog and tree pattern
+The machine-washable construction makes everyday care simple throughout the colder seasons.
 
-✓ Designed for colder days
-
-✓ Soft and comfortable texture
-
-✓ Warm and inviting resting surface
-
-✓ Ideal for everyday relaxation
-
-✓ Perfect for naps and sleep
-
-✓ Helps create a cozy resting space
-
-✓ Suitable for sofas
-
-✓ Great for dog beds
-
-✓ Ideal for crates
-
-✓ Convenient for travel
-
-✓ Helps protect furniture
-
-✓ Lightweight design
-
-✓ Easy to fold
-
-✓ Easy to carry and store
-
-✓ Machine washable
-
-✓ Practical everyday care
-
-✓ Neatly finished edges
-
-✓ Designed for regular indoor use
-
-✓ Attractive winter-inspired design
-
-✓ Great for autumn and winter
-
-✓ Generous 100 × 70 cm size
-
-✓ Premium FluffHaven winter comfort
-
-
-Make colder days warmer and more comfortable with the Premium Winter Cozy Dog Blanket, a reversible blanket designed to bring a soft and inviting FluffHaven touch to your dog's favorite resting space.
-
-
-The generous Size L measures 100 × 70 cm, providing plenty of room for your dog to curl up comfortably. It can be placed on a sofa, inside a dog bed or crate, or taken along when traveling.
-
-
-Its reversible 2-in-1 construction gives you two cozy surfaces. One side features a soft velvety finish decorated with a charming winter-inspired dog and tree pattern, while the reverse provides a warm fleece surface perfect for chilly days.
-
-
-The lightweight construction makes the blanket simple to fold, carry and store. It can also help create a comfortable barrier between your dog and sofas, beds or other furniture while keeping their resting area warm and inviting.
-
-
-For convenient everyday care, the blanket is machine washable, making it easy to keep fresh throughout the colder seasons.
-
-
-Combining a reversible design, warm materials, generous dimensions and playful winter styling, the Premium Winter Cozy Dog Blanket brings comfort and seasonal charm to your dog's autumn and winter FluffHaven experience.
-
-  `,
+Combining warmth, practicality and winter-inspired styling, it brings cozy FluffHaven comfort to autumn and winter days.
+`,
 
   inStock: true,
 
@@ -152,7 +88,7 @@ Combining a reversible design, warm materials, generous dimensions and playful w
   ],
 
   description:
-    "Keep your pet's favorite toys neatly organized with the Premium Pet Toy Storage Basket. Made from durable cotton rope, this stylish black and cream basket combines practical everyday storage with a warm, home-friendly design. Measuring Ø 27 × H 24 cm, it offers convenient space for balls, plush toys, ropes and other pet accessories. Built-in handles make it easy to carry from room to room, while its soft woven construction blends naturally into living rooms, bedrooms and dedicated pet spaces.",
+  "Keep your pet's favorite toys neatly organized with the Premium Pet Toy Storage Basket. Made from durable cotton rope, this stylish black and cream basket combines practical storage with a warm, home-friendly design. Measuring Ø 27 × H 24 cm, it offers space for balls, plush toys, ropes and other pet accessories. Built-in handles make it easy to carry, while its soft woven construction blends naturally into living rooms, bedrooms and pet spaces.",
 
   seoTitle:
     "Premium Pet Toy Storage Basket | Cotton Rope Pet Basket | FluffHaven",
@@ -163,81 +99,22 @@ Combining a reversible design, warm materials, generous dimensions and playful w
   brand: "FluffHaven",
 
   details: `
-✓ Premium pet toy storage basket
-
-✓ Ø 27 cm diameter
-
-✓ 24 cm height
-
+✓ Ø 27 × H 24 cm
 ✓ Durable cotton rope construction
-
-✓ Soft woven material
-
-✓ Strong and practical design
-
 ✓ Built-in carrying handles
+✓ Ideal for balls, plush toys, ropes and small pet accessories
+✓ Stylish black and cream woven design
 
-✓ Easy to move from room to room
+Keep playtime organized with the Premium Pet Toy Storage Basket, designed to give your pet's favorite toys their own dedicated place.
 
-✓ Convenient everyday pet storage
+Measuring Ø 27 × H 24 cm, it provides convenient storage for balls, plush toys, ropes and other small pet accessories.
 
-✓ Ideal for dog toys
+The durable cotton rope construction creates a soft woven finish, while built-in handles make the basket easy to pick up and move.
 
-✓ Perfect for balls
+Its black and cream design blends naturally into living rooms, bedrooms and dedicated pet spaces.
 
-✓ Great for plush toys
-
-✓ Suitable for rope toys
-
-✓ Stores small pet accessories
-
-✓ Helps keep play areas organized
-
-✓ Reduces toy clutter around the home
-
-✓ Stylish black and cream design
-
-✓ Neutral colors blend into home interiors
-
-✓ Attractive woven texture
-
-✓ Compact circular shape
-
-✓ Generous everyday storage space
-
-✓ Easy-access open top
-
-✓ Lightweight and convenient
-
-✓ Suitable for living rooms
-
-✓ Great for bedrooms
-
-✓ Perfect for dedicated pet areas
-
-✓ Practical beside your pet's bed
-
-✓ Home-friendly decorative design
-
-✓ Useful throughout the year
-
-✓ Premium FluffHaven organization
-
-
-Keep playtime organized with the Premium Pet Toy Storage Basket, a practical and stylish home accessory designed to give your pet's favorite toys their own dedicated place.
-
-
-Measuring Ø 27 × H 24 cm, the basket provides convenient storage space for everyday pet essentials including balls, plush toys, ropes and other small accessories. Its open design also makes toys easy to see and reach whenever playtime begins.
-
-
-The durable cotton rope construction creates a soft woven finish while maintaining a practical shape for everyday storage. Integrated handles on both sides make the basket easy to pick up and move between rooms whenever needed.
-
-
-Its timeless black and cream design blends naturally with many home interiors. Whether placed beside a sofa, in a bedroom or near your pet's favorite resting area, it helps keep toys organized without looking like ordinary storage.
-
-
-Combining practical organization, convenient handles and a warm decorative appearance, the Premium Pet Toy Storage Basket brings a tidy and stylish FluffHaven touch to your pet's everyday space.
-  `,
+Practical, compact and decorative, it brings a tidy FluffHaven touch to your pet's everyday space.
+`,
 
   inStock: true,
 
@@ -270,7 +147,7 @@ Combining practical organization, convenient handles and a warm decorative appea
   ],
 
   description:
-    "Bring extra warmth and comfort to your dog's favorite resting spots with the Premium Cozy Dog Blanket Duo. This soft two-blanket set includes one blue and one beige blanket, each measuring 75 × 50 cm. Perfect for beds, sofas, crates or car seats, the cozy fleece fabric provides a comfortable layer while helping protect furniture from everyday pet hair and dirt. With two complementary colors and practical machine-washable care, this FluffHaven duo makes everyday comfort easy.",
+  "Bring extra warmth and comfort to your dog's favorite resting spots with the Premium Cozy Dog Blanket Duo. This soft two-blanket set includes one blue and one beige blanket, each measuring 75 × 50 cm. Perfect for beds, sofas, crates or car seats, the cozy fleece fabric provides comfort while helping protect furniture from pet hair and dirt. With two complementary colors and machine-washable care, this FluffHaven duo makes everyday comfort easy.",
 
   seoTitle:
     "Premium Cozy Dog Blanket Duo | Soft Pet Blankets | FluffHaven",
@@ -281,46 +158,22 @@ Combining practical organization, convenient handles and a warm decorative appea
   brand: "FluffHaven",
 
   details: `
-✓ Premium 2-piece dog blanket duo
-✓ Includes 1 blue blanket
-✓ Includes 1 beige blanket
-✓ Size L
-✓ Each blanket measures 75 × 50 cm
-✓ Ultra-soft cozy fleece feel
-✓ Soft and gentle for everyday comfort
-✓ Warm and comfortable
-✓ Paw and bone pattern
-✓ Two complementary colors
-✓ Ideal for dog beds
-✓ Perfect for sofas and furniture
-✓ Suitable for crates
-✓ Great for car seats and travel
-✓ Helps protect furniture from pet hair
-✓ Helps keep resting areas cozy
-✓ Lightweight and easy to move
-✓ Practical for everyday use
+✓ 2-piece blanket duo — blue & beige
+✓ Size L — each blanket measures 75 × 50 cm
+✓ Ultra-soft cozy fleece with paw and bone pattern
+✓ Ideal for beds, sofas, crates, car seats and travel
 ✓ Machine washable up to 60°C
-✓ Easy-care design
-✓ Reinforced edges for everyday durability
-✓ Suitable for autumn and winter
-✓ Two blankets for multiple resting spots
-✓ Premium FluffHaven comfort
 
+Give your dog an extra layer of everyday comfort with the Premium Cozy Dog Blanket Duo, including two soft blankets in complementary blue and beige colors.
 
-Give your dog an extra layer of everyday comfort with the Premium Cozy Dog Blanket Duo. This practical FluffHaven set includes two soft blankets in complementary blue and beige colors, making it easy to create a warm and inviting resting space around your home.
+Each blanket measures 75 × 50 cm and features a cozy fleece feel with a charming paw and bone pattern.
 
+With two blankets included, you can keep one on your dog's bed and another on the sofa, in a crate or in the car while helping protect surfaces from pet hair and dirt.
 
-Each blanket measures 75 × 50 cm in Size L and features a cozy fleece feel with a charming paw and bone pattern. The soft material provides a comfortable surface for relaxing, napping and curling up during cooler days.
+Their lightweight design makes them easy to fold, store and take along when travelling.
 
-
-With two blankets included, you can keep one on your dog's bed and another on the sofa, inside a crate or in the car. They also provide a practical protective layer between your pet and furniture, helping manage everyday pet hair and dirt.
-
-
-For easy everyday care, the blankets are machine washable up to 60°C. Their lightweight design also makes them convenient to fold, store or take with you when travelling with your dog.
-
-
-Combining two versatile colors, soft everyday comfort and practical easy-care convenience, the Premium Cozy Dog Blanket Duo is a simple way to make your dog's favorite spaces even more welcoming.
-  `,
+Machine washable up to 60°C, this practical duo combines soft comfort, easy care and everyday FluffHaven convenience.
+`,
 
   inStock: true,
 
@@ -353,7 +206,7 @@ Combining two versatile colors, soft everyday comfort and practical easy-care co
   ],
 
   description:
-    "Create a warm and comfortable resting space for your pet with the Premium Cozy Pet Sofa Bed. Designed in a generous Size L measuring 90 × 63 × 18 cm, this spacious bed combines a soft plush interior with supportive raised sides for cozy everyday relaxation. Its warm brown and beige design blends beautifully into the home while providing a comfortable place for dogs to rest, nap and sleep. Practical, inviting and designed for everyday comfort, this FluffHaven bed makes a cozy addition to your pet's favorite space.",
+  "Create a warm and comfortable resting space for your pet with the Premium Cozy Pet Sofa Bed. Designed in a generous Size L measuring 90 × 63 × 18 cm, this spacious bed combines a soft plush interior with supportive raised sides for cozy relaxation. Its warm brown and beige design blends beautifully into the home while providing a comfortable place for dogs to rest, nap and sleep.",
 
   seoTitle:
     "Premium Cozy Pet Sofa Bed | Large Dog Bed | FluffHaven",
@@ -364,49 +217,22 @@ Combining two versatile colors, soft everyday comfort and practical easy-care co
   brand: "FluffHaven",
 
   details: `
-✓ Premium cozy pet sofa bed
-✓ Size L
-✓ Measures 90 × 63 × 18 cm
-✓ Generous sleeping area
-✓ Ultra-soft plush interior
-✓ Soft and cozy resting surface
-✓ Supportive raised sides
-✓ Raised edges provide a cozy sleeping space
-✓ Comfortable padded base
-✓ Warm brown and beige design
-✓ Stylish paw detail
-✓ Designed for everyday relaxation
-✓ Ideal for naps and nighttime rest
-✓ Great for living rooms
-✓ Perfect for bedrooms
-✓ Suitable for your pet's favorite resting area
-✓ Durable fabric exterior
-✓ Soft interior lining
-✓ Comfortable supportive construction
-✓ Easy to integrate into home interiors
-✓ Spacious rectangular design
-✓ Low front entrance for easy access
-✓ Helps create a dedicated resting space
-✓ Suitable for medium to larger dogs
-✓ Suitable for everyday indoor use
-✓ Cozy choice for autumn and winter
-✓ Premium FluffHaven comfort
+✓ Size L — 90 × 63 × 18 cm
+✓ Ultra-soft plush interior with comfortable padded base
+✓ Supportive raised sides with low front entrance
+✓ Spacious design suitable for medium to larger dogs
+✓ Warm brown and beige design with decorative paw detail
 
+Give your pet a comfortable place to relax with the Premium Cozy Pet Sofa Bed, designed for naps, relaxation and nighttime sleep.
 
-Give your pet a comfortable place to relax with the Premium Cozy Pet Sofa Bed. Designed to combine everyday comfort with a warm home-friendly appearance, this spacious bed creates an inviting resting area for naps, relaxation and nighttime sleep.
+Its generous 90 × 63 × 18 cm size provides plenty of room for medium to larger dogs to stretch out or curl up comfortably.
 
+The soft plush interior and padded raised sides create a cozy sleeping surface, while the low front entrance provides easy access.
 
-The generous Size L measures 90 × 63 × 18 cm, providing plenty of room for medium to larger dogs to stretch out or curl up comfortably. Its rectangular shape makes it easy to position beside a sofa, in a bedroom or in your pet's favorite corner of the home.
+Its warm brown exterior and soft beige interior blend naturally into living rooms, bedrooms and your pet's favorite resting areas.
 
-
-A soft plush interior creates a cozy sleeping surface, while the padded raised sides surround your pet with additional comfort. The lowered front entrance also makes getting in and out of the bed simple and convenient.
-
-
-The warm brown exterior and soft beige interior give the bed a timeless look that blends naturally with many home interiors. A decorative paw detail adds a playful FluffHaven touch without compromising its clean premium appearance.
-
-
-Combining generous dimensions, soft materials and supportive raised sides, the Premium Cozy Pet Sofa Bed turns everyday rest into a warm and comfortable FluffHaven experience.
-  `,
+Combining generous dimensions, soft materials and supportive raised sides, this bed brings warm everyday FluffHaven comfort to your pet's space.
+`,
 
   inStock: true,
 
@@ -439,7 +265,7 @@ Combining generous dimensions, soft materials and supportive raised sides, the P
   ],
 
   description:
-    "Turn everyday playtime into a rewarding experience with the Premium Puppy Treat & Play Duo. This two-toy enrichment pack combines an interactive treat-dispensing ball with a textured chew and play ring, giving your dog two different ways to stay active and entertained. The treat ball encourages interactive play and mental stimulation, while the textured ring is ideal for chewing, fetching and playful bonding. A fun and practical FluffHaven duo designed for puppies and small to medium dogs.",
+  "Turn everyday playtime into a rewarding experience with the Premium Puppy Treat & Play Duo. This two-toy enrichment pack combines an interactive treat-dispensing ball with a textured chew and play ring, giving your dog two ways to stay active and entertained. The treat ball encourages interactive play and mental stimulation, while the textured ring is ideal for chewing, fetching and playful bonding.",
 
   seoTitle:
     "Premium Puppy Treat & Play Duo | Interactive Dog Toys | FluffHaven",
@@ -450,46 +276,22 @@ Combining generous dimensions, soft materials and supportive raised sides, the P
   brand: "FluffHaven",
 
   details: `
-✓ Premium 2-piece dog toy duo
-✓ Includes 1 treat-dispensing ball
-✓ Includes 1 textured chew and play ring
-✓ Two different ways to play
-✓ Interactive treat dispensing
-✓ Fill the ball with treats or kibble
-✓ Encourages rewarding interactive play
-✓ Helps provide mental stimulation
-✓ Helps reduce everyday boredom
-✓ Encourages active play
+✓ 2-piece enrichment toy duo
+✓ Treat-dispensing ball for treats or kibble
 ✓ Textured chew and play ring
-✓ Great for chewing and play
-✓ Suitable for fetching games
-✓ Great for interactive bonding
-✓ Textured surfaces for added interest
-✓ Designed for everyday enrichment
-✓ Ideal for puppies
-✓ Suitable for small to medium dogs
-✓ Great for indoor play
-✓ Great for training and reward sessions
-✓ Easy to include in everyday playtime
-✓ Two complementary toys in one pack
-✓ Premium FluffHaven quality
+✓ Encourages mental stimulation and active play
+✓ Ideal for puppies and small to medium dogs
 
+Give your dog two exciting ways to play with the Premium Puppy Treat & Play Duo, combining an interactive treat-dispensing ball with a textured chew and play ring.
 
-Give your dog two exciting ways to play with the Premium Puppy Treat & Play Duo. This special FluffHaven pack combines an interactive treat-dispensing ball with a textured chew and play ring for rewarding everyday entertainment.
+The treat ball can be filled with suitable treats or kibble, encouraging your dog to interact with the toy to discover their reward while providing mental stimulation.
 
+The textured ring offers a second activity and is suitable for chewing, fetching and interactive games.
 
-The treat-dispensing ball can be filled with suitable treats or kibble, encouraging your dog to roll and interact with the toy to discover their reward. This playful challenge helps provide mental stimulation while keeping your dog engaged.
+Together, the two toys create a versatile enrichment duo for everyday indoor play, reward sessions and training activities.
 
-
-The textured chew and play ring adds a second type of activity to the pack. Its easy-to-grab circular shape makes it suitable for chewing, fetching and interactive games between you and your dog.
-
-
-Together, the two toys create a versatile enrichment duo that's ideal for puppies and small to medium dogs. Use them for everyday indoor play, reward sessions, training activities or simply to add more variety to your dog's toy collection.
-
-
-Combining mental stimulation, active play and two complementary toy designs, the Premium Puppy Treat & Play Duo brings twice the fun to your dog's FluffHaven playtime.
-  `,
-
+Combining mental stimulation and active play, this FluffHaven duo brings more variety to your dog's everyday playtime.
+`,
   inStock: true,
 
   featured: true,
@@ -521,7 +323,7 @@ Combining mental stimulation, active play and two complementary toy designs, the
   ],
 
   description:
-    "Keep your dog warm, dry and comfortable after baths, swims and rainy walks with the Premium Microfiber Dog Robe. Made from soft, highly absorbent microfiber, this quick-drying robe helps absorb excess moisture while providing cozy coverage. The adjustable secure fit makes it easy to put on and take off, while the lightweight and reusable design makes it practical for everyday use at home or on the go. Available on FluffHaven in Size L with an approximate 48 cm back length.",
+  "Keep your dog warm, dry and comfortable after baths, swims and rainy walks with the Premium Microfiber Dog Robe. Made from soft, highly absorbent microfiber, this quick-drying robe helps absorb excess moisture while providing cozy coverage. Its adjustable secure fit makes it easy to put on and take off, while the lightweight reusable design is practical at home or on the go. Available in Size L with an approximate 48 cm back length.",
 
   seoTitle:
     "Premium Microfiber Dog Robe | Quick-Dry Dog Towel Size L | FluffHaven",
@@ -532,44 +334,22 @@ Combining mental stimulation, active play and two complementary toy designs, the
   brand: "FluffHaven",
 
   details: `
-✓ Premium microfiber dog robe
-✓ Size L
-✓ Approximate 48 cm back length
-✓ Forest green color
-✓ Ultra-absorbent microfiber
-✓ Helps absorb excess water quickly
-✓ Quick-drying material
-✓ Soft and comfortable fabric
-✓ Helps keep your dog warm after getting wet
-✓ Lightweight everyday design
-✓ Comfortable coverage
-✓ Adjustable secure fit
-✓ Easy to put on and take off
-✓ Soft finished edges
-✓ Machine washable
-✓ Reusable design
-✓ Ideal after baths
-✓ Perfect after swimming
-✓ Useful after rainy walks
-✓ Suitable for home and travel
-✓ Practical for everyday use
-✓ Premium FluffHaven quality
+✓ Size L — approximate 48 cm back length
+✓ Ultra-absorbent, quick-drying microfiber
+✓ Adjustable secure fit for easy on and off
+✓ Ideal after baths, swimming and rainy walks
+✓ Machine washable and reusable
 
+Keep your dog warm and comfortable after wet adventures with the Premium Microfiber Dog Robe, made from soft and highly absorbent microfiber.
 
-Keep your dog warm and comfortable after wet adventures with the Premium Microfiber Dog Robe. Designed from soft and highly absorbent microfiber, it helps remove excess moisture from your dog's coat while providing cozy coverage after baths, swimming or rainy walks.
+The quick-drying material helps absorb excess moisture while providing lightweight and cozy coverage.
 
+Its adjustable fastening provides a secure and comfortable fit, while Size L offers an approximate 48 cm back length.
 
-The quick-drying microfiber material combines absorbency with a lightweight feel, making the robe comfortable for everyday use. Its soft construction helps keep your dog cozy while drying naturally after getting wet.
+Machine washable and reusable, it's practical for baths, swimming, rainy walks, home and travel.
 
-
-The adjustable fastening helps provide a secure and comfortable fit while making the robe easy to put on and remove. This FluffHaven version is offered specifically in Size L, with an approximate back length of 48 cm.
-
-
-Machine washable and reusable, the Premium Microfiber Dog Robe is designed for convenient everyday care. Keep it ready at home, in the car or in your travel bag for baths, beach days, rainy walks and outdoor adventures.
-
-
-Finished in an elegant forest green, it combines practical drying performance, comfort and premium FluffHaven styling in one useful everyday essential.
-  `,
+Finished in forest green, it combines practical drying performance, comfort and premium FluffHaven styling.
+`,
 
   inStock: true,
 
@@ -602,7 +382,7 @@ Finished in an elegant forest green, it combines practical drying performance, c
   ],
 
   description:
-    "Make everyday walks more comfortable with the Premium Neoprene Dog Harness. Designed with soft padded neoprene and adjustable straps, this forest green harness provides a secure and comfortable fit for daily walks and outdoor adventures. Reflective stitching helps improve visibility in lower-light conditions, while the strong metal D-ring provides a reliable attachment point for your dog's leash. Available on FluffHaven in Size L, it combines comfort, control and practical everyday durability.",
+  "Make everyday walks more comfortable with the Premium Neoprene Dog Harness. Designed with soft padded neoprene and adjustable straps, this forest green harness provides a secure and comfortable fit for daily walks and outdoor adventures. Reflective stitching helps improve visibility in lower-light conditions, while the strong metal D-ring provides a reliable attachment point for your dog's leash. Available on FluffHaven in Size L.",
 
   seoTitle:
     "Premium Neoprene Dog Harness | Reflective Padded Harness Size L | FluffHaven",
@@ -613,42 +393,22 @@ Finished in an elegant forest green, it combines practical drying performance, c
   brand: "FluffHaven",
 
   details: `
-✓ Premium neoprene dog harness
-✓ Size L
-✓ Forest green color
-✓ Soft padded neoprene construction
-✓ Comfortable for everyday walks
-✓ Breathable padded design
-✓ Adjustable straps
-✓ Secure and comfortable fit
-✓ Strong durable buckle
-✓ Metal D-ring for leash attachment
-✓ Reflective stitching
-✓ Helps improve visibility in low-light conditions
-✓ Lightweight everyday design
-✓ Durable construction
-✓ Designed for regular outdoor use
-✓ Suitable for walks and everyday adventures
-✓ Comfortable padded contact areas
-✓ Easy to put on and adjust
-✓ Stylish forest green finish
-✓ Premium FluffHaven quality
+✓ Size L with soft padded neoprene construction
+✓ Adjustable straps for a secure and comfortable fit
+✓ Reflective stitching for improved low-light visibility
+✓ Strong buckle and metal D-ring for leash attachment
+✓ Lightweight and durable for everyday walks and outdoor use
 
+Make everyday walks more comfortable with the Premium Neoprene Dog Harness, designed to combine comfort, security and control.
 
-Make everyday walks more comfortable with the Premium Neoprene Dog Harness. Designed to combine comfort, security and control, this padded harness is a practical FluffHaven essential for everyday adventures with your dog.
+The soft padded neoprene construction provides comfortable contact areas, while adjustable straps help create a secure fit.
 
+Reflective stitching improves visibility in lower-light conditions, and the strong metal D-ring provides a reliable leash attachment point.
 
-The soft neoprene construction provides comfortable padding around your dog's body while the adjustable straps help create a secure fit. This FluffHaven version is offered specifically in Size L.
+Its durable buckle and lightweight construction make it practical for everyday walks, travel and outdoor adventures.
 
-
-Reflective stitching adds extra visibility during evening walks and lower-light conditions, while the strong metal D-ring provides a reliable attachment point for your dog's leash.
-
-
-The durable buckle system makes the harness easy to secure before heading outside, while its lightweight construction keeps your dog comfortable during everyday walks, travel and outdoor adventures.
-
-
-Finished in an elegant forest green, the Premium Neoprene Dog Harness combines practical everyday features with a clean premium appearance — perfect for comfortable and confident walks.
-  `,
+Finished in forest green, this Size L harness combines practical everyday features with clean premium FluffHaven styling.
+`,
 
   inStock: true,
 
@@ -681,7 +441,7 @@ Finished in an elegant forest green, the Premium Neoprene Dog Harness combines p
   ],
 
   description:
-    "Give your dog a supportive and comfortable place to rest with the Premium Orthopedic Support Dog Mattress. Designed with an orthopedic foam core and an ultra-soft sleeping surface, this spacious mattress helps provide comfortable support for everyday relaxation and restful sleep. The removable washable cover makes regular care easier, while the waterproof protective layer and non-slip base add everyday practicality. Sized at 90 × 60 × 8 cm, it is a premium FluffHaven comfort essential designed especially for larger dogs.",
+  "Give your dog a supportive and comfortable place to rest with the Premium Orthopedic Support Dog Mattress. Designed with an orthopedic foam core and an ultra-soft sleeping surface, this spacious mattress provides comfortable support for relaxation and restful sleep. The removable washable cover, waterproof protective layer and non-slip base make everyday care practical. Sized at 90 × 60 × 8 cm, it is designed especially for larger dogs.",
 
   seoTitle:
     "Premium Orthopedic Support Dog Mattress | Large Dog Bed | FluffHaven",
@@ -692,37 +452,22 @@ Finished in an elegant forest green, the Premium Neoprene Dog Harness combines p
   brand: "FluffHaven",
 
   details: `
-✓ Premium orthopedic support dog mattress
-✓ Large 90 × 60 × 8 cm size
-✓ Designed for larger dogs
-✓ Supportive orthopedic foam core
-✓ 8 cm thick comfort design
-✓ Ultra-soft sleeping surface
-✓ Comfortable for everyday rest
-✓ Helps provide joint and muscle support
-✓ Helps distribute body weight comfortably
-✓ Waterproof protective layer
-✓ Removable outer cover
-✓ Washable cover for easier care
-✓ Non-slip bottom
-✓ Helps keep the mattress securely in place
-✓ Durable everyday construction
-✓ Spacious sleeping surface
-✓ Suitable for everyday relaxation and sleep
-✓ Premium FluffHaven quality
+✓ Large 90 × 60 × 8 cm size for larger dogs
+✓ Supportive orthopedic foam core with ultra-soft sleeping surface
+✓ Helps provide comfortable joint and muscle support
+✓ Removable washable cover with waterproof protective layer
+✓ Non-slip bottom for added stability
 
+Give your dog a comfortable place to relax with the Premium Orthopedic Support Dog Mattress, designed with a supportive orthopedic foam core.
 
-Give your dog a comfortable place to relax with the Premium Orthopedic Support Dog Mattress. Its supportive orthopedic foam construction is designed to provide a stable and comfortable sleeping surface while helping distribute your dog's weight across the mattress.
+Its generous 90 × 60 cm sleeping area and 8 cm thickness provide plenty of room and supportive cushioning for larger dogs.
 
+The ultra-soft sleeping surface creates a cozy resting space while the orthopedic foam helps distribute body weight comfortably.
 
-The generous 90 × 60 cm sleeping area provides plenty of room for larger dogs to stretch out and settle comfortably. At 8 cm thick, the mattress combines supportive cushioning with an ultra-soft surface for cozy everyday rest.
+A removable washable cover and waterproof protective layer make regular care easier, while the non-slip bottom helps keep the mattress securely in place.
 
-
-Practical details make it easy to use around the home. The removable washable cover simplifies regular cleaning, while the waterproof protective layer helps protect the inner foam from everyday spills and accidents. A non-slip bottom helps keep the mattress securely positioned on the floor.
-
-
-Combining orthopedic support, generous dimensions and practical everyday features, the Premium Orthopedic Support Dog Mattress brings premium comfort and thoughtful design to your dog's FluffHaven sleeping space.
-  `,
+Combining orthopedic support, generous dimensions and practical features, this mattress brings premium FluffHaven comfort to everyday rest and sleep.
+`,
 
   inStock: true,
 
@@ -755,7 +500,7 @@ Combining orthopedic support, generous dimensions and practical everyday feature
   ],
 
   description:
-    "Turn playtime into an exciting interactive adventure with the Premium Automatic Dog Ball Launcher. Designed to keep active dogs entertained, this automatic launcher provides fun and engaging fetch sessions at home or in the garden. The set includes 3 bonus balls and features adjustable launching options for varied play. Easy to use and designed for both mental stimulation and physical activity, it's a premium FluffHaven essential for dogs who love to fetch.",
+  "Turn playtime into an exciting interactive adventure with the Premium Automatic Dog Ball Launcher. Designed to keep active dogs entertained, this automatic launcher provides engaging fetch sessions at home or in the garden. The set includes 3 bonus balls and features adjustable launching options for varied play. Easy to use, it encourages both mental stimulation and physical activity.",
 
   seoTitle:
     "Premium Automatic Dog Ball Launcher | Interactive Fetch Toy | FluffHaven",
@@ -766,32 +511,22 @@ Combining orthopedic support, generous dimensions and practical everyday feature
   brand: "FluffHaven",
 
   details: `
-✓ Premium automatic dog ball launcher
+✓ Automatic hands-free ball launching
 ✓ 3 bonus balls included
-✓ Automatic hands-free launching
-✓ Interactive fetch play
-✓ Adjustable launch settings
-✓ Encourages physical activity
-✓ Provides mental stimulation
-✓ Helps reduce boredom
-✓ Perfect for active dogs
-✓ Suitable for indoor & outdoor play
-✓ Easy to use
-✓ Large ball hopper
-✓ Durable construction
-✓ Great for garden play
-✓ Fun independent or supervised play
-✓ Premium FluffHaven quality
+✓ Adjustable launch settings for varied play
+✓ Encourages physical activity and mental stimulation
+✓ Suitable for indoor and outdoor fetch sessions
 
+Bring a new level of excitement to your dog's favorite game with the Premium Automatic Dog Ball Launcher, designed for dogs who love to run, chase and fetch.
 
-Bring a new level of excitement to your dog's favorite game with the Premium Automatic Dog Ball Launcher. Designed for dogs who love to run, chase and fetch, this interactive launcher turns everyday playtime into an engaging activity filled with exercise and fun.
+The automatic launching system allows repeated fetch sessions while helping keep your dog physically active and mentally stimulated.
 
+Adjustable launch settings make it easy to adapt play to different spaces, whether you're playing indoors or enjoying time in the garden.
 
-The automatic launching system allows repeated games of fetch while helping keep your dog physically active and mentally stimulated. Adjustable launch settings make it easy to adapt play sessions to different spaces, whether you're enjoying a sunny afternoon in the garden or playing indoors.
+This premium FluffHaven set includes 3 bonus balls ready for play and a large ball hopper for easy use.
 
-
-To make the adventure even better, this premium FluffHaven set includes 3 bonus balls ready for play. Simply load the launcher and let the fun begin. Combining interactive entertainment, exercise and mental stimulation, the Premium Automatic Dog Ball Launcher is the perfect companion for energetic dogs and unforgettable play sessions.
-  `,
+Combining interactive entertainment, exercise and mental stimulation, it's a fun everyday companion for active dogs.
+`,
 
   inStock: true,
 
@@ -824,7 +559,7 @@ To make the adventure even better, this premium FluffHaven set includes 3 bonus 
   ],
 
   description:
-    "Keep a useful temperature-checking tool close at hand with the Premium Non-Contact Pet Thermometer. Designed for convenient contact-free measurements, this digital infrared thermometer allows you to take quick readings without direct contact. Its clear digital display and easy-to-use design make temperature checks simple and practical at home. A useful FluffHaven pet-care accessory for owners who want an additional way to monitor their dog's wellbeing.",
+  "Keep a temperature-checking tool close at hand with the Premium Non-Contact Pet Thermometer. Designed for contact-free measurements, this digital infrared thermometer allows quick readings without direct contact. Its clear digital display and easy-to-use design make temperature checks simple at home. A useful FluffHaven pet-care accessory for monitoring your dog's wellbeing.",
 
   seoTitle:
     "Premium Non-Contact Pet Thermometer | Digital Pet Care | FluffHaven",
@@ -835,32 +570,22 @@ To make the adventure even better, this premium FluffHaven set includes 3 bonus 
   brand: "FluffHaven",
 
   details: `
-✓ Premium non-contact pet thermometer
-✓ Infrared temperature measurement
-✓ Contact-free operation
-✓ Quick temperature readings
-✓ Clear digital display
-✓ Easy-to-read screen
-✓ Simple handheld design
-✓ Convenient one-hand operation
-✓ Practical for home pet care
-✓ No direct skin contact required
-✓ Compact and lightweight
-✓ Easy to store
-✓ Suitable for routine temperature checks
-✓ Convenient everyday pet-care accessory
-✓ Easy to use
-✓ Premium FluffHaven quality
+✓ Infrared contact-free temperature measurement
+✓ Quick readings without direct contact
+✓ Clear and easy-to-read digital display
+✓ Compact, lightweight handheld design
+✓ Practical for routine temperature checks at home
 
+Make everyday pet care more convenient with the Premium Non-Contact Pet Thermometer, designed for quick and contact-free temperature measurements.
 
-Make everyday pet care more convenient with the Premium Non-Contact Pet Thermometer. Designed for quick and contact-free temperature measurements, this practical infrared thermometer provides an easy way to perform temperature checks without requiring direct contact.
+The infrared design allows temperature checks without requiring direct contact, while the clear digital display makes readings easy to see.
 
+Its lightweight handheld design provides simple and convenient operation whenever an additional temperature check is needed.
 
-The clear digital display makes readings easy to see, while the lightweight handheld design provides comfortable and convenient operation. Simply aim the thermometer as directed and take a quick measurement whenever you want an additional temperature check.
+Compact and easy to store at home, it fits naturally among your everyday pet-care essentials.
 
-
-Compact and easy to keep at home, this thermometer is a practical addition to your pet-care essentials. Combining convenient non-contact operation, a clear digital display and simple everyday use, the Premium Non-Contact Pet Thermometer brings another useful tool to the FluffHaven care collection.
-  `,
+Combining contact-free operation, quick readings and a clear display, this thermometer adds a practical tool to the FluffHaven care collection.
+`,
 
   inStock: true,
 
@@ -893,7 +618,7 @@ Compact and easy to keep at home, this thermometer is a practical addition to yo
   ],
 
   description:
-    "Make everyday grooming easier with the Premium One-Click Self-Cleaning Dog Brush. Designed with stainless steel pins to gently remove loose fur and help maintain a smooth, healthy-looking coat, this practical grooming brush combines comfort and convenience in one simple tool. Its one-click self-cleaning mechanism helps release collected hair from the brush, while the ergonomic non-slip handle provides a comfortable grip during grooming sessions. A useful FluffHaven essential for regular coat care at home.",
+  "Make everyday grooming easier with the Premium One-Click Self-Cleaning Dog Brush. Designed with stainless steel pins to gently remove loose fur and help maintain a smooth, healthy-looking coat, this grooming brush combines comfort and convenience. Its one-click self-cleaning mechanism helps release collected hair, while the ergonomic non-slip handle provides a comfortable grip during grooming sessions.",
 
   seoTitle:
     "Premium One-Click Self-Cleaning Dog Brush | Dog Grooming | FluffHaven",
@@ -904,34 +629,22 @@ Compact and easy to keep at home, this thermometer is a practical addition to yo
   brand: "FluffHaven",
 
   details: `
-✓ Premium self-cleaning grooming brush
-✓ One-click hair release system
-✓ Stainless steel grooming pins
-✓ Rounded pin design
-✓ Helps remove loose fur
-✓ Helps reduce shedding
-✓ Suitable for long and short hair
-✓ Suitable for thick coats
-✓ Gentle everyday grooming
-✓ Ergonomic non-slip handle
-✓ Comfortable grip
-✓ Easy to clean after grooming
-✓ Simple one-button operation
-✓ Helps maintain a smooth-looking coat
-✓ Practical for regular home grooming
-✓ Durable construction
-✓ Easy to use
-✓ Premium FluffHaven quality
+✓ One-click self-cleaning hair release system
+✓ Stainless steel rounded grooming pins
+✓ Helps remove loose fur and reduce shedding
+✓ Suitable for long, short and thick coats
+✓ Ergonomic non-slip handle for a comfortable grip
 
+Make everyday coat care simpler with the Premium One-Click Self-Cleaning Dog Brush, designed for convenient grooming at home.
 
-Make everyday coat care simpler with the Premium One-Click Self-Cleaning Dog Brush. Designed for convenient grooming at home, the stainless steel pins help collect loose fur while gently working through your dog's coat.
+The stainless steel rounded pins help collect loose fur while gently working through your dog's coat.
 
+After grooming, simply press the button to help release collected hair from the brush surface for easier cleanup.
 
-Once grooming is finished, the convenient self-cleaning mechanism makes cleanup quick and easy. Simply press the button to help release the collected hair from the brush surface, reducing the hassle of removing fur by hand.
+Its ergonomic non-slip handle provides a comfortable and controlled grip, while the versatile design suits different coat lengths and thick coats.
 
-
-The ergonomic non-slip handle provides a comfortable and controlled grip during grooming sessions, while the versatile design makes the brush suitable for different coat lengths. Combining practical grooming, simple cleaning and everyday comfort, the Premium One-Click Self-Cleaning Dog Brush is a useful addition to your FluffHaven grooming collection.
-  `,
+Combining practical grooming and simple cleaning, this brush is a useful addition to your everyday FluffHaven grooming collection.
+`,
 
   inStock: true,
 
@@ -964,7 +677,7 @@ The ergonomic non-slip handle provides a comfortable and controlled grip during 
   ],
 
   description:
-    "Turn mealtime into an engaging mental challenge with the Premium 2-Level Dog Puzzle Slow Feeder. Designed with multiple interactive food channels and two levels of puzzle play, it encourages dogs to explore, slide and interact to reach their food or treats. The slow-feeding design helps make mealtime more stimulating while providing rewarding mental activity. Perfect for everyday enrichment, this colorful interactive puzzle combines feeding, play and problem-solving in one clever FluffHaven essential.",
+  "Turn mealtime into an engaging mental challenge with the Premium 2-Level Dog Puzzle Slow Feeder. Designed with multiple interactive food channels and two levels of puzzle play, it encourages dogs to explore, slide and interact to reach their food or treats. The slow-feeding design makes mealtime more stimulating while providing rewarding mental activity. This colorful puzzle combines feeding, play and problem-solving in one interactive FluffHaven essential.",
 
   seoTitle:
     "Premium 2-Level Dog Puzzle Slow Feeder | Interactive Dog Toy | FluffHaven",
@@ -975,33 +688,22 @@ The ergonomic non-slip handle provides a comfortable and controlled grip during 
   brand: "FluffHaven",
 
   details: `
-✓ Premium 2-level interactive dog puzzle
-✓ Slow-feeding design
+✓ 2-level interactive puzzle with slow-feeding design
 ✓ Multiple food and treat channels
-✓ Two levels of puzzle difficulty
-✓ Sliding lid activities
-✓ Flip lid activities
-✓ Interactive top feeding section
-✓ Encourages slower eating
-✓ Provides mental stimulation
-✓ Encourages problem-solving
-✓ Helps reduce boredom
-✓ Combines feeding and interactive play
-✓ Suitable for treats or dry food
-✓ Great for everyday enrichment
-✓ Easy and engaging to use
-✓ Suitable for dogs of different breeds
-✓ Premium FluffHaven quality
+✓ Sliding and flip-lid puzzle activities
+✓ Encourages slower eating and problem-solving
+✓ Suitable for dry food or treats
 
+Turn ordinary mealtime into a rewarding game with the Premium 2-Level Dog Puzzle Slow Feeder, combining feeding with interactive play.
 
-Turn ordinary mealtime into a rewarding game with the Premium 2-Level Dog Puzzle Slow Feeder. Designed to combine feeding with interactive play, this clever puzzle encourages your dog to explore different compartments and discover how to reach hidden food or treats.
+Its two-level design encourages your dog to explore different compartments to discover hidden food or treats.
 
+Sliding and flipping sections provide varied activities while helping keep your dog mentally engaged and naturally slow down eating.
 
-The two-level design introduces different types of activities, including sliding and flipping sections as well as an interactive feeding area. This helps keep your dog mentally engaged while naturally slowing down the eating process and making every meal more interesting.
+Suitable for dry food or treats, the puzzle can easily become part of your dog's everyday enrichment routine.
 
-
-Whether used with dry food or favorite treats, the puzzle provides an enjoyable enrichment activity that can become part of your dog's everyday routine. Combining slow feeding, mental stimulation and rewarding play, the Premium 2-Level Dog Puzzle Slow Feeder brings a little more fun and challenge to every FluffHaven mealtime.
-  `,
+Combining slow feeding, mental stimulation and rewarding play, it brings more fun and challenge to FluffHaven mealtimes.
+`,
 
   inStock: true,
 
@@ -1034,7 +736,7 @@ Whether used with dry food or favorite treats, the puzzle provides an enjoyable 
   ],
 
   description:
-    "Keep your dog cool, active and entertained on warm summer days with the Premium Interactive Dog Water Fountain. Designed with a fun paw-activated system, this outdoor fountain lets your dog trigger a refreshing stream of water simply by pressing the activation pad. Connect it to a standard garden hose and turn everyday hydration into an exciting interactive activity that's perfect for the garden, patio or outdoor playtime.",
+  "Keep your dog cool, active and entertained on warm summer days with the Premium Interactive Dog Water Fountain. Designed with a paw-activated system, this outdoor fountain lets your dog trigger a refreshing stream of water by pressing the activation pad. Connect it to a standard garden hose and turn everyday hydration into an interactive activity for the garden, patio or outdoor playtime.",
 
   seoTitle:
     "Premium Interactive Dog Water Fountain | Outdoor Cooling Toy | FluffHaven",
@@ -1045,32 +747,22 @@ Whether used with dry food or favorite treats, the puzzle provides an enjoyable 
   brand: "FluffHaven",
 
   details: `
-✓ Premium interactive dog water fountain
-✓ Paw-activated water system
-✓ Refreshing water stream
+✓ Paw-activated refreshing water stream
 ✓ Connects to a standard garden hose
-✓ Encourages hydration during warm weather
-✓ Helps keep dogs cool and active
-✓ Interactive outdoor entertainment
-✓ Encourages physical and mental stimulation
 ✓ Non-slip activation surface
-✓ Durable outdoor construction
-✓ Easy to connect and use
 ✓ No electricity required
-✓ Perfect for garden and patio play
-✓ Ideal for hot summer days
-✓ Fun way to reduce boredom
-✓ Premium FluffHaven quality
+✓ Ideal for garden, patio and hot summer days
 
+Turn hot summer days into refreshing outdoor adventures with the Premium Interactive Dog Water Fountain, combining hydration, activity and play.
 
-Turn hot summer days into refreshing outdoor adventures with the Premium Interactive Dog Water Fountain. Designed to combine hydration, activity and play, this clever fountain allows your dog to activate a refreshing stream of water simply by pressing the paw pad.
+Your dog can activate a refreshing stream of water simply by pressing the paw pad, encouraging interactive outdoor fun.
 
+Connected to a standard garden hose, the fountain provides an engaging source of fresh water without requiring electricity.
 
-Connect the fountain to a standard garden hose and your dog can enjoy an interactive source of fresh water while playing outdoors. The paw-activated design encourages curiosity and mental stimulation while helping your companion stay active and refreshed during warmer weather.
+Its non-slip activation surface and durable outdoor construction make it practical for garden and patio play.
 
-
-Perfect for the garden, patio and summer play sessions, its durable construction and stable design make it a practical addition to your dog's outdoor routine. Combining cooling refreshment with interactive fun, the Premium Interactive Dog Water Fountain is a FluffHaven summer essential for dogs who love water, play and outdoor adventures.
-  `,
+Combining cooling refreshment with interactive fun, it's a FluffHaven summer essential for dogs who love water and outdoor adventures.
+`,
 
   inStock: true,
 
@@ -1103,7 +795,7 @@ Perfect for the garden, patio and summer play sessions, its durable construction
   ],
 
   description:
-    "Turn treat time into an exciting mental challenge with the Premium Interactive Dog Puzzle Treat Dispenser. Designed to combine rewards, interactive play and mental stimulation, this smart dispenser encourages your dog to engage, learn and stay active. With its remote button system and adjustable treat dispensing, it creates a rewarding game that helps reduce boredom while making everyday play more entertaining.",
+  "Turn treat time into an exciting mental challenge with the Premium Interactive Dog Puzzle Treat Dispenser. Designed to combine rewards, interactive play and mental stimulation, this smart dispenser encourages your dog to engage, learn and stay active. Its remote button system and adjustable treat dispensing create a rewarding game that helps reduce boredom and makes everyday play more entertaining.",
 
   seoTitle:
     "Premium Interactive Dog Puzzle Treat Dispenser | Smart Dog Toy | FluffHaven",
@@ -1114,35 +806,22 @@ Perfect for the garden, patio and summer play sessions, its durable construction
   brand: "FluffHaven",
 
   details: `
-✓ Premium interactive dog puzzle
-✓ Automatic treat dispenser
-✓ Interactive reward-based play
-✓ Encourages mental stimulation
-✓ Helps develop problem-solving skills
-✓ Remote button activation
-✓ Adjustable treat dispensing
-✓ Great for training sessions
-✓ Helps reduce boredom
-✓ Encourages independent play
-✓ Refillable treat container
-✓ Easy-to-use design
-✓ Non-slip base for stable play
-✓ Easy to clean
-✓ Suitable for everyday enrichment
-✓ Premium FluffHaven quality
+✓ Automatic treat dispenser with remote button activation
+✓ Adjustable treat dispensing with refillable container
+✓ Encourages mental stimulation and problem-solving
+✓ Ideal for enrichment, training and reward-based play
+✓ Non-slip base for stable everyday use
 
+Turn treat time into a rewarding challenge with the Premium Interactive Dog Puzzle Treat Dispenser, combining mental stimulation with tasty rewards.
 
-Turn everyday treat time into a fun and rewarding challenge with the Premium Interactive Dog Puzzle Treat Dispenser. Designed for curious dogs who love to play, learn and earn rewards, this interactive toy combines mental stimulation with the excitement of tasty treats.
+The interactive button system encourages your dog to connect an action with a reward as treats are released from the dispenser.
 
+Its adjustable treat output lets you adapt each session, while the refillable container makes it practical for regular play and training.
 
-The interactive button system encourages your dog to understand the connection between an action and a reward. Each successful interaction can release treats from the dispenser, creating an engaging game that helps stimulate your dog's mind while providing positive reinforcement.
+The non-slip base helps keep the dispenser stable while your dog explores, learns and interacts with the game.
 
-
-Perfect for enrichment, training or simply adding more excitement to your dog's daily routine, the refillable dispenser makes playtime easy and rewarding. Its adjustable treat output allows you to adapt each session while the stable design helps keep the unit securely positioned during play.
-
-
-Whether you're looking to reduce boredom, encourage problem-solving or give your dog a new interactive challenge, the Premium Interactive Dog Puzzle Treat Dispenser brings together smart play, tasty rewards and mental enrichment in one premium FluffHaven essential.
-  `,
+Combining problem-solving, rewards and interactive play, it brings engaging everyday enrichment to your dog's FluffHaven routine.
+`,
 
   inStock: true,
 
@@ -1175,7 +854,7 @@ Whether you're looking to reduce boredom, encourage problem-solving or give your
   ],
 
   description:
-    "Turn everyday playtime into a complete enrichment experience with the Premium Dog Playtime Gift Basket. This special FluffHaven bundle combines four fun and engaging dog toys, a textured snuffle play mat and a stylish premium storage basket. Designed to encourage play, mental stimulation and bonding, it's a practical all-in-one collection for keeping your dog active, entertained and happy at home or in the garden.",
+  "Turn everyday playtime into a complete enrichment experience with the Premium Dog Playtime Gift Basket. This FluffHaven bundle combines four engaging dog toys, a textured snuffle play mat and a stylish premium storage basket. Designed to encourage play, mental stimulation and bonding, it's an all-in-one collection for keeping your dog active and entertained at home or in the garden.",
 
   seoTitle:
     "Premium Dog Playtime Gift Basket | 4 Toys & Snuffle Mat | FluffHaven",
@@ -1186,49 +865,22 @@ Whether you're looking to reduce boredom, encourage problem-solving or give your
   brand: "FluffHaven",
 
   details: `
-✓ Premium dog playtime gift basket
-✓ 4 interactive dog toys included
-✓ Snuffle play mat included
-✓ Premium storage basket included
-✓ Durable bone toy
-✓ XXL rope toy
-✓ Soft plush toy
-✓ Textured chew toy
-✓ Encourages mental stimulation
-✓ Helps reduce boredom
-✓ Encourages natural foraging behavior
-✓ Great for interactive play
-✓ Perfect for bonding with your dog
-✓ Mix of chewing, tugging and enrichment activities
-✓ Suitable for indoor play
-✓ Great for garden playtime
-✓ Stylish basket keeps toys organized
-✓ Practical all-in-one dog gift
-✓ Suitable for small, medium and large dogs
-✓ Perfect gift for dog lovers
-✓ Premium FluffHaven quality
+✓ Complete bundle with 4 interactive dog toys
+✓ Includes bone, XXL rope, plush and textured chew toys
+✓ Textured snuffle play mat for sniffing and foraging activities
+✓ Premium storage basket keeps the collection organized
+✓ Suitable for indoor play, garden play and gifting
 
+Make playtime more exciting with the Premium Dog Playtime Gift Basket, combining four different toys, a snuffle play mat and a stylish storage basket.
 
+The bone and textured chew toy offer chewing activities, while the XXL rope encourages tugging and bonding and the plush toy provides a softer play option.
 
-Make every play session more exciting with the Premium Dog Playtime Gift Basket. This carefully selected FluffHaven bundle brings together four different dog toys, a stimulating snuffle play mat and a stylish storage basket to create a complete playtime experience for your companion.
+The snuffle play mat lets you hide treats or kibble among the textured fabric sections, encouraging natural sniffing and foraging instincts.
 
+After playtime, the premium storage basket keeps your dog's toys organized together in one convenient place.
 
-
-The collection offers different ways to play. The durable bone and textured chew toy are ideal for chewing sessions, while the XXL rope toy encourages interactive tugging and bonding. The soft plush toy adds a gentler option for relaxed indoor play and everyday fun.
-
-
-
-The included snuffle play mat encourages your dog to use natural sniffing and foraging instincts. Hide treats or kibble among the textured fabric sections to create an engaging activity that can provide mental stimulation and help make everyday playtime more rewarding.
-
-
-
-When playtime is over, the premium storage basket provides a stylish and practical place to keep the toys organized. Its warm, natural appearance fits beautifully into the home while keeping your dog's favorite play essentials together in one convenient place.
-
-
-
-Perfect for indoor play, garden adventures or as a thoughtful gift for a dog lover, the Premium Dog Playtime Gift Basket combines enrichment, entertainment and practical storage in one complete FluffHaven bundle — created for happy dogs and happy hearts.
-  `,
-
+Combining enrichment, entertainment and practical storage, this complete FluffHaven bundle is ideal for small, medium and large dogs.
+`,
   inStock: true,
 
   featured: true,
@@ -1260,7 +912,7 @@ Perfect for indoor play, garden adventures or as a thoughtful gift for a dog lov
   ],
 
   description:
-    "Turn warm summer days into refreshing outdoor fun with the Premium Dog Splash & Cooling Mat. Measuring Ø 100 cm, this spacious splash pad connects easily to a standard garden hose and creates refreshing water jets around the edge for exciting 360° water play. Made from durable PVC and designed for quick setup, it provides a fun way for dogs to play and cool down in the garden or on the patio. Lightweight, foldable and easy to store, this FluffHaven summer essential is ready for sunny-day adventures.",
+  "Turn warm summer days into refreshing outdoor fun with the Premium Dog Splash & Cooling Mat. Measuring Ø 100 cm, this spacious splash pad connects to a standard garden hose and creates refreshing water jets around the edge for 360° water play. Made from durable PVC, it provides a fun way for dogs to play and cool down in the garden or on the patio. Lightweight and foldable, it's easy to store between sunny-day adventures.",
 
   seoTitle:
     "Premium Dog Splash & Cooling Mat | Dog Splash Pad | FluffHaven",
@@ -1271,81 +923,22 @@ Perfect for indoor play, garden adventures or as a thoughtful gift for a dog lov
   brand: "FluffHaven",
 
   details: `
-✓ Premium dog splash and cooling mat
+✓ Ø 100 cm splash and cooling play area
+✓ 360° water jets around the outer edge
+✓ Connects easily to a standard garden hose
+✓ Durable PVC construction for outdoor summer play
+✓ Lightweight, foldable and easy to store
 
-✓ Ø 100 cm diameter
+Make sunny days more exciting with the Premium Dog Splash & Cooling Mat, designed for refreshing outdoor summer play.
 
-✓ Designed for refreshing summer water play
+Simply connect it to a standard garden hose and water flows around the outer edge, creating multiple jets for 360° splash fun.
 
-✓ 360° surround spray design
+Its generous Ø 100 cm circular area gives your dog plenty of room to move, splash and cool down in the garden or on the patio.
 
-✓ Multiple water jets around the outer edge
+The durable PVC construction remains lightweight and easy to handle, while the mat folds flat for convenient storage after use.
 
-✓ Creates a fun splash zone for dogs
-
-✓ Easy garden hose connection
-
-✓ Fits standard garden hoses
-
-✓ Quick and simple outdoor setup
-
-✓ Durable PVC material
-
-✓ Strong and practical construction
-
-✓ Comfortable splash surface
-
-✓ Easy to clean after outdoor play
-
-✓ Lightweight and convenient design
-
-✓ Folds flat for easy storage
-
-✓ Easy to carry and transport
-
-✓ Ideal for warm summer days
-
-✓ Helps provide refreshing outdoor fun
-
-✓ Great for gardens
-
-✓ Perfect for patios and terraces
-
-✓ Suitable for outdoor play areas
-
-✓ Spacious circular design
-
-✓ Fun interactive water experience
-
-✓ Encourages active outdoor play
-
-✓ Simple hose-powered operation
-
-✓ No complicated installation required
-
-✓ Easy to set up and put away
-
-✓ Bright blue summer design
-
-✓ Perfect addition to summer playtime
-
-✓ Premium FluffHaven summer fun
-
-
-Make sunny days even more exciting with the Premium Dog Splash & Cooling Mat. Designed for outdoor summer fun, this refreshing splash pad combines water play with a spacious Ø 100 cm circular play area.
-
-
-Simply connect the mat to a standard garden hose and water flows around the outer edge, creating multiple refreshing jets. The 360° spray design surrounds your dog with playful streams of water for an entertaining outdoor experience.
-
-
-With its generous 100 cm diameter, the splash pad provides plenty of room for dogs to move, splash and enjoy the water. It is ideal for use in the garden, on a patio or anywhere you have access to a suitable outdoor water connection.
-
-
-The durable PVC construction is designed for practical everyday summer use while remaining lightweight and easy to handle. Once playtime is over, the mat can be emptied, folded flat and stored without taking up much space.
-
-
-Quick to set up, easy to store and made for refreshing outdoor adventures, the Premium Dog Splash & Cooling Mat brings playful summer moments to your dog's FluffHaven experience.
-  `,
+Quick to set up and easy to store, this FluffHaven splash mat brings refreshing fun to warm summer days.
+`,
 
   inStock: true,
 
@@ -1378,7 +971,7 @@ Quick to set up, easy to store and made for refreshing outdoor adventures, the P
   ],
 
   description:
-    "Everything your dog needs for the perfect beach day. The Premium Beach Bundle includes a premium FluffHaven beach bag, four floating water toys and a soft microfiber towel. Designed for beach adventures, pool days and unforgettable summer memories.",
+  "Everything your dog needs for the perfect beach day. The Premium Beach Bundle includes a FluffHaven beach bag, four floating water toys and a soft microfiber towel. Designed for beach adventures, pool days and summer memories.",
 
   seoTitle:
     "Premium Beach Bundle | Dog Beach Kit | FluffHaven",
@@ -1390,21 +983,21 @@ Quick to set up, easy to store and made for refreshing outdoor adventures, the P
 
   details: `
 ✓ Premium FluffHaven beach bag
-✓ Premium microfiber towel
-✓ 4 floating water toys included
-✓ Perfect for beach & pool days
-✓ Durable outdoor materials
-✓ Lightweight & travel friendly
-✓ Interactive fetch toys
-✓ Quick-drying towel
-✓ Easy to carry
-✓ Designed for summer adventures
-✓ Great for medium & large dogs
-✓ Exclusive FluffHaven bundle
-✓ Premium quality
+✓ Soft, quick-drying microfiber towel
+✓ 4 floating water toys for interactive fetch
+✓ Lightweight and travel-friendly design
+✓ Ideal for beach, pool and summer adventures
 
-Turn every beach trip into an unforgettable adventure with the Premium Beach Bundle. This exclusive FluffHaven set combines everything your dog needs for a fun day by the water: a stylish premium beach bag, a soft microfiber towel and four durable floating toys for endless games of fetch. Lightweight, practical and designed for active dogs, it's the ultimate summer companion for beach vacations, pool days and outdoor adventures.
-  `,
+Turn every beach trip into an adventure with the Premium Beach Bundle, combining everything your dog needs for a fun day by the water.
+
+The set includes a premium FluffHaven beach bag, a soft microfiber towel and four durable floating toys for interactive games of fetch.
+
+The quick-drying towel is practical after swimming, while the floating toys add active play to beach and pool days.
+
+Lightweight and easy to carry, the complete bundle is designed for travel and outdoor summer adventures.
+
+Combining play, comfort and convenience, it's a complete FluffHaven summer companion for medium and large dogs.
+`,
 
   inStock: true,
 
@@ -1437,7 +1030,7 @@ Turn every beach trip into an unforgettable adventure with the Premium Beach Bun
   ],
 
   description:
-    "Bring endless summer fun to every adventure with the Premium Floating Fetch Ring Duo. This premium FluffHaven set includes two lightweight floating EVA rings in bright yellow and blue, designed for exciting games of fetch at the pool, beach or lake. Durable, gentle on teeth and easy to spot on the water, they're the perfect summer toy for active dogs.",
+  "Bring endless summer fun to every adventure with the Premium Floating Fetch Ring Duo. This FluffHaven set includes two lightweight floating EVA rings in bright yellow and blue, designed for games of fetch at the pool, beach or lake. Durable, gentle on teeth and easy to spot on the water, they're perfect for active summer play.",
 
   seoTitle:
     "Premium Floating Fetch Ring Duo | Floating Dog Toy | FluffHaven",
@@ -1448,22 +1041,22 @@ Turn every beach trip into an unforgettable adventure with the Premium Beach Bun
   brand: "FluffHaven",
 
   details: `
-✓ Duo pack (Yellow & Blue)
-✓ Premium EVA material
-✓ Floats on water
-✓ Gentle on teeth & gums
-✓ Lightweight design
-✓ Durable & bite resistant
-✓ Easy to throw & retrieve
-✓ Perfect for pool, lake & beach
-✓ High visibility colors
-✓ Non-toxic & BPA free
-✓ Designed for summer adventures
-✓ Ideal for medium & large dogs
-✓ Premium FluffHaven quality
+✓ Duo pack with yellow & blue floating rings
+✓ Lightweight and durable EVA material
+✓ Gentle on teeth and gums
+✓ High-visibility design for easy water retrieval
+✓ Ideal for pool, lake and beach adventures
 
-Enjoy unforgettable summer adventures with the Premium Floating Fetch Ring Duo. This exclusive FluffHaven set includes two floating EVA fetch rings in bright yellow and blue, specially designed for endless fun in pools, lakes and at the beach. Lightweight, durable and gentle on your dog's teeth, these premium floating rings are easy to throw, easy to retrieve and highly visible on the water. Whether you're enjoying a relaxing pool day or an exciting beach vacation, this duo pack keeps your dog active, entertained and happy all summer long.
-  `,
+Enjoy summer adventures with the Premium Floating Fetch Ring Duo, featuring two floating EVA rings in bright yellow and blue.
+
+Lightweight and durable, the rings are gentle on your dog's teeth and designed for easy throwing and retrieving.
+
+Their bright colors make them easy to spot on the water during games of fetch at the pool, lake or beach.
+
+The floating design provides active outdoor entertainment throughout summer adventures.
+
+Designed for medium and large dogs, this FluffHaven duo combines water play, exercise and summer fun.
+`,
 
   inStock: true,
 
@@ -1496,7 +1089,7 @@ Enjoy unforgettable summer adventures with the Premium Floating Fetch Ring Duo. 
   ],
 
   description:
-    "Make every water adventure safer and more enjoyable with the Premium Dog Swimming Life Jacket. Designed for medium and large dogs, this Size L flotation vest combines buoyant support with a comfortable adjustable fit. The bright high-visibility design, secure buckles and sturdy top rescue handle make it ideal for swimming, pool days, beach trips, boating and lake adventures.",
+  "Make every water adventure safer and more enjoyable with the Premium Dog Swimming Life Jacket. Designed for medium and large dogs, this Size L flotation vest combines buoyant support with a comfortable adjustable fit. Its high-visibility design, secure buckles and sturdy top rescue handle make it ideal for swimming, pool days, beach trips, boating and lake adventures.",
 
   seoTitle:
     "Premium Dog Swimming Life Jacket | Size L Dog Life Vest | FluffHaven",
@@ -1507,33 +1100,22 @@ Enjoy unforgettable summer adventures with the Premium Floating Fetch Ring Duo. 
   brand: "FluffHaven",
 
   details: `
-✓ Premium dog swimming life jacket
-✓ Size L
-✓ Buoyant flotation support
-✓ Supportive neck design
-✓ Sturdy top rescue handle
-✓ Adjustable safety straps
-✓ Secure quick-release buckles
-✓ Comfortable adjustable fit
-✓ Bright high-visibility colors
-✓ Durable lightweight material
-✓ Quick-drying design
-✓ Easy to put on & remove
-✓ Ideal for swimming and pool days
-✓ Perfect for beach and lake adventures
-✓ Great for boating and water activities
-✓ Designed for medium & large dogs
-✓ Premium FluffHaven quality
+✓ Size L with buoyant flotation support
+✓ Adjustable safety straps with quick-release buckles
+✓ Sturdy top rescue handle for easy assistance
+✓ High-visibility, lightweight and quick-drying design
+✓ Designed for medium and large dogs
 
+Give your dog extra confidence and support around the water with the Premium Dog Swimming Life Jacket, designed for comfortable buoyancy and natural movement.
 
-Give your dog extra confidence and support around the water with the Premium Dog Swimming Life Jacket. Designed specifically for summer adventures, this Size L flotation vest provides comfortable buoyancy while allowing your dog to move naturally in the water.
+The adjustable straps and secure quick-release buckles help create a comfortable and stable fit.
 
+A sturdy top rescue handle provides an easy way to assist your dog when entering or leaving the water, while the bright design improves visibility.
 
-The adjustable straps and secure quick-release buckles help create a comfortable and stable fit, while the sturdy top handle gives you an easy way to assist your dog when entering or leaving the water. Its bright, colorful design also helps improve visibility during swimming and outdoor activities.
+Lightweight and quick-drying, it's ideal for swimming, pool days, beaches, lakes, boating and other water activities.
 
-
-Whether you're enjoying a relaxing afternoon by the pool, spending the day at the beach, exploring a lake or heading out on a boating adventure, this premium FluffHaven swimming vest combines comfort, visibility and practical water support for memorable summer days together.
-  `,
+Combining flotation support, visibility and comfort, this Size L FluffHaven life jacket is made for memorable water adventures.
+`,
 
   inStock: true,
 
@@ -1566,7 +1148,7 @@ Whether you're enjoying a relaxing afternoon by the pool, spending the day at th
   ],
 
   description:
-    "Make every splash count with the Premium Floating Rope Ball. Crafted from lightweight EVA foam with a durable rope handle, this floating fetch toy is perfect for pools, lakes and beach adventures. Easy to throw, highly visible on the water and gentle on your dog's teeth, it's designed for endless summer fun.",
+  "Make every splash count with the Premium Floating Rope Ball. Crafted from lightweight EVA foam with a durable rope handle, this floating fetch toy is ideal for pools, lakes and beach adventures. Easy to throw, highly visible on the water and gentle on your dog's teeth, it's designed for summer fun.",
 
   seoTitle:
     "Premium Floating Rope Ball | Floating Dog Water Toy | FluffHaven",
@@ -1577,22 +1159,22 @@ Whether you're enjoying a relaxing afternoon by the pool, spending the day at th
   brand: "FluffHaven",
 
   details: `
-✓ Premium EVA foam ball
-✓ Floats on water
-✓ Strong braided rope handle
-✓ Lightweight & easy to throw
-✓ Gentle on teeth & gums
-✓ High visibility yellow color
-✓ Durable & bite resistant
-✓ Perfect for pool, lake & beach
-✓ Quick drying material
-✓ Comfortable grip
-✓ Designed for summer adventures
-✓ Ideal for active dogs
-✓ Premium FluffHaven quality
+✓ Lightweight EVA foam ball that floats on water
+✓ Strong braided rope handle for easy throwing
+✓ Gentle on teeth and gums
+✓ High-visibility yellow design for easy retrieval
+✓ Ideal for pool, lake and beach adventures
 
-Bring excitement to every water adventure with the Premium Floating Rope Ball. Designed with lightweight EVA foam and a durable braided rope, this premium fetch toy floats effortlessly, making it easy for your dog to spot and retrieve in pools, lakes and at the beach. Built for active play while remaining gentle on teeth and gums, it's the perfect companion for unforgettable summer adventures with your best friend.
-  `,
+Bring excitement to every water adventure with the Premium Floating Rope Ball, designed for active fetch play in and around the water.
+
+Its lightweight EVA foam construction floats easily, while the bright yellow design helps your dog spot and retrieve it.
+
+The strong braided rope provides a comfortable grip for throwing and interactive games.
+
+Durable and quick-drying, the ball remains gentle on your dog's teeth and gums during play.
+
+Combining floating performance, easy retrieval and active fun, it's a practical FluffHaven companion for summer adventures.
+`,
 
   inStock: true,
 
@@ -1625,7 +1207,7 @@ Bring excitement to every water adventure with the Premium Floating Rope Ball. D
   ],
 
   description:
-    "Keep your dog active, curious and entertained with the Premium Smart Rolling Dog Ball Duo. This interactive 2-pack includes one blue and one orange motion-activated ball designed to roll and move automatically, encouraging your dog to chase, explore and play. Made with durable E-TPU material and featuring convenient USB-C rechargeable power, this smart duo brings engaging playtime indoors or outdoors.",
+  "Keep your dog active, curious and entertained with the Premium Smart Rolling Dog Ball Duo. This interactive 2-pack includes one blue and one orange motion-activated ball that rolls and moves automatically, encouraging your dog to chase, explore and play. Made with durable E-TPU material and USB-C rechargeable power, this smart duo provides engaging playtime indoors or outdoors.",
 
   seoTitle:
     "Premium Smart Rolling Dog Ball Duo | Interactive Dog Toy | FluffHaven",
@@ -1636,39 +1218,22 @@ Bring excitement to every water adventure with the Premium Floating Rope Ball. D
   brand: "FluffHaven",
 
   details: `
-✓ Premium smart rolling dog ball duo
-✓ 2 interactive balls
-✓ Blue & orange 2-pack
-✓ Motion-activated interactive play
-✓ Automatic rolling movement
-✓ Encourages chasing and active play
-✓ Helps provide mental stimulation
-✓ Durable E-TPU material
-✓ Textured surface for engaging play
-✓ USB-C rechargeable design
-✓ 300mAh rechargeable battery
-✓ Convenient charging system
-✓ Designed for repeated play sessions
-✓ Suitable for indoor and outdoor play
-✓ Great for independent interactive play
-✓ Helps reduce boredom
-✓ Encourages physical activity
-✓ Eye-catching blue and orange colors
-✓ Fun enrichment toy for dogs
-✓ Premium FluffHaven quality
+✓ 2 smart rolling balls in blue & orange
+✓ Motion-activated automatic rolling movement
+✓ Durable textured E-TPU material
+✓ USB-C rechargeable with 300mAh battery
+✓ Suitable for indoor and outdoor interactive play
 
+Turn everyday playtime into an interactive adventure with the Premium Smart Rolling Dog Ball Duo, featuring two smart balls in blue and orange.
 
-Turn everyday playtime into an interactive adventure with the Premium Smart Rolling Dog Ball Duo. Featuring two colorful smart balls in blue and orange, this playful set is designed to move automatically and encourage your dog to chase, investigate and stay active.
+Their motion-activated rolling action encourages your dog to chase, investigate and stay active while providing mental stimulation.
 
+The textured E-TPU exterior is designed for engaging everyday play, while the automatic movement adds variety to each session.
 
-The motion-activated rolling action adds an exciting element of unpredictability to playtime, helping stimulate your dog's natural curiosity while providing both physical exercise and mental enrichment. The textured E-TPU exterior is designed for engaging everyday play.
+Both balls feature rechargeable power with convenient USB-C charging, making them easy to prepare for repeated play sessions.
 
-
-Both smart balls feature rechargeable power with convenient USB-C charging, making them easy to prepare for the next play session. With two balls included, you can alternate between them or create an even more exciting play environment for your dog.
-
-
-Perfect for year-round enrichment, the Premium Smart Rolling Dog Ball Duo combines interactive technology, playful movement and FluffHaven's premium style in one entertaining 2-pack.
-  `,
+Combining interactive movement, physical activity and mental enrichment, this FluffHaven 2-pack brings smart entertainment to your dog's playtime.
+`,
 
   inStock: true,
 
@@ -1701,7 +1266,7 @@ Perfect for year-round enrichment, the Premium Smart Rolling Dog Ball Duo combin
   ],
 
   description:
-    "Help your dog stay more comfortable during warm summer days with the Premium Full-Body Cooling Dog Vest. Designed with lightweight breathable mesh and full-body coverage, this premium blue cooling vest helps provide refreshing comfort while allowing airflow around the body. Available in XL for dogs weighing approximately 10–15 kg, it's ideal for summer walks, outdoor activities and warm-weather adventures.",
+  "Help your dog stay comfortable during warm summer days with the Premium Full-Body Cooling Dog Vest. Designed with lightweight breathable mesh and full-body coverage, this blue cooling vest provides refreshing comfort while allowing airflow around the body. Available in XL for dogs weighing approximately 10–15 kg, it's ideal for summer walks, outdoor activities and warm-weather adventures.",
 
   seoTitle:
     "Premium Full-Body Cooling Dog Vest | Summer Cooling Vest | FluffHaven",
@@ -1712,31 +1277,22 @@ Perfect for year-round enrichment, the Premium Smart Rolling Dog Ball Duo combin
   brand: "FluffHaven",
 
   details: `
-✓ Premium full-body cooling dog vest
-✓ Blue color
-✓ Size XL
-✓ Designed for dogs approximately 10–15 kg
-✓ Lightweight breathable mesh
-✓ Full-body coverage
-✓ Designed for warm summer weather
-✓ Helps provide refreshing comfort
-✓ Breathable construction promotes airflow
-✓ Comfortable lightweight design
-✓ Suitable for summer walks
-✓ Great for outdoor activities
-✓ Practical for warm-weather adventures
-✓ Easy everyday summer wear
-✓ Premium FluffHaven quality
+✓ Size XL — designed for dogs approximately 10–15 kg
+✓ Lightweight breathable mesh construction
+✓ Full-body coverage for warm summer weather
+✓ Promotes airflow for refreshing comfort
+✓ Ideal for summer walks and outdoor activities
 
+Keep your dog more comfortable during warm-weather adventures with the Premium Full-Body Cooling Dog Vest.
 
-Keep your dog more comfortable during warm-weather adventures with the Premium Full-Body Cooling Dog Vest. Its lightweight mesh construction is designed to provide breathable full-body coverage while allowing airflow around your dog during hot summer days.
+Its lightweight mesh construction provides breathable full-body coverage while allowing airflow around your dog during hot summer days.
 
+This blue vest comes in Size XL and is designed for dogs weighing approximately 10–15 kg.
 
-The vest comes in our selected blue color and size XL, designed for dogs weighing approximately 10–15 kg. Its full-body design makes it a practical summer accessory for walks, outdoor activities and everyday adventures when temperatures rise.
+Its lightweight design makes it practical for walks, outdoor activities and everyday warm-weather adventures.
 
-
-Whether you're heading to the park, enjoying a summer trip or simply going for a walk on a warm afternoon, this premium FluffHaven cooling vest combines breathable comfort, lightweight coverage and a stylish summer look.
-  `,
+Combining breathable comfort, full-body coverage and a stylish blue design, it's a practical FluffHaven accessory for summer days.
+`,
 
   inStock: true,
 
@@ -1769,7 +1325,7 @@ Whether you're heading to the park, enjoying a summer trip or simply going for a
   ],
 
   description:
-    "Give your dog a warm and comfortable place to relax with the Premium Olive Cozy Dog Bed. Designed in an elegant olive green color, this soft padded bed features raised supportive edges and a cozy sleeping surface for everyday rest. Size L measures approximately 65 × 45 cm, making it a stylish and practical choice for autumn and winter comfort at home.",
+  "Give your dog a warm and comfortable place to relax with the Premium Olive Cozy Dog Bed. Designed in an elegant olive green color, this soft padded bed features raised supportive edges and a cozy sleeping surface for everyday rest. Size L measures approximately 65 × 45 cm, making it a practical choice for autumn and winter comfort at home.",
 
   seoTitle:
     "Premium Olive Cozy Dog Bed | Soft Autumn & Winter Bed | FluffHaven",
@@ -1780,31 +1336,22 @@ Whether you're heading to the park, enjoying a summer trip or simply going for a
   brand: "FluffHaven",
 
   details: `
-✓ Premium cozy dog bed
-✓ Elegant olive green color
-✓ Size L
-✓ Approximately 65 × 45 cm
-✓ Soft and cozy sleeping surface
-✓ Comfortable padded base
-✓ Supportive raised edges
-✓ Designed for everyday relaxation
-✓ Cozy enclosed feeling
-✓ Ideal for indoor use
-✓ Perfect for bedrooms and living rooms
-✓ Great for cooler autumn days
-✓ Warm and comfortable for winter
-✓ Stylish neutral design
-✓ Premium FluffHaven quality
+✓ Size L — approximately 65 × 45 cm
+✓ Soft sleeping surface with comfortable padded base
+✓ Supportive raised edges for a cozy resting space
+✓ Elegant olive green design for indoor use
+✓ Ideal for autumn and winter comfort
 
+Create a cozy resting space for your dog with the Premium Olive Cozy Dog Bed, designed for comfortable everyday relaxation.
 
-Create a cozy resting space for your dog with the Premium Olive Cozy Dog Bed. Its soft sleeping surface and raised padded edges provide a comfortable place where your dog can curl up, relax and enjoy everyday rest.
+Its soft sleeping surface, padded base and raised edges provide an inviting place for your dog to curl up and rest.
 
+The Size L design measures approximately 65 × 45 cm, providing a practical dedicated sleeping area at home.
 
-The elegant olive green color fits beautifully into warm and natural home interiors, while the Size L design measures approximately 65 × 45 cm. It's a practical choice for creating a dedicated sleeping area in the bedroom, living room or any quiet corner of the home.
+Its elegant olive green color blends naturally into bedrooms, living rooms and other quiet resting spaces.
 
-
-Especially suited to the cooler autumn and winter months, this premium FluffHaven dog bed combines cozy comfort, supportive edges and an elegant seasonal look for everyday relaxation.
-  `,
+Combining soft comfort, supportive edges and a warm seasonal design, this FluffHaven bed is ideal for cooler autumn and winter days.
+`,
 
   inStock: true,
 
@@ -1837,7 +1384,7 @@ Especially suited to the cooler autumn and winter months, this premium FluffHave
   ],
 
   description:
-    "Keep your dog warm, comfortable and stylish during colder days with the Premium Hooded Dog Puffer Jacket. Designed with a padded construction, protective hood and cozy inner lining, this winter jacket helps provide extra comfort against chilly weather and cold winds. The striking blue design gives it a premium outdoor look, while Size XXL is suitable for dogs weighing approximately 6.5–13 kg.",
+  "Keep your dog warm and comfortable during colder days with the Premium Hooded Dog Puffer Jacket. Designed with a padded construction, protective hood and cozy inner lining, this winter jacket provides extra comfort against chilly weather and cold winds. Its striking blue design gives it a premium outdoor look, while Size XXL is suitable for dogs weighing approximately 6.5–13 kg.",
 
   seoTitle:
     "Premium Hooded Dog Puffer Jacket XXL | Winter Dog Coat | FluffHaven",
@@ -1848,42 +1395,22 @@ Especially suited to the cooler autumn and winter months, this premium FluffHave
   brand: "FluffHaven",
 
   details: `
-✓ Premium hooded dog puffer jacket
-✓ Size XXL
-✓ Suitable for dogs approximately 6.5–13 kg
-✓ Warm padded construction
-✓ Soft and cozy inner lining
-✓ Protective hood design
-✓ Helps protect against cold winds
-✓ Water-resistant outer layer
-✓ Comfortable everyday fit
-✓ Easy snap-button closure
-✓ Secure fit while moving
-✓ Lightweight and comfortable to wear
-✓ Designed for freedom of movement
-✓ Durable stitching
-✓ Stylish blue and black pattern
-✓ Ideal for everyday walks
-✓ Great for outdoor adventures
-✓ Perfect for cooler autumn weather
-✓ Extra comfort during winter
-✓ Premium FluffHaven quality
+✓ Size XXL — suitable for dogs approximately 6.5–13 kg
+✓ Warm padded construction with soft inner lining
+✓ Protective hood and water-resistant outer layer
+✓ Easy snap-button closure with freedom of movement
+✓ Stylish blue and black design for autumn and winter
 
+Prepare your dog for colder days with the Premium Hooded Dog Puffer Jacket, designed for comfortable autumn and winter adventures.
 
-Prepare your dog for colder days with the Premium Hooded Dog Puffer Jacket. Combining cozy warmth with a stylish outdoor design, this padded jacket provides comfortable protection for everyday autumn and winter adventures.
+Its padded construction and soft inner lining provide warmth, while the protective hood adds coverage around the head and neck.
 
+The water-resistant outer layer helps protect against light moisture and cold winds during outdoor walks.
 
-The warm padded construction and soft inner lining help keep your dog comfortable when temperatures drop, while the protective hood provides additional coverage around the head and neck. The outer layer also helps protect against light moisture and cold winds.
+Designed in Size XXL for dogs weighing approximately 6.5–13 kg, snap-button closures provide an easy and secure fit while allowing freedom of movement.
 
-
-Designed in Size XXL for dogs weighing approximately 6.5–13 kg, the jacket offers a comfortable fit with plenty of freedom for walking, playing and exploring. Convenient snap-button closures make it easy to put on and take off while helping the jacket stay securely in place.
-
-
-Its distinctive blue and black pattern gives the jacket a premium FluffHaven look that stands out beautifully during autumn walks and winter outings.
-
-
-Whether you're heading out for a daily walk, enjoying a chilly weekend adventure or simply keeping your dog cozy outdoors, the Premium Hooded Dog Puffer Jacket combines warmth, comfort and seasonal style in one practical winter essential.
-  `,
+Combining warmth, protection and blue-and-black FluffHaven styling, this jacket is a practical choice for colder outdoor days.
+`,
 
   inStock: true,
 
@@ -1916,7 +1443,7 @@ Whether you're heading out for a daily walk, enjoying a chilly weekend adventure
   ],
 
   description:
-    "Make every meal more comfortable with the Premium Elevated Comfort Feeding Station. This complete feeding set features an adjustable raised wooden stand, two removable stainless steel bowls and a protective feeding mat to help keep your dog's dining area clean and organized. Its warm natural wood design blends beautifully into cozy home interiors, making it a practical and stylish choice for everyday feeding during autumn, winter and beyond.",
+  "Make every meal more comfortable with the Premium Elevated Comfort Feeding Station. This complete feeding set features an adjustable raised wooden stand, two removable stainless steel bowls and a protective feeding mat to help keep your dog's dining area clean and organized. Its warm natural wood design blends beautifully into home interiors, making it a practical choice for everyday feeding.",
 
   seoTitle:
     "Premium Elevated Dog Feeding Station with Bowls & Mat | FluffHaven",
@@ -1927,41 +1454,22 @@ Whether you're heading out for a daily walk, enjoying a chilly weekend adventure
   brand: "FluffHaven",
 
   details: `
-✓ Premium elevated dog feeding station
-✓ Complete feeding set
-✓ Adjustable raised wooden stand
-✓ 2 stainless steel bowls included
-✓ Protective feeding mat included
-✓ Comfortable elevated feeding position
-✓ Multiple height settings
-✓ Removable bowls for easy filling
-✓ Easy-to-clean stainless steel bowls
-✓ Durable and practical design
-✓ Stable wooden construction
-✓ Non-slip feet for added stability
-✓ Protective mat helps catch spills
-✓ Helps keep feeding areas cleaner
-✓ Natural wood finish
-✓ Stylish addition to modern interiors
-✓ Suitable for everyday feeding
-✓ Ideal for autumn and winter home comfort
-✓ Premium FluffHaven quality
+✓ Adjustable raised wooden stand with multiple height settings
+✓ 2 removable stainless steel bowls for food and water
+✓ Protective feeding mat helps catch spills
+✓ Non-slip feet provide added stability
+✓ Natural wood finish for everyday home use
 
+Create a comfortable and organized dining area with the Premium Elevated Comfort Feeding Station, combining an adjustable wooden stand, two stainless steel bowls and a protective mat.
 
-Create a comfortable and organized dining area for your dog with the Premium Elevated Comfort Feeding Station. This complete set combines an adjustable wooden feeding stand, two removable stainless steel bowls and a protective mat for a practical everyday feeding solution.
+The raised design offers multiple height settings, while the stable wooden construction provides a practical base for everyday feeding.
 
+Both stainless steel bowls are removable for easy filling and cleaning.
 
-The elevated design allows you to adjust the feeding position while the sturdy wooden construction provides a stable base for food and water. Both stainless steel bowls can be easily removed for filling and cleaning, making everyday mealtimes simple and convenient.
+The protective mat helps catch food, water and spills, while non-slip feet help keep the feeding station securely in place.
 
-
-The included protective mat sits beneath the feeding station to help catch water, food and everyday spills while protecting the surrounding floor. Non-slip feet provide additional stability and help keep the station securely in place during meals.
-
-
-With its warm natural wood finish and clean premium appearance, the feeding station fits beautifully into kitchens, dining areas and other cozy home interiors. It's especially suited to the warm atmosphere of autumn and winter while remaining useful throughout the year.
-
-
-The Premium Elevated Comfort Feeding Station brings together comfort, convenience and elegant FluffHaven styling to create a dedicated mealtime space your dog can enjoy every day.
-  `,
+Finished in natural wood, this complete FluffHaven feeding station combines comfort, convenience and clean home-friendly styling.
+`,
 
   inStock: true,
 
@@ -1994,7 +1502,7 @@ The Premium Elevated Comfort Feeding Station brings together comfort, convenienc
   ],
 
   description:
-    "Turn everyday playtime into a complete enrichment experience with the Premium Cat Playtime Gift Basket. This special FluffHaven bundle combines 5 interactive cat toys, a colorful non-slip play mat and a premium storage basket in one charming set. Designed to encourage chasing, batting, scratching and active play, it provides different textures and activities to help keep your cat entertained while keeping everything neatly organized between play sessions.",
+  "Turn everyday playtime into a complete enrichment experience with the Premium Cat Playtime Gift Basket. This FluffHaven bundle combines 5 interactive cat toys, a colorful non-slip play mat and a premium storage basket. Designed to encourage chasing, batting, scratching and active play, it offers different activities to keep your cat entertained while keeping everything neatly organized.",
 
   seoTitle:
     "Premium Cat Playtime Gift Basket | 5 Toys & Play Mat | FluffHaven",
@@ -2005,43 +1513,22 @@ The Premium Elevated Comfort Feeding Station brings together comfort, convenienc
   brand: "FluffHaven",
 
   details: `
-✓ Premium cat playtime gift basket
-✓ 5 interactive cat toys included
-✓ Plush mouse toy
-✓ Soft fish toy
-✓ Colorful play ball
-✓ Interactive batting ball
-✓ Scratch & chew roll
-✓ Non-slip play mat included
-✓ Play mat size: 60 × 39 cm
-✓ Colorful paw-print design
-✓ Premium storage basket included
-✓ Keeps toys neatly organized
-✓ Multiple textures for varied play
-✓ Encourages chasing and batting
-✓ Supports natural play instincts
-✓ Helps provide mental stimulation
-✓ Encourages daily physical activity
-✓ Great for independent or interactive play
-✓ Perfect gift idea for cat lovers
-✓ Complete playtime bundle
-✓ Premium FluffHaven quality
+✓ 5 interactive cat toys with different shapes and textures
+✓ Includes plush mouse, soft fish, play balls and scratch & chew roll
+✓ 60 × 39 cm non-slip play mat with colorful paw-print design
+✓ Encourages chasing, batting, scratching and active play
+✓ Premium storage basket keeps the complete set organized
 
+Bring more variety and fun to your cat's day with the Premium Cat Playtime Gift Basket, combining five interactive toys, a play mat and a storage basket.
 
-Bring more variety, activity and fun to your cat's day with the Premium Cat Playtime Gift Basket. This complete FluffHaven bundle combines five different interactive toys, a colorful non-slip play mat and a stylish storage basket to create an engaging playtime experience in one convenient set.
+The five toys provide different shapes and textures for chasing, batting, scratching and exploring natural playful instincts.
 
+The included 60 × 39 cm non-slip play mat creates a dedicated play area with a colorful paw-print design.
 
-The five included toys offer different shapes, textures and ways to play. From chasing the plush mouse and batting colorful balls to playing with the soft fish and scratch-friendly roll, your cat can explore a variety of activities designed to encourage natural curiosity and playful instincts.
+After playtime, the toys can be placed inside the premium storage basket to keep everything organized and ready for the next session.
 
-
-The included 60 × 39 cm non-slip play mat creates a dedicated play area while its colorful paw-print design adds a cheerful touch to your home. Its non-slip backing helps keep the mat in place during energetic play sessions.
-
-
-When playtime is over, simply place the toys back inside the premium storage basket to keep your cat's favorite accessories organized and ready for the next adventure.
-
-
-Whether you're treating your own companion or looking for a charming gift for a cat lover, the Premium Cat Playtime Gift Basket combines entertainment, enrichment and practical storage in one beautiful FluffHaven bundle.
-  `,
+Combining entertainment, enrichment and practical storage, this complete FluffHaven bundle also makes a charming gift for cat lovers.
+`,
 
   inStock: true,
 
@@ -2074,7 +1561,7 @@ Whether you're treating your own companion or looking for a charming gift for a 
   ],
 
   description:
-    "Give worn scratching posts a fresh new life with the Premium Cat Scratcher Repair Rope. Made from natural-style jute rope, this practical 10-meter roll is designed for repairing and refreshing cat scratching posts, towers and other scratch-friendly surfaces. Its durable 6 mm construction provides a textured surface cats can enjoy scratching while helping extend the life of existing cat furniture. A simple and useful FluffHaven essential for creating or restoring your cat's favorite scratching areas.",
+  "Give worn scratching posts a fresh new life with the Premium Cat Scratcher Repair Rope. Made from natural-style jute rope, this 10-meter roll is designed for repairing and refreshing cat scratching posts, towers and other scratch-friendly surfaces. Its durable 6 mm construction provides a textured scratching surface while helping extend the life of existing cat furniture.",
 
   seoTitle:
     "Premium Cat Scratcher Repair Rope | 10m Jute Rope | FluffHaven",
@@ -2085,39 +1572,22 @@ Whether you're treating your own companion or looking for a charming gift for a 
   brand: "FluffHaven",
 
   details: `
-✓ Premium cat scratcher repair rope
-✓ 10 meters of rope
-✓ 6 mm rope diameter
-✓ Natural-style jute material
-✓ Strong textured construction
-✓ Ideal for repairing scratching posts
-✓ Helps refresh worn cat trees
-✓ Suitable for scratching towers
-✓ Great for DIY cat furniture projects
-✓ Textured surface for scratching
-✓ Helps extend the life of cat furniture
-✓ Easy to wrap around scratching posts
-✓ Can be used on different post shapes
-✓ Suitable for home DIY repairs
-✓ Neutral natural appearance
-✓ Blends easily with home interiors
-✓ Practical replacement solution
-✓ Compact roll for easy storage
-✓ Useful for cat owners
-✓ Premium FluffHaven quality
+✓ 10-meter roll with approximately 6 mm diameter
+✓ Durable natural-style jute material
+✓ Ideal for repairing scratching posts, cat trees and towers
+✓ Textured surface for renewed scratching areas
+✓ Suitable for repairs and DIY cat furniture projects
 
+Give your cat's favorite scratching furniture a second life with the Premium Cat Scratcher Repair Rope.
 
-Give your cat's favorite scratching furniture a second life with the Premium Cat Scratcher Repair Rope. This practical 10-meter roll provides an easy way to refresh worn scratching posts, cat trees and other scratch-friendly surfaces without replacing the entire piece of furniture.
+This 10-meter roll of approximately 6 mm jute rope can be wrapped around existing posts to create a renewed textured scratching surface.
 
+Its natural appearance blends easily with different styles of cat furniture and home interiors.
 
-With its approximately 6 mm diameter and durable textured construction, the rope can be wrapped around existing posts to create a renewed scratching surface. Its natural appearance also blends easily with different styles of cat furniture and home interiors.
+The generous length provides plenty of material for repairing cat trees, refreshing scratching posts or creating DIY scratching areas.
 
-
-The generous 10-meter length provides plenty of material for repairs or creative DIY projects. Use it to restore a favorite scratching post, refresh part of a cat tree or create your own customized scratching area.
-
-
-Simple, practical and versatile, the Premium Cat Scratcher Repair Rope is a useful addition to the FluffHaven collection for cat owners who want to maintain and refresh their cat's favorite furniture.
-  `,
+Practical and versatile, it helps extend the life of your cat's favorite furniture without replacing the entire piece.
+`,
 
   inStock: true,
 
@@ -2150,7 +1620,7 @@ Simple, practical and versatile, the Premium Cat Scratcher Repair Rope is a usef
   ],
 
   description:
-    "Create a dedicated space for scratching, playing and relaxing with the Premium Interactive Cat Scratcher Lounge. Designed in a spacious L size, this multifunctional cardboard lounge combines a generous corrugated scratching surface with interactive side openings for added entertainment. Its low-profile design gives your cat a comfortable place to stretch out and scratch while helping redirect natural scratching behavior away from furniture. A stylish and practical FluffHaven addition for everyday feline enrichment.",
+  "Create a dedicated space for scratching, playing and relaxing with the Premium Interactive Cat Scratcher Lounge. Designed in a spacious L size, this multifunctional cardboard lounge combines a generous corrugated scratching surface with interactive side openings for added entertainment. Its low-profile design provides a comfortable place to stretch out and scratch while helping redirect natural scratching behavior away from furniture.",
 
   seoTitle:
     "Premium Interactive Cat Scratcher Lounge | Large Cat Scratcher | FluffHaven",
@@ -2161,42 +1631,22 @@ Simple, practical and versatile, the Premium Cat Scratcher Repair Rope is a usef
   brand: "FluffHaven",
 
   details: `
-✓ Premium interactive cat scratcher lounge
-✓ Large L size
-✓ Spacious scratching and lounging area
-✓ Durable corrugated cardboard surface
-✓ Textured surface designed for scratching
-✓ Interactive side openings
-✓ Encourages batting and playful exploration
-✓ Combines scratching, play and relaxation
-✓ Comfortable low-profile lounge design
-✓ Provides room for stretching
-✓ Supports natural scratching instincts
-✓ Helps redirect scratching away from furniture
-✓ Suitable for everyday indoor use
-✓ Lightweight and easy to move
-✓ Easy to place in different rooms
-✓ Neutral modern design
-✓ Blends easily with home interiors
-✓ Practical enrichment accessory
+✓ Large L size for scratching, stretching and lounging
+✓ Durable corrugated cardboard scratching surface
+✓ Interactive side openings encourage playful exploration
+✓ Helps redirect natural scratching away from furniture
 ✓ Suitable for medium and larger cats
-✓ Premium FluffHaven quality
 
+Give your cat a dedicated place to scratch, play and relax with the Premium Interactive Cat Scratcher Lounge.
 
-Give your cat a dedicated place to scratch, play and unwind with the Premium Interactive Cat Scratcher Lounge. This spacious L-size lounge combines a generous corrugated cardboard scratching surface with an inviting low-profile design that gives your cat plenty of room to stretch out and relax.
+Its spacious L-size design combines a textured corrugated cardboard surface with plenty of room for stretching and lounging.
 
+Interactive side openings encourage curious cats to explore, reach and bat while enjoying their scratching area.
 
-The textured cardboard surface provides an appealing place for everyday scratching and helps support your cat's natural instincts. By providing a dedicated scratching area, it can also help redirect attention away from sofas, carpets and other household furniture.
+Lightweight and easy to position around the home, its neutral design blends naturally into living rooms, bedrooms and other resting spaces.
 
-
-Interactive openings around the sides add another dimension to playtime, encouraging curious cats to explore, reach and bat through the openings while enjoying their scratching lounge.
-
-
-Lightweight and easy to position around the home, the Premium Interactive Cat Scratcher Lounge can be placed in a living room, bedroom or other favorite resting area. Its clean, neutral appearance makes it easy to integrate into different interior styles.
-
-
-Combining scratching, lounging and interactive entertainment in one practical design, the Premium Interactive Cat Scratcher Lounge is a versatile addition to the FluffHaven collection for cats who love to scratch, stretch, play and relax.
-  `,
+Combining scratching, lounging and interactive play, this FluffHaven lounge provides practical everyday enrichment for your cat.
+`,
 
   inStock: true,
 
@@ -2229,7 +1679,7 @@ Combining scratching, lounging and interactive entertainment in one practical de
   ],
 
   description:
-    "Turn everyday playtime into a fun and enriching experience with the Premium Cat Scratch & Play Mat. This multifunctional patchwork mat combines dedicated scratching surfaces with soft resting areas and interactive toys to encourage scratching, batting, exploring and relaxing. Its practical 58 × 49 cm format fits easily into your home while giving your cat a dedicated space for everyday entertainment.",
+  "Turn everyday playtime into an enriching experience with the Premium Cat Scratch & Play Mat. This multifunctional patchwork mat combines scratching surfaces, soft resting areas and interactive toys to encourage scratching, batting, exploring and relaxing. Its practical 58 × 49 cm format fits easily into the home while giving your cat a dedicated space for play and relaxation.",
 
   seoTitle:
     "Premium Cat Scratch & Play Mat | Interactive Cat Scratcher | FluffHaven",
@@ -2240,42 +1690,22 @@ Combining scratching, lounging and interactive entertainment in one practical de
   brand: "FluffHaven",
 
   details: `
-✓ Premium cat scratch & play mat
-✓ Approx. 58 × 49 cm
-✓ Multifunctional patchwork design
-✓ Dedicated scratching surfaces
-✓ Textured sisal-style scratching areas
-✓ Soft and comfortable play sections
-✓ Interactive hanging ball toy
-✓ Two playful mouse toys
-✓ Encourages scratching and batting
-✓ Supports natural feline instincts
-✓ Provides different textures to explore
-✓ Suitable for active indoor play
-✓ Comfortable surface for relaxing
-✓ Helps create a dedicated scratching area
-✓ Lightweight and easy to reposition
-✓ Easy to place in living rooms or bedrooms
-✓ Practical everyday enrichment accessory
-✓ Suitable for indoor cats
-✓ Combines scratching, play and relaxation
-✓ Premium FluffHaven quality
+✓ Approx. 58 × 49 cm multifunctional patchwork mat
+✓ Textured scratching surfaces with soft resting areas
+✓ Includes hanging ball and two playful mouse toys
+✓ Encourages scratching, batting and exploration
+✓ Lightweight design for easy indoor placement
 
+Give your cat a dedicated space to scratch, explore, play and relax with the Premium Cat Scratch & Play Mat.
 
-Give your cat its own dedicated space to scratch, explore, play and relax with the Premium Cat Scratch & Play Mat. Designed as a multifunctional activity area, this practical patchwork mat combines different textures and interactive elements in one compact everyday accessory.
+Its patchwork design combines textured scratching surfaces with soft areas for comfortable play and relaxation.
 
+A hanging ball and two mouse toys encourage batting, reaching and curious exploration throughout the day.
 
-The scratching sections provide an appealing textured surface that supports your cat's natural scratching instincts while helping create a dedicated alternative to household furniture.
+Measuring approximately 58 × 49 cm, the mat provides a practical activity area while remaining lightweight and easy to move around the home.
 
-
-Interactive toys add even more entertainment. A hanging ball and playful mouse toys encourage batting, reaching and curious exploration, giving your cat several different ways to stay engaged throughout the day.
-
-
-Measuring approximately 58 × 49 cm, the mat provides a comfortable play area without taking up too much floor space. Its lightweight design also makes it easy to move between the living room, bedroom or your cat's favorite indoor space.
-
-
-Combining scratching surfaces, interactive play and comfortable resting areas, the Premium Cat Scratch & Play Mat is a versatile FluffHaven essential designed to bring more enrichment and variety to your cat's everyday routine.
-  `,
+Combining scratching, interactive toys and resting areas, this FluffHaven mat brings variety and enrichment to your cat's everyday indoor routine.
+`,
 
   inStock: true,
 
@@ -2308,7 +1738,7 @@ Combining scratching surfaces, interactive play and comfortable resting areas, t
   ],
 
   description:
-    "Keep your cat's everyday space cleaner and more comfortable with the Premium Easy-Clean Cat Litter Tray. Designed with a spacious open layout and a practical removable perforated insert, this litter tray makes daily maintenance simple while providing your cat with plenty of room. Its durable plastic construction and understated dark grey finish make it a practical FluffHaven essential that fits easily into modern homes.",
+  "Keep your cat's everyday space cleaner and more comfortable with the Premium Easy-Clean Cat Litter Tray. Designed with a spacious open layout and a removable perforated insert, this litter tray provides plenty of room while making daily maintenance easier. Its durable plastic construction and dark grey finish make it a practical FluffHaven essential for the home.",
 
   seoTitle:
     "Premium Easy-Clean Cat Litter Tray | Large Cat Litter Box | FluffHaven",
@@ -2319,42 +1749,22 @@ Combining scratching surfaces, interactive play and comfortable resting areas, t
   brand: "FluffHaven",
 
   details: `
-✓ Premium easy-clean cat litter tray
-✓ Large size
-✓ Spacious open design
-✓ Approx. 41.5 × 41.5 × 10 cm
-✓ Removable perforated insert
-✓ Designed for easier daily cleaning
-✓ Durable plastic construction
-✓ Strong and sturdy design
-✓ Comfortable open space for cats
-✓ Low-profile entry
-✓ Easy to access
-✓ Practical for everyday litter use
-✓ Smooth surfaces for easier maintenance
-✓ Dark grey neutral finish
-✓ Modern and simple appearance
-✓ Blends easily with home interiors
-✓ Lightweight and easy to reposition
-✓ Suitable for everyday indoor use
-✓ Practical essential for cat owners
-✓ Premium FluffHaven quality
+✓ Large size — approximately 41.5 × 41.5 × 10 cm
+✓ Spacious open design with low-profile entry
+✓ Removable perforated insert for easier maintenance
+✓ Durable plastic with smooth easy-clean surfaces
+✓ Lightweight dark grey design for everyday indoor use
 
+Make everyday litter care simpler with the Premium Easy-Clean Cat Litter Tray, designed to provide your cat with a spacious and accessible everyday area.
 
-Make everyday litter care simpler with the Premium Easy-Clean Cat Litter Tray. Designed to combine practicality, comfort and a clean modern appearance, this spacious litter tray gives your cat an accessible and comfortable place for its daily routine.
+The generous 41.5 × 41.5 × 10 cm open design provides plenty of usable space, while the low-profile entry makes access easy.
 
+A removable perforated insert can be lifted out when needed, helping make regular cleaning and maintenance more convenient.
 
-The generous open design provides plenty of usable space while the low-profile construction makes the tray easy to access. Its neutral dark grey finish also allows it to blend naturally into bathrooms, utility rooms, kitchens and other suitable areas around the home.
+Made from durable plastic, the tray combines sturdy construction with smooth surfaces and a lightweight design that's easy to reposition.
 
-
-A removable perforated insert adds extra convenience when maintaining the litter area. The insert can be lifted out when needed, helping make regular cleaning and maintenance quicker and easier.
-
-
-Made from durable plastic, the tray is lightweight enough to reposition while remaining sturdy for everyday use. Its smooth surfaces are also designed for straightforward cleaning.
-
-
-Simple, practical and easy to maintain, the Premium Easy-Clean Cat Litter Tray is a useful FluffHaven essential for creating a cleaner and more comfortable everyday space for your cat.
-  `,
+Finished in neutral dark grey, this practical FluffHaven litter tray provides a simple and easy-to-maintain solution for everyday indoor use.
+`,
 
   inStock: true,
 
@@ -2387,7 +1797,7 @@ Simple, practical and easy to maintain, the Premium Easy-Clean Cat Litter Tray i
   ],
 
   description:
-    "Keep your cat warm and stylish during the cooler months with the Premium Cozy Knit Cat Sweater Trio. This premium 3-pack includes three cozy knitted sweaters in complementary colors, all in Size M. Designed with a soft cable-knit texture and a comfortable sleeveless fit, they provide extra warmth while allowing your cat to move naturally. Perfect for cozy autumn days and chilly winter evenings.",
+  "Keep your cat warm and stylish during the cooler months with the Premium Cozy Knit Cat Sweater Trio. This 3-pack includes three cozy knitted sweaters in complementary colors, all in Size M. Designed with a soft cable-knit texture and comfortable sleeveless fit, they provide extra warmth while allowing your cat to move naturally. Perfect for autumn days and chilly winter evenings.",
 
   seoTitle:
     "Premium Cozy Knit Cat Sweater Trio | Size M 3-Pack | FluffHaven",
@@ -2398,46 +1808,22 @@ Simple, practical and easy to maintain, the Premium Easy-Clean Cat Litter Tray i
   brand: "FluffHaven",
 
   details: `
-✓ Premium knitted cat sweater trio
-✓ 3 sweaters included
-✓ Size M
-✓ Designed for cats approximately 2–3 kg
-✓ Three complementary colors
-✓ Soft knitted construction
-✓ Cozy cable-knit texture
-✓ Warm and comfortable design
-✓ Sleeveless cut for easy movement
-✓ Comfortable high-neck design
-✓ Easy to put on and remove
-✓ Lightweight everyday warmth
-✓ Ideal for indoor wear
-✓ Great for cooler autumn days
-✓ Perfect for chilly winter weather
-✓ Stylish premium appearance
-✓ Suitable for cats and small pets
-✓ Three looks in one convenient pack
-✓ Premium FluffHaven quality
+✓ 3 knitted sweaters in complementary colors
+✓ Size M — designed for cats approximately 2–3 kg
+✓ Soft and cozy cable-knit construction
+✓ Sleeveless design for comfortable freedom of movement
+✓ Comfortable high-neck style for extra warmth
 
+Give your cat a cozy wardrobe for the cooler months with the Premium Cozy Knit Cat Sweater Trio, featuring three knitted sweaters in complementary colors.
 
+Each sweater features a soft cable-knit texture with a sleeveless design that allows comfortable freedom of movement.
 
-Give your cat a cozy wardrobe for the cooler months with the Premium Cozy Knit Cat Sweater Trio. This special FluffHaven set includes three knitted sweaters in Size M, giving you three stylish looks while keeping your pet warm and comfortable.
+The high-neck design provides extra warmth, making the sweaters ideal for indoor wear during cooler autumn and winter days.
 
+Size M is designed for cats approximately 2–3 kg, although checking your cat's measurements before ordering is recommended for the most comfortable fit.
 
-
-Each sweater features a classic cable-knit texture that creates a soft, cozy appearance perfect for autumn and winter. The sleeveless design helps maintain freedom of movement, while the comfortable neck and body fit provide extra warmth without unnecessary bulk.
-
-
-
-With three complementary colors included in the set, you can easily change your cat's look throughout the week. Whether relaxing at home, enjoying a cozy evening or posing for an adorable photo, there's always a sweater ready for the occasion.
-
-
-
-The Size M sweaters are designed for cats approximately 2–3 kg. As pet body shapes can vary, we recommend checking your cat's measurements before ordering to ensure the most comfortable fit.
-
-
-
-Combining warmth, comfort and adorable seasonal style, the Premium Cozy Knit Cat Sweater Trio is a charming addition to your cat's autumn and winter wardrobe — with the premium cozy touch of FluffHaven.
-  `,
+Combining three different looks, warmth and seasonal style, this FluffHaven trio is a charming addition to your cat's autumn and winter wardrobe.
+`,
 
   inStock: true,
 
@@ -2470,7 +1856,7 @@ Combining warmth, comfort and adorable seasonal style, the Premium Cozy Knit Cat
   ],
 
   description:
-    "Turn treat time into an exciting game with the Premium Treat Dispensing Chew Ball Duo. This 2-pack includes one black and one blue 9 cm interactive ball designed to release kibble or treats while rolling. The textured TPR surface, engaging movement and treat-dispensing design encourage your dog to play, explore and stay mentally stimulated.",
+  "Turn treat time into an exciting game with the Premium Treat Dispensing Chew Ball Duo. This 2-pack includes one black and one blue 9 cm interactive ball designed to release kibble or treats while rolling. The textured TPR surface and treat-dispensing design encourage your dog to play, explore and stay mentally stimulated.",
 
   seoTitle:
     "Premium Treat Dispensing Chew Ball Duo | Interactive Dog Toy | FluffHaven",
@@ -2481,32 +1867,22 @@ Combining warmth, comfort and adorable seasonal style, the Premium Cozy Knit Cat
   brand: "FluffHaven",
 
   details: `
-✓ Premium interactive dog ball duo
-✓ 2-pack included
-✓ One black ball + one blue ball
-✓ 9 cm size
-✓ Treat dispensing design
-✓ Releases kibble or treats while rolling
-✓ Encourages mental stimulation
-✓ Supports natural foraging instincts
-✓ Textured TPR surface
-✓ Designed for interactive play
-✓ Rolling action keeps dogs engaged
-✓ Suitable for indoor and outdoor play
-✓ Great boredom-buster activity
-✓ Reusable and easy to use
-✓ Premium FluffHaven quality
+✓ 2-pack with one black and one blue interactive ball
+✓ 9 cm treat-dispensing design
+✓ Releases suitable kibble or treats while rolling
+✓ Textured TPR surface for interactive play
+✓ Encourages foraging, activity and mental stimulation
 
+Make treat time more exciting with the Premium Treat Dispensing Chew Ball Duo, featuring two 9 cm interactive balls in black and blue.
 
-Make treat time more exciting with the Premium Treat Dispensing Chew Ball Duo. This premium 2-pack includes one black and one blue 9 cm interactive ball, giving your dog two fun options for everyday enrichment and play.
+Simply place suitable kibble or treats inside and let your dog roll, push and explore as rewards are gradually released.
 
+The rolling action encourages natural foraging behavior while helping keep your dog active and mentally engaged.
 
-Simply place suitable kibble or treats inside the ball and let your dog roll, push and explore. As the ball moves, treats can gradually be released, encouraging natural foraging behavior and helping turn reward time into a more stimulating activity.
+Its textured TPR surface adds another dimension to play, making the balls suitable for everyday indoor or outdoor enrichment.
 
-
-The textured TPR design adds another dimension to play while the rolling movement helps keep your dog interested and active. Perfect for indoor enrichment, rainy autumn days or everyday play, this FluffHaven duo is a practical way to combine treats, activity and mental stimulation.
-  `,
-
+Combining treats, movement and mental stimulation, this reusable FluffHaven duo brings more variety to everyday playtime.
+`,
   inStock: true,
 
   featured: true,
@@ -2538,7 +1914,7 @@ The textured TPR design adds another dimension to play while the rolling movemen
   ],
 
   description:
-    "Turn treat time into an engaging activity with the Premium Silicone Slow Feeder Puzzle Mat. Designed with multiple textured sections that encourage slower eating, licking and interactive treat searching, this premium silicone mat helps make everyday feeding more stimulating. Easy to clean and reusable, it's a practical enrichment accessory for treats, dry food, yogurt and other dog-friendly snacks.",
+  "Turn treat time into an engaging activity with the Premium Silicone Slow Feeder Puzzle Mat. Designed with multiple textured sections, this silicone mat encourages slower eating, licking and interactive treat searching while making feeding more stimulating. Easy to clean and reusable, it's suitable for treats, dry food, yogurt and other dog-friendly snacks.",
 
   seoTitle:
     "Premium Silicone Slow Feeder Puzzle Mat | Dog Enrichment Mat | FluffHaven",
@@ -2549,30 +1925,22 @@ The textured TPR design adds another dimension to play while the rolling movemen
   brand: "FluffHaven",
 
   details: `
-✓ Premium silicone puzzle mat
-✓ Interactive textured design
-✓ Encourages slower feeding
-✓ Designed for treats and dry food
-✓ Suitable for dog-friendly yogurt and snacks
-✓ Helps make feeding more engaging
-✓ Encourages natural searching behavior
-✓ Reusable design
-✓ Easy to clean
-✓ Practical for everyday use
-✓ Lightweight and convenient
-✓ Suitable for indoor enrichment
-✓ Great for rainy autumn days
-✓ Useful throughout the year
-✓ Premium FluffHaven quality
+✓ Textured silicone puzzle mat for interactive feeding
+✓ Encourages slower eating, licking and treat searching
+✓ Suitable for treats, dry food, yogurt and dog-friendly snacks
+✓ Reusable and easy to clean
+✓ Ideal for everyday indoor enrichment
 
+Make treat time more interesting with the Premium Silicone Slow Feeder Puzzle Mat, designed to add stimulation to everyday feeding.
 
-Make everyday treat time more interesting with the Premium Silicone Slow Feeder Puzzle Mat. Its textured surface creates multiple small spaces for treats, dry food and dog-friendly snacks, encouraging your dog to spend more time exploring and enjoying their reward.
+Its textured surface creates multiple spaces for treats, dry food and dog-friendly snacks, encouraging your dog to explore and eat more slowly.
 
-The reusable silicone design also makes cleanup simple after play or feeding sessions. It's a practical enrichment accessory for indoor activities, rainy autumn days and everyday routines throughout the year.
+The mat can also be used with dog-friendly yogurt for licking activities and varied enrichment.
 
-Whether used for slower feeding or an interactive treat activity, this FluffHaven puzzle mat provides a simple way to add extra stimulation to your dog's daily routine.
-  `,
+Its reusable silicone construction makes cleanup simple after feeding or treat sessions.
 
+Combining slower feeding, searching and licking activities, this FluffHaven puzzle mat provides practical enrichment throughout the year.
+`,
   inStock: true,
 
   featured: true,
@@ -2604,7 +1972,7 @@ Whether used for slower feeding or an interactive treat activity, this FluffHave
   ],
 
   description:
-    "Make muddy paw cleanup quick and easy with the Premium Electric Dog Paw Cleaner. Designed with soft rotating silicone bristles, this rechargeable paw cleaner gently surrounds your dog's paw to help remove dirt, mud and debris after outdoor walks. Its portable cordless design makes it especially useful during rainy autumn days and messy winter adventures.",
+  "Make muddy paw cleanup quick and easy with the Premium Electric Dog Paw Cleaner. Designed with soft rotating silicone bristles, this rechargeable cleaner gently surrounds your dog's paw to help remove dirt, mud and debris after outdoor walks. Its portable cordless design makes it practical for rainy autumn days and messy winter adventures.",
 
   seoTitle:
     "Premium Electric Dog Paw Cleaner | Rechargeable Automatic Paw Washer | FluffHaven",
@@ -2615,28 +1983,22 @@ Whether used for slower feeding or an interactive treat activity, this FluffHave
   brand: "FluffHaven",
 
   details: `
-✓ Premium electric dog paw cleaner
-✓ Automatic rotating cleaning
-✓ Soft silicone cleaning bristles
-✓ Gentle paw massage action
-✓ Helps remove mud, dirt & debris
-✓ USB rechargeable
-✓ Cordless & portable design
-✓ Easy one-button operation
-✓ Comfortable for everyday paw care
-✓ Easy to clean after use
-✓ Perfect after rainy walks
-✓ Ideal for autumn & winter
-✓ Blue FluffHaven edition
-✓ Premium FluffHaven quality
+✓ Automatic rotating paw-cleaning system
+✓ Soft silicone bristles for gentle cleaning
+✓ Helps remove mud, dirt and everyday debris
+✓ USB rechargeable with cordless portable design
+✓ Easy one-button operation and removable inner section
 
+Keep muddy paws under control with the Premium Electric Dog Paw Cleaner, designed for rainy walks and messy outdoor adventures.
 
-Keep muddy paws under control with the Premium Electric Dog Paw Cleaner. Designed for rainy autumn walks and messy winter adventures, its automatic rotating system uses soft silicone bristles to gently clean around your dog's paws while helping remove dirt, mud and everyday debris.
+Its automatic rotating system uses soft silicone bristles to gently clean around your dog's paw while helping remove dirt, mud and debris.
 
-The rechargeable cordless design makes paw cleaning quick and convenient at home or after outdoor adventures. Simply add a suitable amount of water, place your dog's paw gently inside and let the soft cleaning system help do the work. After cleaning, remove the inner section for easy rinsing and maintenance.
+Simply add a suitable amount of water, place your dog's paw gently inside and activate the cleaning system with the button.
 
-A practical upgrade from a traditional manual paw cleaner, the Premium Electric Dog Paw Cleaner combines convenience, gentle cleaning and everyday paw care in one compact FluffHaven essential.
-  `,
+The USB rechargeable cordless design makes it convenient to use, while the removable inner section allows easy rinsing after cleaning.
+
+Finished in blue, this compact FluffHaven paw cleaner combines gentle cleaning, portability and practical everyday paw care.
+`,
 
   inStock: true,
 
@@ -2669,7 +2031,7 @@ A practical upgrade from a traditional manual paw cleaner, the Premium Electric 
   ],
 
   description:
-    "Keep your dog warm, comfortable and protected during cold winter adventures with the Premium Winter Reflective Dog Coat. Designed with a warm padded lining, water-resistant outer layer and reflective trim for better visibility, this premium coat is perfect for winter walks, chilly mornings and outdoor adventures. Available in Size L for a comfortable and secure fit.",
+  "Keep your dog warm and protected during cold winter adventures with the Premium Winter Reflective Dog Coat. Designed with a warm padded lining, water-resistant outer layer and reflective trim for better visibility, this coat is ideal for winter walks, chilly mornings and outdoor adventures. Available in Size L for a comfortable and secure fit.",
 
   seoTitle:
     "Premium Winter Reflective Dog Coat | Warm Waterproof Dog Jacket | FluffHaven",
@@ -2680,26 +2042,22 @@ A practical upgrade from a traditional manual paw cleaner, the Premium Electric 
   brand: "FluffHaven",
 
   details: `
-✓ Premium winter dog coat
-✓ Size L
-✓ Chest: 60–70 cm
-✓ Neck: 45–50 cm
-✓ Back length: 50 cm
+✓ Size L — chest 60–70 cm
+✓ Neck 45–50 cm — back length 50 cm
 ✓ Suggested dog weight: 15–22.5 kg
-✓ Warm padded lining
-✓ Water-resistant outer layer
-✓ Reflective trim for better visibility
-✓ Comfortable protective coverage
-✓ Easy to put on and take off
-✓ Perfect for cold winter walks
-✓ Ideal for outdoor adventures
-✓ Premium FluffHaven quality
+✓ Warm padded lining with water-resistant outer layer
+✓ Reflective trim for improved visibility
 
+Make cold-weather walks more comfortable with the Premium Winter Reflective Dog Coat, designed for winter walks and outdoor adventures.
 
-Make cold-weather walks warmer and more comfortable with the Premium Winter Reflective Dog Coat. Designed for winter adventures, this premium coat combines a warm padded construction with a water-resistant outer layer to help protect your dog from cold and damp conditions. Reflective trim improves visibility during darker winter mornings and evenings, while the comfortable design allows your dog to move naturally during walks and outdoor activities.
+Its warm padded lining provides cozy coverage, while the water-resistant outer layer helps protect against cold and damp conditions.
 
-This FluffHaven edition is offered exclusively in Size L. For the best fit, please measure your dog before ordering. Recommended measurements: chest 60–70 cm, neck 45–50 cm, back length 50 cm and suggested weight 15–22.5 kg.
-  `,
+Reflective trim improves visibility during darker winter mornings and evenings while allowing comfortable freedom of movement.
+
+This FluffHaven edition is offered in Size L with a chest of 60–70 cm, neck of 45–50 cm, back length of 50 cm and suggested weight of 15–22.5 kg.
+
+For the best fit, please measure your dog before ordering.
+`,
 
   inStock: true,
 
@@ -2732,7 +2090,7 @@ This FluffHaven edition is offered exclusively in Size L. For the best fit, plea
   ],
 
   description:
-    "Keep your dog warm, comfortable and protected during cold winter walks with the Premium Arctic Waterproof Dog Vest. Designed with a warm insulated construction and protective outer layer, this winter vest helps shield your dog from cold wind and damp weather while allowing comfortable freedom of movement. The blue contrast panel adds a sporty premium look, making it perfect for winter walks, forest adventures and everyday outdoor use.",
+  "Keep your dog warm and protected during cold winter walks with the Premium Arctic Waterproof Dog Vest. Designed with warm insulation and a protective outer layer, this winter vest helps shield your dog from cold wind and damp weather while allowing comfortable freedom of movement. Its blue contrast panel adds a sporty look, ideal for winter walks, forest adventures and everyday outdoor use.",
 
   seoTitle:
     "Premium Arctic Waterproof Dog Vest | Warm Winter Dog Coat | FluffHaven",
@@ -2743,30 +2101,22 @@ This FluffHaven edition is offered exclusively in Size L. For the best fit, plea
   brand: "FluffHaven",
 
   details: `
-✓ Premium winter dog vest
-✓ Size L
-✓ Blue & black design
-✓ Warm insulated construction
-✓ Protective outer layer
-✓ Designed for cold winter weather
-✓ Helps protect against chilly wind
-✓ Comfortable outdoor coverage
-✓ Lightweight padded design
-✓ Comfortable freedom of movement
-✓ Easy to put on and take off
-✓ Sporty premium appearance
-✓ Perfect for winter walks
-✓ Ideal for forest adventures
-✓ Suitable for everyday outdoor use
-✓ Premium FluffHaven winter quality
+✓ Size L winter dog vest
+✓ Warm insulated and lightweight padded construction
+✓ Protective outer layer for cold and damp weather
+✓ Comfortable design allowing freedom of movement
+✓ Sporty blue and black design for outdoor adventures
 
+Keep winter adventures comfortable with the Premium Arctic Waterproof Dog Vest, designed for cold-weather walks and outdoor activities.
 
-Keep winter adventures comfortable with the Premium Arctic Waterproof Dog Vest. Designed especially for cold-weather outings, this premium vest combines warm padded protection with a practical outer layer to help keep your dog comfortable when temperatures drop.
+Its warm padded construction and protective outer layer help provide comfortable coverage against chilly wind and damp conditions.
 
-The blue and black design gives the vest a sporty outdoor look while providing comfortable coverage without unnecessarily restricting movement. It's an excellent choice for everyday winter walks, trips to the park and colder forest adventures.
+The lightweight design allows freedom of movement while remaining easy to put on and take off.
 
-This FluffHaven edition is offered exclusively in Size L. Please measure your dog carefully and compare the measurements with the size guide before ordering to ensure the best possible fit.
-  `,
+Its blue and black styling gives the vest a sporty outdoor look, ideal for winter walks, park trips and forest adventures.
+
+This FluffHaven edition is offered in Size L. Please measure your dog and check the size guide before ordering for the best fit.
+`,
 
   inStock: true,
 
@@ -2799,7 +2149,7 @@ This FluffHaven edition is offered exclusively in Size L. Please measure your do
   ],
 
   description:
-    "Make autumn walks warmer and cozier with the Premium Autumn Fleece Dog Vest Duo. This FluffHaven duo includes two soft fleece vests in Pink and Green, giving your dog two stylish options for cooler autumn days. Designed with a lightweight, comfortable construction and an easy-to-wear sleeveless shape, these cozy vests are perfect for everyday walks, park outings and relaxed autumn adventures.",
+  "Make autumn walks warmer and cozier with the Premium Autumn Fleece Dog Vest Duo. This FluffHaven duo includes two soft fleece vests in Pink and Green, giving your dog two options for cooler autumn days. Designed with a lightweight, comfortable sleeveless shape, these cozy vests are ideal for everyday walks, park outings and autumn adventures.",
 
   seoTitle:
     "Premium Autumn Fleece Dog Vest Duo | 2 Cozy Dog Vests | FluffHaven",
@@ -2810,32 +2160,22 @@ This FluffHaven edition is offered exclusively in Size L. Please measure your do
   brand: "FluffHaven",
 
   details: `
-✓ Premium autumn fleece dog vest duo
-✓ Pack of 2 vests
-✓ Pink vest × 1
-✓ Green vest × 1
-✓ Size L
-✓ Back length: 40 cm
-✓ Chest: 56–66 cm
-✓ Neck: 40–44 cm
-✓ Soft & warm fleece
-✓ Lightweight and comfortable
-✓ Sleeveless design
-✓ Easy to put on and take off
-✓ Comfortable freedom of movement
-✓ Machine washable
-✓ Perfect for cool autumn days
-✓ Ideal for everyday walks
-✓ Cozy seasonal design
-✓ Premium FluffHaven autumn quality
+✓ 2 fleece vests — one Pink and one Green
+✓ Size L — back length approximately 40 cm
+✓ Chest 56–66 cm — neck 40–44 cm
+✓ Soft lightweight fleece with sleeveless design
+✓ Machine washable for easy everyday care
 
+Give your dog two cozy looks for cooler autumn days with the Premium Autumn Fleece Dog Vest Duo, featuring one Pink and one Green fleece vest.
 
-Give your dog two cozy looks for cooler autumn days with the Premium Autumn Fleece Dog Vest Duo. This special FluffHaven pack includes one Pink fleece vest and one Green fleece vest, making it easy to switch styles while keeping your dog comfortable during everyday autumn adventures.
+The soft fleece provides comfortable warmth without the bulk of a heavy winter coat.
 
-The soft fleece construction provides comfortable warmth without the bulk of a heavy winter coat. Its lightweight sleeveless design allows natural movement, making these vests ideal for walks, park visits and relaxed outdoor outings during cooler autumn weather.
+Its lightweight sleeveless design allows natural freedom of movement, making the vests ideal for walks, park visits and relaxed autumn outings.
 
-This FluffHaven duo is offered exclusively in Size L. Recommended measurements are approximately 40 cm back length, 56–66 cm chest and 40–44 cm neck. Please measure your dog carefully before ordering and allow a small 1–3 cm difference when comparing measurements.
-  `,
+This FluffHaven duo is offered in Size L with a 40 cm back length, 56–66 cm chest and 40–44 cm neck.
+
+Please measure your dog before ordering and allow a small 1–3 cm difference when comparing measurements.
+`,
 
   inStock: true,
 
@@ -2868,7 +2208,7 @@ This FluffHaven duo is offered exclusively in Size L. Recommended measurements a
   ],
 
   description:
-    "Keep the fun going after sunset with the Premium LED Glow Dog Flying Disc. Featuring a bright red LED rim for excellent nighttime visibility, this rechargeable flying disc is designed for exciting outdoor games during darker autumn and winter evenings. Lightweight, durable and easy to throw, it's the perfect companion for active dogs who love fetch adventures day or night.",
+  "Keep the fun going after sunset with the Premium LED Glow Dog Flying Disc. Featuring a bright red LED rim for nighttime visibility, this rechargeable flying disc is designed for outdoor games during darker autumn and winter evenings. Lightweight, durable and easy to throw, it's ideal for active dogs who love fetch adventures day or night.",
 
   seoTitle:
     "Premium LED Glow Dog Flying Disc | Rechargeable LED Dog Frisbee | FluffHaven",
@@ -2879,24 +2219,22 @@ This FluffHaven duo is offered exclusively in Size L. Recommended measurements a
   brand: "FluffHaven",
 
   details: `
-✓ Premium LED flying disc
-✓ Bright red LED glow
-✓ Excellent nighttime visibility
-✓ USB rechargeable
-✓ Lightweight & easy to throw
-✓ Durable construction
-✓ Comfortable for active play
-✓ Easy for dogs to spot after sunset
-✓ Perfect for fetch & outdoor games
-✓ Ideal for autumn & winter evenings
-✓ Portable for walks & adventures
-✓ Designed for active dogs
-✓ Premium FluffHaven quality
+✓ Bright red LED glow for nighttime visibility
+✓ USB rechargeable design
+✓ Lightweight and easy to throw
+✓ Durable construction for active fetch play
+✓ Ideal for autumn and winter evening adventures
 
+Keep the fun going after sunset with the Premium LED Glow Dog Flying Disc, designed for outdoor play during darker evenings.
 
-Keep every adventure going long after the sun goes down with the Premium LED Glow Dog Flying Disc. Designed for darker autumn and winter evenings, its bright red LED glow makes the disc easy to spot during outdoor play while adding excitement to every game of fetch. The lightweight design makes it easy to throw and carry, while its durable construction is made for energetic play. Recharge it by USB and take it along for evening walks, garden games and nighttime adventures with your best friend.
-  `,
+Its bright red LED glow makes the disc easy to spot after sunset while adding extra excitement to games of fetch.
 
+The lightweight design makes it easy to throw and carry, while its durable construction is suited to energetic play.
+
+Recharge it conveniently by USB and take it along for evening walks, garden games and nighttime adventures.
+
+Combining visibility, portability and active play, this FluffHaven flying disc keeps fetch going day or night.
+`,
   inStock: true,
 
   featured: true,
@@ -2928,7 +2266,7 @@ Keep every adventure going long after the sun goes down with the Premium LED Glo
   ],
 
   description:
-    "Turn every summer adventure into a safe and unforgettable experience with the Premium Dog Floating Swim Ring. Designed for pools, lakes and beach days, this premium inflatable ring features a comfortable anti-slip mesh seat that keeps your dog supported while enjoying the water. Lightweight, portable and easy to inflate, it's the perfect companion for active dogs who love swimming and relaxing in style.",
+  "Turn every summer adventure into a safe and enjoyable experience with the Premium Dog Floating Swim Ring. Designed for pools, lakes and beach days, this inflatable ring features a comfortable anti-slip mesh seat that keeps your dog supported on the water. Lightweight, portable and easy to inflate, it's ideal for dogs who love swimming and relaxing.",
 
   seoTitle:
     "Premium Dog Floating Swim Ring | Inflatable Dog Pool Float | FluffHaven",
@@ -2939,22 +2277,22 @@ Keep every adventure going long after the sun goes down with the Premium LED Glo
   brand: "FluffHaven",
 
   details: `
-✓ Premium inflatable swim ring
-✓ Comfortable anti-slip mesh seat
-✓ Durable PVC construction
-✓ Stable & buoyant design
-✓ Lightweight & portable
-✓ Easy to inflate & deflate
-✓ Perfect for pools, lakes & beaches
-✓ Comfortable floating support
-✓ Water-resistant materials
-✓ Compact for travel
-✓ Designed for summer adventures
-✓ Ideal for small & medium dogs
-✓ Premium FluffHaven quality
+✓ Anti-slip mesh seat for comfortable floating support
+✓ Durable PVC with stable and buoyant construction
+✓ Lightweight, portable and easy to inflate or deflate
+✓ Ideal for pools, lakes and beach adventures
+✓ Designed for small and medium dogs
 
-Enjoy endless summer fun with the Premium Dog Floating Swim Ring. Designed for adventurous dogs who love the water, this premium inflatable float combines comfort, safety and style. The anti-slip mesh seat offers excellent support while floating, while the durable PVC construction provides long-lasting performance for every adventure. Whether relaxing in the swimming pool, spending the day at the lake or enjoying a beach vacation, your dog can stay cool, comfortable and secure all summer long with FluffHaven's premium quality.
-  `,
+Enjoy summer adventures with the Premium Dog Floating Swim Ring, designed to provide comfortable support while your dog enjoys the water.
+
+The anti-slip mesh seat creates a supportive floating area, while the durable PVC construction provides stability and buoyancy.
+
+Lightweight and easy to inflate or deflate, the ring is convenient to carry and store between adventures.
+
+It's ideal for swimming pools, lake days and beach trips, with water-resistant materials designed for summer use.
+
+Combining floating support, portability and comfort, this FluffHaven swim ring is made for small and medium dogs.
+`,
 
   inStock: true,
 
@@ -2987,7 +2325,7 @@ Enjoy endless summer fun with the Premium Dog Floating Swim Ring. Designed for a
   ],
 
   description:
-    "Keep your dog or cat entertained, relaxed and mentally stimulated with our Premium Lick Mat Trio Pack. Featuring three different food-grade silicone mats with unique textures, this premium enrichment set helps slow feeding, reduce boredom and create refreshing frozen treats during hot summer days.",
+  "Keep your dog or cat entertained and mentally stimulated with the Premium Lick Mat Trio Pack. Featuring three food-grade silicone mats with unique textures, this enrichment set helps slow feeding, reduce boredom and create refreshing frozen treats during hot summer days.",
 
   seoTitle:
     "Premium Lick Mat Trio Pack | Slow Feeder Mats for Dogs & Cats | FluffHaven",
@@ -2998,22 +2336,22 @@ Enjoy endless summer fun with the Premium Dog Floating Swim Ring. Designed for a
   brand: "FluffHaven",
 
   details: `
-✓ Set of 3 premium lick mats
-✓ 3 unique enrichment textures
+✓ Set of 3 lick mats with unique enrichment textures
 ✓ Food-grade BPA-free silicone
-✓ Helps reduce anxiety & boredom
-✓ Encourages slower eating
-✓ Supports healthy digestion
-✓ Strong suction cup design
-✓ Freezer safe for frozen treats
-✓ Dishwasher safe
-✓ Easy to clean
-✓ Suitable for dogs & cats
-✓ Perfect for summer enrichment
-✓ FluffHaven premium quality
+✓ Strong suction cups for stable use
+✓ Freezer and dishwasher safe
+✓ Suitable for both dogs and cats
 
-Make every mealtime more fun and enriching with the Premium Lick Mat Trio Pack. Designed for both dogs and cats, the three unique textured mats encourage slower eating while helping reduce stress and boredom. Fill them with yogurt, wet food, peanut butter or healthy treats, then freeze them for a refreshing summer activity your pet will love.
-  `,
+Make mealtime more enriching with the Premium Lick Mat Trio Pack, featuring three differently textured mats for dogs and cats.
+
+The textured surfaces encourage slower eating while helping provide engaging activity during treat and feeding sessions.
+
+Add yogurt, wet food, peanut butter or suitable healthy treats, then freeze the mats for a refreshing summer activity.
+
+Strong suction cups help keep the mats securely positioned, while the food-grade BPA-free silicone is reusable and easy to clean.
+
+Dishwasher and freezer safe, this FluffHaven trio combines slower feeding, enrichment and convenient everyday care.
+`,
 
   inStock: true,
 
@@ -3046,7 +2384,7 @@ Make every mealtime more fun and enriching with the Premium Lick Mat Trio Pack. 
   ],
 
   description:
-    "Help your dog stay cool and comfortable during hot summer days with our Premium Cooling Gel Dog Mat. Featuring a self-cooling gel core, a fun fish design and a durable waterproof surface, this lightweight Size M mat provides refreshing comfort at home, in the garden, in the car or while travelling.",
+  "Help your dog stay cool and comfortable during hot summer days with the Premium Cooling Gel Dog Mat. Featuring a self-cooling gel core, fun fish design and durable waterproof surface, this lightweight Size M mat provides refreshing comfort at home, in the garden, in the car or while travelling.",
 
   seoTitle:
     "Premium Cooling Gel Dog Mat | Self Cooling Dog Mat | FluffHaven",
@@ -3057,23 +2395,22 @@ Make every mealtime more fun and enriching with the Premium Lick Mat Trio Pack. 
   brand: "FluffHaven",
 
   details: `
-✓ Self cooling gel technology
-✓ Refreshing without refrigeration
-✓ Fun tropical fish design
-✓ Size M
-✓ Waterproof surface
-✓ Non-toxic materials
-✓ Soft & comfortable
-✓ Durable stitched edges
-✓ Anti-slip bottom
-✓ Lightweight & portable
-✓ Easy to wipe clean
-✓ Indoor & outdoor use
-✓ Perfect for hot summer days
-✓ FluffHaven premium quality
+✓ Self-cooling gel technology without refrigeration
+✓ Size M with soft and comfortable surface
+✓ Waterproof surface with anti-slip bottom
+✓ Non-toxic materials with durable stitched edges
+✓ Lightweight and portable for indoor or outdoor use
 
-Keep your dog cool and relaxed during warm weather with the Premium Cooling Gel Dog Mat. The advanced self-cooling gel activates naturally through your dog's body contact, providing refreshing comfort without electricity or refrigeration. Its waterproof surface, durable construction and playful fish pattern make it a practical and stylish summer essential for use at home, in the garden, in the car or while travelling.
-  `,
+Keep your dog cool and relaxed during warm weather with the Premium Cooling Gel Dog Mat.
+
+The self-cooling gel activates naturally through your dog's body contact, providing refreshing comfort without electricity or refrigeration.
+
+Its waterproof surface and anti-slip bottom make the mat practical for everyday use, while durable stitched edges add extra resistance.
+
+Lightweight and easy to clean, it can be used at home, in the garden, in the car or while travelling.
+
+Combining cooling comfort, portability and a playful tropical fish design, this FluffHaven mat is a practical summer essential.
+`,
 
   inStock: true,
 
@@ -3106,7 +2443,7 @@ Keep your dog cool and relaxed during warm weather with the Premium Cooling Gel 
   ],
 
   description:
-    "Keep your dog warm, dry and comfortable after every rainy walk with our Premium Microfiber Drying Towel Duo. This premium bundle includes two ultra-soft microfiber towels in elegant Grey and Pink colors. Highly absorbent, quick drying and machine washable, these large 50 × 100 cm towels are perfect for autumn and winter adventures.",
+  "Keep your dog warm, dry and comfortable after rainy walks with the Premium Microfiber Drying Towel Duo. This bundle includes two ultra-soft microfiber towels in Grey and Pink. Highly absorbent, quick-drying and machine washable, these large 50 × 100 cm towels are ideal for autumn and winter adventures.",
 
   seoTitle:
     "Premium Microfiber Drying Towel Duo | Dog Drying Towels | FluffHaven",
@@ -3117,23 +2454,22 @@ Keep your dog cool and relaxed during warm weather with the Premium Cooling Gel 
   brand: "FluffHaven",
 
   details: `
-✓ Duo Pack included
-✓ Grey & Pink colors
-✓ Size 50 × 100 cm
-✓ Ultra absorbent microfiber
-✓ Super soft fabric
-✓ Quick drying
-✓ Machine washable
-✓ Lightweight & portable
-✓ Gentle on skin & fur
-✓ Premium stitched edges
-✓ Durable everyday quality
-✓ Perfect after rainy walks
-✓ Ideal for autumn & winter
-✓ FluffHaven premium quality
+✓ Duo pack with one Grey and one Pink towel
+✓ Large 50 × 100 cm size
+✓ Ultra-absorbent and quick-drying microfiber
+✓ Soft and gentle on skin and fur
+✓ Machine washable, lightweight and portable
 
-Dry your dog quickly and comfortably after every adventure with the Premium Microfiber Drying Towel Duo. This premium bundle includes two large 50 × 100 cm microfiber towels in elegant Grey and Pink colors. Designed to absorb water fast while remaining incredibly soft on your dog's coat, they dry quickly, are machine washable and built for everyday use. A practical premium essential for rainy autumn walks, bath time and outdoor adventures.
-  `,
+Dry your dog quickly and comfortably after every adventure with the Premium Microfiber Drying Towel Duo.
+
+This FluffHaven bundle includes two large 50 × 100 cm microfiber towels in Grey and Pink.
+
+The ultra-absorbent fabric helps remove water quickly while remaining soft and gentle on your dog's coat and skin.
+
+Quick-drying, lightweight and machine washable, the towels are practical for regular use at home or on the go.
+
+Ideal after rainy walks, baths and outdoor adventures, this duo provides convenient everyday drying throughout autumn and winter.
+`,
 
   inStock: true,
 
@@ -3166,7 +2502,7 @@ Dry your dog quickly and comfortably after every adventure with the Premium Micr
   ],
 
   description:
-    "Give your dog a warm, private and comfortable place to rest with our Premium Winter Teepee Dog Bed. Featuring ultra-soft fleece, a removable cushion and a cozy enclosed design, this premium Size M bed keeps your dog warm throughout autumn and winter.",
+  "Give your dog a warm and private place to rest with the Premium Winter Teepee Dog Bed. Featuring ultra-soft fleece, a removable cushion and a cozy enclosed design, this Size M bed provides comfortable warmth throughout autumn and winter.",
 
   seoTitle:
     "Premium Winter Teepee Dog Bed | Cozy Heated Dog Bed | FluffHaven",
@@ -3177,21 +2513,22 @@ Dry your dog quickly and comfortably after every adventure with the Premium Micr
   brand: "FluffHaven",
 
   details: `
-✓ Premium insulated teepee design
-✓ Ultra-soft fleece interior
-✓ Cozy enclosed hideaway
-✓ Size M (45 × 45 × 38 cm)
-✓ Removable washable cushion
-✓ Non-slip bottom
-✓ Machine washable
-✓ Warm & comfortable
-✓ Lightweight premium construction
-✓ Perfect for small & medium dogs
-✓ Ideal for autumn & winter
-✓ FluffHaven premium quality
+✓ Size M — approximately 45 × 45 × 38 cm
+✓ Cozy enclosed teepee design with ultra-soft fleece
+✓ Removable washable cushion for easy care
+✓ Non-slip bottom with lightweight construction
+✓ Ideal for small and medium dogs in autumn and winter
 
-Create the perfect warm retreat for your dog with the Premium Winter Teepee Dog Bed. Designed with a cozy enclosed shape and ultra-soft fleece lining, it helps your dog feel safe, relaxed and protected from the cold. The removable washable cushion makes cleaning effortless while the non-slip base keeps the bed securely in place. A premium sleeping space for chilly autumn evenings and cold winter days.
-  `,
+Create a warm retreat for your dog with the Premium Winter Teepee Dog Bed, designed as a cozy enclosed space for comfortable rest.
+
+Its ultra-soft fleece interior provides a warm and inviting sleeping area during cooler autumn and winter days.
+
+The Size M design measures approximately 45 × 45 × 38 cm and is suitable for small and medium dogs.
+
+A removable washable cushion makes regular care easier, while the non-slip bottom helps keep the bed securely in place.
+
+Combining warmth, privacy and practical everyday comfort, this FluffHaven teepee creates a cozy seasonal resting space.
+`,
 
   inStock: true,
 
@@ -3235,23 +2572,23 @@ Create the perfect warm retreat for your dog with the Premium Winter Teepee Dog 
   brand: "FluffHaven",
 
   details: `
-✓ Waterproof premium fabric
-✓ Reflective safety strips
-✓ Bright yellow color
+✓ Premium waterproof fabric
+✓ Reflective safety strips for enhanced visibility
+✓ Bright yellow high-visibility design
 ✓ Size M
 ✓ Lightweight & comfortable
 ✓ Adjustable secure fit
-✓ Harness opening
+✓ Convenient harness opening
 ✓ Protective hood
-✓ Wind resistant
+✓ Wind-resistant design
 ✓ Easy to clean
 ✓ Durable premium construction
 ✓ Perfect for rainy walks
 ✓ Ideal for autumn & winter
 ✓ FluffHaven premium quality
 
-Enjoy every rainy adventure with the Premium Reflective Dog Raincoat. Crafted from waterproof premium fabric, this lightweight Size M raincoat keeps your dog dry while reflective safety strips improve visibility during darker autumn and winter walks. Featuring a protective hood, adjustable straps and a practical harness opening, it offers comfort, safety and style in every weather condition.
-  `,
+Keep your dog comfortable, protected and visible whatever the weather. The Premium Reflective Dog Raincoat combines waterproof protection with reflective safety strips to help improve visibility during darker or rainy walks. Its lightweight Size M design features a protective hood, adjustable fit and convenient harness opening for comfortable everyday use. Durable, practical and easy to clean, it's an ideal companion for autumn and winter adventures.
+`,
 
   inStock: true,
 
@@ -3284,7 +2621,7 @@ Enjoy every rainy adventure with the Premium Reflective Dog Raincoat. Crafted fr
   ],
 
   description:
-    "Keep every evening walk safe with our Premium LED Safety Collar Twin Pack. This premium bundle includes two USB rechargeable LED collars in Flash Red and Flash Green. Featuring three lighting modes, weather-resistant construction and high visibility up to 500 meters, these collars help your dog stay visible during autumn and winter adventures.",
+  "Make every evening walk safer with our Premium LED Safety Collar Twin Pack. This premium bundle includes two USB-rechargeable LED collars in Flash Red and Flash Green. Featuring three lighting modes, weather-resistant construction and high visibility up to 500 meters, these lightweight collars help keep your dog visible during evening walks and autumn and winter adventures.",
 
   seoTitle:
     "Premium LED Safety Collar Twin Pack | USB Rechargeable Dog Collar | FluffHaven",
@@ -3312,8 +2649,8 @@ Enjoy every rainy adventure with the Premium Reflective Dog Raincoat. Crafted fr
 ✓ Ideal for autumn & winter
 ✓ FluffHaven premium quality
 
-Stay visible and enjoy every walk with the Premium LED Safety Collar Twin Pack. Designed for safer evening adventures, this premium bundle includes two rechargeable LED collars in Flash Red and Flash Green. Featuring three lighting modes, weather-resistant construction and visibility up to 500 meters, these collars provide extra peace of mind during autumn and winter walks. Lightweight, comfortable and easy to recharge with USB, they are perfect for everyday use while maintaining the premium FluffHaven style.
-  `,
+Make evening walks safer and more enjoyable with the Premium LED Safety Collar Twin Pack. This premium bundle includes two USB-rechargeable LED collars in Flash Red and Flash Green, giving you a practical visibility solution for darker adventures. Three lighting modes — quick flash, slow flash and steady light — let you choose the right setting for every walk, while visibility up to 500 meters helps your dog stand out in low-light conditions. Lightweight, adjustable and weather resistant, these Size M collars combine everyday comfort, durability and visibility for autumn and winter walks.
+`,
 
   inStock: true,
 
@@ -3346,7 +2683,7 @@ Stay visible and enjoy every walk with the Premium LED Safety Collar Twin Pack. 
   ],
 
   description:
-    "Keep your dog warm wherever you go with our Premium Winter Dog Blanket Trio. This premium pack includes three ultra-soft Size M blankets in elegant white, orange and pink colors. Perfect for home, the sofa, the car or travel, these cozy fleece blankets provide exceptional warmth and comfort throughout autumn and winter.",
+  "Keep your dog warm wherever you go with the Premium Winter Dog Blanket Trio. This pack includes three ultra-soft Size M fleece blankets in white, orange and pink. Perfect for home, the sofa, car or travel, they provide cozy comfort throughout autumn and winter.",
 
   seoTitle:
     "Premium Winter Dog Blanket Trio | Cozy Dog Blanket Pack | FluffHaven",
@@ -3357,23 +2694,22 @@ Stay visible and enjoy every walk with the Premium LED Safety Collar Twin Pack. 
   brand: "FluffHaven",
 
   details: `
-✓ Pack of 3 premium dog blankets
-✓ White, Orange & Pink colors
-✓ Size M
-✓ Ultra-soft fleece fabric
-✓ Warm and breathable
-✓ Lightweight & portable
-✓ Perfect for home & travel
-✓ Ideal for the sofa, bed or crate
-✓ Great for the car
-✓ Machine washable
-✓ Durable premium stitching
-✓ Suitable for small & medium dogs
-✓ Perfect for autumn & winter
-✓ FluffHaven premium quality
+✓ 3 blankets — White, Orange & Pink
+✓ Size M for small and medium dogs
+✓ Ultra-soft, warm and breathable fleece
+✓ Lightweight, portable and machine washable
+✓ Ideal for home, car and travel
 
-Designed to keep your dog warm and comfortable wherever life takes you. This Premium Winter Dog Blanket Trio includes three ultra-soft Size M fleece blankets that are perfect for home, the sofa, your pet's bed or the car. Lightweight yet incredibly cozy, they provide extra warmth during cooler autumn and winter days while remaining easy to wash and carry. A practical premium bundle for everyday comfort and travel.
-  `,
+Keep your dog cozy with the Premium Winter Dog Blanket Trio, featuring three soft fleece blankets in white, orange and pink.
+
+The lightweight Size M design is suitable for small and medium dogs while providing comfortable warmth during cooler days.
+
+Use them on the sofa, pet bed, inside a crate or in the car for an extra layer of comfort.
+
+The blankets are lightweight and easy to carry, making them practical for both home and travel.
+
+Machine washable and designed for everyday use, this FluffHaven trio is ideal throughout autumn and winter.
+`,
 
   inStock: true,
 
@@ -3406,7 +2742,7 @@ Designed to keep your dog warm and comfortable wherever life takes you. This Pre
   ],
 
   description:
-    "Keep your dog active, entertained and happy with our Premium Rope Play Box. This carefully selected 4-piece toy set includes a rope ball, rope bone, rope duck and rope tug toy, designed for interactive play, healthy chewing and everyday fun while helping support dental hygiene.",
+  "Keep your dog active and entertained with the Premium Rope Play Box. This 4-piece set includes a rope ball, rope bone, rope duck and rope tug toy for interactive play, chewing and everyday fun while helping support dental hygiene.",
 
   seoTitle:
     "Premium Rope Play Box | 4 Rope Dog Toys | FluffHaven",
@@ -3417,23 +2753,22 @@ Designed to keep your dog warm and comfortable wherever life takes you. This Pre
   brand: "FluffHaven",
 
   details: `
-✓ Includes 4 premium rope toys
-✓ Rope ball
-✓ Rope bone
-✓ Rope duck
-✓ Rope tug toy
-✓ Encourages interactive play
-✓ Helps clean teeth naturally
+✓ 4-piece rope toy set
+✓ Rope ball, bone, duck & tug toy
 ✓ Durable woven cotton rope
-✓ Supports healthy chewing habits
-✓ Suitable for small and medium dogs
-✓ Perfect for fetch and tug games
-✓ Soft yet durable construction
-✓ Everyday mental stimulation
-✓ FluffHaven premium quality
+✓ Supports chewing and dental hygiene
+✓ Ideal for small and medium dogs
 
-A complete rope toy collection designed to keep your dog entertained, active and engaged while supporting healthier teeth through natural chewing.
-  `,
+Keep your dog active with the Premium Rope Play Box, featuring four different rope toys for varied everyday play.
+
+The set includes a rope ball, rope bone, rope duck and rope tug toy for chewing, fetching and tug games.
+
+Durable woven cotton rope provides a soft yet resistant construction for interactive play.
+
+Natural chewing can also help support everyday dental hygiene while keeping your dog engaged.
+
+Designed for small and medium dogs, this FluffHaven set combines play, chewing and enrichment in one practical collection.
+`,
 
   inStock: true,
 
@@ -3465,7 +2800,7 @@ A complete rope toy collection designed to keep your dog entertained, active and
   ],
 
   description:
-    "Turn every meal into a healthier and more stimulating experience with our Premium Dog Enrichment Duo. Each order includes two slow feeding mats — one blue and one pink — designed to encourage slower eating, reduce gulping and keep your dog mentally engaged during mealtime.",
+  "Turn mealtime into a healthier and more stimulating experience with the Premium Dog Enrichment Duo. This set includes two slow feeding mats — one blue and one pink — designed to encourage slower eating, reduce gulping and keep your dog mentally engaged.",
 
   seoTitle:
     "Premium Dog Enrichment Duo | 2 Slow Feeding Mats | FluffHaven",
@@ -3476,23 +2811,22 @@ A complete rope toy collection designed to keep your dog entertained, active and
   brand: "FluffHaven",
 
   details: `
-✓ Includes 2 slow feeding mats
-✓ 1 Blue + 1 Pink
-✓ Encourages slower eating
-✓ Helps reduce gulping
-✓ Supports healthier digestion
-✓ Provides daily mental stimulation
-✓ Soft food-grade silicone
-✓ Strong suction base
-✓ Fits most pet bowls
+✓ 2 slow feeding mats — Blue & Pink
+✓ Food-grade silicone with strong suction base
+✓ Encourages slower eating and helps reduce gulping
 ✓ Suitable for wet food, treats and dry kibble
-✓ Easy to clean
-✓ Dishwasher safe
-✓ Perfect for dogs of all sizes
-✓ FluffHaven premium quality
+✓ Dishwasher safe and suitable for dogs of all sizes
 
-A practical two-piece enrichment set designed to make every meal calmer, healthier and more enjoyable for your dog.
-  `,
+Make mealtime more engaging with the Premium Dog Enrichment Duo, featuring two slow feeding mats in blue and pink.
+
+The textured design encourages slower eating while helping reduce gulping and providing mental stimulation during meals.
+
+Made from soft food-grade silicone, each mat features a strong suction base and fits most pet bowls.
+
+Use them with wet food, treats or dry kibble for varied everyday feeding.
+
+Easy to clean and dishwasher safe, this FluffHaven duo provides a practical enrichment solution for dogs of all sizes.
+`,
 
   inStock: true,
 
@@ -3524,7 +2858,7 @@ A practical two-piece enrichment set designed to make every meal calmer, healthi
   ],
 
   description:
-    "Protect your dog's paws all year round with our Premium Dog Paw Balm. Designed to deeply moisturize, repair cracked paw pads and create a natural barrier against hot pavement, winter salt and rough terrain. Gentle, effective and perfect for everyday adventures.",
+  "Protect your dog's paws year-round with the Premium Dog Paw Balm. Designed to moisturize dry paw pads and help protect against hot pavement, winter salt and rough terrain, it's a practical essential for everyday adventures.",
 
   seoTitle:
     "Premium Dog Paw Balm | Natural Paw Protection | FluffHaven",
@@ -3535,19 +2869,23 @@ A practical two-piece enrichment set designed to make every meal calmer, healthi
   brand: "FluffHaven",
 
   details: `
-✓ Repairs cracked paws
-✓ Deep hydration
-✓ Natural ingredients
-✓ Hot pavement protection
-✓ Winter salt protection
-✓ Safe for daily use
-✓ Lightweight stick format
-✓ Easy to apply
+✓ Helps moisturize dry and cracked paw pads
+✓ Natural ingredients for everyday paw care
+✓ Helps protect against hot pavement and winter salt
+✓ Lightweight stick format for easy application
 ✓ Suitable for all dog breeds
-✓ FluffHaven premium quality
 
-Keep your dog's paws soft, healthy and protected during every walk. Perfect for daily care in every season.
-  `,
+Keep your dog's paws comfortable and protected with the Premium Dog Paw Balm.
+
+Its moisturizing formula helps care for dry and cracked paw pads during everyday walks.
+
+It also provides practical paw protection against hot pavement, winter salt and changing outdoor conditions.
+
+The lightweight stick format makes application quick and convenient at home or on the go.
+
+Suitable for all dog breeds, this FluffHaven paw balm is designed for everyday care throughout the year.
+`,
+
 },
 
 {
@@ -3576,7 +2914,7 @@ Keep your dog's paws soft, healthy and protected during every walk. Perfect for 
   ],
 
   description:
-    "Keep your dog active, entertained and mentally stimulated with this smart rolling dog ball. Featuring automatic movement, bouncing action and USB rechargeable technology, it encourages healthy exercise while satisfying your dog's natural chasing instincts. Built from durable, pet-safe materials for endless interactive fun.",
+  "Keep your dog active and entertained with this smart rolling dog ball. Featuring automatic movement, bouncing action and USB rechargeable power, it encourages exercise and natural chasing instincts. Made from durable, pet-safe materials for interactive everyday play.",
 
   seoTitle:
     "Smart Rolling Dog Ball | Automatic Interactive Dog Toy | FluffHaven",
@@ -3587,19 +2925,22 @@ Keep your dog's paws soft, healthy and protected during every walk. Perfect for 
   brand: "FluffHaven",
 
   details: `
-✓ Automatic rolling & bouncing
-✓ Changes direction automatically
-✓ Encourages active daily exercise
-✓ Provides healthy mental stimulation
-✓ Helps reduce boredom & destructive behaviour
-✓ USB rechargeable battery
-✓ Long battery life
-✓ Durable pet-safe construction
-✓ Easy to clean & water resistant
-✓ Suitable for small, medium & large dogs
+✓ Automatic rolling, bouncing and direction changes
+✓ Encourages physical activity and mental stimulation
+✓ USB rechargeable with long battery life
+✓ Durable pet-safe and water-resistant construction
+✓ Suitable for small, medium and large dogs
 
-Designed to keep your dog moving, thinking and having fun while promoting a healthier and more active lifestyle.
-  `,
+Keep your dog moving and engaged with this Smart Rolling Dog Ball, designed for interactive everyday play.
+
+Its automatic rolling and bouncing action changes direction to encourage chasing and active movement.
+
+The unpredictable movement provides mental stimulation while helping reduce everyday boredom.
+
+USB rechargeable with long battery life, it's convenient for repeated play sessions.
+
+Durable, pet-safe and easy to clean, this water-resistant toy is suitable for dogs of all sizes.
+`,
 
   inStock: true,
 
@@ -3632,7 +2973,7 @@ Designed to keep your dog moving, thinking and having fun while promoting a heal
   ],
 
   description:
-    "Keep your dog happy, active and mentally stimulated with this interactive treat ball. Designed as both a puzzle toy and slow feeder, it encourages healthy eating habits while rewarding play. Made from durable, BPA-free materials and suitable for treats or kibble.",
+  "Keep your dog active and mentally stimulated with this interactive treat ball. Combining puzzle play with slow feeding, it encourages rewarding activity and slower eating. Made from durable BPA-free materials and suitable for treats or kibble.",
 
   seoTitle:
     "Interactive Dog Treat Ball | Puzzle Toy & Slow Feeder | FluffHaven",
@@ -3643,19 +2984,22 @@ Designed to keep your dog moving, thinking and having fun while promoting a heal
   brand: "FluffHaven",
 
   details: `
-✓ Interactive puzzle toy
-✓ Dispenses treats gradually
-✓ Encourages slower eating
-✓ Provides healthy mental stimulation
-✓ Helps reduce boredom & anxiety
+✓ Interactive puzzle with gradual treat dispensing
+✓ Encourages slower eating and mental stimulation
 ✓ Durable BPA-free construction
-✓ Suitable for treats & kibble
-✓ Easy to fill & clean
-✓ Ideal for daily enrichment
-✓ Suitable for small, medium & large dogs
+✓ Easy to fill and clean — suitable for treats or kibble
+✓ Suitable for small, medium and large dogs
 
-Designed to turn every snack into a fun, rewarding and engaging experience.
-  `,
+Turn snack time into an engaging activity with this Interactive Treat Ball.
+
+As your dog plays, treats or kibble are gradually released, encouraging slower eating and rewarding exploration.
+
+The puzzle-style design provides mental stimulation while helping reduce everyday boredom.
+
+Made from durable BPA-free materials, the ball is easy to fill and clean for regular use.
+
+Suitable for dogs of all sizes, it's a simple FluffHaven enrichment toy for everyday play.
+`,
 
   inStock: true,
 
@@ -3688,7 +3032,7 @@ Designed to turn every snack into a fun, rewarding and engaging experience.
   ],
 
   description:
-    "Turn every treat into a fun and calming experience. This premium silicone lick mat helps reduce boredom, encourages slower eating and provides healthy mental enrichment. Perfect for peanut butter, yogurt, wet food and frozen treats.",
+  "Turn treat time into a calming activity with this premium silicone lick mat. Designed to encourage slower eating and mental enrichment, it's ideal for peanut butter, yogurt, wet food and frozen treats.",
 
   seoTitle:
     "Premium Dog Lick Mat | Slow Feeder & Enrichment Mat | FluffHaven",
@@ -3699,19 +3043,23 @@ Designed to turn every snack into a fun, rewarding and engaging experience.
   brand: "FluffHaven",
 
   details: `
-✓ Slows down fast eating
-✓ Reduces boredom & anxiety
-✓ Encourages healthy mental stimulation
-✓ Strong suction cups
+✓ Encourages slower eating and mental stimulation
+✓ Strong suction cups for stable use
 ✓ Food-grade BPA-free silicone
-✓ Dishwasher safe
-✓ Freezer safe
-✓ Easy to clean
-✓ Perfect for peanut butter, yogurt & wet food
-✓ Suitable for small, medium & large dogs
+✓ Dishwasher and freezer safe
+✓ Suitable for dogs of all sizes
 
-Designed to make every treat healthier, calmer and more enjoyable.
-  `,
+Make treat time calmer and more engaging with this Premium Silicone Lick Mat.
+
+Its textured surface encourages slower licking while providing mental stimulation and helping reduce everyday boredom.
+
+Strong suction cups help keep the mat securely positioned during use.
+
+Add peanut butter, yogurt, wet food or suitable treats, then freeze it for a longer-lasting activity.
+
+Made from food-grade BPA-free silicone, it's easy to clean and suitable for small, medium and large dogs.
+`,
+
 },
 
 {
@@ -3740,7 +3088,7 @@ Designed to make every treat healthier, calmer and more enjoyable.
   ],
 
   description:
-    "Keep your dog cool and comfortable on hot summer days with this lightweight cooling bandana. Simply soak it in cold water, wring it out, and place it around your dog's neck for refreshing cooling relief during walks, outdoor adventures, or relaxing in the garden.",
+  "Keep your dog cool on hot summer days with this lightweight cooling bandana. Simply soak it in cold water, wring it out and place it around your dog's neck for refreshing comfort during walks, outdoor adventures or relaxing in the garden.",
 
   seoTitle:
     "Cooling Dog Bandana | Cooling Neck Wrap for Dogs | FluffHaven",
@@ -3751,16 +3099,22 @@ Designed to make every treat healthier, calmer and more enjoyable.
   brand: "FluffHaven",
 
   details: `
-✓ Cooling fabric activated with water
-✓ Lightweight & breathable
-✓ Comfortable around the neck
-✓ Reusable all summer long
-✓ Ideal for walks & outdoor activities
-✓ Easy to soak and reuse
-✓ Suitable for small, medium & large dogs
+✓ Water-activated cooling fabric
+✓ Lightweight and breathable
+✓ Easy to soak, wring and reuse
+✓ Ideal for summer walks and outdoor activities
+✓ Suitable for small, medium and large dogs
 
-Designed to help your dog stay cool, comfortable and happy during warm weather.
-  `,
+Keep your dog comfortable on warm days with this reusable Cooling Dog Bandana.
+
+Simply soak it in cold water, wring out the excess and place it comfortably around your dog's neck.
+
+The lightweight breathable fabric provides refreshing comfort without adding unnecessary bulk.
+
+Easy to reactivate with water, it's practical for walks, garden time and summer adventures.
+
+Suitable for dogs of all sizes, it's a simple FluffHaven essential for hot-weather activities.
+`,
 },
 {
   id: 24,
@@ -3788,7 +3142,7 @@ Designed to help your dog stay cool, comfortable and happy during warm weather.
   ],
 
   description:
-    "Keep your dog cool and active during hot summer days with this durable splash pad. Designed with a non-slip surface and refreshing water spray, it's perfect for outdoor fun, exercise and staying comfortable in warm weather.",
+  "Keep your dog cool and active with this durable summer splash pad. Featuring a non-slip surface and refreshing water spray, it's perfect for outdoor play, exercise and warm-weather fun.",
 
   seoTitle:
     "Dog Splash Pad | Cooling Water Play Mat for Dogs | FluffHaven",
@@ -3802,12 +3156,18 @@ Designed to help your dog stay cool, comfortable and happy during warm weather.
 ✓ Refreshing water sprinkler
 ✓ Non-slip textured surface
 ✓ Durable PVC construction
-✓ Easy garden hose connection
-✓ Adjustable water pressure
-✓ Foldable & easy to store
-✓ Ideal for hot summer days
+✓ Easy garden hose connection with adjustable pressure
+✓ Foldable and easy to store
 
-Designed to help dogs stay cool, active and happy during warm weather.
+Keep your dog cool and active with this refreshing Summer Splash Pad.
+
+Simply connect it to a garden hose to create a playful water sprinkler for warm-weather fun.
+
+The adjustable water pressure lets you control the spray for different play sessions.
+
+Its durable PVC construction and textured non-slip surface are designed for practical outdoor use.
+
+Foldable and easy to store, it's a convenient FluffHaven essential for hot summer days.
 `,
 },
 
@@ -3829,7 +3189,7 @@ Designed to help dogs stay cool, active and happy during warm weather.
   ],
 
   description:
-    "Help your dog stay cool during hot summer days with this premium evaporative cooling vest. Lightweight, reusable and designed for maximum comfort during walks, hikes and outdoor adventures.",
+  "Help your dog stay cool with this premium evaporative cooling vest. Lightweight and reusable, it's designed for comfortable summer walks, hikes and outdoor adventures.",
 
   seoTitle:
     "Premium Dog Cooling Vest | Cooling Vest for Dogs | FluffHaven",
@@ -3840,15 +3200,21 @@ Designed to help dogs stay cool, active and happy during warm weather.
   brand: "FluffHaven",
 
   details: `
-✔ Activated with fresh water
-✔ Natural evaporative cooling
-✔ Lightweight & breathable
-✔ Adjustable straps
-✔ Comfortable fit
-✔ Reusable & machine washable
-✔ Perfect for walks, hikes & summer adventures
+✓ Fresh water-activated evaporative cooling
+✓ Lightweight and breathable
+✓ Adjustable straps for a comfortable fit
+✓ Reusable and machine washable
+✓ Ideal for walks, hikes and summer adventures
 
-Designed to help keep your dog cool and comfortable during warm weather.
+Keep your dog comfortable during warm weather with this Premium Evaporative Cooling Vest.
+
+Simply activate the vest with fresh water before use to provide natural evaporative cooling.
+
+Its lightweight breathable construction helps maintain comfort during outdoor activities.
+
+Adjustable straps provide a comfortable fit while allowing freedom of movement.
+
+Reusable and machine washable, it's a practical FluffHaven essential for summer walks, hikes and adventures.
 `,
 },
   {
@@ -3865,19 +3231,27 @@ Designed to help keep your dog cool and comfortable during warm weather.
     customers: "2,500+",
     priceId: "price_1TnRLzKn0lmTcQ11cl1ya902",
     images: ["/brosse_anti_poils.webp","/brosse_anti_poils2.webp","/brosse_anti_poils3.webp"],
-    description: "Remove pet hair in seconds. No sticky tape, no mess. Perfect for home, clothes and car.",
+    description: "Remove pet hair in seconds with this practical cleaning tool. No sticky tape and no mess — perfect for clothes, furniture and the car.",
     seoTitle: "Pet Hair Remover Roller | Dog Hair Remover | FluffHaven",
     seoDescription:
   "Remove pet hair in seconds with our reusable Pet Hair Remover Roller. Eco-friendly, durable and perfect for sofas, clothes and car seats.",
     brand: "FluffHaven",
     details: `
-✔ Removes pet hair instantly
-✔ No sticky tape needed
-✔ Reusable & eco-friendly
-✔ Works on sofa, clothes & car seats
-✔ Self-cleaning system
+✓ Removes pet hair quickly
+✓ No sticky tape needed
+✓ Reusable and eco-friendly
+✓ Works on sofas, clothes and car seats
+✓ Convenient self-cleaning system
 
-Perfect for keeping your home clean every day.
+Remove pet hair quickly without disposable sticky tape.
+
+The reusable design makes everyday cleaning simple and convenient.
+
+Use it on sofas, clothing and car seats to collect loose pet hair.
+
+Its self-cleaning system makes removing collected hair quick and practical.
+
+A simple FluffHaven essential for keeping pet-friendly spaces cleaner every day.
 `,
   },
 
@@ -3892,18 +3266,26 @@ Perfect for keeping your home clean every day.
     badge: "⭐ Premium",
     priceId: "price_1TnRJKKn0lmTcQ11EWFaj5lt",
     images: ["/housse_chien.webp","/housse_chien2.webp","/housse_chien3.webp"],
-    description: "Protect your car from dirt, scratches and pet hair. Waterproof and easy to install.",
+    description: "Protect your car from dirt, scratches and pet hair with this waterproof car protector. Easy to install and practical for everyday trips with your dog.",
     seoTitle: "Dog Car Seat Cover | Waterproof Car Protection | FluffHaven",
     seoDescription: "Protect your car seats from dog hair, dirt and scratches with this waterproof Dog Car Seat Cover. Easy to install, anti-slip and ideal for daily travel.",
     brand: "FluffHaven",
     details: `
-✔ 100% waterproof protection
-✔ Anti-slip backing
-✔ Protects against mud, hair & scratches
-✔ Easy installation in seconds
-✔ Fits most cars & SUVs
+✓ 100% waterproof protection
+✓ Anti-slip backing
+✓ Protects against mud, pet hair and scratches
+✓ Quick and easy installation
+✓ Fits most cars and SUVs
 
-Travel with your dog stress-free.
+Protect your car during everyday trips with this practical waterproof protector.
+
+The waterproof surface helps shield seats from mud, pet hair and everyday mess.
+
+Its anti-slip backing helps keep the protector securely positioned while travelling.
+
+Quick installation makes it easy to prepare your car whenever your dog comes along.
+
+Designed to fit most cars and SUVs, it's a practical FluffHaven essential for cleaner journeys.
 `,
   },
 
@@ -3918,18 +3300,26 @@ Travel with your dog stress-free.
     badge: "🔥 Best Seller",
     priceId: "price_1TnRHQKn0lmTcQ11EgBfVKzy",
     images: ["/harnais_chien.webp","/harnais_chien2.webp","/harnais_chien3.webp"],
-    description: "Stop pulling instantly. Comfortable harness designed for strong dogs and daily walks.",
+    description: "Help reduce pulling with this comfortable harness designed for strong dogs and everyday walks. Built for better control while keeping your dog comfortable on the move.",
     seoTitle: "No-Pull Dog Harness | Comfortable Dog Harness | FluffHaven",
     seoDescription: "Walk your dog comfortably with this No-Pull Dog Harness. Strong, adjustable and designed to reduce pulling while keeping your dog safe.",
     brand: "FluffHaven",
     details: `
-✔ Reduces pulling instantly
-✔ Front clip control system
-✔ Comfortable padding
-✔ Strong & durable materials
-✔ Adjustable for all sizes
+✓ Helps reduce pulling during walks
+✓ Front clip for better control
+✓ Comfortable padded design
+✓ Strong and durable materials
+✓ Adjustable fit for different dog sizes
 
-Perfect for daily walks and training.
+Enjoy more comfortable everyday walks with this practical No-Pull Dog Harness.
+
+The front clip design provides additional control and helps manage pulling during walks.
+
+Comfortable padding helps provide a more pleasant fit for regular use.
+
+Strong durable materials make the harness suitable for everyday walking and training.
+
+With its adjustable design, it can be adapted to different dog sizes for a secure and comfortable fit.
 `,
   },
 
@@ -3944,18 +3334,26 @@ Perfect for daily walks and training.
     badge: "⚡ Popular",
     priceId: "price_1TnRF0Kn0lmTcQ115JFX0Ue8",
     images: ["/ponceuse_griffe.webp","/ponceuse_griffe2.webp","/ponceuse_griffe3.webp"],
-    description: "Trim your pet's nails safely and stress-free. Quiet, precise and easy to use.",
+    description: "Trim your pet's nails comfortably with this quiet and precise nail grinder. Easy to use and designed for gentle everyday nail care.",
     seoTitle: "Electric Dog Nail Grinder | Safe Dog Nail Trimmer | FluffHaven",
     seoDescription: "Trim your dog's nails safely with this quiet electric nail grinder. Precise, rechargeable and stress-free grooming at home.",
     brand: "FluffHaven",
     details: `
-✔ Safe & painless nail trimming
-✔ Quiet motor (no stress)
-✔ 2 speed settings
-✔ Built-in LED for precision
-✔ USB rechargeable
+✓ Gentle and precise nail trimming
+✓ Quiet motor for more comfortable grooming
+✓ 2 speed settings
+✓ Built-in LED for better visibility
+✓ USB rechargeable
 
-Professional grooming at home.
+Make everyday nail care easier with this quiet and precise Pet Nail Grinder.
+
+Two speed settings let you adapt the grinder to your pet's grooming needs.
+
+The quiet motor is designed for a calmer and more comfortable grooming experience.
+
+A built-in LED improves visibility around the nail for greater precision during use.
+
+USB rechargeable and easy to use, it's a practical FluffHaven grooming tool for convenient nail care at home.
 `,
   },
 
@@ -3975,17 +3373,26 @@ Professional grooming at home.
     "/clean_orange_2.webp",
     "/clean_plage.webp",
   ],
-  description: "Gentle silicone bristles remove mud & dirt effortlessly after every walk. No more muddy floors. Works for all breeds.",
+  description: "Clean muddy paws after every walk with gentle silicone bristles designed to remove dirt and mud. Easy to use and suitable for dogs of all breeds.",
   seoTitle: "Dog Paw Cleaner | Portable Paw Washer | FluffHaven",
   seoDescription: "Clean muddy paws in seconds with this portable Dog Paw Cleaner. Soft silicone bristles, orange colour and perfect after every walk.",
   brand: "FluffHaven",
   details: `
-✔ Soft silicone bristles
-✔ Orange colour
-✔ Easy to clean
-✔ Works for all breeds
+✓ Soft silicone cleaning bristles
+✓ Orange colour
+✓ Helps remove mud and dirt
+✓ Easy to clean after use
+✓ Suitable for all dog breeds
 
-No more muddy floors after walks.
+Keep muddy paws under control with this practical Dog Paw Cleaner.
+
+Soft silicone bristles gently surround the paw to help remove dirt and mud after outdoor walks.
+
+Its simple design makes everyday paw cleaning quick and convenient.
+
+The cleaner is easy to rinse and prepare for the next use.
+
+Suitable for all breeds, it's a practical FluffHaven essential for rainy and muddy adventures.
 `,
 },
   {
@@ -4005,19 +3412,26 @@ No more muddy floors after walks.
     "/sac_gris.webp",
   ],
 
-  description: "Travel water bottle for dogs with a foldable lid that doubles as a drinking bowl. Leak-proof, BPA-free silicone, 580 ml. Perfect for hikes, walks & road trips.",
+  description: "Keep your dog hydrated on the go with this 580 ml travel water bottle. Featuring a foldable lid that doubles as a drinking bowl, it's leak-proof, made with BPA-free silicone and ideal for walks, hikes and road trips.",
   seoTitle: "Portable Dog Water Bottle | Leak-Proof Travel Bottle | FluffHaven",
   seoDescription: "Keep your dog hydrated anywhere with this portable leak-proof water bottle. Foldable drinking bowl, BPA-free and perfect for walks and travel.",
   brand: "FluffHaven",
   details: `
-✔ Foldable lid doubles as bowl
-✔ Leak-proof design
-✔ BPA-free silicone
-✔ 580 ml capacity
-✔ Green colour
-✔ Perfect for hikes, walks & road trips
+✓ 580 ml travel water bottle
+✓ Foldable lid doubles as a drinking bowl
+✓ Leak-proof design
+✓ BPA-free silicone in green
+✓ Ideal for walks, hikes and road trips
 
-Perfect for outdoor adventures.
+Keep your dog hydrated wherever you go with this practical Travel Water Bottle.
+
+The foldable lid doubles as a convenient drinking bowl, making water breaks simple during outdoor adventures.
+
+Its 580 ml capacity provides a practical amount of water for everyday trips and walks.
+
+The leak-proof design and BPA-free silicone make it convenient to carry in your travel gear.
+
+Compact and practical, it's a useful FluffHaven companion for walks, hikes and road trips.
 `,
 },
   {
@@ -4031,18 +3445,26 @@ Perfect for outdoor adventures.
     badge: "Summer",
     priceId: "price_1TnRi3Kn0lmTcQ11LovAAnUy",
     images: ["/tapis_rafraichissant.webp", "/tapis_rafraichissant_2.webp", "/tapis_rafraichissant_3.webp"],
-    description: "Self-cooling silk surface keeps your pet comfortable all summer. Waterproof & non-slip bottom. Machine washable. Perfect for dogs & cats.",
+    description: "Keep your pet comfortable all summer with this self-cooling silk mat. Featuring a waterproof, non-slip bottom and machine-washable design, it's a practical cooling space for both dogs and cats.",
     seoTitle: "Premium Cooling Mat for Dogs | Summer Cooling Pad | FluffHaven",
     seoDescription: "Help your dog stay cool during hot summer days with this self-cooling mat. Waterproof, washable and comfortable for home or travel.",
     brand: "FluffHaven",
     details: `
-✔ Self-cooling silk surface
-✔ Waterproof & non-slip bottom
-✔ Machine washable
-✔ Size: 70×55 cm
-✔ Blue colour
+✓ Self-cooling silk surface
+✓ Size 70 × 55 cm
+✓ Waterproof and non-slip bottom
+✓ Machine washable
+✓ Blue colour
 
-Keeps your pet cool all summer long.
+Keep your pet comfortable during warm summer days with this practical Self-Cooling Pet Mat.
+
+The silk surface provides a refreshing resting area without complicated setup.
+
+Its 70 × 55 cm format offers a comfortable space for everyday relaxation.
+
+A waterproof non-slip bottom helps protect the floor while keeping the mat securely positioned.
+
+Machine washable and suitable for dogs and cats, it's a convenient FluffHaven essential for summer comfort.
 `,
   },
   {
@@ -4056,18 +3478,26 @@ Keeps your pet cool all summer long.
     badge: "Popular",
     priceId: "price_1TnRbAKn0lmTcQ11q9YMW9qe",
     images: ["/peigne_brosse_3.webp", "/peigne_brosse_2.webp", "/peigne_brosse.webp"],
-    description: "One-click steam & water spray, electric massage, and detangling bristles all in one. USB rechargeable. Helps reduce flying hair.",
+    description: "Combine grooming and massage with this electric spray brush. Featuring one-click water spray, massage and detangling bristles, it's USB rechargeable and helps reduce loose and flying pet hair.",
     seoTitle: "3-in-1 Steam Grooming Brush | Pet Grooming Brush | FluffHaven",
     seoDescription: "Reduce shedding and groom your pet easily with this 3-in-1 steam grooming brush. Gentle, rechargeable and suitable for dogs and cats.",
     brand: "FluffHaven",
     details: `
-✔ One-click steam spray
-✔ Electric massage function
-✔ Detangling bristles
-✔ USB rechargeable
-✔ For cats & dogs
+✓ One-click water spray
+✓ Electric massage function
+✓ Detangling bristles
+✓ USB rechargeable
+✓ Suitable for cats and dogs
 
-Professional grooming at home.
+Make everyday grooming easier with this practical Electric Spray Grooming Brush.
+
+The one-click spray helps lightly moisten the coat during brushing.
+
+Detangling bristles help collect loose hair while brushing through the coat.
+
+The electric massage function adds a gentle grooming experience for everyday care.
+
+USB rechargeable and suitable for cats and dogs, it's a convenient FluffHaven grooming tool for home use.
 `,
   },
 
@@ -4089,7 +3519,7 @@ Professional grooming at home.
   ],
 
   description:
-    "Remove pet hair instantly from sofas, clothes, carpets and car seats. Reusable, washable and easy to use every day.",
+  "Remove pet hair from sofas, clothes, carpets and car seats with this practical reusable remover. Washable and easy to use for everyday cleaning.",
 
   seoTitle:
     "Pet Hair Remover Glove | Reusable Pet Grooming Glove | FluffHaven",
@@ -4100,13 +3530,21 @@ Professional grooming at home.
   brand: "FluffHaven",
 
   details: `
-✔ Electrostatic hair removal
-✔ Reusable & washable
-✔ Works on clothes, sofas & carpets
-✔ Comfortable five-finger design
-✔ Perfect for dogs & cats
+✓ Electrostatic pet hair removal
+✓ Reusable and washable
+✓ Works on clothes, sofas and carpets
+✓ Comfortable five-finger design
+✓ Suitable for dogs and cats
 
-A simple and effective way to keep your home clean.
+Remove loose pet hair easily with this reusable five-finger grooming glove.
+
+Its electrostatic design helps collect pet hair from everyday surfaces.
+
+Use it on clothing, sofas and carpets for convenient cleaning around the home.
+
+The comfortable five-finger shape provides easy control during use.
+
+Washable and reusable, it's a practical FluffHaven cleaning accessory for dog and cat owners.
 `,
 },
 {
@@ -4127,7 +3565,7 @@ A simple and effective way to keep your home clean.
   ],
 
   description:
-    "Help your dog eat slower and reduce gulping. A practical slow feeder bowl designed for calmer, healthier mealtimes.",
+  "Help your dog eat more slowly with this practical slow feeder bowl. Designed to reduce gulping and encourage calmer, more comfortable mealtimes.",
 
   seoTitle: "Slow Feeder Dog Bowl | Healthy Eating Bowl | FluffHaven",
 
@@ -4137,12 +3575,20 @@ A simple and effective way to keep your home clean.
   brand: "FluffHaven",
 
   details: `
-✔ Helps slow down fast eating
-✔ Anti-choking raised maze design
-✔ Medium size for daily meals
-✔ Easy to clean
+✓ Helps slow down fast eating
+✓ Raised maze design
+✓ Medium size for daily meals
+✓ Easy to clean
 
-A simple way to make mealtime calmer and safer.
+Make everyday meals calmer with this practical Slow Feeder Dog Bowl.
+
+The raised maze design encourages your dog to eat at a slower pace.
+
+Slower eating can help reduce gulping during everyday meals.
+
+Its medium size makes it practical for regular feeding at home.
+
+Easy to clean and simple to use, it's a convenient FluffHaven accessory for everyday mealtimes.
 `,
 },
 
@@ -4172,7 +3618,7 @@ A simple way to make mealtime calmer and safer.
   ],
 
   description:
-    "Make every meal more comfortable and organized with the Premium Elevated Triple Cat Feeding Station. This complete feeding set features an elegant elevated wooden stand with three removable stainless steel bowls and a protective feeding mat. The raised design provides a comfortable eating position, while the three-bowl configuration offers convenient space for food, water or multiple cats. Stylish, practical and easy to clean, it fits beautifully into warm and modern home interiors.",
+  "Make mealtime more comfortable with the Premium Elevated Triple Cat Feeding Station. Featuring an elevated wooden stand, three removable stainless steel bowls and a protective feeding mat, it provides convenient space for food, water or multiple cats while keeping the feeding area organized.",
 
   seoTitle:
     "Premium Elevated Triple Cat Feeding Station | 3 Bowls | FluffHaven",
@@ -4183,33 +3629,22 @@ A simple way to make mealtime calmer and safer.
   brand: "FluffHaven",
 
   details: `
-✓ Premium elevated cat feeding station
+✓ Elevated natural wooden feeding station
 ✓ 3 removable stainless steel bowls
-✓ Natural wooden feeder stand
-✓ Comfortable elevated design
-✓ Suitable for food and water
-✓ Great for single or multi-cat homes
-✓ Durable stainless steel bowls
-✓ Easy-to-clean removable bowls
-✓ Stable wooden construction
-✓ Protective feeding mat included
-✓ Helps catch food and water spills
-✓ Keeps the feeding area organized
-✓ Stylish natural wood design
-✓ Ideal for indoor use
-✓ Perfect for kitchens and feeding areas
-✓ Premium FluffHaven quality
+✓ Suitable for food, water or multi-cat homes
+✓ Protective feeding mat helps catch spills
+✓ Stable, stylish and easy-to-clean design
 
+Create an organized mealtime space with the Premium Elevated Triple Cat Feeding Station.
 
-Create a comfortable and organized mealtime space for your cat with the Premium Elevated Triple Cat Feeding Station. Its raised wooden design keeps three stainless steel bowls conveniently positioned for everyday feeding while adding a warm and elegant touch to your home.
+The natural wooden stand keeps three stainless steel bowls elevated for comfortable everyday feeding.
 
+Three removable bowls provide flexible space for dry food, wet food and water, or shared feeding in multi-cat homes.
 
-The three removable bowls provide plenty of flexibility for serving dry food, wet food and fresh water, or for creating a convenient shared feeding station in multi-cat households. Stainless steel construction also makes the bowls durable and simple to clean after meals.
+The included protective mat helps catch crumbs and water spills while keeping the surrounding area cleaner.
 
-
-A protective feeding mat completes the set by helping contain crumbs and water spills around the feeding area. Combining practical everyday features with a beautiful natural wood look, this premium FluffHaven feeding station is designed to make mealtimes cleaner, more comfortable and more stylish.
-  `,
-
+Stable, practical and easy to maintain, this FluffHaven feeding station combines everyday convenience with a warm natural look.
+`,
   inStock: true,
 
   featured: true,
@@ -4241,7 +3676,7 @@ A protective feeding mat completes the set by helping contain crumbs and water s
   ],
 
   description:
-    "Give your cat a warm and comfortable place to relax with the Premium Cozy Cat Sofa Bed. Designed like a miniature sofa, this plush Size L bed features a spacious 90 × 80 cm resting area, soft fabric and supportive raised edges for cozy everyday lounging. Its elegant cream and black pattern blends beautifully into modern home interiors, making it a stylish choice for autumn and winter comfort.",
+  "Give your cat a cozy place to relax with the Premium Cozy Cat Sofa Bed. This plush Size L bed features a spacious 90 × 80 cm resting area, soft fabric and supportive raised edges. Its elegant cream and black design is perfect for comfortable autumn and winter lounging.",
 
   seoTitle:
     "Premium Cozy Cat Sofa Bed | Plush 90 × 80 cm Cat Bed | FluffHaven",
@@ -4252,32 +3687,22 @@ A protective feeding mat completes the set by helping contain crumbs and water s
   brand: "FluffHaven",
 
   details: `
-✓ Premium sofa-style cat bed
-✓ Size L
-✓ Approximately 90 × 80 cm
-✓ Soft and plush sleeping surface
-✓ Comfortable raised side bolsters
-✓ Supportive head and neck resting areas
-✓ Spacious lounging design
-✓ Cozy cream and black pattern
-✓ Anti-slip bottom
-✓ Stable on indoor surfaces
-✓ Soft pet-friendly materials
-✓ Comfortable for everyday relaxation
-✓ Stylish home-friendly design
-✓ Ideal for sofas, armchairs and floors
-✓ Perfect for autumn and winter
-✓ Premium FluffHaven quality
+✓ Size L — approximately 90 × 80 cm
+✓ Soft plush sofa-style sleeping surface
+✓ Raised bolsters for comfortable support
+✓ Anti-slip bottom for added stability
+✓ Cream & black design for autumn and winter
 
+Give your cat a cozy place to rest with the Premium Cozy Cat Sofa Bed.
 
-Give your cat its own cozy little sofa with the Premium Cozy Cat Sofa Bed. Its spacious 90 × 80 cm design creates a comfortable place for lounging, napping and relaxing throughout the day.
+Its spacious 90 × 80 cm design provides plenty of room for lounging, napping and everyday relaxation.
 
+Soft plush fabric and raised side bolsters create a comfortable sofa-style resting area with supportive edges.
 
-Soft plush fabric provides a warm and inviting resting surface, while the raised side bolsters create a cozy sofa-like shape and provide comfortable support around your cat. The anti-slip base helps keep the bed securely positioned during everyday use.
+The anti-slip bottom helps keep the bed stable on indoor surfaces, whether placed on the floor, sofa or a suitable armchair.
 
-
-With its elegant cream and black pattern, this premium bed fits beautifully into bedrooms and living rooms and can even be placed on a sofa or large armchair. Designed especially for the cooler autumn and winter months, it combines comfort, style and a cozy FluffHaven look.
-  `,
+With its elegant cream and black design, this FluffHaven bed combines comfort and seasonal style for autumn and winter.
+`,
 
   inStock: true,
 
@@ -4310,7 +3735,7 @@ With its elegant cream and black pattern, this premium bed fits beautifully into
   ],
 
   description:
-    "Create the perfect cozy retreat for your cat with the Premium 3-in-1 Cozy Cat Tunnel Bed. Designed with three comfortable hideaway tunnels and a spacious padded lounging area, this Size L bed combines sleeping, hiding and playful exploration in one stylish design. The soft plush lining and warm cushioned surface make it an inviting indoor retreat for autumn and winter.",
+  "Create a cozy retreat with the Premium 3-in-1 Cozy Cat Tunnel Bed. This Size L bed features three hideaway tunnels and a padded lounging area for sleeping, hiding and playful exploration. Soft plush lining provides extra comfort throughout autumn and winter.",
 
   seoTitle:
     "Premium 3-in-1 Cozy Cat Tunnel Bed | Size L | FluffHaven",
@@ -4321,32 +3746,22 @@ With its elegant cream and black pattern, this premium bed fits beautifully into
   brand: "FluffHaven",
 
   details: `
-✓ Premium 3-in-1 cat tunnel bed
-✓ Size L
-✓ Approximately 75 × 55 cm
-✓ Three cozy tunnel hideaways
+✓ Size L — approximately 75 × 55 cm
+✓ Three plush-lined tunnel hideaways
 ✓ Spacious padded lounging area
-✓ Soft plush tunnel lining
-✓ Comfortable cushioned surface
-✓ Encourages natural hiding behavior
-✓ Perfect for sleeping, relaxing and play
-✓ Warm and cozy indoor design
-✓ Soft pet-friendly materials
-✓ Multiple resting positions
-✓ Stylish home-friendly appearance
-✓ Ideal for bedrooms and living rooms
-✓ Perfect for autumn and winter
-✓ Premium FluffHaven quality
+✓ Designed for sleeping, hiding and play
+✓ Ideal for indoor autumn and winter comfort
 
+Create a private retreat with the Premium 3-in-1 Cozy Cat Tunnel Bed.
 
-Give your cat a private little world of comfort with the Premium 3-in-1 Cozy Cat Tunnel Bed. Combining three cozy hideaways with a spacious padded lounging area, it creates a versatile place for sleeping, relaxing, hiding and playful exploration.
+Its 75 × 55 cm Size L design combines three hideaway tunnels with a spacious padded lounging area.
 
+Soft plush lining and a cushioned surface provide comfortable spaces for sleeping, relaxing and stretching out.
 
-The soft plush-lined tunnel entrances provide a warm and secure retreat whenever your cat wants some quiet time, while the large cushioned surface offers plenty of room for stretching out and relaxing. Its three-way design also encourages natural curiosity and hiding behavior.
+The three-tunnel design encourages natural hiding behavior and playful exploration while offering multiple resting positions.
 
-
-With its warm neutral tones and elegant indoor design, this premium cat bed fits beautifully into bedrooms and living spaces. Designed especially for the cooler autumn and winter months, it combines comfort, enrichment and the cozy premium style of FluffHaven.
-  `,
+Designed for bedrooms and living spaces, this FluffHaven bed combines comfort and enrichment throughout autumn and winter.
+`,
 
   inStock: true,
 
@@ -4379,7 +3794,7 @@ With its warm neutral tones and elegant indoor design, this premium cat bed fits
   ],
 
   description:
-    "Keep your feline companion warm, stylish and comfortable with our Premium Winter Cat Jacket Duo. This premium winter pack includes two Size M jackets in elegant white and black colors. Featuring ultra-soft fleece collars, windproof fabric, secure D-rings and smooth zipper closures, these jackets provide warmth, comfort and protection during colder days while giving your cat a fashionable winter look.",
+  "Keep your cat warm and stylish with the Premium Winter Cat Jacket Duo. This Size M pack includes two jackets in white and black, featuring soft fleece collars, windproof fabric, secure D-rings and zipper closures for comfortable winter wear.",
 
   seoTitle:
     "Premium Winter Cat Jacket Duo | Warm Cat Jacket Pack | FluffHaven",
@@ -4390,22 +3805,22 @@ With its warm neutral tones and elegant indoor design, this premium cat bed fits
   brand: "FluffHaven",
 
   details: `
-✓ Pack of 2 premium winter jackets
-✓ White & Black color combination
-✓ Size M
-✓ Ultra-soft fleece collar
-✓ Warm padded interior
-✓ Windproof & water-resistant fabric
-✓ Built-in D-ring for leash attachment
-✓ Smooth front zipper
-✓ Comfortable lightweight design
-✓ Easy to put on & remove
-✓ Machine washable
-✓ Perfect for winter walks
-✓ FluffHaven premium quality
+✓ 2 Size M jackets — White & Black
+✓ Soft fleece collar with warm padded interior
+✓ Windproof and water-resistant fabric
+✓ Built-in D-rings with front zipper closure
+✓ Lightweight, machine washable and easy to wear
 
-Designed for cats who enjoy exploring while staying warm and comfortable. The Premium Winter Cat Jacket Duo includes two premium Size M jackets featuring ultra-soft fleece collars, warm insulated padding, durable windproof fabric and secure built-in D-rings for leash attachment. Whether you're heading outdoors or simply keeping your cat cozy during colder months, this premium winter pack combines comfort, protection and elegant style all season long.
-  `,
+Keep your cat cozy with the Premium Winter Cat Jacket Duo, featuring two Size M jackets in white and black.
+
+Soft fleece collars and padded interiors provide comfortable warmth during colder days.
+
+The windproof and water-resistant fabric adds practical protection for winter outings.
+
+Built-in D-rings provide convenient leash attachment, while the front zipper makes each jacket easy to put on and remove.
+
+Lightweight and machine washable, this FluffHaven duo combines warmth, practicality and winter style.
+`,
 
   inStock: true,
 
@@ -4438,7 +3853,7 @@ Designed for cats who enjoy exploring while staying warm and comfortable. The Pr
   ],
 
   description:
-    "Turn scratching and playtime into an engaging daily adventure with our Premium Interactive Cat Scratcher Maze. Featuring a unique two-level honeycomb cardboard design and an interactive rolling ball, this playful scratcher encourages your cat's natural instincts to scratch, chase and explore. Its durable corrugated cardboard surface provides a satisfying scratching texture while helping keep curious paws entertained indoors.",
+  "Turn scratching into interactive play with the Premium Interactive Cat Scratcher Maze. Featuring a two-level honeycomb cardboard design and rolling ball, it encourages scratching, chasing and exploration while providing a durable textured surface for indoor play.",
 
   seoTitle:
     "Premium Interactive Cat Scratcher Maze | Cat Toy & Scratcher | FluffHaven",
@@ -4449,23 +3864,22 @@ Designed for cats who enjoy exploring while staying warm and comfortable. The Pr
   brand: "FluffHaven",
 
   details: `
-✓ Premium interactive cat scratcher
-✓ Unique 2-level maze design
-✓ Durable honeycomb cardboard
+✓ 2-level interactive scratcher maze
+✓ Durable honeycomb cardboard surface
 ✓ Interactive rolling ball included
-✓ Encourages natural scratching instincts
-✓ Stimulates chasing and hunting behavior
-✓ Helps keep indoor cats entertained
-✓ Satisfying textured scratching surface
-✓ Great for daily play and enrichment
-✓ Lightweight and easy to move
-✓ Modern decorative design
+✓ Encourages scratching, chasing and exploration
 ✓ Suitable for kittens and adult cats
-✓ Perfect for year-round indoor play
-✓ FluffHaven premium quality
 
-Give your cat a playful place to scratch, chase and explore with the Premium Interactive Cat Scratcher Maze. Its distinctive two-level honeycomb cardboard structure combines a satisfying scratching surface with an interactive ball that encourages movement, curiosity and natural hunting instincts. Designed for everyday indoor enrichment, it offers your feline companion an entertaining way to play while providing a dedicated scratching space that fits beautifully into the home.
-  `,
+Give your cat a dedicated space to scratch and play with the Premium Interactive Cat Scratcher Maze.
+
+Its two-level honeycomb cardboard design provides a textured scratching surface for everyday use.
+
+The included rolling ball encourages chasing, curiosity and playful exploration.
+
+Lightweight and easy to move, the maze provides practical enrichment for indoor cats.
+
+Suitable for kittens and adult cats, it's a fun FluffHaven scratching and play accessory for year-round use.
+`,
 
   inStock: true,
 
@@ -4498,7 +3912,7 @@ Give your cat a playful place to scratch, chase and explore with the Premium Int
   ],
 
   description:
-    "Give your cat the ultimate winter comfort with our Cozy Cat Cave Duo. This premium pack includes two ultra-soft Size M cat caves in beautiful blue and green colors. Designed with plush fleece interiors, enclosed cave beds and soft removable cushions, they provide a warm, private and secure sleeping space your cat will love throughout the colder season.",
+  "Keep your cat cozy with the Cozy Cat Cave Duo. This Size M pack includes two soft cave beds in blue and green, featuring plush fleece interiors and removable cushions for a warm, private resting space throughout winter.",
 
   seoTitle:
     "Cozy Cat Cave Duo | Winter Cat Cave Bed Pack | FluffHaven",
@@ -4509,22 +3923,22 @@ Give your cat a playful place to scratch, chase and explore with the Premium Int
   brand: "FluffHaven",
 
   details: `
-✓ Pack of 2 premium cat caves
-✓ Blue & Green color combination
-✓ Size M
-✓ Ultra-soft plush fleece interior
-✓ Cozy enclosed cave design
-✓ Soft removable cushion
-✓ Hanging pom-pom toy included
-✓ Warm & private sleeping space
-✓ Machine washable
-✓ Durable premium fabric
-✓ Perfect for indoor cats
-✓ Ideal for winter
-✓ FluffHaven premium quality
+✓ 2 Size M cat caves — Blue & Green
+✓ Plush fleece interior with enclosed design
+✓ Removable cushion and hanging pom-pom toy
+✓ Durable fabric and machine washable
+✓ Ideal for indoor winter comfort
 
-Designed for cats who love warm, private and secure sleeping spaces. The Cozy Cat Cave Duo includes two premium Size M cave beds featuring ultra-soft plush fleece interiors, removable cushions and a cozy enclosed design that helps your cat feel safe and relaxed. Perfect for multi-cat households or for placing one bed in different rooms, this premium winter pack keeps your feline companion comfortable all season long.
-  `,
+Create a warm retreat with the Cozy Cat Cave Duo, featuring two Size M beds in blue and green.
+
+The enclosed design and plush fleece interior provide a cozy and private sleeping space.
+
+Each cave includes a removable cushion and hanging pom-pom toy for added comfort and playful interest.
+
+The two-bed pack is practical for multi-cat homes or for creating resting spaces in different rooms.
+
+Durable and machine washable, this FluffHaven duo is designed for comfortable indoor use throughout winter.
+`,
 
   inStock: true,
 
@@ -4557,7 +3971,7 @@ Designed for cats who love warm, private and secure sleeping spaces. The Cozy Ca
   ],
 
   description:
-    "Wrap your cat in warmth and comfort during chilly autumn days with our Premium Autumn Cozy Cat Blanket. Made from ultra-soft fleece with a plush sherpa lining, this premium blanket offers a cozy resting place while adding a beautiful seasonal touch to your home.",
+  "Keep your cat warm with the Premium Autumn Cozy Cat Blanket. Made from ultra-soft fleece with a plush sherpa lining, it provides a cozy resting space while adding a warm seasonal touch to your home.",
 
   seoTitle:
     "Premium Autumn Cozy Cat Blanket | Soft Fleece Cat Blanket | FluffHaven",
@@ -4568,22 +3982,22 @@ Designed for cats who love warm, private and secure sleeping spaces. The Cozy Ca
   brand: "FluffHaven",
 
   details: `
-✓ Ultra-soft premium fleece
-✓ Warm sherpa backing
+✓ Ultra-soft fleece with warm sherpa backing
 ✓ Large 70 × 100 cm size
-✓ Cozy autumn design
 ✓ Lightweight and breathable
-✓ Gentle on fur and skin
-✓ Machine washable
-✓ Perfect for beds, sofas and carriers
-✓ Comfortable everyday use
-✓ Ideal for chilly autumn days
-✓ Durable premium stitching
-✓ Elegant seasonal pattern
-✓ FluffHaven premium quality
+✓ Machine washable with durable stitching
+✓ Ideal for beds, sofas and carriers
 
-Give your feline companion a warm and cozy place to relax with the Premium Autumn Cozy Cat Blanket. Crafted from soft fleece with a plush sherpa lining, this premium blanket provides exceptional comfort while keeping your cat warm during cooler autumn weather. Its generous 70 × 100 cm size makes it ideal for sofas, beds, carriers or your cat's favorite resting spot. Stylish, durable and easy to maintain, it's the perfect autumn essential for every cozy home.
-  `,
+Keep your cat cozy with the Premium Autumn Cozy Cat Blanket.
+
+Its soft fleece and plush sherpa backing provide comfortable warmth during cooler autumn days.
+
+The generous 70 × 100 cm size creates plenty of space for resting and relaxing.
+
+Lightweight and gentle on fur, it can be used on beds, sofas, inside carriers or in your cat's favorite resting spot.
+
+Machine washable and durable, this FluffHaven blanket combines everyday comfort with a cozy autumn look.
+`,
 
   inStock: true,
 
@@ -4616,7 +4030,7 @@ Give your feline companion a warm and cozy place to relax with the Premium Autum
   ],
 
   description:
-    "Keep your cat warm, comfortable and adorable during cooler autumn days with our Premium Autumn Teddy Cat Vest. Made from soft fleece with a charming teddy bear pocket, this lightweight Size M vest provides cozy comfort while allowing your cat to move freely. Perfect for everyday indoor wear or relaxing autumn moments.",
+  "Keep your cat cozy during cooler days with the Premium Autumn Teddy Cat Vest. Made from soft fleece with a charming teddy bear pocket, this lightweight Size M vest provides comfortable warmth while allowing easy movement for everyday indoor wear.",
 
   seoTitle:
     "Premium Autumn Teddy Cat Vest | Cozy Cat Fleece Vest | FluffHaven",
@@ -4627,22 +4041,22 @@ Give your feline companion a warm and cozy place to relax with the Premium Autum
   brand: "FluffHaven",
 
   details: `
-✓ Soft premium fleece fabric
-✓ Comfortable Size M
-✓ Adorable teddy bear pocket
-✓ Lightweight everyday comfort
-✓ Cozy autumn warmth
-✓ Gentle on your cat's fur
-✓ Comfortable stretchy neckline
-✓ Easy to put on and remove
-✓ Machine washable
-✓ Indoor everyday wear
-✓ Perfect for cooler autumn days
-✓ Cute teddy print design
-✓ FluffHaven premium quality
+✓ Soft fleece — Size M
+✓ Teddy bear pocket and print design
+✓ Lightweight with comfortable stretchy neckline
+✓ Easy to wear and machine washable
+✓ Ideal for indoor wear and cooler autumn days
 
-Keep your feline companion warm and stylish throughout the autumn season with the Premium Autumn Teddy Cat Vest. Crafted from soft fleece material, this cozy vest offers lightweight warmth without restricting movement. The charming teddy bear pocket and elegant teddy print create an adorable premium look, while the comfortable Size M fit makes it ideal for everyday wear. Easy to clean, comfortable to wear and designed for cozy autumn adventures, it's the perfect seasonal essential for your cat.
-  `,
+Keep your cat cozy with the Premium Autumn Teddy Cat Vest.
+
+Soft fleece provides lightweight warmth while allowing comfortable everyday movement.
+
+The teddy bear pocket and matching print give the vest its charming seasonal look.
+
+A stretchy neckline makes it comfortable and easy to put on and remove.
+
+Machine washable and designed for indoor use, this FluffHaven vest is a cozy choice for cooler autumn days.
+`,
 
   inStock: true,
 
@@ -4675,7 +4089,7 @@ Keep your feline companion warm and stylish throughout the autumn season with th
   ],
 
   description:
-    "Keep your cat warm and comfortable during cooler days with our Self-Warming Cat Mat. Using a heat-reflective inner layer, it naturally reflects your cat's body heat without electricity. The ultra-soft fleece surface, non-slip base and machine-washable design make it the perfect cozy resting spot for autumn and winter.",
+  "Keep your cat cozy with the Self-Warming Cat Mat. Its heat-reflective inner layer reflects body heat without electricity, while the soft fleece surface, non-slip base and machine-washable design provide practical comfort throughout autumn and winter.",
 
   seoTitle:
     "Self-Warming Cat Mat | Cozy Heated Cat Bed | FluffHaven",
@@ -4686,21 +4100,22 @@ Keep your feline companion warm and stylish throughout the autumn season with th
   brand: "FluffHaven",
 
   details: `
-✓ Self-warming heat-reflective layer
+✓ Heat-reflective self-warming layer
 ✓ No electricity required
-✓ Ultra-soft fleece surface
-✓ Comfortable & cozy sleeping area
-✓ Non-slip bottom
-✓ Machine washable
-✓ Lightweight & portable
-✓ Ideal for autumn & winter
-✓ Suitable for kittens & adult cats
-✓ Perfect for sofas, floors & pet beds
-✓ Premium comfort for everyday use
-✓ FluffHaven premium quality
+✓ Soft fleece with non-slip bottom
+✓ Lightweight and machine washable
+✓ Suitable for kittens and adult cats
 
-Designed to naturally reflect your cat's body heat, this premium self-warming mat provides a warm and cozy resting place without using electricity. The ultra-soft fleece fabric offers exceptional comfort while the non-slip base keeps the mat securely in place. Perfect for cooler autumn and winter days, whether at home, on the sofa or inside your cat's favorite sleeping spot.
-  `,
+Keep your cat cozy with the Self-Warming Cat Mat.
+
+Its heat-reflective inner layer naturally reflects your cat's body heat without electricity.
+
+The soft fleece surface provides a comfortable resting area, while the non-slip bottom helps keep the mat in place.
+
+Lightweight and washable, it's easy to use on sofas, floors or pet beds.
+
+Suitable for kittens and adult cats, this FluffHaven mat provides everyday comfort throughout autumn and winter.
+`,
 
   inStock: true,
 
@@ -4733,7 +4148,7 @@ Designed to naturally reflect your cat's body heat, this premium self-warming ma
   ],
 
   description:
-    "Keep your cat warm and protected during cold winter outings with the Premium Arctic Winter Cat Snowsuit. Designed especially for chilly weather, this premium padded suit provides full-body coverage with a cozy insulated construction and protective hood. Its lightweight yet warm design helps provide extra comfort during winter walks, outdoor adventures and cold-weather travel.",
+  "Keep your cat warm during cold outings with the Premium Arctic Winter Cat Snowsuit. This lightweight padded suit features full-body coverage, insulated construction and a protective hood for comfortable winter walks, outdoor adventures and travel.",
 
   seoTitle:
     "Premium Arctic Winter Cat Snowsuit | Warm Cat Jacket | FluffHaven",
@@ -4744,32 +4159,22 @@ Designed to naturally reflect your cat's body heat, this premium self-warming ma
   brand: "FluffHaven",
 
   details: `
-✓ Premium winter cat snowsuit
-✓ Size S
-✓ Designed specifically for winter
-✓ Ultra-warm padded construction
-✓ Full-body cold-weather coverage
-✓ Cozy insulated design
-✓ Protective hood
-✓ Helps protect against chilly weather
-✓ Comfortable four-leg design
-✓ Lightweight winter protection
-✓ Soft and comfortable interior
-✓ Designed for outdoor winter outings
-✓ Ideal for cold-weather walks
-✓ Perfect for winter travel
-✓ Stylish premium white finish
-✓ Premium FluffHaven winter quality
+✓ Size S with premium white finish
+✓ Warm padded and insulated construction
+✓ Full-body four-leg coverage
+✓ Protective hood with soft interior
+✓ Ideal for winter walks and travel
 
+Keep your cat cozy outdoors with the Premium Arctic Winter Cat Snowsuit.
 
-Give your cat extra warmth during the coldest season with the Premium Arctic Winter Cat Snowsuit. Designed specifically for winter, this premium padded outfit combines cozy insulation with full-body coverage to help keep your cat comfortable during chilly outdoor adventures.
+Its padded insulated construction provides comfortable warmth during colder weather.
 
+The full-body four-leg design offers extended coverage, while the protective hood adds extra protection around the head and neck.
 
-The four-leg construction provides extended coverage while the protective hood adds extra comfort around the neck and head area. Its warm padded design makes it particularly suitable for cats that need additional protection when temperatures drop.
+Lightweight with a soft interior, the Size S design is made for comfortable cold-weather outings.
 
-
-This FluffHaven edition is offered in Size S with a premium white finish. Warm, stylish and designed for winter outings, it's a standout seasonal piece for cats venturing outside during the colder months.
-  `,
+Finished in white, this FluffHaven snowsuit is a practical seasonal choice for winter walks, adventures and travel.
+`,
 
   inStock: true,
 
@@ -4802,7 +4207,7 @@ This FluffHaven edition is offered in Size S with a premium white finish. Warm, 
   ],
 
   description:
-    "Give your cat an exceptionally warm and cozy retreat during the coldest months with the Premium Arctic Cozy Cat Cave. Designed with a thick insulated structure, ultra-soft Arctic fleece interior and enclosed cave shape, it creates a comfortable private space that helps retain warmth. Perfect for chilly autumn evenings and cold winter days, this premium FluffHaven cat cave combines warmth, comfort and beautiful seasonal style.",
+  "Give your cat a warm retreat with the Premium Arctic Cozy Cat Cave. Featuring a thick insulated structure, soft Arctic fleece interior and enclosed design, it helps retain warmth for comfortable resting during chilly autumn evenings and cold winter days.",
 
   seoTitle:
     "Premium Arctic Cozy Cat Cave | Ultra-Warm Winter Cat Bed | FluffHaven",
@@ -4813,32 +4218,22 @@ This FluffHaven edition is offered in Size S with a premium white finish. Warm, 
   brand: "FluffHaven",
 
   details: `
-✓ Premium ultra-warm cat cave
-✓ Size S: 45 × 30 × 19 cm
-✓ Designed for autumn & winter
-✓ Ultra-soft Arctic fleece interior
-✓ Thick padded construction
-✓ Cozy enclosed cave design
-✓ Helps retain body warmth
-✓ Soft and comfortable sleeping surface
-✓ Warm protective interior
-✓ Private space for resting & sleeping
-✓ Comfortable raised sides
-✓ Perfect for chilly rooms
-✓ Ideal for cold autumn evenings
-✓ Excellent winter sleeping spot
-✓ Lightweight & easy to move
-✓ Premium FluffHaven winter quality
+✓ Size S — approximately 45 × 30 × 19 cm
+✓ Soft Arctic fleece interior
+✓ Thick padded and enclosed cave design
+✓ Raised sides help create a cozy resting space
+✓ Lightweight and ideal for autumn and winter
 
+Create a warm retreat with the Premium Arctic Cozy Cat Cave.
 
-Turn cold days into cozy moments with the Premium Arctic Cozy Cat Cave. Created especially for autumn and winter, this premium cat bed provides a warm, enclosed retreat where your cat can curl up, relax and sleep comfortably.
+Its thick padded construction and Arctic fleece interior provide a soft, comfortable sleeping space during colder weather.
 
+The enclosed cave shape and raised sides create a private resting area while helping retain body warmth.
 
-The soft Arctic fleece interior and thick padded construction create a cozy environment while the cave-style shape surrounds your cat with extra comfort. Its enclosed design makes it particularly suitable for cats that love small, warm and protected sleeping spaces during colder weather.
+Compact and lightweight, the 45 × 30 × 19 cm Size S bed is easy to position in your cat's favorite indoor space.
 
-
-This FluffHaven edition is offered in Size S, measuring approximately 45 × 30 × 19 cm. Compact, warm and beautifully designed, it's a premium winter retreat made for cozy naps throughout the coldest months.
-  `,
+Designed for chilly autumn evenings and winter days, this FluffHaven cave provides a cozy seasonal sleeping spot.
+`,
 
   inStock: true,
 
@@ -4871,7 +4266,7 @@ This FluffHaven edition is offered in Size S, measuring approximately 45 × 30 �
   ],
 
   description:
-    "Give your cat a safe and comfortable space to relax, play and enjoy the surroundings with the Premium Foldable Cat Playpen. Designed with breathable mesh panels and a spacious enclosed interior, this portable playpen is perfect for use at home, in the garden, on the balcony or while travelling. Its lightweight foldable design makes setup, storage and transport quick and easy.",
+  "Give your cat a comfortable space to relax and play with the Premium Foldable Cat Playpen. Featuring breathable mesh panels and a spacious enclosed interior, its lightweight foldable design is ideal for home, garden, balcony or travel.",
 
   seoTitle:
     "Premium Foldable Cat Playpen | Indoor & Outdoor Cat Enclosure | FluffHaven",
@@ -4882,33 +4277,22 @@ This FluffHaven edition is offered in Size S, measuring approximately 45 × 30 �
   brand: "FluffHaven",
 
   details: `
-✓ Premium foldable cat playpen
-✓ Size: 73 × 73 × 43 cm
-✓ Spacious enclosed design
-✓ Breathable mesh panels
-✓ Excellent airflow & visibility
-✓ Suitable for indoor & outdoor use
-✓ Large front zippered entrance
-✓ Convenient top access
-✓ Quick pop-up setup
-✓ Folds flat for easy storage
-✓ Lightweight & portable
-✓ Easy to carry while travelling
-✓ Ideal for home, garden & balcony
-✓ Comfortable space for relaxing & playing
-✓ Durable pet-friendly construction
-✓ Premium FluffHaven quality
+✓ Size 73 × 73 × 43 cm
+✓ Spacious design with breathable mesh panels
+✓ Front zippered entrance and convenient top access
+✓ Quick pop-up setup and flat-folding storage
+✓ Lightweight for indoor, outdoor and travel use
 
+Create a dedicated space for your cat with the Premium Foldable Cat Playpen.
 
-Give your cat a comfortable space of their own with the Premium Foldable Cat Playpen. Its spacious enclosed design combines breathable mesh panels with excellent visibility and ventilation, creating a secure area where your cat can relax, play or simply watch the world around them.
+Its 73 × 73 × 43 cm enclosed design provides room for relaxing and playing, with mesh panels for airflow and visibility.
 
+A large zippered entrance and top access make the playpen convenient for everyday use.
 
-Designed for versatility, the playpen can be used indoors or outdoors and is ideal for the home, garden, balcony or travel. The convenient foldable construction allows it to pop up quickly and fold flat again for compact storage and easy transport.
+The pop-up design sets up quickly and folds flat for compact storage and easy transport.
 
-
-This FluffHaven edition comes in one practical size: 73 × 73 × 43 cm. Lightweight, portable and easy to use, it's a convenient way to create a dedicated space for your cat wherever your adventures take you.
-  `,
-
+Lightweight and portable, this FluffHaven playpen is practical for home, garden, balcony or travel.
+`,
   inStock: true,
 
   featured: true,
@@ -4940,7 +4324,7 @@ This FluffHaven edition comes in one practical size: 73 × 73 × 43 cm. Lightwei
   ],
 
   description:
-    "Keep your cat entertained and refreshed during hot summer days with our Premium Floating Water Play Mat. Filled with water and featuring colorful floating fish, this interactive play mat stimulates your cat's natural hunting instincts while providing a fun cooling surface. Easy to inflate, durable and perfect for indoor play.",
+  "Keep your cat entertained and refreshed with the Premium Floating Water Play Mat. Filled with water and colorful floating fish, it encourages natural hunting instincts while providing a cooling play surface for indoor summer fun.",
 
   seoTitle:
     "Premium Floating Water Play Mat for Cats | Summer Cat Toy | FluffHaven",
@@ -4951,22 +4335,22 @@ This FluffHaven edition comes in one practical size: 73 × 73 × 43 cm. Lightwei
   brand: "FluffHaven",
 
   details: `
-✓ Interactive floating fish
-✓ Cooling water play surface
-✓ Large 70 cm diameter
-✓ Thickened PVC material
-✓ Leak-resistant construction
-✓ Bright colorful underwater design
-✓ Encourages natural hunting instincts
-✓ Provides mental stimulation
-✓ Easy to inflate and fill
-✓ Foldable for easy storage
-✓ Indoor and outdoor use
-✓ Suitable for cats of all ages
-✓ FluffHaven premium quality
+✓ 70 cm water play mat with floating fish
+✓ Thickened leak-resistant PVC construction
+✓ Cooling surface for interactive summer play
+✓ Easy to inflate, fill and fold for storage
+✓ Suitable for cats of all ages, indoors or outdoors
 
-Turn every summer day into an exciting play session with the Premium Floating Water Play Mat. Simply inflate the outer ring, fill the center with water and watch the colorful floating fish move as your cat touches the surface. The gentle water movement encourages curiosity, exercise and mental stimulation while offering a refreshing play experience during warm weather. Lightweight, portable and easy to store, it's the perfect summer enrichment toy for every indoor cat.
-  `,
+Make summer play more engaging with the Premium Floating Water Play Mat.
+
+Simply inflate the outer ring and fill the center with water to create an interactive 70 cm play surface.
+
+Colorful floating fish move with the water, encouraging curiosity, hunting instincts and mental stimulation.
+
+The thickened PVC construction is designed for practical play, while the water-filled surface provides a refreshing experience during warm weather.
+
+Easy to fold and store, this FluffHaven mat is suitable for cats of all ages and can be used indoors or outdoors.
+`,
 
   inStock: true,
 
@@ -4999,7 +4383,7 @@ Turn every summer day into an exciting play session with the Premium Floating Wa
   ],
 
   description:
-    "Give your cat the perfect place to relax during hot summer days with our Premium Cooling Cat Bed. Designed with a refreshing cooling surface, soft raised edges and a comfortable Size M design, this premium bed helps keep your feline cool, relaxed and comfortable without electricity.",
+  "Keep your cat comfortable on hot days with the Premium Cooling Cat Bed. Featuring a refreshing cooling surface, soft raised edges and a comfortable Size M design, it provides a relaxing summer resting space without electricity.",
 
   seoTitle:
     "Premium Cooling Cat Bed | Cooling Summer Cat Bed | FluffHaven",
@@ -5010,22 +4394,22 @@ Turn every summer day into an exciting play session with the Premium Floating Wa
   brand: "FluffHaven",
 
   details: `
-✓ Cooling summer surface
-✓ Comfortable Size M
-✓ Elegant pink design
-✓ Soft raised supportive edges
-✓ Lightweight construction
-✓ Breathable fabric
-✓ Comfortable everyday naps
-✓ Easy to clean
-✓ Indoor use
-✓ Perfect for hot summer days
+✓ Size M with elegant pink design
+✓ Cooling and breathable surface
+✓ Soft raised edges for comfortable support
+✓ Lightweight and easy to clean
 ✓ Suitable for most adult cats
-✓ Premium stitched finish
-✓ FluffHaven premium quality
 
-Help your cat enjoy cooler and more comfortable naps during warm summer days with the Premium Cooling Cat Bed. The refreshing cooling surface offers pleasant comfort while the raised soft edges provide extra support for your cat's head and body. Lightweight, elegant and easy to maintain, this premium Size M cooling bed is a beautiful addition to any home and a perfect summer essential for your feline companion.
-  `,
+Give your cat a refreshing resting space with the Premium Cooling Cat Bed.
+
+Its cooling surface and breathable fabric provide comfortable everyday naps during warmer weather.
+
+Soft raised edges offer additional support around your cat's head and body.
+
+The lightweight Size M design is easy to position indoors and simple to maintain.
+
+Finished in pink with premium stitching, this FluffHaven bed is a practical choice for adult cats during hot summer days.
+`,
 
   inStock: true,
 
@@ -5058,7 +4442,7 @@ Help your cat enjoy cooler and more comfortable naps during warm summer days wit
   ],
 
   description:
-    "Help your cat stay cool and comfortable during hot summer days with our Premium Cooling Gel Cat Mat. Featuring a self-cooling gel core, soft waterproof surface and lightweight portable design, this premium cooling mat provides refreshing comfort without electricity or refrigeration.",
+  "Keep your cat cool with the Premium Cooling Gel Cat Mat. Featuring a self-cooling gel core, waterproof surface and lightweight portable design, it provides refreshing summer comfort without electricity or refrigeration.",
 
   seoTitle:
     "Premium Cooling Gel Cat Mat | Self Cooling Summer Mat | FluffHaven",
@@ -5068,23 +4452,23 @@ Help your cat enjoy cooler and more comfortable naps during warm summer days wit
 
   brand: "FluffHaven",
 
-  details: `
-✓ Self-cooling gel technology
-✓ No electricity required
-✓ Soft & comfortable surface
-✓ Waterproof finish
-✓ Lightweight & portable
-✓ Foldable for easy storage
+ details: `
+✓ Self-cooling gel with no electricity required
+✓ Soft waterproof surface
+✓ Lightweight, foldable and portable
 ✓ Easy to wipe clean
-✓ Durable premium construction
-✓ Refreshing summer comfort
 ✓ Suitable for cats of all sizes
-✓ Indoor & outdoor use
-✓ Perfect for hot weather
-✓ FluffHaven premium quality
 
-Keep your cat cool, relaxed and comfortable throughout the summer with the Premium Cooling Gel Cat Mat. The advanced self-cooling gel provides natural cooling without electricity or refrigeration, while the soft waterproof surface offers lasting comfort. Lightweight, foldable and easy to clean, it's the perfect summer essential for home, travel or outdoor relaxation.
-  `,
+Keep your cat refreshed with the Premium Cooling Gel Cat Mat.
+
+The self-cooling gel provides cooling comfort without electricity or refrigeration.
+
+Its soft waterproof surface creates a comfortable resting area during hot summer days.
+
+Lightweight and foldable, the mat is easy to store or take along when travelling.
+
+Easy to clean and suitable for cats of all sizes, it's practical for indoor and outdoor summer use.
+`,
 
   inStock: true,
 
@@ -5117,7 +4501,7 @@ Keep your cat cool, relaxed and comfortable throughout the summer with the Premi
   ],
 
   description:
-    "Give your feline companion the confidence to safely explore the outdoors with our Premium Cat Harness & Leash Set. Featuring a comfortable escape-proof design, breathable mesh fabric and an adjustable fit, this premium harness includes a matching leash to provide secure walks while keeping your cat comfortable during every adventure.",
+  "Explore outdoors with the Premium Cat Harness & Leash Set. Featuring an escape-resistant design, breathable mesh and adjustable fit, this comfortable harness includes a matching leash for secure everyday walks and adventures.",
 
   seoTitle:
     "Premium Cat Harness & Leash Set | Escape-Proof Cat Harness | FluffHaven",
@@ -5128,22 +4512,22 @@ Keep your cat cool, relaxed and comfortable throughout the summer with the Premi
   brand: "FluffHaven",
 
   details: `
-✓ Premium harness & leash set
-✓ Matching leash included
-✓ Escape-proof secure design
-✓ Adjustable neck & chest straps
-✓ Breathable soft mesh fabric
-✓ Lightweight & comfortable
-✓ Durable quick-release buckle
-✓ Reflective safety accents
-✓ Perfect for outdoor walks
-✓ Encourages safe exploration
+✓ Harness with matching leash included
+✓ Adjustable neck and chest straps
+✓ Breathable lightweight mesh fabric
+✓ Quick-release buckle with reflective accents
 ✓ Suitable for kittens and adult cats
-✓ Comfortable everyday use
-✓ FluffHaven premium quality
 
-Designed for adventurous indoor cats who love discovering the outdoors safely. The breathable premium harness provides a secure and comfortable fit while the included matching leash offers better control, allowing enjoyable walks and new experiences with complete confidence.
-  `,
+Explore outdoors with the Premium Cat Harness & Leash Set.
+
+The breathable mesh design provides a lightweight and comfortable fit for everyday walks.
+
+Adjustable neck and chest straps help create a secure fit, while the quick-release buckle makes the harness convenient to use.
+
+Reflective accents add visibility during outdoor adventures, and the matching leash provides practical control while exploring.
+
+Suitable for kittens and adult cats, this FluffHaven set combines comfort, security and convenience for outdoor walks.
+`,
 
   inStock: true,
 
@@ -5176,7 +4560,7 @@ Designed for adventurous indoor cats who love discovering the outdoors safely. T
   ],
 
   description:
-    "Keep your indoor cat active and entertained with our Interactive Flying Cat Toy Set. This fun launcher comes with 10 colorful flying discs designed to encourage jumping, chasing and natural hunting instincts while providing healthy daily exercise and strengthening the bond between you and your feline companion.",
+  "Keep your indoor cat active with the Interactive Flying Cat Toy Set. Featuring a launcher and 10 colorful flying discs, it encourages jumping, chasing and natural hunting instincts while providing fun everyday exercise.",
 
   seoTitle:
     "Interactive Flying Cat Toy Set | Cat Launcher Toy | FluffHaven",
@@ -5187,23 +4571,22 @@ Designed for adventurous indoor cats who love discovering the outdoors safely. T
   brand: "FluffHaven",
 
   details: `
-✓ Includes launcher
-✓ 10 flying discs included
+✓ Launcher with 10 flying discs
 ✓ 4 bright disc colors
-✓ Encourages natural hunting instincts
-✓ Promotes daily exercise
-✓ Keeps indoor cats active
-✓ Improves agility and coordination
-✓ Great mental stimulation
-✓ Interactive play with your cat
+✓ Encourages chasing, jumping and hunting instincts
+✓ Lightweight and durable design
 ✓ Suitable for kittens and adult cats
-✓ Safe & durable materials
-✓ Lightweight & easy to use
-✓ Perfect daily enrichment
-✓ FluffHaven premium quality
 
-An exciting interactive toy set designed to keep your cat active, healthy and mentally stimulated. The launcher and colorful flying discs encourage chasing, jumping and playful exercise while creating fun bonding moments with your feline friend every day.
-  `,
+Keep your cat moving with the Interactive Flying Cat Toy Set.
+
+The launcher sends colorful discs into the air, encouraging chasing, jumping and playful exercise.
+
+Ten discs in four bright colors provide plenty of variety for interactive play.
+
+The activity encourages natural hunting instincts while supporting agility, coordination and mental stimulation.
+
+Lightweight and easy to use, this FluffHaven set provides everyday enrichment for kittens and adult cats.
+`,
 
   inStock: true,
 
@@ -5236,7 +4619,7 @@ An exciting interactive toy set designed to keep your cat active, healthy and me
   ],
 
   description:
-    "Turn every meal into a healthier and more stimulating experience with our Premium Cat Enrichment Duo. Each order includes two slow feeding mats — one blue and one pink — designed to encourage slower eating, reduce gulping and keep your cat mentally engaged during mealtime.",
+  "Make mealtime more engaging with the Premium Cat Enrichment Duo. This set includes two slow feeding mats — one blue and one pink — designed to encourage slower eating, reduce gulping and provide mental stimulation during meals.",
 
   seoTitle:
     "Premium Cat Enrichment Duo | 2 Slow Feeding Mats | FluffHaven",
@@ -5247,23 +4630,22 @@ An exciting interactive toy set designed to keep your cat active, healthy and me
   brand: "FluffHaven",
 
   details: `
-✓ Includes 2 slow feeding mats
-✓ 1 Blue + 1 Pink
-✓ Encourages slower eating
-✓ Helps reduce gulping
-✓ Supports healthier digestion
-✓ Provides daily mental stimulation
-✓ Soft food-grade silicone
-✓ Strong suction base
-✓ Fits most pet bowls
+✓ 2 slow feeding mats — Blue & Pink
+✓ Food-grade silicone with strong suction base
+✓ Encourages slower eating and mental stimulation
 ✓ Suitable for wet food, treats and dry kibble
-✓ Easy to clean
-✓ Dishwasher safe
-✓ Perfect for cats of all ages
-✓ FluffHaven premium quality
+✓ Dishwasher safe and suitable for cats of all ages
 
-A practical two-piece enrichment set designed to make every meal calmer, healthier and more enjoyable for your cat.
-  `,
+Make mealtime more engaging with the Premium Cat Enrichment Duo.
+
+The two slow feeding mats encourage a slower eating pace while helping reduce gulping.
+
+Soft food-grade silicone and a strong suction base provide practical everyday use.
+
+Suitable for wet food, treats or dry kibble, the mats fit most pet bowls and offer variety at mealtime.
+
+Easy to clean and dishwasher safe, this FluffHaven duo is suitable for cats of all ages.
+`,
 
   inStock: true,
 
@@ -5296,7 +4678,7 @@ A practical two-piece enrichment set designed to make every meal calmer, healthi
   ],
 
   description:
-    "Keep your cat active, curious and entertained with our Premium Cat Play Box. This carefully selected 4-piece toy set includes a plush mouse, feather teaser, rope ball and bell ball to encourage natural hunting instincts, daily exercise and interactive play while strengthening the bond with your feline companion.",
+  "Keep your cat active with the Premium Cat Play Box. This 4-piece set includes a plush mouse, feather teaser, rope ball and bell ball to encourage natural hunting instincts, exercise and interactive everyday play.",
 
   seoTitle:
     "Premium Cat Play Box | Interactive Cat Toy Set | FluffHaven",
@@ -5306,24 +4688,23 @@ A practical two-piece enrichment set designed to make every meal calmer, healthi
 
   brand: "FluffHaven",
 
-  details: `
-✓ Includes 4 interactive cat toys
-✓ Plush Mouse included
-✓ Feather Teaser included
-✓ Rope Ball included
-✓ Bell Ball included
-✓ Stimulates natural hunting instincts
-✓ Encourages daily exercise
-✓ Supports mental stimulation
-✓ Interactive playtime
+ details: `
+✓ 4-piece interactive cat toy set
+✓ Plush mouse, feather teaser, rope ball & bell ball
+✓ Encourages hunting instincts and daily exercise
+✓ Durable, non-toxic materials
 ✓ Suitable for kittens and adult cats
-✓ Safe & non-toxic materials
-✓ Durable premium construction
-✓ Perfect daily enrichment
-✓ FluffHaven premium quality
 
-A carefully selected four-piece toy collection designed to keep your cat happy, active and mentally stimulated every day while encouraging healthy exercise and natural play.
-  `,
+Keep your cat engaged with the Premium Cat Play Box.
+
+The four-piece set provides different ways to chase, bat and explore during everyday play.
+
+A plush mouse, feather teaser, rope ball and bell ball offer variety while encouraging natural hunting instincts.
+
+Interactive play supports physical activity and mental stimulation throughout the day.
+
+Made from durable, non-toxic materials, this FluffHaven set provides everyday enrichment for kittens and adult cats.
+`,
 
   inStock: true,
 
@@ -5356,7 +4737,7 @@ A carefully selected four-piece toy collection designed to keep your cat happy, 
   ],
 
   description:
-  "Create a fresh indoor garden for your cat with our Premium Indoor Cat Garden Kit. This reusable pet planter includes a basket, drainage tray and cat-friendly wheatgrass seeds, providing a simple way to offer fresh greens indoors.",
+  "Create fresh indoor greens for your cat with the Premium Indoor Cat Garden Kit. This reusable planter includes a basket, drainage tray and cat-friendly wheatgrass seeds for a simple indoor growing experience.",
 
   seoTitle:
   "Premium Indoor Cat Garden Kit | FluffHaven",
@@ -5367,22 +4748,22 @@ A carefully selected four-piece toy collection designed to keep your cat happy, 
   brand: "FluffHaven",
 
   details: `
-✓ Complete indoor growing kit
-✓ Premium reusable planter
-✓ Includes growing basket
-✓ Includes drainage tray
-✓ Premium wheat grass seeds included
-✓ Fresh grass in just 5–7 days
-✓ Rich in natural fiber & nutrients
-✓ Helps support healthy digestion
-✓ Encourages natural chewing instincts
-✓ Safe for indoor cats
-✓ Easy to grow & maintain
-✓ Reusable eco-friendly design
-✓ FluffHaven premium quality
+✓ Reusable planter with basket and drainage tray
+✓ Wheatgrass seeds included
+✓ Fresh grass in approximately 5–7 days
+✓ Easy to grow and maintain indoors
+✓ Encourages natural grazing and chewing instincts
 
-Grow fresh, healthy cat grass at home with this complete reusable kit designed to support your cat's wellbeing while satisfying their natural grazing instincts.
-  `,
+Grow fresh greens at home with the Premium Indoor Cat Garden Kit.
+
+The reusable planter includes a growing basket, drainage tray and wheatgrass seeds for convenient indoor growing.
+
+The included seeds can produce fresh cat grass in approximately 5–7 days under suitable growing conditions.
+
+Wheatgrass provides natural fiber while offering cats a fresh plant to graze and chew.
+
+Easy to maintain and reuse, this FluffHaven kit creates a simple indoor garden for your cat.
+`,
 
   inStock: true,
 
@@ -5415,7 +4796,7 @@ Grow fresh, healthy cat grass at home with this complete reusable kit designed t
   ],
 
   description:
-    "Protect your cat's delicate paw pads with our Premium Cat Paw Balm. Formulated to deeply moisturize, repair dry or cracked paws and create a natural protective barrier against rough indoor surfaces, hot pavements and cold weather. Gentle, lick-safe and perfect for daily care.",
+  "Care for your cat's paws with the Premium Cat Paw Balm. Designed to moisturize dry and cracked paw pads and help protect against rough surfaces, hot pavement and cold weather, its gentle lick-safe formula is suitable for everyday care.",
 
   seoTitle:
     "Premium Cat Paw Balm | Natural Paw Protection | FluffHaven",
@@ -5426,19 +4807,22 @@ Grow fresh, healthy cat grass at home with this complete reusable kit designed t
   brand: "FluffHaven",
 
   details: `
-✓ Repairs cracked paws
-✓ Deep hydration
-✓ Natural ingredients
-✓ Indoor & outdoor protection
-✓ Safe for daily use
-✓ Lick-safe formula
+✓ Helps moisturize dry and cracked paw pads
+✓ Natural ingredients with lick-safe formula
 ✓ Gentle on sensitive paws
-✓ Easy to apply
+✓ Easy to apply for everyday care
 ✓ Suitable for all cat breeds
-✓ FluffHaven premium quality
 
-Keep your cat's paws soft, healthy and protected every day with gentle natural care.
-  `,
+Care for your cat's paws with the Premium Cat Paw Balm.
+
+Its moisturizing formula helps care for dry and cracked paw pads while remaining gentle on sensitive paws.
+
+Natural ingredients and a lick-safe formula make it suitable for regular paw care.
+
+Use it for everyday indoor and outdoor paw protection throughout changing conditions.
+
+Easy to apply and suitable for all breeds, it's a practical FluffHaven essential for everyday paw care.
+`,
 },
 
 {
@@ -5467,7 +4851,7 @@ Keep your cat's paws soft, healthy and protected every day with gentle natural c
   ],
 
   description:
-    "Keep your cat's coat soft, healthy and beautifully groomed with our Premium Cat Grooming Mist Brush. Featuring a gentle mist spray, self-cleaning technology and soft rounded bristles, it helps reduce shedding while providing a calm and relaxing grooming experience.",
+  "Keep your cat's coat soft and groomed with the Premium Cat Grooming Mist Brush. Featuring a gentle mist spray, self-cleaning design and soft rounded bristles, it helps reduce loose hair while providing comfortable everyday grooming.",
 
   seoTitle:
     "Premium Cat Grooming Mist Brush | Self-Cleaning Cat Brush | FluffHaven",
@@ -5478,19 +4862,22 @@ Keep your cat's paws soft, healthy and protected every day with gentle natural c
   brand: "FluffHaven",
 
   details: `
-✓ Gentle mist technology
-✓ Removes loose hair
-✓ Helps reduce shedding
-✓ One-click self-cleaning
-✓ Soft rounded bristles
-✓ Comfortable ergonomic handle
-✓ USB-C rechargeable
-✓ Quiet operation
-✓ Suitable for all cat breeds
-✓ FluffHaven premium quality
+✓ Gentle mist with soft rounded bristles
+✓ Helps remove loose hair and reduce shedding
+✓ One-click self-cleaning design
+✓ Quiet operation with USB-C charging
+✓ Ergonomic handle — suitable for all cat breeds
 
-Designed to make daily grooming easier while keeping your cat's coat soft, healthy and beautifully maintained.
-  `,
+Make everyday grooming easier with the Premium Cat Grooming Mist Brush.
+
+The gentle mist and soft rounded bristles provide comfortable brushing while helping collect loose hair.
+
+A one-click self-cleaning system makes removing collected fur quick and convenient.
+
+Quiet operation and an ergonomic handle provide comfortable control during regular grooming sessions.
+
+USB-C rechargeable and suitable for all breeds, it's a practical FluffHaven tool for everyday coat care.
+`,
 
   inStock: true,
 
@@ -5515,7 +4902,7 @@ Designed to make daily grooming easier while keeping your cat's coat soft, healt
   ],
 
   description:
-    "Travel comfortably with your cat using this spacious and breathable premium backpack. Designed with mesh ventilation, a supportive interior and secure openings for stress-free trips, vet visits and outdoor adventures.",
+  "Travel comfortably with your cat using this spacious premium backpack. Featuring breathable mesh ventilation, a supportive interior and secure openings, it's designed for travel, vet visits and outdoor adventures.",
 
   seoTitle:
     "Premium Cat Travel Backpack | Breathable Cat Carrier | FluffHaven",
@@ -5526,17 +4913,21 @@ Designed to make daily grooming easier while keeping your cat's coat soft, healt
   brand: "FluffHaven",
 
   details: `
-✔ Size L for extra comfort
-✔ Breathable mesh ventilation
-✔ Spacious interior
-✔ Supportive honeycomb base
-✔ Top access window
-✔ Secure zippers and safety leash
-✔ Padded shoulder straps
-✔ Side storage pocket
-✔ Ideal for trips, vet visits and outdoor adventures
+✓ Size L with spacious ventilated interior
+✓ Breathable mesh with supportive honeycomb base
+✓ Top access with secure zippers and safety leash
+✓ Padded shoulder straps for comfortable carrying
+✓ Side storage pocket for travel essentials
 
-A comfortable and secure way to travel with your cat.
+Travel comfortably with your cat using this Premium Cat Travel Backpack.
+
+The spacious Size L interior combines breathable mesh ventilation with a supportive honeycomb base.
+
+Top access, secure zippers and an integrated safety leash provide practical features for travelling with your cat.
+
+Padded shoulder straps make carrying more comfortable, while the side pocket provides convenient storage.
+
+Designed for trips, vet visits and outdoor adventures, it's a practical FluffHaven carrier for everyday travel.
 `,
 },
 
@@ -5555,19 +4946,26 @@ A comfortable and secure way to travel with your cat.
     "/lit_rond_chat2.webp",
     "/lit_rond_chat3.webp"
   ],
-  description: "A soft and cozy donut bed designed to help your cat feel safe, warm and relaxed during naps.",
+  description: "Give your cat a cozy place to rest with this soft donut bed, designed for warm and comfortable everyday naps.",
   seoTitle: "Calming Donut Cat Bed | Cozy Cat Bed | FluffHaven",
   seoDescription: "Give your cat a warm and calming place to rest with this ultra-soft donut cat bed. Cozy, supportive and easy to maintain.",
   brand: "FluffHaven",
   details: `
-✔ Ultra soft plush fabric
-✔ Calming donut shape
-✔ Raised rim for head and neck support
-✔ Non-slip bottom
-✔ Easy to clean and maintain
-✔ Perfect for cats who love curling up
+✓ Ultra-soft plush donut design
+✓ Raised rim for head and neck support
+✓ Non-slip bottom
+✓ Easy to clean and maintain
+✓ Ideal for cats who love curling up
 
-A warm and comfortable sleeping spot for everyday rest.
+Give your cat a cozy resting space with this Soft Donut Cat Bed.
+
+The ultra-soft plush surface provides a warm and comfortable place for everyday naps.
+
+Its donut shape creates a cozy space for cats who naturally love curling up while resting.
+
+The raised rim provides comfortable support around the head and neck.
+
+With a non-slip bottom and easy-care design, it's a practical FluffHaven bed for everyday relaxation.
 `,
 },
   // 🐱 PRODUITS CHATS
@@ -5587,15 +4985,24 @@ A warm and comfortable sleeping spot for everyday rest.
     "/fontaine_chat3.webp",
     "/fontaine_chat4.webp"
   ],
-  description: "Encourage your cat to drink more with a quiet 2L water fountain that keeps water fresh, moving and filtered.",
+  description:
+  "Encourage your cat to drink more with this quiet 2L water fountain. Designed to keep water moving and filtered, it provides a fresh and convenient drinking source throughout the day.",
   details: `
-✔ 2L water capacity
-✔ Quiet pump for daily use
-✔ Flowing water encourages drinking
-✔ Built-in filtration system
-✔ BPA-free design
+✓ 2L water capacity
+✓ Quiet pump for everyday use
+✓ Flowing water encourages drinking
+✓ Built-in filtration system
+✓ BPA-free design
 
-A simple way to keep your cat hydrated every day.
+Keep fresh water available with this 2L Cat Water Fountain.
+
+The continuous water flow provides a moving drinking source that can encourage your cat to drink more regularly.
+
+Its built-in filtration system helps keep the circulating water fresh for everyday use.
+
+The quiet pump is designed for discreet operation around the home.
+
+With a 2L capacity and BPA-free design, it's a practical FluffHaven solution for everyday hydration.
 `,
 },
 
@@ -5617,7 +5024,7 @@ A simple way to keep your cat hydrated every day.
   ],
 
   description:
-    "A soft and elevated window hammock that gives your cat the perfect sunny spot to relax, nap and watch the world outside.",
+  "Give your cat a cozy elevated spot with this soft window hammock, perfect for relaxing, napping and watching the world outside.",
 
   seoTitle: "Cat Window Hammock | Cozy Window Perch | FluffHaven",
 
@@ -5627,13 +5034,21 @@ A simple way to keep your cat hydrated every day.
   brand: "FluffHaven",
 
   details: `
-✔ Strong suction cup support
-✔ Soft plush removable cover
-✔ Machine washable fabric
-✔ Stable steel frame
-✔ Comfortable elevated resting spot
+✓ Strong suction cup support
+✓ Soft removable plush cover
+✓ Machine washable fabric
+✓ Stable steel frame
+✓ Comfortable elevated resting spot
 
-Perfect for indoor cats who love sunlight, window views and cozy naps.
+Give your cat a cozy window retreat with this Elevated Cat Window Hammock.
+
+Strong suction cups and a steel frame provide stable support for everyday lounging.
+
+The elevated position creates a comfortable spot for relaxing, napping and enjoying the view outside.
+
+Its soft plush cover provides a cozy resting surface and can be removed when needed.
+
+Machine washable and practical for indoor use, it's a FluffHaven favorite for cats who love sunny windows and peaceful naps.
 `,
 },
   {
@@ -5647,18 +5062,26 @@ Perfect for indoor cats who love sunlight, window views and cozy naps.
     badge: "New",
     priceId: "price_1TnRYnKn0lmTcQ11ZAJNfpvw",
     images: ["/balle_chat.webp", "/balle_chat2.webp", "/balle_chat3.webp"],
-    description: "Automatic interactive ball toy for indoor cats. Features 2 speed modes, feather tail and auto shut-off. Keeps cats active and entertained.",
+    description: "Keep your indoor cat active with this automatic interactive ball toy. Featuring 2 speed modes, a feather tail and auto shut-off, it's designed for engaging everyday play.",
     seoTitle: "Interactive Smart Cat Ball | Automatic Cat Toy | FluffHaven",
     seoDescription: "Keep your indoor cat active and entertained with this automatic interactive ball. Smart movement, USB rechargeable and fun to chase.",
     brand: "FluffHaven",
     details: `
-✔ 2 speed modes (Normal & Smart)
-✔ Feather tail attachment
-✔ Auto shut-off after 5 min
-✔ USB rechargeable
-✔ For small & medium cats
+✓ 2 speed modes — Normal & Smart
+✓ Feather tail attachment
+✓ Auto shut-off after 5 minutes
+✓ USB rechargeable
+✓ Suitable for small and medium cats
 
-Hours of entertainment for your cat.
+Keep your cat engaged with this Automatic Interactive Cat Ball.
+
+Two speed modes provide different movement patterns for everyday indoor play.
+
+The feather tail adds extra movement to encourage chasing and playful interaction.
+
+An automatic shut-off after 5 minutes helps manage each play session.
+
+USB rechargeable and suitable for small and medium cats, it's a practical FluffHaven toy for everyday activity.
 `,
   },
   {
@@ -5672,18 +5095,26 @@ Hours of entertainment for your cat.
     badge: "Popular",
     priceId: "price_1TnRVlKn0lmTcQ11jId6Q9sK",
     images: ["/griffoir_chat.webp", "/griffoir_chat2.webp", "/griffoir_chat3.webp"],
-    description: "Premium L-shaped cat scratcher made from high-density corrugated cardboard. Perfect for stretching, scratching and protecting your furniture.",
+    description: "Give your cat a dedicated scratching space with this premium L-shaped scratcher. Made from high-density corrugated cardboard, it's ideal for stretching and scratching while helping protect your furniture.",
     seoTitle: "L-Shape Cat Scratcher | Cardboard Cat Scratching Post | FluffHaven",
     seoDescription: "Protect your furniture while satisfying your cat's natural scratching instincts with this durable L-shaped cardboard scratcher.",
     brand: "FluffHaven",
     details: `
-✔ 48 cm tall L-shape design
-✔ High-density corrugated cardboard
-✔ Includes ball toy
-✔ Breathable & abrasion-resistant
-✔ Protects your furniture
+✓ 48 cm tall L-shaped design
+✓ High-density corrugated cardboard
+✓ Interactive ball toy included
+✓ Breathable and abrasion-resistant
+✓ Helps protect furniture from scratching
 
-The perfect scratching solution.
+Give your cat a dedicated scratching space with this Premium L-Shaped Cat Scratcher.
+
+The 48 cm tall design provides vertical space for scratching and stretching.
+
+High-density corrugated cardboard creates a textured, abrasion-resistant scratching surface.
+
+An included ball toy adds an interactive element for everyday play.
+
+Designed for indoor use, it provides an alternative scratching surface while helping protect your furniture.
 `,
   },
   {
@@ -5697,18 +5128,26 @@ The perfect scratching solution.
     badge: "Fun",
     priceId: "price_1TnRPPKn0lmTcQ112OPwMWwn",
     images: ["/plume_chat.webp", "/plume_chat2.webp", "/plume_chat3.webp"],
-    description: "12-piece interactive feather toy set for cats & kittens. Includes retractable wands and colourful feather attachments for daily play.",
+    description: "Keep your cat active with this 12-piece interactive feather toy set. Featuring retractable wands and colorful feather attachments, it's designed for engaging everyday play with cats and kittens.",
     seoTitle: "Feather Wand Cat Toy Set | Interactive Cat Teaser | FluffHaven",
     seoDescription: "Keep your cat active with this interactive feather wand toy set featuring retractable wands and colorful teaser refills.",
     brand: "FluffHaven",
     details: `
-✔ 2 retractable wands (extends to 96 cm)
-✔ 10 colourful feather attachments
-✔ Non-toxic dyes
-✔ For cats & kittens
-✔ Easy to store
+✓ 2 retractable wands extending to 96 cm
+✓ 10 colorful feather attachments
+✓ Non-toxic dyes
+✓ Suitable for cats and kittens
+✓ Easy to store
 
-Daily playtime made fun & easy.
+Make everyday play more engaging with this 12-Piece Interactive Feather Toy Set.
+
+Two retractable wands extend up to 96 cm for comfortable interactive play.
+
+Ten colorful feather attachments provide variety and encourage chasing, jumping and natural hunting instincts.
+
+The attachments use non-toxic dyes and are suitable for both cats and kittens.
+
+Easy to store between play sessions, this FluffHaven set provides plenty of variety for everyday enrichment.
 `,
   },
   {
@@ -5722,18 +5161,26 @@ Daily playtime made fun & easy.
     badge: null,
     priceId: "price_1TnRTFKn0lmTcQ11pRh2KjlR",
     images: ["/tunnel_chat.webp", "/tunnel_chat2.webp", "/tunnel_chat3.webp"],
-    description: "Collapsible cat tunnel made from durable faux-linen fabric. Includes a hanging pompom ball inside. Ideal for hiding, chasing and exploring.",
+    description: "Keep your cat entertained with this collapsible cat tunnel. Made from durable faux-linen fabric with a hanging pompom ball, it's ideal for hiding, chasing and everyday exploration.",
     seoTitle: "Premium Cat Play Tunnel | Foldable Cat Tunnel | FluffHaven",
     seoDescription: "Keep your cat entertained with this foldable play tunnel featuring durable fabric, a hanging pompom toy, and easy storage.",
     brand: "FluffHaven",
     details: `
-✔ 30 cm diameter · 70 cm long
-✔ Durable faux-linen fabric
-✔ Hanging pompom ball inside
-✔ Collapsible & easy to store
-✔ Durable material
+✓ 30 cm diameter × 70 cm long
+✓ Durable faux-linen fabric
+✓ Hanging pompom ball inside
+✓ Collapsible and easy to store
+✓ Designed for hiding, chasing and exploring
 
-Cats never get bored.
+Create a playful hideaway with this Collapsible Cat Tunnel.
+
+Its 30 × 70 cm design provides space for hiding, running through and exploring.
+
+Durable faux-linen fabric makes the tunnel suitable for everyday indoor play.
+
+The hanging pompom ball adds an interactive element for chasing and batting.
+
+Collapsible and easy to store, it's a practical FluffHaven toy for everyday feline enrichment.
 `,
   },
   {
@@ -5754,20 +5201,27 @@ Cats never get bored.
   ],
 
   description:
-    "Interactive puzzle feeder designed to mentally stimulate indoor cats while slowing down eating and reducing boredom.",
+  "Keep your indoor cat engaged with this interactive puzzle feeder. Designed to encourage slower eating and mental stimulation while helping reduce boredom.",
   seoTitle: "Interactive Cat Puzzle Feeder | Mental Stimulation Toy | FluffHaven",
   seoDescription: "Stimulate your cat's mind and slow down eating with this interactive puzzle feeder designed for daily enrichment.",
   brand: "FluffHaven",
 
   details: `
-✔ Encourages mental stimulation
-✔ Helps reduce boredom & stress
-✔ Slow feeding design
-✔ Multiple hidden treat compartments
-✔ Interactive daily enrichment
-✔ Durable BPA-free material
+✓ Encourages mental stimulation and daily enrichment
+✓ Slow feeding design
+✓ Multiple hidden treat compartments
+✓ Helps reduce boredom and stress
+✓ Durable BPA-free material
 
-Perfect for indoor cats who need more stimulation, play and enrichment during the day.
+Make mealtime more engaging with this Interactive Cat Puzzle Feeder.
+
+Multiple hidden treat compartments encourage your cat to explore and work for food or treats.
+
+The slow feeding design helps encourage a calmer eating pace during everyday meals.
+
+Interactive play provides mental stimulation while helping reduce boredom during indoor time.
+
+Made from durable BPA-free material, it's a practical FluffHaven enrichment toy for everyday use.
 `,
 },
 {
@@ -5789,20 +5243,27 @@ Perfect for indoor cats who need more stimulation, play and enrichment during th
   ],
 
   description:
-    "A soft and cozy cat cave bed designed to create a warm, safe and calming space for indoor cats.",
+  "Give your cat a cozy retreat with this soft cave bed, designed to provide a warm and comfortable resting space for indoor cats.",
   seoTitle: "Cozy Cat Cave Bed | Soft Indoor Cat Hideaway | FluffHaven",
   seoDescription: "Give your cat a warm and secure place to rest with this cozy cave bed featuring a soft cushion and enclosed design.",
   brand: "FluffHaven",
 
   details: `
-✔ Soft faux-linen fabric
-✔ Warm & comfortable cushion
-✔ Cozy enclosed hideaway design
-✔ Foldable & easy to store
-✔ Non-slip bottom
-✔ Perfect for indoor cats
+✓ Soft faux-linen fabric
+✓ Warm and comfortable cushion
+✓ Cozy enclosed hideaway design
+✓ Non-slip bottom
+✓ Foldable and ideal for indoor use
 
-A calming resting space where your cat can sleep, hide and relax comfortably every day.
+Create a cozy retreat with this Soft Cat Cave Bed.
+
+The enclosed design provides a private space where your cat can sleep, hide and relax.
+
+Soft faux-linen fabric and a comfortable cushion create a warm resting area for everyday naps.
+
+The non-slip bottom helps keep the bed stable on indoor surfaces.
+
+Foldable and easy to store, it's a practical FluffHaven hideaway for everyday indoor comfort.
 `,
 },
 {
@@ -5824,20 +5285,27 @@ A calming resting space where your cat can sleep, hide and relax comfortably eve
   ],
 
   description:
-    "A wall-mounted self grooming brush designed to help indoor cats scratch, rub and relax whenever they want.",
+  "Give your cat an easy way to groom and rub with this wall-mounted self-grooming brush, designed for comfortable everyday indoor use.",
   seoTitle: "Cat Self Grooming Brush | Wall Mounted Cat Brush | FluffHaven",
   seoDescription: "Help your cat groom itself naturally with this wall-mounted self grooming brush featuring soft silicone bristles for everyday comfort.",
   brand: "FluffHaven",
 
   details: `
-✔ Soft silicone bristles
-✔ Wall-mounted corner design
-✔ Helps remove loose hair
-✔ Encourages natural rubbing behaviour
-✔ Easy to clean
-✔ Perfect for indoor cats
+✓ Soft silicone grooming bristles
+✓ Wall-mounted corner design
+✓ Helps collect loose hair
+✓ Encourages natural rubbing behaviour
+✓ Easy to clean for everyday indoor use
 
-A simple daily grooming and relaxation spot your cat can enjoy on its own.
+Give your cat an independent grooming spot with this Wall-Mounted Self-Grooming Brush.
+
+Soft silicone bristles provide a comfortable surface for rubbing while helping collect loose hair.
+
+The corner-mounted design allows your cat to use the brush whenever it wants.
+
+Natural rubbing behaviour provides simple everyday grooming and enrichment.
+
+Easy to clean and designed for indoor use, it's a practical FluffHaven grooming accessory for the home.
 `,
 },
 {
@@ -5866,30 +5334,31 @@ A simple daily grooming and relaxation spot your cat can enjoy on its own.
   ],
 
   description:
-    "A gentle hypoallergenic dog shampoo designed for sensitive skin. Helps clean, moisturise and soothe without harsh ingredients.",
+  "Gently clean your dog's coat with this hypoallergenic shampoo for sensitive skin. Designed to cleanse and moisturize without harsh ingredients for comfortable everyday care.",
   seoTitle: "Sensitive Skin Dog Shampoo | Hypoallergenic Pet Shampoo | FluffHaven",
   seoDescription: "Soothe and cleanse sensitive skin with this gentle hypoallergenic dog shampoo. Ideal for regular grooming and healthy coats.",
   brand: "FluffHaven",
 
   details: `
-✓ Hypoallergenic formula
-
-✓ Suitable for sensitive skin
-
-✓ Helps relieve itching
-
-✓ Aloe Vera enriched
-
-✓ Moisturises dry coats
-
-✓ pH balanced formula
-
+✓ Hypoallergenic formula for sensitive skin
+✓ Enriched with Aloe Vera
+✓ Helps moisturize dry coats
+✓ pH-balanced formula
 ✓ Free from harsh irritants
 
-✓ Trusted by thousands of pet owners
-  `,
+Care for sensitive skin with this Gentle Hypoallergenic Dog Shampoo.
 
-  promo: "🌿 Gentle formula for sensitive skin",
+The mild formula gently cleans the coat while providing everyday moisturizing care.
+
+Aloe Vera helps provide a gentle and comfortable grooming experience.
+
+Its pH-balanced formula is designed for regular dog coat care.
+
+Free from harsh irritants, it's a practical FluffHaven choice for dogs with sensitive skin.
+`,
+
+promo: "🌿 Gentle formula for sensitive skin",
+
 },
 {
   id: 21,
@@ -5917,30 +5386,31 @@ A simple daily grooming and relaxation spot your cat can enjoy on its own.
   ],
 
   description:
-    "A gentle hypoallergenic cat shampoo designed for sensitive skin. Helps clean, moisturise and soothe without harsh ingredients.",
+  "Gently clean your cat's coat with this hypoallergenic shampoo for sensitive skin. Designed to cleanse and moisturize without harsh ingredients for comfortable everyday care.",
   seoTitle: "Sensitive Skin Cat Shampoo | Hypoallergenic Cat Shampoo | FluffHaven",
   seoDescription: "Clean and soothe sensitive skin with this gentle hypoallergenic cat shampoo. Perfect for healthy coats and regular grooming.",
   brand: "FluffHaven",
 
   details: `
-✓ Hypoallergenic formula
-
-✓ Suitable for sensitive skin
-
-✓ Helps relieve itching
-
-✓ Aloe Vera enriched
-
-✓ Moisturises dry coats
-
+✓ Hypoallergenic formula for sensitive skin
+✓ Enriched with Aloe Vera
+✓ Helps moisturize dry coats
 ✓ No water required
-
 ✓ Free from harsh irritants
 
-✓ Trusted by thousands of pet owners
-  `,
+Care for sensitive skin with this Gentle Hypoallergenic Cat Shampoo.
 
-  promo: "🌿 Gentle formula for sensitive skin",
+The mild formula gently cleans the coat while providing everyday moisturizing care.
+
+Aloe Vera helps provide a gentle and comfortable grooming experience.
+
+Its waterless design makes regular coat care simple without rinsing.
+
+Free from harsh irritants, it's a practical FluffHaven choice for cats with sensitive skin.
+`,
+
+promo: "🌿 Gentle formula for sensitive skin",
+
 },
 
 // 🍂 AUTUMN COLLECTION
@@ -5970,7 +5440,7 @@ A simple daily grooming and relaxation spot your cat can enjoy on its own.
   ],
 
   description:
-    "Enjoy safer and more comfortable autumn walks with this premium reflective dog harness and leash set. Designed with adjustable straps, reflective stitching and a soft padded fit for everyday adventures.",
+  "Enjoy comfortable autumn walks with this premium reflective dog harness and leash set. Featuring adjustable straps, reflective stitching and soft padding, it's designed for everyday outdoor adventures.",
 
   seoTitle:
     "Premium Reflective Dog Harness | FluffHaven",
@@ -5981,16 +5451,21 @@ A simple daily grooming and relaxation spot your cat can enjoy on its own.
   brand: "FluffHaven",
 
   details: `
-✔ Premium reflective harness
-✔ Matching climbing rope leash
-✔ Soft foam handle
-✔ Adjustable straps
-✔ Reflective stitching
-✔ Strong metal D-ring
-✔ 360° rotating quick-release hook
-✔ Comfortable for everyday walks
+✓ Reflective harness with adjustable straps
+✓ Matching climbing rope leash with soft foam handle
+✓ Reflective stitching for added visibility
+✓ Strong metal D-ring
+✓ 360° rotating quick-release hook
 
-Designed for safe and enjoyable adventures with your best friend.
+Enjoy everyday walks with this Premium Reflective Dog Harness & Leash Set.
+
+The adjustable harness provides a comfortable fit, while reflective stitching adds visibility during outdoor walks.
+
+A matching climbing rope leash includes a soft foam handle for comfortable everyday control.
+
+The strong metal D-ring and 360° rotating hook provide a practical and secure connection during walks.
+
+Designed for regular outdoor use, this FluffHaven set combines comfort, visibility and convenience for autumn adventures.
 `,
 },
 
@@ -6020,7 +5495,7 @@ Designed for safe and enjoyable adventures with your best friend.
   ],
 
   description:
-    "Keep your dog dry and comfortable during rainy walks with this premium waterproof raincoat. Designed with reflective details, an adjustable fit and a convenient harness opening for everyday autumn adventures.",
+  "Keep your dog dry during rainy walks with this premium waterproof raincoat. Featuring reflective details, an adjustable fit and a convenient harness opening, it's designed for comfortable everyday autumn adventures.",
 
   seoTitle:
     "Premium Waterproof Dog Raincoat | FluffHaven",
@@ -6031,16 +5506,21 @@ Designed for safe and enjoyable adventures with your best friend.
   brand: "FluffHaven",
 
   details: `
-✔ 100% waterproof fabric
-✔ Windproof protection
-✔ Reflective safety trim
-✔ Harness opening
-✔ Adjustable fit
-✔ Lightweight & breathable
-✔ Comfortable for everyday use
-✔ Perfect for rainy walks
+✓ 100% waterproof and windproof fabric
+✓ Reflective trim for added visibility
+✓ Harness opening with adjustable fit
+✓ Lightweight and breathable design
+✓ Comfortable for everyday rainy walks
 
-Designed to keep your dog dry, comfortable and visible during wet weather adventures.
+Keep your dog protected with this Premium Waterproof Dog Raincoat.
+
+The waterproof and windproof fabric helps provide practical coverage during wet and windy weather.
+
+Reflective trim adds visibility, while the harness opening makes everyday walks more convenient.
+
+Its adjustable fit and lightweight breathable construction provide comfortable freedom of movement.
+
+Designed for rainy autumn adventures, this FluffHaven raincoat combines weather protection, visibility and everyday comfort.
 `,
 },
 
@@ -6070,7 +5550,7 @@ Designed to keep your dog dry, comfortable and visible during wet weather advent
   ],
 
   description:
-    "Give your dog the comfort they deserve with this premium orthopedic dog bed. Designed with pressure-relieving foam, supportive bolsters and a removable machine-washable cover for warm, restful sleep all year round.",
+  "Give your dog comfortable support with this premium orthopedic dog bed. Featuring pressure-relieving foam, supportive bolsters and a removable machine-washable cover, it's designed for restful sleep all year round.",
 
   seoTitle:
     "Premium Orthopedic Dog Bed | FluffHaven",
@@ -6081,16 +5561,21 @@ Designed to keep your dog dry, comfortable and visible during wet weather advent
   brand: "FluffHaven",
 
   details: `
-✔ Orthopedic egg-crate foam
-✔ Pressure-relieving support
-✔ Ultra-soft plush surface
-✔ Removable machine-washable cover
-✔ Waterproof inner lining
-✔ Non-slip bottom
-✔ Raised bolsters for head & neck support
-✔ Perfect for everyday comfort
+✓ Orthopedic egg-crate pressure-relieving foam
+✓ Ultra-soft plush sleeping surface
+✓ Raised bolsters for head and neck support
+✓ Waterproof inner lining with non-slip bottom
+✓ Removable machine-washable cover
 
-Designed to give your dog warm, supportive and restful sleep every day.
+Give your dog supportive comfort with this Premium Orthopedic Dog Bed.
+
+The egg-crate foam provides pressure-relieving support for comfortable everyday rest.
+
+A soft plush surface and raised bolsters create a cozy sleeping area with additional head and neck support.
+
+The waterproof inner lining helps protect the foam, while the non-slip bottom adds stability on indoor surfaces.
+
+With a removable machine-washable cover, this FluffHaven bed is designed for practical, comfortable rest all year round.
 `,
 },
 
@@ -6120,7 +5605,7 @@ Designed to give your dog warm, supportive and restful sleep every day.
   ],
 
   description:
-    "Keep your dog mentally stimulated and entertained with this premium snuffle mat. Designed to encourage natural foraging behaviour, reduce boredom and provide enriching daily play while helping slow down eating.",
+  "Keep your dog engaged with this premium snuffle mat. Designed to encourage natural foraging, mental stimulation and slower eating, it provides enriching everyday play while helping reduce boredom.",
 
   seoTitle:
     "Premium Dog Snuffle Mat | FluffHaven",
@@ -6131,16 +5616,21 @@ Designed to give your dog warm, supportive and restful sleep every day.
   brand: "FluffHaven",
 
   details: `
-✔ Encourages natural foraging
-✔ Helps reduce boredom & stress
-✔ Slow feeding enrichment
-✔ Ultra-soft premium fabric
-✔ Non-slip base
-✔ Machine washable
-✔ Durable everyday design
-✔ Suitable for all breeds
+✓ Encourages natural foraging and mental stimulation
+✓ Slow feeding enrichment
+✓ Soft and durable premium fabric
+✓ Non-slip base and machine washable
+✓ Suitable for all dog breeds
 
-Designed to provide daily mental stimulation while making mealtime and playtime more fun.
+Make everyday enrichment more engaging with this Premium Dog Snuffle Mat.
+
+The textured design encourages natural foraging as your dog searches for food or treats.
+
+Slow feeding provides additional stimulation while helping create a more engaging mealtime experience.
+
+Soft durable fabric and a non-slip base make the mat practical for regular indoor use.
+
+Machine washable and suitable for all breeds, it's a convenient FluffHaven enrichment accessory for everyday play and feeding.
 `,
   },
 
@@ -6170,7 +5660,7 @@ Designed to provide daily mental stimulation while making mealtime and playtime 
     ],
 
     description:
-      "Give your dog a fresh new look throughout the week with Ponpon's Signature Bandana Pack. This exclusive bundle includes five colourful custom-made bandanas selected and approved by Ponpon. Soft, comfortable and designed for everyday walks, adventures and special moments.",
+  "Give your dog a fresh look with Ponpon's Signature Bandana Pack. This exclusive set includes five colorful custom-made bandanas selected by Ponpon, designed for comfortable everyday walks, adventures and special moments.",
 
     seoTitle:
       "Ponpon's Signature Bandana Pack – 5 Dog Bandanas | FluffHaven",
@@ -6181,18 +5671,21 @@ Designed to provide daily mental stimulation while making mealtime and playtime 
     brand: "FluffHaven",
 
     details: `
-✓ Complete pack of 5 bandanas
-✓ Five unique colourful designs
-✓ Custom-made signature collection
-✓ Soft and comfortable fabric
-✓ Lightweight and breathable
-✓ Suitable for everyday walks
-✓ Easy to clean
-✓ Designed for small to large dogs
-✓ Sold exclusively as one complete pack
+✓ Complete pack of 5 colorful bandanas
+✓ Five unique custom-made designs
+✓ Soft, lightweight and breathable fabric
+✓ Suitable for small to large dogs
 ✓ Selected and approved by Ponpon
 
-This product includes all five bandanas shown in the pictures. The bandanas are not sold separately.
-    `,
+Discover Ponpon's Signature Bandana Pack, featuring five exclusive designs in one complete collection.
+
+Each bandana is made from soft, lightweight fabric for comfortable everyday wear.
+
+The five colorful designs provide different looks for walks, adventures and special moments.
+
+Easy to clean and designed for small to large dogs, the collection combines comfort with Ponpon's signature FluffHaven style.
+
+All five bandanas shown are included and sold exclusively as one complete pack. Bandanas are not sold separately.
+`,
   },
 ];
