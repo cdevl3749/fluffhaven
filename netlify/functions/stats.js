@@ -65,6 +65,7 @@ export async function handler(event) {
         devicesRaw,
         pagesRaw,
         sourcesRaw,
+        productStatsRaw,
       ] = await Promise.all([
         redis(["GET", "visitors"]),
         redis(["GET", "clicks"]),
@@ -76,6 +77,7 @@ export async function handler(event) {
         redis(["GET", "devices"]),
         redis(["GET", "pages"]),
         redis(["GET", "sources"]),
+        redis(["GET", "productStats"]),
       ]);
 
       return {
@@ -92,6 +94,7 @@ export async function handler(event) {
           devices: JSON.parse(devicesRaw || "{}"),
           pages: JSON.parse(pagesRaw || "{}"),
           sources: JSON.parse(sourcesRaw || "{}"),
+          productStats: JSON.parse(productStatsRaw || "{}"),
         }),
       };
 
@@ -189,6 +192,27 @@ export async function handler(event) {
       // PRODUCT VIEW
       if (data.type === "productView") {
         await redis(["INCR", "productViews"]);
+
+        if (data.productName) {
+          const productStatsRaw = await redis(["GET", "productStats"]);
+
+          let productStats = {};
+
+          try {
+            productStats = JSON.parse(productStatsRaw || "{}");
+          } catch {
+            productStats = {};
+          }
+
+          productStats[data.productName] =
+            (productStats[data.productName] || 0) + 1;
+
+          await redis([
+            "SET",
+            "productStats",
+            JSON.stringify(productStats),
+          ]);
+        }
       }
 
       // ADD TO CART
@@ -249,6 +273,7 @@ export async function handler(event) {
         redis(["SET", "devices", "{}"]),
         redis(["SET", "pages", "{}"]),
         redis(["SET", "sources", "{}"]),
+        redis(["SET", "productStats", "{}"]),
       ]);
 
       return {

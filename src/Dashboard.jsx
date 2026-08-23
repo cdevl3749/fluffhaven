@@ -95,6 +95,10 @@ export default function Dashboard() {
     .sort((a, b) => b[1] - a[1])
     .slice(0, 10);
 
+  const topProducts = Object.entries(stats.productStats || {})
+  .sort((a, b) => b[1] - a[1])
+  .slice(0, 10);
+
   return (
     <div style={styles.page}>
 
@@ -261,6 +265,62 @@ export default function Dashboard() {
           </div>
         )}
       </div>
+
+      {/* TOP PRODUCTS */}
+<div style={styles.section}>
+  <h2 style={styles.sectionTitle}>🔥 Produits les plus consultés</h2>
+
+  {topProducts.length === 0 ? (
+    <p
+      style={{
+        color: "#888",
+        fontFamily: "sans-serif",
+        fontSize: 14,
+      }}
+    >
+      Aucune donnée produit encore.
+    </p>
+  ) : (
+    <div style={styles.countryList}>
+      {topProducts.map(([productName, count]) => {
+        const pct =
+          stats.productViews > 0
+            ? Math.round((count / stats.productViews) * 100)
+            : 0;
+
+        return (
+          <div
+            key={productName}
+            style={{
+              ...styles.countryRow,
+              gridTemplateColumns: "260px 1fr 40px",
+            }}
+          >
+            <span
+              style={{
+                ...styles.countryName,
+                fontSize: 13,
+              }}
+            >
+              {productName}
+            </span>
+
+            <div style={styles.barBg}>
+              <div
+                style={{
+                  ...styles.barFill,
+                  width: `${pct}%`,
+                }}
+              />
+            </div>
+
+            <span style={styles.countryCount}>{count}</span>
+          </div>
+        );
+      })}
+    </div>
+  )}
+</div>
 
       {/* FUNNEL */}
       <div style={styles.section}>

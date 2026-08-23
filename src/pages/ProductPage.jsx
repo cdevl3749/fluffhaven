@@ -13,7 +13,9 @@ export default function ProductPage({ onAddToCart }) {
 
   const product = PRODUCTS.find((item) => item.slug === slug);
 
-  useEffect(() => {
+ useEffect(() => {
+  if (!product) return;
+
   fetch("/.netlify/functions/stats", {
     method: "POST",
     headers: {
@@ -21,9 +23,11 @@ export default function ProductPage({ onAddToCart }) {
     },
     body: JSON.stringify({
       type: "productView",
+      product: product.slug,
+      productName: product.name,
     }),
   }).catch(() => {});
-}, []);
+}, [product]);
 
   function handleAddToCart(product) {
   const savedCart = localStorage.getItem("fluffhaven_cart");
