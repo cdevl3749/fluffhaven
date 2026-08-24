@@ -3,6 +3,133 @@ export const PRODUCTS = [
   // 🔥 PRODUITS QUI CONVERTISSENT (EN PREMIER)
 
   {
+  id: 38,
+
+  slug: "premium-dog-enrichment-duo",
+
+  name: "Premium Dog Enrichment Duo",
+
+  category: "dog",
+
+  seasons: ["summer", "autumn", "winter"],
+
+  subtitle: "2 slow feeding mats • Mental stimulation • Blue + Pink",
+
+  price: 29.90,
+
+  badge: "🐶 Enrichment Essential",
+
+  promo: "10% OFF",
+  promoCode: "FLUFF10",
+
+  priceId: "price_1TyWh6Kn0lmTcQ114WXuNxfj",
+
+  images: [
+    "/dog-enrichment-duo-main.webp",
+    "/dog-enrichment-duo-features.webp",
+    "/dog-enrichment-duo-bowl.webp",
+  ],
+
+  description:
+  "Turn mealtime into a healthier and more stimulating experience with the Premium Dog Enrichment Duo. This set includes two slow feeding mats — one blue and one pink — designed to encourage slower eating, reduce gulping and keep your dog mentally engaged.",
+
+  seoTitle:
+    "Premium Dog Enrichment Duo | 2 Slow Feeding Mats | FluffHaven",
+
+  seoDescription:
+    "Premium dog enrichment duo with 2 slow feeding mats in blue and pink. Encourage slower eating, mental stimulation and healthier mealtime habits with FluffHaven.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ 2 slow feeding mats — Blue & Pink
+✓ Food-grade silicone with strong suction base
+✓ Encourages slower eating and helps reduce gulping
+✓ Suitable for wet food, treats and dry kibble
+✓ Dishwasher safe and suitable for dogs of all sizes
+
+Make mealtime more engaging with the Premium Dog Enrichment Duo, featuring two slow feeding mats in blue and pink.
+
+The textured design encourages slower eating while helping reduce gulping and providing mental stimulation during meals.
+
+Made from soft food-grade silicone, each mat features a strong suction base and fits most pet bowls.
+
+Use them with wet food, treats or dry kibble for varied everyday feeding.
+
+Easy to clean and dishwasher safe, this FluffHaven duo provides a practical enrichment solution for dogs of all sizes.
+`,
+
+  inStock: true,
+
+  featured: true,
+},
+
+  {
+  id: 110,
+
+  slug: "premium-elevated-cooling-dog-bed",
+
+  name: "Premium Elevated Cooling Dog Bed",
+
+  category: "dog",
+
+  seasons: ["summer"],
+
+  subtitle: "Breathable mesh • Elevated design • Indoor & outdoor comfort",
+
+  price: 39.90,
+
+  badge: "☀️ Summer Comfort",
+
+  priceId: "price_1U7vNZKn0lmTcQ11PwQRPxxp",
+
+  images: [
+    "/premium-elevated-cooling-dog-bed-main.webp",
+    "/premium-elevated-cooling-dog-bed-living-room.webp",
+    "/premium-elevated-cooling-dog-bed-details.webp",
+  ],
+
+  description:
+    "Give your dog a cool and comfortable place to relax with the Premium Elevated Cooling Dog Bed. Its raised design promotes airflow underneath while the breathable mesh sleeping surface helps keep your dog comfortable during warm days, indoors or outdoors.",
+
+  seoTitle:
+    "Premium Elevated Cooling Dog Bed | Breathable Raised Bed | FluffHaven",
+
+  seoDescription:
+    "Premium elevated cooling dog bed with breathable mesh and raised design for improved airflow. Comfortable for indoor and outdoor relaxation during warm weather.",
+
+  brand: "FluffHaven",
+
+  details: `
+
+✓ Breathable mesh sleeping surface
+
+✓ Elevated design promotes airflow underneath
+
+✓ Comfortable raised resting area
+
+✓ Suitable for indoor & outdoor use
+
+✓ Spacious 91 × 76 cm sleeping area
+
+✓ Ideal for warm summer days
+
+Give your dog a cooler and more comfortable place to rest during warm weather.
+
+The Premium Elevated Cooling Dog Bed features a breathable mesh sleeping surface and raised construction that allows air to circulate underneath.
+
+Its spacious 91 × 76 cm resting area gives your dog plenty of room to stretch out and relax.
+
+Perfect for the living room, patio or garden, this elevated bed combines everyday comfort with a practical summer-friendly design.
+
+`,
+
+  inStock: true,
+
+  featured: true,
+},
+
+  {
   id: 108,
 
   slug: "premium-mint-adventure-dog-collar",
@@ -3065,67 +3192,7 @@ Designed for small and medium dogs, this FluffHaven set combines play, chewing a
 
   featured: true,
 },
-  {
-  id: 38,
-
-  slug: "premium-dog-enrichment-duo",
-
-  name: "Premium Dog Enrichment Duo",
-
-  category: "dog",
-
-  seasons: ["summer", "autumn", "winter"],
-
-  subtitle: "2 slow feeding mats • Mental stimulation • Blue + Pink",
-
-  price: 29.90,
-
-  badge: "🐶 Enrichment Essential",
-
-  promo: "10% OFF",
-  promoCode: "FLUFF10",
-
-  priceId: "price_1TyWh6Kn0lmTcQ114WXuNxfj",
-
-  images: [
-    "/dog-enrichment-duo-main.webp",
-    "/dog-enrichment-duo-features.webp",
-    "/dog-enrichment-duo-bowl.webp",
-  ],
-
-  description:
-  "Turn mealtime into a healthier and more stimulating experience with the Premium Dog Enrichment Duo. This set includes two slow feeding mats — one blue and one pink — designed to encourage slower eating, reduce gulping and keep your dog mentally engaged.",
-
-  seoTitle:
-    "Premium Dog Enrichment Duo | 2 Slow Feeding Mats | FluffHaven",
-
-  seoDescription:
-    "Premium dog enrichment duo with 2 slow feeding mats in blue and pink. Encourage slower eating, mental stimulation and healthier mealtime habits with FluffHaven.",
-
-  brand: "FluffHaven",
-
-  details: `
-✓ 2 slow feeding mats — Blue & Pink
-✓ Food-grade silicone with strong suction base
-✓ Encourages slower eating and helps reduce gulping
-✓ Suitable for wet food, treats and dry kibble
-✓ Dishwasher safe and suitable for dogs of all sizes
-
-Make mealtime more engaging with the Premium Dog Enrichment Duo, featuring two slow feeding mats in blue and pink.
-
-The textured design encourages slower eating while helping reduce gulping and providing mental stimulation during meals.
-
-Made from soft food-grade silicone, each mat features a strong suction base and fits most pet bowls.
-
-Use them with wet food, treats or dry kibble for varied everyday feeding.
-
-Easy to clean and dishwasher safe, this FluffHaven duo provides a practical enrichment solution for dogs of all sizes.
-`,
-
-  inStock: true,
-
-  featured: true,
-},
+  
   {
   id: 34,
 

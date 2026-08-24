@@ -318,18 +318,20 @@ function ProductCard({ product, onAddToCart, onShowDetails }) {
               <span> USD</span>
             </div>
 
+          <div
+            style={{
+              minHeight: "28px",
+              marginTop: "8px",
+              fontSize: "14px",
+              fontWeight: "700",
+              color: "#d97706",
+            }}
+          >
             {product.promo && (
-              <div
-                style={{
-                  marginTop: "8px",
-                  fontSize: "14px",
-                  fontWeight: "700",
-                  color: "#d97706",
-                }}
-              >
-                🏷️ {product.promo} — Code: {product.promoCode}
-              </div>
+              <>🏷️ {product.promo} — Code: {product.promoCode}</>
             )}
+          </div>
+          
           </div>
           <div className="product-btns">
             {product.details && (
@@ -1076,7 +1078,7 @@ const filteredProducts = PRODUCTS.filter((product) => {
 
           <div className="about-visual">
             <div className="about-card">
-              <div className="about-stat">110+</div>
+              <div className="about-stat">111+</div>
               <div className="about-stat-label">Carefully Selected Products</div>
             </div>
 
