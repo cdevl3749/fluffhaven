@@ -3082,6 +3082,9 @@ Designed for small and medium dogs, this FluffHaven set combines play, chewing a
 
   badge: "🐶 Enrichment Essential",
 
+  promo: "10% OFF",
+  promoCode: "FLUFF10",
+
   priceId: "price_1TyWh6Kn0lmTcQ114WXuNxfj",
 
   images: [

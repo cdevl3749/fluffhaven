@@ -94,18 +94,31 @@ export default function ProductInfo({ product, onAddToCart }) {
       )}
 
       <div className="product-price-wrapper">
-        <p className="product-price">
-          ${product.price.toFixed(2)} USD
-        </p>
+  <p className="product-price">
+    ${product.price.toFixed(2)} USD
+  </p>
 
-        <p className="product-secure">
-          🔒 Secure payment with Stripe
-        </p>
+  {product.promo && (
+    <p
+      style={{
+        margin: "4px 0 10px",
+        fontSize: "15px",
+        fontWeight: "700",
+        color: "#d97706",
+      }}
+    >
+      🏷️ {product.promo} — Code: {product.promoCode}
+    </p>
+  )}
 
-        <p className="product-price-secondary">
-          🚚 Estimated delivery: 5–8 business days
-        </p>
-      </div>
+  <p className="product-secure">
+    🔒 Secure payment with Stripe
+  </p>
+
+  <p className="product-price-secondary">
+    🚚 Estimated delivery: 5–8 business days
+  </p>
+</div>
 
       {product.badge && (
         <div className="product-badge">{product.badge}</div>
