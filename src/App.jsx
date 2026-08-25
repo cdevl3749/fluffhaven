@@ -902,7 +902,7 @@ if (
         onClick={() => (window.location.href = "/product/premium-reflective-dog-harness")}
         className="world-cup-share-btn"
       >
-        🍂 View Collection
+        🍂 Shop This Pick
       </button>
     </div>
 
@@ -916,7 +916,7 @@ if (
         onClick={() => (window.location.href = "/product/premium-waterproof-dog-raincoat")}
         className="world-cup-share-btn"
       >
-        ☔ View Collection
+        ☔ Shop This Pick
       </button>
     </div>
 
@@ -930,7 +930,7 @@ if (
         onClick={() => (window.location.href = "/product/premium-orthopedic-dog-bed")}
         className="world-cup-share-btn"
       >
-        🧣 View Collection
+        🧣 Shop This Pick
       </button>
     </div>
 
@@ -944,7 +944,7 @@ if (
         onClick={() => (window.location.href = "/product/premium-dog-snuffle-mat")}
         className="world-cup-share-btn"
       >
-        ❤️ View Collection
+        ❤️ Shop Ponpon’s Pick
       </button>
     </div>
 
