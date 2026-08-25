@@ -1653,11 +1653,11 @@ Quick to set up and easy to store, this FluffHaven splash mat brings refreshing 
 
   subtitle: "Beach bag • 4 floating toys • Premium towel",
 
-  price: 89.90,
+  price: 69.90,
 
   badge: "🏖️ Beach Adventure",
 
-  priceId: "price_1U1RaYKn0lmTcQ11ra8NZAc7",
+  priceId: "price_1U8RnFKn0lmTcQ115vhaUUkK",
 
   images: [
     "/premium-beach-bundle-main.webp",
