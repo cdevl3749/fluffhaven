@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "./BandanaPopup.css";
 
-const STORAGE_KEY = "fh_bandana_popup_closed_at";
+const STORAGE_KEY = "fh_grooming_popup_closed_at";
 const THIRTY_DAYS = 30 * 24 * 60 * 60 * 1000;
 const SCROLL_TRIGGER_PERCENT = 0.35;
 
@@ -74,7 +74,7 @@ export default function BandanaPopup() {
   function openProduct() {
     setIsOpen(false);
     window.location.href =
-      "/product/ponpons-signature-bandana-pack";
+      "/product/premium-3-in-1-pet-grooming-set";
   }
 
   if (!isOpen) return null;
@@ -101,42 +101,42 @@ export default function BandanaPopup() {
 
         <div className="bandana-popup-image">
           <img
-            src="/ponpon-bandana-pack-main.webp"
-            alt="Ponpon Signature Bandana Pack"
+            src="/premium-3-in-1-pet-grooming-set-main.webp"
+            alt="Premium 3-in-1 Pet Grooming Set"
           />
         </div>
 
         <div className="bandana-popup-content">
 
           <span className="bandana-popup-label">
-            🐾 NEW PONPON COLLECTION
+            🛁 GROOMING ESSENTIAL
           </span>
 
           <h2 id="bandana-popup-title">
-            Ponpon's Signature Bandana Pack
+            Premium 3-in-1 Pet Grooming Set
           </h2>
 
           <p className="bandana-popup-subtitle">
-            5 exclusive custom bandanas for every day
-            of the week.
+            Clean, massage and care for your pet
+            with one practical grooming set.
           </p>
 
           <div className="bandana-popup-benefits">
-            <span>✓ 5 unique designs</span>
-            <span>✓ Soft & comfortable</span>
-            <span>✓ Free worldwide shipping</span>
+            <span>✓ Shampoo dispenser</span>
+            <span>✓ Massage & grooming brushes</span>
+            <span>✓ For dogs & cats</span>
           </div>
 
           <div className="bandana-popup-price">
-            <strong>$74.90 USD</strong>
-            <span>Complete pack</span>
+            <strong>$27.90 USD</strong>
+            <span>Free shipping</span>
           </div>
 
           <button
             className="bandana-popup-button"
             onClick={openProduct}
           >
-            Discover Collection →
+            Discover Grooming Set →
           </button>
 
           <button
