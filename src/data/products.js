@@ -10,6 +10,7 @@ export const PRODUCTS = [
   name: "Premium Dog Enrichment Duo",
 
   category: "dog",
+  productType: "toys",
 
   seasons: ["summer", "autumn", "winter"],
 
@@ -64,6 +65,259 @@ Easy to clean and dishwasher safe, this FluffHaven duo provides a practical enri
   featured: true,
 },
 
+{
+  id: 111,
+
+  slug: "premium-waterproof-dog-sofa-protector",
+
+  name: "Premium Waterproof Dog Sofa Protector",
+
+  category: "dog",
+  productType: "accessories-home",
+
+  seasons: ["summer", "autumn", "winter"],
+
+  subtitle: "Waterproof protection • Non-slip backing • Machine washable • 178 × 76 cm",
+
+  price: 21.90,
+
+  badge: "🛡️ Sofa Protection",
+
+  priceId: "price_1U80FTKn0lmTcQ11uzYBJR4S",
+
+  images: [
+    "/premium-waterproof-dog-sofa-protector-main.webp",
+    "/premium-waterproof-dog-sofa-protector-living-room.webp",
+    "/premium-waterproof-dog-sofa-protector-details.webp",
+  ],
+
+  description:
+    "Keep your sofa, floor or favorite resting area protected with the Premium Waterproof Dog Sofa Protector. Its quilted waterproof surface helps protect against dirt, hair and everyday accidents, while the non-slip backing helps keep it securely in place. Machine washable for easy everyday care.",
+
+  seoTitle:
+    "Premium Waterproof Dog Sofa Protector | Washable Pet Mat | FluffHaven",
+
+  seoDescription:
+    "Premium waterproof dog sofa protector with non-slip backing and machine-washable quilted surface. Large 178 × 76 cm size for sofas, floors and everyday pet protection.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Waterproof quilted surface
+✓ Helps protect against dirt, hair & everyday accidents
+✓ Non-slip backing for better stability
+✓ Machine washable for easy cleaning
+✓ Large 178 × 76 cm size
+✓ Suitable for sofas, floors & resting areas
+
+Protect your favorite spaces while giving your dog a comfortable place to relax.
+
+The Premium Waterproof Dog Sofa Protector combines a soft quilted surface with practical waterproof protection to help keep sofas and floors cleaner.
+
+Its non-slip backing helps the protector stay securely in place, while the generous 178 × 76 cm size provides plenty of room for your dog to stretch out.
+
+Easy to maintain and machine washable, it's a practical everyday essential for a cleaner home and a happy dog.
+`,
+
+  inStock: true,
+
+  featured: true,
+},
+
+{
+  id: 112,
+
+  slug: "premium-3-in-1-pet-grooming-set",
+
+  name: "Premium 3-in-1 Pet Grooming Set",
+
+  category: "dog",
+  productType: "grooming-care",
+
+  seasons: ["summer", "autumn", "winter"],
+
+  subtitle: "3-piece grooming set • Shampoo dispenser • Massage brush • Soft silicone",
+
+  price: 27.90,
+
+  badge: "🛁 Grooming Essential",
+
+  priceId: "price_1U80wdKn0lmTcQ11oAzGU68v",
+
+  images: [
+    "/premium-3-in-1-pet-grooming-set-main.webp",
+    "/premium-3-in-1-pet-grooming-set-bath.webp",
+    "/premium-3-in-1-pet-grooming-set-details.webp",
+  ],
+
+  description:
+    "Make bath time easier and more enjoyable with the Premium 3-in-1 Pet Grooming Set. This practical grooming collection includes a shampoo dispensing brush and massage brushes designed to help clean your dog's coat while providing a gentle and relaxing massage.",
+
+  seoTitle:
+    "Premium 3-in-1 Pet Grooming Set | Dog Bath & Massage Brushes | FluffHaven",
+
+  seoDescription:
+    "Premium 3-in-1 pet grooming set with shampoo dispenser and soft silicone massage brushes. Designed for easy bathing, gentle cleaning and everyday coat care.",
+
+  brand: "FluffHaven",
+
+  details: `
+
+✓ Complete 3-piece grooming set
+
+✓ Convenient shampoo dispensing brush
+
+✓ Soft silicone massage bristles
+
+✓ Helps clean the coat during bath time
+
+✓ Gentle massage while washing
+
+✓ Comfortable handheld design
+
+Make bath time simpler and more relaxing for your dog.
+
+The Premium 3-in-1 Pet Grooming Set combines practical cleaning tools with soft massage bristles to help make regular grooming more comfortable.
+
+The shampoo dispensing brush allows you to apply and distribute shampoo while gently massaging your dog's coat, while the additional grooming brushes provide convenient options for washing and everyday care.
+
+Soft silicone bristles help provide a gentle massage while cleaning, making this versatile set a practical addition to your dog's grooming routine.
+
+`,
+
+  inStock: true,
+
+  featured: true,
+
+},
+
+{
+  id: 113,
+
+  slug: "premium-3-in-1-dog-travel-bottle",
+
+  name: "Premium 3-in-1 Dog Travel Bottle",
+
+  category: "dog",
+  productType: "walking-travel",
+
+  seasons: ["summer", "autumn", "winter"],
+
+  subtitle: "600 ml water bottle • Treat storage • Waste bag holder • Travel ready",
+
+  price: 29.90,
+
+  badge: "💧 Travel Essential",
+
+  priceId: "price_1U82l0Kn0lmTcQ11QmClc1ZZ",
+
+  images: [
+    "/premium-3-in-1-dog-travel-bottle-main.webp",
+    "/premium-3-in-1-dog-travel-bottle-outdoor.webp",
+    "/premium-3-in-1-dog-travel-bottle-details.webp",
+  ],
+
+  description:
+    "Keep your dog hydrated and prepared wherever your adventures take you with the Premium 3-in-1 Dog Travel Bottle. This practical all-in-one design combines a 600 ml water bottle, convenient treat storage and a built-in waste bag holder, making it ideal for walks, hikes, road trips and everyday outings.",
+
+  seoTitle:
+    "Premium 3-in-1 Dog Travel Bottle | Water, Treats & Waste Bags | FluffHaven",
+
+  seoDescription:
+    "Premium 3-in-1 dog travel bottle with 600 ml water capacity, treat storage and built-in waste bag holder. A convenient all-in-one solution for walks, hikes and travel.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ 600 ml water bottle for convenient hydration
+✓ Integrated drinking bowl design
+✓ 100 g storage compartment for treats
+✓ Built-in waste bag holder
+✓ Convenient wrist strap for easy carrying
+✓ Ideal for walks, hikes, trips & outdoor adventures
+
+Make every adventure with your dog easier and more convenient.
+
+The Premium 3-in-1 Dog Travel Bottle combines hydration, treats and everyday walk essentials in one compact travel-friendly design.
+
+The 600 ml water compartment helps keep your dog hydrated while you're away from home, while the integrated drinking bowl makes offering water quick and convenient.
+
+A separate 100 g compartment provides space for treats or snacks, and the built-in waste bag holder keeps another essential close at hand.
+
+Perfect for daily walks, hikes, road trips and outdoor adventures, it's a practical all-in-one companion for you and your dog.
+`,
+
+  inStock: true,
+
+  featured: true,
+},
+
+{
+  id: 114,
+
+  slug: "premium-reusable-pet-hair-remover",
+
+  name: "Premium Reusable Pet Hair Remover",
+
+  category: "dog",
+  productType: "grooming-care",
+
+  seasons: ["summer", "autumn", "winter"],
+
+  subtitle: "Reusable hair remover • Sofas • Clothes • Bedding • Multi-surface",
+
+  price: 29.90,
+
+  badge: "✨ Home Care Essential",
+
+  priceId: "price_1U83pHKn0lmTcQ11l7FQe0MC",
+
+  images: [
+    "/premium-reusable-pet-hair-remover-main.webp",
+    "/premium-reusable-pet-hair-remover-clothes.webp",
+    "/premium-reusable-pet-hair-remover-details.webp",
+  ],
+
+  description:
+    "Keep your home and clothes free from unwanted pet hair with the Premium Reusable Pet Hair Remover. Designed for everyday use on sofas, clothing, bedding and other fabric surfaces, it collects dog and cat hair into a built-in chamber for quick and convenient cleaning.",
+
+  seoTitle:
+    "Premium Reusable Pet Hair Remover | Sofa, Clothes & Bedding | FluffHaven",
+
+  seoDescription:
+    "Reusable pet hair remover for sofas, clothes, bedding and fabric surfaces. Easily collect dog and cat hair with a convenient built-in collection chamber.",
+
+  brand: "FluffHaven",
+
+  details: `
+
+✓ Removes dog & cat hair
+
+✓ Reusable design — no sticky refills
+
+✓ Built-in hair collection chamber
+
+✓ Ideal for sofas, clothes & bedding
+
+✓ Easy to empty and reuse
+
+✓ Convenient multi-surface cleaning
+
+Keep pet hair under control with a simple reusable solution.
+
+The Premium Reusable Pet Hair Remover collects loose dog and cat hair from everyday fabric surfaces without disposable sticky sheets.
+
+Simply roll it across sofas, clothing, bedding or other suitable fabrics to collect hair inside the built-in chamber, then open, empty and reuse.
+
+A practical home-care essential for pet owners.
+
+`,
+
+  inStock: true,
+
+  featured: true,
+},
+
   {
   id: 110,
 
@@ -72,6 +326,7 @@ Easy to clean and dishwasher safe, this FluffHaven duo provides a practical enri
   name: "Premium Elevated Cooling Dog Bed",
 
   category: "dog",
+  productType: "beds-comfort",
 
   seasons: ["summer"],
 
@@ -137,6 +392,7 @@ Perfect for the living room, patio or garden, this elevated bed combines everyda
   name: "Premium Mint Adventure Dog Collar",
 
   category: "dog",
+  productType: "walking-travel",
 
   seasons: ["summer", "autumn", "winter"],
 
@@ -191,6 +447,7 @@ Designed for necks measuring 52–58 cm, it's a stylish FluffHaven essential for
   name: "Premium Dog Playtime Trio",
 
   category: "dog",
+  productType: "toys",
 
   seasons: ["summer", "autumn", "winter"],
 
@@ -250,6 +507,7 @@ And to make the bundle even better, a FluffHaven play mat is included free.
   name: "Premium Dog Activity Flip Board",
 
   category: "dog",
+  productType: "toys",
 
   seasons: ["summer", "autumn", "winter"],
 
@@ -309,6 +567,7 @@ A fun and rewarding way to encourage curiosity and keep your dog mentally active
   name: "Premium Dog Treat Training Pouch",
 
   category: "dog",
+  productType: "walking-travel",
 
   seasons: ["summer", "autumn", "winter"],
 
@@ -368,6 +627,7 @@ Lightweight, practical and designed for everyday use, it's a simple FluffHaven e
   name: "Premium Paw Print Ceramic Pet Bowl",
 
   category: "dog",
+  productType: "feeding",
 
   seasons: ["summer", "autumn", "winter"],
 
@@ -428,6 +688,7 @@ Practical and stylish, it's a simple FluffHaven essential for everyday feeding.
   name: "Premium Winter Cozy Dog Blanket",
 
   category: "dog",
+  productType: "beds-comfort",
 
   seasons: ["autumn", "winter"],
 
@@ -488,6 +749,7 @@ Combining warmth, practicality and winter-inspired styling, it brings cozy Fluff
   name: "Premium Pet Toy Storage Basket",
 
   category: "dog",
+  productType: "accessories-home",
 
   seasons: ["autumn", "winter"],
 
@@ -547,6 +809,7 @@ Practical, compact and decorative, it brings a tidy FluffHaven touch to your pet
   name: "Premium Cozy Dog Blanket Duo",
 
   category: "dog",
+  productType: "beds-comfort",
 
   seasons: ["autumn", "winter"],
 
@@ -606,6 +869,7 @@ Machine washable up to 60°C, this practical duo combines soft comfort, easy car
   name: "Premium Cozy Pet Sofa Bed",
 
   category: "dog",
+  productType: "beds-comfort",
 
   seasons: ["autumn", "winter"],
 
@@ -665,6 +929,7 @@ Combining generous dimensions, soft materials and supportive raised sides, this 
   name: "Premium Puppy Treat & Play Duo",
 
   category: "dog",
+  productType: "toys",
 
   seasons: ["summer", "autumn", "winter"],
 
@@ -723,6 +988,7 @@ Combining mental stimulation and active play, this FluffHaven duo brings more va
   name: "Premium Microfiber Dog Robe",
 
   category: "dog",
+  productType: "clothing",
 
   seasons: ["summer", "autumn", "winter"],
 
@@ -782,6 +1048,7 @@ Finished in forest green, it combines practical drying performance, comfort and 
   name: "Premium Neoprene Dog Harness",
 
   category: "dog",
+  productType: "walking-travel",
 
   seasons: ["summer", "autumn", "winter"],
 
@@ -841,6 +1108,7 @@ Finished in forest green, this Size L harness combines practical everyday featur
   name: "Premium Orthopedic Support Dog Mattress",
 
   category: "dog",
+  productType: "beds-comfort",
 
   seasons: ["summer", "autumn", "winter"],
 
@@ -900,6 +1168,7 @@ Combining orthopedic support, generous dimensions and practical features, this m
   name: "Premium Automatic Dog Ball Launcher",
 
   category: "dog",
+  productType: "toys",
 
   seasons: ["summer"],
 
@@ -959,6 +1228,7 @@ Combining interactive entertainment, exercise and mental stimulation, it's a fun
   name: "Premium Non-Contact Pet Thermometer",
 
   category: "dog",
+  productType: "grooming-care",
 
   seasons: ["summer", "autumn", "winter"],
 
@@ -1018,6 +1288,7 @@ Combining contact-free operation, quick readings and a clear display, this therm
   name: "Premium One-Click Self-Cleaning Dog Brush",
 
   category: "dog",
+  productType: "toys",
 
   seasons: ["summer", "autumn", "winter"],
 
@@ -1077,6 +1348,7 @@ Combining practical grooming and simple cleaning, this brush is a useful additio
   name: "Premium 2-Level Dog Puzzle Slow Feeder",
 
   category: "dog",
+  productType: "feeding",
 
   seasons: ["summer", "autumn", "winter"],
 
@@ -1136,6 +1408,7 @@ Combining slow feeding, mental stimulation and rewarding play, it brings more fu
   name: "Premium Interactive Dog Water Fountain",
 
   category: "dog",
+  productType: "feeding",
 
   seasons: ["summer"],
 
@@ -1195,6 +1468,7 @@ Combining cooling refreshment with interactive fun, it's a FluffHaven summer ess
   name: "Premium Interactive Dog Puzzle Treat Dispenser",
 
   category: "dog",
+  productType: "toys",
 
   seasons: ["summer", "autumn", "winter"],
 
@@ -1254,6 +1528,7 @@ Combining problem-solving, rewards and interactive play, it brings engaging ever
   name: "Premium Dog Playtime Gift Basket",
 
   category: "dog",
+  productType: "toys",
 
   seasons: ["summer", "autumn", "winter"],
 
@@ -1312,6 +1587,7 @@ Combining enrichment, entertainment and practical storage, this complete FluffHa
   name: "Premium Dog Splash & Cooling Mat",
 
   category: "dog",
+  productType: "beds-comfort",
 
   seasons: ["summer"],
 
@@ -1371,6 +1647,7 @@ Quick to set up and easy to store, this FluffHaven splash mat brings refreshing 
   name: "Premium Beach Bundle",
 
   category: "dog",
+  productType: "walking-travel",
 
   seasons: ["summer"],
 
@@ -1430,6 +1707,7 @@ Combining play, comfort and convenience, it's a complete FluffHaven summer compa
   name: "Premium Floating Fetch Ring Duo",
 
   category: "dog",
+  productType: "toys",
 
   seasons: ["summer"],
 
@@ -1489,6 +1767,7 @@ Designed for medium and large dogs, this FluffHaven duo combines water play, exe
   name: "Premium Dog Swimming Life Jacket",
 
   category: "dog",
+  productType: "clothing",
 
   seasons: ["summer"],
 
@@ -1548,6 +1827,7 @@ Combining flotation support, visibility and comfort, this Size L FluffHaven life
   name: "Premium Floating Rope Ball",
 
   category: "dog",
+  productType: "toys",
 
   seasons: ["summer"],
 
@@ -1607,6 +1887,7 @@ Combining floating performance, easy retrieval and active fun, it's a practical 
   name: "Premium Smart Rolling Dog Ball Duo",
 
   category: "dog",
+  productType: "toys",
 
   seasons: ["summer", "autumn", "winter"],
 
@@ -1666,6 +1947,7 @@ Combining interactive movement, physical activity and mental enrichment, this Fl
   name: "Premium Full-Body Cooling Dog Vest",
 
   category: "dog",
+  productType: "clothing",
 
   seasons: ["summer"],
 
@@ -1725,6 +2007,7 @@ Combining breathable comfort, full-body coverage and a stylish blue design, it's
   name: "Premium Olive Cozy Dog Bed",
 
   category: "dog",
+  productType: "beds-comfort",
 
   seasons: ["autumn", "winter"],
 
@@ -1784,6 +2067,7 @@ Combining soft comfort, supportive edges and a warm seasonal design, this FluffH
   name: "Premium Hooded Dog Puffer Jacket",
 
   category: "dog",
+  productType: "clothing",
 
   seasons: ["autumn", "winter"],
 
@@ -1843,6 +2127,7 @@ Combining warmth, protection and blue-and-black FluffHaven styling, this jacket 
   name: "Premium Elevated Comfort Feeding Station",
 
   category: "dog",
+  productType: "feeding",
 
   seasons: ["autumn", "winter"],
 
@@ -1895,6 +2180,288 @@ Finished in natural wood, this complete FluffHaven feeding station combines comf
 },
 
 {
+  id: 116,
+
+  slug: "premium-airtag-compatible-cat-collar",
+
+  name: "Premium AirTag Compatible Cat Collar",
+
+  category: "cat",
+  productType: "walking-travel",
+
+  seasons: ["summer", "autumn", "winter"],
+
+  subtitle: "Reflective design • AirTag compatible • Adjustable 23–30.5 cm",
+
+  price: 27.90,
+
+  badge: "📍 Safety & Tracking",
+
+  priceId: "price_1U8HbYKn0lmTcQ11Owu4iX4K",
+
+  images: [
+    "/premium-airtag-compatible-cat-collar-main.webp",
+    "/premium-airtag-compatible-cat-collar-garden.webp",
+    "/premium-airtag-compatible-cat-collar-details.webp",
+  ],
+
+  description:
+    "Keep your cat comfortable, visible and easier to locate with the Premium AirTag Compatible Cat Collar. Its turquoise reflective design features a secure AirTag holder, bell and adjustable fit for everyday adventures. AirTag not included.",
+
+  seoTitle:
+    "Premium AirTag Compatible Cat Collar | Reflective Collar | FluffHaven",
+
+  seoDescription:
+    "Turquoise reflective cat collar with AirTag compatible holder, bell and adjustable 23–30.5 cm fit. Lightweight everyday safety for cats and kittens.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ AirTag compatible holder (AirTag not included)
+✓ Reflective turquoise design for better visibility
+✓ Adjustable fit from 23 to 30.5 cm
+✓ Bell included
+✓ Lightweight nylon and silicone construction
+
+A practical everyday collar combining comfort, visibility and tracking compatibility.
+
+The adjustable design provides a secure fit while the reflective strap helps improve visibility in low-light conditions.
+`,
+
+  inStock: true,
+
+  featured: true,
+},
+
+{
+  id: 117,
+
+  slug: "premium-2-in-1-cat-feeding-water-station",
+
+  name: "Premium 2-in-1 Cat Feeding & Water Station",
+
+  category: "cat",
+  productType: "feeding",
+
+  seasons: ["summer", "autumn", "winter"],
+
+  subtitle: "15° inclined bowl • Automatic water refill • 2-in-1 feeding station",
+
+  price: 29.90,
+
+  badge: "💧 Food & Water",
+
+  priceId: "price_1U8IEvKn0lmTcQ116vg5ZloH",
+
+  images: [
+    "/premium-2-in-1-cat-feeding-water-station-main.webp",
+    "/premium-2-in-1-cat-feeding-water-station-kitchen.webp",
+    "/premium-2-in-1-cat-feeding-water-station-details.webp",
+  ],
+
+  description:
+    "Make everyday feeding easier with the Premium 2-in-1 Cat Feeding & Water Station. It combines a 15° inclined food bowl with an automatic gravity-fed water reservoir in one compact and convenient design.",
+
+  seoTitle:
+    "Premium 2-in-1 Cat Feeding & Water Station | FluffHaven",
+
+  seoDescription:
+    "2-in-1 cat feeding station with a 15° inclined food bowl and automatic water refill. Practical, comfortable and easy to clean for everyday feeding.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ 2-in-1 food and water station
+✓ 15° inclined bowl for comfortable feeding
+✓ Automatic gravity-fed water refill
+✓ Stable design for everyday use
+✓ Easy to detach and clean
+
+Keep food and fresh water conveniently together in one compact feeding station.
+
+The inclined bowl provides a comfortable eating position while the gravity-fed reservoir keeps water readily available.
+`,
+
+  inStock: true,
+
+  featured: true,
+},
+
+{
+  id: 115,
+
+  slug: "premium-cozy-cat-blanket-trio",
+
+  name: "Premium Cozy Cat Blanket Trio",
+
+  category: "cat",
+  productType: "beds-comfort",
+
+  seasons: ["autumn", "winter"],
+
+  subtitle: "3 ultra-soft blankets • Pink, white & mauve • Cozy everyday comfort",
+
+  price: 24.90,
+
+  badge: "🧸 Cozy Trio",
+
+  priceId: "price_1U87TxKn0lmTcQ11TN9YbJeb",
+
+  images: [
+    "/premium-cozy-cat-blanket-trio-main.webp",
+    "/premium-cozy-cat-blanket-trio-living-room.webp",
+    "/premium-cozy-cat-blanket-trio-details.webp",
+  ],
+
+  description:
+    "Give your cat a soft and cozy place to relax with the Premium Cozy Cat Blanket Trio. This set includes three plush blankets in pink, white and mauve, perfect for sofas, beds, baskets or your cat's favorite resting spot.",
+
+  seoTitle:
+    "Premium Cozy Cat Blanket Trio | Soft Pet Blankets | FluffHaven",
+
+  seoDescription:
+    "Set of 3 ultra-soft cat blankets in pink, white and mauve. Cozy, washable and perfect for sofas, beds, baskets and everyday cat comfort.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Set of 3 soft and cozy cat blankets
+✓ Pink, white and mauve colors
+✓ Plush texture for warm everyday comfort
+✓ Ideal for sofas, beds, baskets and carriers
+✓ Machine washable for easy care
+
+Create a cozy resting space anywhere with the Premium Cozy Cat Blanket Trio.
+
+The soft plush texture provides comfortable warmth while helping protect furniture and pet beds from fur.
+
+With three charming colors, you can easily keep one in your cat's favorite spots around the home.
+`,
+
+  inStock: true,
+
+  featured: true,
+},
+
+{
+  id: 119,
+
+  slug: "premium-self-adhesive-cat-scratching-mat",
+
+  name: "Premium Self-Adhesive Cat Scratching Mat",
+
+  category: "cat",
+  productType: "accessories-home",
+
+  seasons: ["summer", "autumn", "winter"],
+
+  subtitle: "Self-adhesive design • Cut to fit • Furniture & wall protection • 60 × 100 cm",
+
+  price: 29.90,
+
+  badge: "🐾 Scratch & Protect",
+
+  priceId: "price_1U8JFuKn0lmTcQ11kr5aP05K",
+
+  images: [
+    "/premium-self-adhesive-cat-scratching-mat-main.webp",
+    "/premium-self-adhesive-cat-scratching-mat-details.webp",
+    "/premium-self-adhesive-cat-scratching-mat-living-room.webp",
+  ],
+
+  description:
+    "Create a dedicated scratching space while helping protect your furniture and walls with the Premium Self-Adhesive Cat Scratching Mat. Its durable textured surface encourages natural scratching and can be easily cut to fit different areas around your home.",
+
+  seoTitle:
+    "Premium Self-Adhesive Cat Scratching Mat | FluffHaven",
+
+  seoDescription:
+    "60 × 100 cm self-adhesive cat scratching mat designed to protect furniture and walls. Durable, cut-to-fit and easy to install for everyday scratching.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Self-adhesive backing for easy installation
+
+✓ Large 60 × 100 cm scratching surface
+
+✓ Cut-to-fit design for different spaces
+
+✓ Helps protect furniture and walls from scratching
+
+✓ Durable textured surface for everyday use
+
+✓ Dark brown color that blends easily with home interiors
+
+Create a comfortable scratching area while helping protect the surfaces around your home.
+
+The large self-adhesive mat can be trimmed to fit walls, furniture and other suitable surfaces, giving your cat a dedicated place to satisfy natural scratching instincts.
+`,
+
+  inStock: true,
+
+  featured: true,
+},
+
+{
+  id: 118,
+
+  slug: "premium-reflective-cat-harness-leash-set",
+
+  name: "Premium Reflective Cat Harness & Leash Set",
+
+  category: "cat",
+  productType: "walking-travel",
+
+  seasons: ["summer", "autumn", "winter"],
+
+  subtitle: "Escape-resistant design • Reflective trim • Harness & leash set • Size S",
+
+  price: 23.90,
+
+  badge: "🐾 Safe Adventures",
+
+  priceId: "price_1U8ImVKn0lmTcQ118je8SoDE",
+
+  images: [
+    "/premium-reflective-cat-harness-leash-set-main.webp",
+    "/premium-reflective-cat-harness-leash-set-walk.webp",
+    "/premium-reflective-cat-harness-leash-set-details.webp",
+  ],
+
+  description:
+    "Enjoy safer walks with your cat using the Premium Reflective Cat Harness & Leash Set. This soft pink Size S harness features breathable mesh, reflective details and an adjustable escape-resistant design for comfortable everyday adventures.",
+
+  seoTitle:
+    "Premium Reflective Cat Harness & Leash Set | FluffHaven",
+
+  seoDescription:
+    "Pink Size S cat harness and leash set with breathable mesh, reflective details and an adjustable escape-resistant fit for comfortable outdoor walks.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Pink harness with matching leash
+
+✓ Size S for cats and kittens
+
+✓ Breathable mesh for everyday comfort
+
+✓ Reflective details for improved visibility
+
+✓ Adjustable escape-resistant design
+
+A comfortable harness and leash set designed for safer everyday walks and outdoor adventures.
+
+The lightweight breathable construction provides a secure fit while reflective details help improve visibility in low-light conditions.
+`,
+
+  inStock: true,
+
+  featured: true,
+},
+
+{
   id: 86,
 
   slug: "premium-cat-playtime-gift-basket",
@@ -1902,6 +2469,7 @@ Finished in natural wood, this complete FluffHaven feeding station combines comf
   name: "Premium Cat Playtime Gift Basket",
 
   category: "cat",
+  productType: "toys",
 
   seasons: ["summer", "autumn", "winter"],
 
@@ -1961,6 +2529,7 @@ Combining entertainment, enrichment and practical storage, this complete FluffHa
   name: "Premium Cat Scratcher Repair Rope",
 
   category: "cat",
+  productType: "accessories-home",
 
   seasons: ["summer", "autumn", "winter"],
 
@@ -2020,6 +2589,7 @@ Practical and versatile, it helps extend the life of your cat's favorite furnitu
   name: "Premium Interactive Cat Scratcher Lounge",
 
   category: "cat",
+  productType: "toys",
 
   seasons: ["summer", "autumn", "winter"],
 
@@ -2079,6 +2649,7 @@ Combining scratching, lounging and interactive play, this FluffHaven lounge prov
   name: "Premium Cat Scratch & Play Mat",
 
   category: "cat",
+  productType: "toys",
 
   seasons: ["summer", "autumn", "winter"],
 
@@ -2138,6 +2709,7 @@ Combining scratching, interactive toys and resting areas, this FluffHaven mat br
   name: "Premium Easy-Clean Cat Litter Tray",
 
   category: "cat",
+  productType: "accessories-home",
 
   seasons: ["summer", "autumn", "winter"],
 
@@ -2197,6 +2769,7 @@ Finished in neutral dark grey, this practical FluffHaven litter tray provides a 
   name: "Premium Cozy Knit Cat Sweater Trio",
 
   category: "cat",
+  productType: "clothing",
 
   seasons: ["autumn", "winter"],
 
@@ -2256,6 +2829,7 @@ Combining three different looks, warmth and seasonal style, this FluffHaven trio
   name: "Premium Treat Dispensing Chew Ball Duo",
 
   category: "dog",
+  productType: "toys",
 
   seasons: ["summer", "autumn", "winter"],
 
@@ -2314,6 +2888,7 @@ Combining treats, movement and mental stimulation, this reusable FluffHaven duo 
   name: "Premium Silicone Slow Feeder Puzzle Mat",
 
   category: "dog",
+  productType: "feeding",
 
   seasons: ["summer", "autumn", "winter"],
 
@@ -2372,6 +2947,7 @@ Combining slower feeding, searching and licking activities, this FluffHaven puzz
   name: "Premium Electric Dog Paw Cleaner",
 
   category: "dog",
+  productType: "grooming-care",
 
   seasons: ["autumn", "winter"],
 
@@ -2431,6 +3007,7 @@ Finished in blue, this compact FluffHaven paw cleaner combines gentle cleaning, 
   name: "Premium Winter Reflective Dog Coat",
 
   category: "dog",
+  productType: "clothing",
 
   seasons: ["winter"],
 
@@ -2490,6 +3067,7 @@ For the best fit, please measure your dog before ordering.
   name: "Premium Arctic Waterproof Dog Vest",
 
   category: "dog",
+  productType: "clothing",
 
   seasons: ["winter"],
 
@@ -2549,6 +3127,7 @@ This FluffHaven edition is offered in Size L. Please measure your dog and check 
   name: "Premium Autumn Fleece Dog Vest Duo",
 
   category: "dog",
+  productType: "clothing",
 
   seasons: ["autumn"],
 
@@ -2608,6 +3187,7 @@ Please measure your dog before ordering and allow a small 1–3 cm difference wh
   name: "Premium LED Glow Dog Flying Disc",
 
   category: "dog",
+  productType: "toys",
 
   seasons: ["autumn", "winter"],
 
@@ -2666,6 +3246,7 @@ Combining visibility, portability and active play, this FluffHaven flying disc k
   name: "Premium Dog Floating Swim Ring",
 
   category: "dog",
+  productType: "toys",
 
   seasons: ["summer"],
 
@@ -2725,6 +3306,7 @@ Combining floating support, portability and comfort, this FluffHaven swim ring i
   name: "Premium Lick Mat Trio Pack",
 
   category: "dog",
+  productType: "feeding",
 
   seasons: ["summer"],
 
@@ -2784,6 +3366,7 @@ Dishwasher and freezer safe, this FluffHaven trio combines slower feeding, enric
   name: "Premium Cooling Gel Dog Mat",
 
   category: "dog",
+  productType: "toys",
 
   seasons: ["summer"],
 
@@ -2843,6 +3426,7 @@ Combining cooling comfort, portability and a playful tropical fish design, this 
   name: "Premium Microfiber Drying Towel Duo",
 
   category: "dog",
+  productType: "grooming-care",
 
   seasons: ["autumn", "winter"],
 
@@ -2902,6 +3486,7 @@ Ideal after rainy walks, baths and outdoor adventures, this duo provides conveni
   name: "Premium Winter Teepee Dog Bed",
 
   category: "dog",
+  productType: "beds-comfort",
 
   seasons: ["autumn", "winter"],
 
@@ -2961,6 +3546,7 @@ Combining warmth, privacy and practical everyday comfort, this FluffHaven teepee
   name: "Premium Reflective Dog Raincoat",
 
   category: "dog",
+  productType: "clothing",
 
   seasons: ["autumn", "winter"],
 
@@ -3021,6 +3607,7 @@ Keep your dog comfortable, protected and visible whatever the weather. The Premi
   name: "Premium LED Safety Collar Twin Pack",
 
   category: "dog",
+  productType: "walking-travel",
 
   seasons: ["autumn", "winter"],
 
@@ -3083,6 +3670,7 @@ Make evening walks safer and more enjoyable with the Premium LED Safety Collar T
   name: "Premium Winter Dog Blanket Trio",
 
   category: "dog",
+  productType: "beds-comfort",
 
   seasons: ["autumn", "winter"],
 
@@ -3142,6 +3730,7 @@ Machine washable and designed for everyday use, this FluffHaven trio is ideal th
   name: "Premium Rope Play Box",
 
   category: "dog",
+  productType: "toys",
 
   seasons: ["summer", "autumn", "winter"],
 
@@ -3201,6 +3790,7 @@ Designed for small and medium dogs, this FluffHaven set combines play, chewing a
   name: "Premium Dog Paw Balm",
 
   category: "dog",
+  productType: "grooming-care",
 
   seasons: ["autumn", "winter"],
 
@@ -3257,6 +3847,7 @@ Suitable for all dog breeds, this FluffHaven paw balm is designed for everyday c
   name: "Smart Rolling Dog Ball",
 
   category: "dog",
+  productType: "toys",
 
   seasons: ["summer", "autumn", "winter"],
 
@@ -3316,6 +3907,7 @@ Durable, pet-safe and easy to clean, this water-resistant toy is suitable for do
   name: "Interactive Dog Treat Ball",
 
   category: "dog",
+  productType: "toys",
 
   seasons: ["summer", "autumn", "winter"],
 
@@ -3375,6 +3967,7 @@ Suitable for dogs of all sizes, it's a simple FluffHaven enrichment toy for ever
   name: "Premium Dog Lick Mat",
 
   category: "dog",
+  productType: "feeding",
 
   seasons: ["summer", "autumn", "winter"],
 
@@ -3431,6 +4024,7 @@ Made from food-grade BPA-free silicone, it's easy to clean and suitable for smal
   name: "Cooling Dog Bandana",
 
   category: "dog",
+  productType: "clothing",
 
   seasons: ["summer"],
 
@@ -3485,6 +4079,7 @@ Suitable for dogs of all sizes, it's a simple FluffHaven essential for hot-weath
   name: "Dog Splash Pad",
 
   category: "dog",
+  productType: "toys",
 
   seasons: ["summer"],
 
@@ -3537,6 +4132,7 @@ Foldable and easy to store, it's a convenient FluffHaven essential for hot summe
   slug: "premium-dog-cooling-vest",
   name: "Premium Dog Cooling Vest",
   category: "dog",
+  productType: "clothing",
   seasons: ["summer"],
   subtitle: "Evaporative cooling · lightweight · reusable",
   price: 159,
@@ -3583,6 +4179,7 @@ Reusable and machine washable, it's a practical FluffHaven essential for summer 
     slug: "pet-hair-remover-roller",
     name: "Pet Hair Remover Roller",
     category: "dog",
+    productType: "grooming-care",
     seasons: ["summer", "autumn", "winter"],
     subtitle: "No tape · reusable · instant clean",
     price: 45.09,
@@ -3621,6 +4218,7 @@ A simple FluffHaven essential for keeping pet-friendly spaces cleaner every day.
     slug: "dog-car-seat-cover",
     name: "Dog Car Seat Cover",
     category: "dog",
+    productType: "walking-travel",
     seasons: ["summer", "autumn", "winter"],
     subtitle: "Waterproof · anti-slip · full protection",
     price: 100.57,
@@ -3655,6 +4253,7 @@ Designed to fit most cars and SUVs, it's a practical FluffHaven essential for cl
     slug: "no-pull-dog-harness",
     name: "No-Pull Dog Harness",
     category: "dog",
+    productType: "walking-travel",
     seasons: ["summer", "autumn", "winter"],
     subtitle: "No-pull · strong · comfortable",
     price: 67.69,
@@ -3689,6 +4288,7 @@ With its adjustable design, it can be adapted to different dog sizes for a secur
     slug: "electric-dog-nail-grinder",
     name: "Electric Dog Nail Grinder",
     category: "dog",
+    productType: "grooming-care",
     seasons: ["summer", "autumn", "winter"],
     subtitle: "Quiet · LED · safe grooming",
     price: 56.39,
@@ -3724,6 +4324,7 @@ USB rechargeable and easy to use, it's a practical FluffHaven grooming tool for 
   slug: "dog-paw-cleaner",
   name: "Dog Paw Cleaner",
   category: "dog",
+  productType: "grooming-care",
   seasons: ["autumn", "winter"],
   subtitle: "Portable silicone paw cleaner",
   price: 42.83,
@@ -3761,6 +4362,7 @@ Suitable for all breeds, it's a practical FluffHaven essential for rainy and mud
   slug: "portable-dog-water-bottle",
   name: "Portable Dog Water Bottle",
   category: "dog",
+  productType: "walking-travel",
   seasons: ["summer", "autumn"],
   subtitle: "Foldable silicone bowl-lid · 580 ml",
   price: 25.88,
@@ -3800,6 +4402,7 @@ Compact and practical, it's a useful FluffHaven companion for walks, hikes and r
     slug: "premium-cooling-mat",
     name: "Premium Cooling Mat",
     category: "dog",
+    productType: "beds-comfort",
     seasons: ["summer"],
     subtitle: "Self-cooling silk · waterproof base · L 70×55 cm",
     price: 33.79,
@@ -3833,6 +4436,7 @@ Machine washable and suitable for dogs and cats, it's a convenient FluffHaven es
     slug: "3-in-1-steam-grooming-brush",
     name: "3-in-1 Steam Grooming Brush",
     category: "dog",
+    productType: "grooming-care",
     seasons: ["summer", "autumn", "winter"],
     subtitle: "Electric spray & massage brush · USB rechargeable",
     price: 39.44,
@@ -3867,6 +4471,7 @@ USB rechargeable and suitable for cats and dogs, it's a convenient FluffHaven gr
   slug: "pet-hair-remover-glove",
   name: "Pet Hair Remover Glove",
   category: "dog",
+  productType: "grooming-care",
   seasons: ["summer", "autumn", "winter"],
   subtitle: "Reusable · electrostatic · easy cleaning",
   price: 33.79,
@@ -3913,6 +4518,7 @@ Washable and reusable, it's a practical FluffHaven cleaning accessory for dog an
   slug: "slow-feeder-dog-bowl",
   name: "Slow Feeder Dog Bowl",
   category: "dog",
+  productType: "feeding",
   seasons: ["summer", "autumn", "winter"],
   subtitle: "Medium · anti-choking · slow eating",
   price: 28.14,
@@ -3961,6 +4567,7 @@ Easy to clean and simple to use, it's a convenient FluffHaven accessory for ever
   name: "Premium Elevated Triple Cat Feeding Station",
 
   category: "cat",
+  productType: "feeding",
 
   seasons: ["autumn", "winter"],
 
@@ -4019,6 +4626,7 @@ Stable, practical and easy to maintain, this FluffHaven feeding station combines
   name: "Premium Cozy Cat Sofa Bed",
 
   category: "cat",
+  productType: "beds-comfort",
 
   seasons: ["autumn", "winter"],
 
@@ -4078,6 +4686,7 @@ With its elegant cream and black design, this FluffHaven bed combines comfort an
   name: "Premium 3-in-1 Cozy Cat Tunnel Bed",
 
   category: "cat",
+  productType: "beds-comfort",
 
   seasons: ["autumn", "winter"],
 
@@ -4137,6 +4746,7 @@ Designed for bedrooms and living spaces, this FluffHaven bed combines comfort an
   name: "Premium Winter Cat Jacket Duo",
 
   category: "cat",
+  productType: "clothing",
 
   seasons: ["winter"],
 
@@ -4196,6 +4806,7 @@ Lightweight and machine washable, this FluffHaven duo combines warmth, practical
   name: "Premium Interactive Cat Scratcher Maze",
 
   category: "cat",
+  productType: "toys",
 
   seasons: ["summer", "autumn", "winter"],
 
@@ -4255,6 +4866,7 @@ Suitable for kittens and adult cats, it's a fun FluffHaven scratching and play a
   name: "Cozy Cat Cave Duo",
 
   category: "cat",
+  productType: "beds-comfort",
 
   seasons: ["winter"],
 
@@ -4314,6 +4926,7 @@ Durable and machine washable, this FluffHaven duo is designed for comfortable in
   name: "Premium Autumn Cozy Cat Blanket",
 
   category: "cat",
+  productType: "beds-comfort",
 
   seasons: ["autumn"],
 
@@ -4373,6 +4986,7 @@ Machine washable and durable, this FluffHaven blanket combines everyday comfort 
   name: "Premium Autumn Teddy Cat Vest",
 
   category: "cat",
+  productType: "clothing",
 
   seasons: ["autumn"],
 
@@ -4432,6 +5046,7 @@ Machine washable and designed for indoor use, this FluffHaven vest is a cozy cho
   name: "Self-Warming Cat Mat",
 
   category: "cat",
+  productType: "beds-comfort",
 
   seasons: ["autumn", "winter"],
 
@@ -4491,6 +5106,7 @@ Suitable for kittens and adult cats, this FluffHaven mat provides everyday comfo
   name: "Premium Arctic Winter Cat Snowsuit",
 
   category: "cat",
+  productType: "clothing",
 
   seasons: ["winter"],
 
@@ -4550,6 +5166,7 @@ Finished in white, this FluffHaven snowsuit is a practical seasonal choice for w
   name: "Premium Arctic Cozy Cat Cave",
 
   category: "cat",
+  productType: "beds-comfort",
 
   seasons: ["autumn", "winter"],
 
@@ -4609,6 +5226,7 @@ Designed for chilly autumn evenings and winter days, this FluffHaven cave provid
   name: "Premium Foldable Cat Playpen",
 
   category: "cat",
+  productType: "accessories-home",
 
   seasons: ["summer", "autumn"],
 
@@ -4667,6 +5285,7 @@ Lightweight and portable, this FluffHaven playpen is practical for home, garden,
   name: "Premium Floating Water Play Mat",
 
   category: "cat",
+  productType: "toys",
 
   seasons: ["summer"],
 
@@ -4726,6 +5345,7 @@ Easy to fold and store, this FluffHaven mat is suitable for cats of all ages and
   name: "Premium Cooling Cat Bed",
 
   category: "cat",
+  productType: "beds-comfort",
 
   seasons: ["summer"],
 
@@ -4785,6 +5405,7 @@ Finished in pink with premium stitching, this FluffHaven bed is a practical choi
   name: "Premium Cooling Gel Cat Mat",
 
   category: "cat",
+  productType: "toys",
 
   seasons: ["summer"],
 
@@ -4844,6 +5465,7 @@ Easy to clean and suitable for cats of all sizes, it's practical for indoor and 
   name: "Premium Cat Harness & Leash Set",
 
   category: "cat",
+  productType: "walking-travel",
 
   seasons: ["summer", "autumn"],
 
@@ -4903,6 +5525,7 @@ Suitable for kittens and adult cats, this FluffHaven set combines comfort, secur
   name: "Interactive Flying Cat Toy Set",
 
   category: "cat",
+  productType: "toys",
 
   seasons: ["summer", "autumn", "winter"],
 
@@ -4962,6 +5585,7 @@ Lightweight and easy to use, this FluffHaven set provides everyday enrichment fo
   name: "Premium Cat Enrichment Duo",
 
   category: "cat",
+  productType: "toys",
 
   seasons: ["summer", "autumn", "winter"],
 
@@ -5021,6 +5645,7 @@ Easy to clean and dishwasher safe, this FluffHaven duo is suitable for cats of a
   name: "Premium Cat Play Box",
 
   category: "cat",
+  productType: "toys",
 
   seasons: ["summer", "autumn", "winter"],
 
@@ -5080,6 +5705,7 @@ Made from durable, non-toxic materials, this FluffHaven set provides everyday en
   name: "Premium Indoor Cat Garden Kit",
 
   category: "cat",
+  productType: "accessories-home",
 
   seasons: ["summer", "autumn", "winter"],
 
@@ -5139,6 +5765,7 @@ Easy to maintain and reuse, this FluffHaven kit creates a simple indoor garden f
   name: "Premium Cat Paw Balm",
 
   category: "cat",
+  productType: "grooming-care",
 
   seasons: ["autumn", "winter"],
 
@@ -5194,6 +5821,7 @@ Easy to apply and suitable for all breeds, it's a practical FluffHaven essential
   name: "Premium Cat Grooming Mist Brush",
 
   category: "cat",
+  productType: "grooming-care",
 
   seasons: ["summer", "autumn", "winter"],
 
@@ -5250,6 +5878,7 @@ USB-C rechargeable and suitable for all breeds, it's a practical FluffHaven tool
   slug: "premium-cat-travel-backpack",
   name: "Premium Cat Travel Backpack",
   category: "cat",
+  productType: "walking-travel",
   seasons: ["summer", "autumn"],
   subtitle: "Breathable · spacious · travel-ready",
   price: 79,
@@ -5297,6 +5926,7 @@ Designed for trips, vet visits and outdoor adventures, it's a practical FluffHav
   slug: "calming-donut-cat-bed",
   name: "Calming Donut Cat Bed",
   category: "cat",
+  productType: "beds-comfort",
   seasons: ["autumn", "winter"],
   subtitle: "Ultra soft · calming · cozy nest",
   price: 42.83,
@@ -5336,6 +5966,7 @@ With a non-slip bottom and easy-care design, it's a practical FluffHaven bed for
   slug: "cat-water-fountain",
   name: "Cat Water Fountain",
   category: "cat",
+  productType: "feeding",
   seasons: ["summer"],
   subtitle: "2L · quiet pump · filtered water",
   price: 45.09,
@@ -5372,6 +6003,7 @@ With a 2L capacity and BPA-free design, it's a practical FluffHaven solution for
   slug: "cat-window-hammock",
   name: "Cat Window Hammock",
   category: "cat",
+  productType: "beds-comfort",
   seasons: ["summer", "autumn", "winter"],
   subtitle: "Window perch · soft plush · strong suction cups",
   price: 62.04,
@@ -5417,6 +6049,7 @@ Machine washable and practical for indoor use, it's a FluffHaven favorite for ca
     slug: "interactive-smart-cat-ball",
     name: "Interactive Smart Cat Ball",
     category: "cat",
+    productType: "toys",
     seasons: ["summer", "autumn", "winter"],
     subtitle: "Auto rolling toy · 2 speeds · USB rechargeable",
     price: 33.79,
@@ -5450,6 +6083,7 @@ USB rechargeable and suitable for small and medium cats, it's a practical FluffH
     slug: "l-shape-cat-scratcher",
     name: "L-Shape Cat Scratcher",
     category: "cat",
+    productType: "toys",
     seasons: ["summer", "autumn", "winter"],
     subtitle: "48 cm tall · premium corrugated cardboard · ball toy",
     price: 45.09,
@@ -5483,6 +6117,7 @@ Designed for indoor use, it provides an alternative scratching surface while hel
     slug: "feather-wand-cat-toy-set",
     name: "Feather Wand Cat Toy Set",
     category: "cat",
+    productType: "toys",
     seasons: ["summer", "autumn", "winter"],
     subtitle: "2 retractable wands · 10 feather & teaser refills",
     price: 24.75,
@@ -5516,6 +6151,7 @@ Easy to store between play sessions, this FluffHaven set provides plenty of vari
     slug: "premium-cat-play-tunnel",
     name: "Premium Cat Play Tunnel",
     category: "cat",
+    productType: "toys",
     seasons: ["summer", "autumn", "winter"],
     subtitle: "Foldable linen tunnel · 30×70 cm · pompom ball included",
     price: 29.27,
@@ -5549,6 +6185,7 @@ Collapsible and easy to store, it's a practical FluffHaven toy for everyday feli
   slug: "interactive-cat-puzzle-feeder",
   name: "Interactive Cat Puzzle Feeder",
   category: "cat",
+  productType: "feeding",
   seasons: ["summer", "autumn", "winter"],
   subtitle: "Mental stimulation · slow feeding · boredom relief",
   price: 39.44,
@@ -5590,6 +6227,7 @@ Made from durable BPA-free material, it's a practical FluffHaven enrichment toy 
   slug: "cozy-cat-cave-bed",
   name: "Cozy Cat Cave Bed",
   category: "cat",
+  productType: "beds-comfort",
   seasons: ["autumn", "winter"],
   subtitle: "Soft faux-linen · cozy hideaway · removable cushion",
   price: 56.39,
@@ -5632,6 +6270,7 @@ Foldable and easy to store, it's a practical FluffHaven hideaway for everyday in
   slug: "cat-self-grooming-brush",
   name: "Cat Self Grooming Brush",
   category: "cat",
+  productType: "grooming-care",
   seasons: ["summer", "autumn", "winter"],
   subtitle: "Wall mounted · soft bristles · stress relief",
   price: 28.14,
@@ -5677,6 +6316,7 @@ Easy to clean and designed for indoor use, it's a practical FluffHaven grooming 
   name: "Sensitive Skin Dog Shampoo",
 
   category: "dog",
+  productType: "grooming-care",
 
   seasons: ["summer", "autumn"],
 
@@ -5729,6 +6369,7 @@ promo: "🌿 Gentle formula for sensitive skin",
   name: "Sensitive Skin Cat Shampoo",
 
   category: "cat",
+  productType: "grooming-care",
 
   seasons: ["summer", "autumn"],
 
@@ -5783,6 +6424,7 @@ promo: "🌿 Gentle formula for sensitive skin",
   name: "Premium Reflective Dog Harness",
 
   category: "dog",
+  productType: "walking-travel",
 
   seasons: ["autumn", "winter"],
 
@@ -5838,6 +6480,7 @@ Designed for regular outdoor use, this FluffHaven set combines comfort, visibili
   name: "Premium Waterproof Dog Raincoat",
 
   category: "dog",
+  productType: "clothing",
 
   seasons: ["autumn", "winter"],
 
@@ -5893,6 +6536,7 @@ Designed for rainy autumn adventures, this FluffHaven raincoat combines weather 
   name: "Premium Orthopedic Dog Bed",
 
   category: "dog",
+  productType: "beds-comfort",
 
   seasons: ["autumn", "winter"],
 
@@ -5948,6 +6592,7 @@ With a removable machine-washable cover, this FluffHaven bed is designed for pra
   name: "Premium Dog Snuffle Mat",
 
   category: "dog",
+  productType: "toys",
 
   seasons: ["autumn", "winter"],
 
@@ -6003,6 +6648,7 @@ Machine washable and suitable for all breeds, it's a convenient FluffHaven enric
     name: "Ponpon's Signature Bandana Pack",
 
     category: "dog",
+    productType: "clothing",
 
     seasons: ["summer", "autumn", "winter"],
 

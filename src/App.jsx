@@ -331,7 +331,7 @@ function ProductCard({ product, onAddToCart, onShowDetails }) {
               <>🏷️ {product.promo} — Code: {product.promoCode}</>
             )}
           </div>
-          
+
           </div>
           <div className="product-btns">
             {product.details && (
@@ -391,6 +391,7 @@ useEffect(() => {
   const [activeTab, setActiveTab] = useState("all");
   const [petFilter, setPetFilter] = useState("all");
   const [seasonFilter, setSeasonFilter] = useState("all");
+  const [productTypeFilter, setProductTypeFilter] = useState("all");
   const featuredSummerProduct = PRODUCTS.find(
   (product) => product.slug === "premium-floating-rope-ball"
 );
@@ -464,6 +465,14 @@ const filteredProducts = PRODUCTS.filter((product) => {
   ) {
     return false;
   }
+
+  // Filtre type de produit
+if (
+  productTypeFilter !== "all" &&
+  product.productType !== productTypeFilter
+) {
+  return false;
+}
 
     return true;
 }).sort((a, b) => {
@@ -1022,6 +1031,21 @@ const filteredProducts = PRODUCTS.filter((product) => {
   </option>
 </select>
 
+<select
+  value={productTypeFilter}
+  onChange={(e) => setProductTypeFilter(e.target.value)}
+  className="shop-select"
+>
+  <option value="all">🛍️ All Products</option>
+  <option value="feeding">🍽️ Food & Water</option>
+  <option value="toys">🎾 Toys & Play</option>
+  <option value="beds-comfort">🛏️ Beds & Comfort</option>
+  <option value="walking-travel">🐾 Walk & Travel</option>
+  <option value="grooming-care">🧼 Grooming & Care</option>
+  <option value="clothing">👕 Clothing</option>
+  <option value="accessories-home">🏠 Home & Accessories</option>
+</select>
+
 </div>
 
 <p className="products-found">
@@ -1078,7 +1102,7 @@ const filteredProducts = PRODUCTS.filter((product) => {
 
           <div className="about-visual">
             <div className="about-card">
-              <div className="about-stat">111+</div>
+              <div className="about-stat">120+</div>
               <div className="about-stat-label">Carefully Selected Products</div>
             </div>
 
