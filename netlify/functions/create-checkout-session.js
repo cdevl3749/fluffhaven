@@ -26,6 +26,8 @@ exports.handler = async (event) => {
       quantity: item.quantity || 1,
     }));
 
+const PONPON_MUG_PRICE_ID = "price_1U8nqXKn0lmTcQ11IPAnINe9";
+
     let cartTotal = 0;
 
     for (const item of items) {
@@ -37,6 +39,13 @@ exports.handler = async (event) => {
     }
 
     const qualifiesForMug = cartTotal >= 49;
+
+    if (qualifiesForMug) {
+      line_items.push({
+        price: PONPON_MUG_PRICE_ID,
+        quantity: 1,
+      });
+    }
 
     const siteUrl =
       process.env.SITE_URL || event.headers.origin || "https://fluffhaven.shop";
