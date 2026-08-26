@@ -4135,9 +4135,9 @@ Foldable and easy to store, it's a convenient FluffHaven essential for hot summe
   productType: "clothing",
   seasons: ["summer"],
   subtitle: "Evaporative cooling · lightweight · reusable",
-  price: 159,
+  price: 89.90,
   badge: "☀️ Summer Pick",
-  priceId: "price_1Tt4LVKn0lmTcQ11AX2x3V9V",
+  priceId: "price_1U8eTJKn0lmTcQ11LNRMDzND",
 
   images: [
     "/gilet_rafraichissant.webp",
@@ -4182,12 +4182,12 @@ Reusable and machine washable, it's a practical FluffHaven essential for summer 
     productType: "grooming-care",
     seasons: ["summer", "autumn", "winter"],
     subtitle: "No tape · reusable · instant clean",
-    price: 45.09,
+    price: 34.90,
     badge: "🔥 Best Seller",
     rating: 4.9,
     reviews: 284,
     customers: "2,500+",
-    priceId: "price_1TnRLzKn0lmTcQ11cl1ya902",
+    priceId: "price_1U8eZtKn0lmTcQ11zZ1rHewl",
     images: ["/brosse_anti_poils.webp","/brosse_anti_poils2.webp","/brosse_anti_poils3.webp"],
     description: "Remove pet hair in seconds with this practical cleaning tool. No sticky tape and no mess — perfect for clothes, furniture and the car.",
     seoTitle: "Pet Hair Remover Roller | Dog Hair Remover | FluffHaven",
@@ -4221,9 +4221,9 @@ A simple FluffHaven essential for keeping pet-friendly spaces cleaner every day.
     productType: "walking-travel",
     seasons: ["summer", "autumn", "winter"],
     subtitle: "Waterproof · anti-slip · full protection",
-    price: 100.57,
+    price: 69.90,
     badge: "⭐ Premium",
-    priceId: "price_1TnRJKKn0lmTcQ11EWFaj5lt",
+    priceId: "price_1U8epnKn0lmTcQ11MwPIyQoT",
     images: ["/housse_chien.webp","/housse_chien2.webp","/housse_chien3.webp"],
     description: "Protect your car from dirt, scratches and pet hair with this waterproof car protector. Easy to install and practical for everyday trips with your dog.",
     seoTitle: "Dog Car Seat Cover | Waterproof Car Protection | FluffHaven",
@@ -4256,9 +4256,9 @@ Designed to fit most cars and SUVs, it's a practical FluffHaven essential for cl
     productType: "walking-travel",
     seasons: ["summer", "autumn", "winter"],
     subtitle: "No-pull · strong · comfortable",
-    price: 67.69,
+    price: 39.90,
     badge: "🔥 Best Seller",
-    priceId: "price_1TnRHQKn0lmTcQ11EgBfVKzy",
+    priceId: "price_1U8euZKn0lmTcQ11xcL3J8qJ",
     images: ["/harnais_chien.webp","/harnais_chien2.webp","/harnais_chien3.webp"],
     description: "Help reduce pulling with this comfortable harness designed for strong dogs and everyday walks. Built for better control while keeping your dog comfortable on the move.",
     seoTitle: "No-Pull Dog Harness | Comfortable Dog Harness | FluffHaven",
@@ -4291,9 +4291,9 @@ With its adjustable design, it can be adapted to different dog sizes for a secur
     productType: "grooming-care",
     seasons: ["summer", "autumn", "winter"],
     subtitle: "Quiet · LED · safe grooming",
-    price: 56.39,
+    price: 34.90,
     badge: "⚡ Popular",
-    priceId: "price_1TnRF0Kn0lmTcQ115JFX0Ue8",
+    priceId: "price_1U8exuKn0lmTcQ11pB8QXtIF",
     images: ["/ponceuse_griffe.webp","/ponceuse_griffe2.webp","/ponceuse_griffe3.webp"],
     description: "Trim your pet's nails comfortably with this quiet and precise nail grinder. Easy to use and designed for gentle everyday nail care.",
     seoTitle: "Electric Dog Nail Grinder | Safe Dog Nail Trimmer | FluffHaven",
@@ -4327,8 +4327,8 @@ USB rechargeable and easy to use, it's a practical FluffHaven grooming tool for 
   productType: "grooming-care",
   seasons: ["autumn", "winter"],
   subtitle: "Portable silicone paw cleaner",
-  price: 42.83,
-  priceId: "price_1TnS1JKn0lmTcQ11MIaiRPAN",
+  price: 22.90,
+  priceId: "price_1U8f47Kn0lmTcQ11HHy1WjDH",
   badge: "Best Seller",
   images: [
     "/clean_orange_1.webp",
@@ -4365,8 +4365,8 @@ Suitable for all breeds, it's a practical FluffHaven essential for rainy and mud
   productType: "walking-travel",
   seasons: ["summer", "autumn"],
   subtitle: "Foldable silicone bowl-lid · 580 ml",
-  price: 25.88,
-  priceId: "price_1TnRogKn0lmTcQ11CFFYi5XD",
+  price: 21.90,
+  priceId: "price_1U8f89Kn0lmTcQ11L73J4LLb",
   badge: "New",
 
   images: [
@@ -4405,9 +4405,9 @@ Compact and practical, it's a useful FluffHaven companion for walks, hikes and r
     productType: "beds-comfort",
     seasons: ["summer"],
     subtitle: "Self-cooling silk · waterproof base · L 70×55 cm",
-    price: 33.79,
+    price: 27.90,
     badge: "Summer",
-    priceId: "price_1TnRi3Kn0lmTcQ11LovAAnUy",
+    priceId: "price_1U8fKPKn0lmTcQ11TCmfMFvL",
     images: ["/tapis_rafraichissant.webp", "/tapis_rafraichissant_2.webp", "/tapis_rafraichissant_3.webp"],
     description: "Keep your pet comfortable all summer with this self-cooling silk mat. Featuring a waterproof, non-slip bottom and machine-washable design, it's a practical cooling space for both dogs and cats.",
     seoTitle: "Premium Cooling Mat for Dogs | Summer Cooling Pad | FluffHaven",
@@ -4439,9 +4439,9 @@ Machine washable and suitable for dogs and cats, it's a convenient FluffHaven es
     productType: "grooming-care",
     seasons: ["summer", "autumn", "winter"],
     subtitle: "Electric spray & massage brush · USB rechargeable",
-    price: 39.44,
+    price: 31.90,
     badge: "Popular",
-    priceId: "price_1TnRbAKn0lmTcQ11q9YMW9qe",
+    priceId: "price_1U8fOVKn0lmTcQ11OzeoFV9m",
     images: ["/peigne_brosse_3.webp", "/peigne_brosse_2.webp", "/peigne_brosse.webp"],
     description: "Combine grooming and massage with this electric spray brush. Featuring one-click water spray, massage and detangling bristles, it's USB rechargeable and helps reduce loose and flying pet hair.",
     seoTitle: "3-in-1 Steam Grooming Brush | Pet Grooming Brush | FluffHaven",
@@ -4474,8 +4474,8 @@ USB rechargeable and suitable for cats and dogs, it's a convenient FluffHaven gr
   productType: "grooming-care",
   seasons: ["summer", "autumn", "winter"],
   subtitle: "Reusable · electrostatic · easy cleaning",
-  price: 33.79,
-  priceId: "price_1TnR2kKn0lmTcQ11ITawJHag",
+  price: 27.90,
+  priceId: "price_1U8fSpKn0lmTcQ11eehHvF8H",
   badge: "🔥 Trending",
 
   images: [
@@ -4521,8 +4521,8 @@ Washable and reusable, it's a practical FluffHaven cleaning accessory for dog an
   productType: "feeding",
   seasons: ["summer", "autumn", "winter"],
   subtitle: "Medium · anti-choking · slow eating",
-  price: 28.14,
-  priceId: "price_1TnQvNKn0lmTcQ115ZBiOUth",
+  price: 19.90,
+  priceId: "price_1U8fbyKn0lmTcQ11gpwBKzWh",
   badge: "⭐ Smart Choice",
 
   images: [
@@ -5881,9 +5881,9 @@ USB-C rechargeable and suitable for all breeds, it's a practical FluffHaven tool
   productType: "walking-travel",
   seasons: ["summer", "autumn"],
   subtitle: "Breathable · spacious · travel-ready",
-  price: 79,
+  price: 49.90,
   badge: "🎒 Travel Pick",
-  priceId: "price_1Tt5QHKn0lmTcQ11kU8wSKqS",
+  priceId: "price_1U8fglKn0lmTcQ11FzDQBWCr",
 
   images: [
     "/sac_transport_chat.webp",
@@ -5929,9 +5929,9 @@ Designed for trips, vet visits and outdoor adventures, it's a practical FluffHav
   productType: "beds-comfort",
   seasons: ["autumn", "winter"],
   subtitle: "Ultra soft · calming · cozy nest",
-  price: 42.83,
+  price: 31.90,
   badge: "☁️ Cozy",
-  priceId: "price_1TnQFyKn0lmTcQ11WmQulDvE",
+  priceId: "price_1U8fjNKn0lmTcQ110Nj2Yz6A",
   images: [
     "/lit_rond_chat.webp",
     "/lit_rond_chat2.webp",
@@ -5969,9 +5969,9 @@ With a non-slip bottom and easy-care design, it's a practical FluffHaven bed for
   productType: "feeding",
   seasons: ["summer"],
   subtitle: "2L · quiet pump · filtered water",
-  price: 45.09,
+  price: 37.90,
   badge: "💧 Premium",
-  priceId: "price_1TnQUSKn0lmTcQ11G4oFY4Xq",
+  priceId: "price_1U8fuqKn0lmTcQ112zNCKcZt",
   images: [
     "/fontaine_chat.webp",
     "/fontaine_chat3.webp",
@@ -6006,8 +6006,8 @@ With a 2L capacity and BPA-free design, it's a practical FluffHaven solution for
   productType: "beds-comfort",
   seasons: ["summer", "autumn", "winter"],
   subtitle: "Window perch · soft plush · strong suction cups",
-  price: 62.04,
-  priceId: "price_1TnQRxKn0lmTcQ110wWlzwk3",
+  price: 39.90,
+  priceId: "price_1U8g0QKn0lmTcQ11b9qdbgDR",
   badge: "🪟 Cozy",
 
   images: [
@@ -6052,9 +6052,9 @@ Machine washable and practical for indoor use, it's a FluffHaven favorite for ca
     productType: "toys",
     seasons: ["summer", "autumn", "winter"],
     subtitle: "Auto rolling toy · 2 speeds · USB rechargeable",
-    price: 33.79,
+    price: 21.90,
     badge: "New",
-    priceId: "price_1TnRYnKn0lmTcQ11ZAJNfpvw",
+    priceId: "price_1U8g31Kn0lmTcQ11oMEly2bn",
     images: ["/balle_chat.webp", "/balle_chat2.webp", "/balle_chat3.webp"],
     description: "Keep your indoor cat active with this automatic interactive ball toy. Featuring 2 speed modes, a feather tail and auto shut-off, it's designed for engaging everyday play.",
     seoTitle: "Interactive Smart Cat Ball | Automatic Cat Toy | FluffHaven",
@@ -6086,9 +6086,9 @@ USB rechargeable and suitable for small and medium cats, it's a practical FluffH
     productType: "toys",
     seasons: ["summer", "autumn", "winter"],
     subtitle: "48 cm tall · premium corrugated cardboard · ball toy",
-    price: 45.09,
+    price: 31.90,
     badge: "Popular",
-    priceId: "price_1TnRVlKn0lmTcQ11jId6Q9sK",
+    priceId: "price_1U8g5BKn0lmTcQ11jCDes86S",
     images: ["/griffoir_chat.webp", "/griffoir_chat2.webp", "/griffoir_chat3.webp"],
     description: "Give your cat a dedicated scratching space with this premium L-shaped scratcher. Made from high-density corrugated cardboard, it's ideal for stretching and scratching while helping protect your furniture.",
     seoTitle: "L-Shape Cat Scratcher | Cardboard Cat Scratching Post | FluffHaven",
@@ -6120,9 +6120,9 @@ Designed for indoor use, it provides an alternative scratching surface while hel
     productType: "toys",
     seasons: ["summer", "autumn", "winter"],
     subtitle: "2 retractable wands · 10 feather & teaser refills",
-    price: 24.75,
+    price: 19.90,
     badge: "Fun",
-    priceId: "price_1TnRPPKn0lmTcQ112OPwMWwn",
+    priceId: "price_1U8g8XKn0lmTcQ11rbfrsZOr",
     images: ["/plume_chat.webp", "/plume_chat2.webp", "/plume_chat3.webp"],
     description: "Keep your cat active with this 12-piece interactive feather toy set. Featuring retractable wands and colorful feather attachments, it's designed for engaging everyday play with cats and kittens.",
     seoTitle: "Feather Wand Cat Toy Set | Interactive Cat Teaser | FluffHaven",
@@ -6154,9 +6154,9 @@ Easy to store between play sessions, this FluffHaven set provides plenty of vari
     productType: "toys",
     seasons: ["summer", "autumn", "winter"],
     subtitle: "Foldable linen tunnel · 30×70 cm · pompom ball included",
-    price: 29.27,
+    price: 24.90,
     badge: null,
-    priceId: "price_1TnRTFKn0lmTcQ11pRh2KjlR",
+    priceId: "price_1U8gB8Kn0lmTcQ11aoQoDeUs",
     images: ["/tunnel_chat.webp", "/tunnel_chat2.webp", "/tunnel_chat3.webp"],
     description: "Keep your cat entertained with this collapsible cat tunnel. Made from durable faux-linen fabric with a hanging pompom ball, it's ideal for hiding, chasing and everyday exploration.",
     seoTitle: "Premium Cat Play Tunnel | Foldable Cat Tunnel | FluffHaven",
@@ -6188,9 +6188,9 @@ Collapsible and easy to store, it's a practical FluffHaven toy for everyday feli
   productType: "feeding",
   seasons: ["summer", "autumn", "winter"],
   subtitle: "Mental stimulation · slow feeding · boredom relief",
-  price: 39.44,
+  price: 29.90,
   badge: "🧠 Smart Play",
-  priceId: "price_1TnQDJKn0lmTcQ110FNngvHn",
+  priceId: "price_1U8gDnKn0lmTcQ1174qfYpDo",
 
   images: [
     "/puzzle_chat.webp",
@@ -6230,10 +6230,10 @@ Made from durable BPA-free material, it's a practical FluffHaven enrichment toy 
   productType: "beds-comfort",
   seasons: ["autumn", "winter"],
   subtitle: "Soft faux-linen · cozy hideaway · removable cushion",
-  price: 56.39,
+  price: 34.90,
   badge: "☁️ Cozy",
 
-  priceId: "price_1TnQ8ZKn0lmTcQ11KvM6Ve8y",
+  priceId: "price_1U8gI6Kn0lmTcQ11J61WyCfv",
 
   images: [
     "/niche_chat.webp",
@@ -6273,10 +6273,10 @@ Foldable and easy to store, it's a practical FluffHaven hideaway for everyday in
   productType: "grooming-care",
   seasons: ["summer", "autumn", "winter"],
   subtitle: "Wall mounted · soft bristles · stress relief",
-  price: 28.14,
+  price: 17.90,
   badge: "✨ Relaxing",
 
-  priceId: "price_1TnQ4HKn0lmTcQ117lpavjZZ",
+  priceId: "price_1U8gKUKn0lmTcQ11bkCyIAv6",
 
   images: [
     "/brush_chat.webp",
@@ -6322,11 +6322,11 @@ Easy to clean and designed for indoor use, it's a practical FluffHaven grooming 
 
   subtitle: "Hypoallergenic • Gentle formula • Sensitive skin",
 
-  price: 31.53,
+  price: 24.90,
 
   badge: null,
 
-  priceId: "price_1TnPy6Kn0lmTcQ11ay13p6hN",
+  priceId: "price_1U8gXHKn0lmTcQ11A1FkQd08",
 
   images: [
     "/dog_shampoo_bt.webp",
@@ -6358,8 +6358,6 @@ Its pH-balanced formula is designed for regular dog coat care.
 Free from harsh irritants, it's a practical FluffHaven choice for dogs with sensitive skin.
 `,
 
-promo: "🌿 Gentle formula for sensitive skin",
-
 },
 {
   id: 21,
@@ -6375,11 +6373,11 @@ promo: "🌿 Gentle formula for sensitive skin",
 
   subtitle: "Hypoallergenic • Gentle formula • Sensitive skin",
 
-  price: 45.09,
+  price: 24.90,
 
   badge: "",
 
-  priceId: "price_1TnPn8Kn0lmTcQ11E1SE7z4D",
+  priceId: "price_1U8gaTKn0lmTcQ11l16oXGzr",
 
   images: [
     "/cat_shampoo_bt.webp",
@@ -6410,8 +6408,6 @@ Its waterless design makes regular coat care simple without rinsing.
 
 Free from harsh irritants, it's a practical FluffHaven choice for cats with sensitive skin.
 `,
-
-promo: "🌿 Gentle formula for sensitive skin",
 
 },
 
