@@ -26,12 +26,28 @@ exports.handler = async (event) => {
       quantity: item.quantity || 1,
     }));
 
+    let cartTotal = 0;
+
+    for (const item of items) {
+      const price = await stripe.prices.retrieve(item.priceId);
+
+      cartTotal +=
+        ((price.unit_amount || 0) / 100) *
+        (item.quantity || 1);
+    }
+
+    const qualifiesForMug = cartTotal >= 49;
+
     const siteUrl =
       process.env.SITE_URL || event.headers.origin || "https://fluffhaven.shop";
 
     const session = await stripe.checkout.sessions.create({
       mode: "payment",
       line_items,
+      metadata: {
+        ponpon_mug: qualifiesForMug ? "FREE MUG INCLUDED" : "Not eligible",
+        cart_total: cartTotal.toFixed(2),
+      },
       shipping_address_collection: {
         allowed_countries: [
           "US", "CA", "GB", "IE", "FR", "BE", "NL", "DE", "LU", "ES", "IT",

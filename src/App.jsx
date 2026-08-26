@@ -1060,10 +1060,11 @@ if (
           <div className="no-account-banner">
             <span className="no-account-icon">🛍️</span>
             <div className="no-account-text">
-              <strong>No account needed to order</strong>
-              <span>Just add to cart and checkout in seconds — it's that simple.</span>
-            </div>
-            <span className="no-account-check">✓ Instant checkout</span>
+            <strong>No account needed to order</strong>
+            <span>Just add to cart and checkout in seconds — it's that simple.</span>
+            <span><strong>🎁 FREE PONPON MUG</strong> — Orders $49+ · First 10 only</span>
+          </div>
+          <span className="no-account-check">✓ Instant checkout</span>
           </div>
         )}
 
@@ -1309,6 +1310,11 @@ if (
                 </div>
                 </div>
                   <p className="cart-free-ship">✓ Free shipping included</p>
+                  {total >= 49 && (
+                    <p className="cart-free-ship">
+                      🎁 FREE Ponpon Mug included
+                    </p>
+                  )}
                   <p className="cart-free-ship">✓ Secure worldwide checkout</p>
                   <div className="cart-final-total">
                     <span>Total</span>
