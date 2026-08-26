@@ -476,6 +476,26 @@ export default function Blog() {
   url: "/blog/why-does-my-cat-follow-me-everywhere",
 },
 
+  {
+    title: "How to Groom Your Dog at Home: Simple Grooming Tips",
+    category: "Dog care",
+    date: "August 2026",
+    read: "9 min read",
+    description:
+      "Learn how to groom your dog at home with simple brushing, coat care and grooming tips to help keep your dog clean, comfortable and looking their best.",
+    url: "/blog/how-to-groom-your-dog-at-home",
+  },
+
+  {
+    title: "How to Encourage Your Cat to Drink More Water",
+    category: "Cat care",
+    date: "August 2026",
+    read: "9 min read",
+    description:
+      "Discover simple ways to encourage your cat to drink more water, from fresh water and better bowl placement to wet food and cat water fountains.",
+    url: "/blog/how-to-encourage-your-cat-to-drink-more-water",
+  },
+
   ];
 
   // ── Filtrage par recherche ──
