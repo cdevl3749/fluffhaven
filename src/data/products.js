@@ -43,21 +43,591 @@ export const PRODUCTS = [
   brand: "FluffHaven",
 
   details: `
-✓ 2 slow feeding mats — Blue & Pink
-✓ Food-grade silicone with strong suction base
-✓ Encourages slower eating and helps reduce gulping
-✓ Suitable for wet food, treats and dry kibble
-✓ Dishwasher safe and suitable for dogs of all sizes
 
-Make mealtime more engaging with the Premium Dog Enrichment Duo, featuring two slow feeding mats in blue and pink.
+✓ Set of 2 slow feeding mats — Blue + Pink
 
-The textured design encourages slower eating while helping reduce gulping and providing mental stimulation during meals.
+✓ Encourages slower eating and mental stimulation
 
-Made from soft food-grade silicone, each mat features a strong suction base and fits most pet bowls.
+✓ Food-grade BPA-free silicone
 
-Use them with wet food, treats or dry kibble for varied everyday feeding.
+✓ Strong suction cups for better stability
 
-Easy to clean and dishwasher safe, this FluffHaven duo provides a practical enrichment solution for dogs of all sizes.
+✓ Dishwasher and freezer safe
+
+Turn everyday mealtime into a more engaging experience with the Premium Dog Enrichment Duo.
+
+The textured surfaces encourage your dog to eat more slowly while providing mental stimulation during meals and treat time.
+
+Strong suction cups help keep the mats securely in place during use.
+
+With two colors included — blue and pink — this practical duo brings variety and enrichment to your dog's everyday routine.
+
+`,
+  inStock: true,
+
+  featured: true,
+},
+
+{
+  id: 129,
+
+  slug: "premium-shampoo-dispensing-dog-bath-brush",
+
+  name: "Premium Dog Shampoo Bath Brush",
+
+  category: "dog",
+
+  productType: "grooming-care",
+
+  seasons: ["summer", "autumn", "winter"],
+
+  subtitle: "Shampoo dispenser • Soft silicone bristles • Massage & clean",
+
+  price: 34.90,
+
+  badge: "🛁 Bath Essential",
+
+  priceId: "price_1U9qaDKn0lmTcQ11KcFyuJne",
+
+  images: [
+    "/premium-shampoo-dispensing-dog-bath-brush-main.webp",
+    "/premium-shampoo-dispensing-dog-bath-brush-bathroom.webp",
+    "/premium-shampoo-dispensing-dog-bath-brush-details.webp",
+  ],
+
+  description:
+    "Make bath time easier with the Premium Shampoo Dispensing Dog Bath Brush. Soft silicone bristles help massage and clean your dog's coat while the built-in reservoir conveniently dispenses shampoo.",
+
+  seoTitle:
+    "Premium Shampoo Dispensing Dog Bath Brush | FluffHaven",
+
+  seoDescription:
+    "Silicone dog bath brush with built-in shampoo dispenser and soft massage bristles for convenient everyday grooming.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Built-in shampoo dispenser
+✓ Soft silicone bristles
+✓ Gentle massage while washing
+✓ Comfortable grip
+✓ Suitable for short and long coats
+
+An easy-to-use grooming brush for cleaner and simpler bath time.
+
+A FluffHaven bath-time essential.
+`,
+
+  inStock: true,
+
+  featured: true,
+},
+
+{
+  id: 124,
+
+  slug: "premium-4-in-1-dog-bath-grooming-kit",
+
+  name: "Premium 4-in-1 Dog Bath & Grooming Kit",
+
+  category: "dog",
+
+  productType: "grooming-care",
+
+  seasons: ["summer", "autumn", "winter"],
+
+  subtitle: "Quick-dry towel • Massage gloves • Steel comb • Massage brush",
+
+  price: 32.90,
+
+  badge: "🛁 Bath Essential",
+
+  priceId: "price_1U9WleKn0lmTcQ11jlURo4eX",
+
+  images: [
+    "/premium-4-in-1-dog-bath-grooming-kit-main.webp",
+    "/premium-4-in-1-dog-bath-grooming-kit-bathroom.webp",
+    "/premium-4-in-1-dog-bath-grooming-kit-details.webp",
+  ],
+
+  description:
+    "Make bath time easier with the Premium 4-in-1 Dog Bath & Grooming Kit. Complete with a quick-dry towel, massage gloves, stainless steel comb and massage brush for simple everyday grooming.",
+
+  seoTitle:
+    "Premium 4-in-1 Dog Bath & Grooming Kit | FluffHaven",
+
+  seoDescription:
+    "Complete 4-in-1 dog bath and grooming kit with quick-dry towel, massage gloves, stainless steel comb and massage brush.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Complete 4-in-1 grooming kit
+
+✓ Soft quick-dry towel
+
+✓ Gentle massage gloves
+
+✓ Stainless steel grooming comb
+
+✓ Practical massage brush
+
+Make bath time simple with the Premium 4-in-1 Dog Bath & Grooming Kit.
+
+The massage gloves and brush help make washing and grooming comfortable and easy.
+
+Finish with the stainless steel comb and soft towel for a clean, fresh coat.
+
+A practical FluffHaven essential for everyday dog care.
+`,
+
+  inStock: true,
+
+  featured: true,
+},
+
+{
+  id: 128,
+  slug: "premium-leather-dog-chew-trio",
+  name: "Premium Leather Dog Chew Trio",
+  category: "dog",
+  productType: "toys",
+  seasons: ["summer", "autumn", "winter"],
+
+  subtitle: "Pack of 3 • Natural leather • Size S • Dogs up to 10 kg",
+
+  price: 39.90,
+
+  badge: "🦴 Chew Essential",
+
+  priceId: "price_1U9q9aKn0lmTcQ11Tk7KusaD",
+
+  images: [
+    "/premium-leather-dog-chew-trio-main.webp",
+    "/premium-leather-dog-chew-trio-kitchen.webp",
+    "/premium-leather-dog-chew-trio-details.webp",
+  ],
+
+  description:
+    "Keep your dog happily occupied with the Premium Leather Dog Chew Trio. This pack of 3 natural leather chews is designed for everyday chewing and small dogs.",
+
+  seoTitle:
+    "Premium Leather Dog Chew Trio | FluffHaven",
+
+  seoDescription:
+    "Pack of 3 natural leather dog chews in size S, designed for everyday chewing and dogs up to 10 kg.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Pack of 3 leather chews
+✓ Made from natural leather
+✓ Size S
+✓ For dogs up to 10 kg
+✓ Designed for everyday chewing
+
+A simple and durable chew trio for keeping your dog occupied.
+
+A FluffHaven playtime essential.
+`,
+
+  inStock: true,
+  featured: true,
+},
+
+{
+  id: 127,
+  slug: "premium-vanilla-shea-dog-shampoo",
+  name: "Premium Vanilla & Shea Dog Shampoo",
+  category: "dog",
+  productType: "grooming-care",
+  seasons: ["summer", "autumn", "winter"],
+
+  subtitle: "Vanilla & shea butter • Aloe vera • Provitamin B5 • 500 ml",
+
+  price: 27.90,
+
+  badge: "🛁 Bath Essential",
+
+  priceId: "price_1U9pqyKn0lmTcQ11ayhYtDYi",
+
+  images: [
+    "/premium-vanilla-shea-dog-shampoo-lifestyle.webp",
+    "/premium-vanilla-shea-dog-shampoo-main.webp",
+    "/premium-vanilla-shea-dog-shampoo-details.webp",
+  ],
+
+  description:
+    "Give your dog a fresh and gentle clean with this vanilla and shea butter shampoo, enriched with aloe vera and provitamin B5 for everyday coat care.",
+
+  seoTitle:
+    "Premium Vanilla & Shea Dog Shampoo 500ml | FluffHaven",
+
+  seoDescription:
+    "Dog shampoo with vanilla, shea butter, aloe vera and provitamin B5. A gentle 500 ml formula for fresh and comfortable bath time.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Vanilla & shea butter formula
+✓ Aloe vera & provitamin B5
+✓ pH balanced
+✓ 500 ml bottle
+✓ Suitable for dogs
+
+Gentle everyday care for a clean, fresh and soft coat.
+
+A FluffHaven bath-time essential.
+`,
+
+  inStock: true,
+  featured: true,
+},
+
+{
+  id: 126,
+  slug: "premium-winter-dog-coat-with-harness",
+  name: "Premium Winter Dog Coat with Harness",
+  category: "dog",
+  productType: "clothing",
+  seasons: ["autumn", "winter"],
+
+  subtitle: "Warm lining • Built-in harness • Reflective details • Size 5XL • From 24 kg",
+
+  price: 64.90,
+
+  badge: "❄️ Winter Essential",
+
+  priceId: "price_1U9pLTKn0lmTcQ11MyyvEDvz",
+
+  images: [
+    "/premium-winter-dog-coat-with-harness-main.webp",
+    "/premium-winter-dog-coat-with-harness-lifestyle.webp",
+    "/premium-winter-dog-coat-with-harness-details.webp",
+  ],
+
+  description:
+    "Keep your dog warm and comfortable on cold-weather walks with the Premium Winter Dog Coat with Harness. Designed with a cozy padded lining, built-in harness and reflective details.",
+
+  seoTitle:
+    "Premium Winter Dog Coat with Harness | FluffHaven",
+
+  seoDescription:
+    "Premium winter dog coat with built-in harness, warm padded lining and reflective details for comfortable cold-weather walks.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Warm padded lining
+✓ Built-in adjustable harness
+✓ Reflective details
+✓ Water-resistant outer layer
+✓ Size 5XL • Recommended for dogs from 24 kg
+
+Warm and practical for cold-weather walks.
+
+The built-in harness combines everyday comfort with convenient leash attachment.
+
+A premium FluffHaven essential for autumn and winter.
+`,
+
+  inStock: true,
+  featured: true,
+},
+
+{
+  id: 114,
+
+  slug: "premium-reusable-pet-hair-remover",
+
+  name: "Premium Reusable Pet Hair Remover",
+
+  category: "dog",
+  productType: "grooming-care",
+
+  seasons: ["summer", "autumn", "winter"],
+
+  subtitle: "Reusable hair remover • Sofas • Clothes • Bedding • Multi-surface",
+
+  price: 29.90,
+
+  badge: "✨ Home Care Essential",
+
+  priceId: "price_1U83pHKn0lmTcQ11l7FQe0MC",
+
+  images: [
+    "/premium-reusable-pet-hair-remover-main.webp",
+    "/premium-reusable-pet-hair-remover-clothes.webp",
+    "/premium-reusable-pet-hair-remover-details.webp",
+  ],
+
+  description:
+    "Keep your home and clothes free from unwanted pet hair with the Premium Reusable Pet Hair Remover. Designed for everyday use on sofas, clothing, bedding and other fabric surfaces, it collects dog and cat hair into a built-in chamber for quick and convenient cleaning.",
+
+  seoTitle:
+    "Premium Reusable Pet Hair Remover | Sofa, Clothes & Bedding | FluffHaven",
+
+  seoDescription:
+    "Reusable pet hair remover for sofas, clothes, bedding and fabric surfaces. Easily collect dog and cat hair with a convenient built-in collection chamber.",
+
+  brand: "FluffHaven",
+
+  details: `
+
+✓ Removes dog & cat hair
+
+✓ Reusable design — no sticky refills
+
+✓ Built-in hair collection chamber
+
+✓ Ideal for sofas, clothes & bedding
+
+✓ Easy to empty and reuse
+
+✓ Convenient multi-surface cleaning
+
+Keep pet hair under control with a simple reusable solution.
+
+The Premium Reusable Pet Hair Remover collects loose dog and cat hair from everyday fabric surfaces without disposable sticky sheets.
+
+Simply roll it across sofas, clothing, bedding or other suitable fabrics to collect hair inside the built-in chamber, then open, empty and reuse.
+
+A practical home-care essential for pet owners.
+
+`,
+
+  inStock: true,
+
+  featured: true,
+},
+
+{
+  id: 125,
+  slug: "premium-vacuum-dog-grooming-brush-kit",
+  name: "Premium Vacuum Dog Grooming Kit",
+  category: "dog",
+  productType: "grooming-care",
+  seasons: ["summer", "autumn", "winter"],
+
+  subtitle: "Vacuum grooming brush • Flexible hose • Easy hair collection",
+
+  price: 34.90,
+
+  badge: "🐾 Grooming Essential",
+
+  priceId: "price_1U9oQPKn0lmTcQ11azTTtNrQ",
+
+  images: [
+    "/premium-vacuum-dog-grooming-brush-kit-main.webp",
+    "/premium-vacuum-dog-grooming-brush-kit-details.webp",
+    "/premium-vacuum-dog-grooming-brush-kit-home.webp",
+  ],
+
+  description:
+    "Make grooming and clean-up easier with the Premium Vacuum Dog Grooming Brush Kit. Designed to collect loose hair while you brush for a cleaner and more convenient grooming routine.",
+
+  seoTitle:
+    "Premium Vacuum Dog Grooming Brush Kit | FluffHaven",
+
+  seoDescription:
+    "Vacuum dog grooming brush kit with flexible hose and practical accessories for convenient at-home grooming and easier loose-hair collection.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Vacuum-assisted grooming brush
+✓ Helps collect loose hair while brushing
+✓ Flexible hose for easier handling
+✓ Practical grooming accessories included
+✓ Ideal for at-home grooming
+
+Groom your dog while keeping loose hair under control.
+
+The vacuum-assisted brush helps collect hair directly during grooming.
+
+A practical FluffHaven essential for easier grooming and a cleaner home.
+`,
+
+  inStock: true,
+  featured: true,
+},
+
+{
+  id: 122,
+
+  slug: "premium-dog-training-whistle",
+
+  name: "Premium Dog Training Whistle",
+
+  category: "dog",
+  productType: "walking-travel",
+
+  seasons: ["summer", "autumn", "winter"],
+
+  subtitle: "5700 Hz frequency • Neck lanyard • Lightweight • Outdoor training",
+
+  price: 19.90,
+
+  badge: "🎯 Training Essential",
+
+  priceId: "price_1U9MpNKn0lmTcQ11HSqdQCYs",
+
+  images: [
+    "/premium-dog-training-whistle-outdoor.webp",
+    "/premium-dog-training-whistle-main.webp",
+    "/premium-dog-training-whistle-details.webp",
+  ],
+
+  description:
+    "Make everyday training easier with the Premium Dog Training Whistle. Featuring a clear 5700 Hz frequency and convenient neck lanyard, this lightweight orange whistle is designed for recall, obedience and everyday outdoor training.",
+
+  seoTitle:
+    "Premium Dog Training Whistle | 5700 Hz Training Whistle | FluffHaven",
+
+  seoDescription:
+    "Premium orange dog training whistle with 5700 Hz frequency and convenient neck lanyard. Lightweight and ideal for recall, obedience and outdoor training.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Clear 5700 Hz training frequency
+✓ Convenient neck lanyard
+✓ Lightweight and easy to carry
+✓ Ideal for recall & obedience training
+✓ Bright orange design for easy visibility
+
+Make everyday training simple with the Premium Dog Training Whistle.
+
+Its clear and consistent sound makes it a practical tool for recall, obedience and everyday training sessions.
+
+Lightweight and easy to carry, the included neck lanyard keeps the whistle conveniently within reach.
+
+A compact FluffHaven training essential for walks, parks and outdoor adventures.
+`,
+
+  inStock: true,
+
+  featured: true,
+},
+
+{
+  id: 121,
+
+  slug: "premium-shock-absorbing-dog-leash",
+
+  name: "Premium Shock-Absorbing Dog Leash",
+
+  category: "dog",
+
+  productType: "walking-travel",
+
+  seasons: ["summer", "autumn", "winter"],
+
+  subtitle: "Shock absorbing • Dual padded handles • Heavy-duty clip • Car seatbelt attachment",
+
+  price: 27.90,
+
+  badge: "🐕 Walk Essential",
+
+  priceId: "price_1U9LzmKn0lmTcQ110OhTSI5A",
+
+  images: [
+    "/premium-shock-absorbing-dog-leash-main.webp",
+    "/premium-shock-absorbing-dog-leash-outdoor.webp",
+    "/premium-shock-absorbing-dog-leash-details.webp",
+  ],
+
+  description:
+    "Enjoy safer, more comfortable walks with the Premium Shock-Absorbing Dog Leash. Designed with a flexible shock-absorbing section, dual padded handles and durable hardware, it gives you greater comfort and control during everyday walks and outdoor adventures.",
+
+  seoTitle:
+    "Premium Shock-Absorbing Dog Leash | FluffHaven",
+
+  seoDescription:
+    "Premium shock-absorbing dog leash with dual padded handles, durable hardware and car seatbelt attachment for comfortable, controlled everyday walks.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Shock-absorbing design for smoother walks
+
+✓ Dual padded handles for comfort and control
+
+✓ Close-control handle for busy situations
+
+✓ Strong and secure metal hardware
+
+✓ Reflective stitching for added visibility
+
+✓ Car seatbelt attachment for convenient travel
+
+✓ Comfortable grip for everyday adventures
+
+Make every walk more comfortable and controlled.
+
+The Premium Shock-Absorbing Dog Leash combines flexibility, strength and practical everyday features to help make walks more enjoyable for both you and your dog.
+
+Its shock-absorbing section helps soften sudden pulls, while the dual padded handles give you the freedom to switch between relaxed walking and closer control when needed.
+
+Built with durable hardware and a convenient car seatbelt attachment, it's a versatile companion for daily walks, outdoor adventures and travel.
+`,
+
+  inStock: true,
+
+  featured: true,
+},
+
+{
+  id: 123,
+
+  slug: "premium-dog-waste-bag-dispenser-duo",
+
+  name: "Premium Dog Waste Bag Dispenser Duo",
+
+  category: "dog",
+  productType: "walking-travel",
+
+  seasons: ["summer", "autumn", "winter"],
+
+  subtitle: "2 dispensers • Secure clips • Easy bag access • Walk-ready design",
+
+  price: 17.90,
+
+  badge: "🐾 Walk Essential",
+
+  priceId: "price_1U9NJVKn0lmTcQ11dXGKipiy",
+
+  images: [
+    "/premium-dog-waste-bag-dispenser-duo-main.webp",
+    "/premium-dog-waste-bag-dispenser-duo-outdoor.webp",
+    "/premium-dog-waste-bag-dispenser-duo-details.webp",
+  ],
+
+  description:
+    "Keep everyday walks simple with the Premium Dog Waste Bag Dispenser Duo. This practical 2-piece set features secure clips and easy-access openings, making waste bags convenient to carry wherever your walks take you.",
+
+  seoTitle:
+    "Premium Dog Waste Bag Dispenser Duo | FluffHaven",
+
+  seoDescription:
+    "Premium dog waste bag dispenser duo with secure clips and easy bag access. A practical and stylish accessory for everyday dog walks.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Set of 2 convenient dispensers
+✓ Secure clips for easy attachment
+✓ Quick and easy bag access
+✓ Lightweight and practical design
+✓ Perfect for everyday walks
+
+Make daily walks easier with the Premium Dog Waste Bag Dispenser Duo.
+
+Each dispenser clips conveniently onto a leash, bag or walking accessory.
+
+The easy-access opening keeps waste bags ready whenever you need them.
+
+A practical FluffHaven essential for cleaner, stress-free walks.
 `,
 
   inStock: true,
@@ -192,6 +762,58 @@ Soft silicone bristles help provide a gentle massage while cleaning, making this
 },
 
 {
+  id: 120,
+  slug: "premium-woven-pet-toy-storage-basket",
+  name: "Premium Woven Pet Toy Storage Basket",
+  category: "dog",
+  productType: "accessories-home",
+  seasons: ["summer", "autumn", "winter"],
+
+  subtitle: "Woven cotton rope • Sturdy handles • Stylish toy storage • 43.2 × 30 × 24.9 cm",
+
+  price: 34.90,
+
+  badge: "🧺 Stylish Storage",
+
+  priceId: "price_1U9ATrKn0lmTcQ11IPpSWeBt",
+
+  images: [
+    "/premium-woven-pet-toy-storage-basket-main.webp",
+    "/premium-woven-pet-toy-storage-basket-living-room.webp",
+    "/premium-woven-pet-toy-storage-basket-details.webp",
+  ],
+
+  description:
+    "Keep your pet's favorite toys neatly organized with the Premium Woven Pet Toy Storage Basket. Made from durable cotton rope with sturdy handles, it offers practical storage while blending beautifully into your home décor.",
+
+  seoTitle:
+    "Premium Woven Pet Toy Storage Basket | FluffHaven",
+
+  seoDescription:
+    "Stylish woven pet toy storage basket made from durable cotton rope with sturdy handles. A practical and elegant way to keep your pet's toys organized.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Durable woven cotton rope
+✓ Sturdy handles for easy carrying
+✓ Spacious storage for pet toys
+✓ Soft, pet-friendly construction
+✓ Stable woven base
+✓ Size: 43.2 × 30 × 24.9 cm
+
+Keep your pet's toys organized without compromising on style.
+
+The Premium Woven Pet Toy Storage Basket combines practical everyday storage with a warm, elegant design that fits beautifully into your living space.
+
+Its spacious interior keeps toys within easy reach, while the sturdy handles make it simple to move from room to room.
+`,
+
+  inStock: true,
+  featured: true,
+},
+
+{
   id: 113,
 
   slug: "premium-3-in-1-dog-travel-bottle",
@@ -245,72 +867,6 @@ The 600 ml water compartment helps keep your dog hydrated while you're away from
 A separate 100 g compartment provides space for treats or snacks, and the built-in waste bag holder keeps another essential close at hand.
 
 Perfect for daily walks, hikes, road trips and outdoor adventures, it's a practical all-in-one companion for you and your dog.
-`,
-
-  inStock: true,
-
-  featured: true,
-},
-
-{
-  id: 114,
-
-  slug: "premium-reusable-pet-hair-remover",
-
-  name: "Premium Reusable Pet Hair Remover",
-
-  category: "dog",
-  productType: "grooming-care",
-
-  seasons: ["summer", "autumn", "winter"],
-
-  subtitle: "Reusable hair remover • Sofas • Clothes • Bedding • Multi-surface",
-
-  price: 29.90,
-
-  badge: "✨ Home Care Essential",
-
-  priceId: "price_1U83pHKn0lmTcQ11l7FQe0MC",
-
-  images: [
-    "/premium-reusable-pet-hair-remover-main.webp",
-    "/premium-reusable-pet-hair-remover-clothes.webp",
-    "/premium-reusable-pet-hair-remover-details.webp",
-  ],
-
-  description:
-    "Keep your home and clothes free from unwanted pet hair with the Premium Reusable Pet Hair Remover. Designed for everyday use on sofas, clothing, bedding and other fabric surfaces, it collects dog and cat hair into a built-in chamber for quick and convenient cleaning.",
-
-  seoTitle:
-    "Premium Reusable Pet Hair Remover | Sofa, Clothes & Bedding | FluffHaven",
-
-  seoDescription:
-    "Reusable pet hair remover for sofas, clothes, bedding and fabric surfaces. Easily collect dog and cat hair with a convenient built-in collection chamber.",
-
-  brand: "FluffHaven",
-
-  details: `
-
-✓ Removes dog & cat hair
-
-✓ Reusable design — no sticky refills
-
-✓ Built-in hair collection chamber
-
-✓ Ideal for sofas, clothes & bedding
-
-✓ Easy to empty and reuse
-
-✓ Convenient multi-surface cleaning
-
-Keep pet hair under control with a simple reusable solution.
-
-The Premium Reusable Pet Hair Remover collects loose dog and cat hair from everyday fabric surfaces without disposable sticky sheets.
-
-Simply roll it across sofas, clothing, bedding or other suitable fabrics to collect hair inside the built-in chamber, then open, empty and reuse.
-
-A practical home-care essential for pet owners.
-
 `,
 
   inStock: true,
@@ -1105,7 +1661,7 @@ Finished in forest green, this Size L harness combines practical everyday featur
 
   slug: "premium-orthopedic-support-dog-mattress",
 
-  name: "Premium Orthopedic Support Dog Mattress",
+  name: "Premium Orthopedic Dog Mattress",
 
   category: "dog",
   productType: "beds-comfort",
@@ -1285,17 +1841,16 @@ Combining contact-free operation, quick readings and a clear display, this therm
 
   slug: "premium-one-click-self-cleaning-dog-brush",
 
-  name: "Premium One-Click Self-Cleaning Dog Brush",
+  name: "Premium Self-Cleaning Dog Brush",
 
   category: "dog",
-  productType: "toys",
+  productType: "grooming-care",
 
   seasons: ["summer", "autumn", "winter"],
 
   subtitle: "One-click cleaning • Stainless steel pins • Easy everyday grooming",
 
   price: 22.90,
-
   badge: "✨ Grooming Essential",
 
   priceId: "price_1U4kDRKn0lmTcQ11QpUJxw7G",
@@ -1465,7 +2020,7 @@ Combining cooling refreshment with interactive fun, it's a FluffHaven summer ess
 
   slug: "premium-interactive-dog-puzzle-treat-dispenser",
 
-  name: "Premium Interactive Dog Puzzle Treat Dispenser",
+  name: "Premium Dog Puzzle Treat Dispenser",
 
   category: "dog",
   productType: "toys",
@@ -2124,7 +2679,7 @@ Combining warmth, protection and blue-and-black FluffHaven styling, this jacket 
 
   slug: "premium-elevated-comfort-feeding-station",
 
-  name: "Premium Elevated Comfort Feeding Station",
+ name: "Premium Elevated Feeding Station",
 
   category: "dog",
   productType: "feeding",
@@ -2238,7 +2793,7 @@ The adjustable design provides a secure fit while the reflective strap helps imp
 
   slug: "premium-2-in-1-cat-feeding-water-station",
 
-  name: "Premium 2-in-1 Cat Feeding & Water Station",
+  name: "Premium 2-in-1 Cat Feeding Station",
 
   category: "cat",
   productType: "feeding",
@@ -2348,7 +2903,7 @@ With three charming colors, you can easily keep one in your cat's favorite spots
 
   slug: "premium-self-adhesive-cat-scratching-mat",
 
-  name: "Premium Self-Adhesive Cat Scratching Mat",
+  name: "Premium Cat Scratching Mat",
 
   category: "cat",
   productType: "accessories-home",
@@ -2408,7 +2963,7 @@ The large self-adhesive mat can be trimmed to fit walls, furniture and other sui
 
   slug: "premium-reflective-cat-harness-leash-set",
 
-  name: "Premium Reflective Cat Harness & Leash Set",
+  name: "Premium Reflective Cat Harness Set",
 
   category: "cat",
   productType: "walking-travel",
@@ -2586,7 +3141,7 @@ Practical and versatile, it helps extend the life of your cat's favorite furnitu
 
   slug: "premium-interactive-cat-scratcher-lounge",
 
-  name: "Premium Interactive Cat Scratcher Lounge",
+  name: "Premium Cat Scratcher Lounge",
 
   category: "cat",
   productType: "toys",
@@ -3366,7 +3921,7 @@ Dishwasher and freezer safe, this FluffHaven trio combines slower feeding, enric
   name: "Premium Cooling Gel Dog Mat",
 
   category: "dog",
-  productType: "toys",
+  productType: "beds-comfort",
 
   seasons: ["summer"],
 
@@ -4564,7 +5119,7 @@ Easy to clean and simple to use, it's a convenient FluffHaven accessory for ever
 
   slug: "premium-elevated-triple-cat-feeding-station",
 
-  name: "Premium Elevated Triple Cat Feeding Station",
+  name: "Premium Triple Cat Feeding Station",
 
   category: "cat",
   productType: "feeding",
@@ -5405,7 +5960,7 @@ Finished in pink with premium stitching, this FluffHaven bed is a practical choi
   name: "Premium Cooling Gel Cat Mat",
 
   category: "cat",
-  productType: "toys",
+  productType: "beds-comfort",
 
   seasons: ["summer"],
 
@@ -5963,22 +6518,42 @@ With a non-slip bottom and easy-care design, it's a practical FluffHaven bed for
 
   {
   id: 14,
+
   slug: "cat-water-fountain",
+
   name: "Cat Water Fountain",
+
   category: "cat",
+
   productType: "feeding",
+
   seasons: ["summer"],
+
   subtitle: "2L · quiet pump · filtered water",
+
   price: 37.90,
+
   badge: "💧 Premium",
+
   priceId: "price_1U8fuqKn0lmTcQ112zNCKcZt",
+
   images: [
     "/fontaine_chat.webp",
     "/fontaine_chat3.webp",
     "/fontaine_chat4.webp"
   ],
+
   description:
-  "Encourage your cat to drink more with this quiet 2L water fountain. Designed to keep water moving and filtered, it provides a fresh and convenient drinking source throughout the day.",
+    "Encourage your cat to drink more with this quiet 2L water fountain. Designed to keep water moving and filtered, it provides a fresh and convenient drinking source throughout the day.",
+
+  seoTitle:
+    "Cat Water Fountain 2L | Quiet Filtered Fountain | FluffHaven",
+
+  seoDescription:
+    "Quiet 2L cat water fountain with continuous flowing water, built-in filtration and BPA-free design for convenient everyday hydration.",
+
+  brand: "FluffHaven",
+
   details: `
 ✓ 2L water capacity
 ✓ Quiet pump for everyday use
@@ -5996,6 +6571,7 @@ The quiet pump is designed for discreet operation around the home.
 
 With a 2L capacity and BPA-free design, it's a practical FluffHaven solution for everyday hydration.
 `,
+
 },
 
 {
