@@ -100,6 +100,46 @@ const PAGES = {
       </>
     ),
   },
+    contact: {
+    title: "Contact Us",
+    content: (
+      <>
+        <p>
+          Have a question about an order, one of our products, shipping or returns?
+          We're happy to help.
+        </p>
+
+        <h3>Customer Support</h3>
+
+        <p>
+          You can contact us anytime at:
+        </p>
+
+        <p>
+          <a
+            href="mailto:contact@fluffhaven.shop"
+            style={{
+              fontWeight: "700",
+              color: "inherit",
+              textDecoration: "none",
+            }}
+          >
+            📧 contact@fluffhaven.shop
+          </a>
+        </p>
+
+        <p>
+          We usually reply within 1–2 business days.
+        </p>
+
+        <h3>FluffHaven</h3>
+
+        <p>
+          Premium essentials for happy pets. 🐾
+        </p>
+      </>
+    ),
+  },
   shipping: {
   title: "Shipping Policy",
   content: (
@@ -309,6 +349,10 @@ function ProductCard({ product, onAddToCart, onShowDetails }) {
 
         <div className="delivery-badge">
           ✓ Free delivery &nbsp;•&nbsp; Ships in 5–8 business days
+        </div>
+
+        <div className="product-trust-line">
+          🔒 Secure checkout · ↩ 14-day returns
         </div>
 
         <div className="product-footer">
@@ -737,7 +781,7 @@ if (
             <br />
             We select the ones truly worth owning.
           </p>
-          <button className="primary-btn" onClick={() => scrollTo("#shop")}>Shop Now <span>→</span></button>
+          <button className="primary-btn" onClick={() => scrollTo("#shop")}>Shop Now →</button>
           <div className="hero-trust-line">
             <span>Trusted by pet owners in</span>
             <strong>USA</strong>
@@ -1126,46 +1170,64 @@ if (
       </section>
 
       {/* REVIEWS */}
-      <section id="reviews" className="section reviews-section">
-        <div className="section-label">Testimonials</div>
-        <h2>What pet parents say</h2>
-        <div className="reviews">
-          {[
-            {
-  name: "Emma R.",
-  pet: "Golden Retriever owner",
-  location: "Texas, USA",
-  text: "The paw cleaner is genuinely incredible. My dog used to leave muddy prints everywhere — now it takes 10 seconds after every walk."
-},
-{
-  name: "Lucas M.",
-  pet: "Cat & dog dad",
-  location: "Ontario, Canada",
-  text: "Fast shipping, premium packaging, and the products actually last. I've ordered three times now and every time it's been perfect."
-},
-{
-  name: "Sophie L.",
-  pet: "Labrador owner",
-  location: "Manchester, UK",
-  text: "The Premium Cooling Mat is perfect for hot days! My dog loves it and uses it all the time. It cools instantly and feels really high quality. Super easy to clean too. Highly recommend!"
-},
-          ].map((r) => (
-            <div key={r.name} className="review">
-              <div className="review-top">
-                <div className="review-avatar-initials">{r.name.split(" ").map(n => n[0]).join("")}</div>
-                <div>
-                  <h4>{r.name}</h4>
-                  <span className="review-pet">
-                    {r.pet} · {r.location}
-                  </span>
-                </div>
-              </div>
-              <div className="stars">★★★★★</div>
-              <p>"{r.text}"</p>
-            </div>
-          ))}
-        </div>
-      </section>
+<section id="reviews" className="section reviews-section">
+  <div className="section-label">Customer Reviews</div>
+
+  <h2>Real feedback. Real pet parents.</h2>
+
+  <div className="reviews">
+    <div
+      className="review"
+      style={{
+        gridColumn: "1 / -1",
+        maxWidth: "850px",
+        margin: "0 auto",
+        textAlign: "center",
+      }}
+    >
+      <div
+        className="review-avatar-initials"
+        style={{ margin: "0 auto 20px" }}
+      >
+        🐾
+      </div>
+
+      <h3>FluffHaven is growing</h3>
+
+      <p>
+        We're building our community one happy pet at a time.
+        As genuine customer feedback comes in, we'll feature it here.
+      </p>
+
+      <p>
+        <strong>Already ordered from FluffHaven?</strong>
+        <br />
+        We'd love to hear about your experience.
+      </p>
+
+      <p>
+        <a
+          href="mailto:contact@fluffhaven.shop?subject=My%20FluffHaven%20Review"
+          style={{
+            fontWeight: "700",
+            color: "inherit",
+            textDecoration: "none",
+          }}
+        >
+          📧 Share your experience
+        </a>
+      </p>
+
+      <p style={{ fontSize: "14px", opacity: "0.7" }}>
+        Only genuine customer feedback is featured on FluffHaven.
+      </p>
+      <div className="reviews-trust">
+        <span>🔒 Secure checkout</span>
+        <span>↩ 14-day returns</span>
+      </div>
+    </div>
+  </div>
+</section>
 
       {/* FAQ */}
       <section id="faq" className="section faq-section">
@@ -1231,6 +1293,7 @@ if (
           <span onClick={() => scrollTo("#reviews")}>Reviews</span>
           <span onClick={() => scrollTo("#faq")}>FAQ</span>
           <span onClick={() => (window.location.href = "/blog")}>Blog</span>
+          <span onClick={() => setActivePage("contact")}>Contact Us</span>
           <span onClick={() => setActivePage("privacy")}>Privacy Policy</span>
           <span onClick={() => setActivePage("terms")}>Terms of Service</span>
           <span onClick={() => (window.location.href = "/returns")}>Returns</span>

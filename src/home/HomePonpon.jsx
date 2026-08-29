@@ -61,12 +61,12 @@ export default function HomePonpon() {
     </div>
 
     <div className="ponpon-feature">
-        <div className="ponpon-icon">✓</div>
+      <div className="ponpon-icon">✓</div>
 
-        <div>
-        <strong>Pet Approved</strong>
-        <span>Tested by Ponpon</span>
-        </div>
+      <div>
+        <strong>Secure Checkout</strong>
+        <span>Protected payment</span>
+      </div>
     </div>
 
     <div className="ponpon-feature">
@@ -82,8 +82,8 @@ export default function HomePonpon() {
         <div className="ponpon-icon">✓</div>
 
     <div>
-      <strong>Happy Pets</strong>
-      <span>Happy Humans</span>
+      <strong>14-Day Returns</strong>
+      <span>Easy returns</span>
     </div>
   </div>
 
