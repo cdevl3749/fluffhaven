@@ -3638,3 +3638,22 @@ body.modal-open {
   font-family: Arial, sans-serif !important;
   transform: translateY(1px) !important;
 }
+
+.view-all-products-btn {
+  display: block;
+  margin: 32px auto 10px;
+  padding: 15px 32px;
+  border: none;
+  border-radius: 999px;
+  background: #9b7663;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.view-all-products-btn:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}

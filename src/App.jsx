@@ -436,6 +436,11 @@ useEffect(() => {
   const [petFilter, setPetFilter] = useState("all");
   const [seasonFilter, setSeasonFilter] = useState("all");
   const [productTypeFilter, setProductTypeFilter] = useState("all");
+  const [visibleProductCount, setVisibleProductCount] = useState(3);
+
+useEffect(() => {
+  setVisibleProductCount(3);
+}, [petFilter, seasonFilter, productTypeFilter]);
   const featuredSummerProduct = PRODUCTS.find(
   (product) => product.slug === "premium-floating-rope-ball"
 );
@@ -771,6 +776,122 @@ if (
 
       {/* HERO */}
       <HomeSwitcher />
+      {/* SHOP */}
+      <section id="shop" className="section">
+        <div className="section-label">Our Collection</div>
+        <h2>Best Sellers</h2>
+        <div className="shop-tabs">
+
+  <select
+  value={petFilter}
+  onChange={(e) => setPetFilter(e.target.value)}
+  className="shop-select"
+>
+  <option value="all">
+    🐾 All Pets
+  </option>
+
+  <option value="dog">
+    🐶 Dogs
+  </option>
+
+  <option value="cat">
+    🐱 Cats
+  </option>
+</select>
+
+ <select
+  value={seasonFilter}
+  onChange={(e) => setSeasonFilter(e.target.value)}
+  className="shop-select"
+>
+  <option value="all">
+    🌍 All Seasons
+  </option>
+
+  <option value="summer">
+    ☀️ Summer
+  </option>
+
+  <option value="autumn">
+    🍂 Autumn
+  </option>
+
+  <option value="winter">
+    ❄️ Winter
+  </option>
+</select>
+
+<select
+  value={productTypeFilter}
+  onChange={(e) => setProductTypeFilter(e.target.value)}
+  className="shop-select"
+>
+  <option value="all">🛍️ All Products</option>
+  <option value="feeding">🍽️ Food & Water</option>
+  <option value="toys">🎾 Toys & Play</option>
+  <option value="beds-comfort">🛏️ Beds & Comfort</option>
+  <option value="walking-travel">🐾 Walk & Travel</option>
+  <option value="grooming-care">🧼 Grooming & Care</option>
+  <option value="clothing">👕 Clothing</option>
+  <option value="accessories-home">🏠 Home & Accessories</option>
+</select>
+
+</div>
+
+<p className="products-found">
+  Showing 3 of {filteredProducts.length} products
+</p>
+
+        {/* BANNER — No account needed */}
+        {(activeTab === "all" || activeTab === "dog" || activeTab === "cat") && (
+          <div className="no-account-banner">
+            <span className="no-account-icon">🛍️</span>
+            <div className="no-account-text">
+            <strong>No account needed to order</strong>
+            <span>Just add to cart and checkout in seconds — it's that simple.</span>
+            <span><strong>🎁 FREE PONPON MUG</strong> — Orders $49+ · First 10 only</span>
+          </div>
+          <span className="no-account-check">✓ Instant checkout</span>
+          </div>
+        )}
+
+     <div className="products">
+        {filteredProducts.slice(0, visibleProductCount).map((product) => (
+          <ProductCard
+            key={product.id}
+            product={product}
+            onAddToCart={addToCart}
+          />
+        ))}
+      </div>
+      {filteredProducts.length > 3 && (
+  <button
+    className="view-all-products-btn"
+    onClick={() => {
+  if (visibleProductCount >= filteredProducts.length) {
+    setVisibleProductCount(3);
+
+    setTimeout(() => {
+      document.getElementById("shop")?.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    }, 50);
+  } else {
+    setVisibleProductCount((prev) =>
+      Math.min(prev + 6, filteredProducts.length)
+    );
+  }
+}}
+  >
+    {visibleProductCount >= filteredProducts.length
+  ? "Show fewer products ↑"
+  : `View more products (+${Math.min(6, filteredProducts.length - visibleProductCount)}) →`}
+  </button>
+)}
+      </section>
+
       <HomeClassic>
       <section id="home" className="hero">
         <div className="hero-content">
@@ -801,127 +922,6 @@ if (
         </div>
       </section>
       </HomeClassic>
-
-      <PonponPick />
-
-      <PonponRecommends />
-
-     <section className="featured-rope-section">
-  <div className="featured-rope-content">
-
-    <div className="featured-rope-header">
-      <span>💦 PONPON'S SUMMER PICK</span>
-      <h2>Make Every Splash Count</h2>
-      <p>
-        Meet the Premium Floating Rope Ball — made for pool, lake and beach
-        adventures with your best friend.
-      </p>
-    </div>
-
-    {featuredSummerProduct && (
-      <div className="featured-rope-showcase">
-
-        <div className="featured-rope-gallery">
-          <div className="featured-rope-main-image">
-            <img
-              src={featuredSummerImage}
-              alt="Premium Floating Rope Ball"
-            />
-          </div>
-
-          <div className="featured-rope-thumbnails">
-            {featuredSummerImages.map((image, index) => (
-              <button
-                key={image}
-                type="button"
-                className={
-                  featuredSummerImage === image
-                    ? "featured-rope-thumb active"
-                    : "featured-rope-thumb"
-                }
-                onClick={() => setFeaturedSummerImage(image)}
-                aria-label={`View Premium Floating Rope Ball image ${index + 1}`}
-              >
-                <img
-                  src={image}
-                  alt={`Premium Floating Rope Ball view ${index + 1}`}
-                />
-              </button>
-            ))}
-          </div>
-        </div>
-
-        <div className="featured-rope-info">
-
-          <div className="featured-rope-video">
-            <video
-              controls
-              playsInline
-              preload="metadata"
-              poster="/premium-floating-rope-ball-main.webp"
-            >
-              <source
-                src="/premium-floating-rope-ball-video.mp4"
-                type="video/mp4"
-              />
-              Your browser does not support video playback.
-            </video>
-          </div>
-
-          <span className="featured-rope-badge">
-            💦 Water Adventure
-          </span>
-
-          <h3>{featuredSummerProduct.name}</h3>
-
-          <div className="featured-rope-rating">
-            ★★★★★ <span>Loved by Ponpon</span>
-          </div>
-
-          <p className="featured-rope-description">
-            {featuredSummerProduct.subtitle}
-          </p>
-
-          <div className="featured-rope-delivery">
-            ✓ Free delivery &nbsp; • &nbsp; Ships in 5–8 business days
-          </div>
-
-          <div className="featured-rope-price">
-            ${featuredSummerProduct.price.toFixed(2)}
-            <span> USD</span>
-          </div>
-
-          <div className="featured-rope-actions">
-            <button
-              type="button"
-              className="featured-rope-cart"
-              onClick={() => {
-                addToCart(featuredSummerProduct);
-                setCartNotice(true);
-              }}
-            >
-              Add to cart
-            </button>
-
-            <button
-              type="button"
-              className="featured-rope-buy"
-              onClick={() => handleBuyNow(featuredSummerProduct)}
-            >
-              Buy now →
-            </button>
-          </div>
-
-          <p className="featured-rope-secure">
-            🔒 Secure checkout powered by Stripe
-          </p>
-
-        </div>
-      </div>
-    )}
-
-  </div>
-</section>
 
 {/* PONPON'S AUTUMN PICKS */}
 <section className="world-cup-section">
@@ -1029,146 +1029,6 @@ if (
         <div className="trust-item"><div className="trust-icon">↩️</div><div><strong>Easy Returns</strong><span>14-day no-questions guarantee</span></div></div>
       </section>
 
-      {/* SHOP */}
-      <section id="shop" className="section">
-        <div className="section-label">Our Collection</div>
-        <h2>Best Sellers</h2>
-        <div className="shop-tabs">
-
-  <select
-  value={petFilter}
-  onChange={(e) => setPetFilter(e.target.value)}
-  className="shop-select"
->
-  <option value="all">
-    🐾 All Pets
-  </option>
-
-  <option value="dog">
-    🐶 Dogs
-  </option>
-
-  <option value="cat">
-    🐱 Cats
-  </option>
-</select>
-
- <select
-  value={seasonFilter}
-  onChange={(e) => setSeasonFilter(e.target.value)}
-  className="shop-select"
->
-  <option value="all">
-    🌍 All Seasons
-  </option>
-
-  <option value="summer">
-    ☀️ Summer
-  </option>
-
-  <option value="autumn">
-    🍂 Autumn
-  </option>
-
-  <option value="winter">
-    ❄️ Winter
-  </option>
-</select>
-
-<select
-  value={productTypeFilter}
-  onChange={(e) => setProductTypeFilter(e.target.value)}
-  className="shop-select"
->
-  <option value="all">🛍️ All Products</option>
-  <option value="feeding">🍽️ Food & Water</option>
-  <option value="toys">🎾 Toys & Play</option>
-  <option value="beds-comfort">🛏️ Beds & Comfort</option>
-  <option value="walking-travel">🐾 Walk & Travel</option>
-  <option value="grooming-care">🧼 Grooming & Care</option>
-  <option value="clothing">👕 Clothing</option>
-  <option value="accessories-home">🏠 Home & Accessories</option>
-</select>
-
-</div>
-
-<p className="products-found">
-  {filteredProducts.length}{" "}
-  {filteredProducts.length === 1
-    ? "product found"
-    : "products found"}
-</p>
-
-        {/* BANNER — No account needed */}
-        {(activeTab === "all" || activeTab === "dog" || activeTab === "cat") && (
-          <div className="no-account-banner">
-            <span className="no-account-icon">🛍️</span>
-            <div className="no-account-text">
-            <strong>No account needed to order</strong>
-            <span>Just add to cart and checkout in seconds — it's that simple.</span>
-            <span><strong>🎁 FREE PONPON MUG</strong> — Orders $49+ · First 10 only</span>
-          </div>
-          <span className="no-account-check">✓ Instant checkout</span>
-          </div>
-        )}
-
-     <div className="products">
-        {filteredProducts.map((product) => (
-          <ProductCard
-            key={product.id}
-            product={product}
-            onAddToCart={addToCart}
-          />
-        ))}
-      </div>
-      </section>
-
-      {/* ABOUT */}
-      <section id="about" className="section about-section">
-        <div className="about-inner">
-          <div className="about-text">
-            <div className="section-label">Our Story</div>
-
-            <h2 style={{ textAlign: "left" }}>
-              Designed for<br />comfort & simplicity
-            </h2>
-
-            <p>
-              FluffHaven brings you carefully selected pet products designed to improve daily life. No accounts, no complexity — just fast checkout, free delivery and trusted quality for the pets you love.
-            </p>
-
-            <ul className="about-list">
-              <li>✦ Carefully selected pet essentials</li>
-              <li>✦ No account required to order</li>
-              <li>✦ 14-day hassle-free returns</li>
-              <li>✦ Ships worldwide, always free</li>
-            </ul>
-          </div>
-
-          <div className="about-visual">
-            <div className="about-card">
-              <div className="about-stat">130+</div>
-              <div className="about-stat-label">Carefully Selected Products</div>
-            </div>
-
-            <div className="about-card">
-              <div className="about-stat">5–8</div>
-              <div className="about-stat-label">Business Days Delivery</div>
-            </div>
-
-            <div className="about-card">
-              <div className="about-stat">FREE</div>
-              <div className="about-stat-label">Worldwide Shipping</div>
-            </div>
-
-            <div className="about-card">
-              <div className="about-stat">14</div>
-              <div className="about-stat-label">Day Return Policy</div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* REVIEWS */}
 <section id="reviews" className="section reviews-section">
   <div className="section-label">Customer Reviews</div>
@@ -1228,6 +1088,52 @@ if (
     </div>
   </div>
 </section>
+
+      {/* ABOUT */}
+      <section id="about" className="section about-section">
+        <div className="about-inner">
+          <div className="about-text">
+            <div className="section-label">Our Story</div>
+
+            <h2 style={{ textAlign: "left" }}>
+              Designed for<br />comfort & simplicity
+            </h2>
+
+            <p>
+              FluffHaven brings you carefully selected pet products designed to improve daily life. No accounts, no complexity — just fast checkout, free delivery and trusted quality for the pets you love.
+            </p>
+
+            <ul className="about-list">
+              <li>✦ Carefully selected pet essentials</li>
+              <li>✦ No account required to order</li>
+              <li>✦ 14-day hassle-free returns</li>
+              <li>✦ Ships worldwide, always free</li>
+            </ul>
+          </div>
+
+          <div className="about-visual">
+            <div className="about-card">
+              <div className="about-stat">130+</div>
+              <div className="about-stat-label">Carefully Selected Products</div>
+            </div>
+
+            <div className="about-card">
+              <div className="about-stat">5–8</div>
+              <div className="about-stat-label">Business Days Delivery</div>
+            </div>
+
+            <div className="about-card">
+              <div className="about-stat">FREE</div>
+              <div className="about-stat-label">Worldwide Shipping</div>
+            </div>
+
+            <div className="about-card">
+              <div className="about-stat">14</div>
+              <div className="about-stat-label">Day Return Policy</div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* FAQ */}
       <section id="faq" className="section faq-section">
