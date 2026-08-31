@@ -1458,10 +1458,13 @@ details p {
     gap: 0;
   }
 
-  .trust-item {
-    border-bottom: 1px solid var(--border);
-    padding: 16px;
-  }
+ .trust-item {
+  border-bottom: 1px solid var(--border);
+  padding: 16px 8px;
+  flex-direction: column;
+  text-align: center;
+  gap: 8px;
+}
 
   .products {
     grid-template-columns: 1fr 1fr;
