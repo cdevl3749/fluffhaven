@@ -7002,11 +7002,11 @@ Free from harsh irritants, it's a practical FluffHaven choice for cats with sens
 
   subtitle: "Reflective • Comfortable • Harness & Leash Set",
 
-  price: 89.90,
+  price: 49.90,
 
   badge: "🍂❄️ Autumn & Winter Pick",
 
-  priceId: "price_1TvNNTKn0lmTcQ11fJ1XNmos",
+  priceId: "price_1UAoMFKn0lmTcQ11t2K7P2RL",
 
   images: [
     "/premium-reflective-dog-harness-main.webp",
@@ -7058,11 +7058,11 @@ Designed for regular outdoor use, this FluffHaven set combines comfort, visibili
 
   subtitle: "Waterproof • Windproof • Reflective",
 
-  price: 99.90,
+  price: 49.90,
 
   badge: "🌧️ Rainy Days",
 
-  priceId: "price_1TvOMFKn0lmTcQ11yd8uiBoA",
+  priceId: "price_1UAoPyKn0lmTcQ11JDSUG9XY",
 
   images: [
     "/premium-waterproof-dog-raincoat-main.webp",
@@ -7114,11 +7114,11 @@ Designed for rainy autumn adventures, this FluffHaven raincoat combines weather 
 
   subtitle: "Orthopedic • Ultra Soft • Machine Washable",
 
-  price: 69.90,
+  price: 49.90,
 
   badge: "🔥 Stay Warm",
 
-  priceId: "price_1TvOmqKn0lmTcQ11XOYQCamu",
+  priceId: "price_1UAoSiKn0lmTcQ11BFY0EM3P",
 
   images: [
     "/premium-orthopedic-dog-bed-main.webp",
