@@ -319,7 +319,7 @@ function ProductCard({ product, onAddToCart, onShowDetails }) {
               <span className="product-stars">★★★★★</span>
               <span>Loved by Ponpon</span>
             </div>
-          <p className="product-sub">{product.subtitle}</p>
+          {/*<p className="product-sub">{product.subtitle}</p>*}
           {/* <p className="product-desc">{product.description}</p> */}
 
           {hasVariants && (
