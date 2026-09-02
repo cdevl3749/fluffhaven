@@ -249,6 +249,9 @@ A FluffHaven playtime essential.
 
   badge: "🛁 Bath Essential",
 
+  promo: "20% OFF",
+  promoCode: "FLUFF20",
+
   priceId: "price_1U9pqyKn0lmTcQ11ayhYtDYi",
 
   images: [
