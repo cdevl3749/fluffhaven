@@ -107,7 +107,7 @@ export default function ProductInfo({ product, onAddToCart }) {
         color: "#d97706",
       }}
     >
-      🏷️ {product.promo} — Code: {product.promoCode}
+      🏷️ {product.promo} — Pay ${(product.price * 0.9).toFixed(2)} with code {product.promoCode}
     </p>
   )}
 
