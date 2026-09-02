@@ -2738,6 +2738,67 @@ Finished in natural wood, this complete FluffHaven feeding station combines comf
 },
 
 {
+  id: 130,
+
+  slug: "premium-reflective-cat-collar-six-pack",
+
+  name: "Premium Reflective Cat Collar 6-Pack",
+
+  category: "cat",
+
+  productType: "walking-travel",
+
+  seasons: ["summer", "autumn", "winter"],
+
+  subtitle: "6 reflective collars • Breakaway buckles • Bells • Adjustable fit",
+
+  price: 17.90,
+
+  badge: "✨ Reflective Safety Pack",
+
+  priceId: "price_1UBLAkKn0lmTcQ1110A5z96j",
+
+  images: [
+    "/premium-reflective-cat-collar-six-pack-main.webp",
+    "/premium-reflective-cat-collar-six-pack-outdoor.webp",
+    "/premium-reflective-cat-collar-six-pack-details.webp",
+  ],
+
+  description:
+    "Keep your cat comfortable and easier to spot with the Premium Reflective Cat Collar 6-Pack. This colorful set includes six adjustable reflective collars with breakaway safety buckles and bells, giving you a practical choice of colors for everyday wear.",
+
+  seoTitle:
+    "Premium Reflective Cat Collar 6-Pack | Safety Collars | FluffHaven",
+
+  seoDescription:
+    "Set of 6 reflective cat collars with adjustable fit, breakaway safety buckles and bells. Colorful everyday collars designed for cats and kittens.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Set of 6 reflective cat collars
+✓ Reflective design for improved visibility
+✓ Breakaway safety buckles
+✓ Adjustable fit for everyday comfort
+✓ Bell included on each collar
+✓ Six different colors
+✓ Lightweight design for cats and kittens
+
+Add variety and visibility to your cat's everyday accessories with the Premium Reflective Cat Collar 6-Pack.
+
+Each collar features reflective detailing to help improve visibility in low-light conditions, while the adjustable design provides a comfortable everyday fit.
+
+The breakaway buckle is designed to release under pressure for added safety, and each collar includes a bell.
+
+With six different colors in one practical set, you can easily change your cat's look while keeping spare collars ready when needed.
+`,
+
+  inStock: true,
+
+  featured: true,
+},
+
+{
   id: 116,
 
   slug: "premium-airtag-compatible-cat-collar",
