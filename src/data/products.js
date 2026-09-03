@@ -2271,11 +2271,11 @@ Combining play, comfort and convenience, it's a complete FluffHaven summer compa
 
   subtitle: "2 floating rings • Yellow & Blue • Water fun",
 
-  price: 32.90,
+  price: 29.90,
 
   badge: "💦 Pool Essential",
 
-  priceId: "price_1U1nXJKn0lmTcQ11mErx2CjR",
+  priceId: "price_1UBgCWKn0lmTcQ11TInbtt4t",
 
   images: [
     "/premium-floating-fetch-ring-duo-main.webp",
@@ -2391,11 +2391,11 @@ Combining flotation support, visibility and comfort, this Size L FluffHaven life
 
   subtitle: "Floating EVA ball • Rope handle • Water fun",
 
-  price: 29.90,
+  price: 24.90,
 
   badge: "💦 Water Adventure",
 
-  priceId: "price_1U1tkjKn0lmTcQ11zuR9BHNI",
+  priceId: "price_1UBgLnKn0lmTcQ11UTeq65N5",
 
   images: [
     "/premium-floating-rope-ball-main.webp",
@@ -2698,9 +2698,9 @@ Combining warmth, protection and blue-and-black FluffHaven styling, this jacket 
   priceId: "price_1U3y1wKn0lmTcQ11iSiuWbEM",
 
   images: [
+    "/premium-elevated-comfort-feeding-station-kitchen.webp",
     "/premium-elevated-comfort-feeding-station-main.webp",
     "/premium-elevated-comfort-feeding-station-details.webp",
-    "/premium-elevated-comfort-feeding-station-kitchen.webp",
   ],
 
   description:
@@ -3513,11 +3513,11 @@ Combining treats, movement and mental stimulation, this reusable FluffHaven duo 
 
   subtitle: "Premium silicone • Slow feeding • Enrichment play",
 
-  price: 37.90,
+  price: 19.90,
 
   badge: "🧠 Everyday Enrichment",
 
-  priceId: "price_1U2qwhKn0lmTcQ11cnePgLYX", 
+  priceId: "price_1UBdWnKn0lmTcQ11o9nRha0R", 
 
   images: [
     "/premium-silicone-slow-feeder-puzzle-mat-main.webp",
@@ -3812,11 +3812,11 @@ Please measure your dog before ordering and allow a small 1–3 cm difference wh
 
   subtitle: "USB rechargeable • Red LED glow • Outdoor play",
 
-  price: 37.90,
+  price: 19.90,
 
   badge: "🌙 Night Adventure",
 
-  priceId: "price_1U2Z4uKn0lmTcQ11jXAUMtUR",
+  priceId: "price_1UBe2CKn0lmTcQ11Q1T8Kz6p",
 
   images: [
     "/premium-led-glow-dog-flying-disc-main.webp",
@@ -3871,11 +3871,11 @@ Combining visibility, portability and active play, this FluffHaven flying disc k
 
   subtitle: "Inflatable swim ring • Anti-slip • Water fun",
 
-  price: 42.90,
+  price: 29.90,
 
   badge: "🏖️ Summer Favorite",
 
-  priceId: "price_1U1somKn0lmTcQ114fFXnUom",
+  priceId: "price_1UBgzkKn0lmTcQ11FOaioVFR",
 
   images: [
     "/premium-dog-floating-swim-ring-main.webp",
@@ -3931,11 +3931,11 @@ Combining floating support, portability and comfort, this FluffHaven swim ring i
 
   subtitle: "3 mats • Slow feeding • Dogs & Cats",
 
-  price: 44.90,
+  price: 39.90,
 
   badge: "🧠 Summer Enrichment",
 
-  priceId: "price_1U1QQ2Kn0lmTcQ11X4U3hJeM",
+  priceId: "price_1UBg3UKn0lmTcQ11tpbG01ae",
 
   images: [
     "/premium-lick-mat-trio-pack-main.webp",
@@ -3991,11 +3991,11 @@ Dishwasher and freezer safe, this FluffHaven trio combines slower feeding, enric
 
   subtitle: "Cooling gel • Size M • Fish design",
 
-  price: 34.90,
+  price: 19.90,
 
   badge: "☀️❄️ Summer Essential",
 
-  priceId: "price_1U1NZCKn0lmTcQ11BaaQWged",
+  priceId: "price_1UBhJFKn0lmTcQ11L8pNFf3M",
 
   images: [
     "/premium-cooling-gel-dog-mat-main.webp",
@@ -4472,11 +4472,11 @@ Suitable for all dog breeds, this FluffHaven paw balm is designed for everyday c
 
   subtitle: "Automatic toy • USB rechargeable • mental stimulation",
 
-  price: 47.90,
+  price: 29.90,
 
   badge: "⚡ Smart Interactive Toy",
 
-  priceId: "price_1TxZhCKn0lmTcQ11lQAiH4C6",
+  priceId: "price_1UBfAWKn0lmTcQ11X0E4ilMD",
 
   images: [
     "/smart-rolling-dog-ball-main.webp",
@@ -4532,11 +4532,11 @@ Durable, pet-safe and easy to clean, this water-resistant toy is suitable for do
 
   subtitle: "Puzzle toy • slow feeder • mental stimulation",
 
-  price: 37.90,
+  price: 27.90,
 
   badge: "🧠 Enrichment Essential",
 
-  priceId: "price_1TxZ13Kn0lmTcQ11e7B5Y6el",
+  priceId: "price_1UBfv3Kn0lmTcQ110bEJTD1c",
 
   images: [
     "/dog-treat-ball-main.webp",
@@ -4592,11 +4592,11 @@ Suitable for dogs of all sizes, it's a simple FluffHaven enrichment toy for ever
 
   subtitle: "Slow feeder • enrichment • calming",
 
-  price: 27.90,
+  price: 17.90,
 
   badge: "🧠 Enrichment Essential",
 
-  priceId: "price_1TxYVYKn0lmTcQ11qVSRBQzZ",
+  priceId: "price_1UBdcvKn0lmTcQ11xDR8PWc3",
 
   images: [
     "/dog-lick-mat-main.webp",
@@ -4704,11 +4704,11 @@ Suitable for dogs of all sizes, it's a simple FluffHaven essential for hot-weath
 
   subtitle: "Cooling water play mat • non-slip • summer fun",
 
-  price: 49.90,
+  price: 39.90,
 
   badge: "💦 Summer Essential",
 
-  priceId: "price_1TtrC9Kn0lmTcQ116bi2u5zg",
+  priceId: "price_1UBh6LKn0lmTcQ11w4OjODuy",
 
   images: [
     "/dog-splash-pad.webp",
