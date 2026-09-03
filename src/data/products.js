@@ -652,11 +652,11 @@ A practical FluffHaven essential for cleaner, stress-free walks.
 
   subtitle: "Waterproof protection • Non-slip backing • Machine washable • 178 × 76 cm",
 
-  price: 21.90,
+  price: 19.90,
 
   badge: "🛡️ Sofa Protection",
 
-  priceId: "price_1U80FTKn0lmTcQ11uzYBJR4S",
+  priceId: "price_1UBbwxKn0lmTcQ11LwbbyygY",
 
   images: [
     "/premium-waterproof-dog-sofa-protector-main.webp",
@@ -711,11 +711,11 @@ Easy to maintain and machine washable, it's a practical everyday essential for a
 
   subtitle: "3-piece grooming set • Shampoo dispenser • Massage brush • Soft silicone",
 
-  price: 27.90,
+  price: 22.90,
 
   badge: "🛁 Grooming Essential",
 
-  priceId: "price_1U80wdKn0lmTcQ11oAzGU68v",
+  priceId: "price_1UBbLsKn0lmTcQ11DFsjGtaE",
 
   images: [
     "/premium-3-in-1-pet-grooming-set-main.webp",
@@ -2920,11 +2920,11 @@ The inclined bowl provides a comfortable eating position while the gravity-fed r
 
   subtitle: "3 ultra-soft blankets • Pink, white & mauve • Cozy everyday comfort",
 
-  price: 24.90,
+  price: 19.90,
 
   badge: "🧸 Cozy Trio",
 
-  priceId: "price_1U87TxKn0lmTcQ11TN9YbJeb",
+  priceId: "price_1UBbtZKn0lmTcQ11MTbMEaJQ",
 
   images: [
     "/premium-cozy-cat-blanket-trio-main.webp",
@@ -4649,11 +4649,11 @@ Made from food-grade BPA-free silicone, it's easy to clean and suitable for smal
 
   subtitle: "Cooling neck wrap • lightweight • summer comfort",
 
-  price: 29.90,
+  price: 17.90,
 
   badge: "❄️ Summer Essential",
 
-  priceId: "price_1TtsZEKn0lmTcQ11FTeKlXaI",
+  priceId: "price_1UBbpqKn0lmTcQ11UB38wLDI",
 
   images: [
     "/cooling-bandana.webp",
@@ -4875,9 +4875,9 @@ Designed to fit most cars and SUVs, it's a practical FluffHaven essential for cl
     productType: "walking-travel",
     seasons: ["summer", "autumn", "winter"],
     subtitle: "No-pull · strong · comfortable",
-    price: 39.90,
+    price: 29.90,
     badge: "🔥 Best Seller",
-    priceId: "price_1U8euZKn0lmTcQ11xcL3J8qJ",
+    priceId: "price_1UBblHKn0lmTcQ11yVYIyjhS",
     images: ["/harnais_chien.webp","/harnais_chien2.webp","/harnais_chien3.webp"],
     description: "Help reduce pulling with this comfortable harness designed for strong dogs and everyday walks. Built for better control while keeping your dog comfortable on the move.",
     seoTitle: "No-Pull Dog Harness | Comfortable Dog Harness | FluffHaven",
@@ -5671,11 +5671,11 @@ Machine washable and designed for indoor use, this FluffHaven vest is a cozy cho
 
   subtitle: "Self-heating • Ultra-soft fleece • Cozy comfort",
 
-  price: 34.90,
+  price: 29.90,
 
   badge: "🍂❄️ Autumn & Winter Essential",
 
-  priceId: "price_1TzkK9Kn0lmTcQ11rXeoj4va",
+  priceId: "price_1UBbe6Kn0lmTcQ11Y13WdrjU",
 
   images: [
     "/self-warming-cat-mat-main.webp",
@@ -6150,11 +6150,11 @@ Suitable for kittens and adult cats, this FluffHaven set combines comfort, secur
 
   subtitle: "10 flying discs • Active play • Indoor exercise",
 
-  price: 31.90,
+  price: 21.90,
 
   badge: "🐱 Interactive Indoor Toy",
 
-  priceId: "price_1TzOCGKn0lmTcQ11eEAlnibO",
+  priceId: "price_1UBbaBKn0lmTcQ11ORmVLNZk",
 
   images: [
     "/interactive-flying-cat-toy-set.webp",
