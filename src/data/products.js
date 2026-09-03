@@ -16,14 +16,14 @@ export const PRODUCTS = [
 
   subtitle: "2 slow feeding mats • Mental stimulation • Blue + Pink",
 
-  price: 29.90,
+  price: 27.90,
 
   badge: "🐶 Enrichment Essential",
 
   promo: "10% OFF",
   promoCode: "FLUFF10",
 
-  priceId: "price_1TyWh6Kn0lmTcQ114WXuNxfj",
+  priceId: "price_1UBY2tKn0lmTcQ11J7yCn6cF",
 
   images: [
     "/dog-enrichment-duo-main.webp",
