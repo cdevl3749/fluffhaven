@@ -1090,50 +1090,55 @@ if (
 </section>
 
       {/* ABOUT */}
-      <section id="about" className="section about-section">
-        <div className="about-inner">
-          <div className="about-text">
-            <div className="section-label">Our Story</div>
+<section id="about" className="section about-section">
+  <div className="about-inner">
+    <div className="about-text">
+      <div className="section-label">Our Story</div>
 
-            <h2 style={{ textAlign: "left" }}>
-              Designed for<br />comfort & simplicity
-            </h2>
+      <h2 style={{ textAlign: "left" }}>
+        Designed for<br />comfort & simplicity
+      </h2>
 
-            <p>
-              FluffHaven brings you carefully selected pet products designed to improve daily life. No accounts, no complexity — just fast checkout, free delivery and trusted quality for the pets you love.
-            </p>
+      <p>
+        FluffHaven was inspired by Ponpon, a rescue dog who came into our
+        family from Spain when she was just three months old. ❤️
+        <br /><br />
+        Today, she's at the heart of FluffHaven — inspiring us to carefully
+        select products that make everyday life with our pets happier,
+        simpler and more comfortable.
+      </p>
 
-            <ul className="about-list">
-              <li>✦ Carefully selected pet essentials</li>
-              <li>✦ No account required to order</li>
-              <li>✦ 14-day hassle-free returns</li>
-              <li>✦ Ships worldwide, always free</li>
-            </ul>
-          </div>
+      <ul className="about-list">
+        <li>✦ Carefully selected pet essentials</li>
+        <li>✦ No account required to order</li>
+        <li>✦ 14-day hassle-free returns</li>
+        <li>✦ Ships worldwide, always free</li>
+      </ul>
+    </div>
 
-          <div className="about-visual">
-            <div className="about-card">
-              <div className="about-stat">131+</div>
-              <div className="about-stat-label">Carefully Selected Products</div>
-            </div>
+    <div className="about-visual">
+      <div className="about-card">
+        <div className="about-stat">131+</div>
+        <div className="about-stat-label">Carefully Selected Products</div>
+      </div>
 
-            <div className="about-card">
-              <div className="about-stat">5–8</div>
-              <div className="about-stat-label">Business Days Delivery</div>
-            </div>
+      <div className="about-card">
+        <div className="about-stat">5–8</div>
+        <div className="about-stat-label">Business Days Delivery</div>
+      </div>
 
-            <div className="about-card">
-              <div className="about-stat">FREE</div>
-              <div className="about-stat-label">Worldwide Shipping</div>
-            </div>
+      <div className="about-card">
+        <div className="about-stat">FREE</div>
+        <div className="about-stat-label">Worldwide Shipping</div>
+      </div>
 
-            <div className="about-card">
-              <div className="about-stat">14</div>
-              <div className="about-stat-label">Day Return Policy</div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <div className="about-card">
+        <div className="about-stat">14</div>
+        <div className="about-stat-label">Day Return Policy</div>
+      </div>
+    </div>
+  </div>
+</section>
 
       {/* FAQ */}
       <section id="faq" className="section faq-section">
