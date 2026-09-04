@@ -69,6 +69,66 @@ With two colors included — blue and pink — this practical duo brings variety
 },
 
 {
+  id: 106,
+
+  slug: "premium-dog-treat-training-pouch",
+
+  name: "Premium Dog Treat Training Pouch",
+
+  category: "dog",
+  productType: "walking-travel",
+
+  seasons: ["summer", "autumn", "winter"],
+
+  subtitle: "Compact treat pouch • Secure drawstring • Easy access • 10 × 14 cm",
+
+  price: 14.90,
+
+  badge: "🐾 Walk & Train Essential",
+
+  priceId: "price_1U7gvUKn0lmTcQ11tdrEEHDa",
+
+  images: [
+    "/premium-dog-treat-training-pouch-main.webp",
+    "/premium-dog-treat-training-pouch-outdoor.webp",
+    "/premium-dog-treat-training-pouch-details.webp",
+  ],
+
+  description:
+    "Make walks and training sessions easier with the Premium Dog Treat Training Pouch. Designed for quick and convenient access to your dog's favorite rewards, this compact 10 × 14 cm pouch features a secure drawstring closure to help keep treats safely inside. Its lightweight and durable design makes it easy to carry during everyday walks, training sessions and outdoor adventures.",
+
+  seoTitle:
+    "Premium Dog Treat Training Pouch | Walk & Training Accessory | FluffHaven",
+
+  seoDescription:
+    "Compact dog treat training pouch with secure drawstring closure and easy-access design. Lightweight, durable and ideal for walks and training. Size 10 × 14 cm.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Compact size — 10 × 14 cm
+✓ Secure adjustable drawstring closure
+✓ Easy access to treats during walks and training
+✓ Sturdy belt loop for convenient carrying
+✓ Lightweight and durable everyday design
+
+Keep your dog's favorite rewards close at hand with the Premium Dog Treat Training Pouch.
+
+Its compact 10 × 14 cm design provides convenient storage for treats without adding unnecessary bulk during everyday walks or training sessions.
+
+The secure adjustable drawstring helps keep treats safely inside while allowing quick access whenever your dog earns a reward.
+
+A sturdy belt loop makes the pouch easy to attach while keeping your hands free during walks and outdoor adventures.
+
+Lightweight, practical and designed for everyday use, it's a simple FluffHaven essential for happier walks and rewarding training sessions.
+`,
+
+  inStock: true,
+
+  featured: true,
+},
+
+{
   id: 129,
 
   slug: "premium-shampoo-dispensing-dog-bath-brush",
@@ -837,8 +897,8 @@ Its spacious interior keeps toys within easy reach, while the sturdy handles mak
   priceId: "price_1U82l0Kn0lmTcQ11QmClc1ZZ",
 
   images: [
-    "/premium-3-in-1-dog-travel-bottle-main.webp",
     "/premium-3-in-1-dog-travel-bottle-outdoor.webp",
+    "/premium-3-in-1-dog-travel-bottle-main.webp",
     "/premium-3-in-1-dog-travel-bottle-details.webp",
   ],
 
@@ -1111,66 +1171,6 @@ Turn treat time into an engaging challenge with the Premium Dog Activity Flip Bo
 Hide your dog's favorite treats inside the different compartments and let them explore, slide and uncover their rewards.
 
 A fun and rewarding way to encourage curiosity and keep your dog mentally active.
-`,
-
-  inStock: true,
-
-  featured: true,
-},
-
-  {
-  id: 106,
-
-  slug: "premium-dog-treat-training-pouch",
-
-  name: "Premium Dog Treat Training Pouch",
-
-  category: "dog",
-  productType: "walking-travel",
-
-  seasons: ["summer", "autumn", "winter"],
-
-  subtitle: "Compact treat pouch • Secure drawstring • Easy access • 10 × 14 cm",
-
-  price: 14.90,
-
-  badge: "🐾 Walk & Train Essential",
-
-  priceId: "price_1U7gvUKn0lmTcQ11tdrEEHDa",
-
-  images: [
-    "/premium-dog-treat-training-pouch-main.webp",
-    "/premium-dog-treat-training-pouch-outdoor.webp",
-    "/premium-dog-treat-training-pouch-details.webp",
-  ],
-
-  description:
-    "Make walks and training sessions easier with the Premium Dog Treat Training Pouch. Designed for quick and convenient access to your dog's favorite rewards, this compact 10 × 14 cm pouch features a secure drawstring closure to help keep treats safely inside. Its lightweight and durable design makes it easy to carry during everyday walks, training sessions and outdoor adventures.",
-
-  seoTitle:
-    "Premium Dog Treat Training Pouch | Walk & Training Accessory | FluffHaven",
-
-  seoDescription:
-    "Compact dog treat training pouch with secure drawstring closure and easy-access design. Lightweight, durable and ideal for walks and training. Size 10 × 14 cm.",
-
-  brand: "FluffHaven",
-
-  details: `
-✓ Compact size — 10 × 14 cm
-✓ Secure adjustable drawstring closure
-✓ Easy access to treats during walks and training
-✓ Sturdy belt loop for convenient carrying
-✓ Lightweight and durable everyday design
-
-Keep your dog's favorite rewards close at hand with the Premium Dog Treat Training Pouch.
-
-Its compact 10 × 14 cm design provides convenient storage for treats without adding unnecessary bulk during everyday walks or training sessions.
-
-The secure adjustable drawstring helps keep treats safely inside while allowing quick access whenever your dog earns a reward.
-
-A sturdy belt loop makes the pouch easy to attach while keeping your hands free during walks and outdoor adventures.
-
-Lightweight, practical and designed for everyday use, it's a simple FluffHaven essential for happier walks and rewarding training sessions.
 `,
 
   inStock: true,
@@ -2211,11 +2211,11 @@ Quick to set up and easy to store, this FluffHaven splash mat brings refreshing 
 
   subtitle: "Beach bag • 4 floating toys • Premium towel",
 
-  price: 69.90,
+  price: 49.90,
 
   badge: "🏖️ Beach Adventure",
 
-  priceId: "price_1U8RnFKn0lmTcQ115vhaUUkK",
+  priceId: "price_1UC0o6Kn0lmTcQ114tz5ooSH",
 
   images: [
     "/premium-beach-bundle-main.webp",
@@ -2511,11 +2511,11 @@ Combining interactive movement, physical activity and mental enrichment, this Fl
 
   subtitle: "Full-body cooling • Breathable mesh • Blue • XL 10–15 kg",
 
-  price: 87.90,
+  price: 57.90,
 
   badge: "❄️ Premium Cooling",
 
-  priceId: "price_1U2tVJKn0lmTcQ11gyd5TqiK",
+  priceId: "price_1UC37cKn0lmTcQ11zoPHsKjp",
 
   images: [
     "/premium-full-body-cooling-dog-vest-main.webp",
@@ -2571,11 +2571,11 @@ Combining breathable comfort, full-body coverage and a stylish blue design, it's
 
   subtitle: "Ultra-soft comfort • Olive Green • Size L • 65 × 45 cm",
 
-  price: 64.90,
+  price: 54.90,
 
   badge: "🍂 Cozy Season Essential",
 
-  priceId: "price_1U2tptKn0lmTcQ113dWGKrqJ",
+  priceId: "price_1UBvprKn0lmTcQ11qj0SCBny",
 
   images: [
     "/premium-olive-cozy-dog-bed-main.webp",
@@ -2631,11 +2631,11 @@ Combining soft comfort, supportive edges and a warm seasonal design, this FluffH
 
   subtitle: "Warm padded jacket • Hooded design • Size XXL • For 6.5–13 kg dogs",
 
-  price: 42.90,
+  price: 32.90,
 
   badge: "❄️ Winter Comfort Essential",
 
-  priceId: "price_1U4L2kKn0lmTcQ11TBLU6rFh",
+  priceId: "price_1UBwfDKn0lmTcQ11arBQWfUk",
 
   images: [
     "/premium-hooded-dog-puffer-jacket-main.webp",
@@ -3572,11 +3572,11 @@ Combining slower feeding, searching and licking activities, this FluffHaven puzz
 
   subtitle: "Automatic cleaning • USB rechargeable • Deep paw care",
 
-  price: 52.90,
+  price: 39.90,
 
   badge: "🐾 Paw Care Essential",
 
-  priceId: "price_1U2bqwKn0lmTcQ110a3QtnUr",
+  priceId: "price_1UBwnmKn0lmTcQ11tZ2OdYPA",
 
   images: [
     "/premium-electric-dog-paw-cleaner-main.webp",
@@ -3632,11 +3632,11 @@ Finished in blue, this compact FluffHaven paw cleaner combines gentle cleaning, 
 
   subtitle: "Warm padded coat • Reflective trim • Size L",
 
-  price: 47.90,
+  price: 39.90,
 
   badge: "❄️ Winter Essential",
 
-  priceId: "price_1U2bEBKn0lmTcQ11UUOMTbm2",
+  priceId: "price_1UBxVPKn0lmTcQ11dwoOVITi",
 
   images: [
     "/premium-winter-reflective-dog-coat-main.webp",
@@ -3752,11 +3752,11 @@ This FluffHaven edition is offered in Size L. Please measure your dog and check 
 
   subtitle: "2 fleece vests • Pink & Green • Size L",
 
-  price: 49.90,
+  price: 39.90,
 
   badge: "🍂 Autumn Cozy Duo",
 
-  priceId: "price_1U2qAgKn0lmTcQ11kQ0so0KU",
+  priceId: "price_1UBvVFKn0lmTcQ1171DgMIk4",
 
   images: [
     "/premium-autumn-fleece-dog-vest-duo-main.webp",
@@ -4232,11 +4232,11 @@ Keep your dog comfortable, protected and visible whatever the weather. The Premi
 
   subtitle: "2 LED collars • Size M • USB rechargeable",
 
-  price: 44.90,
+  price: 24.90,
 
   badge: "🌙🍂 Night Walk Essential",
 
-  priceId: "price_1U1AQzKn0lmTcQ11fuTfy1rp",
+  priceId: "price_1UBy2vKn0lmTcQ11yu6nQIPM",
 
   images: [
     "/led-safety-collar-twin-pack-main.webp",
@@ -4295,11 +4295,11 @@ Make evening walks safer and more enjoyable with the Premium LED Safety Collar T
 
   subtitle: "3 warm blankets • Size M • Ultimate winter comfort",
 
-  price: 59.90,
+  price: 49.90,
 
   badge: "🍂❄️ Autumn & Winter Comfort Pack",
 
-  priceId: "price_1Tzlr9Kn0lmTcQ11atEu46ab",
+  priceId: "price_1UByZ5Kn0lmTcQ11FepdsfNs",
 
   images: [
     "/premium-winter-dog-blanket-trio-main.webp",
@@ -4415,11 +4415,11 @@ Designed for small and medium dogs, this FluffHaven set combines play, chewing a
 
   subtitle: "Protect • Repair • Moisturize",
 
-  price: 32.90,
+  price: 24.90,
 
   badge: "🐾 Paw Care",
 
-  priceId: "price_1Txn99Kn0lmTcQ115C7OCmsw",
+  priceId: "price_1UBwyhKn0lmTcQ11jqA0NIhi",
 
   images: [
     "/premium-dog-paw-balm-main.webp",
@@ -4649,11 +4649,11 @@ Made from food-grade BPA-free silicone, it's easy to clean and suitable for smal
 
   subtitle: "Cooling neck wrap • lightweight • summer comfort",
 
-  price: 17.90,
+  price: 12.90,
 
   badge: "❄️ Summer Essential",
 
-  priceId: "price_1UBbpqKn0lmTcQ11UB38wLDI",
+  priceId: "price_1UC31YKn0lmTcQ11lIVoVM1q",
 
   images: [
     "/cooling-bandana.webp",
@@ -4801,12 +4801,12 @@ Reusable and machine washable, it's a practical FluffHaven essential for summer 
     productType: "grooming-care",
     seasons: ["summer", "autumn", "winter"],
     subtitle: "No tape · reusable · instant clean",
-    price: 34.90,
+    price: 24.90,
     badge: "🔥 Best Seller",
     rating: 4.9,
     reviews: 284,
     customers: "2,500+",
-    priceId: "price_1U8eZtKn0lmTcQ11zZ1rHewl",
+    priceId: "price_1UC24mKn0lmTcQ11bOuPzqZa",
     images: ["/brosse_anti_poils.webp","/brosse_anti_poils2.webp","/brosse_anti_poils3.webp"],
     description: "Remove pet hair in seconds with this practical cleaning tool. No sticky tape and no mess — perfect for clothes, furniture and the car.",
     seoTitle: "Pet Hair Remover Roller | Dog Hair Remover | FluffHaven",
@@ -4840,9 +4840,9 @@ A simple FluffHaven essential for keeping pet-friendly spaces cleaner every day.
     productType: "walking-travel",
     seasons: ["summer", "autumn", "winter"],
     subtitle: "Waterproof · anti-slip · full protection",
-    price: 69.90,
+    price: 42.90,
     badge: "⭐ Premium",
-    priceId: "price_1U8epnKn0lmTcQ11MwPIyQoT",
+    priceId: "price_1UC1EOKn0lmTcQ11UKAxIm2X",
     images: ["/housse_chien.webp","/housse_chien2.webp","/housse_chien3.webp"],
     description: "Protect your car from dirt, scratches and pet hair with this waterproof car protector. Easy to install and practical for everyday trips with your dog.",
     seoTitle: "Dog Car Seat Cover | Waterproof Car Protection | FluffHaven",
@@ -4875,9 +4875,9 @@ Designed to fit most cars and SUVs, it's a practical FluffHaven essential for cl
     productType: "walking-travel",
     seasons: ["summer", "autumn", "winter"],
     subtitle: "No-pull · strong · comfortable",
-    price: 29.90,
+    price: 22.90,
     badge: "🔥 Best Seller",
-    priceId: "price_1UBblHKn0lmTcQ11yVYIyjhS",
+    priceId: "price_1UC0wBKn0lmTcQ11EAyEn6yy",
     images: ["/harnais_chien.webp","/harnais_chien2.webp","/harnais_chien3.webp"],
     description: "Help reduce pulling with this comfortable harness designed for strong dogs and everyday walks. Built for better control while keeping your dog comfortable on the move.",
     seoTitle: "No-Pull Dog Harness | Comfortable Dog Harness | FluffHaven",
@@ -4946,8 +4946,8 @@ USB rechargeable and easy to use, it's a practical FluffHaven grooming tool for 
   productType: "grooming-care",
   seasons: ["autumn", "winter"],
   subtitle: "Portable silicone paw cleaner",
-  price: 22.90,
-  priceId: "price_1U8f47Kn0lmTcQ11HHy1WjDH",
+  price: 14.90,
+  priceId: "price_1UBzYeKn0lmTcQ117BkkNGos",
   badge: "Best Seller",
   images: [
     "/clean_orange_1.webp",
@@ -4984,8 +4984,8 @@ Suitable for all breeds, it's a practical FluffHaven essential for rainy and mud
   productType: "walking-travel",
   seasons: ["summer", "autumn"],
   subtitle: "Foldable silicone bowl-lid · 580 ml",
-  price: 21.90,
-  priceId: "price_1U8f89Kn0lmTcQ11L73J4LLb",
+  price: 17.90,
+  priceId: "price_1UC1AwKn0lmTcQ11zxzZHqQM",
   badge: "New",
 
   images: [
@@ -5024,9 +5024,9 @@ Compact and practical, it's a useful FluffHaven companion for walks, hikes and r
     productType: "beds-comfort",
     seasons: ["summer"],
     subtitle: "Self-cooling silk · waterproof base · L 70×55 cm",
-    price: 27.90,
+    price: 17.90,
     badge: "Summer",
-    priceId: "price_1U8fKPKn0lmTcQ11TCmfMFvL",
+    priceId: "price_1UC0B6Kn0lmTcQ11CSVp89PQ",
     images: ["/tapis_rafraichissant.webp", "/tapis_rafraichissant_2.webp", "/tapis_rafraichissant_3.webp"],
     description: "Keep your pet comfortable all summer with this self-cooling silk mat. Featuring a waterproof, non-slip bottom and machine-washable design, it's a practical cooling space for both dogs and cats.",
     seoTitle: "Premium Cooling Mat for Dogs | Summer Cooling Pad | FluffHaven",
@@ -5093,8 +5093,8 @@ USB rechargeable and suitable for cats and dogs, it's a convenient FluffHaven gr
   productType: "grooming-care",
   seasons: ["summer", "autumn", "winter"],
   subtitle: "Reusable · electrostatic · easy cleaning",
-  price: 27.90,
-  priceId: "price_1U8fSpKn0lmTcQ11eehHvF8H",
+  price: 17.90,
+  priceId: "price_1UC2w0Kn0lmTcQ118tJ6ATvt",
   badge: "🔥 Trending",
 
   images: [
@@ -7290,11 +7290,11 @@ Machine washable and suitable for all breeds, it's a convenient FluffHaven enric
 
     subtitle: "5 Custom Bandanas • One Complete Pack • Ponpon Approved",
 
-    price: 74.90,
+    price: 39.90,
 
     badge: "🐾 Ponpon's Signature Collection",
 
-    priceId: "price_1TwWRvKn0lmTcQ11wpEQVlcV",
+    priceId: "price_1UByqvKn0lmTcQ110sv1EOz6",
 
     images: [
       "/ponpon-bandana-pack-main.webp",
