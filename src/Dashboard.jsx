@@ -288,6 +288,13 @@ export default function Dashboard() {
             ? Math.round((count / stats.productViews) * 100)
             : 0;
 
+            const timeData = stats.productTimeStats?.[productName];
+
+const avgTime =
+  timeData?.sessions > 0
+    ? Math.round(timeData.totalTime / timeData.sessions)
+    : 0;
+
         return (
           <div
             key={productName}
@@ -296,14 +303,28 @@ export default function Dashboard() {
               gridTemplateColumns: "260px 1fr 40px",
             }}
           >
-            <span
-              style={{
-                ...styles.countryName,
-                fontSize: 13,
-              }}
-            >
-              {productName}
-            </span>
+            <div>
+  <span
+    style={{
+      ...styles.countryName,
+      fontSize: 13,
+    }}
+  >
+    {productName}
+  </span>
+
+  {avgTime > 0 && (
+    <div
+      style={{
+        fontSize: 12,
+        color: "#888",
+        marginTop: 3,
+      }}
+    >
+      ⏱️ {Math.floor(avgTime / 60)}m {avgTime % 60}s moy.
+    </div>
+  )}
+</div>
 
             <div style={styles.barBg}>
               <div

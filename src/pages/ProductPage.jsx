@@ -29,6 +29,30 @@ export default function ProductPage({ onAddToCart }) {
   }).catch(() => {});
 }, [product]);
 
+  useEffect(() => {
+    if (!product) return;
+
+    const startTime = Date.now();
+
+    return () => {
+      const duration = Math.round((Date.now() - startTime) / 1000);
+
+      if (duration < 1 || duration > 1800) return;
+
+      fetch("/.netlify/functions/stats", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          type: "productTime",
+          productName: product.name,
+          duration,
+        }),
+      }).catch(() => {});
+    };
+  }, [product]);
+
   function handleAddToCart(product) {
   const savedCart = localStorage.getItem("fluffhaven_cart");
   const currentCart = savedCart ? JSON.parse(savedCart) : [];

@@ -66,6 +66,7 @@ export async function handler(event) {
         pagesRaw,
         sourcesRaw,
         productStatsRaw,
+        productTimeStatsRaw,
       ] = await Promise.all([
         redis(["GET", "visitors"]),
         redis(["GET", "clicks"]),
@@ -78,6 +79,7 @@ export async function handler(event) {
         redis(["GET", "pages"]),
         redis(["GET", "sources"]),
         redis(["GET", "productStats"]),
+        redis(["GET", "productTimeStats"]),
       ]);
 
       return {
@@ -95,6 +97,7 @@ export async function handler(event) {
           pages: JSON.parse(pagesRaw || "{}"),
           sources: JSON.parse(sourcesRaw || "{}"),
           productStats: JSON.parse(productStatsRaw || "{}"),
+          productTimeStats: JSON.parse(productTimeStatsRaw || "{}"),
         }),
       };
 
@@ -215,6 +218,44 @@ export async function handler(event) {
         }
       }
 
+      // PRODUCT TIME
+if (data.type === "productTime") {
+  const duration = Math.round(Number(data.duration));
+
+  if (
+    data.productName &&
+    Number.isFinite(duration) &&
+    duration >= 1 &&
+    duration <= 1800
+  ) {
+    const productTimeStatsRaw = await redis(["GET", "productTimeStats"]);
+
+    let productTimeStats = {};
+
+    try {
+      productTimeStats = JSON.parse(productTimeStatsRaw || "{}");
+    } catch {
+      productTimeStats = {};
+    }
+
+    if (!productTimeStats[data.productName]) {
+      productTimeStats[data.productName] = {
+        totalTime: 0,
+        sessions: 0,
+      };
+    }
+
+    productTimeStats[data.productName].totalTime += duration;
+    productTimeStats[data.productName].sessions += 1;
+
+    await redis([
+      "SET",
+      "productTimeStats",
+      JSON.stringify(productTimeStats),
+    ]);
+  }
+}
+
       // ADD TO CART
       if (data.type === "addToCart") {
         await redis(["INCR", "cartAdds"]);
@@ -274,6 +315,7 @@ export async function handler(event) {
         redis(["SET", "pages", "{}"]),
         redis(["SET", "sources", "{}"]),
         redis(["SET", "productStats", "{}"]),
+        redis(["SET", "productTimeStats", "{}"]),
       ]);
 
       return {
