@@ -16,14 +16,14 @@ export const PRODUCTS = [
 
   subtitle: "2 slow feeding mats • Mental stimulation • Blue + Pink",
 
-  price: 27.90,
+  price: 22.90,
 
   badge: "🐶 Enrichment Essential",
 
   promo: "10% OFF",
   promoCode: "FLUFF10",
 
-  priceId: "price_1UBY2tKn0lmTcQ11J7yCn6cF",
+  priceId: "price_1UCQZlKn0lmTcQ11BCZwSdS2",
 
   images: [
     "/dog-enrichment-duo-main.webp",
@@ -214,6 +214,8 @@ A FluffHaven bath-time essential.
     "/premium-4-in-1-dog-bath-grooming-kit-main.webp",
     "/premium-4-in-1-dog-bath-grooming-kit-bathroom.webp",
     "/premium-4-in-1-dog-bath-grooming-kit-details.webp",
+    "/premium-4-in-1-dog-bath-grooming-kit-benefits.webp",
+    "/premium-4-in-1-dog-bath-grooming-kit-happy.webp",
   ],
 
   description:
@@ -272,6 +274,8 @@ A practical FluffHaven essential for everyday dog care.
     "/premium-leather-dog-chew-trio-main.webp",
     "/premium-leather-dog-chew-trio-kitchen.webp",
     "/premium-leather-dog-chew-trio-details.webp",
+    "/premium-leather-dog-chew-trio-benefits.webp",
+    "/premium-leather-dog-chew-trio-happy.webp",
   ],
 
   description:
@@ -311,14 +315,14 @@ A FluffHaven playtime essential.
 
   subtitle: "Vanilla & shea butter • Aloe vera • Provitamin B5 • 500 ml",
 
-  price: 27.90,
+  price: 22.90,
 
   badge: "🛁 Bath Essential",
 
   promo: "20% OFF",
   promoCode: "FLUFF20",
 
-  priceId: "price_1U9pqyKn0lmTcQ11ayhYtDYi",
+  priceId: "price_1UCQsFKn0lmTcQ11lrXMSDUB",
 
   images: [
     "/premium-vanilla-shea-dog-shampoo-lifestyle.webp",
@@ -375,6 +379,8 @@ A FluffHaven bath-time essential.
     "/premium-winter-dog-coat-with-harness-main.webp",
     "/premium-winter-dog-coat-with-harness-lifestyle.webp",
     "/premium-winter-dog-coat-with-harness-details.webp",
+    "/premium-winter-dog-coat-with-harness-benefits.webp",
+    "/premium-winter-dog-coat-with-harness-happy-walks.webp",
   ],
 
   description:
@@ -430,6 +436,8 @@ A premium FluffHaven essential for autumn and winter.
     "/premium-reusable-pet-hair-remover-main.webp",
     "/premium-reusable-pet-hair-remover-clothes.webp",
     "/premium-reusable-pet-hair-remover-details.webp",
+    "/premium-reusable-pet-hair-remover-benefits.webp",
+    "/premium-reusable-pet-hair-remover-happy-home.webp",
   ],
 
   description:
@@ -492,6 +500,8 @@ A practical home-care essential for pet owners.
     "/premium-vacuum-dog-grooming-brush-kit-main.webp",
     "/premium-vacuum-dog-grooming-brush-kit-details.webp",
     "/premium-vacuum-dog-grooming-brush-kit-home.webp",
+    "/premium-vacuum-dog-grooming-brush-kit-benefits.webp",
+    "/premium-vacuum-dog-grooming-brush-kit-happy-home.webp",
   ],
 
   description:
@@ -547,6 +557,8 @@ A practical FluffHaven essential for easier grooming and a cleaner home.
     "/premium-dog-training-whistle-outdoor.webp",
     "/premium-dog-training-whistle-main.webp",
     "/premium-dog-training-whistle-details.webp",
+    "/premium-dog-training-whistle-benefits.webp",
+    "/premium-dog-training-whistle-lifestyle.webp",
   ],
 
   description:
@@ -606,6 +618,8 @@ A compact FluffHaven training essential for walks, parks and outdoor adventures.
     "/premium-shock-absorbing-dog-leash-main.webp",
     "/premium-shock-absorbing-dog-leash-outdoor.webp",
     "/premium-shock-absorbing-dog-leash-details.webp",
+    "/premium-shock-absorbing-dog-leash-benefits.webp",
+    "/premium-shock-absorbing-dog-leash-happy-walks.webp",
   ],
 
   description:
@@ -672,6 +686,8 @@ Built with durable hardware and a convenient car seatbelt attachment, it's a ver
     "/premium-dog-waste-bag-dispenser-duo-main.webp",
     "/premium-dog-waste-bag-dispenser-duo-outdoor.webp",
     "/premium-dog-waste-bag-dispenser-duo-details.webp",
+    "/premium-dog-waste-bag-dispenser-duo-benefits.webp",
+    "/premium-dog-waste-bag-dispenser-duo-lifestyle.webp",
   ],
 
   description:
@@ -730,6 +746,8 @@ A practical FluffHaven essential for cleaner, stress-free walks.
     "/premium-waterproof-dog-sofa-protector-main.webp",
     "/premium-waterproof-dog-sofa-protector-living-room.webp",
     "/premium-waterproof-dog-sofa-protector-details.webp",
+    "/premium-waterproof-dog-sofa-protector-benefits.webp",
+    "/premium-waterproof-dog-sofa-protector-happy-home.webp",
   ],
 
   description:
@@ -854,6 +872,8 @@ Soft silicone bristles help provide a gentle massage while cleaning, making this
     "/premium-woven-pet-toy-storage-basket-main.webp",
     "/premium-woven-pet-toy-storage-basket-living-room.webp",
     "/premium-woven-pet-toy-storage-basket-details.webp",
+    "/premium-woven-pet-toy-storage-basket-benefits.webp",
+    "/premium-woven-pet-toy-storage-basket-lifestyle.webp",
   ],
 
   description:
@@ -910,6 +930,8 @@ Its spacious interior keeps toys within easy reach, while the sturdy handles mak
     "/premium-3-in-1-dog-travel-bottle-outdoor.webp",
     "/premium-3-in-1-dog-travel-bottle-main.webp",
     "/premium-3-in-1-dog-travel-bottle-details.webp",
+    "/premium-3-in-1-dog-travel-bottle-benefits.webp",
+    "/premium-3-in-1-dog-travel-bottle-lifestyle.webp",
   ],
 
   description:
@@ -971,6 +993,8 @@ Perfect for daily walks, hikes, road trips and outdoor adventures, it's a practi
     "/premium-elevated-cooling-dog-bed-main.webp",
     "/premium-elevated-cooling-dog-bed-living-room.webp",
     "/premium-elevated-cooling-dog-bed-details.webp",
+    "/premium-elevated-cooling-dog-bed-patio.webp",
+    "/premium-elevated-cooling-dog-bed-lifestyle.webp",
   ],
 
   description:
@@ -1037,6 +1061,8 @@ Perfect for the living room, patio or garden, this elevated bed combines everyda
     "/premium-mint-adventure-dog-collar-outdoor.webp",
     "/premium-mint-adventure-dog-collar-main.webp",
     "/premium-mint-adventure-dog-collar-details.webp",
+    "/premium-mint-adventure-dog-collar-lifestyle.webp",
+    "/premium-mint-adventure-dog-collar-closeup.webp",
   ],
 
   description:
@@ -1092,6 +1118,8 @@ Designed for necks measuring 52–58 cm, it's a stylish FluffHaven essential for
     "/premium-dog-playtime-trio-main.webp",
     "/premium-dog-playtime-trio-living-room.webp",
     "/premium-dog-playtime-trio-details.webp",
+    "/premium-dog-playtime-trio-outdoor.webp",
+    "/premium-dog-playtime-trio-patio.webp",
   ],
 
   description:
@@ -1152,6 +1180,8 @@ And to make the bundle even better, a FluffHaven play mat is included free.
     "/premium-dog-activity-flip-board-main.webp",
     "/premium-dog-activity-flip-board-kitchen.webp",
     "/premium-dog-activity-flip-board-details.webp",
+    "/premium-dog-activity-flip-board-lifestyle.webp",
+    "/premium-dog-activity-flip-board-cozy.webp",
   ],
 
   description:
@@ -1209,9 +1239,11 @@ A fun and rewarding way to encourage curiosity and keep your dog mentally active
   priceId: "price_1U7bP5Kn0lmTcQ11nie9k9uJ",
 
   images: [
+    "/premium-paw-print-ceramic-pet-bowl-dog-cat.webp",
     "/premium-paw-print-ceramic-pet-bowl-kitchen.webp",
     "/premium-paw-print-ceramic-pet-bowl-main.webp",
     "/premium-paw-print-ceramic-pet-bowl-details.webp",
+    "/premium-paw-print-ceramic-pet-bowl-lifestyle.webp",
   ],
 
   description:
@@ -3470,16 +3502,18 @@ Combining three different looks, warmth and seasonal style, this FluffHaven trio
 
   subtitle: "2-pack • Treat dispensing • Black & Blue • 9 cm",
 
-  price: 37.90,
+  price: 24.90,
 
   badge: "🧠 Smart Treat Duo",
 
-  priceId: "price_1U2t4LKn0lmTcQ11ACeW1gSG", 
+  priceId: "price_1UCQKtKn0lmTcQ11O484tHlc", 
 
   images: [
     "/premium-treat-dispensing-chew-ball-duo-main.webp",
     "/premium-treat-dispensing-chew-ball-duo-play.webp",
     "/premium-treat-dispensing-chew-ball-duo-details.webp",
+    "/premium-treat-dispensing-chew-ball-duo-lifestyle.webp",
+    "/premium-treat-dispensing-chew-ball-duo-benefits.webp",
   ],
 
   description:
@@ -4893,8 +4927,14 @@ Designed to fit most cars and SUVs, it's a practical FluffHaven essential for cl
     subtitle: "No-pull · strong · comfortable",
     price: 22.90,
     badge: "🔥 Best Seller",
-    priceId: "price_1UC0wBKn0lmTcQ11EAyEn6yy",
-    images: ["/harnais_chien.webp","/harnais_chien2.webp","/harnais_chien3.webp"],
+    priceId: "price_1UCQByKn0lmTcQ119eM5gA3B",
+    images: [
+      "/harnais_chien.webp",
+      "/harnais_chien2.webp",
+      "/harnais_chien3.webp",
+      "/no-pull-dog-harness-lifestyle.webp",
+      "/no-pull-dog-harness-features.webp",
+    ],
     description: "Help reduce pulling with this comfortable harness designed for strong dogs and everyday walks. Built for better control while keeping your dog comfortable on the move.",
     seoTitle: "No-Pull Dog Harness | Comfortable Dog Harness | FluffHaven",
     seoDescription: "Walk your dog comfortably with this No-Pull Dog Harness. Strong, adjustable and designed to reduce pulling while keeping your dog safe.",
@@ -5687,16 +5727,18 @@ Machine washable and designed for indoor use, this FluffHaven vest is a cozy cho
 
   subtitle: "Self-heating • Ultra-soft fleece • Cozy comfort",
 
-  price: 29.90,
+  price: 19.90,
 
   badge: "🍂❄️ Autumn & Winter Essential",
 
-  priceId: "price_1UBbe6Kn0lmTcQ11Y13WdrjU",
+  priceId: "price_1UCQ0UKn0lmTcQ11K5h8IXNm",
 
   images: [
     "/self-warming-cat-mat-main.webp",
     "/self-warming-cat-mat-features.webp",
     "/self-warming-cat-mat-cozy.webp",
+    "/self-warming-cat-mat-lifestyle.webp",
+    "/self-warming-cat-mat-cozy-home.webp",
   ],
 
   description:
@@ -6176,6 +6218,8 @@ Suitable for kittens and adult cats, this FluffHaven set combines comfort, secur
     "/interactive-flying-cat-toy-set.webp",
     "/interactive-flying-cat-toy-set-features.webp",
     "/interactive-flying-cat-toy-set-details.webp",
+    "/interactive-flying-cat-toy-set-lifestyle.webp",
+    "/interactive-flying-cat-toy-set-play.webp",
   ],
 
   description:
