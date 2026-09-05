@@ -29,6 +29,8 @@ export const PRODUCTS = [
     "/dog-enrichment-duo-main.webp",
     "/dog-enrichment-duo-features.webp",
     "/dog-enrichment-duo-bowl.webp",
+    "/dog-enrichment-duo-size.webp",
+    "/dog-enrichment-duo-lifestyle.webp",
   ],
 
   description:
@@ -92,6 +94,8 @@ With two colors included — blue and pink — this practical duo brings variety
     "/premium-dog-treat-training-pouch-main.webp",
     "/premium-dog-treat-training-pouch-outdoor.webp",
     "/premium-dog-treat-training-pouch-details.webp",
+    "/premium-dog-treat-training-pouch-benefits.webp",
+    "/premium-dog-treat-training-pouch-lifestyle.webp",
   ],
 
   description:
@@ -153,6 +157,8 @@ Lightweight, practical and designed for everyday use, it's a simple FluffHaven e
     "/premium-shampoo-dispensing-dog-bath-brush-main.webp",
     "/premium-shampoo-dispensing-dog-bath-brush-bathroom.webp",
     "/premium-shampoo-dispensing-dog-bath-brush-details.webp",
+    "/premium-shampoo-dispensing-dog-bath-brush-benefits.webp",
+    "/premium-shampoo-dispensing-dog-bath-brush-lifestyle.webp",
   ],
 
   description:
@@ -318,6 +324,8 @@ A FluffHaven playtime essential.
     "/premium-vanilla-shea-dog-shampoo-lifestyle.webp",
     "/premium-vanilla-shea-dog-shampoo-main.webp",
     "/premium-vanilla-shea-dog-shampoo-details.webp",
+    "/premium-vanilla-shea-dog-shampoo-benefits.webp",
+    "/premium-vanilla-shea-dog-shampoo-happy.webp",
   ],
 
   description:
@@ -781,6 +789,8 @@ Easy to maintain and machine washable, it's a practical everyday essential for a
     "/premium-3-in-1-pet-grooming-set-main.webp",
     "/premium-3-in-1-pet-grooming-set-bath.webp",
     "/premium-3-in-1-pet-grooming-set-details.webp",
+    "/premium-3-in-1-pet-grooming-set-features.webp",
+    "/premium-3-in-1-pet-grooming-set-lifestyle.webp",
   ],
 
   description:
@@ -2762,6 +2772,8 @@ Finished in natural wood, this complete FluffHaven feeding station combines comf
     "/premium-reflective-cat-collar-six-pack-main.webp",
     "/premium-reflective-cat-collar-six-pack-outdoor.webp",
     "/premium-reflective-cat-collar-six-pack-details.webp",
+    "/premium-reflective-cat-collar-six-pack-features.webp",
+    "/premium-reflective-cat-collar-six-pack-lifestyle.webp",
   ],
 
   description:
@@ -2822,6 +2834,8 @@ With six different colors in one practical set, you can easily change your cat's
     "/premium-airtag-compatible-cat-collar-main.webp",
     "/premium-airtag-compatible-cat-collar-garden.webp",
     "/premium-airtag-compatible-cat-collar-details.webp",
+    "/premium-airtag-compatible-cat-collar-safety.webp",
+    "/premium-airtag-compatible-cat-collar-lifestyle.webp",
   ],
 
   description:
@@ -2876,6 +2890,8 @@ The adjustable design provides a secure fit while the reflective strap helps imp
     "/premium-2-in-1-cat-feeding-water-station-main.webp",
     "/premium-2-in-1-cat-feeding-water-station-kitchen.webp",
     "/premium-2-in-1-cat-feeding-water-station-details.webp",
+    "/premium-2-in-1-cat-feeding-station-hydration.webp",
+    "/premium-2-in-1-cat-feeding-station-happy-cat.webp",
   ],
 
   description:
