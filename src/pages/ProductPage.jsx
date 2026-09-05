@@ -30,29 +30,27 @@ export default function ProductPage({ onAddToCart }) {
 }, [product]);
 
   useEffect(() => {
-    if (!product) return;
+  if (!product) return;
 
-    const startTime = Date.now();
+  const startTime = Date.now();
 
-    return () => {
-      const duration = Math.round((Date.now() - startTime) / 1000);
+  return () => {
+    const duration = Math.round((Date.now() - startTime) / 1000);
 
-      if (duration < 1 || duration > 1800) return;
+    if (duration < 1 || duration > 1800) return;
 
-      fetch("/.netlify/functions/stats", {
-        method: "POST",
-        keepalive: true,
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          type: "productTime",
-          productName: product.name,
-          duration,
-        }),
-      }).catch(() => {});
-    };
-  }, [product]);
+    const data = JSON.stringify({
+      type: "productTime",
+      productName: product.name,
+      duration,
+    });
+
+    navigator.sendBeacon(
+      "/.netlify/functions/stats",
+      new Blob([data], { type: "application/json" })
+    );
+  };
+}, [product]);
 
   function handleAddToCart(product) {
   const savedCart = localStorage.getItem("fluffhaven_cart");
