@@ -41,6 +41,7 @@ export default function ProductPage({ onAddToCart }) {
 
       fetch("/.netlify/functions/stats", {
         method: "POST",
+        keepalive: true,
         headers: {
           "Content-Type": "application/json",
         },
