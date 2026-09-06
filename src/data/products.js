@@ -133,6 +133,184 @@ Lightweight, practical and designed for everyday use, it's a simple FluffHaven e
 },
 
 {
+  id: 112,
+
+  slug: "premium-3-in-1-pet-grooming-set",
+
+  name: "Premium 3-in-1 Pet Grooming Set",
+
+  category: "dog",
+  productType: "grooming-care",
+
+  seasons: ["summer", "autumn", "winter"],
+
+  subtitle: "3-piece grooming set • Shampoo dispenser • Massage brush • Soft silicone",
+
+  price: 22.90,
+
+  badge: "🛁 Grooming Essential",
+
+  priceId: "price_1UBbLsKn0lmTcQ11DFsjGtaE",
+
+  images: [
+    "/premium-3-in-1-pet-grooming-set-main.webp",
+    "/premium-3-in-1-pet-grooming-set-bath.webp",
+    "/premium-3-in-1-pet-grooming-set-details.webp",
+    "/premium-3-in-1-pet-grooming-set-features.webp",
+    "/premium-3-in-1-pet-grooming-set-lifestyle.webp",
+  ],
+
+  description:
+    "Make bath time easier and more enjoyable with the Premium 3-in-1 Pet Grooming Set. This practical grooming collection includes a shampoo dispensing brush and massage brushes designed to help clean your dog's coat while providing a gentle and relaxing massage.",
+
+  seoTitle:
+    "Premium 3-in-1 Pet Grooming Set | Dog Bath & Massage Brushes | FluffHaven",
+
+  seoDescription:
+    "Premium 3-in-1 pet grooming set with shampoo dispenser and soft silicone massage brushes. Designed for easy bathing, gentle cleaning and everyday coat care.",
+
+  brand: "FluffHaven",
+
+  details: `
+
+✓ Complete 3-piece grooming set
+
+✓ Convenient shampoo dispensing brush
+
+✓ Soft silicone massage bristles
+
+✓ Helps clean the coat during bath time
+
+✓ Gentle massage while washing
+
+✓ Comfortable handheld design
+
+Make bath time simpler and more relaxing for your dog.
+
+The Premium 3-in-1 Pet Grooming Set combines practical cleaning tools with soft massage bristles to help make regular grooming more comfortable.
+
+The shampoo dispensing brush allows you to apply and distribute shampoo while gently massaging your dog's coat, while the additional grooming brushes provide convenient options for washing and everyday care.
+
+Soft silicone bristles help provide a gentle massage while cleaning, making this versatile set a practical addition to your dog's grooming routine.
+
+`,
+
+  inStock: true,
+
+  featured: true,
+
+},
+
+{
+  id: 63,
+
+  slug: "premium-led-glow-dog-flying-disc",
+
+  name: "Premium LED Glow Dog Flying Disc",
+
+  category: "dog",
+  productType: "toys",
+
+  seasons: ["autumn", "winter"],
+
+  subtitle: "USB rechargeable • Red LED glow • Outdoor play",
+
+  price: 17.90,
+
+  badge: "🌙 Night Adventure",
+
+  priceId: "price_1UCdWTKn0lmTcQ117p9s78yp",
+
+  images: [
+    "/premium-led-glow-dog-flying-disc-lifestyle.webp",
+    "/premium-led-glow-dog-flying-disc-main.webp",
+    "/premium-led-glow-dog-flying-disc-garden.webp",
+    "/premium-led-glow-dog-flying-disc-details.webp",
+    "/premium-led-glow-dog-flying-disc-night.webp",
+  ],
+
+  description:
+  "Keep the fun going after sunset with the Premium LED Glow Dog Flying Disc. Featuring a bright red LED rim for nighttime visibility, this rechargeable flying disc is designed for outdoor games during darker autumn and winter evenings. Lightweight, durable and easy to throw, it's ideal for active dogs who love fetch adventures day or night.",
+
+  seoTitle:
+    "Premium LED Glow Dog Flying Disc | Rechargeable LED Dog Frisbee | FluffHaven",
+
+  seoDescription:
+    "Premium rechargeable LED dog flying disc with bright red glow for nighttime visibility. Lightweight, durable and perfect for autumn and winter outdoor play.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Bright red LED glow for nighttime visibility
+✓ USB rechargeable design
+✓ Lightweight and easy to throw
+✓ Durable construction for active fetch play
+✓ Ideal for autumn and winter evening adventures
+
+Keep the fun going after sunset with the Premium LED Glow Dog Flying Disc, designed for outdoor play during darker evenings.
+
+Its bright red LED glow makes the disc easy to spot after sunset while adding extra excitement to games of fetch.
+
+The lightweight design makes it easy to throw and carry, while its durable construction is suited to energetic play.
+
+Recharge it conveniently by USB and take it along for evening walks, garden games and nighttime adventures.
+
+Combining visibility, portability and active play, this FluffHaven flying disc keeps fetch going day or night.
+`,
+  inStock: true,
+
+  featured: true,
+},
+
+{
+  id: 13,
+  slug: "slow-feeder-dog-bowl",
+  name: "Slow Feeder Dog Bowl",
+  category: "dog",
+  productType: "feeding",
+  seasons: ["summer", "autumn", "winter"],
+  subtitle: "Medium · anti-choking · slow eating",
+  price: 15.90,
+  priceId: "price_1UCd8TKn0lmTcQ11LVNbl8Ok",
+  badge: "⭐ Smart Choice",
+
+  images: [
+    "/gamelle_chien1.webp",
+    "/gamelle_chien_gris.webp",
+    "/gamelle_chien3.webp",
+    "/slow-feeder-dog-bowl-lifestyle.webp",
+    "/slow-feeder-dog-bowl-benefits.webp",
+  ],
+
+  description:
+  "Help your dog eat more slowly with this practical slow feeder bowl. Designed to reduce gulping and encourage calmer, more comfortable mealtimes.",
+
+  seoTitle: "Slow Feeder Dog Bowl | Healthy Eating Bowl | FluffHaven",
+
+  seoDescription:
+    "Encourage healthier eating habits with this slow feeder dog bowl. Helps reduce gulping, improves digestion and is easy to clean.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Helps slow down fast eating
+✓ Raised maze design
+✓ Medium size for daily meals
+✓ Easy to clean
+
+Make everyday meals calmer with this practical Slow Feeder Dog Bowl.
+
+The raised maze design encourages your dog to eat at a slower pace.
+
+Slower eating can help reduce gulping during everyday meals.
+
+Its medium size makes it practical for regular feeding at home.
+
+Easy to clean and simple to use, it's a convenient FluffHaven accessory for everyday mealtimes.
+`,
+},
+
+{
   id: 129,
 
   slug: "premium-shampoo-dispensing-dog-bath-brush",
@@ -784,75 +962,6 @@ Easy to maintain and machine washable, it's a practical everyday essential for a
 },
 
 {
-  id: 112,
-
-  slug: "premium-3-in-1-pet-grooming-set",
-
-  name: "Premium 3-in-1 Pet Grooming Set",
-
-  category: "dog",
-  productType: "grooming-care",
-
-  seasons: ["summer", "autumn", "winter"],
-
-  subtitle: "3-piece grooming set • Shampoo dispenser • Massage brush • Soft silicone",
-
-  price: 22.90,
-
-  badge: "🛁 Grooming Essential",
-
-  priceId: "price_1UBbLsKn0lmTcQ11DFsjGtaE",
-
-  images: [
-    "/premium-3-in-1-pet-grooming-set-main.webp",
-    "/premium-3-in-1-pet-grooming-set-bath.webp",
-    "/premium-3-in-1-pet-grooming-set-details.webp",
-    "/premium-3-in-1-pet-grooming-set-features.webp",
-    "/premium-3-in-1-pet-grooming-set-lifestyle.webp",
-  ],
-
-  description:
-    "Make bath time easier and more enjoyable with the Premium 3-in-1 Pet Grooming Set. This practical grooming collection includes a shampoo dispensing brush and massage brushes designed to help clean your dog's coat while providing a gentle and relaxing massage.",
-
-  seoTitle:
-    "Premium 3-in-1 Pet Grooming Set | Dog Bath & Massage Brushes | FluffHaven",
-
-  seoDescription:
-    "Premium 3-in-1 pet grooming set with shampoo dispenser and soft silicone massage brushes. Designed for easy bathing, gentle cleaning and everyday coat care.",
-
-  brand: "FluffHaven",
-
-  details: `
-
-✓ Complete 3-piece grooming set
-
-✓ Convenient shampoo dispensing brush
-
-✓ Soft silicone massage bristles
-
-✓ Helps clean the coat during bath time
-
-✓ Gentle massage while washing
-
-✓ Comfortable handheld design
-
-Make bath time simpler and more relaxing for your dog.
-
-The Premium 3-in-1 Pet Grooming Set combines practical cleaning tools with soft massage bristles to help make regular grooming more comfortable.
-
-The shampoo dispensing brush allows you to apply and distribute shampoo while gently massaging your dog's coat, while the additional grooming brushes provide convenient options for washing and everyday care.
-
-Soft silicone bristles help provide a gentle massage while cleaning, making this versatile set a practical addition to your dog's grooming routine.
-
-`,
-
-  inStock: true,
-
-  featured: true,
-
-},
-
-{
   id: 120,
   slug: "premium-woven-pet-toy-storage-basket",
   name: "Premium Woven Pet Toy Storage Basket",
@@ -1302,8 +1411,8 @@ Practical and stylish, it's a simple FluffHaven essential for everyday feeding.
   priceId: "price_1U6CanKn0lmTcQ11jer1QPVi",
 
   images: [
-    "/premium-winter-cozy-dog-blanket-main.webp",
     "/premium-winter-cozy-dog-blanket-armchair.webp",
+    "/premium-winter-cozy-dog-blanket-main.webp",
     "/premium-winter-cozy-dog-blanket-details.webp",
   ],
 
@@ -1954,16 +2063,18 @@ Combining practical grooming and simple cleaning, this brush is a useful additio
 
   subtitle: "2-level puzzle • Slow feeding • Interactive mental stimulation",
 
-  price: 39.90,
+  price: 24.90,
 
   badge: "🧠 Smart Feeding Essential",
 
-  priceId: "price_1U4jckKn0lmTcQ11CGZ4pdUU",
+  priceId: "price_1UCd19Kn0lmTcQ11RzfWNu3I",
 
   images: [
     "/premium-2-level-dog-puzzle-slow-feeder-main.webp",
     "/premium-2-level-dog-puzzle-slow-feeder-kitchen.webp",
     "/premium-2-level-dog-puzzle-slow-feeder-details.webp",
+    "/premium-2-level-dog-puzzle-slow-feeder-lifestyle.webp",
+    "/premium-2-level-dog-puzzle-slow-feeder-benefits.webp",
   ],
 
   description:
@@ -2733,16 +2844,18 @@ Combining warmth, protection and blue-and-black FluffHaven styling, this jacket 
 
   subtitle: "Adjustable wooden stand • 2 stainless steel bowls • Protective mat",
 
-  price: 54.90,
+  price: 44.90,
 
   badge: "🍂 Cozy Mealtime Essential",
 
-  priceId: "price_1U3y1wKn0lmTcQ11iSiuWbEM",
+  priceId: "price_1UCctPKn0lmTcQ114OwqeKvM",
 
   images: [
     "/premium-elevated-comfort-feeding-station-kitchen.webp",
     "/premium-elevated-comfort-feeding-station-main.webp",
     "/premium-elevated-comfort-feeding-station-details.webp",
+    "/premium-elevated-comfort-feeding-station-lifestyle.webp",
+    "/premium-elevated-comfort-feeding-station-benefits.webp",
   ],
 
   description:
@@ -2772,6 +2885,186 @@ Both stainless steel bowls are removable for easy filling and cleaning.
 The protective mat helps catch food, water and spills, while non-slip feet help keep the feeding station securely in place.
 
 Finished in natural wood, this complete FluffHaven feeding station combines comfort, convenience and clean home-friendly styling.
+`,
+
+  inStock: true,
+
+  featured: true,
+},
+
+{
+  id: 118,
+
+  slug: "premium-reflective-cat-harness-leash-set",
+
+  name: "Premium Reflective Cat Harness Set",
+
+  category: "cat",
+  productType: "walking-travel",
+
+  seasons: ["summer", "autumn", "winter"],
+
+  subtitle: "Escape-resistant design • Reflective trim • Harness & leash set • Size S",
+
+  price: 15.90,
+
+  badge: "🐾 Safe Adventures",
+
+  priceId: "price_1UCfAIKn0lmTcQ11z0qmmMjK",
+
+  images: [
+    "/premium-reflective-cat-harness-leash-set-main.webp",
+    "/premium-reflective-cat-harness-leash-set-walk.webp",
+    "/premium-reflective-cat-harness-leash-set-details.webp",
+    "/premium-reflective-cat-harness-leash-set-lifestyle.webp",
+    "/premium-reflective-cat-harness-leash-set-features.webp",
+  ],
+
+  description:
+    "Enjoy safer walks with your cat using the Premium Reflective Cat Harness & Leash Set. This soft pink Size S harness features breathable mesh, reflective details and an adjustable escape-resistant design for comfortable everyday adventures.",
+
+  seoTitle:
+    "Premium Reflective Cat Harness & Leash Set | FluffHaven",
+
+  seoDescription:
+    "Pink Size S cat harness and leash set with breathable mesh, reflective details and an adjustable escape-resistant fit for comfortable outdoor walks.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Pink harness with matching leash
+
+✓ Size S for cats and kittens
+
+✓ Breathable mesh for everyday comfort
+
+✓ Reflective details for improved visibility
+
+✓ Adjustable escape-resistant design
+
+A comfortable harness and leash set designed for safer everyday walks and outdoor adventures.
+
+The lightweight breathable construction provides a secure fit while reflective details help improve visibility in low-light conditions.
+`,
+
+  inStock: true,
+
+  featured: true,
+},
+
+{
+  id: 119,
+
+  slug: "premium-self-adhesive-cat-scratching-mat",
+
+  name: "Premium Cat Scratching Mat",
+
+  category: "cat",
+  productType: "accessories-home",
+
+  seasons: ["summer", "autumn", "winter"],
+
+  subtitle: "Self-adhesive design • Cut to fit • Furniture & wall protection • 60 × 100 cm",
+
+  price: 17.90,
+
+  badge: "🐾 Scratch & Protect",
+
+  priceId: "price_1UCenGKn0lmTcQ11tPJ3LwSq",
+
+  images: [
+    "/premium-self-adhesive-cat-scratching-mat-main.webp",
+    "/premium-self-adhesive-cat-scratching-mat-details.webp",
+    "/premium-self-adhesive-cat-scratching-mat-living-room.webp",
+    "/premium-self-adhesive-cat-scratching-mat-lifestyle.webp",
+    "/premium-self-adhesive-cat-scratching-mat-benefits.webp",
+  ],
+
+  description:
+    "Create a dedicated scratching space while helping protect your furniture and walls with the Premium Self-Adhesive Cat Scratching Mat. Its durable textured surface encourages natural scratching and can be easily cut to fit different areas around your home.",
+
+  seoTitle:
+    "Premium Self-Adhesive Cat Scratching Mat | FluffHaven",
+
+  seoDescription:
+    "60 × 100 cm self-adhesive cat scratching mat designed to protect furniture and walls. Durable, cut-to-fit and easy to install for everyday scratching.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Self-adhesive backing for easy installation
+
+✓ Large 60 × 100 cm scratching surface
+
+✓ Cut-to-fit design for different spaces
+
+✓ Helps protect furniture and walls from scratching
+
+✓ Durable textured surface for everyday use
+
+✓ Dark brown color that blends easily with home interiors
+
+Create a comfortable scratching area while helping protect the surfaces around your home.
+
+The large self-adhesive mat can be trimmed to fit walls, furniture and other suitable surfaces, giving your cat a dedicated place to satisfy natural scratching instincts.
+`,
+
+  inStock: true,
+
+  featured: true,
+},
+
+{
+  id: 115,
+
+  slug: "premium-cozy-cat-blanket-trio",
+
+  name: "Premium Cozy Cat Blanket Trio",
+
+  category: "cat",
+  productType: "beds-comfort",
+
+  seasons: ["autumn", "winter"],
+
+  subtitle: "3 ultra-soft blankets • Pink, white & mauve • Cozy everyday comfort",
+
+  price: 19.90,
+
+  badge: "🧸 Cozy Trio",
+
+  priceId: "price_1UBbtZKn0lmTcQ11MTbMEaJQ",
+
+  images: [
+    "/premium-cozy-cat-blanket-trio-main.webp",
+    "/premium-cozy-cat-blanket-trio-living-room.webp",
+    "/premium-cozy-cat-blanket-trio-details.webp",
+    "/premium-cozy-cat-blanket-trio-lifestyle.webp",
+    "/premium-cozy-cat-blanket-trio-cozy-details.webp",
+  ],
+
+  description:
+    "Give your cat a soft and cozy place to relax with the Premium Cozy Cat Blanket Trio. This set includes three plush blankets in pink, white and mauve, perfect for sofas, beds, baskets or your cat's favorite resting spot.",
+
+  seoTitle:
+    "Premium Cozy Cat Blanket Trio | Soft Pet Blankets | FluffHaven",
+
+  seoDescription:
+    "Set of 3 ultra-soft cat blankets in pink, white and mauve. Cozy, washable and perfect for sofas, beds, baskets and everyday cat comfort.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Set of 3 soft and cozy cat blankets
+✓ Pink, white and mauve colors
+✓ Plush texture for warm everyday comfort
+✓ Ideal for sofas, beds, baskets and carriers
+✓ Machine washable for easy care
+
+Create a cozy resting space anywhere with the Premium Cozy Cat Blanket Trio.
+
+The soft plush texture provides comfortable warmth while helping protect furniture and pet beds from fur.
+
+With three charming colors, you can easily keep one in your cat's favorite spots around the home.
 `,
 
   inStock: true,
@@ -2955,180 +3248,6 @@ The inclined bowl provides a comfortable eating position while the gravity-fed r
 },
 
 {
-  id: 115,
-
-  slug: "premium-cozy-cat-blanket-trio",
-
-  name: "Premium Cozy Cat Blanket Trio",
-
-  category: "cat",
-  productType: "beds-comfort",
-
-  seasons: ["autumn", "winter"],
-
-  subtitle: "3 ultra-soft blankets • Pink, white & mauve • Cozy everyday comfort",
-
-  price: 19.90,
-
-  badge: "🧸 Cozy Trio",
-
-  priceId: "price_1UBbtZKn0lmTcQ11MTbMEaJQ",
-
-  images: [
-    "/premium-cozy-cat-blanket-trio-main.webp",
-    "/premium-cozy-cat-blanket-trio-living-room.webp",
-    "/premium-cozy-cat-blanket-trio-details.webp",
-  ],
-
-  description:
-    "Give your cat a soft and cozy place to relax with the Premium Cozy Cat Blanket Trio. This set includes three plush blankets in pink, white and mauve, perfect for sofas, beds, baskets or your cat's favorite resting spot.",
-
-  seoTitle:
-    "Premium Cozy Cat Blanket Trio | Soft Pet Blankets | FluffHaven",
-
-  seoDescription:
-    "Set of 3 ultra-soft cat blankets in pink, white and mauve. Cozy, washable and perfect for sofas, beds, baskets and everyday cat comfort.",
-
-  brand: "FluffHaven",
-
-  details: `
-✓ Set of 3 soft and cozy cat blankets
-✓ Pink, white and mauve colors
-✓ Plush texture for warm everyday comfort
-✓ Ideal for sofas, beds, baskets and carriers
-✓ Machine washable for easy care
-
-Create a cozy resting space anywhere with the Premium Cozy Cat Blanket Trio.
-
-The soft plush texture provides comfortable warmth while helping protect furniture and pet beds from fur.
-
-With three charming colors, you can easily keep one in your cat's favorite spots around the home.
-`,
-
-  inStock: true,
-
-  featured: true,
-},
-
-{
-  id: 119,
-
-  slug: "premium-self-adhesive-cat-scratching-mat",
-
-  name: "Premium Cat Scratching Mat",
-
-  category: "cat",
-  productType: "accessories-home",
-
-  seasons: ["summer", "autumn", "winter"],
-
-  subtitle: "Self-adhesive design • Cut to fit • Furniture & wall protection • 60 × 100 cm",
-
-  price: 29.90,
-
-  badge: "🐾 Scratch & Protect",
-
-  priceId: "price_1U8JFuKn0lmTcQ11kr5aP05K",
-
-  images: [
-    "/premium-self-adhesive-cat-scratching-mat-main.webp",
-    "/premium-self-adhesive-cat-scratching-mat-details.webp",
-    "/premium-self-adhesive-cat-scratching-mat-living-room.webp",
-  ],
-
-  description:
-    "Create a dedicated scratching space while helping protect your furniture and walls with the Premium Self-Adhesive Cat Scratching Mat. Its durable textured surface encourages natural scratching and can be easily cut to fit different areas around your home.",
-
-  seoTitle:
-    "Premium Self-Adhesive Cat Scratching Mat | FluffHaven",
-
-  seoDescription:
-    "60 × 100 cm self-adhesive cat scratching mat designed to protect furniture and walls. Durable, cut-to-fit and easy to install for everyday scratching.",
-
-  brand: "FluffHaven",
-
-  details: `
-✓ Self-adhesive backing for easy installation
-
-✓ Large 60 × 100 cm scratching surface
-
-✓ Cut-to-fit design for different spaces
-
-✓ Helps protect furniture and walls from scratching
-
-✓ Durable textured surface for everyday use
-
-✓ Dark brown color that blends easily with home interiors
-
-Create a comfortable scratching area while helping protect the surfaces around your home.
-
-The large self-adhesive mat can be trimmed to fit walls, furniture and other suitable surfaces, giving your cat a dedicated place to satisfy natural scratching instincts.
-`,
-
-  inStock: true,
-
-  featured: true,
-},
-
-{
-  id: 118,
-
-  slug: "premium-reflective-cat-harness-leash-set",
-
-  name: "Premium Reflective Cat Harness Set",
-
-  category: "cat",
-  productType: "walking-travel",
-
-  seasons: ["summer", "autumn", "winter"],
-
-  subtitle: "Escape-resistant design • Reflective trim • Harness & leash set • Size S",
-
-  price: 23.90,
-
-  badge: "🐾 Safe Adventures",
-
-  priceId: "price_1U8ImVKn0lmTcQ118je8SoDE",
-
-  images: [
-    "/premium-reflective-cat-harness-leash-set-main.webp",
-    "/premium-reflective-cat-harness-leash-set-walk.webp",
-    "/premium-reflective-cat-harness-leash-set-details.webp",
-  ],
-
-  description:
-    "Enjoy safer walks with your cat using the Premium Reflective Cat Harness & Leash Set. This soft pink Size S harness features breathable mesh, reflective details and an adjustable escape-resistant design for comfortable everyday adventures.",
-
-  seoTitle:
-    "Premium Reflective Cat Harness & Leash Set | FluffHaven",
-
-  seoDescription:
-    "Pink Size S cat harness and leash set with breathable mesh, reflective details and an adjustable escape-resistant fit for comfortable outdoor walks.",
-
-  brand: "FluffHaven",
-
-  details: `
-✓ Pink harness with matching leash
-
-✓ Size S for cats and kittens
-
-✓ Breathable mesh for everyday comfort
-
-✓ Reflective details for improved visibility
-
-✓ Adjustable escape-resistant design
-
-A comfortable harness and leash set designed for safer everyday walks and outdoor adventures.
-
-The lightweight breathable construction provides a secure fit while reflective details help improve visibility in low-light conditions.
-`,
-
-  inStock: true,
-
-  featured: true,
-},
-
-{
   id: 86,
 
   slug: "premium-cat-playtime-gift-basket",
@@ -3149,9 +3268,11 @@ The lightweight breathable construction provides a secure fit while reflective d
   priceId: "price_1U4RTTKn0lmTcQ11b34ykXu5",
 
   images: [
-    "/premium-cat-playtime-gift-basket-main.webp",
     "/premium-cat-playtime-gift-basket-indoor.webp",
+    "/premium-cat-playtime-gift-basket-main.webp",
     "/premium-cat-playtime-gift-basket-details.webp",
+    "/premium-cat-playtime-gift-basket-lifestyle.webp",
+    "/premium-cat-playtime-gift-basket-happy-playtime.webp",
   ],
 
   description:
@@ -3209,6 +3330,8 @@ Combining entertainment, enrichment and practical storage, this complete FluffHa
   priceId: "price_1U4mpCKn0lmTcQ11sLsx4PG5",
 
   images: [
+    "/premium-cat-scratcher-repair-rope-natural-jute.webp",
+    "/premium-cat-scratcher-repair-rope-lifestyle.webp",
     "/premium-cat-scratcher-repair-rope-main.webp",
     "/premium-cat-scratcher-repair-rope-living-room.webp",
     "/premium-cat-scratcher-repair-rope-details.webp",
@@ -3269,6 +3392,8 @@ Practical and versatile, it helps extend the life of your cat's favorite furnitu
   priceId: "price_1U4nUkKn0lmTcQ11v5UzzixB",
 
   images: [
+    "/premium-interactive-cat-scratcher-lounge-benefits.webp",
+    "/premium-interactive-cat-scratcher-lounge-lifestyle.webp",
     "/premium-interactive-cat-scratcher-lounge-main.webp",
     "/premium-interactive-cat-scratcher-lounge-kitchen.webp",
     "/premium-interactive-cat-scratcher-lounge-details.webp",
@@ -3329,6 +3454,8 @@ Combining scratching, lounging and interactive play, this FluffHaven lounge prov
   priceId: "price_1U4po0Kn0lmTcQ11QVfwanQN",
 
   images: [
+    "/premium-cat-scratch-play-mat-comfort.webp",
+    "/premium-cat-scratch-play-mat-lifestyle.webp",
     "/premium-cat-scratch-play-mat-main.webp",
     "/premium-cat-scratch-play-mat-living-room.webp",
     "/premium-cat-scratch-play-mat-details.webp",
@@ -3389,6 +3516,8 @@ Combining scratching, interactive toys and resting areas, this FluffHaven mat br
   priceId: "price_1U4oYFKn0lmTcQ11wvDsuh81",
 
   images: [
+    "/premium-easy-clean-cat-litter-tray-home.webp",
+    "/premium-easy-clean-cat-litter-tray-lifestyle.webp",
     "/premium-easy-clean-cat-litter-tray-main.webp",
     "/premium-easy-clean-cat-litter-tray-kitchen.webp",
     "/premium-easy-clean-cat-litter-tray-details.webp",
@@ -3442,13 +3571,15 @@ Finished in neutral dark grey, this practical FluffHaven litter tray provides a 
 
   subtitle: "3 cozy knit sweaters • Size M • 3 colors • Warm & soft design",
 
-  price: 44.90,
+  price: 34.90,
 
   badge: "🧶 Cozy Knit Trio",
 
-  priceId: "price_1U4H55Kn0lmTcQ11udd0CdVW",
+  priceId: "price_1UCg3EKn0lmTcQ11A7GQSUeV",
 
   images: [
+    "/premium-cozy-knit-cat-sweater-trio-colors.webp",
+    "/premium-cozy-knit-cat-sweater-trio-cozy.webp",
     "/premium-cozy-knit-cat-sweater-trio-indoor.webp",
     "/premium-cozy-knit-cat-sweater-trio-main.webp",
     "/premium-cozy-knit-cat-sweater-trio-details.webp",
@@ -3573,6 +3704,8 @@ Combining treats, movement and mental stimulation, this reusable FluffHaven duo 
     "/premium-silicone-slow-feeder-puzzle-mat-main.webp",
     "/premium-silicone-slow-feeder-puzzle-mat-cleaning.webp",
     "/premium-silicone-slow-feeder-puzzle-mat-details.webp",
+    "/premium-silicone-slow-feeder-puzzle-mat-kitchen.webp",
+    "/premium-silicone-slow-feeder-puzzle-mat-lifestyle.webp",
   ],
 
   description:
@@ -3843,65 +3976,6 @@ This FluffHaven duo is offered in Size L with a 40 cm back length, 56–66 cm ch
 Please measure your dog before ordering and allow a small 1–3 cm difference when comparing measurements.
 `,
 
-  inStock: true,
-
-  featured: true,
-},
-
-{
-  id: 63,
-
-  slug: "premium-led-glow-dog-flying-disc",
-
-  name: "Premium LED Glow Dog Flying Disc",
-
-  category: "dog",
-  productType: "toys",
-
-  seasons: ["autumn", "winter"],
-
-  subtitle: "USB rechargeable • Red LED glow • Outdoor play",
-
-  price: 19.90,
-
-  badge: "🌙 Night Adventure",
-
-  priceId: "price_1UBe2CKn0lmTcQ11Q1T8Kz6p",
-
-  images: [
-    "/premium-led-glow-dog-flying-disc-main.webp",
-    "/premium-led-glow-dog-flying-disc-garden.webp",
-    "/premium-led-glow-dog-flying-disc-details.webp",
-  ],
-
-  description:
-  "Keep the fun going after sunset with the Premium LED Glow Dog Flying Disc. Featuring a bright red LED rim for nighttime visibility, this rechargeable flying disc is designed for outdoor games during darker autumn and winter evenings. Lightweight, durable and easy to throw, it's ideal for active dogs who love fetch adventures day or night.",
-
-  seoTitle:
-    "Premium LED Glow Dog Flying Disc | Rechargeable LED Dog Frisbee | FluffHaven",
-
-  seoDescription:
-    "Premium rechargeable LED dog flying disc with bright red glow for nighttime visibility. Lightweight, durable and perfect for autumn and winter outdoor play.",
-
-  brand: "FluffHaven",
-
-  details: `
-✓ Bright red LED glow for nighttime visibility
-✓ USB rechargeable design
-✓ Lightweight and easy to throw
-✓ Durable construction for active fetch play
-✓ Ideal for autumn and winter evening adventures
-
-Keep the fun going after sunset with the Premium LED Glow Dog Flying Disc, designed for outdoor play during darker evenings.
-
-Its bright red LED glow makes the disc easy to spot after sunset while adding extra excitement to games of fetch.
-
-The lightweight design makes it easy to throw and carry, while its durable construction is suited to energetic play.
-
-Recharge it conveniently by USB and take it along for evening walks, garden games and nighttime adventures.
-
-Combining visibility, portability and active play, this FluffHaven flying disc keeps fetch going day or night.
-`,
   inStock: true,
 
   featured: true,
@@ -4652,6 +4726,8 @@ Suitable for dogs of all sizes, it's a simple FluffHaven enrichment toy for ever
     "/dog-lick-mat-main.webp",
     "/dog-lick-mat-detail-1.webp",
     "/dog-lick-mat-detail-2.webp",
+    "/dog-lick-mat-lifestyle.webp",
+    "/dog-lick-mat-cozy-indoor.webp",
   ],
 
   description:
@@ -5188,51 +5264,6 @@ The comfortable five-finger shape provides easy control during use.
 Washable and reusable, it's a practical FluffHaven cleaning accessory for dog and cat owners.
 `,
 },
-{
-  id: 13,
-  slug: "slow-feeder-dog-bowl",
-  name: "Slow Feeder Dog Bowl",
-  category: "dog",
-  productType: "feeding",
-  seasons: ["summer", "autumn", "winter"],
-  subtitle: "Medium · anti-choking · slow eating",
-  price: 19.90,
-  priceId: "price_1U8fbyKn0lmTcQ11gpwBKzWh",
-  badge: "⭐ Smart Choice",
-
-  images: [
-    "/gamelle_chien1.webp",
-    "/gamelle_chien_gris.webp",
-    "/gamelle_chien3.webp",
-  ],
-
-  description:
-  "Help your dog eat more slowly with this practical slow feeder bowl. Designed to reduce gulping and encourage calmer, more comfortable mealtimes.",
-
-  seoTitle: "Slow Feeder Dog Bowl | Healthy Eating Bowl | FluffHaven",
-
-  seoDescription:
-    "Encourage healthier eating habits with this slow feeder dog bowl. Helps reduce gulping, improves digestion and is easy to clean.",
-
-  brand: "FluffHaven",
-
-  details: `
-✓ Helps slow down fast eating
-✓ Raised maze design
-✓ Medium size for daily meals
-✓ Easy to clean
-
-Make everyday meals calmer with this practical Slow Feeder Dog Bowl.
-
-The raised maze design encourages your dog to eat at a slower pace.
-
-Slower eating can help reduce gulping during everyday meals.
-
-Its medium size makes it practical for regular feeding at home.
-
-Easy to clean and simple to use, it's a convenient FluffHaven accessory for everyday mealtimes.
-`,
-},
 
 {
   id: 76,
@@ -5248,13 +5279,15 @@ Easy to clean and simple to use, it's a convenient FluffHaven accessory for ever
 
   subtitle: "Elevated wooden stand • 3 stainless steel bowls • Protective mat",
 
-  price: 57.90,
+  price: 44.90,
 
   badge: "🍂 Cozy Mealtime Essential",
 
-  priceId: "price_1U3yYhKn0lmTcQ11ityeU6oM",
+  priceId: "price_1UCgCOKn0lmTcQ11uCaLPTsg",
 
   images: [
+    "/premium-elevated-triple-cat-feeding-station-benefits.webp",
+    "/premium-elevated-triple-cat-feeding-station-lifestyle.webp",
     "/premium-elevated-triple-cat-feeding-station-main.webp",
     "/premium-elevated-triple-cat-feeding-station-details.webp",
     "/premium-elevated-triple-cat-feeding-station-complete-set.webp",
@@ -5307,16 +5340,18 @@ Stable, practical and easy to maintain, this FluffHaven feeding station combines
 
   subtitle: "Plush sofa-style bed • Size L • 90 × 80 cm • Cozy raised edges",
 
-  price: 47.90,
+  price: 34.90,
 
   badge: "🍂 Cozy Lounge Essential",
 
-  priceId: "price_1U3ywdKn0lmTcQ11NoSCyuYQ",
+  priceId: "price_1UCgF5Kn0lmTcQ11B5Jdt7gd",
 
   images: [
-    "/premium-cozy-cat-sofa-bed-main.webp",
     "/premium-cozy-cat-sofa-bed-armchair.webp",
     "/premium-cozy-cat-sofa-bed-details.webp",
+    "/premium-cozy-cat-sofa-bed-living-room.webp",
+    "/premium-cozy-cat-sofa-bed-cozy-details.webp",
+    "/premium-cozy-cat-sofa-bed-main.webp",
   ],
 
   description:
@@ -5367,13 +5402,15 @@ With its elegant cream and black design, this FluffHaven bed combines comfort an
 
   subtitle: "3-in-1 tunnel bed • Size L • 75 × 55 cm • Cozy hideaway & play space",
 
-  price: 52.90,
+  price: 42.90,
 
   badge: "🐾 Cozy Hideaway Essential",
 
-  priceId: "price_1U45PlKn0lmTcQ11eJh1iSvg",
+  priceId: "price_1UChBsKn0lmTcQ11YdfQwigX",
 
   images: [
+    "/premium-3-in-1-cozy-cat-tunnel-bed-lifestyle.webp",
+    "/premium-3-in-1-cozy-cat-tunnel-bed-features.webp",
     "/premium-3-in-1-cozy-cat-tunnel-bed-main.webp",
     "/premium-3-in-1-cozy-cat-tunnel-bed-bedroom.webp",
     "/premium-3-in-1-cozy-cat-tunnel-bed-details.webp",
