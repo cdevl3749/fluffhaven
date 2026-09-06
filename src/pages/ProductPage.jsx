@@ -33,11 +33,16 @@ export default function ProductPage({ onAddToCart }) {
   if (!product) return;
 
   const startTime = Date.now();
+  let sent = false;
 
-  return () => {
+  const sendProductTime = () => {
+    if (sent) return;
+
     const duration = Math.round((Date.now() - startTime) / 1000);
 
     if (duration < 1 || duration > 1800) return;
+
+    sent = true;
 
     const data = JSON.stringify({
       type: "productTime",
@@ -49,6 +54,13 @@ export default function ProductPage({ onAddToCart }) {
       "/.netlify/functions/stats",
       new Blob([data], { type: "application/json" })
     );
+  };
+
+  window.addEventListener("pagehide", sendProductTime);
+
+  return () => {
+    window.removeEventListener("pagehide", sendProductTime);
+    sendProductTime();
   };
 }, [product]);
 
