@@ -3,6 +3,180 @@ export const PRODUCTS = [
   // 🔥 PRODUITS QUI CONVERTISSENT (EN PREMIER)
 
   {
+  id: 131,
+  slug: "premium-durable-lion-dog-toy",
+  name: "Premium Durable Lion Dog Toy",
+  category: "dog",
+  productType: "toys",
+  seasons: ["summer", "autumn", "winter"],
+
+  subtitle: "Soft plush lion • Interactive play • Durable design",
+
+  price: 19.90,
+
+  badge: "🦁 Playtime Favorite",
+
+  priceId: "price_1UD780Kn0lmTcQ11bSpPNiWR",
+
+  images: [
+    "/premium-durable-lion-dog-toy-main.webp",
+    "/premium-durable-lion-dog-toy-lifestyle.webp",
+    "/premium-durable-lion-dog-toy-closeup.webp",
+    "/premium-durable-lion-dog-toy-benefits.webp",
+    "/premium-durable-lion-dog-toy-playtime.webp",
+  ],
+
+  description:
+    "A soft and playful lion toy designed to keep your dog entertained. Its textured plush design makes it perfect for everyday play, carrying and cuddling.",
+
+  seoTitle:
+    "Premium Durable Lion Dog Toy | FluffHaven",
+
+  seoDescription:
+    "Soft and durable lion dog toy designed for interactive play, cuddling and everyday fun. A playful companion for happy dogs.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Soft textured plush design
+✓ Perfect for interactive play
+✓ Easy for dogs to carry
+✓ Fun lion shape
+✓ Great for playtime and cuddles
+
+A playful companion made for everyday fun.
+
+Its soft textured surface and easy-to-carry shape make it ideal for fetching, carrying and relaxing after playtime.
+`,
+
+  inStock: true,
+  featured: true,
+},
+
+{
+  id: 132,
+
+  slug: "premium-durable-wolf-dog-toy",
+
+  name: "Premium Durable Wolf Dog Toy",
+
+  category: "dog",
+
+  productType: "toys",
+
+  seasons: ["summer", "autumn", "winter"],
+
+  subtitle: "Soft plush wolf • Interactive play • Durable design",
+
+  price: 19.90,
+
+  badge: "🐺 Playtime Favorite",
+
+  priceId: "price_1UD7vYKn0lmTcQ11hihzrGx2",
+
+  images: [
+    "/premium-durable-wolf-dog-toy-main.webp",
+    "/premium-durable-wolf-dog-toy-lifestyle.webp",
+    "/premium-durable-wolf-dog-toy-closeup.webp",
+    "/premium-durable-wolf-dog-toy-benefits.webp",
+    "/premium-durable-wolf-dog-toy-playtime.webp",
+  ],
+
+  description:
+    "A soft and playful wolf toy designed to keep your dog entertained. Its textured plush design makes it perfect for everyday play, carrying and cuddling.",
+
+  seoTitle:
+    "Premium Durable Wolf Dog Toy | FluffHaven",
+
+  seoDescription:
+    "Soft and durable wolf dog toy designed for interactive play, cuddling and everyday fun. A playful companion for happy dogs.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Soft textured plush design
+
+✓ Perfect for interactive play
+
+✓ Easy for dogs to carry
+
+✓ Fun wolf shape
+
+✓ Great for playtime and cuddles
+
+A playful companion made for everyday fun.
+
+Its soft textured surface and easy-to-carry shape make it ideal for fetching, carrying and relaxing after playtime.
+
+`,
+
+  inStock: true,
+
+  featured: true,
+},
+
+{
+  id: 133,
+
+  slug: "premium-durable-elephant-dog-toy",
+
+  name: "Premium Durable Elephant Dog Toy",
+
+  category: "dog",
+
+  productType: "toys",
+
+  seasons: ["summer", "autumn", "winter"],
+
+  subtitle: "Soft plush elephant • Interactive play • Durable design",
+
+  price: 19.90,
+
+  badge: "🐘 Playtime Favorite",
+
+  priceId: "price_1UD8LpKn0lmTcQ11K4SDEX4B",
+
+  images: [
+    "/premium-durable-elephant-dog-toy-main.webp",
+    "/premium-durable-elephant-dog-toy-lifestyle.webp",
+    "/premium-durable-elephant-dog-toy-closeup.webp",
+    "/premium-durable-elephant-dog-toy-benefits.webp",
+    "/premium-durable-elephant-dog-toy-playtime.webp",
+  ],
+
+  description:
+    "A soft and playful elephant toy designed to keep your dog entertained. Its textured plush design makes it perfect for everyday play, carrying and cuddling.",
+
+  seoTitle:
+    "Premium Durable Elephant Dog Toy | FluffHaven",
+
+  seoDescription:
+    "Soft and durable elephant dog toy designed for interactive play, cuddling and everyday fun. A playful companion for happy dogs.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Soft textured plush design
+
+✓ Perfect for interactive play
+
+✓ Easy for dogs to carry
+
+✓ Fun elephant shape
+
+✓ Great for playtime and cuddles
+
+A playful companion made for everyday fun.
+
+Its soft textured surface and easy-to-carry shape make it ideal for fetching, carrying and relaxing after playtime.
+`,
+
+  inStock: true,
+
+  featured: true,
+},
+
+  {
   id: 38,
 
   slug: "premium-dog-enrichment-duo",
