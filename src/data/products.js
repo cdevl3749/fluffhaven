@@ -320,11 +320,11 @@ Lightweight, practical and designed for everyday use, it's a simple FluffHaven e
 
   subtitle: "3-piece grooming set • Shampoo dispenser • Massage brush • Soft silicone",
 
-  price: 22.90,
+  price: 17.90,
 
   badge: "🛁 Grooming Essential",
 
-  priceId: "price_1UBbLsKn0lmTcQ11DFsjGtaE",
+  priceId: "price_1UDUnaKn0lmTcQ11ipLzduQj",
 
   images: [
     "/premium-3-in-1-pet-grooming-set-main.webp",
@@ -667,14 +667,14 @@ A FluffHaven playtime essential.
 
   subtitle: "Vanilla & shea butter • Aloe vera • Provitamin B5 • 500 ml",
 
-  price: 22.90,
+  price: 17.90,
 
   badge: "🛁 Bath Essential",
 
   promo: "20% OFF",
   promoCode: "FLUFF20",
 
-  priceId: "price_1UCQsFKn0lmTcQ11lrXMSDUB",
+  priceId: "price_1UDUutKn0lmTcQ11F72QAvsk",
 
   images: [
     "/premium-vanilla-shea-dog-shampoo-lifestyle.webp",
