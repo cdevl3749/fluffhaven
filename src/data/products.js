@@ -1395,6 +1395,9 @@ Designed for necks measuring 52–58 cm, it's a stylish FluffHaven essential for
 
   badge: "🎁 Playtime Trio + Free Mat",
 
+  promo: "20% OFF",
+  promoCode: "PLAY20",
+
   priceId: "price_1U7i5uKn0lmTcQ11pWAdvYJv",
 
   images: [
