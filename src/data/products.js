@@ -190,14 +190,14 @@ Its soft textured surface and easy-to-carry shape make it ideal for fetching, ca
 
   subtitle: "2 slow feeding mats • Mental stimulation • Blue + Pink",
 
-  price: 22.90,
+  price: 17.90,
 
   badge: "🐶 Enrichment Essential",
 
   promo: "10% OFF",
   promoCode: "FLUFF10",
 
-  priceId: "price_1UCQZlKn0lmTcQ11BCZwSdS2",
+  priceId: "price_1UDUeXKn0lmTcQ11npm3jF4z",
 
   images: [
     "/dog-enrichment-duo-main.webp",
