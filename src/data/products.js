@@ -1588,6 +1588,8 @@ Practical and stylish, it's a simple FluffHaven essential for everyday feeding.
     "/premium-winter-cozy-dog-blanket-armchair.webp",
     "/premium-winter-cozy-dog-blanket-main.webp",
     "/premium-winter-cozy-dog-blanket-details.webp",
+    "/premium-winter-cozy-dog-blanket-lifestyle.webp",
+    "/premium-winter-cozy-dog-blanket-features.webp",
   ],
 
   description:
@@ -1649,6 +1651,8 @@ Combining warmth, practicality and winter-inspired styling, it brings cozy Fluff
     "/premium-pet-toy-storage-basket-main.webp",
     "/premium-pet-toy-storage-basket-garden.webp",
     "/premium-pet-toy-storage-basket-details.webp",
+    "/premium-pet-toy-storage-basket-lifestyle.webp",
+    "/premium-pet-toy-storage-basket-features.webp",
   ],
 
   description:
@@ -1709,6 +1713,8 @@ Practical, compact and decorative, it brings a tidy FluffHaven touch to your pet
     "/premium-cozy-dog-blanket-duo-main.webp",
     "/premium-cozy-dog-blanket-duo-sofa.webp",
     "/premium-cozy-dog-blanket-duo-details.webp",
+    "/premium-cozy-dog-blanket-duo-lifestyle.webp",
+    "/premium-cozy-dog-blanket-duo-features.webp",
   ],
 
   description:
@@ -1769,6 +1775,8 @@ Machine washable up to 60°C, this practical duo combines soft comfort, easy car
     "/premium-cozy-pet-sofa-bed-main.webp",
     "/premium-cozy-pet-sofa-bed-living-room.webp",
     "/premium-cozy-pet-sofa-bed-details.webp",
+    "/premium-cozy-pet-sofa-bed-lifestyle.webp",
+    "/premium-cozy-pet-sofa-bed-features.webp",
   ],
 
   description:
@@ -2128,6 +2136,8 @@ Combining interactive entertainment, exercise and mental stimulation, it's a fun
     "/premium-non-contact-pet-thermometer-main.webp",
     "/premium-non-contact-pet-thermometer-home.webp",
     "/premium-non-contact-pet-thermometer-details.webp",
+    "/premium-non-contact-pets-thermometer-lifestyle.webp",
+    "/premium-non-contacts-pets-thermometer-lifestyle.webp",
   ],
 
   description:
@@ -2908,6 +2918,8 @@ Combining breathable comfort, full-body coverage and a stylish blue design, it's
     "/premium-olive-cozy-dog-bed-main.webp",
     "/premium-olive-cozy-dog-bed-bedroom.webp",
     "/premium-olive-cozy-dog-bed-details.webp",
+    "/premium-olive-cozy-dog-bed-lifestyle.webp",
+    "/premium-olive-cozy-dog-bed-features.webp",
   ],
 
   description:
@@ -2968,6 +2980,8 @@ Combining soft comfort, supportive edges and a warm seasonal design, this FluffH
     "/premium-hooded-dog-puffer-jacket-main.webp",
     "/premium-hooded-dog-puffer-jacket-indoor.webp",
     "/premium-hooded-dog-puffer-jacket-details.webp",
+    "/premium-hooded-dog-puffer-jacket-lifestyle.webp",
+    "/premium-hooded-dog-puffer-jacket-features.webp",
   ],
 
   description:
@@ -3939,6 +3953,8 @@ Combining slower feeding, searching and licking activities, this FluffHaven puzz
     "/premium-electric-dog-paw-cleaner-main.webp",
     "/premium-electric-dog-paw-cleaner-cleaning.webp",
     "/premium-electric-dog-paw-cleaner-charging.webp",
+    "/premium-electric-dog-paw-cleaner-lifestyle.webp",
+    "/premium-electric-dog-paw-cleaner-features.webp",
   ],
 
   description:
@@ -3996,9 +4012,12 @@ Finished in blue, this compact FluffHaven paw cleaner combines gentle cleaning, 
   priceId: "price_1UBxVPKn0lmTcQ11dwoOVITi",
 
   images: [
+    "/premium-winter-reflective-dog-coat-lifestyle1.webp",
     "/premium-winter-reflective-dog-coat-main.webp",
     "/premium-winter-reflective-dog-coat-garden.webp",
     "/premium-winter-reflective-dog-coat-details.webp",
+    "/premium-winter-reflective-dog-coat-details2.webp",
+
   ],
 
   description:
@@ -4056,9 +4075,11 @@ For the best fit, please measure your dog before ordering.
   priceId: "price_1U2dz3Kn0lmTcQ114PvfpiuM",
 
   images: [
+    "/premium-arctic-waterproof-dog-vest-lifestyle.webp",
     "/premium-arctic-waterproof-dog-vest-main.webp",
     "/premium-arctic-waterproof-dog-vest-forest.webp",
     "/premium-arctic-waterproof-dog-vest-details.webp",
+    "/premium-arctic-waterproof-dog-vest-details-2.webp",
   ],
 
   description:
@@ -4119,6 +4140,8 @@ This FluffHaven edition is offered in Size L. Please measure your dog and check 
     "/premium-autumn-fleece-dog-vest-duo-main.webp",
     "/premium-autumn-fleece-dog-vest-duo-forest.webp",
     "/premium-autumn-fleece-dog-vest-duo-details.webp",
+    "/premium-autumn-fleece-dog-vest-duo-lifestyle.webp",
+    "/premium-autumn-fleece-dog-vest-duo-features.webp",
   ],
 
   description:
@@ -4349,16 +4372,18 @@ Combining cooling comfort, portability and a playful tropical fish design, this 
 
   subtitle: "2 towels • 50 × 100 cm • Ultra absorbent",
 
-  price: 32.90,
+  price: 24.90,
 
   badge: "🍂🛁 Drying Essential",
 
-  priceId: "price_1U1C4EKn0lmTcQ114qVXjfbL",
+  priceId: "price_1UDQdsKn0lmTcQ113XOria5x",
 
   images: [
     "/premium-microfiber-drying-towel-duo-main.webp",
     "/premium-microfiber-drying-towel-duo-dog.webp",
     "/premium-microfiber-drying-towel-duo-details.webp",
+    "/premium-microfiber-drying-towel-duo-lifestyle.webp",
+    "/premium-microfiber-drying-towel-duo-features.webp",
   ],
 
   description:
@@ -4479,6 +4504,8 @@ Combining warmth, privacy and practical everyday comfort, this FluffHaven teepee
     "/premium-reflective-dog-raincoat-main.webp",
     "/premium-reflective-dog-raincoat-rain.webp",
     "/premium-reflective-dog-raincoat-details.webp",
+    "/premium-reflective-dog-raincoat-lifestyle.webp",
+    "/premium-reflective-dog-raincoat-features.webp",
   ],
 
   description:
@@ -5259,6 +5286,8 @@ USB rechargeable and easy to use, it's a practical FluffHaven grooming tool for 
     "/clean_orange_1.webp",
     "/clean_orange_2.webp",
     "/clean_plage.webp",
+    "/dog-paw-cleaner-clean-paws.webp",
+    "/dog-paw-cleaner-travel.webp",
   ],
   description: "Clean muddy paws after every walk with gentle silicone bristles designed to remove dirt and mud. Easy to use and suitable for dogs of all breeds.",
   seoTitle: "Dog Paw Cleaner | Portable Paw Washer | FluffHaven",
