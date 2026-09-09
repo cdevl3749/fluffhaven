@@ -245,6 +245,54 @@ With two colors included — blue and pink — this practical duo brings variety
 },
 
 {
+  id: 134,
+  slug: "premium-carrot-garden-dog-toy",
+  name: "Premium Carrot Garden Dog Toy",
+  category: "dog",
+  productType: "toys",
+  seasons: ["summer", "autumn", "winter"],
+  subtitle: "Hide treats • Mental stimulation • Interactive sniffing game",
+  price: 24.90,
+  badge: "🥕 Enrichment Favorite",
+  priceId: "price_1UDjwOKn0lmTcQ11tUDfibVo",
+
+  images: [
+    "/premium-carrot-garden-dog-toy-main.webp",
+    "/premium-carrot-garden-dog-toy-lifestyle.webp",
+    "/premium-carrot-garden-dog-toy-hide-treats.webp",
+    "/premium-carrot-garden-dog-toy-interactive-playtime.webp",
+    "/premium-carrot-garden-dog-toy-slower-eating.webp",
+  ],
+
+  description:
+    "Turn treat time into an engaging sniffing adventure with the Premium Carrot Garden Dog Toy. Hide treats among the removable plush carrots and let your dog sniff, search and play.",
+
+  seoTitle:
+    "Premium Carrot Garden Dog Toy | FluffHaven",
+
+  seoDescription:
+    "Interactive carrot garden dog toy designed for sniffing, treat hunting and mental stimulation. A fun enrichment game for happy dogs.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Encourages natural sniffing instincts
+✓ Hide treats for interactive play
+✓ Supports mental stimulation
+✓ Removable plush carrots
+✓ Fun slow-feeding activity
+✓ Soft and engaging design
+
+Turn everyday treat time into a rewarding enrichment game.
+
+Simply hide treats inside the carrot garden and let your dog sniff, search and discover the rewards.
+`,
+
+  inStock: true,
+  featured: true,
+},
+
+{
   id: 106,
 
   slug: "premium-dog-treat-training-pouch",
