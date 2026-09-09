@@ -499,11 +499,11 @@ Easy to clean and simple to use, it's a convenient FluffHaven accessory for ever
 
   subtitle: "Shampoo dispenser • Soft silicone bristles • Massage & clean",
 
-  price: 34.90,
+  price: 24.90,
 
   badge: "🛁 Bath Essential",
 
-  priceId: "price_1U9qaDKn0lmTcQ11KcFyuJne",
+  priceId: "price_1UDZJ0Kn0lmTcQ117twexESY",
 
   images: [
     "/premium-shampoo-dispensing-dog-bath-brush-main.webp",
@@ -778,11 +778,11 @@ A premium FluffHaven essential for autumn and winter.
 
   subtitle: "Reusable hair remover • Sofas • Clothes • Bedding • Multi-surface",
 
-  price: 29.90,
+  price: 22.90,
 
   badge: "✨ Home Care Essential",
 
-  priceId: "price_1U83pHKn0lmTcQ11l7FQe0MC",
+  priceId: "price_1UDZLsKn0lmTcQ11CY7rXf7y",
 
   images: [
     "/premium-reusable-pet-hair-remover-main.webp",
@@ -1706,11 +1706,11 @@ Practical, compact and decorative, it brings a tidy FluffHaven touch to your pet
 
   subtitle: "2 ultra-soft blankets • Blue & beige • Size L 75 × 50 cm",
 
-  price: 23.90,
+  price: 21.90,
 
   badge: "🧸 Cozy Duo",
 
-  priceId: "price_1U5WuwKn0lmTcQ11xd6FdxTk",
+  priceId: "price_1UDZUKKn0lmTcQ11J3wjDgnC",
 
   images: [
     "/premium-cozy-dog-blanket-duo-main.webp",
@@ -3278,11 +3278,11 @@ With three charming colors, you can easily keep one in your cat's favorite spots
 
   subtitle: "6 reflective collars • Breakaway buckles • Bells • Adjustable fit",
 
-  price: 17.90,
+  price: 14.90,
 
   badge: "✨ Reflective Safety Pack",
 
-  priceId: "price_1UBLAkKn0lmTcQ1110A5z96j",
+  priceId: "price_1UDZRGKn0lmTcQ11KRYMhOLZ",
 
   images: [
     "/premium-reflective-cat-collar-six-pack-main.webp",
@@ -3946,11 +3946,11 @@ Combining slower feeding, searching and licking activities, this FluffHaven puzz
 
   subtitle: "Automatic cleaning • USB rechargeable • Deep paw care",
 
-  price: 39.90,
+  price: 32.90,
 
   badge: "🐾 Paw Care Essential",
 
-  priceId: "price_1UBwnmKn0lmTcQ11tZ2OdYPA",
+  priceId: "price_1UDZX8Kn0lmTcQ11URUvzuAm",
 
   images: [
     "/premium-electric-dog-paw-cleaner-main.webp",
@@ -5670,11 +5670,11 @@ Designed for bedrooms and living spaces, this FluffHaven bed combines comfort an
 
   subtitle: "2 winter jackets • Size M • Warm & stylish comfort",
 
-  price: 44.90,
+  price: 34.90,
 
   badge: "❄️ Winter Fashion Pack",
 
-  priceId: "price_1TzlGAKn0lmTcQ11IVXhLqyn",
+  priceId: "price_1UDZPWKn0lmTcQ11FFlJb2cj",
 
   images: [
     "/premium-winter-cat-jacket-duo-main.webp",
@@ -7593,11 +7593,11 @@ Machine washable and suitable for all breeds, it's a convenient FluffHaven enric
 
     subtitle: "5 Custom Bandanas • One Complete Pack • Ponpon Approved",
 
-    price: 39.90,
+    price: 27.90,
 
     badge: "🐾 Ponpon's Signature Collection",
 
-    priceId: "price_1UByqvKn0lmTcQ110sv1EOz6",
+    priceId: "price_1UDZcZKn0lmTcQ116ePCZUiv",
 
     images: [
       "/ponpon-bandana-pack-main.webp",
