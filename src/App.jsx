@@ -430,6 +430,7 @@ useEffect(() => {
   localStorage.setItem("fluffhaven_cart", JSON.stringify(cart));
 }, [cart]);
   const [openCart, setOpenCart] = useState(false);
+
   const [cartNotice, setCartNotice] = useState(false);
   const [showBackTop, setShowBackTop] = useState(false);
   const [activeTab, setActiveTab] = useState("all");

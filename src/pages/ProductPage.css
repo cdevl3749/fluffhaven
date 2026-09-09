@@ -843,3 +843,27 @@
     font-size: 11px;
   }
 }
+
+/* CART CLOSE BUTTONS - PRODUCT PAGE */
+.cart-close {
+  color: #3a2a22 !important;
+  border: 1px solid #b9a79d !important;
+  background: #ffffff !important;
+  opacity: 1 !important;
+}
+
+.cart-item-remove {
+  color: #3a2a22 !important;
+  border: 1px solid #b9a79d !important;
+  background: #ffffff !important;
+  opacity: 1 !important;
+}
+
+.cart-close:hover,
+.cart-item-remove:hover {
+  background: #3a2a22 !important;
+  color: #ffffff !important;
+  border-color: #3a2a22 !important;
+  transform: scale(1.08);
+  transition: all 0.2s ease;
+}
