@@ -97,7 +97,7 @@ export default function Dashboard() {
 
   const topProducts = Object.entries(stats.productStats || {})
   .sort((a, b) => b[1] - a[1])
-  .slice(0, 10);
+  .slice(0, 20);
 
   return (
     <div style={styles.page}>
