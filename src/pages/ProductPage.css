@@ -867,3 +867,19 @@
   transform: scale(1.08);
   transition: all 0.2s ease;
 }
+
+/* Small phones - keep purchase buttons visible sooner */
+@media (max-width: 430px) {
+  .product-page {
+    padding-top: 6px;
+    gap: 12px;
+  }
+
+  .product-info {
+    margin-top: 2px;
+  }
+
+  .product-main-image {
+    max-width: 260px;
+  }
+}
