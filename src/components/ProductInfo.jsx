@@ -130,13 +130,6 @@ export default function ProductInfo({ product, onAddToCart }) {
         ✓ In Stock • Ready to Ship
       </p>
 
-      {/* BUYING AREA - visible before long product content */}
-      <div className="product-trust">
-        <span>Free Shipping</span>
-        <span>Secure Checkout</span>
-        <span>14-Day Returns</span>
-      </div>
-
       <div className="product-buttons">
         <AddToCartButton
           onClick={() => onAddToCart?.(product)}
@@ -149,6 +142,13 @@ export default function ProductInfo({ product, onAddToCart }) {
         >
           Buy Now →
         </button>
+      </div>
+
+      {/* BUYING AREA - visible before long product content */}
+      <div className="product-trust">
+        <span>Free Shipping</span>
+        <span>Secure Checkout</span>
+        <span>14-Day Returns</span>
       </div>
 
      <div className="product-description-wrapper">

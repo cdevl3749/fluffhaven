@@ -230,13 +230,7 @@ Its soft textured surface and easy-to-carry shape make it ideal for fetching, ca
 
 ✓ Dishwasher and freezer safe
 
-Turn everyday mealtime into a more engaging experience with the Premium Dog Enrichment Duo.
-
-The textured surfaces encourage your dog to eat more slowly while providing mental stimulation during meals and treat time.
-
-Strong suction cups help keep the mats securely in place during use.
-
-With two colors included — blue and pink — this practical duo brings variety and enrichment to your dog's everyday routine.
+Make mealtime slower, healthier and more engaging. The textured surfaces provide mental stimulation, while strong suction cups help keep the mats securely in place.
 
 `,
   inStock: true,
