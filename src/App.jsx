@@ -789,6 +789,24 @@ if (
       <section id="shop" className="section">
         <div className="section-label">Our Collection</div>
         <h2>Best Sellers</h2>
+        <div
+          style={{
+            textAlign: "center",
+            margin: "10px 0 22px",
+          }}
+        >
+          <a
+            href="#reviews"
+            style={{
+              fontSize: "15px",
+              fontWeight: "700",
+              color: "#8B5E3C",
+              textDecoration: "none",
+            }}
+          >
+            💬 See what people say about FluffHaven →
+          </a>
+        </div>
         <div className="shop-tabs">
 
   <select
@@ -1038,13 +1056,14 @@ if (
         <div className="trust-item"><div className="trust-icon">↩️</div><div><strong>Easy Returns</strong><span>14-day no-questions guarantee</span></div></div>
       </section>
 
-      {/* REVIEWS */}
+     {/* REVIEWS */}
 <section id="reviews" className="section reviews-section">
-  <div className="section-label">Customer Reviews</div>
+  <div className="section-label">Reviews</div>
 
-  <h2>Real feedback. Real pet parents.</h2>
+  <h2>What people say about FluffHaven</h2>
 
   <div className="reviews">
+    {/* LOUISE REVIEW */}
     <div
       className="review"
       style={{
@@ -1054,46 +1073,49 @@ if (
         textAlign: "center",
       }}
     >
+      <img
+        src="/images/reviews/louise-j.webp"
+        alt="Louise J. - LJ Event Expérience"
+        style={{
+          width: "90px",
+          height: "90px",
+          borderRadius: "50%",
+          objectFit: "cover",
+          margin: "0 auto 18px",
+          display: "block",
+          border: "none",
+        }}
+      />
+
       <div
-        className="review-avatar-initials"
-        style={{ margin: "0 auto 20px" }}
+        style={{
+          fontSize: "20px",
+          marginBottom: "12px",
+          color: "#D4A017",
+          letterSpacing: "3px",
+        }}
       >
-        🐾
+        ★★★★★
       </div>
 
-      <h3>FluffHaven is growing</h3>
-
-      <p>
-        We're building our community one happy pet at a time.
-        As genuine customer feedback comes in, we'll feature it here.
+      <p style={{ fontSize: "18px", lineHeight: "1.7" }}>
+        “FluffHaven has a warm and reassuring visual identity.
+        Ponpon gives the brand a friendly, human touch, while the
+        product pages provide helpful information that reassures
+        potential buyers.”
       </p>
 
-      <p>
-        <strong>Already ordered from FluffHaven?</strong>
-        <br />
-        We'd love to hear about your experience.
-      </p>
+      <h3 style={{ marginBottom: "4px" }}>Louise J.</h3>
 
-      <p>
-        <a
-          href="mailto:contact@fluffhaven.shop?subject=My%20FluffHaven%20Review"
-          style={{
-            fontWeight: "700",
-            color: "inherit",
-            textDecoration: "none",
-          }}
-        >
-          📧 Share your experience
-        </a>
+      <p
+        style={{
+          fontSize: "14px",
+          opacity: "0.75",
+          marginTop: "0",
+        }}
+      >
+        Founder • LJ Event Expérience
       </p>
-
-      <p style={{ fontSize: "14px", opacity: "0.7" }}>
-        Only genuine customer feedback is featured on FluffHaven.
-      </p>
-      <div className="reviews-trust">
-        <span>🔒 Secure checkout</span>
-        <span>↩ 14-day returns</span>
-      </div>
     </div>
   </div>
 </section>
