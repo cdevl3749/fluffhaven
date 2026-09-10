@@ -67,6 +67,7 @@ export async function handler(event) {
         sourcesRaw,
         productStatsRaw,
         productTimeStatsRaw,
+        productCountryStatsRaw,
       ] = await Promise.all([
         redis(["GET", "visitors"]),
         redis(["GET", "clicks"]),
@@ -80,6 +81,7 @@ export async function handler(event) {
         redis(["GET", "sources"]),
         redis(["GET", "productStats"]),
         redis(["GET", "productTimeStats"]),
+        redis(["GET", "productCountryStats"]),
       ]);
 
       return {
@@ -98,6 +100,7 @@ export async function handler(event) {
           sources: JSON.parse(sourcesRaw || "{}"),
           productStats: JSON.parse(productStatsRaw || "{}"),
           productTimeStats: JSON.parse(productTimeStatsRaw || "{}"),
+          productCountryStats: JSON.parse(productCountryStatsRaw || "{}"),
         }),
       };
 
@@ -196,6 +199,15 @@ export async function handler(event) {
       if (data.type === "productView") {
         await redis(["INCR", "productViews"]);
 
+        const headers = event.headers || {};
+
+        const country =
+          headers["x-country"] ||
+          headers["cf-ipcountry"] ||
+          headers["x-vercel-ip-country"] ||
+          headers["client-country"] ||
+          "Unknown";
+
         if (data.productName) {
           const productStatsRaw = await redis(["GET", "productStats"]);
 
@@ -215,6 +227,31 @@ export async function handler(event) {
             "productStats",
             JSON.stringify(productStats),
           ]);
+          const productCountryStatsRaw = await redis([
+  "GET",
+  "productCountryStats",
+]);
+
+let productCountryStats = {};
+
+try {
+  productCountryStats = JSON.parse(productCountryStatsRaw || "{}");
+} catch {
+  productCountryStats = {};
+}
+
+if (!productCountryStats[data.productName]) {
+  productCountryStats[data.productName] = {};
+}
+
+productCountryStats[data.productName][country] =
+  (productCountryStats[data.productName][country] || 0) + 1;
+
+await redis([
+  "SET",
+  "productCountryStats",
+  JSON.stringify(productCountryStats),
+]);
         }
       }
 
@@ -316,6 +353,7 @@ if (data.type === "productTime") {
         redis(["SET", "sources", "{}"]),
         redis(["SET", "productStats", "{}"]),
         redis(["SET", "productTimeStats", "{}"]),
+        redis(["SET", "productCountryStats", "{}"]),
       ]);
 
       return {

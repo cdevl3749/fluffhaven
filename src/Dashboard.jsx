@@ -290,6 +290,12 @@ export default function Dashboard() {
 
             const timeData = stats.productTimeStats?.[productName];
 
+            const countryData = stats.productCountryStats?.[productName] || {};
+
+const topProductCountries = Object.entries(countryData)
+  .sort((a, b) => b[1] - a[1])
+  .slice(0, 3);
+
 const avgTime =
   timeData?.sessions > 0
     ? Math.round(timeData.totalTime / timeData.sessions)
@@ -324,6 +330,19 @@ const avgTime =
       ⏱️ {Math.floor(avgTime / 60)}m {avgTime % 60}s moy.
     </div>
   )}
+  {topProductCountries.length > 0 && (
+  <div
+    style={{
+      fontSize: 12,
+      color: "#666",
+      marginTop: 3,
+    }}
+  >
+    🌍 {topProductCountries
+      .map(([country, views]) => `${country}: ${views}`)
+      .join(" • ")}
+  </div>
+)}
 </div>
 
             <div style={styles.barBg}>
