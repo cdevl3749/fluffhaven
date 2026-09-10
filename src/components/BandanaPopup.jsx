@@ -128,7 +128,7 @@ export default function BandanaPopup() {
           </div>
 
           <div className="bandana-popup-price">
-            <strong>$27.90 USD</strong>
+            <strong>$17.90 USD</strong>
             <span>Free shipping</span>
           </div>
 
