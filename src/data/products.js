@@ -3988,11 +3988,11 @@ Combining slower feeding, searching and licking activities, this FluffHaven puzz
 
   subtitle: "Automatic cleaning • USB rechargeable • Deep paw care",
 
-  price: 32.90,
+  price: 27.90,
 
   badge: "🐾 Paw Care Essential",
 
-  priceId: "price_1UDZX8Kn0lmTcQ11URUvzuAm",
+  priceId: "price_1UEDwsKn0lmTcQ11NW5oszFg",
 
   images: [
     "/premium-electric-dog-paw-cleaner-main.webp",
