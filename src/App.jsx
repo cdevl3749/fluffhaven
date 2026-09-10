@@ -69,7 +69,15 @@ const PAGES = {
         <p>You have 14 days from receipt to return any item in its original condition. Contact us at contact@fluffhaven.shop to initiate a return.</p>
         <h3>6. Liability</h3>
         <p>FluffHaven is not liable for any indirect, incidental or consequential damages arising from the use of our products. Products are intended for pets under supervision.</p>
-        <h3>7. Contact</h3>
+        <h3>7. Business Information</h3>
+        <p>
+          FluffHaven is an online pet accessories store operated from Belgium.
+          For any questions regarding an order, our products, returns or these
+          Terms of Service, please contact us at
+          <strong> contact@fluffhaven.shop</strong>.
+        </p>
+
+        <h3>8. Contact</h3>
         <p>📧 contact@fluffhaven.shop · 🌐 fluffhaven.shop</p>
       </>
     ),
