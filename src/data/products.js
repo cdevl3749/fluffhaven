@@ -310,7 +310,7 @@ Simply hide treats inside the carrot garden and let your dog sniff, search and d
 
   badge: "🐾 Walk & Train Essential",
 
-  priceId: "price_1UDwTGKn0lmTcQ11jT98aCZo",
+  priceId: "price_1U7gvUKn0lmTcQ11tdrEEHDa",
 
   images: [
     "/premium-dog-treat-training-pouch-main.webp",
