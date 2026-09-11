@@ -6194,16 +6194,18 @@ Designed for chilly autumn evenings and winter days, this FluffHaven cave provid
 
   subtitle: "Foldable playpen • Indoor & outdoor • 73 × 73 × 43 cm",
 
-  price: 49.90,
+  price: 39.90,
 
   badge: "🐱 Safe Outdoor Space",
 
-  priceId: "price_1U2cJgKn0lmTcQ11Jhymhd4O",
+  priceId: "price_1UESYdKn0lmTcQ11JJ0kONXR",
 
   images: [
     "/premium-foldable-cat-playpen-main.webp",
     "/premium-foldable-cat-playpen-indoor.webp",
     "/premium-foldable-cat-playpen-details.webp",
+    "/premium-foldable-cat-playpen-features.webp",
+    "/premium-foldable-cat-playpen-lifestyle.webp",
   ],
 
   description:
@@ -6373,16 +6375,18 @@ Finished in pink with premium stitching, this FluffHaven bed is a practical choi
 
   subtitle: "Self-cooling • Soft comfort • Refreshing relief",
 
-  price: 32.90,
+  price: 19.90,
 
   badge: "❄️ Summer Essential",
 
-  priceId: "price_1U1DTVKn0lmTcQ11wKwPpO0f",
+  priceId: "price_1UERimKn0lmTcQ11VZcmMq6K",
 
   images: [
-    "/premium-cooling-gel-cat-mat-main.webp",
     "/premium-cooling-gel-cat-mat-outdoor.webp",
+    "/premium-cooling-gel-cat-mat-main.webp",
     "/premium-cooling-gel-cat-mat-details.webp",
+    "/premium-cooling-gel-cat-mat-features.webp",
+    "/premium-cooling-gel-cat-mat-lifestyle.webp",
   ],
 
   description:
