@@ -5031,6 +5031,8 @@ Made from food-grade BPA-free silicone, it's easy to clean and suitable for smal
     "/cooling-bandana.webp",
     "/cooling-bandana2.webp",
     "/cooling-bandana3.webp",
+    "/cooling-dog-bandana-features.webp",
+    "/cooling-dog-bandana-lifestyle.webp",
   ],
 
   description:
