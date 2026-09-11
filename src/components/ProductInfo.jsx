@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import AddToCartButton from "./AddToCartButton";
 
 export default function ProductInfo({ product, onAddToCart }) {
+
   const [openFaq, setOpenFaq] = useState(0);
   const [showScrollTop, setShowScrollTop] = useState(false);
 
@@ -79,18 +80,10 @@ export default function ProductInfo({ product, onAddToCart }) {
         {product.category === "cat" ? "Cat Essentials" : "Dog Essentials"}
       </p>
 
-      {product.rating && product.reviews && (
-        <>
-          <div className="product-rating">
-            ⭐⭐⭐⭐⭐ {product.rating} ({product.reviews} reviews)
-          </div>
-
-          {product.customers && (
-            <p className="product-customers">
-              ✔ Trusted by {product.customers} pet owners
-            </p>
-          )}
-        </>
+      {product.slug === "pet-hair-remover-roller" && (
+        <div className="product-rating">
+          ⭐⭐⭐⭐⭐ 1 Customer Review
+        </div>
       )}
 
       <div className="product-price-wrapper">

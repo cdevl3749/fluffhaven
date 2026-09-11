@@ -5177,11 +5177,15 @@ Reusable and machine washable, it's a practical FluffHaven essential for summer 
     subtitle: "No tape · reusable · instant clean",
     price: 24.90,
     badge: "🔥 Best Seller",
-    rating: 4.9,
-    reviews: 284,
-    customers: "2,500+",
+   
     priceId: "price_1UC24mKn0lmTcQ11bOuPzqZa",
-    images: ["/brosse_anti_poils.webp","/brosse_anti_poils2.webp","/brosse_anti_poils3.webp"],
+    images: [
+      "/brosse_anti_poils.webp",
+      "/brosse_anti_poils2.webp",
+      "/brosse_anti_poils3.webp",
+      "/brosse anti poils4.webp",
+      "/brosse anti poils5.webp"
+    ],
     description: "Remove pet hair in seconds with this practical cleaning tool. No sticky tape and no mess — perfect for clothes, furniture and the car.",
     seoTitle: "Pet Hair Remover Roller | Dog Hair Remover | FluffHaven",
     seoDescription:

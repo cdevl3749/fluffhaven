@@ -325,7 +325,11 @@ function ProductCard({ product, onAddToCart, onShowDetails }) {
           <h3>{product.name}</h3>
             <div className="product-rating">
               <span className="product-stars">★★★★★</span>
-              <span>Loved by Ponpon</span>
+              <span>
+                {product.slug === "pet-hair-remover-roller"
+                  ? "1 Customer Review"
+                  : "Loved by Ponpon"}
+              </span>
             </div>
           {/*<p className="product-sub">{product.subtitle}</p>*}
           {/* <p className="product-desc">{product.description}</p> */}
