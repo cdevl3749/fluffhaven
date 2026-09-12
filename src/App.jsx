@@ -1153,7 +1153,7 @@ if (
 
     <div className="about-visual">
       <div className="about-card">
-        <div className="about-stat">135+</div>
+        <div className="about-stat">136+</div>
         <div className="about-stat-label">Carefully Selected Products</div>
       </div>
 
