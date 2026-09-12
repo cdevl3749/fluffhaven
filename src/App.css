@@ -3568,7 +3568,7 @@ body.modal-open {
 /* Mobile */
 @media (max-width: 600px) {
   .floating-cart {
-    right: 82px;
+    right: 92px;
     bottom: 20px;
     width: 52px;
     height: 52px;
@@ -3664,4 +3664,26 @@ body.modal-open {
 .view-all-products-btn:hover {
   transform: translateY(-2px);
   opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+  .back-top {
+    display: grid !important;
+    position: fixed;
+    right: 4px;
+    bottom: 155px;
+    z-index: 9999;
+  }
+}
+
+@media (max-width: 768px) {
+  button.back-top {
+    position: fixed !important;
+    right: 16px !important;
+    bottom: 120px !important;
+    left: auto !important;
+    top: auto !important;
+    transform: none !important;
+    z-index: 9999 !important;
+  }
 }
