@@ -188,7 +188,7 @@ Its soft textured surface and easy-to-carry shape make it ideal for fetching, ca
 
   seasons: ["summer", "autumn", "winter"],
 
-  subtitle: "2 slow feeding mats • Mental stimulation • Blue + Pink",
+  subtitle: "Slow down mealtime • Keep your dog engaged • 2 enrichment mats included",
 
   price: 17.90,
 

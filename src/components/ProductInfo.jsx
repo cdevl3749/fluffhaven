@@ -9,6 +9,8 @@ export default function ProductInfo({ product, onAddToCart }) {
   const [showAllDetails, setShowAllDetails] = useState(false);
   const [showFullDescription, setShowFullDescription] = useState(false);
 
+  const isEnrichmentDuo = product.slug === "premium-dog-enrichment-duo";
+
   useEffect(() => {
   const handleScroll = () => {
     setShowScrollTop(window.scrollY > 600);
@@ -183,15 +185,18 @@ export default function ProductInfo({ product, onAddToCart }) {
             onClick={() => setOpenFaq(openFaq === 0 ? -1 : 0)}
           >
             <>
-              Is this product easy to use?
+              {isEnrichmentDuo
+                ? "How does the Dog Enrichment Duo help my dog?"
+                : "Is this product easy to use?"}
               <span>{openFaq === 0 ? "−" : "+"}</span>
             </>
           </button>
 
           {openFaq === 0 && (
             <p>
-              Yes. It is designed for quick, everyday use without any
-              complicated setup.
+              {isEnrichmentDuo
+                ? "The textured mats help slow down mealtime while providing mental stimulation, making feeding more engaging for your dog."
+                : "Yes. It is designed for quick, everyday use without any complicated setup."}
             </p>
           )}
         </div>
@@ -201,14 +206,17 @@ export default function ProductInfo({ product, onAddToCart }) {
             className="faq-question"
             onClick={() => setOpenFaq(openFaq === 1 ? -1 : 1)}
           >
-            Is it suitable for daily use?
+            {isEnrichmentDuo
+              ? "Can I use the mats for both treats and meals?"
+              : "Is it suitable for daily use?"}
             <span>{openFaq === 1 ? "−" : "+"}</span>
           </button>
 
           {openFaq === 1 && (
             <p>
-              Absolutely. It is made to be used safely as part of your
-              daily pet care routine.
+              {isEnrichmentDuo
+                ? "Yes. Use them with treats, wet food or your dog’s favorite snacks for slower, more engaging mealtimes."
+                : "Absolutely. It is made to be used safely as part of your daily pet care routine."}
             </p>
           )}
         </div>
