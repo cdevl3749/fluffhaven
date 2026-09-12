@@ -12,11 +12,11 @@ export const PRODUCTS = [
 
   subtitle: "Soft plush lion • Interactive play • Durable design",
 
-  price: 19.90,
+  price: 14.90,
 
   badge: "🦁 Playtime Favorite",
 
-  priceId: "price_1UD780Kn0lmTcQ11bSpPNiWR",
+  priceId: "price_1UEoLYKn0lmTcQ11CtRid4qP",
 
   images: [
     "/premium-durable-lion-dog-toy-main.webp",
@@ -68,11 +68,11 @@ Its soft textured surface and easy-to-carry shape make it ideal for fetching, ca
 
   subtitle: "Soft plush wolf • Interactive play • Durable design",
 
-  price: 19.90,
+  price: 14.90,
 
   badge: "🐺 Playtime Favorite",
 
-  priceId: "price_1UD7vYKn0lmTcQ11hihzrGx2",
+  priceId: "price_1UEoP4Kn0lmTcQ11SoieEJsy",
 
   images: [
     "/premium-durable-wolf-dog-toy-main.webp",
@@ -130,11 +130,11 @@ Its soft textured surface and easy-to-carry shape make it ideal for fetching, ca
 
   subtitle: "Soft plush elephant • Interactive play • Durable design",
 
-  price: 19.90,
+  price: 14.90,
 
   badge: "🐘 Playtime Favorite",
 
-  priceId: "price_1UD8LpKn0lmTcQ11K4SDEX4B",
+  priceId: "price_1UEoRxKn0lmTcQ11oKgPYLUl",
 
   images: [
     "/premium-durable-elephant-dog-toy-main.webp",
@@ -7431,6 +7431,8 @@ Free from harsh irritants, it's a practical FluffHaven choice for cats with sens
     "/premium-reflective-dog-harness-main.webp",
     "/premium-reflective-dog-harness-features.webp",
     "/premium-reflective-dog-harness-lifestyle.webp",
+    "/premium-reflective-dog-harness-features-2.webp",
+    "/premium-reflective-dog-harness-lifestyle-2.webp",
   ],
 
   description:
@@ -7487,6 +7489,8 @@ Designed for regular outdoor use, this FluffHaven set combines comfort, visibili
     "/premium-waterproof-dog-raincoat-main.webp",
     "/premium-waterproof-dog-raincoat-features.webp",
     "/premium-waterproof-dog-raincoat-lifestyle.webp",
+    "/premium-waterproof-dog-raincoat-features-2.webp",
+    "/premium-waterproof-dog-raincoat-lifestyle-2.webp",
   ],
 
   description:
@@ -7543,6 +7547,8 @@ Designed for rainy autumn adventures, this FluffHaven raincoat combines weather 
     "/premium-orthopedic-dog-bed-main.webp",
     "/premium-orthopedic-dog-bed-washable.webp",
     "/premium-orthopedic-dog-bed-orthopedic.webp",
+    "/premium-orthopedic-dog-bed-features-2.webp",
+    "/premium-orthopedic-dog-bed-details-2.webp",
   ],
 
   description:
@@ -7599,6 +7605,8 @@ With a removable machine-washable cover, this FluffHaven bed is designed for pra
     "/premium-dog-snuffle-mat-main.webp",
     "/premium-dog-snuffle-mat-features.webp",
     "/premium-dog-snuffle-mat-details.webp",
+    "/premium-dog-snuffle-mat-features-2.webp",
+    "/premium-dog-snuffle-mat-lifestyle-2.webp",
   ],
 
   description:
