@@ -176,6 +176,64 @@ Its soft textured surface and easy-to-carry shape make it ideal for fetching, ca
   featured: true,
 },
 
+{
+  id: 135,
+
+  slug: "premium-dog-deshedding-brush",
+
+  name: "Premium Dog Deshedding Brush",
+
+  category: "dog",
+  productType: "grooming-care",
+
+  seasons: ["summer", "autumn", "winter"],
+
+  subtitle: "Stainless steel blades • Removes loose fur • Gentle coat care",
+
+  price: 12.90,
+
+  badge: "🐾 Grooming Essential",
+
+  priceId: "price_1UEz0FKn0lmTcQ11erMLsNif",
+
+  images: [
+    "/premium-dog-deshedding-brush-details.webp",
+    "/premium-dog-deshedding-brush-main.webp",
+    "/premium-dog-deshedding-brush-gentle.webp",
+    "/premium-dog-deshedding-brush-features.webp",
+    "/premium-dog-deshedding-brush-lifestyle.webp",
+  ],
+
+  description:
+    "Keep your dog's coat looking clean and healthy with the Premium Dog Deshedding Brush. Its stainless steel blades help remove loose fur and reduce shedding while providing gentle everyday grooming.",
+
+  seoTitle:
+    "Premium Dog Deshedding Brush | FluffHaven",
+
+  seoDescription:
+    "Premium dog deshedding brush with stainless steel blades designed to remove loose fur, reduce shedding and support regular coat care.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Helps remove loose fur
+✓ Stainless steel deshedding blades
+✓ Helps reduce everyday shedding
+✓ Comfortable non-slip handle
+✓ Gentle everyday coat care
+
+Keep loose fur under control with the Premium Dog Deshedding Brush.
+
+Its stainless steel blades help collect loose hair while keeping regular grooming simple and comfortable.
+
+A practical FluffHaven essential for a healthier-looking coat and a cleaner home.
+`,
+
+  inStock: true,
+
+  featured: true,
+},
+
   {
   id: 38,
 
