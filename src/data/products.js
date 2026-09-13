@@ -3378,11 +3378,11 @@ With three charming colors, you can easily keep one in your cat's favorite spots
 
   subtitle: "6 reflective collars • Breakaway buckles • Bells • Adjustable fit",
 
-  price: 14.90,
+  price: 12.90,
 
   badge: "✨ Reflective Safety Pack",
 
-  priceId: "price_1UDZRGKn0lmTcQ11KRYMhOLZ",
+  priceId: "price_1UF0r9Kn0lmTcQ11RbsejAAj",
 
   images: [
     "/premium-reflective-cat-collar-six-pack-main.webp",
@@ -5956,11 +5956,11 @@ Durable and machine washable, this FluffHaven duo is designed for comfortable in
 
   subtitle: "Ultra-soft fleece • 70 × 100 cm • Cozy warmth",
 
-  price: 39.90,
+  price: 19.90,
 
   badge: "🍂 Autumn Favorite",
 
-  priceId: "price_1U1YuyKn0lmTcQ11YB0VNkOX",
+  priceId: "price_1UF0tqKn0lmTcQ11lUcvl7ZN",
 
   images: [
     "/premium-autumn-cozy-cat-blanket-main.webp",
@@ -6198,13 +6198,15 @@ Finished in white, this FluffHaven snowsuit is a practical seasonal choice for w
 
   subtitle: "Ultra-warm cat cave • Arctic fleece • Size S",
 
-  price: 52.90,
+  price: 32.90,
 
   badge: "❄️ Premium Winter Comfort",
 
-  priceId: "price_1U2chVKn0lmTcQ11ihxfonBr",
+  priceId: "price_1UF0x1Kn0lmTcQ113W81LNPx",
 
   images: [
+    "/premium-arctic-cozy-cat-cave-features.webp",
+    "/premium-arctic-cozy-cat-cave-features-main.webp",
     "/premium-arctic-cozy-cat-cave-main.webp",
     "/premium-arctic-cozy-cat-cave-bedroom.webp",
     "/premium-arctic-cozy-cat-cave-details.webp",
@@ -6501,11 +6503,11 @@ Easy to clean and suitable for cats of all sizes, it's practical for indoor and 
 
   subtitle: "Escape-proof • Adjustable fit • Outdoor adventures",
 
-  price: 44.90,
+  price: 24.90,
 
   badge: "🐱 Outdoor Adventure",
 
-  priceId: "price_1TzPJVKn0lmTcQ11GCcDwdHX",
+  priceId: "price_1UF19vKn0lmTcQ115Z8Ux75w",
 
   images: [
     "/premium-cat-harness-leash-set-main.webp",
@@ -6623,16 +6625,18 @@ Lightweight and easy to use, this FluffHaven set provides everyday enrichment fo
 
   subtitle: "2 slow feeding mats • Mental stimulation • Blue + Pink",
 
-  price: 29.90,
+  price: 19.90,
 
   badge: "🐱 Enrichment Essential",
 
-  priceId: "price_1TyHOPKn0lmTcQ11O213nk3M",
+  priceId: "price_1UF1CyKn0lmTcQ11OhwP2wIx",
 
   images: [
+    "/premium-cat-enrichment-duo-benefits-2.webp",
+    "/premium-cat-enrichment-duo-kitchen-2.webp",
+    "/premium-cat-enrichment-duo-bowl.webp",
     "/premium-cat-enrichment-duo-main.webp",
     "/premium-cat-enrichment-duo-features.webp",
-    "/premium-cat-enrichment-duo-bowl.webp",
   ],
 
   description:

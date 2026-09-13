@@ -449,11 +449,12 @@ useEffect(() => {
   const [petFilter, setPetFilter] = useState("all");
   const [seasonFilter, setSeasonFilter] = useState("all");
   const [productTypeFilter, setProductTypeFilter] = useState("all");
+  const [priceSort, setPriceSort] = useState("default");
   const [visibleProductCount, setVisibleProductCount] = useState(3);
 
 useEffect(() => {
   setVisibleProductCount(3);
-}, [petFilter, seasonFilter, productTypeFilter]);
+}, [petFilter, seasonFilter, productTypeFilter, priceSort]);
   const featuredSummerProduct = PRODUCTS.find(
   (product) => product.slug === "premium-floating-rope-ball"
 );
@@ -538,6 +539,13 @@ if (
 
     return true;
 }).sort((a, b) => {
+  if (priceSort === "low") {
+  return a.price - b.price;
+}
+
+if (priceSort === "high") {
+  return b.price - a.price;
+}
   // Quand "All Seasons" est sélectionné,
   // on garde exactement l'ordre actuel du catalogue.
   if (seasonFilter === "all") {
@@ -866,6 +874,16 @@ if (
   <option value="grooming-care">🧼 Grooming & Care</option>
   <option value="clothing">👕 Clothing</option>
   <option value="accessories-home">🏠 Home & Accessories</option>
+</select>
+
+<select
+  value={priceSort}
+  onChange={(e) => setPriceSort(e.target.value)}
+  className="shop-select"
+>
+  <option value="default">↕️ Sort by Price</option>
+  <option value="low">💲 Price: Low to High</option>
+  <option value="high">💲 Price: High to Low</option>
 </select>
 
 </div>
