@@ -91,6 +91,9 @@ import WhyDoesMyCatFollowMeEverywhere from "./blog/why-does-my-cat-follow-me-eve
 import HowToGroomYourDogAtHome from "./blog/how-to-groom-your-dog-at-home.jsx";
 import HowToEncourageYourCatToDrinkMoreWater from "./blog/how-to-encourage-your-cat-to-drink-more-water.jsx";
 
+import HowToMentallyStimulateYourDogAtHome from "./blog/how-to-mentally-stimulate-your-dog-at-home.jsx";
+import InteractiveFeedingForCats from "./blog/interactive-feeding-for-cats.jsx";
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {
@@ -224,6 +227,14 @@ createRoot(document.getElementById('root')).render(
       : window.location.pathname === "/blog/how-to-encourage-your-cat-to-drink-more-water" ? (
         <HowToEncourageYourCatToDrinkMoreWater />
       )
+
+      : window.location.pathname === "/blog/how-to-mentally-stimulate-your-dog-at-home" ? (
+        <HowToMentallyStimulateYourDogAtHome />
+      )
+      : window.location.pathname === "/blog/interactive-feeding-for-cats" ? (
+        <InteractiveFeedingForCats />
+      )
+
       : window.location.pathname.startsWith("/product/") ? (
         <ProductPage />
       )

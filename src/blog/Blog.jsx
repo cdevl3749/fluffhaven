@@ -496,6 +496,26 @@ export default function Blog() {
     url: "/blog/how-to-encourage-your-cat-to-drink-more-water",
   },
 
+    {
+    title: "How to Mentally Stimulate Your Dog at Home: 10 Easy Enrichment Ideas",
+    category: "Dog enrichment",
+    date: "September 2026",
+    read: "9 min read",
+    description:
+      "Discover 10 simple enrichment ideas to keep your dog mentally active at home, from interactive feeding and scent games to short training sessions.",
+    url: "/blog/how-to-mentally-stimulate-your-dog-at-home",
+  },
+
+  {
+    title: "Interactive Feeding for Cats: How to Make Mealtime More Enriching",
+    category: "Cat enrichment",
+    date: "September 2026",
+    read: "9 min read",
+    description:
+      "Discover how interactive feeding can turn everyday meals into stimulating activities that encourage your cat's natural curiosity and hunting instincts.",
+    url: "/blog/interactive-feeding-for-cats",
+  },
+
   ];
 
   // ── Filtrage par recherche ──
