@@ -177,6 +177,129 @@ Its soft textured surface and easy-to-carry shape make it ideal for fetching, ca
 },
 
 {
+  id: 136,
+
+  slug: "premium-tactical-adventure-dog-collar",
+
+  name: "Premium Tactical Adventure Dog Collar",
+
+  category: "dog",
+
+  productType: "walking-travel",
+
+  seasons: ["summer", "autumn", "winter"],
+
+  subtitle: "Strong buckle • AirTag holder • Comfortable fit • Size L • Neck 40–52 cm",
+
+  price: 24.90,
+
+  badge: "🐕 Adventure Essential",
+
+  priceId: "price_1UFC3kKn0lmTcQ11PWvluXjs",
+
+  images: [
+    "/premium-tactical-adventure-dog-collar-main.webp",
+    "/premium-tactical-adventure-dog-collar-outdoor.webp",
+    "/premium-tactical-adventure-dog-collar-details.webp",
+    "/premium-tactical-adventure-dog-collar-adventure.webp",
+    "/premium-tactical-adventure-dog-collar-lifestyle.webp",
+  ],
+
+  description:
+    "Make everyday walks and outdoor adventures more comfortable with the Premium Tactical Adventure Dog Collar. Designed with a strong buckle, convenient leash D-ring and integrated AirTag holder, this durable collar combines security, comfort and practical everyday functionality.",
+
+  seoTitle:
+    "Premium Tactical Adventure Dog Collar | AirTag Holder | FluffHaven",
+
+  seoDescription:
+    "Premium tactical dog collar with strong buckle, leash D-ring and integrated AirTag holder. Size L for necks 40–52 cm, designed for comfortable everyday walks and outdoor adventures.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Size L — neck 40–52 cm
+✓ Strong and secure buckle
+✓ Durable leash D-ring
+✓ Integrated AirTag holder
+✓ Comfortable everyday fit
+✓ Designed for walks & outdoor adventures
+
+Give your dog comfort, security and style on every adventure.
+
+The Premium Tactical Adventure Dog Collar combines durable construction with practical everyday features for walks, hikes and outdoor activities.
+
+Its strong buckle provides a secure fit, while the durable D-ring makes attaching your dog's leash quick and convenient.
+
+The integrated AirTag holder provides a practical place to securely carry a compatible tracker during everyday adventures.
+
+A stylish and functional FluffHaven essential for dogs who love exploring.
+`,
+
+  inStock: true,
+
+  featured: true,
+},
+
+{
+  id: 137,
+  slug: "premium-dog-car-seat-belt",
+  name: "Premium Dog Car Seat Belt",
+
+  category: "dog",
+  productType: "walking-travel",
+  seasons: ["summer", "autumn", "winter"],
+
+  subtitle: "Shock absorbing • Adjustable length • Strong metal hook • 74–142 cm",
+
+  price: 19.90,
+
+  badge: "🚗 Travel Essential",
+
+  priceId: "price_1UFD8vKn0lmTcQ11HGzfDKJW",
+
+  images: [
+    "/premium-dog-car-seat-belt-main.webp",
+    "/premium-dog-car-seat-belt-details.webp",
+    "/premium-dog-car-seat-belt-product.webp",
+    "/premium-dog-car-seat-belt-lifestyle.webp",
+    "/premium-dog-car-seat-belt-woman.webp",
+  ],
+
+  description:
+    "Make car journeys safer and more comfortable with the Premium Dog Car Seat Belt. Designed with an adjustable length, shock-absorbing bungee section and strong metal hook, it helps keep your dog securely restrained while travelling.",
+
+  seoTitle:
+    "Premium Dog Car Seat Belt | Adjustable & Shock Absorbing | FluffHaven",
+
+  seoDescription:
+    "Adjustable dog car seat belt with shock-absorbing bungee, strong metal hook and seat belt buckle. Adjustable from 74–142 cm for safer and more comfortable car journeys.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Adjustable length — 74–142 cm (29.1–55.9 in)
+✓ Shock-absorbing bungee section
+✓ Strong metal leash hook
+✓ Seat belt buckle attachment
+✓ Helps keep your dog secure while travelling
+✓ Designed for everyday car journeys
+
+Make every journey safer and more comfortable for your dog.
+
+The Premium Dog Car Seat Belt is designed to help keep your dog securely restrained while travelling in the car.
+
+Its shock-absorbing bungee section helps soften sudden movements, while the adjustable strap allows you to find a comfortable length for your dog.
+
+The strong metal hook attaches easily to your dog's harness, while the seat belt buckle connects directly to a compatible vehicle seat belt socket.
+
+A practical FluffHaven travel essential for road trips, everyday drives and adventures together.
+`,
+
+  inStock: true,
+  featured: true,
+},
+
+{
   id: 135,
 
   slug: "premium-dog-deshedding-brush",
