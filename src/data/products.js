@@ -3311,6 +3311,64 @@ Finished in natural wood, this complete FluffHaven feeding station combines comf
 },
 
 {
+  id: 35,
+
+  slug: "premium-cat-paw-balm",
+
+  name: "Premium Cat Paw Balm",
+
+  category: "cat",
+  productType: "grooming-care",
+
+  seasons: ["autumn", "winter"],
+
+  subtitle: "Protect • Repair • Moisturize",
+
+  price: 15.90,
+
+  badge: "🐾 Cat Care",
+
+  priceId: "price_1UFgfAKn0lmTcQ11U4dGptRU",
+
+  images: [
+    "/premium-cat-paw-balm-lifestyle.webp",
+    "/premium-cat-paw-balm-care.webp",
+    "/premium-cat-paw-balm-main.webp",
+    "/premium-cat-paw-balm-benefits.webp",
+    "/premium-cat-paw-balm-features.webp",
+  ],
+
+  description:
+  "Care for your cat's paws with the Premium Cat Paw Balm. Designed to moisturize dry and cracked paw pads and help protect against rough surfaces, hot pavement and cold weather, its gentle lick-safe formula is suitable for everyday care.",
+
+  seoTitle:
+    "Premium Cat Paw Balm | Natural Paw Protection | FluffHaven",
+
+  seoDescription:
+    "Keep your cat's paws soft, healthy and protected with FluffHaven's Premium Cat Paw Balm. Natural care for dry, cracked and sensitive paw pads.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Helps moisturize dry and cracked paw pads
+✓ Natural ingredients with lick-safe formula
+✓ Gentle on sensitive paws
+✓ Easy to apply for everyday care
+✓ Suitable for all cat breeds
+
+Care for your cat's paws with the Premium Cat Paw Balm.
+
+Its moisturizing formula helps care for dry and cracked paw pads while remaining gentle on sensitive paws.
+
+Natural ingredients and a lick-safe formula make it suitable for regular paw care.
+
+Use it for everyday indoor and outdoor paw protection throughout changing conditions.
+
+Easy to apply and suitable for all breeds, it's a practical FluffHaven essential for everyday paw care.
+`,
+},
+
+{
   id: 37,
 
   slug: "premium-cat-enrichment-duo",
@@ -3362,6 +3420,64 @@ Turn everyday meals into a more engaging experience.
 The textured designs encourage your cat to eat at a slower pace while adding mental stimulation to mealtime.
 
 Use them with wet food, treats or dry kibble for more variety every day.
+`,
+
+  inStock: true,
+
+  featured: true,
+},
+
+{
+  id: 115,
+
+  slug: "premium-cozy-cat-blanket-trio",
+
+  name: "Premium Cozy Cat Blanket Trio",
+
+  category: "cat",
+  productType: "beds-comfort",
+
+  seasons: ["autumn", "winter"],
+
+  subtitle: "3 ultra-soft blankets • Pink, white & mauve • Cozy everyday comfort",
+
+  price: 19.90,
+
+  badge: "🧸 Cozy Trio",
+
+  priceId: "price_1UBbtZKn0lmTcQ11MTbMEaJQ",
+
+  images: [
+    "/premium-cozy-cat-blanket-trio-main.webp",
+    "/premium-cozy-cat-blanket-trio-living-room.webp",
+    "/premium-cozy-cat-blanket-trio-details.webp",
+    "/premium-cozy-cat-blanket-trio-lifestyle.webp",
+    "/premium-cozy-cat-blanket-trio-cozy-details.webp",
+  ],
+
+  description:
+    "Give your cat a soft and cozy place to relax with the Premium Cozy Cat Blanket Trio. This set includes three plush blankets in pink, white and mauve, perfect for sofas, beds, baskets or your cat's favorite resting spot.",
+
+  seoTitle:
+    "Premium Cozy Cat Blanket Trio | Soft Pet Blankets | FluffHaven",
+
+  seoDescription:
+    "Set of 3 ultra-soft cat blankets in pink, white and mauve. Cozy, washable and perfect for sofas, beds, baskets and everyday cat comfort.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Set of 3 soft and cozy cat blankets
+✓ Pink, white and mauve colors
+✓ Plush texture for warm everyday comfort
+✓ Ideal for sofas, beds, baskets and carriers
+✓ Machine washable for easy care
+
+Create a cozy resting space anywhere with the Premium Cozy Cat Blanket Trio.
+
+The soft plush texture provides comfortable warmth while helping protect furniture and pet beds from fur.
+
+With three charming colors, you can easily keep one in your cat's favorite spots around the home.
 `,
 
   inStock: true,
@@ -3492,64 +3608,6 @@ The large self-adhesive mat can be trimmed to fit walls, furniture and other sui
 },
 
 {
-  id: 115,
-
-  slug: "premium-cozy-cat-blanket-trio",
-
-  name: "Premium Cozy Cat Blanket Trio",
-
-  category: "cat",
-  productType: "beds-comfort",
-
-  seasons: ["autumn", "winter"],
-
-  subtitle: "3 ultra-soft blankets • Pink, white & mauve • Cozy everyday comfort",
-
-  price: 19.90,
-
-  badge: "🧸 Cozy Trio",
-
-  priceId: "price_1UBbtZKn0lmTcQ11MTbMEaJQ",
-
-  images: [
-    "/premium-cozy-cat-blanket-trio-main.webp",
-    "/premium-cozy-cat-blanket-trio-living-room.webp",
-    "/premium-cozy-cat-blanket-trio-details.webp",
-    "/premium-cozy-cat-blanket-trio-lifestyle.webp",
-    "/premium-cozy-cat-blanket-trio-cozy-details.webp",
-  ],
-
-  description:
-    "Give your cat a soft and cozy place to relax with the Premium Cozy Cat Blanket Trio. This set includes three plush blankets in pink, white and mauve, perfect for sofas, beds, baskets or your cat's favorite resting spot.",
-
-  seoTitle:
-    "Premium Cozy Cat Blanket Trio | Soft Pet Blankets | FluffHaven",
-
-  seoDescription:
-    "Set of 3 ultra-soft cat blankets in pink, white and mauve. Cozy, washable and perfect for sofas, beds, baskets and everyday cat comfort.",
-
-  brand: "FluffHaven",
-
-  details: `
-✓ Set of 3 soft and cozy cat blankets
-✓ Pink, white and mauve colors
-✓ Plush texture for warm everyday comfort
-✓ Ideal for sofas, beds, baskets and carriers
-✓ Machine washable for easy care
-
-Create a cozy resting space anywhere with the Premium Cozy Cat Blanket Trio.
-
-The soft plush texture provides comfortable warmth while helping protect furniture and pet beds from fur.
-
-With three charming colors, you can easily keep one in your cat's favorite spots around the home.
-`,
-
-  inStock: true,
-
-  featured: true,
-},
-
-{
   id: 130,
 
   slug: "premium-reflective-cat-collar-six-pack",
@@ -3626,11 +3684,11 @@ With six different colors in one practical set, you can easily change your cat's
 
   subtitle: "Reflective design • AirTag compatible • Adjustable 23–30.5 cm",
 
-  price: 27.90,
+  price: 24.90,
 
   badge: "📍 Safety & Tracking",
 
-  priceId: "price_1U8HbYKn0lmTcQ11Owu4iX4K",
+  priceId: "price_1UFhLgKn0lmTcQ11RoNQYeim",
 
   images: [
     "/premium-airtag-compatible-cat-collar-main.webp",
@@ -4541,13 +4599,15 @@ Combining floating support, portability and comfort, this FluffHaven swim ring i
 
   subtitle: "3 mats • Slow feeding • Dogs & Cats",
 
-  price: 39.90,
+  price: 29.90,
 
   badge: "🧠 Summer Enrichment",
 
-  priceId: "price_1UBg3UKn0lmTcQ11tpbG01ae",
+  priceId: "price_1UFhXvKn0lmTcQ11PFgXVidx",
 
   images: [
+    "/premium-lick-mat-trio-pack-lifestyle.webp",
+    "/premium-lick-mat-trio-pack-features.webp",
     "/premium-lick-mat-trio-pack-main.webp",
     "/premium-lick-mat-trio-pack-kitchen.webp",
     "/premium-lick-mat-trio-pack-details.webp",
@@ -5146,13 +5206,15 @@ Durable, pet-safe and easy to clean, this water-resistant toy is suitable for do
 
   subtitle: "Puzzle toy • slow feeder • mental stimulation",
 
-  price: 27.90,
+  price: 19.90,
 
   badge: "🧠 Enrichment Essential",
 
-  priceId: "price_1UBfv3Kn0lmTcQ110bEJTD1c",
+  priceId: "price_1UFhiwKn0lmTcQ11pzDI60W6",
 
   images: [
+    "/dog-treat-ball-detail-3.webp",
+    "/dog-treat-ball-detail-4.webp",
     "/dog-treat-ball-main.webp",
     "/dog-treat-ball-detail-1.webp",
     "/dog-treat-ball-detail-2.webp",
@@ -5372,11 +5434,13 @@ Foldable and easy to store, it's a convenient FluffHaven essential for hot summe
   productType: "clothing",
   seasons: ["summer"],
   subtitle: "Evaporative cooling · lightweight · reusable",
-  price: 89.90,
+  price: 69.90,
   badge: "☀️ Summer Pick",
-  priceId: "price_1U8eTJKn0lmTcQ11LNRMDzND",
+  priceId: "price_1UFgGQKn0lmTcQ11rEGgwYWr",
 
   images: [
+    "/gilet_rafraichissant4.webp",
+    "/gilet_rafraichissant5.webp",
     "/gilet_rafraichissant.webp",
     "/gilet_rafraichissant2.webp",
     "/gilet_rafraichissant3.webp",
@@ -6330,13 +6394,15 @@ Suitable for kittens and adult cats, this FluffHaven mat provides everyday comfo
 
   subtitle: "Ultra-warm winter snowsuit • Padded protection • Size S",
 
-  price: 59.90,
+  price: 44.90,
 
   badge: "❄️ Arctic Winter Essential",
 
-  priceId: "price_1U2d9XKn0lmTcQ11OnJ6Jnfl",
+  priceId: "price_1UFgUZKn0lmTcQ11ocrE4gBy",
 
   images: [
+    "/premium-arctic-winter-cat-snowsuit-features.webp",
+    "/premium-arctic-winter-cat-snowsuit-lifestyle.webp",
     "/premium-arctic-winter-cat-snowsuit-main.webp",
     "/premium-arctic-winter-cat-snowsuit-outdoor.webp",
     "/premium-arctic-winter-cat-snowsuit-details.webp",
@@ -6928,62 +6994,6 @@ Easy to maintain and reuse, this FluffHaven kit creates a simple indoor garden f
 },
 
 {
-  id: 35,
-
-  slug: "premium-cat-paw-balm",
-
-  name: "Premium Cat Paw Balm",
-
-  category: "cat",
-  productType: "grooming-care",
-
-  seasons: ["autumn", "winter"],
-
-  subtitle: "Protect • Repair • Moisturize",
-
-  price: 32.90,
-
-  badge: "🐾 Cat Care",
-
-  priceId: "price_1TxxKfKn0lmTcQ11wNDe6Ikh",
-
-  images: [
-    "/premium-cat-paw-balm-main.webp",
-    "/premium-cat-paw-balm-benefits.webp",
-    "/premium-cat-paw-balm-features.webp",
-  ],
-
-  description:
-  "Care for your cat's paws with the Premium Cat Paw Balm. Designed to moisturize dry and cracked paw pads and help protect against rough surfaces, hot pavement and cold weather, its gentle lick-safe formula is suitable for everyday care.",
-
-  seoTitle:
-    "Premium Cat Paw Balm | Natural Paw Protection | FluffHaven",
-
-  seoDescription:
-    "Keep your cat's paws soft, healthy and protected with FluffHaven's Premium Cat Paw Balm. Natural care for dry, cracked and sensitive paw pads.",
-
-  brand: "FluffHaven",
-
-  details: `
-✓ Helps moisturize dry and cracked paw pads
-✓ Natural ingredients with lick-safe formula
-✓ Gentle on sensitive paws
-✓ Easy to apply for everyday care
-✓ Suitable for all cat breeds
-
-Care for your cat's paws with the Premium Cat Paw Balm.
-
-Its moisturizing formula helps care for dry and cracked paw pads while remaining gentle on sensitive paws.
-
-Natural ingredients and a lick-safe formula make it suitable for regular paw care.
-
-Use it for everyday indoor and outdoor paw protection throughout changing conditions.
-
-Easy to apply and suitable for all breeds, it's a practical FluffHaven essential for everyday paw care.
-`,
-},
-
-{
   id: 36,
 
   slug: "premium-cat-grooming-mist-brush",
@@ -6997,13 +7007,15 @@ Easy to apply and suitable for all breeds, it's a practical FluffHaven essential
 
   subtitle: "Gentle mist • Reduces shedding • Self-cleaning",
 
-  price: 39.90,
+  price: 24.90,
 
   badge: "🪮 Grooming Essential",
 
-  priceId: "price_1TyE8eKn0lmTcQ11nufBzFgB",
+  priceId: "price_1UFhxEKn0lmTcQ11MP8Q9gST",
 
   images: [
+    "/premium-cat-grooming-mist-brush-lifestyle.webp",
+    "/premium-cat-grooming-mist-brush-details.webp",
     "/premium-cat-grooming-mist-brush-main.webp",
     "/premium-cat-grooming-mist-brush-benefits.webp",
     "/premium-cat-grooming-mist-brush-features.webp",
