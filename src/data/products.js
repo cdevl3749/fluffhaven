@@ -3307,6 +3307,65 @@ Finished in natural wood, this complete FluffHaven feeding station combines comf
 },
 
 {
+  id: 37,
+
+  slug: "premium-cat-enrichment-duo",
+
+  name: "Premium Cat Enrichment Duo",
+
+  category: "cat",
+
+  productType: "toys",
+
+  seasons: ["summer", "autumn", "winter"],
+
+  subtitle: "2 slow feeder bowls • Mental stimulation • Blue + Pink",
+
+  price: 19.90,
+
+  badge: "🐱 Enrichment Essential",
+
+  priceId: "price_1UF1CyKn0lmTcQ11OhwP2wIx",
+
+  images: [
+    "/premium-cat-enrichment-duo-benefits-2.webp",
+    "/premium-cat-enrichment-duo-kitchen-2.webp",
+    "/premium-cat-enrichment-duo-bowl.webp",
+    "/premium-cat-enrichment-duo-main.webp",
+    "/premium-cat-enrichment-duo-features.webp",
+  ],
+
+  description:
+    "Make mealtime more engaging with two slow feeder bowls designed to encourage slower eating and provide mental stimulation. Includes one blue and one pink bowl.",
+
+  seoTitle:
+    "Premium Cat Enrichment Duo | 2 Slow Feeder Bowls | FluffHaven",
+
+  seoDescription:
+    "Two slow feeder bowls for cats in blue and pink, designed to encourage slower eating and make mealtime more engaging.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ 2 slow feeder bowls — Blue & Pink
+✓ Encourages slower eating
+✓ Provides mental stimulation at mealtime
+✓ Suitable for wet food, treats and dry kibble
+✓ Easy to clean
+
+Turn everyday meals into a more engaging experience.
+
+The textured designs encourage your cat to eat at a slower pace while adding mental stimulation to mealtime.
+
+Use them with wet food, treats or dry kibble for more variety every day.
+`,
+
+  inStock: true,
+
+  featured: true,
+},
+
+{
   id: 118,
 
   slug: "premium-reflective-cat-harness-leash-set",
@@ -5899,13 +5958,15 @@ Designed for bedrooms and living spaces, this FluffHaven bed combines comfort an
 
   subtitle: "2 winter jackets • Size M • Warm & stylish comfort",
 
-  price: 34.90,
+  price: 24.90,
 
   badge: "❄️ Winter Fashion Pack",
 
-  priceId: "price_1UDZPWKn0lmTcQ11FFlJb2cj",
+  priceId: "price_1UFZtJKn0lmTcQ11blMJPJKO",
 
   images: [
+    "/premium-winter-cat-jacket-duo-features-2.webp",
+    "/premium-winter-cat-jacket-duo-lifestyle.webp",
     "/premium-winter-cat-jacket-duo-main.webp",
     "/premium-winter-cat-jacket-duo-features.webp",
     "/premium-winter-cat-jacket-duo-details.webp",
@@ -6079,13 +6140,15 @@ Durable and machine washable, this FluffHaven duo is designed for comfortable in
 
   subtitle: "Ultra-soft fleece • 70 × 100 cm • Cozy warmth",
 
-  price: 19.90,
+  price: 12.90,
 
   badge: "🍂 Autumn Favorite",
 
-  priceId: "price_1UF0tqKn0lmTcQ11lUcvl7ZN",
+  priceId: "price_1UFZLaKn0lmTcQ11JNUtpF8B",
 
   images: [
+    "/premium-autumn-cozy-cat-blanket-features.webp",
+    "/premium-autumn-cozy-cat-blanket-lifestyle.webp",
     "/premium-autumn-cozy-cat-blanket-main.webp",
     "/premium-autumn-cozy-cat-blanket-material.webp",
     "/premium-autumn-cozy-cat-blanket-details.webp",
@@ -6139,13 +6202,15 @@ Machine washable and durable, this FluffHaven blanket combines everyday comfort 
 
   subtitle: "Soft fleece • Size M • Cozy comfort",
 
-  price: 32.90,
+  price: 19.90,
 
   badge: "🍂 Autumn Favorite",
 
-  priceId: "price_1U1YVJKn0lmTcQ115kW1QJSg",
+  priceId: "price_1UFZVdKn0lmTcQ11GJMSBcRK",
 
   images: [
+    "/premium-autumn-teddy-cat-vest-comfort.webp",
+    "/premium-autumn-teddy-cat-vest-features.webp",
     "/premium-autumn-teddy-cat-vest-main.webp",
     "/premium-autumn-teddy-cat-vest-outdoor.webp",
     "/premium-autumn-teddy-cat-vest-details.webp",
@@ -6626,13 +6691,15 @@ Easy to clean and suitable for cats of all sizes, it's practical for indoor and 
 
   subtitle: "Escape-proof • Adjustable fit • Outdoor adventures",
 
-  price: 24.90,
+  price: 19.90,
 
   badge: "🐱 Outdoor Adventure",
 
-  priceId: "price_1UF19vKn0lmTcQ115Z8Ux75w",
+  priceId: "price_1UFZfXKn0lmTcQ11lwqA21rL",
 
   images: [
+    "/premium-cat-harness-leash-set-features-2.webp",
+    "/premium-cat-harness-leash-set-lifestyle.webp",
     "/premium-cat-harness-leash-set-main.webp",
     "/premium-cat-harness-leash-set-outdoor.webp",
     "/premium-cat-harness-leash-set-details.webp",
@@ -6735,68 +6802,6 @@ Lightweight and easy to use, this FluffHaven set provides everyday enrichment fo
 },
 
 {
-  id: 37,
-
-  slug: "premium-cat-enrichment-duo",
-
-  name: "Premium Cat Enrichment Duo",
-
-  category: "cat",
-  productType: "toys",
-
-  seasons: ["summer", "autumn", "winter"],
-
-  subtitle: "2 slow feeding mats • Mental stimulation • Blue + Pink",
-
-  price: 19.90,
-
-  badge: "🐱 Enrichment Essential",
-
-  priceId: "price_1UF1CyKn0lmTcQ11OhwP2wIx",
-
-  images: [
-    "/premium-cat-enrichment-duo-benefits-2.webp",
-    "/premium-cat-enrichment-duo-kitchen-2.webp",
-    "/premium-cat-enrichment-duo-bowl.webp",
-    "/premium-cat-enrichment-duo-main.webp",
-    "/premium-cat-enrichment-duo-features.webp",
-  ],
-
-  description:
-  "Make mealtime more engaging with the Premium Cat Enrichment Duo. This set includes two slow feeding mats — one blue and one pink — designed to encourage slower eating, reduce gulping and provide mental stimulation during meals.",
-
-  seoTitle:
-    "Premium Cat Enrichment Duo | 2 Slow Feeding Mats | FluffHaven",
-
-  seoDescription:
-    "Premium cat enrichment duo with 2 slow feeding mats in blue and pink. Encourage slower eating, mental stimulation and healthier mealtime habits with FluffHaven.",
-
-  brand: "FluffHaven",
-
-  details: `
-✓ 2 slow feeding mats — Blue & Pink
-✓ Food-grade silicone with strong suction base
-✓ Encourages slower eating and mental stimulation
-✓ Suitable for wet food, treats and dry kibble
-✓ Dishwasher safe and suitable for cats of all ages
-
-Make mealtime more engaging with the Premium Cat Enrichment Duo.
-
-The two slow feeding mats encourage a slower eating pace while helping reduce gulping.
-
-Soft food-grade silicone and a strong suction base provide practical everyday use.
-
-Suitable for wet food, treats or dry kibble, the mats fit most pet bowls and offer variety at mealtime.
-
-Easy to clean and dishwasher safe, this FluffHaven duo is suitable for cats of all ages.
-`,
-
-  inStock: true,
-
-  featured: true,
-},
-
-{
   id: 41,
 
   slug: "premium-cat-play-box",
@@ -6870,17 +6875,19 @@ Made from durable, non-toxic materials, this FluffHaven set provides everyday en
 
   subtitle: "Fresh indoor greens • Reusable planter • For cats",
 
-  price: 29.90,
+  price: 19.90,
 
   badge: "🌿 Indoor Essential",
 
-  priceId: "price_1TydDSKn0lmTcQ11mbTmiKpI",
+  priceId: "price_1UFZBzKn0lmTcQ11H4rHz5DI",
 
   images: [
-    "/premium-cat-grass-growing-kit-main.webp",
-    "/premium-cat-grass-growing-kit-features.webp",
-    "/premium-cat-grass-growing-kit-lifestyle.webp",
-  ],
+  "/premium-cat-grass-growing-kit-home.webp",
+  "/premium-cat-grass-growing-kit-features.webp",
+  "/premium-cat-grass-growing-kit-lifestyle.webp",
+  "/premium-cat-grass-growing-kit-benefits.webp",
+  "/premium-cat-grass-growing-kit-main.webp",
+],
 
   description:
   "Create fresh indoor greens for your cat with the Premium Indoor Cat Garden Kit. This reusable planter includes a basket, drainage tray and cat-friendly wheatgrass seeds for a simple indoor growing experience.",
@@ -7410,15 +7417,17 @@ Made from durable BPA-free material, it's a practical FluffHaven enrichment toy 
   productType: "beds-comfort",
   seasons: ["autumn", "winter"],
   subtitle: "Soft faux-linen · cozy hideaway · removable cushion",
-  price: 34.90,
+  price: 24.90,
   badge: "☁️ Cozy",
 
-  priceId: "price_1U8gI6Kn0lmTcQ11J61WyCfv",
+  priceId: "price_1UFa6aKn0lmTcQ11rGnKGZY3",
 
   images: [
-    "/niche_chat.webp",
+    "/cozy-cat-cave-bed-features.webp",
+    "/cozy-cat-cave-bed-lifestyle.webp",
     "/niche_chat2.webp",
-    "/niche_chat3.webp"
+    "/niche_chat3.webp",
+    "/niche_chat.webp"
   ],
 
   description:
