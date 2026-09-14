@@ -177,6 +177,68 @@ Its soft textured surface and easy-to-carry shape make it ideal for fetching, ca
 },
 
 {
+  id: 62,
+
+  slug: "premium-floating-rope-ball",
+
+  name: "Premium Floating Rope Ball",
+
+  category: "dog",
+  productType: "toys",
+
+  seasons: ["summer"],
+
+  subtitle: "Floating EVA ball • Rope handle • Water fun",
+
+  price: 17.90,
+
+  badge: "💦 Water Adventure",
+
+  priceId: "price_1UFcFHKn0lmTcQ11qNtA10Pf",
+
+  images: [
+    "/premium-floating-rope-ball-lifestyle.webp",
+    "/premium-floating-rope-ball-features.webp", 
+    "/premium-floating-rope-ball-main.webp",
+    "/premium-floating-rope-ball-beach.webp",
+    "/premium-floating-rope-ball-details.webp",
+  ],
+
+  description:
+  "Make every splash count with the Premium Floating Rope Ball. Crafted from lightweight EVA foam with a durable rope handle, this floating fetch toy is ideal for pools, lakes and beach adventures. Easy to throw, highly visible on the water and gentle on your dog's teeth, it's designed for summer fun.",
+
+  seoTitle:
+    "Premium Floating Rope Ball | Floating Dog Water Toy | FluffHaven",
+
+  seoDescription:
+    "Premium Floating Rope Ball made from lightweight EVA foam with durable rope. Floats on water and is perfect for beach, pool and lake adventures.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Lightweight EVA foam ball that floats on water
+✓ Strong braided rope handle for easy throwing
+✓ Gentle on teeth and gums
+✓ High-visibility yellow design for easy retrieval
+✓ Ideal for pool, lake and beach adventures
+
+Bring excitement to every water adventure with the Premium Floating Rope Ball, designed for active fetch play in and around the water.
+
+Its lightweight EVA foam construction floats easily, while the bright yellow design helps your dog spot and retrieve it.
+
+The strong braided rope provides a comfortable grip for throwing and interactive games.
+
+Durable and quick-drying, the ball remains gentle on your dog's teeth and gums during play.
+
+Combining floating performance, easy retrieval and active fun, it's a practical FluffHaven companion for summer adventures.
+`,
+
+  inStock: true,
+
+  featured: true,
+},
+
+{
   id: 136,
 
   slug: "premium-tactical-adventure-dog-collar",
@@ -235,6 +297,68 @@ The integrated AirTag holder provides a practical place to securely carry a comp
 A stylish and functional FluffHaven essential for dogs who love exploring.
 `,
 
+  inStock: true,
+
+  featured: true,
+},
+
+{
+  id: 38,
+
+  slug: "premium-dog-enrichment-duo",
+
+  name: "Premium Dog Enrichment Duo",
+
+  category: "dog",
+  productType: "toys",
+
+  seasons: ["summer", "autumn", "winter"],
+
+  subtitle: "Slow down mealtime • Keep your dog engaged • 2 enrichment mats included",
+
+  price: 17.90,
+
+  badge: "🐶 Enrichment Essential",
+
+  promo: "10% OFF",
+  promoCode: "FLUFF10",
+
+  priceId: "price_1UDUeXKn0lmTcQ11npm3jF4z",
+
+  images: [
+    "/dog-enrichment-duo-main.webp",
+    "/dog-enrichment-duo-features.webp",
+    "/dog-enrichment-duo-bowl.webp",
+    "/dog-enrichment-duo-size.webp",
+    "/dog-enrichment-duo-lifestyle.webp",
+  ],
+
+  description:
+  "Turn mealtime into a healthier and more stimulating experience with the Premium Dog Enrichment Duo. This set includes two slow feeding mats — one blue and one pink — designed to encourage slower eating, reduce gulping and keep your dog mentally engaged.",
+
+  seoTitle:
+    "Premium Dog Enrichment Duo | 2 Slow Feeding Mats | FluffHaven",
+
+  seoDescription:
+    "Premium dog enrichment duo with 2 slow feeding mats in blue and pink. Encourage slower eating, mental stimulation and healthier mealtime habits with FluffHaven.",
+
+  brand: "FluffHaven",
+
+  details: `
+
+✓ Set of 2 slow feeding mats — Blue + Pink
+
+✓ Encourages slower eating and mental stimulation
+
+✓ Food-grade BPA-free silicone
+
+✓ Strong suction cups for better stability
+
+✓ Dishwasher and freezer safe
+
+Make mealtime slower, healthier and more engaging. The textured surfaces provide mental stimulation, while strong suction cups help keep the mats securely in place.
+
+`,
   inStock: true,
 
   featured: true,
@@ -352,68 +476,6 @@ Its stainless steel blades help collect loose hair while keeping regular groomin
 A practical FluffHaven essential for a healthier-looking coat and a cleaner home.
 `,
 
-  inStock: true,
-
-  featured: true,
-},
-
-  {
-  id: 38,
-
-  slug: "premium-dog-enrichment-duo",
-
-  name: "Premium Dog Enrichment Duo",
-
-  category: "dog",
-  productType: "toys",
-
-  seasons: ["summer", "autumn", "winter"],
-
-  subtitle: "Slow down mealtime • Keep your dog engaged • 2 enrichment mats included",
-
-  price: 17.90,
-
-  badge: "🐶 Enrichment Essential",
-
-  promo: "10% OFF",
-  promoCode: "FLUFF10",
-
-  priceId: "price_1UDUeXKn0lmTcQ11npm3jF4z",
-
-  images: [
-    "/dog-enrichment-duo-main.webp",
-    "/dog-enrichment-duo-features.webp",
-    "/dog-enrichment-duo-bowl.webp",
-    "/dog-enrichment-duo-size.webp",
-    "/dog-enrichment-duo-lifestyle.webp",
-  ],
-
-  description:
-  "Turn mealtime into a healthier and more stimulating experience with the Premium Dog Enrichment Duo. This set includes two slow feeding mats — one blue and one pink — designed to encourage slower eating, reduce gulping and keep your dog mentally engaged.",
-
-  seoTitle:
-    "Premium Dog Enrichment Duo | 2 Slow Feeding Mats | FluffHaven",
-
-  seoDescription:
-    "Premium dog enrichment duo with 2 slow feeding mats in blue and pink. Encourage slower eating, mental stimulation and healthier mealtime habits with FluffHaven.",
-
-  brand: "FluffHaven",
-
-  details: `
-
-✓ Set of 2 slow feeding mats — Blue + Pink
-
-✓ Encourages slower eating and mental stimulation
-
-✓ Food-grade BPA-free silicone
-
-✓ Strong suction cups for better stability
-
-✓ Dishwasher and freezer safe
-
-Make mealtime slower, healthier and more engaging. The textured surfaces provide mental stimulation, while strong suction cups help keep the mats securely in place.
-
-`,
   inStock: true,
 
   featured: true,
@@ -722,11 +784,11 @@ Easy to clean and simple to use, it's a convenient FluffHaven accessory for ever
 
   subtitle: "Shampoo dispenser • Soft silicone bristles • Massage & clean",
 
-  price: 24.90,
+  price: 17.90,
 
   badge: "🛁 Bath Essential",
 
-  priceId: "price_1UDZJ0Kn0lmTcQ117twexESY",
+  priceId: "price_1UFbZNKn0lmTcQ11gHslIvdQ",
 
   images: [
     "/premium-shampoo-dispensing-dog-bath-brush-main.webp",
@@ -1122,11 +1184,11 @@ A practical FluffHaven essential for easier grooming and a cleaner home.
 
   subtitle: "5700 Hz frequency • Neck lanyard • Lightweight • Outdoor training",
 
-  price: 19.90,
+  price: 12.90,
 
   badge: "🎯 Training Essential",
 
-  priceId: "price_1U9MpNKn0lmTcQ11HSqdQCYs",
+  priceId: "price_1UFbdOKn0lmTcQ11qvwXSsKr",
 
   images: [
     "/premium-dog-training-whistle-outdoor.webp",
@@ -2595,15 +2657,17 @@ Combining cooling refreshment with interactive fun, it's a FluffHaven summer ess
 
   subtitle: "Interactive puzzle • Treat dispenser • Smart mental stimulation",
 
-  price: 74.90,
+  price: 34.90,
 
   badge: "🧠 Smart Play Essential",
 
-  priceId: "price_1U4iKDKn0lmTcQ11UYxvipmf",
+  priceId: "price_1UFbhMKn0lmTcQ11R1pBj2Gx",
 
   images: [
     "/premium-interactive-dog-puzzle-treat-dispenser-main.webp",
     "/premium-interactive-dog-puzzle-treat-dispenser-kitchen.webp",
+    "/premium-interactive-dog-puzzle-treat-dispenser-features.webp",
+    "/premium-interactive-dog-puzzle-treat-dispenser-lifestyle.webp",
     "/premium-interactive-dog-puzzle-treat-dispenser-details.webp",
   ],
 
@@ -2933,66 +2997,6 @@ A sturdy top rescue handle provides an easy way to assist your dog when entering
 Lightweight and quick-drying, it's ideal for swimming, pool days, beaches, lakes, boating and other water activities.
 
 Combining flotation support, visibility and comfort, this Size L FluffHaven life jacket is made for memorable water adventures.
-`,
-
-  inStock: true,
-
-  featured: true,
-},
-
-{
-  id: 62,
-
-  slug: "premium-floating-rope-ball",
-
-  name: "Premium Floating Rope Ball",
-
-  category: "dog",
-  productType: "toys",
-
-  seasons: ["summer"],
-
-  subtitle: "Floating EVA ball • Rope handle • Water fun",
-
-  price: 24.90,
-
-  badge: "💦 Water Adventure",
-
-  priceId: "price_1UBgLnKn0lmTcQ11UTeq65N5",
-
-  images: [
-    "/premium-floating-rope-ball-main.webp",
-    "/premium-floating-rope-ball-beach.webp",
-    "/premium-floating-rope-ball-details.webp",
-  ],
-
-  description:
-  "Make every splash count with the Premium Floating Rope Ball. Crafted from lightweight EVA foam with a durable rope handle, this floating fetch toy is ideal for pools, lakes and beach adventures. Easy to throw, highly visible on the water and gentle on your dog's teeth, it's designed for summer fun.",
-
-  seoTitle:
-    "Premium Floating Rope Ball | Floating Dog Water Toy | FluffHaven",
-
-  seoDescription:
-    "Premium Floating Rope Ball made from lightweight EVA foam with durable rope. Floats on water and is perfect for beach, pool and lake adventures.",
-
-  brand: "FluffHaven",
-
-  details: `
-✓ Lightweight EVA foam ball that floats on water
-✓ Strong braided rope handle for easy throwing
-✓ Gentle on teeth and gums
-✓ High-visibility yellow design for easy retrieval
-✓ Ideal for pool, lake and beach adventures
-
-Bring excitement to every water adventure with the Premium Floating Rope Ball, designed for active fetch play in and around the water.
-
-Its lightweight EVA foam construction floats easily, while the bright yellow design helps your dog spot and retrieve it.
-
-The strong braided rope provides a comfortable grip for throwing and interactive games.
-
-Durable and quick-drying, the ball remains gentle on your dog's teeth and gums during play.
-
-Combining floating performance, easy retrieval and active fun, it's a practical FluffHaven companion for summer adventures.
 `,
 
   inStock: true,
