@@ -7478,39 +7478,42 @@ Foldable and easy to store, it's a practical FluffHaven hideaway for everyday in
   productType: "grooming-care",
   seasons: ["summer", "autumn", "winter"],
   subtitle: "Wall mounted · soft bristles · stress relief",
-  price: 17.90,
+  price: 12.90,
   badge: "✨ Relaxing",
 
-  priceId: "price_1U8gKUKn0lmTcQ11bkCyIAv6",
+  priceId: "price_1UG0H6Kn0lmTcQ110SywwPPT",
 
   images: [
-    "/brush_chat.webp",
-    "/brush_chat2.webp",
-    "/brush_chat3.webp"
-  ],
+  "/brush_chat.webp",
+  "/brush_chat2.webp",
+  "/brush_chat3.webp",
+  "/brush_chat4.webp",
+  "/brush_chat5.webp",
+],
 
-  description:
+ description:
   "Give your cat an easy way to groom and rub with this wall-mounted self-grooming brush, designed for comfortable everyday indoor use.",
-  seoTitle: "Cat Self Grooming Brush | Wall Mounted Cat Brush | FluffHaven",
-  seoDescription: "Help your cat groom itself naturally with this wall-mounted self grooming brush featuring soft silicone bristles for everyday comfort.",
-  brand: "FluffHaven",
 
-  details: `
+seoTitle:
+  "Cat Self Grooming Brush | Wall Mounted Cat Brush | FluffHaven",
+
+seoDescription:
+  "Help your cat groom itself naturally with this wall-mounted self-grooming brush featuring soft silicone bristles for everyday comfort.",
+
+brand: "FluffHaven",
+
+details: `
 ✓ Soft silicone grooming bristles
 ✓ Wall-mounted corner design
 ✓ Helps collect loose hair
-✓ Encourages natural rubbing behaviour
-✓ Easy to clean for everyday indoor use
+✓ Encourages natural rubbing
+✓ Easy to clean
 
-Give your cat an independent grooming spot with this Wall-Mounted Self-Grooming Brush.
+Give your cat its own comfortable grooming spot at home.
 
-Soft silicone bristles provide a comfortable surface for rubbing while helping collect loose hair.
+The soft silicone bristles help collect loose hair while giving your cat a satisfying place to rub and groom naturally.
 
-The corner-mounted design allows your cat to use the brush whenever it wants.
-
-Natural rubbing behaviour provides simple everyday grooming and enrichment.
-
-Easy to clean and designed for indoor use, it's a practical FluffHaven grooming accessory for the home.
+Easy to install, easy to clean, and perfect for everyday indoor use.
 `,
 },
 {
