@@ -451,6 +451,34 @@ useEffect(() => {
   const [productTypeFilter, setProductTypeFilter] = useState("all");
   const [priceSort, setPriceSort] = useState("default");
   const [visibleProductCount, setVisibleProductCount] = useState(3);
+  const [currentReview, setCurrentReview] = useState(0);
+
+  const reviews = [
+  {
+    name: "Anastasiia Odiehova-Lobo",
+    role: "",
+    image: "/images/reviews/anastasiia.webp",
+    text: "FluffHaven started with one rescue dog and someone who actually cared about getting her the right things. That's rare in this category, and worth building on.",
+  },
+  {
+    name: "Louise J.",
+    role: "Founder • LJ Event Expérience",
+    image: "/images/reviews/louise-j.webp",
+    text: "FluffHaven has a warm and reassuring visual identity. Ponpon gives the brand a friendly, human touch, while the product pages provide helpful information that reassures potential buyers.",
+  },
+];
+
+const [isReviewPaused, setIsReviewPaused] = useState(false);
+
+useEffect(() => {
+  if (isReviewPaused) return;
+
+  const interval = setInterval(() => {
+    setCurrentReview((prev) => (prev + 1) % reviews.length);
+  }, 6000);
+
+  return () => clearInterval(interval);
+}, [isReviewPaused, reviews.length]);
 
 useEffect(() => {
   setVisibleProductCount(3);
@@ -1078,16 +1106,17 @@ if (priceSort === "high") {
         <div className="trust-item"><div className="trust-icon">↩️</div><div><strong>Easy Returns</strong><span>14-day no-questions guarantee</span></div></div>
       </section>
 
-     {/* REVIEWS */}
+    {/* REVIEWS */}
 <section id="reviews" className="section reviews-section">
   <div className="section-label">Reviews</div>
 
   <h2>What people say about FluffHaven</h2>
 
   <div className="reviews">
-    {/* LOUISE REVIEW */}
     <div
       className="review"
+      onMouseEnter={() => setIsReviewPaused(true)}
+      onMouseLeave={() => setIsReviewPaused(false)}
       style={{
         gridColumn: "1 / -1",
         maxWidth: "850px",
@@ -1096,8 +1125,8 @@ if (priceSort === "high") {
       }}
     >
       <img
-        src="/images/reviews/louise-j.webp"
-        alt="Louise J. - LJ Event Expérience"
+        src={reviews[currentReview].image}
+        alt={reviews[currentReview].name}
         style={{
           width: "90px",
           height: "90px",
@@ -1121,23 +1150,49 @@ if (priceSort === "high") {
       </div>
 
       <p style={{ fontSize: "18px", lineHeight: "1.7" }}>
-        “FluffHaven has a warm and reassuring visual identity.
-        Ponpon gives the brand a friendly, human touch, while the
-        product pages provide helpful information that reassures
-        potential buyers.”
+        “{reviews[currentReview].text}”
       </p>
 
-      <h3 style={{ marginBottom: "4px" }}>Louise J.</h3>
+      <h3 style={{ marginBottom: "4px" }}>
+        {reviews[currentReview].name}
+      </h3>
 
-      <p
+      {reviews[currentReview].role && (
+        <p
+          style={{
+            fontSize: "14px",
+            opacity: "0.75",
+            marginTop: "0",
+          }}
+        >
+          {reviews[currentReview].role}
+        </p>
+      )}
+
+      <div
         style={{
-          fontSize: "14px",
-          opacity: "0.75",
-          marginTop: "0",
+          marginTop: "18px",
+          fontSize: "12px",
+          opacity: "0.45",
+          letterSpacing: "6px",
         }}
       >
-        Founder • LJ Event Expérience
-      </p>
+       {reviews.map((_, index) => (
+        <span
+          key={index}
+          onClick={() => setCurrentReview(index)}
+          style={{
+            cursor: "pointer",
+            fontSize: "20px",
+            display: "inline-block",
+            padding: "4px",
+          }}
+          aria-label={`Show review ${index + 1}`}
+        >
+          {index === currentReview ? "●" : "○"}
+        </span>
+      ))}
+      </div>
     </div>
   </div>
 </section>
