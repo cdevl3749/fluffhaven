@@ -6155,6 +6155,8 @@ Suitable for kittens and adult cats, it's a fun FluffHaven scratching and play a
   priceId: "price_1TzkraKn0lmTcQ11heDtNL9W",
 
   images: [
+    "/cozy-cat-cave-duo-4.webp",
+    "/cozy-cat-cave-duo-5.webp",
     "/cozy-cat-cave-duo-main.webp",
     "/cozy-cat-cave-duo-features.webp",
     "/cozy-cat-cave-duo-details.webp",
@@ -7326,7 +7328,13 @@ Designed for indoor use, it provides an alternative scratching surface while hel
     price: 19.90,
     badge: "Fun",
     priceId: "price_1U8g8XKn0lmTcQ11rbfrsZOr",
-    images: ["/plume_chat.webp", "/plume_chat2.webp", "/plume_chat3.webp"],
+    images: [
+      "/plume_chat4.webp",
+      "/plume_chat5.webp",
+      "/plume_chat.webp",
+      "/plume_chat2.webp",
+      "/plume_chat3.webp",
+    ],
     description: "Keep your cat active with this 12-piece interactive feather toy set. Featuring retractable wands and colorful feather attachments, it's designed for engaging everyday play with cats and kittens.",
     seoTitle: "Feather Wand Cat Toy Set | Interactive Cat Teaser | FluffHaven",
     seoDescription: "Keep your cat active with this interactive feather wand toy set featuring retractable wands and colorful teaser refills.",

@@ -14,6 +14,57 @@ export default function ProductPage({ onAddToCart }) {
 
   const product = PRODUCTS.find((item) => item.slug === slug);
 
+  const savedShopFilters = (() => {
+  try {
+    return JSON.parse(
+      sessionStorage.getItem("fluffhaven_shop_filters")
+    ) || {};
+  } catch {
+    return {};
+  }
+})();
+
+const filteredNavigationProducts = PRODUCTS.filter((item) => {
+  const matchesPet =
+    !savedShopFilters.petFilter ||
+    savedShopFilters.petFilter === "all" ||
+    item.category === savedShopFilters.petFilter;
+
+ const matchesSeason =
+  !savedShopFilters.seasonFilter ||
+  savedShopFilters.seasonFilter === "all" ||
+  item.seasons?.includes(savedShopFilters.seasonFilter);
+
+  const matchesProductType =
+    !savedShopFilters.productTypeFilter ||
+    savedShopFilters.productTypeFilter === "all" ||
+    item.productType === savedShopFilters.productTypeFilter;
+
+  return matchesPet && matchesSeason && matchesProductType;
+});
+
+if (savedShopFilters.priceSort === "low") {
+  filteredNavigationProducts.sort((a, b) => a.price - b.price);
+}
+
+if (savedShopFilters.priceSort === "high") {
+  filteredNavigationProducts.sort((a, b) => b.price - a.price);
+}
+
+  const currentProductIndex = filteredNavigationProducts.findIndex(
+  (item) => item.slug === slug
+);
+
+const previousProduct =
+  currentProductIndex > 0
+    ? filteredNavigationProducts[currentProductIndex - 1]
+    : null;
+
+const nextProduct =
+  currentProductIndex >= 0 &&
+  currentProductIndex < filteredNavigationProducts.length - 1
+    ? filteredNavigationProducts[currentProductIndex + 1]
+    : null;
   const [cart, setCart] = useState(() => {
   const savedCart = localStorage.getItem("fluffhaven_cart");
   return savedCart ? JSON.parse(savedCart) : [];
@@ -169,6 +220,32 @@ async function handleCheckout() {
           ← Back to Shop
         </a>
       </div>
+
+      <div className="product-nav">
+  {previousProduct && (
+  <a
+    href={`/product/${previousProduct.slug}`}
+    className="product-nav-link product-nav-prev"
+  >
+    <span>←</span>
+    <span className="product-nav-desktop">Previous Product</span>
+    <span className="product-nav-mobile">Previous</span>
+  </a>
+)}
+
+  <span className="product-nav-label">Explore more</span>
+
+  {nextProduct && (
+  <a
+    href={`/product/${nextProduct.slug}`}
+    className="product-nav-link product-nav-next"
+  >
+    <span className="product-nav-desktop">Next Product</span>
+    <span className="product-nav-mobile">Next</span>
+    <span>→</span>
+  </a>
+)}
+</div>
 
       <main className="product-page">
 

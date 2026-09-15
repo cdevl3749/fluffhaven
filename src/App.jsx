@@ -445,11 +445,33 @@ useEffect(() => {
 
   const [cartNotice, setCartNotice] = useState(false);
   const [showBackTop, setShowBackTop] = useState(false);
-  const [activeTab, setActiveTab] = useState("all");
-  const [petFilter, setPetFilter] = useState("all");
-  const [seasonFilter, setSeasonFilter] = useState("all");
-  const [productTypeFilter, setProductTypeFilter] = useState("all");
-  const [priceSort, setPriceSort] = useState("default");
+  const savedShopFilters = (() => {
+  try {
+    return JSON.parse(
+      sessionStorage.getItem("fluffhaven_shop_filters")
+    ) || {};
+  } catch {
+    return {};
+  }
+})();
+
+const [activeTab, setActiveTab] = useState(savedShopFilters.activeTab || "all");
+const [petFilter, setPetFilter] = useState(savedShopFilters.petFilter || "all");
+const [seasonFilter, setSeasonFilter] = useState(savedShopFilters.seasonFilter || "all");
+const [productTypeFilter, setProductTypeFilter] = useState(savedShopFilters.productTypeFilter || "all");
+const [priceSort, setPriceSort] = useState(savedShopFilters.priceSort || "default");
+  useEffect(() => {
+  sessionStorage.setItem(
+    "fluffhaven_shop_filters",
+    JSON.stringify({
+      activeTab,
+      petFilter,
+      seasonFilter,
+      productTypeFilter,
+      priceSort,
+    })
+  );
+}, [activeTab, petFilter, seasonFilter, productTypeFilter, priceSort]);
   const [visibleProductCount, setVisibleProductCount] = useState(3);
   const [currentReview, setCurrentReview] = useState(0);
 
