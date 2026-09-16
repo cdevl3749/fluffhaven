@@ -1326,6 +1326,23 @@ if (priceSort === "high") {
             </a>
           </p>
 
+                <div className="footer-payments">
+                  <div className="footer-payments-title">Accepted payments</div>
+
+                  <div className="payment-methods">
+                    <img src="/payments/visa.svg" alt="Visa" />
+                    <img src="/payments/mastercard.svg" alt="Mastercard" />
+                    <img src="/payments/applePay.svg" alt="Apple Pay" />
+                    <img src="/payments/googlePay.svg" alt="Google Pay" />
+                    <img src="/payments/amazonPay.svg" alt="Amazon Pay" />
+                    <img src="/payments/klarna.svg" alt="Klarna" />
+                    <img src="/payments/bancontact.svg" alt="Bancontact" />
+                  </div>
+
+                  <div className="footer-payments-secure">
+                    🔒 Secure payments powered by Stripe
+                  </div>
+                </div>
         </div>
         <div className="footer-nav">
           <h4>Navigation</h4>

@@ -110,6 +110,16 @@ export default function ProductInfo({ product, onAddToCart }) {
     🔒 Secure payment with Stripe
   </p>
 
+  <div className="product-payment-logos" aria-label="Accepted payment methods">
+  <img src="/payments/visa.svg" alt="Visa" />
+  <img src="/payments/mastercard.svg" alt="Mastercard" />
+  <img src="/payments/applePay.svg" alt="Apple Pay" />
+  <img src="/payments/googlePay.svg" alt="Google Pay" />
+  <img src="/payments/amazonPay.svg" alt="Amazon Pay" />
+  <img src="/payments/klarna.svg" alt="Klarna" />
+  <img src="/payments/bancontact.svg" alt="Bancontact" />
+  </div>
+
   <p className="product-price-secondary">
     🚚 Estimated delivery: 5–8 business days
   </p>

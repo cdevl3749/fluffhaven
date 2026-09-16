@@ -977,3 +977,21 @@
     padding-top: 48px;
   }
 }
+
+.product-payment-logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 8px auto 12px;
+}
+
+.product-payment-logos img {
+  width: 48px;
+  height: 30px;
+  object-fit: contain;
+  background: #fff;
+  border-radius: 4px;
+  padding: 3px 5px;
+}
