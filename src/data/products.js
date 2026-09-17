@@ -644,13 +644,9 @@ Lightweight, practical and designed for everyday use, it's a simple FluffHaven e
 
 ✓ Comfortable handheld design
 
-Make bath time simpler and more relaxing for your dog.
+Make bath time simpler and more enjoyable with this practical 3-in-1 grooming set.
 
-The Premium 3-in-1 Pet Grooming Set combines practical cleaning tools with soft massage bristles to help make regular grooming more comfortable.
-
-The shampoo dispensing brush allows you to apply and distribute shampoo while gently massaging your dog's coat, while the additional grooming brushes provide convenient options for washing and everyday care.
-
-Soft silicone bristles help provide a gentle massage while cleaning, making this versatile set a practical addition to your dog's grooming routine.
+The shampoo dispensing brush helps apply shampoo while gently massaging the coat, while the additional brushes make everyday grooming quick and easy.
 
 `,
 
@@ -2476,16 +2472,18 @@ Combining contact-free operation, quick readings and a clear display, this therm
 
   subtitle: "One-click cleaning • Stainless steel pins • Easy everyday grooming",
 
-  price: 22.90,
+  price: 16.90,
   badge: "✨ Grooming Essential",
 
-  priceId: "price_1U4kDRKn0lmTcQ11QpUJxw7G",
+  priceId: "price_1UGenXKn0lmTcQ11TyYZ0rbj",
 
-  images: [
-    "/premium-one-click-self-cleaning-dog-brush-main.webp",
-    "/premium-one-click-self-cleaning-dog-brush-garden.webp",
-    "/premium-one-click-self-cleaning-dog-brush-details.webp",
-  ],
+images: [
+  "/premium-one-click-self-cleaning-dog-brush-4.webp",
+  "/premium-one-click-self-cleaning-dog-brush-5.webp",
+  "/premium-one-click-self-cleaning-dog-brush-main.webp",
+  "/premium-one-click-self-cleaning-dog-brush-garden.webp",
+  "/premium-one-click-self-cleaning-dog-brush-details.webp",
+],
 
   description:
   "Make everyday grooming easier with the Premium One-Click Self-Cleaning Dog Brush. Designed with stainless steel pins to gently remove loose fur and help maintain a smooth, healthy-looking coat, this grooming brush combines comfort and convenience. Its one-click self-cleaning mechanism helps release collected hair, while the ergonomic non-slip handle provides a comfortable grip during grooming sessions.",
@@ -4415,11 +4413,11 @@ For the best fit, please measure your dog before ordering.
 
   subtitle: "Warm waterproof vest • Wind protection • Size L",
 
-  price: 37.90,
+  price: 32.90,
 
   badge: "❄️ Winter Outdoor Essential",
 
-  priceId: "price_1U2dz3Kn0lmTcQ114PvfpiuM",
+  priceId: "price_1UGfATKn0lmTcQ11BeeVy1eI",
 
   images: [
     "/premium-arctic-waterproof-dog-vest-lifestyle.webp",
@@ -5792,10 +5790,12 @@ USB rechargeable and suitable for cats and dogs, it's a convenient FluffHaven gr
   badge: "🔥 Trending",
 
   images: [
-    "/gant_anti_poils.webp",
-    "/gant_anti_poils2.webp",
-    "/gant_anti_poils3.webp",
-  ],
+  "/gant_anti_poils44.webp",
+  "/gant_anti_poils5.webp",
+  "/gant_anti_poils.webp",
+  "/gant_anti_poils2.webp",
+  "/gant_anti_poils3.webp",
+],
 
   description:
   "Remove pet hair from sofas, clothes, carpets and car seats with this practical reusable remover. Washable and easy to use for everyday cleaning.",
@@ -6088,17 +6088,19 @@ Lightweight and machine washable, this FluffHaven duo combines warmth, practical
 
   subtitle: "2-level scratcher • Interactive ball • Honeycomb cardboard",
 
-  price: 32.90,
+  price: 24.90,
 
   badge: "🐾 Interactive Play Favorite",
 
-  priceId: "price_1U4MRfKn0lmTcQ11FevZIAsB",
+  priceId: "price_1UGc8NKn0lmTcQ115LtskY0u",
 
   images: [
-    "/premium-interactive-cat-scratcher-maze-main.webp",
-    "/premium-interactive-cat-scratcher-maze-indoor.webp",
-    "/premium-interactive-cat-scratcher-maze-details.webp",
-  ],
+  "/premium-interactive-cat-scratcher-maze-4.webp",
+  "/premium-interactive-cat-scratcher-maze-5.webp",
+  "/premium-interactive-cat-scratcher-maze-main.webp",
+  "/premium-interactive-cat-scratcher-maze-indoor.webp",
+  "/premium-interactive-cat-scratcher-maze-details.webp",
+],
 
   description:
   "Turn scratching into interactive play with the Premium Interactive Cat Scratcher Maze. Featuring a two-level honeycomb cardboard design and rolling ball, it encourages scratching, chasing and exploration while providing a durable textured surface for indoor play.",
@@ -6588,10 +6590,12 @@ Lightweight and portable, this FluffHaven playpen is practical for home, garden,
   priceId: "price_1U1Y3uKn0lmTcQ11aI9faeCp",
 
   images: [
-    "/premium-floating-water-play-mat-cat-main.webp",
-    "/premium-floating-water-play-mat-cat-play.webp",
-    "/premium-floating-water-play-mat-cat-details.webp",
-  ],
+  "/premium-floating-water-play-mat-cat-4.webp",
+  "/premium-floating-water-play-mat-cat-5.webp",
+  "/premium-floating-water-play-mat-cat-main.webp",
+  "/premium-floating-water-play-mat-cat-play.webp",
+  "/premium-floating-water-play-mat-cat-details.webp",
+],
 
   description:
   "Keep your cat entertained and refreshed with the Premium Floating Water Play Mat. Filled with water and colorful floating fish, it encourages natural hunting instincts while providing a cooling play surface for indoor summer fun.",
@@ -6641,17 +6645,19 @@ Easy to fold and store, this FluffHaven mat is suitable for cats of all ages and
 
   subtitle: "Cooling bed • Size M • Soft comfort",
 
-  price: 39.90,
+  price: 29.90,
 
   badge: "🌸 Cooling Lounge",
 
-  priceId: "price_1U1P5sKn0lmTcQ11Cy7gqMaQ",
+  priceId: "price_1UGcOCKn0lmTcQ11CrG9GA6V",
 
-  images: [
-    "/premium-cooling-cat-bed-main.webp",
-    "/premium-cooling-cat-bed-bedroom.webp",
-    "/premium-cooling-cat-bed-details.webp",
-  ],
+ images: [
+  "/premium-cooling-cat-bed-4.webp",
+  "/premium-cooling-cat-bed-5.webp",
+  "/premium-cooling-cat-bed-main.webp",
+  "/premium-cooling-cat-bed-bedroom.webp",
+  "/premium-cooling-cat-bed-details.webp",
+],
 
   description:
   "Keep your cat comfortable on hot days with the Premium Cooling Cat Bed. Featuring a refreshing cooling surface, soft raised edges and a comfortable Size M design, it provides a relaxing summer resting space without electricity.",
@@ -6894,6 +6900,8 @@ Lightweight and easy to use, this FluffHaven set provides everyday enrichment fo
   priceId: "price_1TzEPvKn0lmTcQ11CCKTDVaB",
 
   images: [
+    "/premium-cat-play-box-4.webp",
+    "/premium-cat-play-box-5.webp",
     "/premium-cat-play-box-main.webp",
     "/premium-cat-play-box-features.webp",
     "/premium-cat-play-box-lifestyle.webp",
@@ -7065,15 +7073,17 @@ USB-C rechargeable and suitable for all breeds, it's a practical FluffHaven tool
   productType: "walking-travel",
   seasons: ["summer", "autumn"],
   subtitle: "Breathable · spacious · travel-ready",
-  price: 49.90,
+  price: 39.90,
   badge: "🎒 Travel Pick",
-  priceId: "price_1U8fglKn0lmTcQ11FzDQBWCr",
+  priceId: "price_1UGcmbKn0lmTcQ11YrdZxhU4",
 
   images: [
-    "/sac_transport_chat.webp",
-    "/sac_transport_chat2.webp",
-    "/sac_transport_chat3.webp",
-  ],
+  "/sac_transport_chat4.webp",
+  "/sac_transport_chat5.webp",
+  "/sac_transport_chat.webp",
+  "/sac_transport_chat2.webp",
+  "/sac_transport_chat3.webp",
+],
 
   description:
   "Travel comfortably with your cat using this spacious premium backpack. Featuring breathable mesh ventilation, a supportive interior and secure openings, it's designed for travel, vet visits and outdoor adventures.",
@@ -7167,6 +7177,8 @@ With a non-slip bottom and easy-care design, it's a practical FluffHaven bed for
   priceId: "price_1U8fuqKn0lmTcQ112zNCKcZt",
 
   images: [
+    "/fontaine_chat5.webp",
+    "/fontaine_chat6.webp",
     "/fontaine_chat.webp",
     "/fontaine_chat3.webp",
     "/fontaine_chat4.webp"
@@ -7211,15 +7223,17 @@ With a 2L capacity and BPA-free design, it's a practical FluffHaven solution for
   productType: "beds-comfort",
   seasons: ["summer", "autumn", "winter"],
   subtitle: "Window perch · soft plush · strong suction cups",
-  price: 39.90,
-  priceId: "price_1U8g0QKn0lmTcQ11b9qdbgDR",
+  price: 32.90,
+  priceId: "price_1UGcYUKn0lmTcQ11XCE1Dzi6",
   badge: "🪟 Cozy",
 
   images: [
-    "/panier_home_gris.webp",
-    "/hamac_chat_couleur_gris.webp",
-    "/hamac_chat2.webp",
-  ],
+  "/hamac_chat4.webp",
+  "/hamac_chat5.webp",
+  "/panier_home_gris.webp",
+  "/hamac_chat_couleur_gris.webp",
+  "/hamac_chat2.webp",
+],
 
   description:
   "Give your cat a cozy elevated spot with this soft window hammock, perfect for relaxing, napping and watching the world outside.",
@@ -7260,7 +7274,13 @@ Machine washable and practical for indoor use, it's a FluffHaven favorite for ca
     price: 21.90,
     badge: "New",
     priceId: "price_1U8g31Kn0lmTcQ11oMEly2bn",
-    images: ["/balle_chat.webp", "/balle_chat2.webp", "/balle_chat3.webp"],
+    images: [
+      "/balle_chat4.webp",
+      "/balle_chat5.webp",
+      "/balle_chat.webp",
+      "/balle_chat2.webp",
+      "/balle_chat3.webp",
+    ],
     description: "Keep your indoor cat active with this automatic interactive ball toy. Featuring 2 speed modes, a feather tail and auto shut-off, it's designed for engaging everyday play.",
     seoTitle: "Interactive Smart Cat Ball | Automatic Cat Toy | FluffHaven",
     seoDescription: "Keep your indoor cat active and entertained with this automatic interactive ball. Smart movement, USB rechargeable and fun to chase.",
@@ -7294,7 +7314,13 @@ USB rechargeable and suitable for small and medium cats, it's a practical FluffH
     price: 31.90,
     badge: "Popular",
     priceId: "price_1U8g5BKn0lmTcQ11jCDes86S",
-    images: ["/griffoir_chat.webp", "/griffoir_chat2.webp", "/griffoir_chat3.webp"],
+    images: [
+      "/griffoir_chat4.webp",
+      "/griffoir_chat5.webp",
+      "/griffoir_chat.webp",
+      "/griffoir_chat2.webp",
+      "/griffoir_chat3.webp",
+    ],
     description: "Give your cat a dedicated scratching space with this premium L-shaped scratcher. Made from high-density corrugated cardboard, it's ideal for stretching and scratching while helping protect your furniture.",
     seoTitle: "L-Shape Cat Scratcher | Cardboard Cat Scratching Post | FluffHaven",
     seoDescription: "Protect your furniture while satisfying your cat's natural scratching instincts with this durable L-shaped cardboard scratcher.",
@@ -7368,7 +7394,13 @@ Easy to store between play sessions, this FluffHaven set provides plenty of vari
     price: 24.90,
     badge: null,
     priceId: "price_1U8gB8Kn0lmTcQ11aoQoDeUs",
-    images: ["/tunnel_chat.webp", "/tunnel_chat2.webp", "/tunnel_chat3.webp"],
+    images: [
+      "/tunnel_chat4.webp",
+      "/tunnel_chat5.webp",
+      "/tunnel_chat.webp",
+      "/tunnel_chat2.webp",
+      "/tunnel_chat3.webp",
+    ],
     description: "Keep your cat entertained with this collapsible cat tunnel. Made from durable faux-linen fabric with a hanging pompom ball, it's ideal for hiding, chasing and everyday exploration.",
     seoTitle: "Premium Cat Play Tunnel | Foldable Cat Tunnel | FluffHaven",
     seoDescription: "Keep your cat entertained with this foldable play tunnel featuring durable fabric, a hanging pompom toy, and easy storage.",
@@ -7399,14 +7431,16 @@ Collapsible and easy to store, it's a practical FluffHaven toy for everyday feli
   productType: "feeding",
   seasons: ["summer", "autumn", "winter"],
   subtitle: "Mental stimulation · slow feeding · boredom relief",
-  price: 29.90,
+  price: 17.90,
   badge: "🧠 Smart Play",
-  priceId: "price_1U8gDnKn0lmTcQ1174qfYpDo",
+  priceId: "price_1UGZoRKn0lmTcQ11hTT6vKlv",
 
   images: [
     "/puzzle_chat.webp",
     "/puzzle_chat2.webp",
-    "/puzzle_chat3.webp"
+    "/puzzle_chat3.webp",
+    "/puzzle_chat5.webp",
+    "/puzzle_chat4.webp",
   ],
 
   description:
@@ -7538,17 +7572,19 @@ Easy to install, easy to clean, and perfect for everyday indoor use.
 
   subtitle: "Hypoallergenic • Gentle formula • Sensitive skin",
 
-  price: 24.90,
+  price: 15.90,
 
   badge: null,
 
-  priceId: "price_1U8gXHKn0lmTcQ11A1FkQd08",
+  priceId: "price_1UGdDPKn0lmTcQ11hbibw80E",
 
-  images: [
-    "/dog_shampoo_bt.webp",
-    "/dog_shampoo2.webp",
-    "/dog_shampoo3.webp"
-  ],
+ images: [
+  "/dog_shampoo4.webp",
+  "/dog_shampoo5.webp",
+  "/dog_shampoo_bt.webp",
+  "/dog_shampoo2.webp",
+  "/dog_shampoo3.webp",
+],
 
   description:
   "Gently clean your dog's coat with this hypoallergenic shampoo for sensitive skin. Designed to cleanse and moisturize without harsh ingredients for comfortable everyday care.",
@@ -7589,17 +7625,19 @@ Free from harsh irritants, it's a practical FluffHaven choice for dogs with sens
 
   subtitle: "Hypoallergenic • Gentle formula • Sensitive skin",
 
-  price: 24.90,
+  price: 15.90,
 
   badge: "",
 
-  priceId: "price_1U8gaTKn0lmTcQ11l16oXGzr",
+  priceId: "price_1UGd0yKn0lmTcQ11UqLRXnmK",
 
-  images: [
-    "/cat_shampoo_bt.webp",
-    "/cat_shampoo3.webp",
-    "/cat_shampoo2.webp"
-  ],
+ images: [
+  "/cat_shampoo4.webp",
+  "/cat_shampoo5.webp",
+  "/cat_shampoo_bt.webp",
+  "/cat_shampoo3.webp",
+  "/cat_shampoo2.webp",
+],
 
   description:
   "Gently clean your cat's coat with this hypoallergenic shampoo for sensitive skin. Designed to cleanse and moisturize without harsh ingredients for comfortable everyday care.",
