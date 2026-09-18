@@ -324,7 +324,9 @@ function ProductCard({ product, onAddToCart, onShowDetails }) {
         <div className="product-info">
           <h3>{product.name}</h3>
             <div className="product-rating">
-              <span className="product-stars">★★★★★</span>
+              <span className="product-stars">
+                {product.slug === "pet-hair-remover-roller" ? "★★★★★" : "♡"}
+              </span>
               <span>
                 {product.slug === "pet-hair-remover-roller"
                   ? "1 Customer Review"
@@ -357,10 +359,6 @@ function ProductCard({ product, onAddToCart, onShowDetails }) {
               </div>
             </div>
           )}
-        </div>
-
-        <div className="delivery-badge">
-          ✓ Free delivery &nbsp;•&nbsp; Ships in 5–8 business days
         </div>
 
         <div className="product-trust-line">
@@ -942,19 +940,6 @@ if (priceSort === "high") {
   Showing 3 of {filteredProducts.length} products
 </p>
 
-        {/* BANNER — No account needed */}
-        {(activeTab === "all" || activeTab === "dog" || activeTab === "cat") && (
-          <div className="no-account-banner">
-            <span className="no-account-icon">🛍️</span>
-            <div className="no-account-text">
-            <strong>No account needed to order</strong>
-            <span>Just add to cart and checkout in seconds — it's that simple.</span>
-            <span><strong>🎁 FREE PONPON MUG</strong> — Orders $49+ · First 10 only</span>
-          </div>
-          <span className="no-account-check">✓ Instant checkout</span>
-          </div>
-        )}
-
      <div className="products">
         {filteredProducts.slice(0, visibleProductCount).map((product) => (
           <ProductCard
@@ -989,6 +974,19 @@ if (priceSort === "high") {
   : `View more products (+${Math.min(6, filteredProducts.length - visibleProductCount)}) →`}
   </button>
 )}
+     {/* BANNER — No account needed */}
+        {(activeTab === "all" || activeTab === "dog" || activeTab === "cat") && (
+          <div className="no-account-banner">
+            <span className="no-account-icon">🛍️</span>
+            <div className="no-account-text">
+            <strong>No account needed to order</strong>
+            <span>Just add to cart and checkout in seconds — it's that simple.</span>
+            <span><strong>🎁 FREE PONPON MUG</strong> — Orders $49+ · First 10 only</span>
+          </div>
+          <span className="no-account-check">✓ Instant checkout</span>
+          </div>
+        )}
+
       </section>
 
       <HomeClassic>
@@ -1108,15 +1106,7 @@ if (priceSort === "high") {
             it doesn't make the cut.
           </p>
 
-          <div className="criteria-grid">
-          <div><span className="check-icon">✓</span> Useful in everyday life</div>
-          <div><span className="check-icon">✓</span> Positive customer feedback</div>
-          <div><span className="check-icon">✓</span> Safe for pets</div>
-          <div><span className="check-icon">✓</span> Easy to use</div>
-          <div><span className="check-icon">✓</span> Built to last</div>
-          <div><span className="check-icon">✓</span> Good value for money</div>
-          <div><span className="check-icon">✓</span> Something we'd use with our own pets</div>
-        </div>
+         
         </div>
       </section>
 
@@ -1248,7 +1238,7 @@ if (priceSort === "high") {
 
     <div className="about-visual">
       <div className="about-card">
-        <div className="about-stat">138+</div>
+        <div className="about-stat">100+</div>
         <div className="about-stat-label">Carefully Selected Products</div>
       </div>
 

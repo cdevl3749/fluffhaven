@@ -2323,6 +2323,10 @@ body.modal-open {
     width: 100%;
     text-align: center;
   }
+
+  .reviews-section .review p {
+    font-size: 15px;
+  }
 }
 
 /* ─── SUMMER PROMO ─── */
