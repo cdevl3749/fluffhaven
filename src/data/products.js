@@ -3426,6 +3426,53 @@ Use them with wet food, treats or dry kibble for more variety every day.
 },
 
 {
+  id: 19,
+  slug: "cat-self-grooming-brush",
+  name: "Cat Self Grooming Brush",
+  category: "cat",
+  productType: "grooming-care",
+  seasons: ["summer", "autumn", "winter"],
+  subtitle: "Wall mounted · soft bristles · collects loose hair",
+  price: 12.90,
+  badge: "✨ Easy Grooming",
+
+  priceId: "price_1UG0H6Kn0lmTcQ110SywwPPT",
+
+  images: [
+  "/brush_chat.webp",
+  "/brush_chat2.webp",
+  "/brush_chat3.webp",
+  "/brush_chat4.webp",
+  "/brush_chat5.webp",
+],
+
+ description:
+  "An easy wall-mounted grooming spot your cat can rub against whenever they want.",
+
+seoTitle:
+  "Cat Self Grooming Brush | Wall Mounted Cat Brush | FluffHaven",
+
+seoDescription:
+  "A wall-mounted self-grooming brush with soft silicone bristles that helps collect loose hair while your cat rubs and grooms naturally.",
+
+brand: "FluffHaven",
+
+details: `
+✓ Soft silicone grooming bristles
+
+✓ Wall-mounted corner design
+
+✓ Helps collect loose hair
+
+✓ Encourages natural rubbing
+
+✓ Easy to clean
+
+A simple everyday grooming spot your cat can use whenever they want.
+`,
+},
+
+{
   id: 115,
 
   slug: "premium-cozy-cat-blanket-trio",
@@ -7512,52 +7559,7 @@ The non-slip bottom helps keep the bed stable on indoor surfaces.
 Foldable and easy to store, it's a practical FluffHaven hideaway for everyday indoor comfort.
 `,
 },
-{
-  id: 19,
-  slug: "cat-self-grooming-brush",
-  name: "Cat Self Grooming Brush",
-  category: "cat",
-  productType: "grooming-care",
-  seasons: ["summer", "autumn", "winter"],
-  subtitle: "Wall mounted · soft bristles · stress relief",
-  price: 12.90,
-  badge: "✨ Relaxing",
 
-  priceId: "price_1UG0H6Kn0lmTcQ110SywwPPT",
-
-  images: [
-  "/brush_chat.webp",
-  "/brush_chat2.webp",
-  "/brush_chat3.webp",
-  "/brush_chat4.webp",
-  "/brush_chat5.webp",
-],
-
- description:
-  "Give your cat an easy way to groom and rub with this wall-mounted self-grooming brush, designed for comfortable everyday indoor use.",
-
-seoTitle:
-  "Cat Self Grooming Brush | Wall Mounted Cat Brush | FluffHaven",
-
-seoDescription:
-  "Help your cat groom itself naturally with this wall-mounted self-grooming brush featuring soft silicone bristles for everyday comfort.",
-
-brand: "FluffHaven",
-
-details: `
-✓ Soft silicone grooming bristles
-✓ Wall-mounted corner design
-✓ Helps collect loose hair
-✓ Encourages natural rubbing
-✓ Easy to clean
-
-Give your cat its own comfortable grooming spot at home.
-
-The soft silicone bristles help collect loose hair while giving your cat a satisfying place to rub and groom naturally.
-
-Easy to install, easy to clean, and perfect for everyday indoor use.
-`,
-},
 {
   id: 20,
 
@@ -7908,7 +7910,7 @@ Machine washable and suitable for all breeds, it's a convenient FluffHaven enric
     category: "dog",
     productType: "clothing",
 
-    seasons: ["summer", "autumn", "winter"],
+    seasons: ["summer", "autumn"],
 
     subtitle: "5 Custom Bandanas • One Complete Pack • Ponpon Approved",
 

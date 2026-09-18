@@ -161,6 +161,7 @@ export default function ProductInfo({ product, onAddToCart }) {
           {product.description}
         </p>
 
+        {product.slug !== "cat-self-grooming-brush" && (
         <button
           type="button"
           className="description-read-more"
@@ -168,6 +169,7 @@ export default function ProductInfo({ product, onAddToCart }) {
         >
           {showFullDescription ? "Show less ↑" : "Read more ↓"}
         </button>
+)}
       </div>
 
      {/* PRODUCT DETAILS */}
