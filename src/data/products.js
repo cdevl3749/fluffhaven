@@ -3309,6 +3309,67 @@ Finished in natural wood, this complete FluffHaven feeding station combines comf
 },
 
 {
+  id: 138,
+
+  slug: "premium-cat-activity-turn-around",
+
+  name: "Premium Cat Activity Turn Around",
+
+  category: "cat",
+
+  productType: "toys",
+
+  seasons: ["summer", "autumn", "winter"],
+
+  subtitle: "Interactive treat game • Mental stimulation • Rewarding play",
+
+  price: 14.90,
+
+  badge: "🐱 Enrichment Favorite",
+
+  priceId: "price_1UHVdzKn0lmTcQ11zQcAu5Ed",
+
+  images: [
+    "/premium-cat-activity-turn-around-main.webp",
+    "/premium-cat-activity-turn-around-lifestyle.webp",
+    "/premium-cat-activity-turn-around-play.webp",
+    "/premium-cat-activity-turn-around-benefits.webp",
+    "/premium-cat-activity-turn-around-features.webp",
+  ],
+
+  description:
+    "Turn treat time into play time with the Premium Cat Activity Turn Around. This interactive treat game encourages curiosity, mental stimulation and rewarding play while keeping your cat happily engaged.",
+
+  seoTitle:
+    "Premium Cat Activity Turn Around | Interactive Cat Toy | FluffHaven",
+
+  seoDescription:
+    "Interactive cat activity toy designed to encourage curiosity, mental stimulation and rewarding treat play. Make everyday playtime more engaging with FluffHaven.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Encourages curiosity and mental stimulation
+✓ Turns treat time into interactive play
+✓ Adjustable openings for different challenges
+✓ Interactive base keeps cats engaged
+✓ Easy to fill and use every day
+
+Turn treat time into a fun and rewarding activity.
+
+Simply add your cat's favorite treats to the transparent tubes and let curiosity take over.
+
+The rotating tubes and adjustable openings encourage your cat to interact, explore and earn each reward.
+
+A fun FluffHaven enrichment toy for happier, more engaging playtime.
+`,
+
+  inStock: true,
+
+  featured: true,
+},
+
+{
   id: 35,
 
   slug: "premium-cat-paw-balm",
