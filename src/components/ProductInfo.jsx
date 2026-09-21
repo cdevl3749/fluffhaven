@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import AddToCartButton from "./AddToCartButton";
 
 export default function ProductInfo({ product, onAddToCart }) {
@@ -8,8 +8,29 @@ export default function ProductInfo({ product, onAddToCart }) {
 
   const [showAllDetails, setShowAllDetails] = useState(false);
   const [showFullDescription, setShowFullDescription] = useState(false);
+  const descriptionRef = useRef(null);
+  const [needsDescriptionToggle, setNeedsDescriptionToggle] = useState(false);
 
   const isEnrichmentDuo = product.slug === "premium-dog-enrichment-duo";
+
+  useEffect(() => {
+  const checkDescription = () => {
+    const element = descriptionRef.current;
+    if (!element) return;
+
+    setNeedsDescriptionToggle(
+      element.scrollHeight > element.clientHeight + 1
+    );
+  };
+
+  checkDescription();
+
+  window.addEventListener("resize", checkDescription);
+
+  return () => {
+    window.removeEventListener("resize", checkDescription);
+  };
+}, [product.description]);
 
   useEffect(() => {
   const handleScroll = () => {
@@ -157,19 +178,22 @@ export default function ProductInfo({ product, onAddToCart }) {
       </div>
 
      <div className="product-description-wrapper">
-        <p className={`product-description ${showFullDescription ? "expanded" : "collapsed"}`}>
-          {product.description}
-        </p>
+       <p
+        ref={descriptionRef}
+        className={`product-description ${showFullDescription ? "expanded" : "collapsed"}`}
+      >
+        {product.description}
+      </p>
 
-        {product.slug !== "cat-self-grooming-brush" && (
-        <button
-          type="button"
-          className="description-read-more"
-          onClick={() => setShowFullDescription(!showFullDescription)}
-        >
-          {showFullDescription ? "Show less ↑" : "Read more ↓"}
-        </button>
-)}
+       {needsDescriptionToggle && (
+          <button
+            type="button"
+            className="description-read-more"
+            onClick={() => setShowFullDescription(!showFullDescription)}
+          >
+            {showFullDescription ? "Show less ↑" : "Read more ↓"}
+          </button>
+        )}
       </div>
 
      {/* PRODUCT DETAILS */}
