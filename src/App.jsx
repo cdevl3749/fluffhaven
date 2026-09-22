@@ -282,6 +282,7 @@ function ProductCard({ product, onAddToCart, onShowDetails }) {
               <img
                 src={images[currentImg]}
                 alt={product.name}
+                loading="lazy"
                 className={`product-photo ${product.imageClass || ""}`}
                 onError={(e) => { e.target.style.display = "none"; e.target.nextSibling.style.display = "flex"; }}
               />
@@ -312,7 +313,11 @@ function ProductCard({ product, onAddToCart, onShowDetails }) {
     <div className="product-thumbs product-thumbs-desktop">
       {[...new Set(images)].map((src, i) => (
         <button key={i} className={`product-thumb${i === currentImg ? " active" : ""}`} onClick={() => setCurrentImg(i)} aria-label={`Photo ${i + 1}`}>
-          <img src={src} alt={`${product.name} ${i + 1}`} />
+          <img
+            src={src}
+            alt={`${product.name} ${i + 1}`}
+            loading="lazy"
+          />
         </button>
       ))}
     </div>
@@ -1037,6 +1042,7 @@ if (priceSort === "high") {
       <img
         src="/autumn_walks.webp"
         alt="Ponpon enjoying a cozy autumn walk"
+        loading="lazy"
       />
       <h3>🍂 Autumn Walks</h3>
       <button
@@ -1051,6 +1057,7 @@ if (priceSort === "high") {
       <img
         src="/rainy_day_jaune_section.webp"
         alt="Ponpon ready for rainy days"
+        loading="lazy"
       />
       <h3>☔ Rainy Days</h3>
       <button
@@ -1065,6 +1072,7 @@ if (priceSort === "high") {
       <img
         src="/stay_warm.webp"
         alt="Ponpon staying warm during autumn"
+        loading="lazy"
       />
       <h3>🧣 Stay Warm</h3>
       <button
@@ -1079,6 +1087,7 @@ if (priceSort === "high") {
       <img
         src="/ponpon_favorite.webp"
         alt="Ponpon's favorite autumn essential"
+        loading="lazy"
       />
       <h3>❤️ Ponpon's Favorite</h3>
       <button
@@ -1139,6 +1148,7 @@ if (priceSort === "high") {
       <img
         src={reviews[currentReview].image}
         alt={reviews[currentReview].name}
+        loading="lazy"
         style={{
           width: "90px",
           height: "90px",
@@ -1320,13 +1330,13 @@ if (priceSort === "high") {
                   <div className="footer-payments-title">Accepted payments</div>
 
                   <div className="payment-methods">
-                    <img src="/payments/visa.svg" alt="Visa" />
-                    <img src="/payments/mastercard.svg" alt="Mastercard" />
-                    <img src="/payments/applePay.svg" alt="Apple Pay" />
-                    <img src="/payments/googlePay.svg" alt="Google Pay" />
-                    <img src="/payments/amazonPay.svg" alt="Amazon Pay" />
-                    <img src="/payments/klarna.svg" alt="Klarna" />
-                    <img src="/payments/bancontact.svg" alt="Bancontact" />
+                    <img src="/payments/visa.svg" alt="Visa" loading="lazy" />
+                    <img src="/payments/mastercard.svg" alt="Mastercard" loading="lazy" />
+                    <img src="/payments/applePay.svg" alt="Apple Pay" loading="lazy" />
+                    <img src="/payments/googlePay.svg" alt="Google Pay" loading="lazy" />
+                    <img src="/payments/amazonPay.svg" alt="Amazon Pay" loading="lazy" />
+                    <img src="/payments/klarna.svg" alt="Klarna" loading="lazy" />
+                    <img src="/payments/bancontact.svg" alt="Bancontact" loading="lazy" />
                   </div>
 
                   <div className="footer-payments-secure">
@@ -1387,7 +1397,7 @@ if (priceSort === "high") {
                     <div key={i} className="cart-item">
                       <div className="cart-item-icon">
                         {item.image
-                          ? <img src={item.image} alt={item.name} style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "8px" }} />
+                          ? <img src={item.image} alt={item.name} loading="lazy" style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "8px" }} />
                           : item.emoji || "🐾"
                         }
                       </div>

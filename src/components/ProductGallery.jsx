@@ -17,6 +17,8 @@ export default function ProductGallery({ product }) {
                     className="product-main-image"
                     src={selectedImage}
                     alt={product.name}
+                    loading="eager"
+                    fetchPriority="high"
                 />
             </button>
 
@@ -35,6 +37,7 @@ export default function ProductGallery({ product }) {
                         <img
                             src={image}
                             alt={`${product.name} view ${index + 1}`}
+                            loading="lazy"
                         />
                     </button>
                 ))}
