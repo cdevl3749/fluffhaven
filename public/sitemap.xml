@@ -1307,4 +1307,18 @@
   <priority>0.8</priority>
 </url>
 
+  <url>
+    <loc>https://fluffhaven.shop/blog/how-to-brush-your-dog-properly-at-home</loc>
+    <lastmod>2026-09-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://fluffhaven.shop/blog/how-to-brush-your-cat-at-home</loc>
+    <lastmod>2026-09-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
 </urlset>

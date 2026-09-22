@@ -516,6 +516,26 @@ export default function Blog() {
     url: "/blog/interactive-feeding-for-cats",
   },
 
+    {
+    title: "How to Brush Your Dog Properly at Home: A Simple Step-by-Step Guide",
+    category: "Dog grooming",
+    date: "September 2026",
+    read: "9 min read",
+    description:
+      "Learn how to brush your dog properly at home with simple techniques to remove loose hair, manage tangles and create a calmer grooming routine.",
+    url: "/blog/how-to-brush-your-dog-properly-at-home",
+  },
+
+  {
+    title: "How to Brush Your Cat at Home: Simple Tips for a Calmer Grooming Routine",
+    category: "Cat grooming",
+    date: "September 2026",
+    read: "9 min read",
+    description:
+      "Learn how to brush your cat gently at home, manage loose hair and tangles, and create a calmer grooming routine your cat can become comfortable with.",
+    url: "/blog/how-to-brush-your-cat-at-home",
+  },
+
   ];
 
   // ── Filtrage par recherche ──

@@ -94,6 +94,9 @@ import HowToEncourageYourCatToDrinkMoreWater from "./blog/how-to-encourage-your-
 import HowToMentallyStimulateYourDogAtHome from "./blog/how-to-mentally-stimulate-your-dog-at-home.jsx";
 import InteractiveFeedingForCats from "./blog/interactive-feeding-for-cats.jsx";
 
+import HowToBrushYourDogProperlyAtHome from "./blog/how-to-brush-your-dog-properly-at-home.jsx";
+import HowToBrushYourCatAtHome from "./blog/how-to-brush-your-cat-at-home.jsx";
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {
@@ -233,6 +236,13 @@ createRoot(document.getElementById('root')).render(
       )
       : window.location.pathname === "/blog/interactive-feeding-for-cats" ? (
         <InteractiveFeedingForCats />
+      )
+
+      : window.location.pathname === "/blog/how-to-brush-your-dog-properly-at-home" ? (
+        <HowToBrushYourDogProperlyAtHome />
+      )
+      : window.location.pathname === "/blog/how-to-brush-your-cat-at-home" ? (
+        <HowToBrushYourCatAtHome />
       )
 
       : window.location.pathname.startsWith("/product/") ? (
