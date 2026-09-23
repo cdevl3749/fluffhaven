@@ -3442,11 +3442,11 @@ Easy to apply and suitable for all breeds, it's a practical FluffHaven essential
 
   subtitle: "2 slow feeder bowls • Mental stimulation • Blue + Pink",
 
-  price: 19.90,
+  price: 16.90,
 
   badge: "🐱 Enrichment Essential",
 
-  priceId: "price_1UF1CyKn0lmTcQ11OhwP2wIx",
+  priceId: "price_1UIulmKn0lmTcQ11rcM1jCDK",
 
   images: [
     "/premium-cat-enrichment-duo-benefits-2.webp",
@@ -3790,11 +3790,11 @@ With six different colors in one practical set, you can easily change your cat's
 
   subtitle: "Reflective design • AirTag compatible • Adjustable 23–30.5 cm",
 
-  price: 24.90,
+  price: 19.90,
 
   badge: "📍 Safety & Tracking",
 
-  priceId: "price_1UFhLgKn0lmTcQ11RoNQYeim",
+  priceId: "price_1UIv8fKn0lmTcQ11N0kMAKUP",
 
   images: [
     "/premium-airtag-compatible-cat-collar-main.webp",
