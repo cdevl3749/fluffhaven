@@ -207,7 +207,7 @@ Its soft textured surface and easy-to-carry shape make it ideal for fetching, ca
   ],
 
   description:
-  "Make every splash count with the Premium Floating Rope Ball. Crafted from lightweight EVA foam with a durable rope handle, this floating fetch toy is ideal for pools, lakes and beach adventures. Easy to throw, highly visible on the water and gentle on your dog's teeth, it's designed for summer fun.",
+  "Make every splash count with this lightweight floating rope ball. Designed for fetch in the pool, lake or at the beach, its braided rope handle makes throwing and retrieving easy while the bright yellow design stays easy to spot.",
 
   seoTitle:
     "Premium Floating Rope Ball | Floating Dog Water Toy | FluffHaven",
@@ -224,15 +224,6 @@ Its soft textured surface and easy-to-carry shape make it ideal for fetching, ca
 ✓ High-visibility yellow design for easy retrieval
 ✓ Ideal for pool, lake and beach adventures
 
-Bring excitement to every water adventure with the Premium Floating Rope Ball, designed for active fetch play in and around the water.
-
-Its lightweight EVA foam construction floats easily, while the bright yellow design helps your dog spot and retrieve it.
-
-The strong braided rope provides a comfortable grip for throwing and interactive games.
-
-Durable and quick-drying, the ball remains gentle on your dog's teeth and gums during play.
-
-Combining floating performance, easy retrieval and active fun, it's a practical FluffHaven companion for summer adventures.
 `,
 
   inStock: true,
@@ -288,15 +279,7 @@ Combining floating performance, easy retrieval and active fun, it's a practical 
 ✓ Comfortable everyday fit
 ✓ Designed for walks & outdoor adventures
 
-Give your dog comfort, security and style on every adventure.
-
-The Premium Tactical Adventure Dog Collar combines durable construction with practical everyday features for walks, hikes and outdoor activities.
-
-Its strong buckle provides a secure fit, while the durable D-ring makes attaching your dog's leash quick and convenient.
-
-The integrated AirTag holder provides a practical place to securely carry a compatible tracker during everyday adventures.
-
-A stylish and functional FluffHaven essential for dogs who love exploring.
+Give your dog comfort and security on every adventure. With a strong buckle, durable D-ring and integrated AirTag holder, this collar is designed for everyday walks, hikes and outdoor activities.
 `,
 
   inStock: true,
@@ -391,8 +374,8 @@ Make mealtime slower, healthier and more engaging. The textured surfaces provide
     "/premium-dog-car-seat-belt-woman.webp",
   ],
 
-  description:
-    "Make car journeys safer and more comfortable with the Premium Dog Car Seat Belt. Designed with an adjustable length, shock-absorbing bungee section and strong metal hook, it helps keep your dog securely restrained while travelling.",
+ description:
+  "Keep your dog secure and comfortable on every journey with this adjustable, shock-absorbing car seat belt.",
 
   seoTitle:
     "Premium Dog Car Seat Belt | Adjustable & Shock Absorbing | FluffHaven",
@@ -402,23 +385,17 @@ Make mealtime slower, healthier and more engaging. The textured surfaces provide
 
   brand: "FluffHaven",
 
-  details: `
+ details: `
 ✓ Adjustable length — 74–142 cm (29.1–55.9 in)
 ✓ Shock-absorbing bungee section
 ✓ Strong metal leash hook
 ✓ Seat belt buckle attachment
 ✓ Helps keep your dog secure while travelling
-✓ Designed for everyday car journeys
+✓ Ideal for everyday drives & road trips
 
-Make every journey safer and more comfortable for your dog.
+Safer, more comfortable journeys with your dog.
 
-The Premium Dog Car Seat Belt is designed to help keep your dog securely restrained while travelling in the car.
-
-Its shock-absorbing bungee section helps soften sudden movements, while the adjustable strap allows you to find a comfortable length for your dog.
-
-The strong metal hook attaches easily to your dog's harness, while the seat belt buckle connects directly to a compatible vehicle seat belt socket.
-
-A practical FluffHaven travel essential for road trips, everyday drives and adventures together.
+The shock-absorbing bungee helps soften sudden movements, while the adjustable strap provides a comfortable fit. Simply attach the metal hook to your dog’s harness and secure the buckle into a compatible seat belt socket.
 `,
 
   inStock: true,
@@ -471,11 +448,7 @@ A practical FluffHaven travel essential for road trips, everyday drives and adve
 ✓ Comfortable non-slip handle
 ✓ Gentle everyday coat care
 
-Keep loose fur under control with the Premium Dog Deshedding Brush.
-
-Its stainless steel blades help collect loose hair while keeping regular grooming simple and comfortable.
-
-A practical FluffHaven essential for a healthier-looking coat and a cleaner home.
+Keep loose fur under control with stainless steel deshedding blades designed for simple, comfortable grooming. A practical everyday brush for a cleaner home and a healthier-looking coat.
 `,
 
   inStock: true,
@@ -491,9 +464,9 @@ A practical FluffHaven essential for a healthier-looking coat and a cleaner home
   productType: "toys",
   seasons: ["summer", "autumn", "winter"],
   subtitle: "Hide treats • Mental stimulation • Interactive sniffing game",
-  price: 24.90,
+  price: 19.90,
   badge: "🥕 Enrichment Favorite",
-  priceId: "price_1UDjwOKn0lmTcQ11tUDfibVo",
+  priceId: "price_1UJbAZKn0lmTcQ113LlIzW14",
 
   images: [
     "/premium-carrot-garden-dog-toy-main.webp",
@@ -545,11 +518,11 @@ Simply hide treats inside the carrot garden and let your dog sniff, search and d
 
   subtitle: "Compact treat pouch • Secure drawstring • Easy access • 10 × 14 cm",
 
-  price: 14.90,
+  price: 12.90,
 
   badge: "🐾 Walk & Train Essential",
 
-  priceId: "price_1U7gvUKn0lmTcQ11tdrEEHDa",
+  priceId: "price_1UJbE8Kn0lmTcQ11yDaEQ3gw",
 
   images: [
     "/premium-dog-treat-training-pouch-main.webp",
@@ -560,7 +533,7 @@ Simply hide treats inside the carrot garden and let your dog sniff, search and d
   ],
 
   description:
-    "Make walks and training sessions easier with the Premium Dog Treat Training Pouch. Designed for quick and convenient access to your dog's favorite rewards, this compact 10 × 14 cm pouch features a secure drawstring closure to help keep treats safely inside. Its lightweight and durable design makes it easy to carry during everyday walks, training sessions and outdoor adventures.",
+    "Make walks and training sessions easier with this compact treat pouch. Its secure drawstring keeps treats safely inside while providing quick access whenever your dog earns a reward. Lightweight and practical, it’s ideal for everyday walks and training.",
 
   seoTitle:
     "Premium Dog Treat Training Pouch | Walk & Training Accessory | FluffHaven",
@@ -576,16 +549,6 @@ Simply hide treats inside the carrot garden and let your dog sniff, search and d
 ✓ Easy access to treats during walks and training
 ✓ Sturdy belt loop for convenient carrying
 ✓ Lightweight and durable everyday design
-
-Keep your dog's favorite rewards close at hand with the Premium Dog Treat Training Pouch.
-
-Its compact 10 × 14 cm design provides convenient storage for treats without adding unnecessary bulk during everyday walks or training sessions.
-
-The secure adjustable drawstring helps keep treats safely inside while allowing quick access whenever your dog earns a reward.
-
-A sturdy belt loop makes the pouch easy to attach while keeping your hands free during walks and outdoor adventures.
-
-Lightweight, practical and designed for everyday use, it's a simple FluffHaven essential for happier walks and rewarding training sessions.
 `,
 
   inStock: true,
@@ -672,11 +635,11 @@ The shampoo dispensing brush helps apply shampoo while gently massaging the coat
 
   subtitle: "USB rechargeable • Red LED glow • Outdoor play",
 
-  price: 17.90,
+  price: 14.90,
 
   badge: "🌙 Night Adventure",
 
-  priceId: "price_1UCdWTKn0lmTcQ117p9s78yp",
+  priceId: "price_1UJeOJKn0lmTcQ114Jy3GTtC",
 
   images: [
     "/premium-led-glow-dog-flying-disc-lifestyle.webp",
@@ -687,7 +650,7 @@ The shampoo dispensing brush helps apply shampoo while gently massaging the coat
   ],
 
   description:
-  "Keep the fun going after sunset with the Premium LED Glow Dog Flying Disc. Featuring a bright red LED rim for nighttime visibility, this rechargeable flying disc is designed for outdoor games during darker autumn and winter evenings. Lightweight, durable and easy to throw, it's ideal for active dogs who love fetch adventures day or night.",
+  "Keep fetch going after sunset with this rechargeable LED flying disc, designed for fun and visible nighttime play.",
 
   seoTitle:
     "Premium LED Glow Dog Flying Disc | Rechargeable LED Dog Frisbee | FluffHaven",
@@ -697,22 +660,16 @@ The shampoo dispensing brush helps apply shampoo while gently massaging the coat
 
   brand: "FluffHaven",
 
-  details: `
+ details: `
 ✓ Bright red LED glow for nighttime visibility
 ✓ USB rechargeable design
 ✓ Lightweight and easy to throw
 ✓ Durable construction for active fetch play
 ✓ Ideal for autumn and winter evening adventures
 
-Keep the fun going after sunset with the Premium LED Glow Dog Flying Disc, designed for outdoor play during darker evenings.
+Light up every game of fetch after sunset.
 
-Its bright red LED glow makes the disc easy to spot after sunset while adding extra excitement to games of fetch.
-
-The lightweight design makes it easy to throw and carry, while its durable construction is suited to energetic play.
-
-Recharge it conveniently by USB and take it along for evening walks, garden games and nighttime adventures.
-
-Combining visibility, portability and active play, this FluffHaven flying disc keeps fetch going day or night.
+Rechargeable, lightweight and easy to carry, this glowing flying disc is made for evening walks, garden games and nighttime adventures with your dog.
 `,
   inStock: true,
 
@@ -1864,11 +1821,11 @@ Practical and stylish, it's a simple FluffHaven essential for everyday feeding.
 
   subtitle: "Reversible cozy blanket • Soft fleece & velvety sides • Size L 100 × 70 cm",
 
-  price: 24.90,
+  price: 16.90,
 
   badge: "❄️ Winter Cozy Essential",
 
-  priceId: "price_1U6CanKn0lmTcQ11jer1QPVi",
+  priceId: "price_1UJf3bKn0lmTcQ115ZIqJAL5",
 
   images: [
     "/premium-winter-cozy-dog-blanket-armchair.webp",
@@ -4028,11 +3985,11 @@ Practical and versatile, it helps extend the life of your cat's favorite furnitu
 
   subtitle: "Large scratch surface • Interactive side holes • Scratch, play & relax",
 
-  price: 22.90,
+  price: 12.90,
 
   badge: "🐱 Scratch & Lounge",
 
-  priceId: "price_1U4nUkKn0lmTcQ11v5UzzixB",
+  priceId: "price_1UJfL7Kn0lmTcQ11T0fH3CiP",
 
   images: [
     "/premium-interactive-cat-scratcher-lounge-benefits.webp",
@@ -4043,7 +4000,7 @@ Practical and versatile, it helps extend the life of your cat's favorite furnitu
   ],
 
   description:
-  "Create a dedicated space for scratching, playing and relaxing with the Premium Interactive Cat Scratcher Lounge. Designed in a spacious L size, this multifunctional cardboard lounge combines a generous corrugated scratching surface with interactive side openings for added entertainment. Its low-profile design provides a comfortable place to stretch out and scratch while helping redirect natural scratching behavior away from furniture.",
+  "Give your cat the perfect place to scratch, play and relax with the Premium Interactive Cat Scratcher Lounge. Its spacious corrugated surface and interactive side openings combine scratching, lounging and playful exploration in one cozy spot.",
 
   seoTitle:
     "Premium Interactive Cat Scratcher Lounge | Large Cat Scratcher | FluffHaven",
@@ -4062,13 +4019,7 @@ Practical and versatile, it helps extend the life of your cat's favorite furnitu
 
 Give your cat a dedicated place to scratch, play and relax with the Premium Interactive Cat Scratcher Lounge.
 
-Its spacious L-size design combines a textured corrugated cardboard surface with plenty of room for stretching and lounging.
-
-Interactive side openings encourage curious cats to explore, reach and bat while enjoying their scratching area.
-
-Lightweight and easy to position around the home, its neutral design blends naturally into living rooms, bedrooms and other resting spaces.
-
-Combining scratching, lounging and interactive play, this FluffHaven lounge provides practical everyday enrichment for your cat.
+Its spacious corrugated surface and interactive side openings encourage natural scratching and playful exploration, while the lightweight design fits easily into your home.
 `,
 
   inStock: true,
@@ -5077,20 +5028,22 @@ Make evening walks safer and more enjoyable with the Premium LED Safety Collar T
 
   subtitle: "3 warm blankets • Size M • Ultimate winter comfort",
 
-  price: 49.90,
+  price: 24.90,
 
   badge: "🍂❄️ Autumn & Winter Comfort Pack",
 
-  priceId: "price_1UByZ5Kn0lmTcQ11FepdsfNs",
+  priceId: "price_1UJeYaKn0lmTcQ11XEEIEPP1",
 
-  images: [
-    "/premium-winter-dog-blanket-trio-main.webp",
-    "/premium-winter-dog-blanket-trio-features.webp",
-    "/premium-winter-dog-blanket-trio-car.webp",
-  ],
+images: [
+  "/premium-winter-dog-blanket-trio-main.webp",
+  "/premium-winter-dog-blanket-trio-features.webp",
+  "/premium-winter-dog-blanket-trio-lifestyle.webp",
+  "/premium-winter-dog-blanket-trio-colors.webp",
+  "/premium-winter-dog-blanket-trio-details.webp",
+],
 
   description:
-  "Keep your dog warm wherever you go with the Premium Winter Dog Blanket Trio. This pack includes three ultra-soft Size M fleece blankets in white, orange and pink. Perfect for home, the sofa, car or travel, they provide cozy comfort throughout autumn and winter.",
+  "Keep your dog warm and cozy with this trio of ultra-soft fleece blankets, perfect for home, car and travel.",
 
   seoTitle:
     "Premium Winter Dog Blanket Trio | Cozy Dog Blanket Pack | FluffHaven",
@@ -5104,18 +5057,12 @@ Make evening walks safer and more enjoyable with the Premium LED Safety Collar T
 ✓ 3 blankets — White, Orange & Pink
 ✓ Size M for small and medium dogs
 ✓ Ultra-soft, warm and breathable fleece
-✓ Lightweight, portable and machine washable
+✓ Lightweight and machine washable
 ✓ Ideal for home, car and travel
 
-Keep your dog cozy with the Premium Winter Dog Blanket Trio, featuring three soft fleece blankets in white, orange and pink.
+Cozy comfort for cooler autumn and winter days.
 
-The lightweight Size M design is suitable for small and medium dogs while providing comfortable warmth during cooler days.
-
-Use them on the sofa, pet bed, inside a crate or in the car for an extra layer of comfort.
-
-The blankets are lightweight and easy to carry, making them practical for both home and travel.
-
-Machine washable and designed for everyday use, this FluffHaven trio is ideal throughout autumn and winter.
+Soft, lightweight and easy to carry, these fleece blankets are perfect for the sofa, pet bed, crate or car.
 `,
 
   inStock: true,
