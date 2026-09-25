@@ -192,11 +192,11 @@ Its soft textured surface and easy-to-carry shape make it ideal for fetching, ca
 
   subtitle: "Floating EVA ball • Rope handle • Water fun",
 
-  price: 17.90,
+  price: 12.90,
 
   badge: "💦 Water Adventure",
 
-  priceId: "price_1UFcFHKn0lmTcQ11qNtA10Pf",
+  priceId: "price_1UJg0vKn0lmTcQ11AkhSVLRa",
 
   images: [
     "/premium-floating-rope-ball-lifestyle.webp",
@@ -1961,7 +1961,7 @@ Practical, compact and decorative, it brings a tidy FluffHaven touch to your pet
   ],
 
   description:
-  "Bring extra warmth and comfort to your dog's favorite resting spots with the Premium Cozy Dog Blanket Duo. This soft two-blanket set includes one blue and one beige blanket, each measuring 75 × 50 cm. Perfect for beds, sofas, crates or car seats, the cozy fleece fabric provides comfort while helping protect furniture from pet hair and dirt. With two complementary colors and machine-washable care, this FluffHaven duo makes everyday comfort easy.",
+  "Keep your dog cozy with this ultra-soft blanket duo in blue and beige. Each 75 × 50 cm fleece blanket is lightweight, machine washable and perfect for beds, sofas, crates or car rides.",
 
   seoTitle:
     "Premium Cozy Dog Blanket Duo | Soft Pet Blankets | FluffHaven",
@@ -1973,20 +1973,14 @@ Practical, compact and decorative, it brings a tidy FluffHaven touch to your pet
 
   details: `
 ✓ 2-piece blanket duo — blue & beige
-✓ Size L — each blanket measures 75 × 50 cm
-✓ Ultra-soft cozy fleece with paw and bone pattern
-✓ Ideal for beds, sofas, crates, car seats and travel
+✓ Size L — 75 × 50 cm each
+✓ Ultra-soft fleece with paw & bone pattern
+✓ Ideal for beds, sofas, crates & car seats
 ✓ Machine washable up to 60°C
 
-Give your dog an extra layer of everyday comfort with the Premium Cozy Dog Blanket Duo, including two soft blankets in complementary blue and beige colors.
+Two soft, lightweight blankets for everyday comfort at home or on the go.
 
-Each blanket measures 75 × 50 cm and features a cozy fleece feel with a charming paw and bone pattern.
-
-With two blankets included, you can keep one on your dog's bed and another on the sofa, in a crate or in the car while helping protect surfaces from pet hair and dirt.
-
-Their lightweight design makes them easy to fold, store and take along when travelling.
-
-Machine washable up to 60°C, this practical duo combines soft comfort, easy care and everyday FluffHaven convenience.
+Easy to wash and easy to carry, they're a practical way to keep your dog cozy while helping protect furniture from pet hair and dirt.
 `,
 
   inStock: true,
