@@ -14,7 +14,7 @@ export const PRODUCTS = [
 
   price: 14.90,
 
-  badge: "🦁 Playtime Favorite",
+  badge: "🦁 Playtime Pick",
 
   priceId: "price_1UEoLYKn0lmTcQ11CtRid4qP",
 
@@ -27,7 +27,7 @@ export const PRODUCTS = [
   ],
 
   description:
-    "A soft and playful lion toy designed to keep your dog entertained. Its textured plush design makes it perfect for everyday play, carrying and cuddling.",
+    "A soft, durable lion toy for playtime and cuddles. Its textured plush design and 21 cm (8.3 in) size make it easy for dogs to carry and enjoy.",
 
   seoTitle:
     "Premium Durable Lion Dog Toy | FluffHaven",
@@ -40,13 +40,11 @@ export const PRODUCTS = [
   details: `
 ✓ Soft textured plush design
 ✓ Perfect for interactive play
-✓ Easy for dogs to carry
 ✓ Fun lion shape
 ✓ Great for playtime and cuddles
+✓ 21 cm (8.3 in) size — easy for dogs to carry
 
-A playful companion made for everyday fun.
-
-Its soft textured surface and easy-to-carry shape make it ideal for fetching, carrying and relaxing after playtime.
+Made for everyday play, from gentle games of fetch to quiet cuddle time.
 `,
 
   inStock: true,
@@ -70,7 +68,7 @@ Its soft textured surface and easy-to-carry shape make it ideal for fetching, ca
 
   price: 14.90,
 
-  badge: "🐺 Playtime Favorite",
+  badge: "🐺 Playtime Pick",
 
   priceId: "price_1UEoP4Kn0lmTcQ11SoieEJsy",
 
@@ -83,7 +81,7 @@ Its soft textured surface and easy-to-carry shape make it ideal for fetching, ca
   ],
 
   description:
-    "A soft and playful wolf toy designed to keep your dog entertained. Its textured plush design makes it perfect for everyday play, carrying and cuddling.",
+    "A soft, durable wolf toy for playtime and cuddles. Its textured plush design and 21 cm (8.3 in) size make it easy for dogs to carry and enjoy.",
 
   seoTitle:
     "Premium Durable Wolf Dog Toy | FluffHaven",
@@ -103,6 +101,8 @@ Its soft textured surface and easy-to-carry shape make it ideal for fetching, ca
 ✓ Fun wolf shape
 
 ✓ Great for playtime and cuddles
+
+✓ 21 cm (8.3 in) size — easy for dogs to carry
 
 A playful companion made for everyday fun.
 
@@ -132,7 +132,7 @@ Its soft textured surface and easy-to-carry shape make it ideal for fetching, ca
 
   price: 14.90,
 
-  badge: "🐘 Playtime Favorite",
+  badge: "🐘 Playtime Pick",
 
   priceId: "price_1UEoRxKn0lmTcQ11oKgPYLUl",
 
@@ -145,7 +145,7 @@ Its soft textured surface and easy-to-carry shape make it ideal for fetching, ca
   ],
 
   description:
-    "A soft and playful elephant toy designed to keep your dog entertained. Its textured plush design makes it perfect for everyday play, carrying and cuddling.",
+    "A soft, durable elephant toy for playtime and cuddles. Its textured plush design and 21 cm (8.3 in) size make it easy for dogs to carry and enjoy.",
 
   seoTitle:
     "Premium Durable Elephant Dog Toy | FluffHaven",
@@ -165,6 +165,8 @@ Its soft textured surface and easy-to-carry shape make it ideal for fetching, ca
 ✓ Fun elephant shape
 
 ✓ Great for playtime and cuddles
+
+✓ 21 cm (8.3 in) size — easy for dogs to carry
 
 A playful companion made for everyday fun.
 
