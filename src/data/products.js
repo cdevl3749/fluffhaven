@@ -3262,6 +3262,183 @@ Finished in natural wood, this complete FluffHaven feeding station combines comf
 },
 
 {
+  id: 139,
+
+  slug: "premium-plush-snake-cat-toy",
+
+  name: "Premium Plush Snake Cat Toy",
+
+  category: "cat",
+
+  productType: "toys",
+
+  seasons: ["summer", "autumn", "winter"],
+
+  subtitle: "Soft plush • Catnip fun • Playful stimulation",
+
+  price: 12.90,
+
+  badge: "🐱 Playtime Favorite",
+
+  priceId: "price_1UK0IOKn0lmTcQ11pBlHaQ7d",
+
+  images: [
+    "/premium-plush-snake-cat-toy-main.webp",
+    "/premium-plush-snake-cat-toy-product.webp",
+    "/premium-plush-snake-cat-toy-lifestyle.webp",
+    "/premium-plush-snake-cat-toy-features.webp",
+    "/premium-plush-snake-cat-toy-size.webp",
+  ],
+
+  description:
+  "A soft, catnip-infused plush toy designed to spark your cat's curiosity and playful instincts.",
+
+  seoTitle:
+    "Premium Plush Snake Cat Toy | Catnip Cat Toy | FluffHaven",
+
+  seoDescription:
+    "Soft plush snake cat toy with catnip for playful stimulation and everyday fun. A colorful enrichment toy for curious cats.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Soft plush material
+✓ Catnip-infused for extra interest
+✓ Encourages active and playful behavior
+✓ Fun snake shape for batting and grabbing
+✓ Approx. 40 cm (15.7 in) long
+
+A soft and playful companion made for curious cats.
+
+The colorful snake design and catnip help encourage natural play and keep your cat interested.
+
+Perfect for batting, grabbing and everyday indoor fun.
+`,
+
+  inStock: true,
+
+  featured: true,
+},
+
+{
+  id: 140,
+
+  slug: "premium-halloween-pumpkin-cat-kicker",
+
+  name: "Premium Halloween Pumpkin Cat Kicker",
+
+  category: "cat",
+
+  productType: "toys",
+
+  seasons: ["autumn"],
+
+  subtitle: "Catnip fun • Scratching texture • Halloween play",
+
+  price: 14.90,
+
+  badge: "🎃 Halloween Favorite",
+
+  priceId: "price_1UK1NIKn0lmTcQ11DYZjXTSC",
+
+  images: [
+    "/premium-halloween-pumpkin-cat-kicker-detail.webp",
+    "/premium-halloween-pumpkin-cat-kicker-main.webp",
+    "/premium-halloween-pumpkin-cat-kicker-autumn.webp",
+    "/premium-halloween-pumpkin-cat-kicker-features.webp",
+    "/premium-halloween-pumpkin-cat-kicker-lifestyle.webp",
+  ],
+
+  description:
+    "A playful Halloween cat kicker with catnip and a textured body for scratching, grabbing and kicking fun.",
+
+  seoTitle:
+    "Premium Halloween Pumpkin Cat Kicker | Cat Toy | FluffHaven",
+
+  seoDescription:
+    "Halloween pumpkin cat kicker with catnip and textured material for scratching, grabbing and playful indoor fun.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Catnip-filled for extra interest
+✓ Textured body for scratching and grabbing
+✓ Long shape made for kicking and wrestling
+✓ Soft pumpkin design with playful details
+✓ Approx. 32 cm (12.6 in) long
+
+A fun seasonal toy made for curious cats.
+
+The long kicker shape encourages grabbing, kicking and playful indoor activity.
+
+A cozy Halloween addition to your cat's toy collection.
+`,
+
+  inStock: true,
+
+  featured: true,
+},
+
+{
+  id: 141,
+
+  slug: "premium-fuzzy-catnip-cat-toy",
+
+  name: "Premium Fuzzy Catnip Cat Toy",
+
+  category: "cat",
+
+  productType: "toys",
+
+  seasons: ["summer", "autumn", "winter"],
+
+  subtitle: "Catnip fun • Fuzzy texture • Playful stimulation",
+
+  price: 10.90,
+
+  badge: "🐱 Playtime Favorite",
+
+  priceId: "price_1UK27xKn0lmTcQ11wqgzrkgJ",
+
+  images: [
+    "/premium-fuzzy-catnip-cat-toy-main.webp",
+    "/premium-fuzzy-catnip-cat-toy-detail.webp",
+    "/premium-fuzzy-catnip-cat-toy-play.webp",
+    "/premium-fuzzy-catnip-cat-toy-catnip.webp",
+    "/premium-fuzzy-catnip-cat-toy-lifestyle.webp",
+  ],
+
+  description:
+    "A fuzzy catnip toy designed to spark curiosity and encourage playful indoor fun.",
+
+  seoTitle:
+    "Premium Fuzzy Catnip Cat Toy | Interactive Cat Toy | FluffHaven",
+
+  seoDescription:
+    "Soft fuzzy catnip toy designed for batting, grabbing and playful indoor fun. A compact enrichment toy for curious cats.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Catnip-filled for extra interest
+✓ Soft fuzzy texture
+✓ Encourages batting, grabbing and chasing
+✓ Lightweight and easy to play with
+✓ Approx. 8 cm (3.1 in)
+
+A small toy made for big moments of play.
+
+The fuzzy texture and catnip help spark your cat's natural curiosity and playful instincts.
+
+Perfect for everyday indoor fun.
+`,
+
+  inStock: true,
+
+  featured: true,
+},
+
+{
   id: 138,
 
   slug: "premium-cat-activity-turn-around",
