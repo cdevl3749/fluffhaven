@@ -853,7 +853,7 @@ if (priceSort === "high") {
       {/* SHOP */}
       <section id="shop" className="section">
         <div className="section-label">Our Collection</div>
-        <h2>Best Sellers</h2>
+        <h2>Featured Picks</h2>
         <div
           style={{
             textAlign: "center",
