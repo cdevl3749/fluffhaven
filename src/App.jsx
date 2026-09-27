@@ -446,6 +446,25 @@ useEffect(() => {
 }, [cart]);
   const [openCart, setOpenCart] = useState(false);
 
+  useEffect(() => {
+  const scrollToHash = () => {
+    if (window.location.hash === "#halloween") {
+      setTimeout(() => {
+        document
+          .getElementById("halloween")
+          ?.scrollIntoView({ behavior: "smooth", block: "start" });
+      }, 300);
+    }
+  };
+
+  scrollToHash();
+  window.addEventListener("hashchange", scrollToHash);
+
+  return () => {
+    window.removeEventListener("hashchange", scrollToHash);
+  };
+}, []);
+
   const [cartNotice, setCartNotice] = useState(false);
   const [showBackTop, setShowBackTop] = useState(false);
   const savedShopFilters = (() => {
