@@ -818,7 +818,7 @@ if (priceSort === "high") {
 
       {/* TOP BAR */}
       <div className="top-bar">
-        <span>✦</span> Free worldwide shipping • 5–8 business days <span>✦</span>
+        <span>🎃</span> Free worldwide shipping • 5–8 business days <span>🎃</span>
       </div>
 
       {/* HEADER */}
@@ -1025,80 +1025,99 @@ if (priceSort === "high") {
       </section>
       </HomeClassic>
 
-{/* PONPON'S AUTUMN PICKS */}
-<section className="world-cup-section">
-  <div className="section-label">🍂 Ponpon's Autumn Picks</div>
+{/* PONPON'S HALLOWEEN PICKS */}
+<section id="halloween" className="world-cup-section">
+  <div className="section-label">🎃 Ponpon's Halloween Picks</div>
 
-  <h2>Cozy Essentials for Autumn Adventures</h2>
+  <h2>Spooky Fun & Cozy Autumn Favorites</h2>
 
   <p className="world-cup-intro">
-    Ponpon has selected her favorite essentials for cozy walks, rainy
-    adventures and comfortable moments as the seasons change.
+    Halloween is coming! Ponpon has picked a few spooky toys and cozy
+    autumn favorites for playful days, chilly walks and seasonal fun.
   </p>
 
   <div className="world-cup-grid">
 
+    {/* DOG — SPOOKY PAWS TRIO */}
     <div className="world-cup-card">
       <img
-        src="/autumn_walks.webp"
-        alt="Ponpon enjoying a cozy autumn walk"
+        src="/spooky-paws-trio-1.webp"
+        alt="FluffHaven Spooky Paws Trio Halloween dog toys"
         loading="lazy"
       />
-      <h3>🍂 Autumn Walks</h3>
+      <h3>🎃 Spooky Paws Trio</h3>
       <button
-        onClick={() => (window.location.href = "/product/premium-reflective-dog-harness")}
+        onClick={() =>
+          (window.location.href = "/product/fluffhaven-spooky-paws-trio")
+        }
         className="world-cup-share-btn"
       >
-        🍂 Shop This Pick
+        🎃 Shop This Pick
       </button>
     </div>
 
-    <div className="world-cup-card">
-      <img
-        src="/rainy_day_jaune_section.webp"
-        alt="Ponpon ready for rainy days"
-        loading="lazy"
-      />
-      <h3>☔ Rainy Days</h3>
-      <button
-        onClick={() => (window.location.href = "/product/premium-waterproof-dog-raincoat")}
-        className="world-cup-share-btn"
-      >
-        ☔ Shop This Pick
-      </button>
-    </div>
+    {/* CAT — HALLOWEEN PUMPKIN KICKER */}
+<div className="world-cup-card">
+  <img
+    src="/premium-halloween-pumpkin-cat-kicker-main.webp"
+    alt="Premium Halloween Pumpkin Cat Kicker"
+    loading="lazy"
+  />
 
-    <div className="world-cup-card">
-      <img
-        src="/stay_warm.webp"
-        alt="Ponpon staying warm during autumn"
-        loading="lazy"
-      />
-      <h3>🧣 Stay Warm</h3>
-      <button
-        onClick={() => (window.location.href = "/product/premium-orthopedic-dog-bed")}
-        className="world-cup-share-btn"
-      >
-        🧣 Shop This Pick
-      </button>
-    </div>
+  <h3>🎃 Pumpkin Kicker</h3>
 
-    <div className="world-cup-card">
-      <img
-        src="/ponpon_favorite.webp"
-        alt="Ponpon's favorite autumn essential"
-        loading="lazy"
-      />
-      <h3>❤️ Ponpon's Favorite</h3>
-      <button
-        onClick={() => (window.location.href = "/product/premium-dog-snuffle-mat")}
-        className="world-cup-share-btn"
-      >
-        ❤️ Shop Ponpon’s Pick
-      </button>
-    </div>
+  <button
+    onClick={() =>
+      (window.location.href =
+        "/product/premium-halloween-pumpkin-cat-kicker")
+    }
+    className="world-cup-share-btn"
+  >
+    🎃 Shop This Pick
+  </button>
+</div>
 
-  </div>
+{/* CAT — PLUSH SNAKE */}
+<div className="world-cup-card">
+  <img
+    src="/premium-plush-snake-cat-toy-main.webp"
+    alt="Premium Plush Snake Cat Toy"
+    loading="lazy"
+  />
+
+  <h3>🐍 Plush Snake</h3>
+
+  <button
+    onClick={() =>
+      (window.location.href = "/product/premium-plush-snake-cat-toy")
+    }
+    className="world-cup-share-btn"
+  >
+    🎃 Shop This Pick
+  </button>
+</div>
+
+{/* CAT — FUZZY CATNIP TOY */}
+<div className="world-cup-card">
+  <img
+    src="/premium-fuzzy-catnip-cat-toy-main.webp"
+    alt="Premium Fuzzy Catnip Cat Toy"
+    loading="lazy"
+  />
+
+  <h3>👻 Fuzzy Catnip</h3>
+
+  <button
+    onClick={() =>
+      (window.location.href = "/product/premium-fuzzy-catnip-cat-toy")
+    }
+    className="world-cup-share-btn"
+  >
+    🎃 Shop This Pick
+  </button>
+</div>
+
+</div>
 </section>
       {/* WHY FLUFFHAVEN */}
       <section className="why-fluffhaven">

@@ -232,6 +232,122 @@ Its soft textured surface and easy-to-carry shape make it ideal for fetching, ca
 },
 
 {
+  id: 143,
+
+  slug: "fluffhaven-spooky-paws-trio",
+
+  name: "FluffHaven Spooky Paws Trio",
+
+  category: "dog",
+  productType: "toys",
+
+  seasons: ["autumn"],
+
+  subtitle: "3 Halloween toys • Rope & squeaky fun • Limited seasonal trio",
+
+  price: 14.90,
+
+  badge: "🎃 Halloween Special",
+
+  priceId: "price_1UKL3HKn0lmTcQ110DrrHrK6",
+
+  images: [
+    "/spooky-paws-trio-1.webp",
+    "/spooky-paws-trio-2.webp",
+    "/spooky-paws-trio-3.webp",
+    "/spooky-paws-trio-4.webp",
+    "/spooky-paws-trio-5.webp",
+  ],
+
+  description:
+    "Make Halloween playtime extra fun with the FluffHaven Spooky Paws Trio. This festive set includes three playful Halloween dog toys designed for chewing, tugging and interactive fun.",
+
+  seoTitle:
+    "FluffHaven Spooky Paws Trio | Halloween Dog Toy Set",
+
+  seoDescription:
+    "Halloween dog toy trio with 3 spooky characters, rope details and squeaky fun. A festive seasonal playtime set for dogs.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Set of 3 Halloween dog toys
+✓ Bat, monster & spider designs
+✓ Rope details for tugging and chewing
+✓ Squeaky interactive play
+✓ Soft plush textures
+✓ Perfect for autumn & Halloween fun
+
+Three spooky friends for one seriously fun playtime.
+
+The FluffHaven Spooky Paws Trio combines three Halloween-inspired toys designed to bring variety to your dog's playtime.
+
+A fun limited seasonal set for tugging, chewing and interactive play.
+`,
+
+  inStock: true,
+
+  featured: true,
+},
+
+{
+  id: 142,
+
+  slug: "premium-natural-beef-dog-chew-xl",
+
+  name: "Premium Natural Beef Dog Chew XL",
+
+  category: "dog",
+  productType: "feeding",
+
+  seasons: ["summer", "autumn", "winter"],
+
+  subtitle: "100% beef • Natural chew • XL 25 cm",
+
+  price: 11.90,
+
+  badge: "🦴 Natural Chew",
+
+  priceId: "price_1UKI5IKn0lmTcQ11vLkpvdkG",
+
+  images: [
+    "/premium-natural-beef-dog-chew-xl-product.webp",
+    "/premium-natural-beef-dog-chew-xl-main.webp",
+    "/premium-natural-beef-dog-chew-xl-lifestyle.webp",
+    "/premium-natural-beef-dog-chew-xl-details.webp",
+    "/premium-natural-beef-dog-chew-xl-kitchen.webp",
+  ],
+
+  description:
+    "A 100% natural beef chew made for dogs who love a satisfying, long-lasting chewing experience.",
+
+  seoTitle:
+    "Premium Natural Beef Dog Chew XL 25 cm | FluffHaven",
+
+  seoDescription:
+    "100% natural beef dog chew in XL 25 cm size. A simple, protein-rich chew with no additives or preservatives.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ 100% natural beef
+✓ XL size — approx. 25 cm (9.8 in)
+✓ No additives or preservatives
+✓ Naturally protein-rich
+✓ Designed for satisfying chewing
+✓ 1 beef chew included
+
+A simple, natural chew for dogs who love to chew.
+
+Made from 100% beef and naturally dried, with no unnecessary additives or preservatives.
+`,
+
+  inStock: true,
+
+  featured: true,
+},
+
+{
   id: 136,
 
   slug: "premium-tactical-adventure-dog-collar",
