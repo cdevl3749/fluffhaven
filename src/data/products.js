@@ -1077,11 +1077,11 @@ A FluffHaven bath-time essential.
 
   subtitle: "Warm lining • Built-in harness • Reflective details • Size 5XL • From 24 kg",
 
-  price: 64.90,
+  price: 44.90,
 
   badge: "❄️ Winter Essential",
 
-  priceId: "price_1U9pLTKn0lmTcQ11MyyvEDvz",
+  priceId: "price_1UKmIkKn0lmTcQ11LgoU6x1r",
 
   images: [
     "/premium-winter-dog-coat-with-harness-main.webp",
@@ -1092,7 +1092,7 @@ A FluffHaven bath-time essential.
   ],
 
   description:
-    "Keep your dog warm and comfortable on cold-weather walks with the Premium Winter Dog Coat with Harness. Designed with a cozy padded lining, built-in harness and reflective details.",
+  "Keep your dog warm and comfortable on cold winter walks with this padded dog coat featuring a built-in harness and reflective details.",
 
   seoTitle:
     "Premium Winter Dog Coat with Harness | FluffHaven",
@@ -1105,15 +1105,11 @@ A FluffHaven bath-time essential.
   details: `
 ✓ Warm padded lining
 ✓ Built-in adjustable harness
-✓ Reflective details
+✓ Reflective details for visibility
 ✓ Water-resistant outer layer
-✓ Size 5XL • Recommended for dogs from 24 kg
+✓ Size 5XL — recommended for dogs from 24 kg
 
-Warm and practical for cold-weather walks.
-
-The built-in harness combines everyday comfort with convenient leash attachment.
-
-A premium FluffHaven essential for autumn and winter.
+Warm, practical protection for comfortable autumn and winter walks.
 `,
 
   inStock: true,
@@ -2252,7 +2248,7 @@ Combining mental stimulation and active play, this FluffHaven duo brings more va
   ],
 
   description:
-  "Keep your dog warm, dry and comfortable after baths, swims and rainy walks with the Premium Microfiber Dog Robe. Made from soft, highly absorbent microfiber, this quick-drying robe helps absorb excess moisture while providing cozy coverage. Its adjustable secure fit makes it easy to put on and take off, while the lightweight reusable design is practical at home or on the go. Available in Size L with an approximate 48 cm back length.",
+  "Dry your dog quickly after baths, swims and rainy walks with this soft, absorbent microfiber robe featuring a comfortable adjustable fit.",
 
   seoTitle:
     "Premium Microfiber Dog Robe | Quick-Dry Dog Towel Size L | FluffHaven",
@@ -2263,21 +2259,13 @@ Combining mental stimulation and active play, this FluffHaven duo brings more va
   brand: "FluffHaven",
 
   details: `
-✓ Size L — approximate 48 cm back length
-✓ Ultra-absorbent, quick-drying microfiber
-✓ Adjustable secure fit for easy on and off
-✓ Ideal after baths, swimming and rainy walks
-✓ Machine washable and reusable
+✓ Size L — approx. 48 cm back length
+✓ Absorbent & quick-drying microfiber
+✓ Adjustable comfortable fit
+✓ Ideal after baths, swims & rainy walks
+✓ Machine washable & reusable
 
-Keep your dog warm and comfortable after wet adventures with the Premium Microfiber Dog Robe, made from soft and highly absorbent microfiber.
-
-The quick-drying material helps absorb excess moisture while providing lightweight and cozy coverage.
-
-Its adjustable fastening provides a secure and comfortable fit, while Size L offers an approximate 48 cm back length.
-
-Machine washable and reusable, it's practical for baths, swimming, rainy walks, home and travel.
-
-Finished in forest green, it combines practical drying performance, comfort and premium FluffHaven styling.
+Soft, practical drying comfort for wet dogs at home or on the go.
 `,
 
   inStock: true,
@@ -3282,7 +3270,7 @@ Combining soft comfort, supportive edges and a warm seasonal design, this FluffH
   ],
 
   description:
-  "Keep your dog warm and comfortable during colder days with the Premium Hooded Dog Puffer Jacket. Designed with a padded construction, protective hood and cozy inner lining, this winter jacket provides extra comfort against chilly weather and cold winds. Its striking blue design gives it a premium outdoor look, while Size XXL is suitable for dogs weighing approximately 6.5–13 kg.",
+  "Keep your dog warm and comfortable on cold winter walks with this padded puffer jacket featuring a protective hood and cozy inner lining.",
 
   seoTitle:
     "Premium Hooded Dog Puffer Jacket XXL | Winter Dog Coat | FluffHaven",
@@ -3293,21 +3281,13 @@ Combining soft comfort, supportive edges and a warm seasonal design, this FluffH
   brand: "FluffHaven",
 
   details: `
-✓ Size XXL — suitable for dogs approximately 6.5–13 kg
-✓ Warm padded construction with soft inner lining
-✓ Protective hood and water-resistant outer layer
-✓ Easy snap-button closure with freedom of movement
-✓ Stylish blue and black design for autumn and winter
+✓ Size XXL — suitable for dogs approx. 6.5–13 kg
+✓ Warm padded construction
+✓ Soft cozy inner lining
+✓ Water-resistant outer layer
+✓ Protective hood & snap-button closure
 
-Prepare your dog for colder days with the Premium Hooded Dog Puffer Jacket, designed for comfortable autumn and winter adventures.
-
-Its padded construction and soft inner lining provide warmth, while the protective hood adds coverage around the head and neck.
-
-The water-resistant outer layer helps protect against light moisture and cold winds during outdoor walks.
-
-Designed in Size XXL for dogs weighing approximately 6.5–13 kg, snap-button closures provide an easy and secure fit while allowing freedom of movement.
-
-Combining warmth, protection and blue-and-black FluffHaven styling, this jacket is a practical choice for colder outdoor days.
+Warm and comfortable protection for colder walks. Please check your dog's measurements before ordering.
 `,
 
   inStock: true,
@@ -4706,7 +4686,7 @@ Quick, gentle paw cleaning after rainy walks and messy outdoor adventures.
   ],
 
   description:
-  "Keep your dog warm and protected during cold winter adventures with the Premium Winter Reflective Dog Coat. Designed with a warm padded lining, water-resistant outer layer and reflective trim for better visibility, this coat is ideal for winter walks, chilly mornings and outdoor adventures. Available in Size L for a comfortable and secure fit.",
+  "Keep your dog warm and visible on winter walks with this padded, water-resistant coat featuring reflective trim for added safety.",
 
   seoTitle:
     "Premium Winter Reflective Dog Coat | Warm Waterproof Dog Jacket | FluffHaven",
@@ -4716,22 +4696,14 @@ Quick, gentle paw cleaning after rainy walks and messy outdoor adventures.
 
   brand: "FluffHaven",
 
-  details: `
+ details: `
 ✓ Size L — chest 60–70 cm
 ✓ Neck 45–50 cm — back length 50 cm
 ✓ Suggested dog weight: 15–22.5 kg
-✓ Warm padded lining with water-resistant outer layer
-✓ Reflective trim for improved visibility
+✓ Warm padded & water-resistant
+✓ Reflective trim for visibility
 
-Make cold-weather walks more comfortable with the Premium Winter Reflective Dog Coat, designed for winter walks and outdoor adventures.
-
-Its warm padded lining provides cozy coverage, while the water-resistant outer layer helps protect against cold and damp conditions.
-
-Reflective trim improves visibility during darker winter mornings and evenings while allowing comfortable freedom of movement.
-
-This FluffHaven edition is offered in Size L with a chest of 60–70 cm, neck of 45–50 cm, back length of 50 cm and suggested weight of 15–22.5 kg.
-
-For the best fit, please measure your dog before ordering.
+Warm and comfortable winter protection. Please measure your dog before ordering for the best fit.
 `,
 
   inStock: true,
@@ -4768,7 +4740,7 @@ For the best fit, please measure your dog before ordering.
   ],
 
   description:
-  "Keep your dog warm and protected during cold winter walks with the Premium Arctic Waterproof Dog Vest. Designed with warm insulation and a protective outer layer, this winter vest helps shield your dog from cold wind and damp weather while allowing comfortable freedom of movement. Its blue contrast panel adds a sporty look, ideal for winter walks, forest adventures and everyday outdoor use.",
+  "Keep your dog warm and protected on cold winter walks with this insulated waterproof vest, designed for comfortable outdoor adventures.",
 
   seoTitle:
     "Premium Arctic Waterproof Dog Vest | Warm Winter Dog Coat | FluffHaven",
@@ -4780,22 +4752,13 @@ For the best fit, please measure your dog before ordering.
 
   details: `
 ✓ Size L winter dog vest
-✓ Warm insulated and lightweight padded construction
-✓ Protective outer layer for cold and damp weather
-✓ Comfortable design allowing freedom of movement
-✓ Sporty blue and black design for outdoor adventures
+✓ Warm insulated padding
+✓ Protection from cold & damp weather
+✓ Lightweight comfortable fit
+✓ Sporty blue & black design
 
-Keep winter adventures comfortable with the Premium Arctic Waterproof Dog Vest, designed for cold-weather walks and outdoor activities.
-
-Its warm padded construction and protective outer layer help provide comfortable coverage against chilly wind and damp conditions.
-
-The lightweight design allows freedom of movement while remaining easy to put on and take off.
-
-Its blue and black styling gives the vest a sporty outdoor look, ideal for winter walks, park trips and forest adventures.
-
-This FluffHaven edition is offered in Size L. Please measure your dog and check the size guide before ordering for the best fit.
+Warm winter protection for comfortable outdoor adventures. Please check the size guide before ordering.
 `,
-
   inStock: true,
 
   featured: true,
@@ -5181,11 +5144,11 @@ Combining warmth, privacy and practical everyday comfort, this FluffHaven teepee
 
   subtitle: "Waterproof • Size M • Reflective protection",
 
-  price: 39.90,
+  price: 29.90,
 
   badge: "🌧🍂 Rainy Day Essential",
 
-  priceId: "price_1U1AzCKn0lmTcQ11UcbyQyti",
+  priceId: "price_1UKlYlKn0lmTcQ11s9w3Kat6",
 
   images: [
     "/premium-reflective-dog-raincoat-main.webp",
@@ -5196,38 +5159,29 @@ Combining warmth, privacy and practical everyday comfort, this FluffHaven teepee
   ],
 
   description:
-    "Keep your dog dry, comfortable and visible during rainy adventures with our Premium Reflective Dog Raincoat. Designed with waterproof fabric, reflective safety strips and a convenient harness opening, this lightweight Size M raincoat offers premium protection for autumn and winter walks.",
+  "Keep your dog dry and visible on rainy walks with this lightweight waterproof raincoat featuring reflective strips and a convenient harness opening.",
 
-  seoTitle:
-    "Premium Reflective Dog Raincoat | Waterproof Dog Coat | FluffHaven",
+seoTitle:
+  "Premium Reflective Dog Raincoat | Waterproof Dog Coat | FluffHaven",
 
-  seoDescription:
-    "Premium waterproof dog raincoat with reflective safety strips, harness opening and lightweight comfort. Size M. Perfect for rainy autumn and winter walks.",
+seoDescription:
+  "Waterproof dog raincoat with reflective strips, harness opening and lightweight comfort. Size M for rainy autumn and winter walks.",
 
-  brand: "FluffHaven",
+brand: "FluffHaven",
 
-  details: `
-✓ Premium waterproof fabric
-✓ Reflective safety strips for enhanced visibility
-✓ Bright yellow high-visibility design
-✓ Size M
-✓ Lightweight & comfortable
-✓ Adjustable secure fit
+details: `
+✓ Waterproof & wind-resistant
+✓ Reflective safety strips
+✓ Lightweight comfortable fit
 ✓ Convenient harness opening
 ✓ Protective hood
-✓ Wind-resistant design
-✓ Easy to clean
-✓ Durable premium construction
-✓ Perfect for rainy walks
-✓ Ideal for autumn & winter
-✓ FluffHaven premium quality
 
-Keep your dog comfortable, protected and visible whatever the weather. The Premium Reflective Dog Raincoat combines waterproof protection with reflective safety strips to help improve visibility during darker or rainy walks. Its lightweight Size M design features a protective hood, adjustable fit and convenient harness opening for comfortable everyday use. Durable, practical and easy to clean, it's an ideal companion for autumn and winter adventures.
+Stay dry, comfortable and visible during rainy autumn and winter walks.
 `,
 
-  inStock: true,
+inStock: true,
 
-  featured: true,
+featured: true,
 },
 
   {
@@ -8003,11 +7957,11 @@ Designed for regular outdoor use, this FluffHaven set combines comfort, visibili
 
   subtitle: "Waterproof • Windproof • Reflective",
 
-  price: 49.90,
+  price: 34.90,
 
   badge: "🌧️ Rainy Days",
 
-  priceId: "price_1UAoPyKn0lmTcQ11JDSUG9XY",
+  priceId: "price_1UKlvRKn0lmTcQ11Xd9AM2Ib",
 
   images: [
     "/premium-waterproof-dog-raincoat-main.webp",
@@ -8018,32 +7972,24 @@ Designed for regular outdoor use, this FluffHaven set combines comfort, visibili
   ],
 
   description:
-  "Keep your dog dry during rainy walks with this premium waterproof raincoat. Featuring reflective details, an adjustable fit and a convenient harness opening, it's designed for comfortable everyday autumn adventures.",
+  "Keep your dog dry and comfortable on rainy walks with this lightweight waterproof raincoat featuring reflective trim and a convenient harness opening.",
 
-  seoTitle:
-    "Premium Waterproof Dog Raincoat | FluffHaven",
+seoTitle:
+  "Premium Waterproof Dog Raincoat | FluffHaven",
 
-  seoDescription:
-    "Premium waterproof dog raincoat with reflective safety trim, adjustable fit and harness opening. Perfect for rainy autumn walks.",
+seoDescription:
+  "Premium waterproof dog raincoat with reflective trim, adjustable fit and harness opening. Perfect for rainy autumn walks.",
 
-  brand: "FluffHaven",
+brand: "FluffHaven",
 
-  details: `
-✓ 100% waterproof and windproof fabric
-✓ Reflective trim for added visibility
-✓ Harness opening with adjustable fit
-✓ Lightweight and breathable design
-✓ Comfortable for everyday rainy walks
+details: `
+✓ Waterproof & windproof
+✓ Reflective trim for visibility
+✓ Adjustable comfortable fit
+✓ Convenient harness opening
+✓ Lightweight & breathable
 
-Keep your dog protected with this Premium Waterproof Dog Raincoat.
-
-The waterproof and windproof fabric helps provide practical coverage during wet and windy weather.
-
-Reflective trim adds visibility, while the harness opening makes everyday walks more convenient.
-
-Its adjustable fit and lightweight breathable construction provide comfortable freedom of movement.
-
-Designed for rainy autumn adventures, this FluffHaven raincoat combines weather protection, visibility and everyday comfort.
+Practical weather protection for comfortable rainy autumn walks.
 `,
 },
 
