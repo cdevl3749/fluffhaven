@@ -4636,11 +4636,11 @@ Combining slower feeding, searching and licking activities, this FluffHaven puzz
 
   subtitle: "Automatic cleaning • USB rechargeable • Deep paw care",
 
-  price: 27.90,
+  price: 19.90,
 
   badge: "🐾 Paw Care Essential",
 
-  priceId: "price_1UEDwsKn0lmTcQ11NW5oszFg",
+  priceId: "price_1UKitsKn0lmTcQ11exV0F6Y3",
 
   images: [
     "/premium-electric-dog-paw-cleaner-main.webp",
@@ -4651,7 +4651,7 @@ Combining slower feeding, searching and licking activities, this FluffHaven puzz
   ],
 
   description:
-  "Make muddy paw cleanup quick and easy with the Premium Electric Dog Paw Cleaner. Designed with soft rotating silicone bristles, this rechargeable cleaner gently surrounds your dog's paw to help remove dirt, mud and debris after outdoor walks. Its portable cordless design makes it practical for rainy autumn days and messy winter adventures.",
+  "Clean muddy paws in seconds with soft rotating silicone bristles. Rechargeable, cordless and perfect after rainy walks or outdoor adventures.",
 
   seoTitle:
     "Premium Electric Dog Paw Cleaner | Rechargeable Automatic Paw Washer | FluffHaven",
@@ -4662,21 +4662,13 @@ Combining slower feeding, searching and licking activities, this FluffHaven puzz
   brand: "FluffHaven",
 
   details: `
-✓ Automatic rotating paw-cleaning system
-✓ Soft silicone bristles for gentle cleaning
-✓ Helps remove mud, dirt and everyday debris
-✓ USB rechargeable with cordless portable design
-✓ Easy one-button operation and removable inner section
+✓ Automatic rotating cleaning system
+✓ Soft silicone bristles
+✓ Helps remove mud, dirt & debris
+✓ USB rechargeable & cordless
+✓ Removable inner section for easy rinsing
 
-Keep muddy paws under control with the Premium Electric Dog Paw Cleaner, designed for rainy walks and messy outdoor adventures.
-
-Its automatic rotating system uses soft silicone bristles to gently clean around your dog's paw while helping remove dirt, mud and debris.
-
-Simply add a suitable amount of water, place your dog's paw gently inside and activate the cleaning system with the button.
-
-The USB rechargeable cordless design makes it convenient to use, while the removable inner section allows easy rinsing after cleaning.
-
-Finished in blue, this compact FluffHaven paw cleaner combines gentle cleaning, portability and practical everyday paw care.
+Quick, gentle paw cleaning after rainy walks and messy outdoor adventures.
 `,
 
   inStock: true,
@@ -5431,20 +5423,22 @@ Designed for small and medium dogs, this FluffHaven set combines play, chewing a
 
   subtitle: "Protect • Repair • Moisturize",
 
-  price: 24.90,
+  price: 14.90,
 
   badge: "🐾 Paw Care",
 
-  priceId: "price_1UBwyhKn0lmTcQ11jqA0NIhi",
+  priceId: "price_1UKkWQKn0lmTcQ11mSLJsfjT",
 
   images: [
-    "/premium-dog-paw-balm-main.webp",
-    "/premium-dog-paw-balm-benefits.webp",
-    "/premium-dog-paw-balm-features.webp",
-  ],
+  "/premium-dog-paw-balm-4.webp",
+  "/premium-dog-paw-balm-5.webp",
+  "/premium-dog-paw-balm-main.webp",
+  "/premium-dog-paw-balm-benefits.webp",
+  "/premium-dog-paw-balm-features.webp",
+],
 
   description:
-  "Protect your dog's paws year-round with the Premium Dog Paw Balm. Designed to moisturize dry paw pads and help protect against hot pavement, winter salt and rough terrain, it's a practical essential for everyday adventures.",
+  "Moisturize and protect your dog's paws from hot pavement, winter salt and rough terrain with this easy everyday paw balm.",
 
   seoTitle:
     "Premium Dog Paw Balm | Natural Paw Protection | FluffHaven",
@@ -5454,24 +5448,15 @@ Designed for small and medium dogs, this FluffHaven set combines play, chewing a
 
   brand: "FluffHaven",
 
-  details: `
-✓ Helps moisturize dry and cracked paw pads
-✓ Natural ingredients for everyday paw care
-✓ Helps protect against hot pavement and winter salt
-✓ Lightweight stick format for easy application
+ details: `
+✓ Moisturizes dry & cracked paw pads
+✓ Natural ingredients
+✓ Helps protect against hot pavement & winter salt
+✓ Easy-to-apply stick format
 ✓ Suitable for all dog breeds
 
-Keep your dog's paws comfortable and protected with the Premium Dog Paw Balm.
-
-Its moisturizing formula helps care for dry and cracked paw pads during everyday walks.
-
-It also provides practical paw protection against hot pavement, winter salt and changing outdoor conditions.
-
-The lightweight stick format makes application quick and convenient at home or on the go.
-
-Suitable for all dog breeds, this FluffHaven paw balm is designed for everyday care throughout the year.
+Everyday paw care and protection for walks in every season.
 `,
-
 },
 
 {
@@ -5944,30 +5929,28 @@ With its adjustable design, it can be adapted to different dog sizes for a secur
     productType: "grooming-care",
     seasons: ["summer", "autumn", "winter"],
     subtitle: "Quiet · LED · safe grooming",
-    price: 34.90,
+    price: 24.90,
     badge: "⚡ Popular",
-    priceId: "price_1U8exuKn0lmTcQ11pB8QXtIF",
-    images: ["/ponceuse_griffe.webp","/ponceuse_griffe2.webp","/ponceuse_griffe3.webp"],
-    description: "Trim your pet's nails comfortably with this quiet and precise nail grinder. Easy to use and designed for gentle everyday nail care.",
+    priceId: "price_1UKjHHKn0lmTcQ11W21CFgN3",
+    images: [
+      "/ponceuse_griffe4.webp",
+      "/ponceuse_griffe5.webp",
+      "/ponceuse_griffe.webp",
+      "/ponceuse_griffe2.webp",
+      "/ponceuse_griffe3.webp",
+    ],
+    description: "Keep your pet's nails neat with this quiet and precise nail grinder. Gentle, easy to use and perfect for regular nail care.",
     seoTitle: "Electric Dog Nail Grinder | Safe Dog Nail Trimmer | FluffHaven",
     seoDescription: "Trim your dog's nails safely with this quiet electric nail grinder. Precise, rechargeable and stress-free grooming at home.",
     brand: "FluffHaven",
-    details: `
-✓ Gentle and precise nail trimming
-✓ Quiet motor for more comfortable grooming
+   details: `
+✓ Gentle & precise nail grinding
+✓ Quiet motor for comfortable grooming
 ✓ 2 speed settings
 ✓ Built-in LED for better visibility
 ✓ USB rechargeable
 
-Make everyday nail care easier with this quiet and precise Pet Nail Grinder.
-
-Two speed settings let you adapt the grinder to your pet's grooming needs.
-
-The quiet motor is designed for a calmer and more comfortable grooming experience.
-
-A built-in LED improves visibility around the nail for greater precision during use.
-
-USB rechargeable and easy to use, it's a practical FluffHaven grooming tool for convenient nail care at home.
+Quiet, precise nail care for easier grooming at home.
 `,
   },
 
@@ -5980,8 +5963,8 @@ USB rechargeable and easy to use, it's a practical FluffHaven grooming tool for 
   productType: "grooming-care",
   seasons: ["autumn", "winter"],
   subtitle: "Portable silicone paw cleaner",
-  price: 14.90,
-  priceId: "price_1UBzYeKn0lmTcQ117BkkNGos",
+  price: 10.90,
+  priceId: "price_1UKinrKn0lmTcQ11Y0by7Fv7",
   badge: "Best Seller",
   images: [
     "/clean_orange_1.webp",
@@ -5996,20 +5979,12 @@ USB rechargeable and easy to use, it's a practical FluffHaven grooming tool for 
   brand: "FluffHaven",
   details: `
 ✓ Soft silicone cleaning bristles
-✓ Orange colour
-✓ Helps remove mud and dirt
-✓ Easy to clean after use
+✓ Helps remove mud & dirt
+✓ Simple manual design
+✓ Easy to rinse after use
 ✓ Suitable for all dog breeds
 
-Keep muddy paws under control with this practical Dog Paw Cleaner.
-
-Soft silicone bristles gently surround the paw to help remove dirt and mud after outdoor walks.
-
-Its simple design makes everyday paw cleaning quick and convenient.
-
-The cleaner is easy to rinse and prepare for the next use.
-
-Suitable for all breeds, it's a practical FluffHaven essential for rainy and muddy adventures.
+A simple everyday solution for cleaner paws after muddy and rainy walks.
 `,
 },
   {
@@ -6094,11 +6069,17 @@ Machine washable and suitable for dogs and cats, it's a convenient FluffHaven es
     productType: "grooming-care",
     seasons: ["summer", "autumn", "winter"],
     subtitle: "Electric spray & massage brush · USB rechargeable",
-    price: 31.90,
+    price: 24.90,
     badge: "Popular",
-    priceId: "price_1U8fOVKn0lmTcQ11OzeoFV9m",
-    images: ["/peigne_brosse_3.webp", "/peigne_brosse_2.webp", "/peigne_brosse.webp"],
-    description: "Combine grooming and massage with this electric spray brush. Featuring one-click water spray, massage and detangling bristles, it's USB rechargeable and helps reduce loose and flying pet hair.",
+    priceId: "price_1UKk1sKn0lmTcQ117Pu2x2aZ",
+    images: [
+      "/peigne_brosse_4.webp",
+      "/peigne_brosse_5.webp",
+      "/peigne_brosse_3.webp",
+      "/peigne_brosse_2.webp",
+      "/peigne_brosse.webp",
+    ],
+    description: "Groom, massage and reduce loose hair with this electric spray brush. USB rechargeable and easy to use.",
     seoTitle: "3-in-1 Steam Grooming Brush | Pet Grooming Brush | FluffHaven",
     seoDescription: "Reduce shedding and groom your pet easily with this 3-in-1 steam grooming brush. Gentle, rechargeable and suitable for dogs and cats.",
     brand: "FluffHaven",
@@ -6111,13 +6092,7 @@ Machine washable and suitable for dogs and cats, it's a convenient FluffHaven es
 
 Make everyday grooming easier with this practical Electric Spray Grooming Brush.
 
-The one-click spray helps lightly moisten the coat during brushing.
-
-Detangling bristles help collect loose hair while brushing through the coat.
-
-The electric massage function adds a gentle grooming experience for everyday care.
-
-USB rechargeable and suitable for cats and dogs, it's a convenient FluffHaven grooming tool for home use.
+Designed to lightly moisten the coat, collect loose hair and provide a gentle massage while brushing.
 `,
   },
 
@@ -6129,8 +6104,8 @@ USB rechargeable and suitable for cats and dogs, it's a convenient FluffHaven gr
   productType: "grooming-care",
   seasons: ["summer", "autumn", "winter"],
   subtitle: "Reusable · electrostatic · easy cleaning",
-  price: 17.90,
-  priceId: "price_1UC2w0Kn0lmTcQ118tJ6ATvt",
+  price: 10.90,
+  priceId: "price_1UKkF5Kn0lmTcQ11GRoAGYRb",
   badge: "🔥 Trending",
 
   images: [
@@ -6141,8 +6116,7 @@ USB rechargeable and suitable for cats and dogs, it's a convenient FluffHaven gr
   "/gant_anti_poils3.webp",
 ],
 
-  description:
-  "Remove pet hair from sofas, clothes, carpets and car seats with this practical reusable remover. Washable and easy to use for everyday cleaning.",
+  description: "Quickly remove pet hair from sofas, clothes, carpets and car seats with this reusable, washable remover.",
 
   seoTitle:
     "Pet Hair Remover Glove | Reusable Pet Grooming Glove | FluffHaven",
@@ -6152,22 +6126,14 @@ USB rechargeable and suitable for cats and dogs, it's a convenient FluffHaven gr
 
   brand: "FluffHaven",
 
-  details: `
+ details: `
 ✓ Electrostatic pet hair removal
-✓ Reusable and washable
-✓ Works on clothes, sofas and carpets
+✓ Reusable & washable
+✓ Works on clothes, sofas & carpets
 ✓ Comfortable five-finger design
 ✓ Suitable for dogs and cats
 
-Remove loose pet hair easily with this reusable five-finger grooming glove.
-
-Its electrostatic design helps collect pet hair from everyday surfaces.
-
-Use it on clothing, sofas and carpets for convenient cleaning around the home.
-
-The comfortable five-finger shape provides easy control during use.
-
-Washable and reusable, it's a practical FluffHaven cleaning accessory for dog and cat owners.
+Quick and reusable pet hair removal for clothes, furniture and everyday surfaces.
 `,
 },
 
