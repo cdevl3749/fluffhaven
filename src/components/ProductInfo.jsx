@@ -142,21 +142,10 @@ export default function ProductInfo({ product, onAddToCart }) {
   </div>
 
   <p className="product-price-secondary">
-    🚚 Estimated delivery: 5–8 business days
+  🚚 Estimated delivery: 5–8 business days
   </p>
-</div>
 
-      {product.badge && (
-        <div className="product-badge">{product.badge}</div>
-      )}
-
-      <p className="product-subtitle">{product.subtitle}</p>
-
-      <p className="product-stock">
-        ✓ In Stock • Ready to Ship
-      </p>
-
-      <div className="product-buttons">
+  <div className="product-buttons">
         <AddToCartButton
           onClick={() => onAddToCart?.(product)}
         />
@@ -169,6 +158,17 @@ export default function ProductInfo({ product, onAddToCart }) {
           Buy Now →
         </button>
       </div>
+  </div>
+
+      {product.badge && (
+        <div className="product-badge">{product.badge}</div>
+      )}
+
+      <p className="product-subtitle">{product.subtitle}</p>
+
+      <p className="product-stock">
+        ✓ In Stock • Ready to Ship
+      </p>
 
       {/* BUYING AREA - visible before long product content */}
       <div className="product-trust">
@@ -177,6 +177,7 @@ export default function ProductInfo({ product, onAddToCart }) {
         <span>14-Day Returns</span>
       </div>
 
+    {product.slug !== "premium-3-in-1-pet-grooming-set" && (
      <div className="product-description-wrapper">
        <p
         ref={descriptionRef}
@@ -195,6 +196,7 @@ export default function ProductInfo({ product, onAddToCart }) {
           </button>
         )}
       </div>
+      )}
 
      {/* PRODUCT DETAILS */}
 {details.length > 0 && (

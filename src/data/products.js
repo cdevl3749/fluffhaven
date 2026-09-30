@@ -701,7 +701,7 @@ Simply hide treats inside the carrot garden and let your dog sniff, search and d
   ],
 
   description:
-    "Make bath time easier and more enjoyable with the Premium 3-in-1 Pet Grooming Set. This practical grooming collection includes a shampoo dispensing brush and massage brushes designed to help clean your dog's coat while providing a gentle and relaxing massage.",
+  "Make bath time easier with this practical 3-in-1 grooming set. Clean, massage and care for your pet with soft, easy-to-use grooming brushes.",
 
   seoTitle:
     "Premium 3-in-1 Pet Grooming Set | Dog Bath & Massage Brushes | FluffHaven",
@@ -712,25 +712,12 @@ Simply hide treats inside the carrot garden and let your dog sniff, search and d
   brand: "FluffHaven",
 
   details: `
-
 ✓ Complete 3-piece grooming set
-
-✓ Convenient shampoo dispensing brush
-
+✓ Shampoo dispensing brush
 ✓ Soft silicone massage bristles
-
-✓ Helps clean the coat during bath time
-
-✓ Gentle massage while washing
-
+✓ Helps clean and massage the coat
 ✓ Comfortable handheld design
-
-Make bath time simpler and more enjoyable with this practical 3-in-1 grooming set.
-
-The shampoo dispensing brush helps apply shampoo while gently massaging the coat, while the additional brushes make everyday grooming quick and easy.
-
 `,
-
   inStock: true,
 
   featured: true,
