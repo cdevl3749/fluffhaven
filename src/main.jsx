@@ -1,4 +1,4 @@
-import { StrictMode } from "react";
+import { StrictMode, useEffect } from 'react';
 import { createRoot } from 'react-dom/client'
 
 import PonponPreview from "./PonponPreview.jsx";
@@ -97,8 +97,36 @@ import InteractiveFeedingForCats from "./blog/interactive-feeding-for-cats.jsx";
 import HowToBrushYourDogProperlyAtHome from "./blog/how-to-brush-your-dog-properly-at-home.jsx";
 import HowToBrushYourCatAtHome from "./blog/how-to-brush-your-cat-at-home.jsx";
 
+function VisitTracker() {
+  useEffect(() => {
+    if (window.location.pathname === "/dashboard") return;
+
+    const KEY = "fh_visit_tracked";
+    if (sessionStorage.getItem(KEY)) return;
+
+    fetch("/.netlify/functions/stats", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        type: "visit",
+        country: "auto",
+        device: /Mobil|Android|iPhone|iPad/i.test(navigator.userAgent)
+          ? "Mobile"
+          : "Desktop",
+        page: window.location.pathname,
+        source: document.referrer || "Direct",
+      }),
+    })
+      .then(() => sessionStorage.setItem(KEY, "true"))
+      .catch(() => {});
+  }, []);
+
+  return null;
+}
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    <VisitTracker />
     {
       window.location.pathname === "/dashboard" ? (
         <Dashboard />

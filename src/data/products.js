@@ -547,7 +547,7 @@ The shock-absorbing bungee helps soften sudden movements, while the adjustable s
   ],
 
   description:
-    "Keep your dog's coat looking clean and healthy with the Premium Dog Deshedding Brush. Its stainless steel blades help remove loose fur and reduce shedding while providing gentle everyday grooming.",
+    "Remove loose fur and reduce shedding with gentle stainless steel blades for a cleaner, healthier-looking coat.",
 
   seoTitle:
     "Premium Dog Deshedding Brush | FluffHaven",
@@ -558,13 +558,11 @@ The shock-absorbing bungee helps soften sudden movements, while the adjustable s
   brand: "FluffHaven",
 
   details: `
-✓ Helps remove loose fur
-✓ Stainless steel deshedding blades
-✓ Helps reduce everyday shedding
+✓ Removes loose fur
+✓ Stainless steel blades
+✓ Helps reduce shedding
 ✓ Comfortable non-slip handle
-✓ Gentle everyday coat care
-
-Keep loose fur under control with stainless steel deshedding blades designed for simple, comfortable grooming. A practical everyday brush for a cleaner home and a healthier-looking coat.
+✓ Gentle everyday grooming
 `,
 
   inStock: true,
