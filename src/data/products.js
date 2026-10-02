@@ -2818,20 +2818,22 @@ Combining enrichment, entertainment and practical storage, this complete FluffHa
 
   subtitle: "Refreshing water splash pad • Easy garden hose connection • Ø 100 cm",
 
-  price: 29.90,
+  price: 17.90,
 
   badge: "💦 Summer Cooling Fun",
 
-  priceId: "price_1U6Bd8Kn0lmTcQ11uT4zGDQ1",
+  priceId: "price_1UMDRKKn0lmTcQ11NKEwl7hp",
 
   images: [
+    "/premium-dog-splash-cooling-mat-summer.webp",
+    "/premium-dog-splash-cooling-mat-stay-cool.webp",
     "/premium-dog-splash-cooling-mat-main.webp",
     "/premium-dog-splash-cooling-mat-garden.webp",
     "/premium-dog-splash-cooling-mat-details.webp",
   ],
 
   description:
-  "Turn warm summer days into refreshing outdoor fun with the Premium Dog Splash & Cooling Mat. Measuring Ø 100 cm, this spacious splash pad connects to a standard garden hose and creates refreshing water jets around the edge for 360° water play. Made from durable PVC, it provides a fun way for dogs to play and cool down in the garden or on the patio. Lightweight and foldable, it's easy to store between sunny-day adventures.",
+  "Ø 100 cm dog splash pad with 360° water jets for refreshing outdoor summer fun.",
 
   seoTitle:
     "Premium Dog Splash & Cooling Mat | Dog Splash Pad | FluffHaven",
@@ -2842,21 +2844,13 @@ Combining enrichment, entertainment and practical storage, this complete FluffHa
   brand: "FluffHaven",
 
   details: `
-✓ Ø 100 cm splash and cooling play area
-✓ 360° water jets around the outer edge
-✓ Connects easily to a standard garden hose
-✓ Durable PVC construction for outdoor summer play
-✓ Lightweight, foldable and easy to store
+✓ Ø 100 cm splash & cooling area
+✓ 360° water jets
+✓ Connects to a standard garden hose
+✓ Durable PVC construction
+✓ Lightweight, foldable & easy to store
 
-Make sunny days more exciting with the Premium Dog Splash & Cooling Mat, designed for refreshing outdoor summer play.
-
-Simply connect it to a standard garden hose and water flows around the outer edge, creating multiple jets for 360° splash fun.
-
-Its generous Ø 100 cm circular area gives your dog plenty of room to move, splash and cool down in the garden or on the patio.
-
-The durable PVC construction remains lightweight and easy to handle, while the mat folds flat for convenient storage after use.
-
-Quick to set up and easy to store, this FluffHaven splash mat brings refreshing fun to warm summer days.
+Refreshing outdoor fun to help your dog cool down on warm summer days.
 `,
 
   inStock: true,
@@ -3758,11 +3752,11 @@ A simple everyday grooming spot your cat can use whenever they want.
 
   subtitle: "3 ultra-soft blankets • Pink, white & mauve • Cozy everyday comfort",
 
-  price: 19.90,
+  price: 17.90,
 
   badge: "🧸 Cozy Trio",
 
-  priceId: "price_1UBbtZKn0lmTcQ11MTbMEaJQ",
+  priceId: "price_1UMCRZKn0lmTcQ11jbub4PDm",
 
   images: [
     "/premium-cozy-cat-blanket-trio-main.webp",
@@ -3773,7 +3767,7 @@ A simple everyday grooming spot your cat can use whenever they want.
   ],
 
   description:
-    "Give your cat a soft and cozy place to relax with the Premium Cozy Cat Blanket Trio. This set includes three plush blankets in pink, white and mauve, perfect for sofas, beds, baskets or your cat's favorite resting spot.",
+  "3 ultra-soft blankets in pink, white & mauve — perfect for beds, sofas and cozy cat naps.",
 
   seoTitle:
     "Premium Cozy Cat Blanket Trio | Soft Pet Blankets | FluffHaven",
@@ -3784,19 +3778,14 @@ A simple everyday grooming spot your cat can use whenever they want.
   brand: "FluffHaven",
 
   details: `
-✓ Set of 3 soft and cozy cat blankets
-✓ Pink, white and mauve colors
-✓ Plush texture for warm everyday comfort
-✓ Ideal for sofas, beds, baskets and carriers
-✓ Machine washable for easy care
+✓ Set of 3 ultra-soft cat blankets
+✓ Pink, white & mauve colors
+✓ Cozy plush texture
+✓ Perfect for beds, sofas & carriers
+✓ Machine washable
 
-Create a cozy resting space anywhere with the Premium Cozy Cat Blanket Trio.
-
-The soft plush texture provides comfortable warmth while helping protect furniture and pet beds from fur.
-
-With three charming colors, you can easily keep one in your cat's favorite spots around the home.
+Soft, cozy and easy to place around the home for everyday cat naps.
 `,
-
   inStock: true,
 
   featured: true,
@@ -4001,11 +3990,11 @@ With six different colors in one practical set, you can easily change your cat's
 
   subtitle: "Reflective design • AirTag compatible • Adjustable 23–30.5 cm",
 
-  price: 19.90,
+  price: 16.90,
 
   badge: "📍 Safety & Tracking",
 
-  priceId: "price_1UIv8fKn0lmTcQ11N0kMAKUP",
+  priceId: "price_1UMCZ6Kn0lmTcQ11kR5ekKqF",
 
   images: [
     "/premium-airtag-compatible-cat-collar-main.webp",
@@ -4016,7 +4005,7 @@ With six different colors in one practical set, you can easily change your cat's
   ],
 
   description:
-    "Keep your cat comfortable, visible and easier to locate with the Premium AirTag Compatible Cat Collar. Its turquoise reflective design features a secure AirTag holder, bell and adjustable fit for everyday adventures. AirTag not included.",
+  "Reflective cat collar with AirTag holder, bell and adjustable fit. AirTag not included.",
 
   seoTitle:
     "Premium AirTag Compatible Cat Collar | Reflective Collar | FluffHaven",
@@ -4028,14 +4017,12 @@ With six different colors in one practical set, you can easily change your cat's
 
   details: `
 ✓ AirTag compatible holder (AirTag not included)
-✓ Reflective turquoise design for better visibility
-✓ Adjustable fit from 23 to 30.5 cm
+✓ Reflective design for better visibility
+✓ Adjustable fit: 23–30.5 cm
 ✓ Bell included
-✓ Lightweight nylon and silicone construction
+✓ Lightweight nylon & silicone
 
-A practical everyday collar combining comfort, visibility and tracking compatibility.
-
-The adjustable design provides a secure fit while the reflective strap helps improve visibility in low-light conditions.
+Comfortable, adjustable and reflective for everyday adventures.
 `,
 
   inStock: true,
@@ -4947,20 +4934,22 @@ Dishwasher and freezer safe, this FluffHaven trio combines slower feeding, enric
 
   subtitle: "Cooling gel • Size M • Fish design",
 
-  price: 19.90,
+  price: 12.90,
 
   badge: "☀️❄️ Summer Essential",
 
-  priceId: "price_1UBhJFKn0lmTcQ11L8pNFf3M",
+  priceId: "price_1UMDdGKn0lmTcQ11QmiB1YtN",
 
   images: [
+    "/premium-cooling-gel-dog-mat-stay-cool.webp",
+    "/premium-cooling-gel-dog-mat-product.webp",
     "/premium-cooling-gel-dog-mat-main.webp",
     "/premium-cooling-gel-dog-mat-garden.webp",
     "/premium-cooling-gel-dog-mat-details.webp",
   ],
 
   description:
-  "Help your dog stay cool and comfortable during hot summer days with the Premium Cooling Gel Dog Mat. Featuring a self-cooling gel core, fun fish design and durable waterproof surface, this lightweight Size M mat provides refreshing comfort at home, in the garden, in the car or while travelling.",
+  "Self-cooling gel dog mat with a waterproof surface for refreshing comfort on hot summer days.",
 
   seoTitle:
     "Premium Cooling Gel Dog Mat | Self Cooling Dog Mat | FluffHaven",
@@ -4971,21 +4960,13 @@ Dishwasher and freezer safe, this FluffHaven trio combines slower feeding, enric
   brand: "FluffHaven",
 
   details: `
-✓ Self-cooling gel technology without refrigeration
-✓ Size M with soft and comfortable surface
-✓ Waterproof surface with anti-slip bottom
-✓ Non-toxic materials with durable stitched edges
-✓ Lightweight and portable for indoor or outdoor use
+✓ Self-cooling gel — no refrigeration needed
+✓ Size M with soft, comfortable surface
+✓ Waterproof surface & anti-slip bottom
+✓ Non-toxic materials with durable edges
+✓ Lightweight, portable & easy to clean
 
-Keep your dog cool and relaxed during warm weather with the Premium Cooling Gel Dog Mat.
-
-The self-cooling gel activates naturally through your dog's body contact, providing refreshing comfort without electricity or refrigeration.
-
-Its waterproof surface and anti-slip bottom make the mat practical for everyday use, while durable stitched edges add extra resistance.
-
-Lightweight and easy to clean, it can be used at home, in the garden, in the car or while travelling.
-
-Combining cooling comfort, portability and a playful tropical fish design, this FluffHaven mat is a practical summer essential.
+Refreshing cooling comfort at home, outdoors or while travelling.
 `,
 
   inStock: true,
@@ -6647,11 +6628,11 @@ Suitable for kittens and adult cats, this FluffHaven mat provides everyday comfo
 
   subtitle: "Ultra-warm winter snowsuit • Padded protection • Size S",
 
-  price: 44.90,
+  price: 29.90,
 
   badge: "❄️ Arctic Winter Essential",
 
-  priceId: "price_1UFgUZKn0lmTcQ11ocrE4gBy",
+  priceId: "price_1UMClZKn0lmTcQ11u9oJphlj",
 
   images: [
     "/premium-arctic-winter-cat-snowsuit-features.webp",
@@ -6662,7 +6643,7 @@ Suitable for kittens and adult cats, this FluffHaven mat provides everyday comfo
   ],
 
   description:
-  "Keep your cat warm during cold outings with the Premium Arctic Winter Cat Snowsuit. This lightweight padded suit features full-body coverage, insulated construction and a protective hood for comfortable winter walks, outdoor adventures and travel.",
+  "Warm padded cat snowsuit with full-body coverage and a protective hood for cold winter outings.",
 
   seoTitle:
     "Premium Arctic Winter Cat Snowsuit | Warm Cat Jacket | FluffHaven",
@@ -6674,20 +6655,12 @@ Suitable for kittens and adult cats, this FluffHaven mat provides everyday comfo
 
   details: `
 ✓ Size S with premium white finish
-✓ Warm padded and insulated construction
+✓ Warm padded & insulated design
 ✓ Full-body four-leg coverage
 ✓ Protective hood with soft interior
-✓ Ideal for winter walks and travel
+✓ Ideal for winter walks & travel
 
-Keep your cat cozy outdoors with the Premium Arctic Winter Cat Snowsuit.
-
-Its padded insulated construction provides comfortable warmth during colder weather.
-
-The full-body four-leg design offers extended coverage, while the protective hood adds extra protection around the head and neck.
-
-Lightweight with a soft interior, the Size S design is made for comfortable cold-weather outings.
-
-Finished in white, this FluffHaven snowsuit is a practical seasonal choice for winter walks, adventures and travel.
+Warm, lightweight protection for comfortable cold-weather outings.
 `,
 
   inStock: true,
@@ -7372,34 +7345,29 @@ Designed for trips, vet visits and outdoor adventures, it's a practical FluffHav
   productType: "beds-comfort",
   seasons: ["autumn", "winter"],
   subtitle: "Ultra soft · calming · cozy nest",
-  price: 31.90,
+  price: 16.90,
   badge: "☁️ Cozy",
-  priceId: "price_1U8fjNKn0lmTcQ110Nj2Yz6A",
+  priceId: "price_1UMCwbKn0lmTcQ11LzYieGx1",
   images: [
+    "/lit_rond_chat4.webp",
+    "/lit_rond_chat5.webp",
     "/lit_rond_chat.webp",
     "/lit_rond_chat2.webp",
     "/lit_rond_chat3.webp"
   ],
-  description: "Give your cat a cozy place to rest with this soft donut bed, designed for warm and comfortable everyday naps.",
+  description:
+  "Soft donut cat bed for warm, cozy and comfortable everyday naps.",
   seoTitle: "Calming Donut Cat Bed | Cozy Cat Bed | FluffHaven",
   seoDescription: "Give your cat a warm and calming place to rest with this ultra-soft donut cat bed. Cozy, supportive and easy to maintain.",
   brand: "FluffHaven",
   details: `
 ✓ Ultra-soft plush donut design
-✓ Raised rim for head and neck support
+✓ Raised rim for head & neck support
 ✓ Non-slip bottom
-✓ Easy to clean and maintain
-✓ Ideal for cats who love curling up
+✓ Easy to clean
+✓ Perfect for cats who love curling up
 
-Give your cat a cozy resting space with this Soft Donut Cat Bed.
-
-The ultra-soft plush surface provides a warm and comfortable place for everyday naps.
-
-Its donut shape creates a cozy space for cats who naturally love curling up while resting.
-
-The raised rim provides comfortable support around the head and neck.
-
-With a non-slip bottom and easy-care design, it's a practical FluffHaven bed for everyday relaxation.
+Soft, cozy comfort for peaceful everyday naps.
 `,
 },
   // 🐱 PRODUITS CHATS
