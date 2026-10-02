@@ -3705,10 +3705,10 @@ Use them with wet food, treats or dry kibble for more variety every day.
   productType: "grooming-care",
   seasons: ["summer", "autumn", "winter"],
   subtitle: "Wall mounted · soft bristles · collects loose hair",
-  price: 12.90,
+  price: 8.90,
   badge: "✨ Easy Grooming",
 
-  priceId: "price_1UG0H6Kn0lmTcQ110SywwPPT",
+  priceId: "price_1ULvgMKn0lmTcQ11AtBz1Zoj",
 
   images: [
   "/brush_chat.webp",
