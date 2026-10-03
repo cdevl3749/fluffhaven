@@ -684,11 +684,11 @@ Simply hide treats inside the carrot garden and let your dog sniff, search and d
 
   subtitle: "3-piece grooming set • Shampoo dispenser • Massage brush • Soft silicone",
 
-  price: 17.90,
+  price: 14.90,
 
   badge: "🛁 Grooming Essential",
 
-  priceId: "price_1UDUnaKn0lmTcQ11ipLzduQj",
+  priceId: "price_1UMQcBKn0lmTcQ11vKylfeAU",
 
   images: [
     "/premium-3-in-1-pet-grooming-set-main.webp",
