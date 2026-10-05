@@ -536,6 +536,26 @@ export default function Blog() {
     url: "/blog/how-to-brush-your-cat-at-home",
   },
 
+  {
+    title: "How to Make Halloween Fun and Safe for Your Dog: 10 Easy Ideas",
+    category: "Dog Halloween",
+    date: "October 2026",
+    read: "9 min read",
+    description:
+      "Discover 10 simple ways to make Halloween fun, safe, and comfortable for your dog, from quiet spaces and safe decorations to festive playtime.",
+    url: "/blog/halloween-fun-and-safe-for-your-dog",
+  },
+
+  {
+    title: "Halloween With Cats: 10 Simple Ways to Keep Your Cat Happy and Safe",
+    category: "Cat Halloween",
+    date: "October 2026",
+    read: "9 min read",
+    description:
+      "Discover 10 simple ways to keep your cat happy and safe during Halloween, from quiet hiding places and secure doors to fun seasonal play.",
+    url: "/blog/halloween-with-cats",
+  },
+
   ];
 
   // ── Filtrage par recherche ──

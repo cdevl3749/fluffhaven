@@ -97,6 +97,11 @@ import InteractiveFeedingForCats from "./blog/interactive-feeding-for-cats.jsx";
 import HowToBrushYourDogProperlyAtHome from "./blog/how-to-brush-your-dog-properly-at-home.jsx";
 import HowToBrushYourCatAtHome from "./blog/how-to-brush-your-cat-at-home.jsx";
 
+import HalloweenFunSafeForYourDog from "./blog/HalloweenFunAndSafeForYourDog.jsx";
+import HalloweenWithCats from "./blog/HalloweenWithCats.jsx";
+
+import ScrollToTop from "./components/ScrollToTop.jsx";
+
 function VisitTracker() {
   useEffect(() => {
     if (window.location.pathname === "/dashboard") return;
@@ -127,6 +132,7 @@ function VisitTracker() {
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <VisitTracker />
+    {window.location.pathname.startsWith("/blog/") && <ScrollToTop />}
     {
       window.location.pathname === "/dashboard" ? (
         <Dashboard />
@@ -271,6 +277,14 @@ createRoot(document.getElementById('root')).render(
       )
       : window.location.pathname === "/blog/how-to-brush-your-cat-at-home" ? (
         <HowToBrushYourCatAtHome />
+      )
+
+      : window.location.pathname === "/blog/halloween-fun-and-safe-for-your-dog" ? (
+        <HalloweenFunSafeForYourDog />
+      )
+
+      : window.location.pathname === "/blog/halloween-with-cats" ? (
+        <HalloweenWithCats />
       )
 
       : window.location.pathname.startsWith("/product/") ? (
