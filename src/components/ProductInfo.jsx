@@ -114,6 +114,12 @@ export default function ProductInfo({ product, onAddToCart }) {
     ${product.price.toFixed(2)} USD
   </p>
 
+  {product.slug === "premium-3-in-1-pet-grooming-set" && (
+  <p className="product-popularity">
+    👀 800+ product views
+  </p>
+)}
+
   {product.promo && (
     <p
       style={{
