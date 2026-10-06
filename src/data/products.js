@@ -12,11 +12,11 @@ export const PRODUCTS = [
 
   subtitle: "Soft plush lion • Interactive play • Durable design",
 
-  price: 14.90,
+  price: 9.90,
 
   badge: "🦁 Playtime Pick",
 
-  priceId: "price_1UEoLYKn0lmTcQ11CtRid4qP",
+  priceId: "price_1UNeBZKn0lmTcQ11gQFSnVG6",
 
   images: [
     "/premium-durable-lion-dog-toy-main.webp",
@@ -66,11 +66,11 @@ Made for everyday play, from gentle games of fetch to quiet cuddle time.
 
   subtitle: "Soft plush wolf • Interactive play • Durable design",
 
-  price: 14.90,
+  price: 9.90,
 
   badge: "🐺 Playtime Pick",
 
-  priceId: "price_1UEoP4Kn0lmTcQ11SoieEJsy",
+  priceId: "price_1UNeDeKn0lmTcQ11EbfjTcLa",
 
   images: [
     "/premium-durable-wolf-dog-toy-main.webp",
@@ -130,11 +130,11 @@ Its soft textured surface and easy-to-carry shape make it ideal for fetching, ca
 
   subtitle: "Soft plush elephant • Interactive play • Durable design",
 
-  price: 14.90,
+  price: 9.90,
 
   badge: "🐘 Playtime Pick",
 
-  priceId: "price_1UEoRxKn0lmTcQ11oKgPYLUl",
+  priceId: "price_1UNeFBKn0lmTcQ11iWnNIoQA",
 
   images: [
     "/premium-durable-elephant-dog-toy-main.webp",
@@ -7345,9 +7345,9 @@ Designed for trips, vet visits and outdoor adventures, it's a practical FluffHav
   productType: "beds-comfort",
   seasons: ["autumn", "winter"],
   subtitle: "Ultra soft · calming · cozy nest",
-  price: 16.90,
+  price: 12.90,
   badge: "☁️ Cozy",
-  priceId: "price_1UMCwbKn0lmTcQ11LzYieGx1",
+  priceId: "price_1UNduaKn0lmTcQ11GMOLesTh",
   images: [
     "/lit_rond_chat4.webp",
     "/lit_rond_chat5.webp",
