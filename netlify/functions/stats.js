@@ -61,6 +61,7 @@ export async function handler(event) {
         payments,
         productViews,
         cartAdds,
+        cartCountryStatsRaw,
         countriesRaw,
         devicesRaw,
         pagesRaw,
@@ -75,6 +76,7 @@ export async function handler(event) {
         redis(["GET", "payments"]),
         redis(["GET", "productViews"]),
         redis(["GET", "cartAdds"]),
+        redis(["GET", "cartCountryStats"]),
         redis(["GET", "countries"]),
         redis(["GET", "devices"]),
         redis(["GET", "pages"]),
@@ -94,6 +96,7 @@ export async function handler(event) {
           payments: parseInt(payments || "0"),
           productViews: parseInt(productViews || "0"),
           cartAdds: parseInt(cartAdds || "0"),
+          cartCountryStats: JSON.parse(cartCountryStatsRaw || "{}"),
           countries: JSON.parse(countriesRaw || "{}"),
           devices: JSON.parse(devicesRaw || "{}"),
           pages: JSON.parse(pagesRaw || "{}"),
@@ -295,7 +298,27 @@ if (data.type === "productTime") {
 
       // ADD TO CART
       if (data.type === "addToCart") {
+        // Compteur global
         await redis(["INCR", "cartAdds"]);
+
+        // Compteur des ajouts panier par pays
+        const cartCountryStatsRaw = await redis(["GET", "cartCountryStats"]);
+
+        let cartCountryStats = {};
+
+        try {
+          cartCountryStats = JSON.parse(cartCountryStatsRaw || "{}");
+        } catch {
+          cartCountryStats = {};
+        }
+
+        cartCountryStats[country] = (cartCountryStats[country] || 0) + 1;
+
+        await redis([
+          "SET",
+          "cartCountryStats",
+          JSON.stringify(cartCountryStats),
+        ]);
       }
 
       // CLICK
@@ -354,6 +377,7 @@ if (data.type === "productTime") {
         redis(["SET", "productStats", "{}"]),
         redis(["SET", "productTimeStats", "{}"]),
         redis(["SET", "productCountryStats", "{}"]),
+        redis(["SET", "cartCountryStats", "{}"]),
       ]);
 
       return {

@@ -95,6 +95,10 @@ export default function Dashboard() {
     .sort((a, b) => b[1] - a[1])
     .slice(0, 10);
 
+  const topCartCountries = Object.entries(stats.cartCountryStats || {})
+  .sort((a, b) => b[1] - a[1])
+  .slice(0, 10);
+
   const topProducts = Object.entries(stats.productStats || {})
   .sort((a, b) => b[1] - a[1])
   .slice(0, 20);
@@ -185,6 +189,38 @@ export default function Dashboard() {
           </div>
         )}
       </div>
+
+      {/* AJOUTS PANIER PAR PAYS */}
+<div style={styles.section}>
+  <h2 style={styles.sectionTitle}>🛒 Ajouts panier par pays</h2>
+
+  {topCartCountries.length === 0 ? (
+    <p style={{ color: "#888", fontFamily: "sans-serif", fontSize: 14 }}>
+      Aucun ajout panier enregistré par pays pour le moment.
+    </p>
+  ) : (
+    <div style={styles.countryList}>
+      {topCartCountries.map(([country, count]) => {
+        const pct =
+          stats.cartAdds > 0
+            ? Math.round((count / stats.cartAdds) * 100)
+            : 0;
+
+        return (
+          <div key={country} style={styles.countryRow}>
+            <span style={styles.countryName}>{country}</span>
+
+            <div style={styles.barBg}>
+              <div style={{ ...styles.barFill, width: `${pct}%` }} />
+            </div>
+
+            <span style={styles.countryCount}>{count}</span>
+          </div>
+        );
+      })}
+    </div>
+  )}
+</div>
 
       {/* DEVICES — PC vs Mobile */}
       <div style={styles.section}>
