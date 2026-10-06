@@ -526,3 +526,26 @@
     border-radius: 20px;
   }
 }
+
+.ponpon-usa {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin-top: 14px;
+  font-size: 14px;
+  color: #62584f;
+  font-weight: 500;
+}
+
+.ponpon-usa-flag {
+  width: 30px;
+  height: 20px;
+  border-radius: 3px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.14);
+  flex-shrink: 0;
+}
+
+.ponpon-usa strong {
+  color: #171411;
+  font-weight: 700;
+}

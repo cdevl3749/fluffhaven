@@ -51,6 +51,44 @@ export default function HomePonpon() {
             SHOP NOW →
             </button>
 
+            <div className="ponpon-usa">
+  <svg
+    className="ponpon-usa-flag"
+    viewBox="0 0 741 390"
+    aria-hidden="true"
+  >
+    <rect width="741" height="390" fill="#fff" />
+
+    <g fill="#b22234">
+      <rect width="741" height="30" y="0" />
+      <rect width="741" height="30" y="60" />
+      <rect width="741" height="30" y="120" />
+      <rect width="741" height="30" y="180" />
+      <rect width="741" height="30" y="240" />
+      <rect width="741" height="30" y="300" />
+      <rect width="741" height="30" y="360" />
+    </g>
+
+    <rect width="296" height="210" fill="#3c3b6e" />
+    <g fill="#fff">
+  {Array.from({ length: 5 }).map((_, row) =>
+    Array.from({ length: 6 }).map((_, col) => (
+      <circle
+        key={`star-${row}-${col}`}
+        cx={24 + col * 48}
+        cy={20 + row * 40}
+        r="6"
+      />
+    ))
+  )}
+</g>
+  </svg>
+
+  <span>
+    Loved by pet parents across the <strong>USA</strong>
+  </span>
+</div>
+
           <div className="ponpon-features">
 
     <div className="ponpon-feature">
