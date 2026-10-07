@@ -353,6 +353,59 @@ A playful companion for tugging, carrying and everyday interactive fun.
 },
 
 {
+  id: 112,
+
+  slug: "premium-3-in-1-pet-grooming-set",
+
+  name: "Premium 3-in-1 Pet Grooming Set",
+
+  category: "dog",
+  productType: "grooming-care",
+
+  seasons: ["summer", "autumn", "winter"],
+
+  subtitle: "3-piece grooming set • Shampoo dispenser • Massage brush • Soft silicone",
+
+  price: 14.90,
+
+  badge: "🛁 Grooming Essential",
+
+  priceId: "price_1UMQcBKn0lmTcQ11vKylfeAU",
+
+  images: [
+    "/premium-3-in-1-pet-grooming-set-main.webp",
+    "/premium-3-in-1-pet-grooming-set-bath.webp",
+    "/premium-3-in-1-pet-grooming-set-details.webp",
+    "/premium-3-in-1-pet-grooming-set-features.webp",
+    "/premium-3-in-1-pet-grooming-set-lifestyle.webp",
+  ],
+
+  description:
+  "Make bath time easier with this practical 3-in-1 grooming set. Clean, massage and care for your pet with soft, easy-to-use grooming brushes.",
+
+  seoTitle:
+    "Premium 3-in-1 Pet Grooming Set | Dog Bath & Massage Brushes | FluffHaven",
+
+  seoDescription:
+    "Premium 3-in-1 pet grooming set with shampoo dispenser and soft silicone massage brushes. Designed for easy bathing, gentle cleaning and everyday coat care.",
+
+  brand: "FluffHaven",
+
+  details: `
+🐾 Why Ponpon picked it
+A simple all-in-one set to make everyday grooming easier and more comfortable for your pet.
+
+✓ Shampoo dispensing brush
+✓ Soft silicone massage bristles
+✓ Comfortable handheld design
+`,
+  inStock: true,
+
+  featured: true,
+
+},
+
+{
   id: 62,
 
   slug: "premium-floating-rope-ball",
@@ -842,58 +895,6 @@ Simply hide treats inside the carrot garden and let your dog sniff, search and d
   inStock: true,
 
   featured: true,
-},
-
-{
-  id: 112,
-
-  slug: "premium-3-in-1-pet-grooming-set",
-
-  name: "Premium 3-in-1 Pet Grooming Set",
-
-  category: "dog",
-  productType: "grooming-care",
-
-  seasons: ["summer", "autumn", "winter"],
-
-  subtitle: "3-piece grooming set • Shampoo dispenser • Massage brush • Soft silicone",
-
-  price: 14.90,
-
-  badge: "🛁 Grooming Essential",
-
-  priceId: "price_1UMQcBKn0lmTcQ11vKylfeAU",
-
-  images: [
-    "/premium-3-in-1-pet-grooming-set-main.webp",
-    "/premium-3-in-1-pet-grooming-set-bath.webp",
-    "/premium-3-in-1-pet-grooming-set-details.webp",
-    "/premium-3-in-1-pet-grooming-set-features.webp",
-    "/premium-3-in-1-pet-grooming-set-lifestyle.webp",
-  ],
-
-  description:
-  "Make bath time easier with this practical 3-in-1 grooming set. Clean, massage and care for your pet with soft, easy-to-use grooming brushes.",
-
-  seoTitle:
-    "Premium 3-in-1 Pet Grooming Set | Dog Bath & Massage Brushes | FluffHaven",
-
-  seoDescription:
-    "Premium 3-in-1 pet grooming set with shampoo dispenser and soft silicone massage brushes. Designed for easy bathing, gentle cleaning and everyday coat care.",
-
-  brand: "FluffHaven",
-
-  details: `
-✓ Complete 3-piece grooming set
-✓ Shampoo dispensing brush
-✓ Soft silicone massage bristles
-✓ Helps clean and massage the coat
-✓ Comfortable handheld design
-`,
-  inStock: true,
-
-  featured: true,
-
 },
 
 {

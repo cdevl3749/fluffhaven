@@ -13,6 +13,9 @@ export default function ProductInfo({ product, onAddToCart }) {
 
   const isEnrichmentDuo = product.slug === "premium-dog-enrichment-duo";
 
+  const isGroomingSet =
+  product.slug === "premium-3-in-1-pet-grooming-set";
+
   useEffect(() => {
   const checkDescription = () => {
     const element = descriptionRef.current;
@@ -148,7 +151,7 @@ export default function ProductInfo({ product, onAddToCart }) {
   </div>
 
   <p className="product-price-secondary">
-  🚚 Estimated delivery: 5–8 business days
+  🚚 Free tracked delivery: 5–8 business days
   </p>
 
   <div className="product-buttons">
@@ -231,6 +234,8 @@ export default function ProductInfo({ product, onAddToCart }) {
             <>
               {isEnrichmentDuo
                 ? "How does the Dog Enrichment Duo help my dog?"
+                : isGroomingSet
+                ? "What is included in the 3-in-1 Grooming Set?"
                 : "Is this product easy to use?"}
               <span>{openFaq === 0 ? "−" : "+"}</span>
             </>
@@ -239,7 +244,9 @@ export default function ProductInfo({ product, onAddToCart }) {
           {openFaq === 0 && (
             <p>
               {isEnrichmentDuo
-                ? "The textured mats help slow down mealtime while providing mental stimulation, making feeding more engaging for your dog."
+                ? "The textured mats help slow down mealtime while providing mental stimulation, making feeding more engaging."
+                : isGroomingSet
+                ? "It includes a shampoo dispensing brush, a soft silicone massage brush and a grooming brush for everyday coat care."
                 : "Yes. It is designed for quick, everyday use without any complicated setup."}
             </p>
           )}
@@ -252,6 +259,8 @@ export default function ProductInfo({ product, onAddToCart }) {
           >
             {isEnrichmentDuo
               ? "Can I use the mats for both treats and meals?"
+              : isGroomingSet
+              ? "How do I use the shampoo dispensing brush?"
               : "Is it suitable for daily use?"}
             <span>{openFaq === 1 ? "−" : "+"}</span>
           </button>
@@ -259,7 +268,9 @@ export default function ProductInfo({ product, onAddToCart }) {
           {openFaq === 1 && (
             <p>
               {isEnrichmentDuo
-                ? "Yes. Use them with treats, wet food or your dog’s favorite snacks for slower, more engaging mealtimes."
+                ? "Yes. Use them with treats, wet food or your dog’s favorite snacks for slower, more engaging feeding."
+                : isGroomingSet
+                ? "Simply add your pet shampoo, press gently to dispense, then massage the coat with the soft silicone bristles."
                 : "Absolutely. It is made to be used safely as part of your daily pet care routine."}
             </p>
           )}
@@ -270,13 +281,17 @@ export default function ProductInfo({ product, onAddToCart }) {
             className="faq-question"
             onClick={() => setOpenFaq(openFaq === 2 ? -1 : 2)}
           >
-            Do you offer worldwide shipping?
+            {isGroomingSet
+              ? "Is the Grooming Set suitable for both dogs and cats?"
+              : "Do you offer worldwide shipping?"}
             <span>{openFaq === 2 ? "−" : "+"}</span>
           </button>
 
           {openFaq === 2 && (
             <p>
-              Yes. We offer free worldwide shipping with secure checkout.
+              {isGroomingSet
+                ? "Yes. The soft silicone brushes are designed for gentle grooming and can be used for both dogs and cats."
+                : "Yes. We offer free worldwide shipping with secure checkout."}
             </p>
           )}
         </div>

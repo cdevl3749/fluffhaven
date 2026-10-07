@@ -345,7 +345,7 @@ async function handleCheckout() {
               </div>
             </div>
 
-            <p className="cart-free-ship">✓ Free shipping included</p>
+            <p className="cart-free-ship">✓ Free tracked delivery</p>
 
             {total >= 49 && (
               <p className="cart-free-ship">
@@ -353,7 +353,7 @@ async function handleCheckout() {
               </p>
             )}
 
-            <p className="cart-free-ship">✓ Secure worldwide checkout</p>
+            <p className="cart-free-ship">✓ Secure checkout with Stripe</p>
 
             <div className="cart-final-total">
               <span>Total</span>
