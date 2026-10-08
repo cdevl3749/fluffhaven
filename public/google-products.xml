@@ -12,7 +12,7 @@
       <g:link>https://fluffhaven.shop/product/premium-durable-lion-dog-toy</g:link>
       <g:image_link>https://fluffhaven.shop/premium-durable-lion-dog-toy-main.webp</g:image_link>
       <g:availability>in_stock</g:availability>
-      <g:price>14.90 USD</g:price>
+      <g:price>9.90 USD</g:price>
       <g:brand>FluffHaven</g:brand>
       <g:condition>new</g:condition>
     </item>
@@ -23,7 +23,7 @@
       <g:link>https://fluffhaven.shop/product/premium-durable-wolf-dog-toy</g:link>
       <g:image_link>https://fluffhaven.shop/premium-durable-wolf-dog-toy-main.webp</g:image_link>
       <g:availability>in_stock</g:availability>
-      <g:price>14.90 USD</g:price>
+      <g:price>9.90 USD</g:price>
       <g:brand>FluffHaven</g:brand>
       <g:condition>new</g:condition>
     </item>
@@ -33,6 +33,50 @@
       <g:description>A soft, durable elephant toy for playtime and cuddles. Its textured plush design and 21 cm (8.3 in) size make it easy for dogs to carry and enjoy.</g:description>
       <g:link>https://fluffhaven.shop/product/premium-durable-elephant-dog-toy</g:link>
       <g:image_link>https://fluffhaven.shop/premium-durable-elephant-dog-toy-main.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>9.90 USD</g:price>
+      <g:brand>FluffHaven</g:brand>
+      <g:condition>new</g:condition>
+    </item>
+    <item>
+      <g:id>146</g:id>
+      <g:title>Premium 3-in-1 Shark Dog Toy</g:title>
+      <g:description>Make playtime more exciting with this fun 3-in-1 shark dog toy. Its playful plush design combines different textures for chewing, carrying and interactive everyday fun.</g:description>
+      <g:link>https://fluffhaven.shop/product/premium-3-in-1-shark-dog-toy</g:link>
+      <g:image_link>https://fluffhaven.shop/FluffHaven Plush Shark Adventure.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>14.90 USD</g:price>
+      <g:brand>FluffHaven</g:brand>
+      <g:condition>new</g:condition>
+    </item>
+    <item>
+      <g:id>144</g:id>
+      <g:title>Premium Interactive Treat Ball</g:title>
+      <g:description>Turn treat time into interactive play with this engaging treat-dispensing ball. Add suitable treats or kibble and let your dog roll, explore and discover the rewards inside.</g:description>
+      <g:link>https://fluffhaven.shop/product/premium-interactive-treat-ball</g:link>
+      <g:image_link>https://fluffhaven.shop/FluffHaven Interactive Treat Toy Ad.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>10.90 USD</g:price>
+      <g:brand>FluffHaven</g:brand>
+      <g:condition>new</g:condition>
+    </item>
+    <item>
+      <g:id>145</g:id>
+      <g:title>Premium Interactive Octopus Dog Toy</g:title>
+      <g:description>Make playtime more exciting with this fun interactive octopus dog toy. Soft textures, flexible tentacles and a built-in squeaker encourage engaging everyday play.</g:description>
+      <g:link>https://fluffhaven.shop/product/premium-interactive-octopus-dog-toy</g:link>
+      <g:image_link>https://fluffhaven.shop/FluffHaven Feisty Blue Octopus Toy.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>18.90 USD</g:price>
+      <g:brand>FluffHaven</g:brand>
+      <g:condition>new</g:condition>
+    </item>
+    <item>
+      <g:id>112</g:id>
+      <g:title>Premium 3-in-1 Pet Grooming Set</g:title>
+      <g:description>Make bath time easier with this practical 3-in-1 grooming set. Clean, massage and care for your pet with soft, easy-to-use grooming brushes.</g:description>
+      <g:link>https://fluffhaven.shop/product/premium-3-in-1-pet-grooming-set</g:link>
+      <g:image_link>https://fluffhaven.shop/premium-3-in-1-pet-grooming-set-main.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>14.90 USD</g:price>
       <g:brand>FluffHaven</g:brand>
@@ -107,7 +151,7 @@
     <item>
       <g:id>135</g:id>
       <g:title>Premium Dog Deshedding Brush</g:title>
-      <g:description>Keep your dog&apos;s coat looking clean and healthy with the Premium Dog Deshedding Brush. Its stainless steel blades help remove loose fur and reduce shedding while providing gentle everyday grooming.</g:description>
+      <g:description>Remove loose fur and reduce shedding with gentle stainless steel blades for a cleaner, healthier-looking coat.</g:description>
       <g:link>https://fluffhaven.shop/product/premium-dog-deshedding-brush</g:link>
       <g:image_link>https://fluffhaven.shop/premium-dog-deshedding-brush-details.webp</g:image_link>
       <g:availability>in_stock</g:availability>
@@ -134,17 +178,6 @@
       <g:image_link>https://fluffhaven.shop/premium-dog-treat-training-pouch-main.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>12.90 USD</g:price>
-      <g:brand>FluffHaven</g:brand>
-      <g:condition>new</g:condition>
-    </item>
-    <item>
-      <g:id>112</g:id>
-      <g:title>Premium 3-in-1 Pet Grooming Set</g:title>
-      <g:description>Make bath time easier and more enjoyable with the Premium 3-in-1 Pet Grooming Set. This practical grooming collection includes a shampoo dispensing brush and massage brushes designed to help clean your dog&apos;s coat while providing a gentle and relaxing massage.</g:description>
-      <g:link>https://fluffhaven.shop/product/premium-3-in-1-pet-grooming-set</g:link>
-      <g:image_link>https://fluffhaven.shop/premium-3-in-1-pet-grooming-set-main.webp</g:image_link>
-      <g:availability>in_stock</g:availability>
-      <g:price>17.90 USD</g:price>
       <g:brand>FluffHaven</g:brand>
       <g:condition>new</g:condition>
     </item>
@@ -536,11 +569,11 @@
     <item>
       <g:id>102</g:id>
       <g:title>Premium Dog Splash &amp; Cooling Mat</g:title>
-      <g:description>Turn warm summer days into refreshing outdoor fun with the Premium Dog Splash &amp; Cooling Mat. Measuring Ø 100 cm, this spacious splash pad connects to a standard garden hose and creates refreshing water jets around the edge for 360° water play. Made from durable PVC, it provides a fun way for dogs to play and cool down in the garden or on the patio. Lightweight and foldable, it&apos;s easy to store between sunny-day adventures.</g:description>
+      <g:description>Ø 100 cm dog splash pad with 360° water jets for refreshing outdoor summer fun.</g:description>
       <g:link>https://fluffhaven.shop/product/premium-dog-splash-cooling-mat</g:link>
-      <g:image_link>https://fluffhaven.shop/premium-dog-splash-cooling-mat-main.webp</g:image_link>
+      <g:image_link>https://fluffhaven.shop/premium-dog-splash-cooling-mat-summer.webp</g:image_link>
       <g:availability>in_stock</g:availability>
-      <g:price>29.90 USD</g:price>
+      <g:price>17.90 USD</g:price>
       <g:brand>FluffHaven</g:brand>
       <g:condition>new</g:condition>
     </item>
@@ -666,6 +699,28 @@
       <g:condition>new</g:condition>
     </item>
     <item>
+      <g:id>148</g:id>
+      <g:title>Premium Interactive Cat Laser Toy</g:title>
+      <g:description>Keep your cat entertained with this interactive laser toy designed to encourage playful movement and natural chasing instincts.</g:description>
+      <g:link>https://fluffhaven.shop/product/premium-interactive-cat-laser-toy</g:link>
+      <g:image_link>https://fluffhaven.shop/Cozy FluffHaven Cat Laser Toy.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>29.90 USD</g:price>
+      <g:brand>FluffHaven</g:brand>
+      <g:condition>new</g:condition>
+    </item>
+    <item>
+      <g:id>147</g:id>
+      <g:title>Premium Glowing Cat Toy Trio</g:title>
+      <g:description>Brighten your cat&apos;s playtime with this colorful trio of glowing LED balls, designed to encourage chasing, curiosity and interactive indoor fun.</g:description>
+      <g:link>https://fluffhaven.shop/product/premium-glowing-cat-toy-trio</g:link>
+      <g:image_link>https://fluffhaven.shop/FluffHaven Glowing Cat Toy Trio.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>14.90 USD</g:price>
+      <g:brand>FluffHaven</g:brand>
+      <g:condition>new</g:condition>
+    </item>
+    <item>
       <g:id>138</g:id>
       <g:title>Premium Cat Activity Turn Around</g:title>
       <g:description>Turn treat time into play time with the Premium Cat Activity Turn Around. This interactive treat game encourages curiosity, mental stimulation and rewarding play while keeping your cat happily engaged.</g:description>
@@ -705,18 +760,18 @@
       <g:link>https://fluffhaven.shop/product/cat-self-grooming-brush</g:link>
       <g:image_link>https://fluffhaven.shop/brush_chat.webp</g:image_link>
       <g:availability>in_stock</g:availability>
-      <g:price>12.90 USD</g:price>
+      <g:price>8.90 USD</g:price>
       <g:brand>FluffHaven</g:brand>
       <g:condition>new</g:condition>
     </item>
     <item>
       <g:id>115</g:id>
       <g:title>Premium Cozy Cat Blanket Trio</g:title>
-      <g:description>Give your cat a soft and cozy place to relax with the Premium Cozy Cat Blanket Trio. This set includes three plush blankets in pink, white and mauve, perfect for sofas, beds, baskets or your cat&apos;s favorite resting spot.</g:description>
+      <g:description>3 ultra-soft blankets in pink, white &amp; mauve — perfect for beds, sofas and cozy cat naps.</g:description>
       <g:link>https://fluffhaven.shop/product/premium-cozy-cat-blanket-trio</g:link>
       <g:image_link>https://fluffhaven.shop/premium-cozy-cat-blanket-trio-main.webp</g:image_link>
       <g:availability>in_stock</g:availability>
-      <g:price>19.90 USD</g:price>
+      <g:price>17.90 USD</g:price>
       <g:brand>FluffHaven</g:brand>
       <g:condition>new</g:condition>
     </item>
@@ -756,11 +811,11 @@
     <item>
       <g:id>116</g:id>
       <g:title>Premium AirTag Compatible Cat Collar</g:title>
-      <g:description>Keep your cat comfortable, visible and easier to locate with the Premium AirTag Compatible Cat Collar. Its turquoise reflective design features a secure AirTag holder, bell and adjustable fit for everyday adventures. AirTag not included.</g:description>
+      <g:description>Reflective cat collar with AirTag holder, bell and adjustable fit. AirTag not included.</g:description>
       <g:link>https://fluffhaven.shop/product/premium-airtag-compatible-cat-collar</g:link>
       <g:image_link>https://fluffhaven.shop/premium-airtag-compatible-cat-collar-main.webp</g:image_link>
       <g:availability>in_stock</g:availability>
-      <g:price>19.90 USD</g:price>
+      <g:price>16.90 USD</g:price>
       <g:brand>FluffHaven</g:brand>
       <g:condition>new</g:condition>
     </item>
@@ -932,11 +987,11 @@
     <item>
       <g:id>52</g:id>
       <g:title>Premium Cooling Gel Dog Mat</g:title>
-      <g:description>Help your dog stay cool and comfortable during hot summer days with the Premium Cooling Gel Dog Mat. Featuring a self-cooling gel core, fun fish design and durable waterproof surface, this lightweight Size M mat provides refreshing comfort at home, in the garden, in the car or while travelling.</g:description>
+      <g:description>Self-cooling gel dog mat with a waterproof surface for refreshing comfort on hot summer days.</g:description>
       <g:link>https://fluffhaven.shop/product/premium-cooling-gel-dog-mat</g:link>
-      <g:image_link>https://fluffhaven.shop/premium-cooling-gel-dog-mat-main.webp</g:image_link>
+      <g:image_link>https://fluffhaven.shop/premium-cooling-gel-dog-mat-stay-cool.webp</g:image_link>
       <g:availability>in_stock</g:availability>
-      <g:price>19.90 USD</g:price>
+      <g:price>12.90 USD</g:price>
       <g:brand>FluffHaven</g:brand>
       <g:condition>new</g:condition>
     </item>
@@ -1284,11 +1339,11 @@
     <item>
       <g:id>68</g:id>
       <g:title>Premium Arctic Winter Cat Snowsuit</g:title>
-      <g:description>Keep your cat warm during cold outings with the Premium Arctic Winter Cat Snowsuit. This lightweight padded suit features full-body coverage, insulated construction and a protective hood for comfortable winter walks, outdoor adventures and travel.</g:description>
+      <g:description>Warm padded cat snowsuit with full-body coverage and a protective hood for cold winter outings.</g:description>
       <g:link>https://fluffhaven.shop/product/premium-arctic-winter-cat-snowsuit</g:link>
       <g:image_link>https://fluffhaven.shop/premium-arctic-winter-cat-snowsuit-features.webp</g:image_link>
       <g:availability>in_stock</g:availability>
-      <g:price>44.90 USD</g:price>
+      <g:price>29.90 USD</g:price>
       <g:brand>FluffHaven</g:brand>
       <g:condition>new</g:condition>
     </item>
@@ -1416,11 +1471,11 @@
     <item>
       <g:id>15</g:id>
       <g:title>Calming Donut Cat Bed</g:title>
-      <g:description>Give your cat a cozy place to rest with this soft donut bed, designed for warm and comfortable everyday naps.</g:description>
+      <g:description>Soft donut cat bed for warm, cozy and comfortable everyday naps.</g:description>
       <g:link>https://fluffhaven.shop/product/calming-donut-cat-bed</g:link>
-      <g:image_link>https://fluffhaven.shop/lit_rond_chat.webp</g:image_link>
+      <g:image_link>https://fluffhaven.shop/lit_rond_chat4.webp</g:image_link>
       <g:availability>in_stock</g:availability>
-      <g:price>31.90 USD</g:price>
+      <g:price>12.90 USD</g:price>
       <g:brand>FluffHaven</g:brand>
       <g:condition>new</g:condition>
     </item>
