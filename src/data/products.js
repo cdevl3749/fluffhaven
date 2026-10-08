@@ -3688,6 +3688,98 @@ Perfect for everyday indoor fun.
   featured: true,
 },
 
+
+{
+  id: 148,
+  slug: "premium-interactive-cat-laser-toy",
+  name: "Premium Interactive Cat Laser Toy",
+  category: "cat",
+  productType: "toys",
+  seasons: ["summer", "autumn", "winter"],
+  subtitle: "Interactive Cat Entertainment",
+  price: 29.90,
+  badge: "🐱 Playtime Favorite",
+  priceId: "price_1UOHKuKn0lmTcQ1111Z5BSaM",
+  images: [
+    "/Cozy FluffHaven Cat Laser Toy.webp",
+    "/Playful Kitten Chasing Laser Toy.webp",
+    "/Cozy FluffHaven Kitten Playtime.webp",
+    "/FluffHaven Interactive Laser Toy.webp",
+    "/FluffHaven Interactive Cat Play Ad.webp",
+  ],
+  description:
+    "Keep your cat entertained with this interactive laser toy designed to encourage playful movement and natural chasing instincts.",
+  seoTitle:
+    "Premium Interactive Cat Laser Toy | FluffHaven",
+  seoDescription:
+    "Discover the Premium Interactive Cat Laser Toy at FluffHaven. Encourage active play and natural chasing instincts. Free delivery.",
+  brand: "FluffHaven",
+  details: `
+✓ Interactive laser play for cats
+✓ Encourages natural chasing instincts
+✓ Supports active indoor playtime
+✓ Compact freestanding design
+✓ Ideal for playful indoor cats
+
+Bring more excitement to your cat's everyday playtime. Avoid directing the laser toward eyes and offer a physical toy to catch after play.
+`,
+  inStock: true,
+  featured: false,
+},
+
+
+{
+  id: 147,
+  slug: "premium-glowing-cat-toy-trio",
+  name: "Premium Glowing Cat Toy Trio",
+
+  category: "cat",
+  productType: "toys",
+
+  seasons: ["summer", "autumn", "winter"],
+
+  subtitle: "Set of 3 • Colorful LED lights • Interactive chasing fun",
+
+  price: 14.90,
+
+  badge: "🐱 Playtime Favorite",
+
+  priceId: "price_1UOGd5Kn0lmTcQ11mJMkotW1",
+
+  images: [
+    "/FluffHaven Glowing Cat Toy Trio.webp",
+    "/FluffHaven Play Brighter with Kitten Toys.webp",
+    "/Playful Kitten and Glowing LED Balls.webp",
+    "/Colorful LED Cat Ball Set.webp",
+    "/Colorful LED Pet Toy Balls in Cozy Interior.webp",
+  ],
+
+  description:
+    "Brighten your cat's playtime with this colorful trio of glowing LED balls, designed to encourage chasing, curiosity and interactive indoor fun.",
+
+  seoTitle:
+    "Premium Glowing Cat Toy Trio | LED Cat Balls | FluffHaven",
+
+  seoDescription:
+    "Set of 3 colorful glowing LED cat toy balls for interactive indoor play, chasing and playful enrichment.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Set of 3 glowing cat toy balls
+✓ Colorful LED light effects
+✓ Encourages chasing and playful activity
+✓ Fun for indoor playtime
+✓ Eye-catching faceted design
+
+Bring a little extra sparkle to your cat's everyday playtime.
+`,
+
+  inStock: true,
+  featured: true,
+},
+
+
 {
   id: 138,
 

@@ -510,6 +510,12 @@ const [priceSort, setPriceSort] = useState(savedShopFilters.priceSort || "defaul
     image: "/images/reviews/louise-j.webp",
     text: "FluffHaven has a warm and reassuring visual identity. Ponpon gives the brand a friendly, human touch, while the product pages provide helpful information that reassures potential buyers.",
   },
+  {
+  name: "Julie Rysselinc​​k",
+  role: "Pet lover • France",
+  image: "/images/reviews/julie-cat.webp",
+  text: "A lovely discovery! FluffHaven is clear and pleasant to browse, and the dog collection has clearly been selected with care. The shop is still young, but the catalogue is growing little by little. You can feel the heart behind this project. Wishing FluffHaven every success!",
+  },
 ];
 
 const [isReviewPaused, setIsReviewPaused] = useState(false);
