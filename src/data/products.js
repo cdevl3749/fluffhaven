@@ -3564,6 +3564,59 @@ A cute and cuddly crab designed to bring extra fun to your cat's everyday playti
 
 
 {
+  id: 151,
+
+  slug: "premium-green-caterpillar-cat-toy",
+  name: "Premium Green Caterpillar Cat Toy",
+
+  category: "cat",
+  productType: "toys",
+  seasons: ["summer", "autumn", "winter"],
+
+  subtitle: "Soft plush • Catnip inside • Playtime fun",
+
+  price: 9.90,
+
+  badge: "🐱 Playtime Favorite",
+
+  // Remplacer par le Price ID de ce produit dans Stripe
+  priceId: "price_1UOhXhKn0lmTcQ11ADUHvtqM",
+ 
+  images: [
+    "/Playful Lime Caterpillar Plush Toy.webp",
+    "/Playful Kitten and Green Caterpillar Toy.webp",
+    "/Playful Kitten and Caterpillar Toy.webp",
+    "/Plush Green Caterpillar Cat Toy.webp",
+    "/Playful Kitten and Fuzzy Caterpillar.webp",
+  ],
+
+  description:
+    "Make playtime more exciting with this adorable green caterpillar plush toy. Its soft texture and catnip filling encourage playful moments and everyday indoor fun.",
+
+  seoTitle:
+    "Premium Green Caterpillar Cat Toy | FluffHaven",
+
+  seoDescription:
+    "Soft green caterpillar plush cat toy with catnip filling. Perfect for batting, cuddling and encouraging fun indoor playtime.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Soft and fluffy plush texture
+✓ Catnip filling for added interest
+✓ Cute green caterpillar design
+✓ Great for batting and cuddling
+✓ Encourages everyday indoor play
+
+A soft and playful little companion to brighten your cat's day.
+`,
+
+  inStock: true,
+  featured: false,
+},
+
+
+{
   id: 148,
   slug: "premium-interactive-cat-laser-toy",
   name: "Premium Interactive Cat Laser Toy",
@@ -3770,6 +3823,59 @@ A cozy Halloween addition to your cat's toy collection.
   inStock: true,
 
   featured: true,
+},
+
+
+{
+  id: 150,
+
+  slug: "premium-rechargeable-flapping-bird-cat-toy",
+  name: "Premium Flapping Bird Cat Toy",
+
+  category: "cat",
+  productType: "toys",
+  seasons: ["summer", "autumn", "winter"],
+
+  subtitle: "USB rechargeable • Flapping wings • Bird sounds",
+
+  price: 19.90,
+
+  badge: "🐦 Interactive Favorite",
+
+  // Remplacer par le Price ID de ce produit dans Stripe
+  priceId: "price_1UOeH7Kn0lmTcQ11VQIdPhkI",
+
+  images: [
+    "/Flapping Plush Sparrow Product Showcase.webp",
+    "/fluffhaven_oiseau_photo_principale.webp",
+    "/Rechargeable Plush Bird Toy Feature Guide.webp",
+    "/Hours of Playtime Bird Toy.webp",
+    "/Playful Kitten and Chirping Bird Toy.webp",
+  ],
+
+  description:
+    "Bring your cat's playtime to life with this soft, rechargeable bird toy. Flapping wings and playful bird sounds encourage interactive fun.",
+
+  seoTitle:
+    "Premium Rechargeable Flapping Bird Cat Toy | FluffHaven",
+
+  seoDescription:
+    "Interactive plush bird cat toy with flapping wings, bird sounds and USB rechargeable design. A fun companion for indoor playtime.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Interactive flapping wings
+✓ Playful bird sounds
+✓ USB rechargeable design
+✓ Soft plush bird exterior
+✓ Encourages chasing and playful activity
+
+A fun little bird designed to make everyday indoor playtime more exciting.
+`,
+
+  inStock: true,
+  featured: false,
 },
 
 {
