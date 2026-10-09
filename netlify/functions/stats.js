@@ -298,8 +298,14 @@ if (data.type === "productTime") {
 
       // ADD TO CART
       if (data.type === "addToCart") {
-        // Compteur global
-        await redis(["INCR", "cartAdds"]);
+        const headers = event.headers || {};
+
+        const country =
+          headers["x-country"] ||
+          headers["cf-ipcountry"] ||
+          headers["x-vercel-ip-country"] ||
+          headers["client-country"] ||
+          "Unknown";
 
         // Compteur des ajouts panier par pays
         const cartCountryStatsRaw = await redis(["GET", "cartCountryStats"]);
@@ -319,6 +325,9 @@ if (data.type === "productTime") {
           "cartCountryStats",
           JSON.stringify(cartCountryStats),
         ]);
+
+        // Compteur global après enregistrement du pays
+        await redis(["INCR", "cartAdds"]);
       }
 
       // CLICK

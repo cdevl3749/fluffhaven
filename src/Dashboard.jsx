@@ -235,7 +235,7 @@ export default function Dashboard() {
               const pct = stats.visitors > 0 ? Math.round((count / stats.visitors) * 100) : 0;
               return (
                 <div key={device} style={styles.countryRow}>
-                  <span style={styles.countryName}>{device === "mobile" ? "📱 Mobile" : "🖥️ Desktop"}</span>
+                  {device.trim().toLowerCase() === "mobile" ? "📱 Mobile" : "🖥️ Desktop"}
                   <div style={styles.barBg}>
                     <div style={{ ...styles.barFill, width: `${pct}%` }} />
                   </div>
