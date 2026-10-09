@@ -222,30 +222,52 @@ export default function Dashboard() {
   )}
 </div>
 
-      {/* DEVICES — PC vs Mobile */}
-      <div style={styles.section}>
-        <h2 style={styles.sectionTitle}>📱 PC vs Mobile</h2>
-        {Object.keys(stats.devices || {}).length === 0 ? (
-          <p style={{ color: "#888", fontFamily: "sans-serif", fontSize: 14 }}>
-            Aucune donnée encore.
-          </p>
-        ) : (
-          <div style={styles.countryList}>
-            {Object.entries(stats.devices || {}).map(([device, count]) => {
-              const pct = stats.visitors > 0 ? Math.round((count / stats.visitors) * 100) : 0;
-              return (
-                <div key={device} style={styles.countryRow}>
-                  {device.trim().toLowerCase() === "mobile" ? "📱 Mobile" : "🖥️ Desktop"}
-                  <div style={styles.barBg}>
-                    <div style={{ ...styles.barFill, width: `${pct}%` }} />
-                  </div>
-                  <span style={styles.countryCount}>{count}</span>
-                </div>
-              );
-            })}
-          </div>
-        )}
+      
+{/* DEVICES – PC vs Mobile */}
+<div style={styles.section}>
+  <h2 style={styles.sectionTitle}>📱 PC vs Mobile</h2>
+
+  {(() => {
+    const devices = stats.devices || {};
+
+    const totals = Object.entries(devices).reduce(
+      (acc, [device, count]) => {
+        const type = device.trim().toLowerCase();
+        const category = type === "mobile" ? "Mobile" : "Desktop";
+
+        acc[category] += Number(count) || 0;
+        return acc;
+      },
+      { Mobile: 0, Desktop: 0 }
+    );
+
+    const total = totals.Mobile + totals.Desktop;
+
+    return total === 0 ? (
+      <p style={{ color: "#888", fontFamily: "sans-serif", fontSize: 14 }}>
+        Aucune donnée encore.
+      </p>
+    ) : (
+      <div style={styles.countryList}>
+        {Object.entries(totals).map(([device, count]) => {
+          const pct = Math.round((count / total) * 100);
+
+          return (
+            <div key={device} style={styles.countryRow}>
+              <span style={styles.countryName}>
+                {device === "Mobile" ? "📱 Mobile" : "🖥️ Desktop"}
+              </span>
+              <div style={styles.barBg}>
+                <div style={{ ...styles.barFill, width: `${pct}%` }} />
+              </div>
+              <span style={styles.countryCount}>{count}</span>
+            </div>
+          );
+        })}
       </div>
+    );
+  })()}
+</div>
 
       {/* SOURCES */}
       <div style={styles.section}>
