@@ -3617,6 +3617,113 @@ A soft and playful little companion to brighten your cat's day.
 
 
 {
+  id: 153,
+
+  slug: "premium-owl-catnip-toy",
+  name: "Premium Owl Catnip Toy Duo",
+
+  category: "cat",
+  productType: "toys",
+  seasons: ["summer", "autumn", "winter"],
+
+  subtitle: "2 plush owls • Catnip inside • Cozy playtime",
+
+  price: 12.90,
+
+  badge: "🦉 Cozy Favorite",
+
+  // Remplacer par le Price ID créé dans Stripe
+  priceId: "price_1UOjseKn0lmTcQ118cBb1yUV",
+
+  images: [
+    "/Cozy Sleepy Owl Catnip Toys.webp",
+    "/Cozy Owl Catnip Toy Showcase.webp",
+    "/Cozy Kitten Owl Toy Playtime.webp",
+    "/Cozy Kitten Playtime with Plush Owls.webp",
+    "/Cozy Owl Plush Pair on Autumn Rug.webp",
+  ],
+
+  description:
+    "Two adorable plush owl toys with soft textures and catnip inside. Perfect for cozy indoor playtime.",
+
+  seoTitle:
+    "Premium Owl Catnip Toy Duo | FluffHaven",
+
+  seoDescription:
+    "Set of 2 soft plush owl cat toys with catnip inside. Cute, cuddly and perfect for indoor playtime.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Set of 2 plush owl toys
+✓ Catnip inside
+✓ Soft and cuddly texture
+✓ Two adorable designs
+✓ Perfect for indoor play
+
+Double the cuteness, double the fun!
+`,
+
+  inStock: true,
+  featured: false,
+},
+
+
+{
+  id: 152,
+
+  slug: "premium-autumn-harvest-cat-toy-set",
+  name: "Premium Autumn Cat Toy Set",
+
+  category: "cat",
+  productType: "toys",
+  seasons: ["autumn"],
+
+  subtitle: "6 plush toys • Catnip inside • Autumn playtime",
+
+  price: 19.90,
+
+  badge: "🍂 Autumn Favorite",
+
+  // Remplacer par le Price ID créé dans Stripe
+  priceId: "price_1UOjSqKn0lmTcQ11fkl7qqHZ",
+
+  images: [
+    "/Autumn Fun for Curious Cats.webp",
+    "/Cozy Autumn Basket of Plush Friends.webp",
+    "/FluffHaven Kitten Toy Basket.webp",
+    "/FluffHaven Autumn Cat Toy Collection.webp",
+    "/FluffHaven Autumn Toytime.webp",
+  ],
+
+  description:
+    "Bring autumn fun to your cat's playtime with this adorable set of 6 soft plush toys. Filled with catnip and featuring playful harvest-inspired designs, they're perfect for batting, chasing and indoor entertainment.",
+
+  seoTitle:
+    "Premium Autumn Harvest Cat Toy Set – 6 Pack | FluffHaven",
+
+  seoDescription:
+    "Discover 6 adorable autumn-themed plush cat toys with catnip inside. Soft, colorful and perfect for everyday indoor playtime.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Set of 6 adorable plush cat toys
+✓ Catnip filling for added interest
+✓ Soft and cuddly textures
+✓ Fun autumn-inspired designs
+✓ Great for batting and chasing
+✓ Perfect for everyday indoor play
+
+Six little plush friends to make your cat's playtime extra special.
+`,
+
+  inStock: true,
+  featured: false,
+},
+
+
+{
   id: 148,
   slug: "premium-interactive-cat-laser-toy",
   name: "Premium Interactive Cat Laser Toy",
