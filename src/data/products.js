@@ -3724,6 +3724,112 @@ A deliciously cute toy for your cat's everyday adventures!
 
 
 {
+  id: 155,
+
+  slug: "premium-shrimp-burrito-cat-kicker",
+  name: "Premium Shrimp Burrito Cat Kicker",
+
+  category: "cat",
+  productType: "toys",
+  seasons: ["summer", "autumn", "winter"],
+
+  subtitle: "29 cm • Soft plush • Burrito-inspired cat toy",
+
+  price: 12.90,
+
+  badge: "🐱 Playtime Favorite",
+
+  // Remplacer par le nouveau Price ID Stripe
+  priceId: "price_1UP0DFKn0lmTcQ11o2UJwZVT",
+
+  images: [
+    "/FluffHaven Shrimp Burrito Cat Toy Ad (1).webp",
+    "/FluffHaven Shrimp Burrito Cat Toy Ad (9).webp",
+    "/FluffHaven Shrimp Burrito Cat Toy Ad (8).webp",
+    "/FluffHaven Shrimp Burrito Cat Toy Ad (7).webp",
+    "/FluffHaven Shrimp Burrito Cat Toy Ad (6).webp",
+  ],
+
+  description:
+    "A soft 29 cm shrimp burrito cat kicker, perfect for grabbing, kicking and cuddling. A fun food-inspired plush toy for everyday play.",
+
+  seoTitle:
+    "Premium Shrimp Burrito Cat Kicker | FluffHaven",
+
+  seoDescription:
+    "Discover our 29 cm shrimp burrito cat kicker toy. Soft plush design for grabbing, bunny kicking and playful indoor adventures.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Generous 29 cm length
+✓ Soft and cuddly plush texture
+✓ Fun shrimp burrito-inspired design
+✓ Perfect for grabbing and bunny kicking
+✓ Comfortable for everyday indoor play
+
+A deliciously cute plush companion for your cat!
+`,
+
+  inStock: true,
+  featured: false,
+},
+
+
+{
+  id: 156,
+
+  slug: "premium-chamallow-cat-teaser-wand",
+  name: "Premium Chamallow Cat Teaser Wand",
+
+  category: "cat",
+  productType: "toys",
+  seasons: ["summer", "autumn", "winter"],
+
+  subtitle: "Bamboo wand • Soft plush charm • Interactive play",
+
+  price: 9.90,
+
+  badge: "🐱 Playtime Favorite",
+
+  // Remplacer par le nouveau Price ID Stripe
+  priceId: "price_1UP180Kn0lmTcQ111vWTZll0",
+
+  images: [
+    "/Cozy FluffHaven Cat Toy Promo.webp",
+    "/FluffHaven Cozy Cat Toy Advertisement.webp",
+    "/FluffHaven Kitten Playtime Ad.webp",
+    "/FluffHaven Kitten Playtime Ad(1).webp",
+    "/Cozy FluffHaven Cat Toy Advertisement.webp",
+  ],
+
+  description:
+    "A playful bamboo cat teaser wand with soft plush charms. Perfect for interactive play and happy bonding moments with your cat.",
+
+  seoTitle:
+    "Premium Chamallow Cat Teaser Wand | FluffHaven",
+
+  seoDescription:
+    "Discover our bamboo cat teaser wand with soft plush charms. A fun interactive toy for playful moments and everyday bonding with your cat.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Natural bamboo wand
+✓ Soft plush dangling charm
+✓ Playful pom-pom details
+✓ Encourages interactive play
+✓ Great for bonding with your cat
+
+Make everyday playtime a little more magical!
+`,
+
+  inStock: true,
+  featured: false,
+},
+
+
+{
   id: 152,
 
   slug: "premium-autumn-harvest-cat-toy-set",

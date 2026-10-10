@@ -1282,7 +1282,7 @@ if (priceSort === "high") {
 
     <div className="about-visual">
       <div className="about-card">
-        <div className="about-stat">100+</div>
+        <div className="about-stat">150+</div>
         <div className="about-stat-label">Carefully Selected Products</div>
       </div>
 
