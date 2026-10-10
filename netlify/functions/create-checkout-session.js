@@ -59,7 +59,7 @@ const PONPON_MUG_PRICE_ID = "price_1U8nqXKn0lmTcQ11IPAnINe9";
       },
       shipping_address_collection: {
         allowed_countries: [
-          "US", "CA", "GB", "IE", "FR", "BE", "NL", "DE", "LU", "ES", "IT",
+          "US", "PR", "CA", "GB", "IE", "FR", "BE", "NL", "DE", "LU", "ES", "IT",
           "PT", "AT", "CH", "SE", "DK", "NO", "FI", "AU", "NZ", "PA"
         ],
       },

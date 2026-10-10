@@ -3670,6 +3670,60 @@ Double the cuteness, double the fun!
 
 
 {
+  id: 154,
+
+  slug: "premium-tuna-sandwich-cat-kicker",
+  name: "Premium Tuna Sandwich Cat Kicker",
+
+  category: "cat",
+  productType: "toys",
+  seasons: ["summer", "autumn", "winter"],
+
+  subtitle: "29 cm • Catnip inside • Soft plush kicker",
+
+  price: 12.90,
+
+  badge: "🐱 Playtime Favorite",
+
+  // Remplacer par le Price ID créé dans Stripe
+  priceId: "price_1UOyInKn0lmTcQ113c9LP6iz",
+
+  images: [
+    "/FluffHaven Tuna Sandwich Cat Toy.webp",
+    "/Playful Kitten and Burrito Toy.webp",
+    "/FluffHaven Cozy Catnip Toy Banner.webp",
+    "/FluffHaven Cat Sandwich Toy Play.webp",
+    "/FluffHaven Taco Cat Toy Feature.webp",
+  ],
+
+description:
+  "A soft 29 cm tuna sandwich cat kicker with catnip inside. Perfect for kicking, cuddling and playful moments.",
+
+  seoTitle:
+    "Premium Tuna Sandwich Cat Kicker | FluffHaven",
+
+  seoDescription:
+    "Discover our 29 cm tuna sandwich cat kicker toy with catnip inside. Soft plush design for kicking, cuddling and everyday indoor play.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Generous 29 cm length
+✓ Catnip filling for playful moments
+✓ Soft and cuddly plush texture
+✓ Fun tuna sandwich-inspired design
+✓ Perfect for grabbing and bunny kicking
+✓ Recycled polyester fiber filling
+
+A deliciously cute toy for your cat's everyday adventures!
+`,
+
+  inStock: true,
+  featured: false,
+},
+
+
+{
   id: 152,
 
   slug: "premium-autumn-harvest-cat-toy-set",
