@@ -11,6 +11,11 @@ export default function ProductInfo({ product, onAddToCart }) {
   const descriptionRef = useRef(null);
   const [needsDescriptionToggle, setNeedsDescriptionToggle] = useState(false);
 
+  useEffect(() => {
+    setShowAllDetails(false);
+    setOpenFaq(-1);
+  }, [product.slug]);
+
   const isEnrichmentDuo = product.slug === "premium-dog-enrichment-duo";
 
   const isGroomingSet =
@@ -207,20 +212,29 @@ export default function ProductInfo({ product, onAddToCart }) {
       </div>
       )}
 
-     {/* PRODUCT DETAILS */}
+     {/* PRODUCT DETAILS — accordion on every product */}
 {details.length > 0 && (
-  <div className="product-benefits">
-    <h2>Why you'll love it</h2>
-
-    <ul className="product-details">
-      {details.map(
-        (detail, index) => (
-          <li key={index}>{detail}</li>
-        )
+  <div className="product-faq" style={{ marginTop: "24px" }}>
+    <div className="faq-item">
+      <button
+        type="button"
+        className="faq-question"
+        aria-expanded={showAllDetails}
+        onClick={() => setShowAllDetails((current) => !current)}
+      >
+        <span>Why you'll love it</span>
+        <span aria-hidden="true">{showAllDetails ? "−" : "+"}</span>
+      </button>
+      {showAllDetails && (
+        <ul className="product-details" style={{ padding: "0 24px 20px", margin: 0, maxWidth: "100%" }}>
+          {details.map((detail, index) => (
+            <li key={index}>{detail}</li>
+          ))}
+        </ul>
       )}
-    </ul>
-      </div>
-    )}
+    </div>
+  </div>
+)}
 
       {/* FAQ */}
       <div className="product-faq">
