@@ -178,6 +178,60 @@ Its soft textured surface and easy-to-carry shape make it ideal for fetching, ca
   featured: true,
 },
 
+
+{
+  id: 157,
+  slug: "portable-dog-water-bottle",
+  name: "Portable Dog Water Bottle",
+  category: "dog",
+  productType: "walking-travel",
+  seasons: ["summer", "autumn", "winter"],
+
+  subtitle: "Built-in drinking bowl • Carabiner clip • Easy hydration",
+
+  price: 19.90,
+
+  badge: "💧 Walk Essential",
+
+  priceId: "price_1UQSJKKn0lmTcQ11Nqmp6zvj", // À compléter avec le prix Stripe à $19.90
+
+  images: [
+    "/Golden Retriever’s Autumn Trail Drink.webp",
+    "/Fresh Water, Happier Walks.webp",
+    "/Pastel Blue Portable Dog Water Bottle.webp",
+    "/Golden Retriever Hydration by the Lake.webp",
+    "/Portable Pet Water Bottle Showcase.webp",
+  ],
+
+  description:
+    "Keep your dog refreshed on every walk with this portable water bottle. Its built-in drinking bowl and handy carabiner make hydration easy on the go.",
+
+  seoTitle:
+    "Portable Dog Water Bottle | Travel Drinking Bowl | FluffHaven",
+
+  seoDescription:
+    "Portable dog water bottle with built-in drinking bowl and carabiner clip. Perfect for walks, hikes and outdoor adventures. Only $19.90 at FluffHaven.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Built-in drinking bowl
+✓ Convenient carabiner clip
+✓ Easy to carry on walks and hikes
+✓ Portable and practical design
+✓ Beautiful pastel blue color
+✓ Ideal for travel and outdoor adventures
+
+Keep your dog hydrated wherever you go.
+
+The integrated drinking bowl makes it easy to offer your dog water during walks, hikes and everyday outings.
+`,
+
+  inStock: true,
+  featured: true,
+},
+
+
 {
   id: 0,
   slug: "dog-paw-cleaner",
