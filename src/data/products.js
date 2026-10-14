@@ -179,6 +179,37 @@ Its soft textured surface and easy-to-carry shape make it ideal for fetching, ca
 },
 
 {
+  id: 0,
+  slug: "dog-paw-cleaner",
+  name: "Dog Paw Cleaner",
+  category: "dog",
+  productType: "grooming-care",
+  seasons: ["autumn", "winter"],
+  subtitle: "Portable silicone paw cleaner",
+  price: 8.90,
+  priceId: "price_1UQPuLKn0lmTcQ11gBJIcBcG",
+  badge: "Autumn Essential",
+  images: [
+    "/clean_orange_1.webp",
+    "/clean_orange_2.webp",
+    "/clean_plage.webp",
+    "/dog-paw-cleaner-clean-paws.webp",
+    "/dog-paw-cleaner-travel.webp",
+  ],
+  description: "Muddy paws? Clean them in seconds with soft silicone bristles. Just add water, twist gently and rinse!",
+  seoTitle: "Dog Paw Cleaner | Muddy Paw Washer | FluffHaven",
+  seoDescription: "Keep muddy paws clean with our portable silicone Dog Paw Cleaner. Gentle, easy to use and perfect for rainy walks. Only $8.90 with free delivery.",
+  brand: "FluffHaven",
+  details: `
+✓ Soft silicone bristles
+✓ Removes mud & dirt
+✓ Just add water & twist
+✓ Easy to rinse
+✓ Ideal for rainy walks
+`,
+},
+
+{
   id: 146,
 
   slug: "premium-3-in-1-shark-dog-toy",
@@ -6567,38 +6598,7 @@ Quiet, precise nail care for easier grooming at home.
   },
 
   // 🐶 PRODUITS CHIENS
- {
-  id: 0,
-  slug: "dog-paw-cleaner",
-  name: "Dog Paw Cleaner",
-  category: "dog",
-  productType: "grooming-care",
-  seasons: ["autumn", "winter"],
-  subtitle: "Portable silicone paw cleaner",
-  price: 10.90,
-  priceId: "price_1UKinrKn0lmTcQ11Y0by7Fv7",
-  badge: "Best Seller",
-  images: [
-    "/clean_orange_1.webp",
-    "/clean_orange_2.webp",
-    "/clean_plage.webp",
-    "/dog-paw-cleaner-clean-paws.webp",
-    "/dog-paw-cleaner-travel.webp",
-  ],
-  description: "Clean muddy paws after every walk with gentle silicone bristles designed to remove dirt and mud. Easy to use and suitable for dogs of all breeds.",
-  seoTitle: "Dog Paw Cleaner | Portable Paw Washer | FluffHaven",
-  seoDescription: "Clean muddy paws in seconds with this portable Dog Paw Cleaner. Soft silicone bristles, orange colour and perfect after every walk.",
-  brand: "FluffHaven",
-  details: `
-✓ Soft silicone cleaning bristles
-✓ Helps remove mud & dirt
-✓ Simple manual design
-✓ Easy to rinse after use
-✓ Suitable for all dog breeds
 
-A simple everyday solution for cleaner paws after muddy and rainy walks.
-`,
-},
   {
   id: 1,
   slug: "portable-dog-water-bottle",
