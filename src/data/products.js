@@ -180,6 +180,63 @@ Its soft textured surface and easy-to-carry shape make it ideal for fetching, ca
 
 
 {
+  id: 158,
+
+  slug: "portable-dog-travel-shower",
+
+  name: "Portable Dog Travel Shower",
+
+  category: "dog",
+  productType: "grooming-care",
+
+  seasons: ["summer", "autumn", "winter"],
+
+  subtitle: "Portable shower nozzle • Gentle spray • Easy outdoor cleaning",
+
+  price: 19.90,
+
+  badge: "💧 Outdoor Essential",
+
+  priceId: "price_1URFESKn0lmTcQ111R7VR5JH", // À compléter avec le prix Stripe à $19.90
+
+  images: [
+    "/Rinse Anywhere, Happy Adventures.webp",
+    "/Kurgo Green Bottle Water Sprayer.webp",
+    "/Golden Retriever Garden Wash.webp",
+    "/Kurgo Green Dog Washing Nozzle.webp",
+    "/Three-Step Green Dog Shower Nozzle Guide.webp",
+  ],
+
+  description:
+    "Rinse muddy paws and dirty fur after every adventure. Attach this portable shower nozzle to a compatible water bottle, squeeze gently and rinse.",
+
+  seoTitle:
+    "Portable Dog Travel Shower | Dog Washing Nozzle | FluffHaven",
+
+  seoDescription:
+    "Portable dog shower nozzle for rinsing muddy paws and dirty fur after walks, hikes and outdoor adventures. Easy to use and carry. $19.90 at FluffHaven.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Gentle shower-style water spray
+✓ Helps rinse muddy paws and fur
+✓ Attaches to compatible water bottles
+✓ Lightweight and portable
+✓ Ideal for walks, hikes and travel
+
+Simply attach to a compatible water bottle, squeeze gently and rinse.
+
+Water bottle not included.
+`,
+
+  inStock: true,
+
+  featured: true,
+},
+
+
+{
   id: 157,
   slug: "portable-dog-water-bottle",
   name: "Portable Dog Water Bottle",
