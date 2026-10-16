@@ -100,6 +100,9 @@ import HowToBrushYourCatAtHome from "./blog/how-to-brush-your-cat-at-home.jsx";
 import HalloweenFunSafeForYourDog from "./blog/HalloweenFunAndSafeForYourDog.jsx";
 import HalloweenWithCats from "./blog/HalloweenWithCats.jsx";
 
+import KeepDogHydratedOnWalks from "./blog/keep-dog-hydrated-on-walks.jsx";
+import WhyCatsLoveSelfGroomingBrushes from "./blog/why-cats-love-self-grooming-brushes.jsx";
+
 import ScrollToTop from "./components/ScrollToTop.jsx";
 
 function VisitTracker() {
@@ -285,6 +288,13 @@ createRoot(document.getElementById('root')).render(
 
       : window.location.pathname === "/blog/halloween-with-cats" ? (
         <HalloweenWithCats />
+      )
+
+      : window.location.pathname === "/blog/keep-dog-hydrated-on-walks" ? (
+        <KeepDogHydratedOnWalks />
+      )
+      : window.location.pathname === "/blog/why-cats-love-self-grooming-brushes" ? (
+        <WhyCatsLoveSelfGroomingBrushes />
       )
 
       : window.location.pathname.startsWith("/product/") ? (

@@ -556,6 +556,27 @@ export default function Blog() {
     url: "/blog/halloween-with-cats",
   },
 
+
+{
+  title: "How to Keep Your Dog Hydrated on Walks: 10 Simple Tips",
+  category: "Dog care",
+  date: "October 2026",
+  read: "9 min read",
+  description:
+    "Discover 10 practical tips to keep your dog hydrated during daily walks, outdoor adventures and travel, including how a portable dog water bottle can help.",
+  url: "/blog/keep-dog-hydrated-on-walks",
+},
+
+{
+  title: "Why Do Cats Love Self-Grooming Brushes? 10 Things to Know",
+  category: "Cat grooming",
+  date: "October 2026",
+  read: "9 min read",
+  description:
+    "Discover why cats enjoy rubbing against self-grooming brushes, how these brushes support natural grooming habits and how to introduce one at home.",
+  url: "/blog/why-cats-love-self-grooming-brushes",
+},
+
   ];
 
   // ── Filtrage par recherche ──
