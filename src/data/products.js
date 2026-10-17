@@ -3653,6 +3653,60 @@ Finished in natural wood, this complete FluffHaven feeding station combines comf
   featured: true,
 },
 
+
+{
+  id: 159,
+
+  slug: "premium-bubble-tea-cat-toy-duo",
+
+  name: "Premium Bubble Tea Cat Toy Duo",
+
+  category: "cat",
+  productType: "toys",
+
+  seasons: ["summer", "autumn", "winter"],
+
+  subtitle: "2 plush toys • Cute bubble tea design • 10 cm",
+
+  price: 10.90,
+
+  badge: "🐱 Playtime Favorite",
+
+  priceId: "price_1URhDrKn0lmTcQ11kYl3xxKu", // Add your Stripe price ID for $10.90
+
+  images: [
+    "/Cozy Bubble Tea Plush Pair.webp",
+    "/Cozy Plush Boba Toy Size Guide.webp",
+    "/Playful Kitten and Boba Plushies.webp",
+    "/Curious Kitten and Plush Boba Toys.webp",
+    "/Plush Boba Toy Duo Detail Scene.webp",
+  ],
+
+  description:
+    "Double the fun with this adorable Bubble Tea Cat Toy Duo. Two soft plush toys in cute pastel colors, perfect for batting, carrying and playful moments.",
+
+  seoTitle:
+    "Premium Bubble Tea Cat Toy Duo | FluffHaven",
+
+  seoDescription:
+    "Cute bubble tea cat toy duo with two soft plush toys. Compact 10 cm size, adorable pastel colors and playful design. Only $10.90 at FluffHaven.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Set of 2 plush bubble tea toys
+✓ Soft and lightweight design
+✓ Size: 4 × 4 × 10 cm each
+✓ Cute pastel orange and purple colors
+✓ Great for batting and carrying
+
+Two adorable little companions for everyday playtime.
+`,
+
+  inStock: true,
+  featured: true,
+},
+
 {
   id: 149,
   slug: "premium-red-crab-plush-cat-toy",
