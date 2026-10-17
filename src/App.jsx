@@ -240,11 +240,11 @@ function ProductCard({ product, onAddToCart, onShowDetails }) {
       priceId = product.priceId;
     }
 
-    onAddToCart({
+      onAddToCart({
       id: product.id,
+      slug: product.slug,
       name: product.name,
       price: product.price,
-      priceId,
       image: images ? images[currentImg] : null,
       subtitle: variant
         ? variant.label + (selectedSize ? ` · Size ${selectedSize}` : "")
@@ -1421,14 +1421,45 @@ if (priceSort === "high") {
                 <div className="cart-items">
                   {cart.map((item, i) => (
                     <div key={i} className="cart-item">
-                      <div className="cart-item-icon">
+                      <div
+                          className="cart-item-icon"
+                          onClick={() => {
+                            if (item.slug) {
+                              setOpenCart(false);
+                              window.location.href = `/product/${item.slug}`;
+                            }
+                          }}
+                          style={{ cursor: item.slug ? "pointer" : "default" }}
+                          role={item.slug ? "link" : undefined}
+                          tabIndex={item.slug ? 0 : undefined}
+                          onKeyDown={(e) => {
+                            if (item.slug && (e.key === "Enter" || e.key === " ")) {
+                              e.preventDefault();
+                              setOpenCart(false);
+                              window.location.href = `/product/${item.slug}`;
+                            }
+                          }}
+                          aria-label={item.slug ? `View ${item.name}` : undefined}
+                        >
                         {item.image
                           ? <img src={item.image} alt={item.name} loading="lazy" style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "8px" }} />
                           : item.emoji || "🐾"
                         }
                       </div>
                       <div className="cart-item-info">
-                        <strong>{item.name}</strong>
+                        <strong>
+                        {item.slug ? (
+                          <a
+                            href={`/product/${item.slug}`}
+                            onClick={() => setOpenCart(false)}
+                            style={{ color: "inherit", textDecoration: "underline", cursor: "pointer" }}
+                          >
+                            {item.name}
+                          </a>
+                        ) : (
+                          item.name
+                        )}
+                      </strong>
                         <span>{item.subtitle}</span>
                         <div>
   <p style={{ margin: 0 }}>
