@@ -36,9 +36,12 @@ export default function HomePonpon() {
         <span>chosen by Ponpon</span>
         </h1>
 
-          <p className="ponpon-description">
-           Premium essentials for dogs and cats, carefully selected and approved by Ponpon.
-          </p>
+        
+        <p className="ponpon-description">
+          Inspired by Ponpon, our rescue dog from{" "}
+          <span style={{ whiteSpace: "nowrap" }}>Spain. ❤️</span>
+        </p>
+
 
           <button
             className="ponpon-shop-btn"
@@ -61,46 +64,6 @@ export default function HomePonpon() {
  <span>
   <strong>USA & Puerto Rico</strong> welcome!
  </span>
-</div>
-
-          <div className="ponpon-features">
-
-    <div className="ponpon-feature">
-        <div className="ponpon-icon">✓</div>
-
-        <div>
-        <strong>Premium Quality</strong>
-        <span>Carefully selected</span>
-        </div>
-    </div>
-
-    <div className="ponpon-feature">
-      <div className="ponpon-icon">✓</div>
-
-      <div>
-        <strong>Secure Checkout</strong>
-        <span>Protected payment</span>
-      </div>
-    </div>
-
-    <div className="ponpon-feature">
-        <div className="ponpon-icon">✓</div>
-
-        <div>
-        <strong>Fast Shipping</strong>
-        <span>Reliable & secure</span>
-        </div>
-    </div>
-
-    <div className="ponpon-feature">
-        <div className="ponpon-icon">✓</div>
-
-    <div>
-      <strong>14-Day Returns</strong>
-      <span>Easy returns</span>
-    </div>
-  </div>
-
 </div>
 
         </div>

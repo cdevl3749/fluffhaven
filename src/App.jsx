@@ -1153,14 +1153,6 @@ if (priceSort === "high") {
         </div>
       </section>
 
-      {/* TRUST BAR */}
-      <section className="trust">
-        <div className="trust-item"><div className="trust-icon">📦</div><div><strong>Free Shipping</strong><span>Worldwide · 5–8 business days</span></div></div>
-        <div className="trust-item"><div className="trust-icon">🔒</div><div><strong>Secure Payment</strong><span>SSL encrypted · Stripe</span></div></div>
-        <div className="trust-item"><div className="trust-icon">🛡️</div><div><strong>Carefully Selected</strong><span>Quality pet essentials</span></div></div>
-        <div className="trust-item"><div className="trust-icon">↩️</div><div><strong>Easy Returns</strong><span>14-day no-questions guarantee</span></div></div>
-      </section>
-
     {/* REVIEWS */}
 <section id="reviews" className="section reviews-section">
   <div className="section-label">Reviews</div>
