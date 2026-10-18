@@ -180,6 +180,59 @@ Its soft textured surface and easy-to-carry shape make it ideal for fetching, ca
 
 
 {
+  id: 161,
+
+  slug: "premium-halloween-pumpkin-dog-plush-toy",
+
+  name: "Halloween Pumpkin Dog Toy",
+
+  category: "dog",
+  productType: "toys",
+
+  seasons: ["autumn", "winter"],
+
+  subtitle: "Soft pumpkin plush • Fun Halloween design • Squeaky playtime",
+
+  price: 19.90,
+
+  badge: "🎃 Halloween Favorite",
+
+  priceId: "price_1URz3hKn0lmTcQ11KnzVzas8", // Add your Stripe price ID for $19.90
+
+  images: [
+    "/Cozy Halloween Pumpkin Plush Toy.webp",
+    "/Golden Retriever’s Cozy Halloween Playtime.webp",
+    "/Squeaky Pumpkin Plush Toy Ad.webp",
+    "/Cozy Plush Pumpkin Halloween Hero Shot.webp",
+    "/Plush Pumpkin Toy Detail Collage.webp",
+  ],
+
+  description:
+    "Bring Halloween fun to your dog's playtime! This adorable pumpkin plush features a soft texture, playful design and festive autumn charm.",
+
+  seoTitle:
+    "Premium Halloween Pumpkin Dog Plush Toy | FluffHaven",
+
+  seoDescription:
+    "Cute Halloween pumpkin plush dog toy with a soft design and festive details. A fun autumn playtime companion for $19.90 at FluffHaven.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Soft and cuddly plush texture
+✓ Adorable smiling pumpkin design
+✓ Fun Halloween-inspired details
+✓ Lightweight for carrying and play
+✓ Perfect for festive autumn fun
+
+A spooky-cute companion for your dog's playtime.
+`,
+
+  inStock: true,
+  featured: true,
+},
+
+{
   id: 158,
 
   slug: "portable-dog-travel-shower",
@@ -3655,6 +3708,59 @@ Finished in natural wood, this complete FluffHaven feeding station combines comf
 
 
 {
+  id: 162,
+
+  slug: "premium-plush-donut-cat-toy-duo",
+
+  name: "Plush Donut Cat Toy Duo",
+
+  category: "cat",
+  productType: "toys",
+
+  seasons: ["autumn", "winter"],
+
+  subtitle: "2 soft plush donuts • Pink & chocolate designs • 9 cm",
+
+  price: 9.90,
+
+  badge: "🐱 Playtime Favorite",
+
+  priceId: "price_1URzp5Kn0lmTcQ11OHZKXCV7", // Add your Stripe price ID for $9.90
+
+  images: [
+    "/Cozy Autumn Plush Donuts.webp",
+    "/Autumn Kitten and Plush Donuts.webp",
+    "/Cozy Autumn Donut Plushes.webp",
+    "/Cozy Autumn Donut Cat Toys.webp",
+    "/Cozy Autumn Donut Plushes by Candlelight.webp",
+  ],
+
+  description:
+    "Double the fun with this adorable donut duo! Two soft plush cat toys in pink and chocolate designs, perfect for batting, carrying and cozy playtime.",
+
+  seoTitle:
+    "Plush Donut Cat Toy Duo | FluffHaven",
+
+  seoDescription:
+    "Cute set of 2 soft plush donut cat toys in pink and chocolate designs. Fun everyday playtime for just $9.90 at FluffHaven.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Set of 2 plush donut cat toys
+✓ Cute pink and chocolate designs
+✓ Soft, lightweight texture
+✓ Size: 2.5 × 9 × 9 cm each
+✓ Great for batting and carrying
+
+A sweet little duo for everyday playtime.
+`,
+
+  inStock: true,
+  featured: true,
+},
+
+{
   id: 159,
 
   slug: "premium-bubble-tea-cat-toy-duo",
@@ -3756,6 +3862,60 @@ A cute and cuddly crab designed to bring extra fun to your cat's everyday playti
 
   inStock: true,
   featured: false,
+},
+
+
+{
+  id: 160,
+
+  slug: "premium-pizza-cola-cat-toy-duo",
+
+  name: "Premium Pizza & Cola Cat Toy Duo",
+
+  category: "cat",
+  productType: "toys",
+
+  seasons: ["summer", "autumn", "winter"],
+
+  subtitle: "2 plush toys • Fun pizza & cola design • Compact size",
+
+  price: 10.90,
+
+  badge: "🐱 Playtime Favorite",
+
+  priceId: "price_1URswFKn0lmTcQ11TuBu8jWa", // Add your Stripe price ID for $10.90
+
+  images: [
+    "/Cozy Pizza and Cola Plushies.webp",
+    "/Cozy Plush Pizza and Cola Size Guide.webp",
+    "/Cozy Kitten with Plush Pizza and Cola.webp",
+    "/Playful Kitten with Pizza Toy.webp",
+    "/Cute Pizza and Cola Cat Toys.webp",
+  ],
+
+  description:
+    "Treat your cat to a playful snack-inspired duo! These soft pizza and cola plush toys are lightweight, adorable and perfect for everyday fun.",
+
+  seoTitle:
+    "Premium Pizza & Cola Cat Toy Duo | FluffHaven",
+
+  seoDescription:
+    "Adorable pizza and cola plush cat toy duo. Soft, lightweight and fun for playful cats. Only $10.90 at FluffHaven.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Set of 2 cute plush cat toys
+✓ Soft and lightweight design
+✓ Size: 2.5 × 6 × 8 cm each
+✓ Fun pizza and cola shapes
+✓ Great for batting and carrying
+
+A deliciously cute duo for everyday playtime.
+`,
+
+  inStock: true,
+  featured: true,
 },
 
 
