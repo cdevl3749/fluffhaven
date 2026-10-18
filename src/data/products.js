@@ -180,6 +180,61 @@ Its soft textured surface and easy-to-carry shape make it ideal for fetching, ca
 
 
 {
+  id: 163,
+
+  slug: "premium-dracula-rope-plush-dog-toy",
+
+  name: "Premium Dracula Rope & Plush Dog Toy",
+
+  category: "dog",
+  productType: "toys",
+
+  seasons: ["autumn", "winter"],
+
+  subtitle: "Cute vampire plush • Rope arms • 40 × 18 × 8 cm",
+
+  price: 12.90,
+
+  badge: "🎃 Halloween Favorite",
+
+  priceId: "price_1US34CKn0lmTcQ11IyQPzyUB", // Add your Stripe Price ID for $12.90
+
+  images: [
+    "/Cozy Autumn Vampire Plush Toy.webp",
+    "/Golden Retriever and Vampire Toy Cozy Autumn Scene.webp",
+    "/Autumn Vampire Dog Plush Size Guide.webp",
+    "/Golden Retriever with Vampire Toy.webp",
+    "/Cozy Autumn Vampire Dog Toy.webp",
+  ],
+
+  description:
+    "Meet Dracula, the spooky-cute dog toy! With a soft plush body, colorful vampire design and playful rope arms, he's a fun companion for Halloween and everyday playtime.",
+
+  seoTitle:
+    "Premium Dracula Rope & Plush Dog Toy | FluffHaven",
+
+  seoDescription:
+    "Adorable vampire dog toy with a soft plush body and braided rope arms. Perfect for Halloween-inspired playtime. Available for $12.90 at FluffHaven.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Cute Dracula vampire plush design
+✓ Soft and cuddly plush body
+✓ Braided rope arms with knotted ends
+✓ Size: 40 × 18 × 8 cm
+✓ Great for interactive play and carrying
+✓ Fun Halloween-inspired gift for dogs
+
+A little vampire with a big playful personality!
+`,
+
+  inStock: true,
+  featured: true,
+},
+
+
+{
   id: 161,
 
   slug: "premium-halloween-pumpkin-dog-plush-toy",
