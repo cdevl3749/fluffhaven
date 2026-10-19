@@ -1321,6 +1321,19 @@
   <priority>0.8</priority>
 </url>
 
+<url>
+  <loc>https://fluffhaven.shop/product/premium-halloween-black-cat-plush-dog-toy</loc>
+  <lastmod>2026-10-19</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+
+<url>
+  <loc>https://fluffhaven.shop/product/premium-pirate-bat-plush-dog-toy</loc>
+  <lastmod>2026-10-20</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
 
 <url>
   <loc>https://fluffhaven.shop/blog/why-does-my-dog-bring-me-toys</loc>
@@ -1360,13 +1373,6 @@
 <url>
   <loc>https://fluffhaven.shop/blog/why-does-my-cat-sleep-in-boxes</loc>
   <lastmod>2026-08-10</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://fluffhaven.shop/blog/why-does-my-dog-stare-at-me</loc>
-  <lastmod>2026-08-16</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.8</priority>
 </url>
@@ -1551,7 +1557,7 @@
 
 
 <url>
-  <loc>https://fluffhaven.shop/product/portable-dog-water-bottle</loc>
+  <loc>https://fluffhaven.shop/product/portable-dog-water-bottle-with-carabiner</loc>
   <lastmod>2026-10-14</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.9</priority>

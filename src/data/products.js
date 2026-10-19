@@ -345,6 +345,115 @@ A spooky-cute friend for playful pups!
 
 
 {
+  id: 167,
+
+  slug: "premium-pirate-bat-plush-dog-toy",
+
+  name: "Pirate Bat Plush Dog Toy",
+
+  category: "dog",
+  productType: "toys",
+
+  seasons: ["autumn", "winter"],
+
+  subtitle: "Cute pirate bat • Soft plush • Rope ring for play",
+
+  price: 18.90,
+
+  badge: "🎃 Halloween Favorite",
+
+  priceId: "price_1USPbEKn0lmTcQ11TPyxKJ1f", // Add your Stripe Price ID for $18.90
+
+  images: [
+    "/Cozy Halloween Pirate Bat Toy.webp",
+    "/Golden Retriever’s Pirate Bat Playtime.webp",
+    "/Plush Pirate Bat Toy Details.webp",
+    "/Cozy Pirate Bat Dog Toy Infographic.webp",
+    "/Golden Retriever Tug-of-War Fun-1.webp",
+  ],
+
+  description:
+    "Meet this adorable pirate bat plush dog toy! With its soft body, playful wings and rope ring, it's a fun companion for interactive games and cozy moments.",
+
+  seoTitle:
+    "Pirate Bat Plush Dog Toy | FluffHaven",
+
+  seoDescription:
+    "Cute pirate bat plush dog toy with soft wings and a rope ring for interactive play. A fun Halloween treat for pups. $18.90 at FluffHaven.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Adorable pirate bat design
+✓ Soft and cuddly plush body
+✓ Blue rope ring for interactive play
+✓ Playful wings and pirate hat
+✓ Size: 34 × 29 × 7 cm
+✓ Fun Halloween gift for dogs
+
+A little pirate ready for playtime!
+`,
+
+  inStock: true,
+  featured: true,
+},
+
+
+{
+  id: 166,
+
+  slug: "premium-halloween-black-cat-plush-dog-toy",
+
+  name: "Halloween Black Cat Plush Dog Toy",
+
+  category: "dog",
+  productType: "toys",
+
+  seasons: ["autumn", "winter"],
+
+  subtitle: "Soft black cat plush for dogs • Halloween design • Built-in squeaker",
+
+  price: 19.90,
+
+  badge: "🎃 Halloween Favorite",
+
+  priceId: "price_1USNbtKn0lmTcQ11k5LTuPmz", // Add your Stripe Price ID for $19.90
+
+  images: [
+    "/Cozy Halloween Plush Cat Display.webp",
+    "/Golden Retriever’s Spooky Playtime.webp",
+    "/Adorable Black-and-Orange Cat Plush Display.webp",
+    "/Plush Black Cat Feature Showcase.webp",
+    "/Cozy Autumn Plush Cat Toy.webp",
+  ],
+
+  description:
+    "Treat your pup to this adorable Halloween black cat plush dog toy! Soft, cuddly and equipped with a built-in squeaker, it's perfect for playful moments and cozy cuddles.",
+
+  seoTitle:
+    "Halloween Black Cat Plush Dog Toy | FluffHaven",
+
+  seoDescription:
+    "Cute black and orange Halloween plush dog toy with a built-in squeaker. Soft, cuddly and perfect for playful pups. Only $19.90 at FluffHaven.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Adorable Halloween black cat design
+✓ Soft and cuddly plush texture
+✓ Built-in squeaker for interactive play
+✓ Bright embroidered eyes and orange details
+✓ Perfect for gentle play and cuddles
+✓ Fun Halloween gift for dogs
+
+A spooky-cute playtime buddy for your pup!
+`,
+
+  inStock: true,
+  featured: true,
+},
+
+{
   id: 161,
 
   slug: "premium-halloween-pumpkin-dog-plush-toy",
@@ -456,8 +565,8 @@ Water bottle not included.
 
 {
   id: 157,
-  slug: "portable-dog-water-bottle",
-  name: "Portable Dog Water Bottle",
+  slug: "portable-dog-water-bottle-with-carabiner",
+  name: "Portable Dog Water Bottle with Carabiner",
   category: "dog",
   productType: "walking-travel",
   seasons: ["summer", "autumn", "winter"],
