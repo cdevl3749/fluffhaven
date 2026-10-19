@@ -235,6 +235,116 @@ A little vampire with a big playful personality!
 
 
 {
+  id: 164,
+
+  slug: "premium-halloween-witch-bear-dog-toy",
+
+  name: "Premium Halloween Witch Bear Dog Toy",
+
+  category: "dog",
+  productType: "toys",
+
+  seasons: ["autumn", "winter"],
+
+  subtitle: "Soft orange plush bear • Witch hat • Halloween fun",
+
+  price: 14.90,
+
+  badge: "🎃 Halloween Favorite",
+
+  priceId: "price_1USDbDKn0lmTcQ11RAM6pY7T", // Add your Stripe Price ID for $14.90
+
+  images: [
+    "/Cozy Halloween Witch Bear Toy.webp",
+    "/Golden Retriever and Witch Bear Cozy Portrait.webp",
+    "/Halloween Plush Bear Product Collage.webp",
+    "/Cozy Halloween Bear Still Life.webp",
+    "/Cozy Halloween Golden Retriever Cuddle.webp",
+  ],
+
+  description:
+    "Bring a little Halloween magic to playtime! This adorable orange plush bear wears a cute witch hat and features soft, fluffy fabric with colorful stitched patches.",
+
+  seoTitle:
+    "Premium Halloween Witch Bear Dog Toy | FluffHaven",
+
+  seoDescription:
+    "Cute orange Halloween plush bear for dogs with a witch hat and soft fluffy texture. A cozy seasonal playtime companion for $14.90 at FluffHaven.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Adorable orange Halloween bear design
+✓ Cute black witch hat
+✓ Soft, fluffy plush texture
+✓ Colorful stitched patch details
+✓ Great for cuddling and gentle play
+✓ Lovely Halloween gift for dogs
+
+A cuddly little witch ready for spooky-season fun!
+`,
+
+  inStock: true,
+  featured: true,
+},
+
+
+{
+  id: 165,
+
+  slug: "premium-halloween-spider-plush-dog-toy",
+
+  name: "Premium Halloween Spider Plush Dog Toy",
+
+  category: "dog",
+  productType: "toys",
+
+  seasons: ["autumn", "winter"],
+
+  subtitle: "Soft plush spider • Purple & orange • Built-in squeaker",
+
+  price: 19.90,
+
+  badge: "🎃 Halloween Favorite",
+
+  priceId: "price_1USEXBKn0lmTcQ11t0XALLvi", // Add your Stripe Price ID for $19.90
+
+  images: [
+    "/Cozy Autumn Plush Spider Scene.webp",
+    "/Cozy Autumn Retriever with Plush Spider.webp",
+    "/Golden Retriever Cuddling Plush Spider.webp",
+    "/Cute Purple and Orange Spider Toy.webp",
+    "/Cozy Orange and Purple Plush Spider.webp",
+  ],
+
+  description:
+    "Meet this adorable Halloween spider! With its soft plush body, playful purple and orange design, and built-in squeaker, it's a fun companion for cuddles and gentle playtime.",
+
+  seoTitle:
+    "Premium Halloween Spider Plush Dog Toy | FluffHaven",
+
+  seoDescription:
+    "Cute purple and orange spider plush dog toy with a built-in squeaker. Perfect for cozy Halloween playtime. Available for $19.90 at FluffHaven.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Adorable purple and orange spider design
+✓ Soft and cuddly plush texture
+✓ Built-in squeaker for engaging play
+✓ Eight playful plush legs
+✓ Great for cuddling and gentle play
+✓ Fun Halloween gift for dogs
+
+A spooky-cute friend for playful pups!
+`,
+
+  inStock: true,
+  featured: true,
+},
+
+
+{
   id: 161,
 
   slug: "premium-halloween-pumpkin-dog-plush-toy",
