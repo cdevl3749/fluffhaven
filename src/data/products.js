@@ -3,6 +3,178 @@ export const PRODUCTS = [
   // 🔥 PRODUITS QUI CONVERTISSENT (EN PREMIER)
 
   {
+  id: 146,
+
+  slug: "premium-3-in-1-shark-dog-toy",
+
+  name: "Premium 3-in-1 Shark Dog Toy",
+
+  category: "dog",
+  productType: "toys",
+
+  seasons: ["summer", "autumn", "winter"],
+
+  subtitle: "3-in-1 design • Plush shark • Interactive chew & play",
+
+  price: 14.90,
+
+  badge: "🦈 Playtime Favorite",
+
+  priceId: "price_1UNxUCKn0lmTcQ11i8ezBeRO",
+
+  images: [
+    "/FluffHaven Plush Shark Adventure.webp",
+    "/Golden Retriever’s Plush Shark Adventure.webp",
+    "/Golden Retriever’s Cozy Shark Cuddle.webp",
+    "/FluffHaven 3-in-1 Shark Toy Showcase.webp",
+    "/Playful Blue Shark Plush Toy.webp",
+  ],
+
+  description:
+    "Make playtime more exciting with this fun 3-in-1 shark dog toy. Its playful plush design combines different textures for chewing, carrying and interactive everyday fun.",
+
+  seoTitle:
+    "Premium 3-in-1 Shark Dog Toy | Interactive Plush Toy | FluffHaven",
+
+  seoDescription:
+    "Premium 3-in-1 shark dog toy with soft plush textures and an interactive design for chewing, carrying and everyday play.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Fun 3-in-1 interactive design
+✓ Soft plush shark exterior
+✓ Designed for chewing & play
+✓ Easy for dogs to carry
+✓ Great for interactive everyday fun
+
+Bring a little shark adventure to everyday playtime.
+
+The Premium 3-in-1 Shark Dog Toy combines a fun plush design with engaging textures for chewing, carrying and interactive play.
+
+A playful FluffHaven companion for active play and cozy moments.
+`,
+
+  inStock: true,
+
+  featured: true,
+},
+
+{
+  id: 158,
+
+  slug: "portable-dog-travel-shower",
+
+  name: "Portable Dog Travel Shower",
+
+  category: "dog",
+  productType: "grooming-care",
+
+  seasons: ["summer", "autumn", "winter"],
+
+  subtitle: "Portable shower nozzle • Gentle spray • Easy outdoor cleaning",
+
+  price: 19.90,
+
+  badge: "💧 Outdoor Essential",
+
+  priceId: "price_1URFESKn0lmTcQ111R7VR5JH", // À compléter avec le prix Stripe à $19.90
+
+  images: [
+    "/Rinse Anywhere, Happy Adventures.webp",
+    "/Kurgo Green Bottle Water Sprayer.webp",
+    "/Golden Retriever Garden Wash.webp",
+    "/Kurgo Green Dog Washing Nozzle.webp",
+    "/Three-Step Green Dog Shower Nozzle Guide.webp",
+  ],
+
+  description:
+    "Rinse muddy paws and dirty fur after every adventure. Attach this portable shower nozzle to a compatible water bottle, squeeze gently and rinse.",
+
+  seoTitle:
+    "Portable Dog Travel Shower | Dog Washing Nozzle | FluffHaven",
+
+  seoDescription:
+    "Portable dog shower nozzle for rinsing muddy paws and dirty fur after walks, hikes and outdoor adventures. Easy to use and carry. $19.90 at FluffHaven.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Gentle shower-style water spray
+✓ Helps rinse muddy paws and fur
+✓ Attaches to compatible water bottles
+✓ Lightweight and portable
+✓ Ideal for walks, hikes and travel
+
+Simply attach to a compatible water bottle, squeeze gently and rinse.
+
+Water bottle not included.
+`,
+
+  inStock: true,
+
+  featured: true,
+},                                
+
+{
+  id: 145,
+
+  slug: "premium-interactive-octopus-dog-toy",
+
+  name: "Premium Interactive Octopus Dog Toy",
+
+  category: "dog",
+  productType: "toys",
+
+  seasons: ["summer", "autumn", "winter"],
+
+  subtitle: "Squeaky fun • Textured tentacles • Interactive play",
+
+  price: 18.90,
+
+  badge: "🐙 Playtime Favorite",
+
+  priceId: "price_1UNvu4Kn0lmTcQ11gnieHqTV",
+
+  images: [
+    "/FluffHaven Feisty Blue Octopus Toy.webp",
+    "/Golden Retriever’s Blue Octopus Playtime.webp",
+    "/FluffHaven Blue Octopus Toy Features.webp",
+    "/FluffHaven Blue Octopus Playtime.webp",
+    "/Golden Retriever Tug-of-War Fun.webp",
+  ],
+
+  description:
+    "Make playtime more exciting with this fun interactive octopus dog toy. Soft textures, flexible tentacles and a built-in squeaker encourage engaging everyday play.",
+
+  seoTitle:
+    "Premium Interactive Octopus Dog Toy | FluffHaven",
+
+  seoDescription:
+    "Interactive blue octopus dog toy with textured tentacles and a built-in squeaker for fun, engaging everyday play.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Built-in squeaker
+✓ Soft textured design
+✓ Flexible tentacles for interactive play
+✓ Great for tugging and everyday fun
+✓ Eye-catching octopus design
+
+Bring more fun to playtime with the Premium Interactive Octopus Dog Toy.
+
+Its flexible textured tentacles are easy for dogs to grab, while the built-in squeaker adds extra excitement.
+
+A playful companion for tugging, carrying and everyday interactive fun.
+`,
+
+  inStock: true,
+
+  featured: true,
+},
+
+  {
   id: 131,
   slug: "premium-durable-lion-dog-toy",
   name: "Premium Durable Lion Dog Toy",
@@ -507,61 +679,62 @@ A spooky-cute companion for your dog's playtime.
 },
 
 {
-  id: 158,
+  id: 144,
 
-  slug: "portable-dog-travel-shower",
+  slug: "premium-interactive-treat-ball",
 
-  name: "Portable Dog Travel Shower",
+  name: "Premium Interactive Treat Ball",
 
   category: "dog",
-  productType: "grooming-care",
+  productType: "toys",
 
   seasons: ["summer", "autumn", "winter"],
 
-  subtitle: "Portable shower nozzle • Gentle spray • Easy outdoor cleaning",
+  subtitle: "Treat dispensing • Interactive play • Mental stimulation • Easy to clean",
 
-  price: 19.90,
+  price: 10.90,
 
-  badge: "💧 Outdoor Essential",
+  badge: "🧠 Enrichment Favorite",
 
-  priceId: "price_1URFESKn0lmTcQ111R7VR5JH", // À compléter avec le prix Stripe à $19.90
+  priceId: "price_1UNuftKn0lmTcQ11aoejStiK",
 
   images: [
-    "/Rinse Anywhere, Happy Adventures.webp",
-    "/Kurgo Green Bottle Water Sprayer.webp",
-    "/Golden Retriever Garden Wash.webp",
-    "/Kurgo Green Dog Washing Nozzle.webp",
-    "/Three-Step Green Dog Shower Nozzle Guide.webp",
+    "/FluffHaven Interactive Treat Toy Ad.webp",
+    "/Golden Retriever Playtime with FluffHaven.webp",
+    "/FluffHaven Treat Time Adventure.webp",
+    "/FluffHaven Interactive Treat Ball.webp",
+    "/Easy-Clean Treat Ball in a Sparkling Sink.webp",
   ],
 
   description:
-    "Rinse muddy paws and dirty fur after every adventure. Attach this portable shower nozzle to a compatible water bottle, squeeze gently and rinse.",
+    "Turn treat time into interactive play with this engaging treat-dispensing ball. Add suitable treats or kibble and let your dog roll, explore and discover the rewards inside.",
 
   seoTitle:
-    "Portable Dog Travel Shower | Dog Washing Nozzle | FluffHaven",
+    "Premium Interactive Treat Ball | Dog Enrichment Toy | FluffHaven",
 
   seoDescription:
-    "Portable dog shower nozzle for rinsing muddy paws and dirty fur after walks, hikes and outdoor adventures. Easy to use and carry. $19.90 at FluffHaven.",
+    "Interactive dog treat ball designed for rewarding play and mental stimulation. Fill with suitable treats or kibble, easy to clean and reusable.",
 
   brand: "FluffHaven",
 
   details: `
-✓ Gentle shower-style water spray
-✓ Helps rinse muddy paws and fur
-✓ Attaches to compatible water bottles
-✓ Lightweight and portable
-✓ Ideal for walks, hikes and travel
+✓ Interactive treat-dispensing design
+✓ Encourages mental stimulation
+✓ Suitable for treats or kibble
+✓ Rolling design keeps dogs engaged
+✓ Reusable and easy to clean
 
-Simply attach to a compatible water bottle, squeeze gently and rinse.
+Make treat time more exciting with the Premium Interactive Treat Ball.
 
-Water bottle not included.
+Simply add suitable treats or kibble and let your dog roll and explore the toy to discover the rewards inside.
+
+A simple everyday enrichment toy for rewarding play and mental stimulation.
 `,
 
   inStock: true,
 
   featured: true,
 },
-
 
 {
   id: 157,
@@ -645,180 +818,6 @@ The integrated drinking bowl makes it easy to offer your dog water during walks,
 ✓ Easy to rinse
 ✓ Ideal for rainy walks
 `,
-},
-
-{
-  id: 146,
-
-  slug: "premium-3-in-1-shark-dog-toy",
-
-  name: "Premium 3-in-1 Shark Dog Toy",
-
-  category: "dog",
-  productType: "toys",
-
-  seasons: ["summer", "autumn", "winter"],
-
-  subtitle: "3-in-1 design • Plush shark • Interactive chew & play",
-
-  price: 14.90,
-
-  badge: "🦈 Playtime Favorite",
-
-  priceId: "price_1UNxUCKn0lmTcQ11i8ezBeRO",
-
-  images: [
-    "/FluffHaven Plush Shark Adventure.webp",
-    "/Golden Retriever’s Plush Shark Adventure.webp",
-    "/Golden Retriever’s Cozy Shark Cuddle.webp",
-    "/FluffHaven 3-in-1 Shark Toy Showcase.webp",
-    "/Playful Blue Shark Plush Toy.webp",
-  ],
-
-  description:
-    "Make playtime more exciting with this fun 3-in-1 shark dog toy. Its playful plush design combines different textures for chewing, carrying and interactive everyday fun.",
-
-  seoTitle:
-    "Premium 3-in-1 Shark Dog Toy | Interactive Plush Toy | FluffHaven",
-
-  seoDescription:
-    "Premium 3-in-1 shark dog toy with soft plush textures and an interactive design for chewing, carrying and everyday play.",
-
-  brand: "FluffHaven",
-
-  details: `
-✓ Fun 3-in-1 interactive design
-✓ Soft plush shark exterior
-✓ Designed for chewing & play
-✓ Easy for dogs to carry
-✓ Great for interactive everyday fun
-
-Bring a little shark adventure to everyday playtime.
-
-The Premium 3-in-1 Shark Dog Toy combines a fun plush design with engaging textures for chewing, carrying and interactive play.
-
-A playful FluffHaven companion for active play and cozy moments.
-`,
-
-  inStock: true,
-
-  featured: true,
-},
-
-{
-  id: 144,
-
-  slug: "premium-interactive-treat-ball",
-
-  name: "Premium Interactive Treat Ball",
-
-  category: "dog",
-  productType: "toys",
-
-  seasons: ["summer", "autumn", "winter"],
-
-  subtitle: "Treat dispensing • Interactive play • Mental stimulation • Easy to clean",
-
-  price: 10.90,
-
-  badge: "🧠 Enrichment Favorite",
-
-  priceId: "price_1UNuftKn0lmTcQ11aoejStiK",
-
-  images: [
-    "/FluffHaven Interactive Treat Toy Ad.webp",
-    "/Golden Retriever Playtime with FluffHaven.webp",
-    "/FluffHaven Treat Time Adventure.webp",
-    "/FluffHaven Interactive Treat Ball.webp",
-    "/Easy-Clean Treat Ball in a Sparkling Sink.webp",
-  ],
-
-  description:
-    "Turn treat time into interactive play with this engaging treat-dispensing ball. Add suitable treats or kibble and let your dog roll, explore and discover the rewards inside.",
-
-  seoTitle:
-    "Premium Interactive Treat Ball | Dog Enrichment Toy | FluffHaven",
-
-  seoDescription:
-    "Interactive dog treat ball designed for rewarding play and mental stimulation. Fill with suitable treats or kibble, easy to clean and reusable.",
-
-  brand: "FluffHaven",
-
-  details: `
-✓ Interactive treat-dispensing design
-✓ Encourages mental stimulation
-✓ Suitable for treats or kibble
-✓ Rolling design keeps dogs engaged
-✓ Reusable and easy to clean
-
-Make treat time more exciting with the Premium Interactive Treat Ball.
-
-Simply add suitable treats or kibble and let your dog roll and explore the toy to discover the rewards inside.
-
-A simple everyday enrichment toy for rewarding play and mental stimulation.
-`,
-
-  inStock: true,
-
-  featured: true,
-},
-
-{
-  id: 145,
-
-  slug: "premium-interactive-octopus-dog-toy",
-
-  name: "Premium Interactive Octopus Dog Toy",
-
-  category: "dog",
-  productType: "toys",
-
-  seasons: ["summer", "autumn", "winter"],
-
-  subtitle: "Squeaky fun • Textured tentacles • Interactive play",
-
-  price: 18.90,
-
-  badge: "🐙 Playtime Favorite",
-
-  priceId: "price_1UNvu4Kn0lmTcQ11gnieHqTV",
-
-  images: [
-    "/FluffHaven Feisty Blue Octopus Toy.webp",
-    "/Golden Retriever’s Blue Octopus Playtime.webp",
-    "/FluffHaven Blue Octopus Toy Features.webp",
-    "/FluffHaven Blue Octopus Playtime.webp",
-    "/Golden Retriever Tug-of-War Fun.webp",
-  ],
-
-  description:
-    "Make playtime more exciting with this fun interactive octopus dog toy. Soft textures, flexible tentacles and a built-in squeaker encourage engaging everyday play.",
-
-  seoTitle:
-    "Premium Interactive Octopus Dog Toy | FluffHaven",
-
-  seoDescription:
-    "Interactive blue octopus dog toy with textured tentacles and a built-in squeaker for fun, engaging everyday play.",
-
-  brand: "FluffHaven",
-
-  details: `
-✓ Built-in squeaker
-✓ Soft textured design
-✓ Flexible tentacles for interactive play
-✓ Great for tugging and everyday fun
-✓ Eye-catching octopus design
-
-Bring more fun to playtime with the Premium Interactive Octopus Dog Toy.
-
-Its flexible textured tentacles are easy for dogs to grab, while the built-in squeaker adds extra excitement.
-
-A playful companion for tugging, carrying and everyday interactive fun.
-`,
-
-  inStock: true,
-
-  featured: true,
 },
 
 {
