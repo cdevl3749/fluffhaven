@@ -55,16 +55,20 @@ export default function HomePonpon() {
             </button>
 
             <div className="ponpon-usa">
-  <span className="ponpon-usa-flag" role="img" aria-label="United States" />
-
-  <span className="ponpon-pr-flag" aria-label="Puerto Rico" role="img">
-  <span className="ponpon-pr-star">★</span>
-  </span>
-
- <span>
-  <strong>USA & Puerto Rico</strong> welcome!
- </span>
-</div>
+              <span>
+                <strong
+                style={{
+                  color: "#C8925E",
+                  fontSize: "17px",
+                  fontWeight: 700,
+                  letterSpacing: "0.3px",
+                  whiteSpace: "nowrap",
+                }}
+              >
+                🌍 Pets Loved Worldwide!
+              </strong>
+              </span>
+            </div>
 
         </div>
 
