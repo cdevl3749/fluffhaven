@@ -350,6 +350,60 @@ Its soft textured surface and easy-to-carry shape make it ideal for fetching, ca
   featured: true,
 },
 
+{
+  id: 169,
+
+  slug: "rechargeable-led-dog-safety-light",
+
+  name: "Rechargeable LED Dog Safety Light",
+
+  category: "dog",
+  productType: "walking-travel",
+
+  seasons: ["autumn", "winter"],
+
+  subtitle: "Bright LED light • USB rechargeable • Easy collar attachment",
+
+  price: 24.90,
+
+  badge: "✨ Night Walk Essential",
+
+  priceId: "price_1USlatKn0lmTcQ11TnSXxCqR", // Add your Stripe Price ID for $24.90
+
+  images: [
+    "/Cozy Autumn Walk with a Glowing Dog.webp",
+    "/Safer Walks at Twilight.webp",
+    "/LED Dog Light Autumn Showcase.webp",
+    "/Golden Retriever’s Nighttime LED Walk.webp",
+    "/Max & Molly LED Dog Safety Light.webp",
+  ],
+
+  description:
+    "Make evening walks brighter with this rechargeable LED dog safety light. Easy to attach to a collar or harness for better visibility after dark.",
+
+  seoTitle:
+    "Rechargeable LED Dog Safety Light | FluffHaven",
+
+  seoDescription:
+    "Bright rechargeable LED dog safety light for evening walks. Easy to attach to collars or harnesses. $24.90 at FluffHaven.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Bright LED light for better visibility
+✓ USB rechargeable
+✓ Flexible silicone attachment strap
+✓ Easy to attach to collars or harnesses
+✓ Ideal for evening and nighttime walks
+✓ Stylish blue design
+
+Brighter walks for your furry companion!
+`,
+
+  inStock: true,
+  featured: true,
+},
+
 
 {
   id: 163,
@@ -4137,6 +4191,60 @@ A cute and cuddly crab designed to bring extra fun to your cat's everyday playti
   featured: false,
 },
 
+
+{
+  id: 168,
+
+  slug: "cozy-blue-fleece-winter-cat-vest-size-m",
+
+  name: "Cozy Winter Cat Vest – Size M",
+
+  category: "cat",
+  productType: "clothing",
+
+  seasons: ["autumn", "winter"],
+
+  subtitle: "Soft fleece • Cozy winter warmth • Size M",
+
+  price: 12.90,
+
+  badge: "❄️ Winter Favorite",
+
+  priceId: "price_1USktlKn0lmTcQ11tvpC6ETb", // Add your Stripe Price ID for $12.90
+
+  images: [
+    "/Blue-Vested Cat in Cozy Home.webp",
+    "/Cozy Winter Cat in Blue Fleece Vest.webp",
+    "/Cozy Winter Cat in Size M Fleece.webp",
+    "/Warm & Cozy Cat Winterwear.webp",
+    "/Cozy Winter Snowflake and Candlelight Vignette.webp",
+  ],
+
+  description:
+    "Keep your cat cozy on chilly days with this soft blue fleece vest. Lightweight, comfortable and adorable for winter cuddles.",
+
+  seoTitle:
+    "Cozy Blue Fleece Winter Cat Vest Size M | FluffHaven",
+
+  seoDescription:
+    "Soft blue fleece winter vest for cats in size M. Cozy comfort for chilly days. Only $12.90 at FluffHaven.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Soft and warm fleece fabric
+✓ Beautiful light blue color
+✓ Cozy and comfortable design
+✓ Easy to put on and remove
+✓ Size: M
+✓ Perfect for chilly days
+
+A little extra warmth for your furry friend!
+`,
+
+  inStock: true,
+  featured: true,
+},
 
 {
   id: 160,
