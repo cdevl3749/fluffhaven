@@ -351,6 +351,59 @@ Its soft textured surface and easy-to-carry shape make it ideal for fetching, ca
 },
 
 {
+  id: 171,
+
+  slug: "plush-popsicle-rope-dog-toy-duo",
+
+  name: "Plush Popsicle Rope Dog Toy Duo",
+
+  category: "dog",
+  productType: "toys",
+
+  seasons: ["spring", "summer", "autumn", "winter"],
+
+  subtitle: "Colorful plush duo • Rope tug toy • Playful design",
+
+  price: 19.90,
+
+  badge: "🐶 Playtime Favorite",
+
+  priceId: "price_1UT4vHKn0lmTcQ11t5qp6oX7", // Add Stripe Price ID for $19.90
+
+  images: [
+    "/Pastel Popsicle Pals on a Cozy Rug.webp",
+    "/Golden Retriever Tug-of-War Playtime.webp",
+    "/Cozy Plush Popsicle Dog Toy Measurements.webp",
+    "/Colorful Plush Popsicle Rope Toy Ad.webp",
+    "/Golden Retrievers Tugging a Colorful Plush Toy.webp",
+  ],
+
+  description:
+    "A colorful plush popsicle dog toy duo with rope ends for tugging, interactive play and happy moments together.",
+
+  seoTitle:
+    "Plush Popsicle Rope Dog Toy Duo | FluffHaven",
+
+  seoDescription:
+    "Colorful plush popsicle rope dog toy duo for tugging and interactive play. $19.90 at FluffHaven.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Two colorful plush popsicles
+✓ Rope ends for tugging games
+✓ Soft and playful design
+✓ Size: 29 × 8 × 29 cm
+✓ Great for interactive play
+
+Double the fun for your furry friend!
+`,
+
+  inStock: true,
+  featured: true,
+},
+
+{
   id: 169,
 
   slug: "rechargeable-led-dog-safety-light",
@@ -4081,6 +4134,59 @@ Finished in natural wood, this complete FluffHaven feeding station combines comf
 ✓ Great for batting and carrying
 
 A sweet little duo for everyday playtime.
+`,
+
+  inStock: true,
+  featured: true,
+},
+
+{
+  id: 170,
+
+  slug: "plush-ladybug-and-bee-cat-toy-duo",
+
+  name: "Plush Ladybug & Bee Cat Toy Duo",
+
+  category: "cat",
+  productType: "toys",
+
+  seasons: ["spring", "summer", "autumn", "winter"],
+
+  subtitle: "Adorable plush duo • Soft texture • Playful design",
+
+  price: 12.90,
+
+  badge: "🐝 Cute Cat Duo",
+
+  priceId: "price_1USyFOKn0lmTcQ11koNcGkrD",
+
+  images: [
+    "/Cozy Ladybug and Bee Plush Toys.webp",
+    "/Playful Kitten and Plush Insects.webp",
+    "/Plush Ladybug and Bee Size Guide.webp",
+    "/Cozy Ladybug and Bee Plushies.webp",
+    "/Cozy Plush Ladybug and Bee Toys.webp",
+  ],
+
+  description:
+    "Two adorable plush cat toys featuring a cheerful ladybug and bee. Soft, lightweight and perfect for playful moments.",
+
+  seoTitle:
+    "Plush Ladybug & Bee Cat Toy Duo | FluffHaven",
+
+  seoDescription:
+    "Adorable ladybug and bee plush cat toy duo. Soft, lightweight toys for playful cats. $12.90 at FluffHaven.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Set of 2 plush cat toys
+✓ Cute ladybug and bee designs
+✓ Soft and lightweight
+✓ Size: 4 × 7.5 × 10 cm
+✓ Perfect for gentle play
+
+Double the cuteness, double the fun!
 `,
 
   inStock: true,
