@@ -4088,6 +4088,61 @@ Finished in natural wood, this complete FluffHaven feeding station combines comf
 
 
 {
+  id: 172,
+
+  slug: "pink-rolling-mesh-cat-play-ball",
+
+  name: "Pink Rolling Mesh Cat Play Ball",
+
+  category: "cat",
+  productType: "toys",
+
+  seasons: ["spring", "summer", "autumn", "winter"],
+
+  subtitle: "360° mesh play ball • Foldable design • Outdoor fun",
+
+  price: 27.90,
+
+  badge: "🐱 Playtime Favorite",
+
+  priceId: "price_1UTnRHKn0lmTcQ11VpAvtRK3", // Add Stripe Price ID for $27.90
+
+  images: [
+    "/Playful Kitten in Pink Garden Playhouse.webp",
+    "/Playful Rolling Pink Cat Ball.webp",
+    "/Stress-Free Outdoor Cat Tent.webp",
+    "/Ready in 3 Simple Steps_ Pink Cat Playhouse.webp",
+    "/More Room, Less Stress Playpen.webp",
+  ],
+
+  description:
+    "A lightweight pink mesh play ball that gives your cat a cozy space to explore, roll and enjoy supervised playtime indoors or outdoors.",
+
+  seoTitle:
+    "Pink Rolling Mesh Cat Play Ball | FluffHaven",
+
+  seoDescription:
+    "Discover the foldable pink rolling mesh cat play ball. Breathable 360° design for supervised indoor and outdoor fun. $27.90 at FluffHaven.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Breathable 360° mesh design
+✓ Lightweight and foldable
+✓ Easy pop-up setup
+✓ Zippered opening
+✓ Room to turn and stretch
+✓ For supervised indoor and outdoor play
+
+A playful little world for your curious cat!
+`,
+
+  inStock: true,
+  featured: true,
+},
+
+
+{
   id: 162,
 
   slug: "premium-plush-donut-cat-toy-duo",
