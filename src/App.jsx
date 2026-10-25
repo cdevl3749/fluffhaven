@@ -221,6 +221,17 @@ function ProductCard({ product, onAddToCart, onShowDetails }) {
   const images = variant?.images ?? product.images ?? null;
   const hasMultipleImages = images && images.length > 1;
 
+  const imageThumbnails = {
+  "/FluffHaven Feisty Blue Octopus Toy.webp":
+    "/FluffHaven Feisty Blue Octopus Toy-thumb.webp",
+
+  "/FluffHaven Plush Shark Adventure.webp":
+    "/FluffHaven Plush Shark Adventure-thumb.webp",
+
+  "/Rinse Anywhere, Happy Adventures.webp":
+    "/Rinse Anywhere, Happy Adventures-thumb.webp",
+};
+
   function handleVariantChange(i) {
     setActiveVariant(i);
     setCurrentImg(0);
@@ -279,14 +290,7 @@ function ProductCard({ product, onAddToCart, onShowDetails }) {
           {images && images.length > 0 ? (
             <>
               <img
-                src={
-                {
-                  "/spooky-paws-trio-1.webp": "/spooky-paws-trio-1-thumb.webp",
-                  "/premium-halloween-pumpkin-cat-kicker-main.webp": "/premium-halloween-pumpkin-cat-kicker-main-thumb.webp",
-                  "/premium-plush-snake-cat-toy-main.webp": "/premium-plush-snake-cat-toy-main-thumb.webp",
-                  "/premium-fuzzy-catnip-cat-toy-main.webp": "/premium-fuzzy-catnip-cat-toy-main-thumb.webp",
-                }[images[currentImg]] || images[currentImg]
-              }
+                src={imageThumbnails[images[currentImg]] || images[currentImg]}
                 alt={product.name}
                 loading="lazy"
                 className={`product-photo ${product.imageClass || ""}`}
