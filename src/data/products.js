@@ -89,7 +89,7 @@ A playful FluffHaven companion for active play and cozy moments.
   ],
 
   description:
-    "Rinse muddy paws and dirty fur after every adventure. Attach this portable shower nozzle to a compatible water bottle, squeeze gently and rinse.",
+  "Muddy paws after a walk? Keep the mess outside! This portable dog shower nozzle helps rinse dirt from paws and fur before your dog comes indoors. Simply attach it to a compatible water bottle, squeeze gently and rinse. Lightweight, practical and perfect for outdoor adventures. Water bottle not included.",
 
   seoTitle:
     "Portable Dog Travel Shower | Dog Washing Nozzle | FluffHaven",
