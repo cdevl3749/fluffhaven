@@ -577,6 +577,25 @@ export default function Blog() {
   url: "/blog/why-cats-love-self-grooming-brushes",
 },
 
+{
+  title: "How to Keep Your Dog Comfortable During Cold Autumn Walks: 10 Easy Tips",
+  category: "Dog care",
+  date: "October 2026",
+  read: "9 min read",
+  description:
+    "Discover 10 practical ways to keep your dog comfortable during chilly autumn walks, from checking the weather and protecting paws to drying wet fur after outdoor adventures.",
+  url: "/blog/keep-dog-comfortable-autumn-walks",
+},
+{
+  title: "How to Create a Cozy Autumn Space for Your Indoor Cat: 10 Simple Ideas",
+  category: "Cat care",
+  date: "October 2026",
+  read: "9 min read",
+  description:
+    "Discover 10 simple ways to create a warm, cozy and enriching autumn space for your indoor cat, with comfortable resting spots, gentle playtime and relaxing daily routines.",
+  url: "/blog/cozy-autumn-space-indoor-cat",
+},
+
   ];
 
   // ── Filtrage par recherche ──
