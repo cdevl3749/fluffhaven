@@ -279,7 +279,14 @@ function ProductCard({ product, onAddToCart, onShowDetails }) {
           {images && images.length > 0 ? (
             <>
               <img
-                src={images[currentImg]}
+                src={
+                {
+                  "/spooky-paws-trio-1.webp": "/spooky-paws-trio-1-thumb.webp",
+                  "/premium-halloween-pumpkin-cat-kicker-main.webp": "/premium-halloween-pumpkin-cat-kicker-main-thumb.webp",
+                  "/premium-plush-snake-cat-toy-main.webp": "/premium-plush-snake-cat-toy-main-thumb.webp",
+                  "/premium-fuzzy-catnip-cat-toy-main.webp": "/premium-fuzzy-catnip-cat-toy-main-thumb.webp",
+                }[images[currentImg]] || images[currentImg]
+              }
                 alt={product.name}
                 loading="lazy"
                 className={`product-photo ${product.imageClass || ""}`}
@@ -1055,7 +1062,7 @@ if (priceSort === "high") {
     {/* DOG — SPOOKY PAWS TRIO */}
     <div className="world-cup-card">
       <img
-        src="/spooky-paws-trio-1.webp"
+        src="/spooky-paws-trio-1-thumb.webp"
         alt="FluffHaven Spooky Paws Trio Halloween dog toys"
         loading="lazy"
       />
@@ -1073,7 +1080,7 @@ if (priceSort === "high") {
     {/* CAT — HALLOWEEN PUMPKIN KICKER */}
 <div className="world-cup-card">
   <img
-    src="/premium-halloween-pumpkin-cat-kicker-main.webp"
+    src="/premium-halloween-pumpkin-cat-kicker-main-thumb.webp"
     alt="Premium Halloween Pumpkin Cat Kicker"
     loading="lazy"
   />
@@ -1094,7 +1101,7 @@ if (priceSort === "high") {
 {/* CAT — PLUSH SNAKE */}
 <div className="world-cup-card">
   <img
-    src="/premium-plush-snake-cat-toy-main.webp"
+    src="/premium-plush-snake-cat-toy-main-thumb.webp"
     alt="Premium Plush Snake Cat Toy"
     loading="lazy"
   />
@@ -1114,7 +1121,7 @@ if (priceSort === "high") {
 {/* CAT — FUZZY CATNIP TOY */}
 <div className="world-cup-card">
   <img
-    src="/premium-fuzzy-catnip-cat-toy-main.webp"
+    src="/premium-fuzzy-catnip-cat-toy-main-thumb.webp"
     alt="Premium Fuzzy Catnip Cat Toy"
     loading="lazy"
   />
