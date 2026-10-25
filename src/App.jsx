@@ -6,7 +6,6 @@ import HomeSwitcher from "./home/HomeSwitcher";
 import HomeClassic from "./home/HomeClassic";
 import PonponPick from "./components/PonponPick";
 import PonponRecommends from "./components/PonponRecommends";
-import BandanaPopup from "./components/BandanaPopup";
 
 // ─────────────────────────────────────────────────────────────
 // PRODUCTS
@@ -813,7 +812,7 @@ if (priceSort === "high") {
 
   return (
     <div className="site">
-      <BandanaPopup />
+      {/* <BandanaPopup /> */}
 
       {/* CHECKOUT BANNERS */}
       {checkoutStatus === "success" && (
