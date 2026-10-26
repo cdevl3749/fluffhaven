@@ -1380,9 +1380,9 @@ The shock-absorbing bungee helps soften sudden movements, while the adjustable s
   productType: "toys",
   seasons: ["summer", "autumn", "winter"],
   subtitle: "Hide treats • Mental stimulation • Interactive sniffing game",
-  price: 19.90,
+  price: 12.90,
   badge: "🥕 Enrichment Favorite",
-  priceId: "price_1UJbAZKn0lmTcQ113LlIzW14",
+  priceId: "price_1UUmvjKn0lmTcQ11FkKwu00k",
 
   images: [
     "/premium-carrot-garden-dog-toy-main.webp",
@@ -1393,7 +1393,7 @@ The shock-absorbing bungee helps soften sudden movements, while the adjustable s
   ],
 
   description:
-    "Turn treat time into an engaging sniffing adventure with the Premium Carrot Garden Dog Toy. Hide treats among the removable plush carrots and let your dog sniff, search and play.",
+  "Hide treats inside the plush carrots and let your dog sniff, search and play. A fun way to encourage mental stimulation.",
 
   seoTitle:
     "Premium Carrot Garden Dog Toy | FluffHaven",
@@ -1405,17 +1405,13 @@ The shock-absorbing bungee helps soften sudden movements, while the adjustable s
 
   details: `
 ✓ Encourages natural sniffing instincts
-✓ Hide treats for interactive play
+✓ Interactive treat-hiding game
 ✓ Supports mental stimulation
 ✓ Removable plush carrots
-✓ Fun slow-feeding activity
-✓ Soft and engaging design
+✓ Soft and playful design
 
-Turn everyday treat time into a rewarding enrichment game.
-
-Simply hide treats inside the carrot garden and let your dog sniff, search and discover the rewards.
+Hide treats in the carrot garden and let your dog sniff, search and play!
 `,
-
   inStock: true,
   featured: true,
 },
@@ -2421,11 +2417,11 @@ Perfect for the living room, patio or garden, this elevated bed combines everyda
 
   subtitle: "Soft woven collar • Vegan leather details • Size XL • Neck 52–58 cm",
 
-  price: 21.90,
+  price: 17.90,
 
   badge: "🌿 Stylish Walk Essential",
 
-  priceId: "price_1U7hauKn0lmTcQ11offyndO7",
+  priceId: "price_1UUnVjKn0lmTcQ11u64JAu8f",
 
   images: [
     "/premium-mint-adventure-dog-collar-outdoor.webp",
@@ -2436,7 +2432,7 @@ Perfect for the living room, patio or garden, this elevated bed combines everyda
   ],
 
   description:
-    "Bring comfort and style to everyday walks with the Premium Mint Adventure Dog Collar. Featuring a soft woven design with elegant vegan leather details and durable hardware, this XL collar combines a distinctive mint finish with reliable everyday comfort. Designed for dogs with a neck circumference of 52–58 cm.",
+  "Enjoy stylish everyday walks with this soft woven mint dog collar, featuring vegan leather details and durable hardware. Size XL, adjustable for necks 52–58 cm.",
 
   seoTitle:
     "Premium Mint Adventure Dog Collar | Size XL | FluffHaven",
@@ -2450,14 +2446,10 @@ Perfect for the living room, patio or garden, this elevated bed combines everyda
 ✓ Size XL — neck 52–58 cm
 ✓ 38 mm wide for a comfortable fit
 ✓ Soft woven material
-✓ Vegan leather details
+✓ Elegant vegan leather details
 ✓ Durable buckle and D-ring
 
-Add a stylish touch to everyday walks with the Premium Mint Adventure Dog Collar.
-
-Its soft woven design and wide 38 mm fit combine comfort with a distinctive premium look.
-
-Designed for necks measuring 52–58 cm, it's a stylish FluffHaven essential for daily walks and outdoor adventures.
+A stylish and comfortable collar for everyday walks and outdoor adventures.
 `,
 
   inStock: true,
@@ -3029,6 +3021,8 @@ Soft, practical drying comfort for wet dogs at home or on the go.
   priceId: "price_1U4qOaKn0lmTcQ11FX8pa2Py",
 
   images: [
+    "/Golden Retriever in Forest-Green Harness.webp",
+    "/FluffHaven Green Harness by the Lake.webp",
     "/premium-neoprene-dog-harness-main.webp",
     "/premium-neoprene-dog-harness-street.webp",
     "/premium-neoprene-dog-harness-details.webp",
@@ -3622,20 +3616,22 @@ Refreshing outdoor fun to help your dog cool down on warm summer days.
 
   subtitle: "Beach bag • 4 floating toys • Premium towel",
 
-  price: 49.90,
+  price: 24.90,
 
   badge: "🏖️ Beach Adventure",
 
-  priceId: "price_1UC0o6Kn0lmTcQ114tz5ooSH",
+  priceId: "price_1UUnmrKn0lmTcQ116DnaOvnv",
 
   images: [
+    "/FluffHaven Beach Day Essentials.webp",
+    "/FluffHaven Beach Day with a Best Friend.webp",
     "/premium-beach-bundle-main.webp",
     "/premium-beach-bundle-bag.webp",
     "/premium-beach-bundle-details.webp",
   ],
 
   description:
-  "Everything your dog needs for the perfect beach day. The Premium Beach Bundle includes a FluffHaven beach bag, four floating water toys and a soft microfiber towel. Designed for beach adventures, pool days and summer memories.",
+  "Ready for beach adventures! Includes a FluffHaven beach bag, 4 floating toys and a soft microfiber towel.",
 
   seoTitle:
     "Premium Beach Bundle | Dog Beach Kit | FluffHaven",
@@ -3645,24 +3641,17 @@ Refreshing outdoor fun to help your dog cool down on warm summer days.
 
   brand: "FluffHaven",
 
-  details: `
+ details: `
 ✓ Premium FluffHaven beach bag
 ✓ Soft, quick-drying microfiber towel
-✓ 4 floating water toys for interactive fetch
-✓ Lightweight and travel-friendly design
-✓ Ideal for beach, pool and summer adventures
+✓ 4 floating water toys
+✓ Lightweight and easy to carry
+✓ Perfect for beach and pool days
 
-Turn every beach trip into an adventure with the Premium Beach Bundle, combining everything your dog needs for a fun day by the water.
+Everything your dog needs for summer fun!
 
-The set includes a premium FluffHaven beach bag, a soft microfiber towel and four durable floating toys for interactive games of fetch.
-
-The quick-drying towel is practical after swimming, while the floating toys add active play to beach and pool days.
-
-Lightweight and easy to carry, the complete bundle is designed for travel and outdoor summer adventures.
-
-Combining play, comfort and convenience, it's a complete FluffHaven summer companion for medium and large dogs.
+Enjoy beach adventures with a practical bag, soft towel and four floating toys for playful moments by the water.
 `,
-
   inStock: true,
 
   featured: true,
@@ -4473,12 +4462,12 @@ A deliciously cute duo for everyday playtime.
 
   subtitle: "Soft plush • Catnip inside • Playtime fun",
 
-  price: 9.90,
+  price: 7.90,
 
   badge: "🐱 Playtime Favorite",
 
   // Remplacer par le Price ID de ce produit dans Stripe
-  priceId: "price_1UOhXhKn0lmTcQ11ADUHvtqM",
+  priceId: "price_1UUocmKn0lmTcQ11qHAaEHm7",
  
   images: [
     "/Playful Lime Caterpillar Plush Toy.webp",
@@ -4526,12 +4515,12 @@ A soft and playful little companion to brighten your cat's day.
 
   subtitle: "2 plush owls • Catnip inside • Cozy playtime",
 
-  price: 12.90,
+  price: 10.90,
 
   badge: "🦉 Cozy Favorite",
 
   // Remplacer par le Price ID créé dans Stripe
-  priceId: "price_1UOjseKn0lmTcQ118cBb1yUV",
+  priceId: "price_1UUoeQKn0lmTcQ11QUYGJz8l",
 
   images: [
     "/Cozy Sleepy Owl Catnip Toys.webp",
@@ -5058,11 +5047,11 @@ A fun little bird designed to make everyday indoor playtime more exciting.
 
   subtitle: "Catnip fun • Fuzzy texture • Playful stimulation",
 
-  price: 10.90,
+  price: 8.90,
 
   badge: "🐱 Playtime Favorite",
 
-  priceId: "price_1UK27xKn0lmTcQ11wqgzrkgJ",
+  priceId: "price_1UUoZzKn0lmTcQ11gcrym28Z",
 
   images: [
     "/premium-fuzzy-catnip-cat-toy-main.webp",
@@ -6754,20 +6743,22 @@ featured: true,
 
   subtitle: "2 LED collars • Size M • USB rechargeable",
 
-  price: 24.90,
+  price: 17.90,
 
   badge: "🌙🍂 Night Walk Essential",
 
-  priceId: "price_1UBy2vKn0lmTcQ11yu6nQIPM",
+  priceId: "price_1UUo1NKn0lmTcQ117DBWsJd6",
 
   images: [
+    "/Glowing LED Dog Collars at Dusk (2).webp",
+    "/Glowing LED Dog Collars at Dusk (1).webp",
     "/led-safety-collar-twin-pack-main.webp",
     "/led-safety-collar-twin-pack-outdoor.webp",
     "/led-safety-collar-twin-pack-details.webp",
   ],
 
   description:
-  "Make every evening walk safer with our Premium LED Safety Collar Twin Pack. This premium bundle includes two USB-rechargeable LED collars in Flash Red and Flash Green. Featuring three lighting modes, weather-resistant construction and high visibility up to 500 meters, these lightweight collars help keep your dog visible during evening walks and autumn and winter adventures.",
+  "Stay visible after dark with two USB-rechargeable LED dog collars in red and green. Three lighting modes for safer evening walks.",
 
   seoTitle:
     "Premium LED Safety Collar Twin Pack | USB Rechargeable Dog Collar | FluffHaven",
@@ -6777,25 +6768,17 @@ featured: true,
 
   brand: "FluffHaven",
 
-  details: `
-✓ Twin Pack included
-✓ Flash Red & Flash Green
-✓ Size M
+ details: `
+✓ Twin Pack — Red & Green LED collars
+✓ Size M — Adjustable fit
 ✓ USB rechargeable
-✓ 3 lighting modes
-✓ Quick flash mode
-✓ Slow flash mode
-✓ Steady light mode
-✓ High visibility up to 500 m
-✓ Weather resistant
+✓ 3 modes: Quick Flash, Slow Flash & Steady
+✓ Visibility up to 500 m
+✓ Weather-resistant design
 ✓ Lightweight & comfortable
-✓ Adjustable fit
-✓ Durable premium design
-✓ Perfect for evening walks
-✓ Ideal for autumn & winter
-✓ FluffHaven premium quality
+✓ Ideal for evening walks
 
-Make evening walks safer and more enjoyable with the Premium LED Safety Collar Twin Pack. This premium bundle includes two USB-rechargeable LED collars in Flash Red and Flash Green, giving you a practical visibility solution for darker adventures. Three lighting modes — quick flash, slow flash and steady light — let you choose the right setting for every walk, while visibility up to 500 meters helps your dog stand out in low-light conditions. Lightweight, adjustable and weather resistant, these Size M collars combine everyday comfort, durability and visibility for autumn and winter walks.
+Keep your dog visible after dark with two rechargeable LED collars. Comfortable, adjustable and perfect for autumn and winter walks.
 `,
 
   inStock: true,
@@ -7398,7 +7381,7 @@ Designed to fit most cars and SUVs, it's a practical FluffHaven essential for cl
     productType: "walking-travel",
     seasons: ["summer", "autumn", "winter"],
     subtitle: "No-pull · strong · comfortable",
-    price: 22.90,
+    price: 19.90,
     badge: "🔥 Best Seller",
     priceId: "price_1UCQByKn0lmTcQ119eM5gA3B",
     images: [
@@ -7408,26 +7391,20 @@ Designed to fit most cars and SUVs, it's a practical FluffHaven essential for cl
       "/no-pull-dog-harness-lifestyle.webp",
       "/no-pull-dog-harness-features.webp",
     ],
-    description: "Help reduce pulling with this comfortable harness designed for strong dogs and everyday walks. Built for better control while keeping your dog comfortable on the move.",
+    description: "Enjoy more comfortable walks with this no-pull dog harness, designed to help reduce pulling and provide better control.",
     seoTitle: "No-Pull Dog Harness | Comfortable Dog Harness | FluffHaven",
     seoDescription: "Walk your dog comfortably with this No-Pull Dog Harness. Strong, adjustable and designed to reduce pulling while keeping your dog safe.",
     brand: "FluffHaven",
-    details: `
-✓ Helps reduce pulling during walks
+  details: `
+✓ Helps reduce pulling
 ✓ Front clip for better control
-✓ Comfortable padded design
-✓ Strong and durable materials
-✓ Adjustable fit for different dog sizes
+✓ Soft padded comfort
+✓ Strong, durable materials
+✓ Adjustable fit
 
-Enjoy more comfortable everyday walks with this practical No-Pull Dog Harness.
+Make everyday walks more comfortable with this practical no-pull harness.
 
-The front clip design provides additional control and helps manage pulling during walks.
-
-Comfortable padding helps provide a more pleasant fit for regular use.
-
-Strong durable materials make the harness suitable for everyday walking and training.
-
-With its adjustable design, it can be adapted to different dog sizes for a secure and comfortable fit.
+Its front clip helps manage pulling, while the padded, adjustable design provides comfort and control.
 `,
   },
 
