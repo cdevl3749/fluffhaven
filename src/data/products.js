@@ -16,11 +16,11 @@ export const PRODUCTS = [
 
   subtitle: "3-in-1 design • Plush shark • Interactive chew & play",
 
-  price: 14.90,
+  price: 9.90,
 
   badge: "🦈 Playtime Favorite",
 
-  priceId: "price_1UNxUCKn0lmTcQ11i8ezBeRO",
+  priceId: "price_1UUqfRKn0lmTcQ115CilgwFd",
 
   images: [
     "/FluffHaven Plush Shark Adventure.webp",
@@ -74,11 +74,11 @@ A playful FluffHaven companion for active play and cozy moments.
 
   subtitle: "Portable shower nozzle • Gentle spray • Easy outdoor cleaning",
 
-  price: 19.90,
+  price: 16.90,
 
   badge: "💧 Outdoor Essential",
 
-  priceId: "price_1URFESKn0lmTcQ111R7VR5JH", // À compléter avec le prix Stripe à $19.90
+  priceId: "price_1UUqhRKn0lmTcQ11NBntnQy1", // À compléter avec le prix Stripe à $19.90
 
   images: [
     "/Rinse Anywhere, Happy Adventures.webp",
@@ -364,11 +364,11 @@ Its soft textured surface and easy-to-carry shape make it ideal for fetching, ca
 
   subtitle: "Colorful plush duo • Rope tug toy • Playful design",
 
-  price: 19.90,
+  price: 12.90,
 
   badge: "🐶 Playtime Favorite",
 
-  priceId: "price_1UT4vHKn0lmTcQ11t5qp6oX7", // Add Stripe Price ID for $19.90
+  priceId: "price_1UUqjrKn0lmTcQ11Px4DYh09", // Add Stripe Price ID for $19.90
 
   images: [
     "/Pastel Popsicle Pals on a Cozy Rug.webp",
@@ -527,11 +527,11 @@ A little vampire with a big playful personality!
 
   subtitle: "Soft orange plush bear • Witch hat • Halloween fun",
 
-  price: 14.90,
+  price: 12.90,
 
   badge: "🎃 Halloween Favorite",
 
-  priceId: "price_1USDbDKn0lmTcQ11RAM6pY7T", // Add your Stripe Price ID for $14.90
+  priceId: "price_1UUqm6Kn0lmTcQ11KvQZa8GN", // Add your Stripe Price ID for $14.90
 
   images: [
     "/Cozy Halloween Witch Bear Toy.webp",
@@ -582,11 +582,11 @@ A cuddly little witch ready for spooky-season fun!
 
   subtitle: "Soft plush spider • Purple & orange • Built-in squeaker",
 
-  price: 19.90,
+  price: 16.90,
 
   badge: "🎃 Halloween Favorite",
 
-  priceId: "price_1USEXBKn0lmTcQ11t0XALLvi", // Add your Stripe Price ID for $19.90
+  priceId: "price_1UUqnvKn0lmTcQ11tV8jcWHB", // Add your Stripe Price ID for $19.90
 
   images: [
     "/Cozy Autumn Plush Spider Scene.webp",
@@ -637,11 +637,11 @@ A spooky-cute friend for playful pups!
 
   subtitle: "Cute pirate bat • Soft plush • Rope ring for play",
 
-  price: 18.90,
+  price: 14.90,
 
   badge: "🎃 Halloween Favorite",
 
-  priceId: "price_1USPbEKn0lmTcQ11TPyxKJ1f", // Add your Stripe Price ID for $18.90
+  priceId: "price_1UUqpYKn0lmTcQ11DZsR5Sbc", // Add your Stripe Price ID for $18.90
 
   images: [
     "/Cozy Halloween Pirate Bat Toy.webp",
@@ -692,11 +692,11 @@ A little pirate ready for playtime!
 
   subtitle: "Soft black cat plush for dogs • Halloween design • Built-in squeaker",
 
-  price: 19.90,
+  price: 12.90,
 
   badge: "🎃 Halloween Favorite",
 
-  priceId: "price_1USNbtKn0lmTcQ11k5LTuPmz", // Add your Stripe Price ID for $19.90
+  priceId: "price_1UUqr6Kn0lmTcQ11wqfdqPrl", // Add your Stripe Price ID for $19.90
 
   images: [
     "/Cozy Halloween Plush Cat Display.webp",
@@ -746,11 +746,11 @@ A spooky-cute playtime buddy for your pup!
 
   subtitle: "Soft pumpkin plush • Fun Halloween design • Squeaky playtime",
 
-  price: 19.90,
+  price: 15.90,
 
   badge: "🎃 Halloween Favorite",
 
-  priceId: "price_1URz3hKn0lmTcQ11KnzVzas8", // Add your Stripe price ID for $19.90
+  priceId: "price_1UUqsZKn0lmTcQ11PazBPH49", // Add your Stripe price ID for $19.90
 
   images: [
     "/Cozy Halloween Pumpkin Plush Toy.webp",
@@ -853,11 +853,11 @@ A simple everyday enrichment toy for rewarding play and mental stimulation.
 
   subtitle: "Built-in drinking bowl • Carabiner clip • Easy hydration",
 
-  price: 19.90,
+  price: 14.90,
 
   badge: "💧 Walk Essential",
 
-  priceId: "price_1UQSJKKn0lmTcQ11Nqmp6zvj", // À compléter avec le prix Stripe à $19.90
+  priceId: "price_1UUquFKn0lmTcQ11ZuF9zOGp", // À compléter avec le prix Stripe à $19.90
 
   images: [
     "/Golden Retriever’s Autumn Trail Drink.webp",
@@ -1334,11 +1334,11 @@ The shock-absorbing bungee helps soften sudden movements, while the adjustable s
 
   subtitle: "Stainless steel blades • Removes loose fur • Gentle coat care",
 
-  price: 12.90,
+  price: 8.90,
 
   badge: "🐾 Grooming Essential",
 
-  priceId: "price_1UEz0FKn0lmTcQ11erMLsNif",
+  priceId: "price_1UUr1LKn0lmTcQ11SClOHlT3",
 
   images: [
     "/premium-dog-deshedding-brush-details.webp",
@@ -1430,11 +1430,11 @@ Hide treats in the carrot garden and let your dog sniff, search and play!
 
   subtitle: "Compact treat pouch • Secure drawstring • Easy access • 10 × 14 cm",
 
-  price: 12.90,
+  price: 9.90,
 
   badge: "🐾 Walk & Train Essential",
 
-  priceId: "price_1UJbE8Kn0lmTcQ11yDaEQ3gw",
+  priceId: "price_1UUr4sKn0lmTcQ11T5uZx5VN",
 
   images: [
     "/premium-dog-treat-training-pouch-main.webp",
@@ -1482,11 +1482,11 @@ Hide treats in the carrot garden and let your dog sniff, search and play!
 
   subtitle: "USB rechargeable • Red LED glow • Outdoor play",
 
-  price: 14.90,
+  price: 9.90,
 
   badge: "🌙 Night Adventure",
 
-  priceId: "price_1UJeOJKn0lmTcQ114Jy3GTtC",
+  priceId: "price_1UUr6jKn0lmTcQ11cjnJcszG",
 
   images: [
     "/premium-led-glow-dog-flying-disc-lifestyle.webp",
@@ -1531,8 +1531,8 @@ Rechargeable, lightweight and easy to carry, this glowing flying disc is made fo
   productType: "feeding",
   seasons: ["summer", "autumn", "winter"],
   subtitle: "Medium · anti-choking · slow eating",
-  price: 15.90,
-  priceId: "price_1UCd8TKn0lmTcQ11LVNbl8Ok",
+  price: 10.90,
+  priceId: "price_1UUr8kKn0lmTcQ11ZetdsYUR",
   badge: "⭐ Smart Choice",
 
   images: [
@@ -1586,11 +1586,11 @@ Easy to clean and simple to use, it's a convenient FluffHaven accessory for ever
 
   subtitle: "Shampoo dispenser • Soft silicone bristles • Massage & clean",
 
-  price: 17.90,
+  price: 10.90,
 
   badge: "🛁 Bath Essential",
 
-  priceId: "price_1UFbZNKn0lmTcQ11gHslIvdQ",
+  priceId: "price_1UUrAgKn0lmTcQ11OCblTNB3",
 
   images: [
     "/premium-shampoo-dispensing-dog-bath-brush-main.webp",
@@ -1643,11 +1643,11 @@ A FluffHaven bath-time essential.
 
   subtitle: "Quick-dry towel • Massage gloves • Steel comb • Massage brush",
 
-  price: 32.90,
+  price: 24.90,
 
   badge: "🛁 Bath Essential",
 
-  priceId: "price_1U9WleKn0lmTcQ11jlURo4eX",
+  priceId: "price_1UUrDKKn0lmTcQ11VwtCf6FB",
 
   images: [
     "/premium-4-in-1-dog-bath-grooming-kit-main.webp",
@@ -1703,11 +1703,11 @@ A practical FluffHaven essential for everyday dog care.
 
   subtitle: "Pack of 3 • Natural leather • Size S • Dogs up to 10 kg",
 
-  price: 39.90,
+  price: 29.90,
 
   badge: "🦴 Chew Essential",
 
-  priceId: "price_1U9q9aKn0lmTcQ11Tk7KusaD",
+  priceId: "price_1UUrHEKn0lmTcQ114426lEjA",
 
   images: [
     "/premium-leather-dog-chew-trio-main.webp",
@@ -1754,14 +1754,14 @@ A FluffHaven playtime essential.
 
   subtitle: "Vanilla & shea butter • Aloe vera • Provitamin B5 • 500 ml",
 
-  price: 17.90,
+  price: 12.90,
 
   badge: "🛁 Bath Essential",
 
   promo: "20% OFF",
   promoCode: "FLUFF20",
 
-  priceId: "price_1UDUutKn0lmTcQ11F72QAvsk",
+  priceId: "price_1UUrWeKn0lmTcQ11h7NbWOKm",
 
   images: [
     "/premium-vanilla-shea-dog-shampoo-lifestyle.webp",
