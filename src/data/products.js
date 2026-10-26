@@ -1219,14 +1219,14 @@ Give your dog comfort and security on every adventure. With a strong buckle, dur
 
   subtitle: "Slow down mealtime • Keep your dog engaged • 2 enrichment mats included",
 
-  price: 17.90,
+  price: 12.90,
 
   badge: "🐶 Enrichment Essential",
 
   promo: "10% OFF",
   promoCode: "FLUFF10",
 
-  priceId: "price_1UDUeXKn0lmTcQ11npm3jF4z",
+  priceId: "price_1UUtfzKn0lmTcQ11CoGLXTyS",
 
   images: [
     "/dog-enrichment-duo-main.webp",
