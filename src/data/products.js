@@ -956,7 +956,7 @@ The integrated drinking bowl makes it easy to offer your dog water during walks,
   ],
 
   description:
-  "Make bath time easier with this practical 3-in-1 grooming set. Clean, massage and care for your pet with soft, easy-to-use grooming brushes.",
+  "Make bath time simpler with three handy grooming tools in one set. Dispense shampoo, gently massage your pet with soft silicone bristles, and brush away loose fur. A practical way to make regular grooming more comfortable for dogs and cats.",
 
   seoTitle:
     "Premium 3-in-1 Pet Grooming Set | Dog Bath & Massage Brushes | FluffHaven",
