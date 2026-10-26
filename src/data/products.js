@@ -5226,11 +5226,11 @@ Easy to apply and suitable for all breeds, it's a practical FluffHaven essential
 
   subtitle: "2 slow feeder bowls • Mental stimulation • Blue + Pink",
 
-  price: 16.90,
+  price: 12.90,
 
   badge: "🐱 Enrichment Essential",
 
-  priceId: "price_1UIulmKn0lmTcQ11rcM1jCDK",
+  priceId: "price_1UUrf0Kn0lmTcQ11vFq3I7h7",
 
   images: [
     "/premium-cat-enrichment-duo-benefits-2.webp",
@@ -5444,11 +5444,11 @@ The lightweight breathable construction provides a secure fit while reflective d
 
   subtitle: "Self-adhesive design • Cut to fit • Furniture & wall protection • 60 × 100 cm",
 
-  price: 17.90,
+  price: 10.90,
 
   badge: "🐾 Scratch & Protect",
 
-  priceId: "price_1UCenGKn0lmTcQ11tPJ3LwSq",
+  priceId: "price_1UUriLKn0lmTcQ11Jyo3nYdY",
 
   images: [
     "/premium-self-adhesive-cat-scratching-mat-main.webp",
@@ -5679,11 +5679,11 @@ The inclined bowl provides a comfortable eating position while the gravity-fed r
 
   subtitle: "5 interactive toys • Non-slip play mat • Premium storage basket",
 
-  price: 37.90,
+  price: 24.90,
 
   badge: "🐱 Playtime Bundle",
 
-  priceId: "price_1U4RTTKn0lmTcQ11b34ykXu5",
+  priceId: "price_1UUrkHKn0lmTcQ11tiAgNUNA",
 
   images: [
     "/premium-cat-playtime-gift-basket-indoor.webp",
@@ -5741,11 +5741,11 @@ Combining entertainment, enrichment and practical storage, this complete FluffHa
 
   subtitle: "Natural jute rope • 10 m length • Repair & refresh scratching posts",
 
-  price: 21.90,
+  price: 16.90,
 
   badge: "🐱 Scratch & Renew",
 
-  priceId: "price_1U4mpCKn0lmTcQ11sLsx4PG5",
+  priceId: "price_1UUrqPKn0lmTcQ11iKLuaQ3k",
 
   images: [
     "/premium-cat-scratcher-repair-rope-natural-jute.webp",
@@ -5859,11 +5859,11 @@ Its spacious corrugated surface and interactive side openings encourage natural 
 
   subtitle: "Scratch mat • Cozy play surface • Interactive toys included",
 
-  price: 17.90,
+  price: 10.90,
 
   badge: "🐾 Scratch & Play Essential",
 
-  priceId: "price_1U4po0Kn0lmTcQ11QVfwanQN",
+  priceId: "price_1UUrt1Kn0lmTcQ11eMYEi9PU",
 
   images: [
     "/premium-cat-scratch-play-mat-comfort.webp",
@@ -5921,11 +5921,11 @@ Combining scratching, interactive toys and resting areas, this FluffHaven mat br
 
   subtitle: "Large litter tray • Removable insert • Easy-clean everyday design",
 
-  price: 19.90,
+  price: 14.90,
 
   badge: "🐱 Clean Home Essential",
 
-  priceId: "price_1U4oYFKn0lmTcQ11wvDsuh81",
+  priceId: "price_1UUruVKn0lmTcQ11zXNzSJG3",
 
   images: [
     "/premium-easy-clean-cat-litter-tray-home.webp",
@@ -5983,11 +5983,11 @@ Finished in neutral dark grey, this practical FluffHaven litter tray provides a 
 
   subtitle: "3 cozy knit sweaters • Size M • 3 colors • Warm & soft design",
 
-  price: 34.90,
+  price: 24.90,
 
   badge: "🧶 Cozy Knit Trio",
 
-  priceId: "price_1UCg3EKn0lmTcQ11A7GQSUeV",
+  priceId: "price_1UUsX8Kn0lmTcQ11uVdsbJyp",
 
   images: [
     "/premium-cozy-knit-cat-sweater-trio-colors.webp",
@@ -7792,11 +7792,11 @@ Designed for bedrooms and living spaces, this FluffHaven bed combines comfort an
 
   subtitle: "2 winter jackets • Size M • Warm & stylish comfort",
 
-  price: 24.90,
+  price: 16.90,
 
   badge: "❄️ Winter Fashion Pack",
 
-  priceId: "price_1UFZtJKn0lmTcQ11blMJPJKO",
+  priceId: "price_1UUsZjKn0lmTcQ11mfTK6bzP",
 
   images: [
     "/premium-winter-cat-jacket-duo-features-2.webp",
@@ -7854,11 +7854,11 @@ Lightweight and machine washable, this FluffHaven duo combines warmth, practical
 
   subtitle: "2-level scratcher • Interactive ball • Honeycomb cardboard",
 
-  price: 24.90,
+  price: 12.90,
 
   badge: "🐾 Interactive Play Favorite",
 
-  priceId: "price_1UGc8NKn0lmTcQ115LtskY0u",
+  priceId: "price_1UUseNKn0lmTcQ11kPozLBja",
 
   images: [
   "/premium-interactive-cat-scratcher-maze-4.webp",
@@ -7916,11 +7916,11 @@ Suitable for kittens and adult cats, it's a fun FluffHaven scratching and play a
 
   subtitle: "2 cozy caves • Size M • Ultra-soft winter comfort",
 
-  price: 49.90,
+  price: 29.90,
 
   badge: "❄️ Winter Comfort Pack",
 
-  priceId: "price_1TzkraKn0lmTcQ11heDtNL9W",
+  priceId: "price_1UUsiwKn0lmTcQ11uGXCsX06",
 
   images: [
     "/cozy-cat-cave-duo-4.webp",
@@ -8040,11 +8040,11 @@ Machine washable and durable, this FluffHaven blanket combines everyday comfort 
 
   subtitle: "Soft fleece • Size M • Cozy comfort",
 
-  price: 19.90,
+  price: 14.90,
 
   badge: "🍂 Autumn Favorite",
 
-  priceId: "price_1UFZVdKn0lmTcQ11GJMSBcRK",
+  priceId: "price_1UUsmCKn0lmTcQ1140SinSPF",
 
   images: [
     "/premium-autumn-teddy-cat-vest-comfort.webp",
@@ -8218,11 +8218,11 @@ Warm, lightweight protection for comfortable cold-weather outings.
 
   subtitle: "Ultra-warm cat cave • Arctic fleece • Size S",
 
-  price: 32.90,
+  price: 24.90,
 
   badge: "❄️ Premium Winter Comfort",
 
-  priceId: "price_1UF0x1Kn0lmTcQ113W81LNPx",
+  priceId: "price_1UUsoSKn0lmTcQ11mmYeGa5Z",
 
   images: [
     "/premium-arctic-cozy-cat-cave-features.webp",
@@ -8341,11 +8341,11 @@ Lightweight and portable, this FluffHaven playpen is practical for home, garden,
 
   subtitle: "Interactive water toy • Cooling fun • 70 cm",
 
-  price: 29.90,
+  price: 14.90,
 
   badge: "💦 Summer Essential",
 
-  priceId: "price_1U1Y3uKn0lmTcQ11aI9faeCp",
+  priceId: "price_1UUsqCKn0lmTcQ11qjVdpp31",
 
   images: [
   "/premium-floating-water-play-mat-cat-4.webp",
@@ -8403,11 +8403,11 @@ Easy to fold and store, this FluffHaven mat is suitable for cats of all ages and
 
   subtitle: "Cooling bed • Size M • Soft comfort",
 
-  price: 29.90,
+  price: 19.90,
 
   badge: "🌸 Cooling Lounge",
 
-  priceId: "price_1UGcOCKn0lmTcQ11CrG9GA6V",
+  priceId: "price_1UUsskKn0lmTcQ11bUtiCeUJ",
 
  images: [
   "/premium-cooling-cat-bed-4.webp",
@@ -8465,11 +8465,11 @@ Finished in pink with premium stitching, this FluffHaven bed is a practical choi
 
   subtitle: "Self-cooling • Soft comfort • Refreshing relief",
 
-  price: 19.90,
+  price: 10.90,
 
   badge: "❄️ Summer Essential",
 
-  priceId: "price_1UERimKn0lmTcQ11VZcmMq6K",
+  priceId: "price_1UUsueKn0lmTcQ110oH2WEcE",
 
   images: [
     "/premium-cooling-gel-cat-mat-outdoor.webp",
@@ -8589,11 +8589,11 @@ Suitable for kittens and adult cats, this FluffHaven set combines comfort, secur
 
   subtitle: "10 flying discs • Active play • Indoor exercise",
 
-  price: 21.90,
+  price: 10.90,
 
   badge: "🐱 Interactive Indoor Toy",
 
-  priceId: "price_1UBbaBKn0lmTcQ11ORmVLNZk",
+  priceId: "price_1UUsxAKn0lmTcQ11dFHSzASg",
 
   images: [
     "/interactive-flying-cat-toy-set.webp",
@@ -8651,11 +8651,11 @@ Lightweight and easy to use, this FluffHaven set provides everyday enrichment fo
 
   subtitle: "4 interactive toys • Mental stimulation • Endless fun",
 
-  price: 27.90,
+  price: 19.90,
 
   badge: "🐱 Interactive Play Collection",
 
-  priceId: "price_1TzEPvKn0lmTcQ11CCKTDVaB",
+  priceId: "price_1UUsyYKn0lmTcQ11EFLiwk6Q",
 
   images: [
     "/premium-cat-play-box-4.webp",
@@ -8775,11 +8775,11 @@ Easy to maintain and reuse, this FluffHaven kit creates a simple indoor garden f
 
   subtitle: "Gentle mist • Reduces shedding • Self-cleaning",
 
-  price: 24.90,
+  price: 14.90,
 
   badge: "🪮 Grooming Essential",
 
-  priceId: "price_1UFhxEKn0lmTcQ11MP8Q9gST",
+  priceId: "price_1UUt0IKn0lmTcQ115STWjxgO",
 
   images: [
     "/premium-cat-grooming-mist-brush-lifestyle.webp",
@@ -8923,11 +8923,11 @@ Soft, cozy comfort for peaceful everyday naps.
 
   subtitle: "2L · quiet pump · filtered water",
 
-  price: 37.90,
+  price: 29.90,
 
   badge: "💧 Premium",
 
-  priceId: "price_1U8fuqKn0lmTcQ112zNCKcZt",
+  priceId: "price_1UUt29Kn0lmTcQ11xwbV159k",
 
   images: [
     "/fontaine_chat5.webp",
@@ -8976,8 +8976,8 @@ With a 2L capacity and BPA-free design, it's a practical FluffHaven solution for
   productType: "beds-comfort",
   seasons: ["summer", "autumn", "winter"],
   subtitle: "Window perch · soft plush · strong suction cups",
-  price: 32.90,
-  priceId: "price_1UGcYUKn0lmTcQ11XCE1Dzi6",
+  price: 19.90,
+  priceId: "price_1UUt4QKn0lmTcQ11WRrNrHGC",
   badge: "🪟 Cozy",
 
   images: [
@@ -9024,9 +9024,9 @@ Machine washable and practical for indoor use, it's a FluffHaven favorite for ca
     productType: "toys",
     seasons: ["summer", "autumn", "winter"],
     subtitle: "Auto rolling toy · 2 speeds · USB rechargeable",
-    price: 21.90,
+    price: 10.90,
     badge: "New",
-    priceId: "price_1U8g31Kn0lmTcQ11oMEly2bn",
+    priceId: "price_1UUt6iKn0lmTcQ11UrqY8aQ8",
     images: [
       "/balle_chat4.webp",
       "/balle_chat5.webp",
@@ -9064,9 +9064,9 @@ USB rechargeable and suitable for small and medium cats, it's a practical FluffH
     productType: "toys",
     seasons: ["summer", "autumn", "winter"],
     subtitle: "48 cm tall · premium corrugated cardboard · ball toy",
-    price: 31.90,
+    price: 16.90,
     badge: "Popular",
-    priceId: "price_1U8g5BKn0lmTcQ11jCDes86S",
+    priceId: "price_1UUt81Kn0lmTcQ11kSZDW3zu",
     images: [
       "/griffoir_chat4.webp",
       "/griffoir_chat5.webp",
@@ -9104,9 +9104,9 @@ Designed for indoor use, it provides an alternative scratching surface while hel
     productType: "toys",
     seasons: ["summer", "autumn", "winter"],
     subtitle: "2 retractable wands · 10 feather & teaser refills",
-    price: 19.90,
+    price: 9.90,
     badge: "Fun",
-    priceId: "price_1U8g8XKn0lmTcQ11rbfrsZOr",
+    priceId: "price_1UUt9TKn0lmTcQ117o3gmlFD",
     images: [
       "/plume_chat4.webp",
       "/plume_chat5.webp",
@@ -9184,9 +9184,9 @@ Collapsible and easy to store, it's a practical FluffHaven toy for everyday feli
   productType: "feeding",
   seasons: ["summer", "autumn", "winter"],
   subtitle: "Mental stimulation · slow feeding · boredom relief",
-  price: 17.90,
+  price: 14.90,
   badge: "🧠 Smart Play",
-  priceId: "price_1UGZoRKn0lmTcQ11hTT6vKlv",
+  priceId: "price_1UUtB3Kn0lmTcQ11ePiup9Uj",
 
   images: [
     "/puzzle_chat.webp",
