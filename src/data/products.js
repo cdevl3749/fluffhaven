@@ -2,6 +2,147 @@ export const PRODUCTS = [
 
   // 🔥 PRODUITS QUI CONVERTISSENT (EN PREMIER)
 
+  // 🐾 NEW — MELAMINE PET BOWLS
+
+  {
+    id: 173,
+    slug: "premium-melamine-pet-bowl-beige",
+    name: "Beige Pet Bowl",
+    category: "dog",
+    productType: "feeding",
+    seasons: ["spring", "summer", "autumn", "winter"],
+    subtitle: "Elegant beige • Non-slip base • 600 ml",
+    price: 12.90,
+    badge: "🐾 Mealtime Essential",
+    priceId: "price_1UVDlwKn0lmTcQ11V0Lv2iuW", // Add the correct Stripe Price ID
+
+    images: [
+      "/Beige Pet Bowl in Sunlit Home.webp",
+      "/Golden Retriever and Sand Pet Bowl.webp",
+      "/Taupe Pet Bowl with Orange Rim.webp",
+      "/Beige Pet Bowl with Measurement Graphics.webp",
+      "/Beige Pet Bowl with Anti-Slip Base.webp",
+    ],
+
+    description:
+      "Bring style to every meal with this elegant beige melamine pet bowl. Its smooth surface and non-slip base make everyday feeding simple and practical.",
+
+    seoTitle:
+      "Premium Melamine Pet Bowl Beige | FluffHaven",
+    seoDescription:
+      "Elegant beige melamine bowl for dogs and cats. 600 ml capacity, 18.3 cm diameter and non-slip base.",
+
+    brand: "FluffHaven",
+
+    details: `
+✓ Durable melamine design
+✓ Non-slip base
+✓ Smooth, easy-clean surface
+✓ Diameter: 18.3 cm
+✓ Capacity: 600 ml / 2 cups
+✓ Suitable for dogs and cats
+
+A stylish everyday bowl for happy mealtimes.
+`,
+
+    inStock: true,
+    featured: true,
+  },
+
+  {
+    id: 174,
+    slug: "premium-melamine-pet-bowl-dusty-rose",
+    name: "Dusty Rose Pet Bowl",
+    category: "dog",
+    productType: "feeding",
+    seasons: ["spring", "summer", "autumn", "winter"],
+    subtitle: "Dusty rose • Non-slip base • 600 ml",
+    price: 12.90,
+    badge: "🐾 Mealtime Essential",
+    priceId: "price_1UVDouKn0lmTcQ11t5v1lPq5", // Add the correct Stripe Price ID
+
+    images: [
+      "/Dusty Rose Pet Bowl in a Cozy Sunlit Interior.webp",
+      "/Golden Retriever and Stylish Pink Bowl.webp",
+      "/Terracotta Pet Bowl in Cozy Interior.webp",
+      "/Terracotta Pet Bowl Product Showcase.webp",
+      "/Bowl with Smooth Surface and Grip.webp",
+    ],
+
+    description:
+      "Add a soft touch of color to mealtime with this dusty rose melamine pet bowl. Easy to clean and designed with a non-slip base for everyday use.",
+
+    seoTitle:
+      "Premium Melamine Pet Bowl Dusty Rose | FluffHaven",
+    seoDescription:
+      "Dusty rose melamine pet bowl with non-slip base, 600 ml capacity and 18.3 cm diameter. For dogs and cats.",
+
+    brand: "FluffHaven",
+
+    details: `
+✓ Stylish dusty rose finish
+✓ Non-slip base
+✓ Smooth, easy-clean surface
+✓ Diameter: 18.3 cm
+✓ Capacity: 600 ml / 2 cups
+✓ Suitable for dogs and cats
+
+A lovely addition to your pet's daily routine.
+`,
+
+    inStock: true,
+    featured: true,
+  },
+
+
+{
+  id: 175,
+  slug: "pizza-slow-feeder-lick-mat",
+  name: "Pizza Lick Mat",
+  category: "dog",
+  productType: "feeding",
+  seasons: ["spring", "summer", "autumn", "winter"],
+  subtitle: "Pizza design • Slow feeding • 20 × 20 cm",
+  price: 9.90,
+  badge: "🐾 Mealtime Essential",
+
+  // Replace with the Stripe Price ID for this product
+  priceId: "price_1UVEdeKn0lmTcQ11psLNg3Ov",
+
+  images: [
+    "/Sunlit Pizza-Slice Slow Feeder.webp",
+    "/Peach Pizza Pet Feeder Still Life.webp",
+    "/Golden Retriever Enjoying Pizza Lick Mat.webp",
+    "/Orange Silicone Maze Feeder with Suction Cups.webp",
+    "/Sunny Kitchen Slow-Feeder Mat.webp",
+  ],
+
+  description:
+    "Make treat time more fun with this pizza-inspired lick mat. Its textured design encourages slower licking and keeps your dog happily engaged.",
+
+  seoTitle:
+    "Pizza Lick Mat for Dogs | FluffHaven",
+
+  seoDescription:
+    "Pizza-shaped slow feeder lick mat with textured grooves and suction cups. 20 × 20 cm, 2 cm high. A fun way to enjoy treats.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Fun pizza-inspired design
+✓ Encourages slower licking
+✓ 7 suction cups for stability
+✓ Size: 20 × 20 cm
+✓ Height: 2 cm
+✓ Easy to clean
+
+Turn everyday treat time into a fun activity!
+`,
+
+  inStock: true,
+  featured: true,
+},
+
   {
   id: 146,
 
@@ -345,6 +486,68 @@ A playful companion made for everyday fun.
 Its soft textured surface and easy-to-carry shape make it ideal for fetching, carrying and relaxing after playtime.
 `,
 
+  inStock: true,
+
+  featured: true,
+},
+
+{
+  id: 38,
+
+  slug: "premium-dog-enrichment-duo",
+
+  name: "Premium Dog Enrichment Duo",
+
+  category: "dog",
+  productType: "toys",
+
+  seasons: ["summer", "autumn", "winter"],
+
+  subtitle: "Slow down mealtime • Keep your dog engaged • 2 enrichment mats included",
+
+  price: 12.90,
+
+  badge: "🐶 Enrichment Essential",
+
+  promo: "10% OFF",
+  promoCode: "FLUFF10",
+
+  priceId: "price_1UUtfzKn0lmTcQ11CoGLXTyS",
+
+  images: [
+    "/dog-enrichment-duo-main.webp",
+    "/dog-enrichment-duo-features.webp",
+    "/dog-enrichment-duo-bowl.webp",
+    "/dog-enrichment-duo-size.webp",
+    "/dog-enrichment-duo-lifestyle.webp",
+  ],
+
+  description:
+  "Make mealtime more fun with two slow-feeding mats in blue and pink. Help your dog eat slower, enjoy mental stimulation and stay happily engaged.",
+
+  seoTitle:
+    "Premium Dog Enrichment Duo | 2 Slow Feeding Mats | FluffHaven",
+
+  seoDescription:
+    "Premium dog enrichment duo with 2 slow feeding mats in blue and pink. Encourage slower eating, mental stimulation and healthier mealtime habits with FluffHaven.",
+
+  brand: "FluffHaven",
+
+  details: `
+
+✓ Set of 2 slow-feeding mats — Blue + Pink
+
+✓ Promotes slower eating and mental stimulation
+
+✓ Food-grade, BPA-free silicone
+
+✓ Strong suction cups for stability
+
+✓ Dishwasher and freezer safe
+
+Make every meal a fun, enriching moment for your dog!
+
+`,
   inStock: true,
 
   featured: true,
@@ -1200,68 +1403,6 @@ Made from 100% beef and naturally dried, with no unnecessary additives or preser
 Give your dog comfort and security on every adventure. With a strong buckle, durable D-ring and integrated AirTag holder, this collar is designed for everyday walks, hikes and outdoor activities.
 `,
 
-  inStock: true,
-
-  featured: true,
-},
-
-{
-  id: 38,
-
-  slug: "premium-dog-enrichment-duo",
-
-  name: "Premium Dog Enrichment Duo",
-
-  category: "dog",
-  productType: "toys",
-
-  seasons: ["summer", "autumn", "winter"],
-
-  subtitle: "Slow down mealtime • Keep your dog engaged • 2 enrichment mats included",
-
-  price: 12.90,
-
-  badge: "🐶 Enrichment Essential",
-
-  promo: "10% OFF",
-  promoCode: "FLUFF10",
-
-  priceId: "price_1UUtfzKn0lmTcQ11CoGLXTyS",
-
-  images: [
-    "/dog-enrichment-duo-main.webp",
-    "/dog-enrichment-duo-features.webp",
-    "/dog-enrichment-duo-bowl.webp",
-    "/dog-enrichment-duo-size.webp",
-    "/dog-enrichment-duo-lifestyle.webp",
-  ],
-
-  description:
-  "Turn mealtime into a healthier and more stimulating experience with the Premium Dog Enrichment Duo. This set includes two slow feeding mats — one blue and one pink — designed to encourage slower eating, reduce gulping and keep your dog mentally engaged.",
-
-  seoTitle:
-    "Premium Dog Enrichment Duo | 2 Slow Feeding Mats | FluffHaven",
-
-  seoDescription:
-    "Premium dog enrichment duo with 2 slow feeding mats in blue and pink. Encourage slower eating, mental stimulation and healthier mealtime habits with FluffHaven.",
-
-  brand: "FluffHaven",
-
-  details: `
-
-✓ Set of 2 slow feeding mats — Blue + Pink
-
-✓ Encourages slower eating and mental stimulation
-
-✓ Food-grade BPA-free silicone
-
-✓ Strong suction cups for better stability
-
-✓ Dishwasher and freezer safe
-
-Make mealtime slower, healthier and more engaging. The textured surfaces provide mental stimulation, while strong suction cups help keep the mats securely in place.
-
-`,
   inStock: true,
 
   featured: true,
