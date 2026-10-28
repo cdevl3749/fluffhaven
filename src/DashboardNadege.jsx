@@ -1,4 +1,4 @@
-﻿import { useEffect, useState, useRef } from "react";
+import { useEffect, useState, useRef } from "react";
 
 const ROSE = "#c8475e";
 const INK  = "#1a1714";
@@ -8,14 +8,14 @@ export default function Dashboard() {
   const [error, setError]     = useState(null);
   const prevPayRef            = useRef(0);
 
-  // â”€â”€ Demande permission notification au chargement â”€â”€
+  // ── Demande permission notification au chargement ──
   useEffect(() => {
     if ("Notification" in window && Notification.permission === "default") {
       Notification.requestPermission();
     }
   }, []);
 
-  // â”€â”€ Charge les stats toutes les 5 secondes â”€â”€
+  // ── Charge les stats toutes les 5 secondes ──
   useEffect(() => {
     const load = () => {
       fetch("/.netlify/functions/stats")
@@ -27,13 +27,13 @@ export default function Dashboard() {
           setError(null);
           setStats(data);
 
-          // â”€â”€ Notification Windows si nouveau paiement â”€â”€
+          // ── Notification Windows si nouveau paiement ──
           if (
             prevPayRef.current > 0 &&
             data.payments > prevPayRef.current &&
             Notification.permission === "granted"
           ) {
-            new Notification("ðŸŽ‰ FluffHaven â€” Nouveau paiement !", {
+            new Notification("🎉 FluffHaven — Nouveau paiement !", {
               body: `Total paiements : ${data.payments}`,
               icon: "/favicon-paw.svg",
             });
@@ -50,45 +50,45 @@ export default function Dashboard() {
     return () => clearInterval(interval);
   }, []);
 
-  // â”€â”€ Loading â”€â”€
+  // ── Loading ──
   if (!stats && !error) {
     return (
       <div style={styles.loading}>
         <div style={styles.spinner} />
         <p style={{ color: "#888", marginTop: 16, fontFamily: "sans-serif" }}>
-          Chargement du dashboardâ€¦
+          Chargement du dashboard…
         </p>
       </div>
     );
   }
 
-  // â”€â”€ Erreur â”€â”€
+  // ── Erreur ──
   if (error) {
     return (
       <div style={styles.loading}>
         <p style={{ color: "red", fontFamily: "sans-serif" }}>
-          âŒ Erreur : {error}
+          ❌ Erreur : {error}
         </p>
         <p style={{ color: "#888", fontFamily: "sans-serif", fontSize: 13 }}>
-          VÃ©rifie que la fonction Netlify "stats" est bien dÃ©ployÃ©e.
+          Vérifie que la fonction Netlify "stats" est bien déployée.
         </p>
       </div>
     );
   }
 
-  // â”€â”€ Taux de conversion â”€â”€
+  // ── Taux de conversion ──
   const convRate = stats.clicks > 0
     ? ((stats.payments / stats.clicks) * 100).toFixed(1) + "%"
     : "0.0%";
 
   const cards = [
-    { label: "Visiteurs",      value: stats.visitors,  icon: "ðŸ‘ï¸",  color: "#4f7ef8" },
-    { label: "Produits vus",   value: stats.productViews,  icon: "ðŸ‘ï¸", color: "#0ea5e9" },
-    { label: "Ajouts panier", value: stats.cartAdds || 0, icon: "ðŸ›’", color: "#22c55e" },
-    { label: "Clic Checkout",  value: stats.clicks,    icon: "ðŸ›’",  color: "#f59e0b" },
-    { label: "ArrivÃ©s Stripe", value: stats.stripe,    icon: "ðŸ’³",  color: "#8b5cf6" },
-    { label: "Paiements",      value: stats.payments,  icon: "âœ…",  color: "#10b981" },
-    { label: "Conversion",     value: convRate,        icon: "ðŸ“ˆ",  color: ROSE      },
+    { label: "Visiteurs",      value: stats.visitors,  icon: "👁️",  color: "#4f7ef8" },
+    { label: "Produits vus",   value: stats.productViews,  icon: "👁️", color: "#0ea5e9" },
+    { label: "Ajouts panier", value: stats.cartAdds || 0, icon: "🛒", color: "#22c55e" },
+    { label: "Clic Checkout",  value: stats.clicks,    icon: "🛒",  color: "#f59e0b" },
+    { label: "Arrivés Stripe", value: stats.stripe,    icon: "💳",  color: "#8b5cf6" },
+    { label: "Paiements",      value: stats.payments,  icon: "✅",  color: "#10b981" },
+    { label: "Conversion",     value: convRate,        icon: "📈",  color: ROSE      },
   ];
 
   const topCountries = Object.entries(stats.countries || {})
@@ -109,10 +109,10 @@ export default function Dashboard() {
       {/* HEADER */}
       <div style={styles.header}>
         <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
-          <span style={{ fontSize: 32 }}>ðŸ¾</span>
+          <span style={{ fontSize: 32 }}>🐾</span>
           <div>
             <h1 style={styles.title}>FluffHaven Dashboard</h1>
-            <p style={styles.subtitle}>Stats en temps rÃ©el Â· refresh toutes les 5min</p>
+            <p style={styles.subtitle}>Stats en temps réel · refresh toutes les 5min</p>
           </div>
         </div>
         <div style={{ display: "flex", gap: 10, flexWrap: "wrap" }}>
@@ -125,22 +125,22 @@ export default function Dashboard() {
               }
               Notification.requestPermission().then((p) => {
                 if (p === "granted") {
-                  new Notification("ðŸ¾ Notifications activÃ©es !", {
-                    body: "Vous serez notifiÃ© Ã  chaque nouveau paiement FluffHaven.",
+                  new Notification("🐾 Notifications activées !", {
+                    body: "Vous serez notifié à chaque nouveau paiement FluffHaven.",
                     icon: "/favicon-paw.svg",
                   });
                 } else {
-                  alert("Notifications refusÃ©es. Autorisez-les dans les paramÃ¨tres du navigateur (icÃ´ne ðŸ”’ dans la barre d'adresse).");
+                  alert("Notifications refusées. Autorisez-les dans les paramètres du navigateur (icône 🔒 dans la barre d'adresse).");
                 }
               });
             }}
           >
-            ðŸ”” Activer notifications
+            🔔 Activer notifications
           </button>
         </div>
       </div>
 
-      {/* CARDS â€” String() pour afficher 0 */}
+      {/* CARDS — String() pour afficher 0 */}
       <div style={styles.grid}>
         {cards.map((c) => (
           <div key={c.label} style={{ ...styles.card, borderTop: `4px solid ${c.color}` }}>
@@ -155,10 +155,10 @@ export default function Dashboard() {
 
       {/* PAYS */}
       <div style={styles.section}>
-        <h2 style={styles.sectionTitle}>ðŸŒ Visiteurs par pays</h2>
+        <h2 style={styles.sectionTitle}>🌍 Visiteurs par pays</h2>
         {topCountries.length === 0 ? (
           <p style={{ color: "#888", fontFamily: "sans-serif", fontSize: 14 }}>
-            Aucune donnÃ©e encore â€” les visites sur fluffhaven.shop apparaÃ®tront ici.
+            Aucune donnée encore — les visites sur fluffhaven.shop apparaîtront ici.
           </p>
         ) : (
           <div style={styles.countryList}>
@@ -182,11 +182,11 @@ export default function Dashboard() {
 
       {/* AJOUTS PANIER PAR PAYS */}
 <div style={styles.section}>
-  <h2 style={styles.sectionTitle}>ðŸ›’ Ajouts panier par pays</h2>
+  <h2 style={styles.sectionTitle}>🛒 Ajouts panier par pays</h2>
 
   {topCartCountries.length === 0 ? (
     <p style={{ color: "#888", fontFamily: "sans-serif", fontSize: 14 }}>
-      Aucun ajout panier enregistrÃ© par pays pour le moment.
+      Aucun ajout panier enregistré par pays pour le moment.
     </p>
   ) : (
     <div style={styles.countryList}>
@@ -213,9 +213,9 @@ export default function Dashboard() {
 </div>
 
       
-{/* DEVICES â€“ PC vs Mobile */}
+{/* DEVICES – PC vs Mobile */}
 <div style={styles.section}>
-  <h2 style={styles.sectionTitle}>ðŸ“± PC vs Mobile</h2>
+  <h2 style={styles.sectionTitle}>📱 PC vs Mobile</h2>
 
   {(() => {
     const devices = stats.devices || {};
@@ -235,7 +235,7 @@ export default function Dashboard() {
 
     return total === 0 ? (
       <p style={{ color: "#888", fontFamily: "sans-serif", fontSize: 14 }}>
-        Aucune donnÃ©e encore.
+        Aucune donnée encore.
       </p>
     ) : (
       <div style={styles.countryList}>
@@ -245,7 +245,7 @@ export default function Dashboard() {
           return (
             <div key={device} style={styles.countryRow}>
               <span style={styles.countryName}>
-                {device === "Mobile" ? "ðŸ“± Mobile" : "ðŸ–¥ï¸ Desktop"}
+                {device === "Mobile" ? "📱 Mobile" : "🖥️ Desktop"}
               </span>
               <div style={styles.barBg}>
                 <div style={{ ...styles.barFill, width: `${pct}%` }} />
@@ -261,10 +261,10 @@ export default function Dashboard() {
 
       {/* SOURCES */}
       <div style={styles.section}>
-        <h2 style={styles.sectionTitle}>ðŸ”— Sources de trafic</h2>
+        <h2 style={styles.sectionTitle}>🔗 Sources de trafic</h2>
         {Object.keys(stats.sources || {}).length === 0 ? (
           <p style={{ color: "#888", fontFamily: "sans-serif", fontSize: 14 }}>
-            Aucune donnÃ©e encore.
+            Aucune donnée encore.
           </p>
         ) : (
           <div style={styles.countryList}>
@@ -288,10 +288,10 @@ export default function Dashboard() {
 
       {/* TOP PAGES */}
       <div style={styles.section}>
-        <h2 style={styles.sectionTitle}>ðŸ“„ Pages les plus visitÃ©es</h2>
+        <h2 style={styles.sectionTitle}>📄 Pages les plus visitées</h2>
         {Object.keys(stats.pages || {}).length === 0 ? (
           <p style={{ color: "#888", fontFamily: "sans-serif", fontSize: 14 }}>
-            Aucune donnÃ©e encore.
+            Aucune donnée encore.
           </p>
         ) : (
           <div style={styles.countryList}>
@@ -316,7 +316,7 @@ export default function Dashboard() {
 
       {/* TOP PRODUCTS */}
 <div style={styles.section}>
-  <h2 style={styles.sectionTitle}>ðŸ”¥ Produits les plus consultÃ©s</h2>
+  <h2 style={styles.sectionTitle}>🔥 Produits les plus consultés</h2>
 
   {topProducts.length === 0 ? (
     <p
@@ -326,7 +326,7 @@ export default function Dashboard() {
         fontSize: 14,
       }}
     >
-      Aucune donnÃ©e produit encore.
+      Aucune donnée produit encore.
     </p>
   ) : (
     <div style={styles.countryList}>
@@ -375,7 +375,7 @@ const avgTime =
         marginTop: 3,
       }}
     >
-      â±ï¸ {Math.floor(avgTime / 60)}m {avgTime % 60}s moy.
+      ⏱️ {Math.floor(avgTime / 60)}m {avgTime % 60}s moy.
     </div>
   )}
   {topProductCountries.length > 0 && (
@@ -386,9 +386,9 @@ const avgTime =
       marginTop: 3,
     }}
   >
-    ðŸŒ {topProductCountries
+    🌍 {topProductCountries
       .map(([country, views]) => `${country}: ${views}`)
-      .join(" â€¢ ")}
+      .join(" • ")}
   </div>
 )}
 </div>
@@ -412,14 +412,14 @@ const avgTime =
 
       {/* FUNNEL */}
       <div style={styles.section}>
-        <h2 style={styles.sectionTitle}>ðŸ”„ Tunnel de conversion</h2>
+        <h2 style={styles.sectionTitle}>🔄 Tunnel de conversion</h2>
         <div style={styles.funnel}>
           {[
             { label: "Visiteurs",       val: stats.visitors, bg: "#4f7ef815" },
             { label: "Produits vus", val: stats.productViews, bg: "#0ea5e915" },
             { label: "Ajouts panier", val: stats.cartAdds, bg: "#ec489915" },
-            { label: "Checkout cliquÃ©", val: stats.clicks,   bg: "#f59e0b15" },
-            { label: "ArrivÃ©s Stripe",  val: stats.stripe,   bg: "#8b5cf615" },
+            { label: "Checkout cliqué", val: stats.clicks,   bg: "#f59e0b15" },
+            { label: "Arrivés Stripe",  val: stats.stripe,   bg: "#8b5cf615" },
             { label: "Paiements",       val: stats.payments, bg: "#10b98115" },
           ].map((f, i, arr) => (
             <div key={f.label}>
@@ -428,7 +428,7 @@ const avgTime =
                 <span style={styles.funnelLabel}>{f.label}</span>
               </div>
               {i < arr.length - 1 && (
-                <div style={{ textAlign: "center", fontSize: 18, color: "#ccc", lineHeight: 1.2 }}>â–¼</div>
+                <div style={{ textAlign: "center", fontSize: 18, color: "#ccc", lineHeight: 1.2 }}>▼</div>
               )}
             </div>
           ))}
@@ -436,13 +436,13 @@ const avgTime =
       </div>
 
       <p style={{ textAlign: "center", color: "#ccc", fontSize: 12, marginTop: 40, fontFamily: "sans-serif" }}>
-        Â© 2026 FluffHaven Â· Dashboard privÃ©
+        © 2026 FluffHaven · Dashboard privé
       </p>
     </div>
   );
 }
 
-// â”€â”€ STYLES â”€â”€
+// ── STYLES ──
 const styles = {
   page: {
     minHeight: "100vh",
