@@ -8,6 +8,8 @@ import './index.css'
 import App from './App.jsx'
 import Dashboard from './Dashboard.jsx'
 
+import DashboardNadege from './DashboardNadege.jsx'
+
 import Blog from './blog/Blog.jsx'
 import CleanDogPaws from './blog/clean-dog-paws.jsx'
 import RemovePetHair from './blog/remove-pet-hair.jsx'
@@ -142,6 +144,8 @@ createRoot(document.getElementById('root')).render(
     {
       window.location.pathname === "/dashboard" ? (
         <Dashboard />
+      ) : window.location.pathname === "/dashboard-nadege" ? (
+        <DashboardNadege />
       ) : window.location.pathname === "/blog" ? (
         <Blog />
       ) : window.location.pathname === "/blog/clean-dog-paws" ? (
