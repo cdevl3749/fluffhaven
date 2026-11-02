@@ -4,6 +4,103 @@ export const PRODUCTS = [
 
   // 🐾 NEW — MELAMINE PET BOWLS
 
+
+{
+  id: 176,
+  slug: "olive-green-winter-dog-coat",
+  name: "Olive Green Winter Dog Coat",
+  category: "dog",
+  productType: "clothing",
+  seasons: ["autumn", "winter"],
+
+  subtitle: "Warm padded coat • Reflective details • 40 cm",
+  price: 39.90,
+  badge: "❄️ Winter Essential",
+
+  priceId: "price_1UXQWeKn0lmTcQ11YHhHgFuH", // À compléter avec le Price ID Stripe
+
+images: [
+  "/Olive Green Dog Coat in a Snowy Wonderland.webp",
+  "/Olive Green Dog Coat in Snowy Winter Setting.webp",
+  "/Winter Snowy Dog Coat Product Display.webp",
+  "/Olive-Green Dog Coat Detail in Snow.webp",
+  "/Olive Padded Dog Coat Detail.webp",
+],
+
+  description:
+  "Keep your dog warm on winter walks with this cozy olive-green padded coat, featuring soft fleece lining and reflective details.",
+
+  seoTitle:
+    "Olive Green Winter Dog Coat 40 cm | FluffHaven",
+
+  seoDescription:
+    "Warm olive-green winter dog coat with fleece lining, reflective details and adjustable fit. Size 40 cm, ideal for cold-weather walks.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Size: 40 cm
+✓ Warm padded design
+✓ Soft fleece lining
+✓ Reflective details
+✓ Adjustable fit
+✓ Ideal for winter walks
+
+Keep your furry friend cozy all winter!
+`,
+
+  inStock: true,
+  featured: true,
+},
+
+{
+  id: 177,
+  slug: "dusty-pink-winter-dog-coat",
+  name: "Dusty Pink Winter Dog Coat",
+  category: "dog",
+  productType: "clothing",
+  seasons: ["autumn", "winter"],
+
+  subtitle: "Warm padded coat • Reflective details • 40 cm",
+  price: 39.90,
+  badge: "❄️ Winter Essential",
+
+  priceId: "price_1UXQyFKn0lmTcQ11eSA96CQR", // À compléter avec le nouveau Price ID Stripe
+
+  images: [
+    "/Dusty Pink Puffer Coat in Snow.webp",
+    "/Dusty Pink Quilted Dog Coat Detail.webp",
+    "/Dusty Pink Quilted Dog Coat in Snow.webp",
+    "/Dusty Pink Quilted Dog Coat.webp",
+    "/Pink Quilted Dog Coat Hood in Snowy Winter Setting.webp",
+  ],
+
+  description:
+    "Keep your dog warm on winter walks with this cozy dusty-pink padded coat, featuring soft fleece lining and reflective details.",
+
+  seoTitle:
+    "Dusty Pink Winter Dog Coat 40 cm | FluffHaven",
+
+  seoDescription:
+    "Warm dusty-pink winter dog coat with fleece lining, reflective details and adjustable fit. Size 40 cm, ideal for cold-weather walks.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Size: 40 cm
+✓ Warm padded design
+✓ Soft fleece lining
+✓ Reflective details
+✓ Adjustable fit
+✓ Ideal for winter walks
+
+Keep your furry friend cozy all winter!
+`,
+
+  inStock: true,
+  featured: true,
+},
+
   {
     id: 173,
     slug: "premium-melamine-pet-bowl-beige",
