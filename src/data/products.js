@@ -101,6 +101,54 @@ Keep your furry friend cozy all winter!
   featured: true,
 },
 
+
+{
+  id: 178,
+  slug: "green-christmas-knitted-dog-sweater",
+  name: "Green Christmas Knitted Dog Sweater",
+  category: "dog",
+  productType: "clothing",
+  seasons: ["autumn", "winter"],
+
+  subtitle: "Cozy Christmas knit • Snowflake design • 32 cm",
+  price: 12.90,
+  badge: "🎄 Christmas Favorite",
+
+  priceId: "price_1UXSS3Kn0lmTcQ11YqGNfUgj", // Ajouter le Price ID Stripe
+
+  images: [
+    "/Snowy Nordic Sweater Dog Mannequin-1.webp",
+    "/Green Fair Isle Sweater in Snowy Winter Setting.webp",
+    "/Winter Green Knit Dog Sweater Size Guide.webp",
+    "/Forest Green Fair Isle Dog Sweater.webp",
+    "/Cozy Snowy Green Dog Sweater Display.webp",
+  ],
+
+  description:
+    "Make winter walks extra cozy with this festive green knitted dog sweater, featuring a charming snowflake design.",
+
+  seoTitle:
+    "Green Christmas Dog Sweater 32 cm | FluffHaven",
+
+  seoDescription:
+    "Festive green knitted dog sweater with snowflake patterns. Size 32 cm, perfect for cozy winter walks and Christmas celebrations.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Size: 32 cm
+✓ Cozy knitted design
+✓ Festive snowflake pattern
+✓ Comfortable ribbed collar
+✓ Perfect for Christmas and winter
+
+Keep your furry friend cozy and festive!
+`,
+
+  inStock: true,
+  featured: true,
+},
+
   {
     id: 173,
     slug: "premium-melamine-pet-bowl-beige",
