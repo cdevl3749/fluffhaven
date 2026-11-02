@@ -1,5 +1,5 @@
 .ponpon-home {
-  background: #fffdf9;
+  background: linear-gradient(135deg, #f0f7fb 0%, #fffdf9 55%, #f7f0e9 100%);
   padding: 45px 40px 30px;
 }
 
@@ -614,4 +614,50 @@
 .ponpon-usa strong {
   color: #171411;
   font-weight: 700;
+}
+
+/* ❄️ Décoration hivernale autour de Ponpon */
+.ponpon-left::before{
+  content: "❄";
+  position: absolute;
+  top: 8%;
+  right: 5%;
+  font-size: 28px;
+  color: #a8c9dc;
+  opacity: 0.65;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.ponpon-left::after {
+  content: "❄";
+  position: absolute;
+  bottom: 12%;
+  right: 3%;
+  font-size: 20px;
+  color: #b5d4e5;
+  opacity: 0.55;
+  pointer-events: none;
+  z-index: 2;
+}
+
+/* Test : flocons plus visibles */
+.ponpon-left::before {
+  top: 0;
+  right: 0;
+  font-size: 44px;
+  opacity: 1;
+  z-index: 10;
+}
+
+.ponpon-left::after {
+  bottom: 0;
+  right: 0;
+  font-size: 36px;
+  opacity: 1;
+  z-index: 10;
+}
+
+.ponpon-left {
+  position: relative;
 }

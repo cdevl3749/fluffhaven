@@ -843,7 +843,14 @@ if (priceSort === "high") {
 
       {/* TOP BAR */}
       <div className="top-bar">
-        <span>🎃</span> Free worldwide shipping • 5–8 business days <span>🎃</span>
+        <span>🎄</span>
+        <span className="christmas-desktop">
+          Christmas magic for your furry friends • Free worldwide shipping
+        </span>
+        <span className="christmas-mobile">
+          Christmas magic • Free shipping
+        </span>
+        <span>🎁</span>
       </div>
 
       {/* HEADER */}

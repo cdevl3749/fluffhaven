@@ -14,7 +14,7 @@ export default function HomePonpon() {
         <div className="ponpon-photo">
 
             <img
-              src="/ponpon.webp"
+              src="/Festive Ponpon Santa Portrait.webp"
               alt="Ponpon"
               loading="eager"
               fetchPriority="high"
