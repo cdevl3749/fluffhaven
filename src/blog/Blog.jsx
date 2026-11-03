@@ -596,6 +596,17 @@ export default function Blog() {
   url: "/blog/cozy-autumn-space-indoor-cat",
 },
 
+{
+  title: "Ponpon's Christmas Mystery Box: 4 Surprise Gifts for Your Dog",
+  category: "Dog care",
+  date: "November 2026",
+  read: "5 min read",
+  description:
+    "Looking for a special Christmas gift for your dog? Discover Ponpon's Christmas Mystery Box with 4 surprise gifts, including toys, a bowl and a cozy winter coat. A $60.90 combined value for just $39.90!",
+  url: "/blog/ponpons-christmas-mystery-box",
+},
+
+
   ];
 
   // ── Filtrage par recherche ──

@@ -108,6 +108,9 @@ import WhyCatsLoveSelfGroomingBrushes from "./blog/why-cats-love-self-grooming-b
 import KeepDogComfortableAutumnWalks from "./blog/keep-dog-comfortable-autumn-walks.jsx";
 import CozyAutumnSpaceIndoorCat from "./blog/cozy-autumn-space-indoor-cat.jsx";
 
+import PonponsChristmasMysteryBox from "./blog/PonponsChristmasMysteryBox.jsx";
+
+
 import ScrollToTop from "./components/ScrollToTop.jsx";
 
 function VisitTracker() {
@@ -307,6 +310,11 @@ createRoot(document.getElementById('root')).render(
       : window.location.pathname === "/blog/keep-dog-comfortable-autumn-walks" ? (
         <KeepDogComfortableAutumnWalks />
       )
+
+      : window.location.pathname === "/blog/ponpons-christmas-mystery-box" ? (
+        <PonponsChristmasMysteryBox />
+      )
+
       : window.location.pathname === "/blog/cozy-autumn-space-indoor-cat" ? (
         <CozyAutumnSpaceIndoorCat />
       )
