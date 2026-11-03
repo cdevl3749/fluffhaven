@@ -210,7 +210,7 @@ Keep your furry friend warm and festive!
   price: 17.90,
   badge: "❄️ Winter Essential",
 
-  priceId: "price_1UXktaKn0lmTcQ118zwSRdna", // Ajouter le nouveau Price ID Stripe
+  priceId: "price_1UXnfiKn0lmTcQ11U8cqKv41", // Ajouter le nouveau Price ID Stripe
 
   images: [
     "/Turquoise Striped Dog Sweater in Snow.webp",
