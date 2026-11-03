@@ -1057,100 +1057,110 @@ if (priceSort === "high") {
       </section>
       </HomeClassic>
 
-{/* PONPON'S HALLOWEEN PICKS */}
-<section id="halloween" className="world-cup-section">
-  <div className="section-label">🎃 Ponpon's Halloween Picks</div>
 
-  <h2>Spooky Fun & Cozy Autumn Favorites</h2>
+{/* PONPON'S WINTER & CHRISTMAS PICKS */}
+<section id="winter" className="world-cup-section">
+  <div className="section-label">
+    ❄️ Ponpon's Winter & Christmas Picks
+  </div>
+
+  <h2>Cozy Winter & Festive Favorites</h2>
 
   <p className="world-cup-intro">
-    Halloween is coming! Ponpon has picked a few spooky toys and cozy
-    autumn favorites for playful days, chilly walks and seasonal fun.
+    Keep your furry friend warm and stylish this season!
+    Ponpon has picked cozy winter sweaters and festive
+    Christmas favorites for chilly days.
   </p>
 
   <div className="world-cup-grid">
 
-    {/* DOG — SPOOKY PAWS TRIO */}
+    {/* CHRISTMAS REINDEER SWEATER */}
     <div className="world-cup-card">
       <img
-        src="/spooky-paws-trio-1-thumb.webp"
-        alt="FluffHaven Spooky Paws Trio Halloween dog toys"
+        src="/Winter Dog in Christmas Sweater.webp"
+        alt="Christmas Reindeer Knitted Dog Sweater"
         loading="lazy"
       />
-      <h3>🎃 Spooky Paws Trio</h3>
+
+      <h3>🎄 Reindeer Sweater</h3>
+
       <button
         onClick={() =>
-          (window.location.href = "/product/fluffhaven-spooky-paws-trio")
+          (window.location.href =
+            "/product/christmas-reindeer-knitted-dog-sweater")
         }
         className="world-cup-share-btn"
       >
-        🎃 Shop This Pick
+        🎄 Shop This Pick
       </button>
     </div>
 
-    {/* CAT — HALLOWEEN PUMPKIN KICKER */}
-<div className="world-cup-card">
-  <img
-    src="/premium-halloween-pumpkin-cat-kicker-main-thumb.webp"
-    alt="Premium Halloween Pumpkin Cat Kicker"
-    loading="lazy"
-  />
+    {/* TURQUOISE STRIPED SWEATER */}
+    <div className="world-cup-card">
+      <img
+        src="/Turquoise Striped Dog Sweater in Snow.webp"
+        alt="Turquoise Striped Knitted Dog Sweater"
+        loading="lazy"
+      />
 
-  <h3>🎃 Pumpkin Kicker</h3>
+      <h3>❄️ Turquoise Sweater</h3>
 
-  <button
-    onClick={() =>
-      (window.location.href =
-        "/product/premium-halloween-pumpkin-cat-kicker")
-    }
-    className="world-cup-share-btn"
-  >
-    🎃 Shop This Pick
-  </button>
-</div>
+      <button
+        onClick={() =>
+          (window.location.href =
+            "/product/turquoise-striped-knitted-dog-sweater")
+        }
+        className="world-cup-share-btn"
+      >
+        ❄️ Shop This Pick
+      </button>
+    </div>
 
-{/* CAT — PLUSH SNAKE */}
-<div className="world-cup-card">
-  <img
-    src="/premium-plush-snake-cat-toy-main-thumb.webp"
-    alt="Premium Plush Snake Cat Toy"
-    loading="lazy"
-  />
+    {/* PINK STRIPED SWEATER */}
+    <div className="world-cup-card">
+      <img
+        src="/Festive Pink Striped Sweater Dog Mannequin.webp"
+        alt="Pink Striped Dog Sweater"
+        loading="lazy"
+      />
 
-  <h3>🐍 Plush Snake</h3>
+      <h3>❄️ Pink Sweater</h3>
 
-  <button
-    onClick={() =>
-      (window.location.href = "/product/premium-plush-snake-cat-toy")
-    }
-    className="world-cup-share-btn"
-  >
-    🎃 Shop This Pick
-  </button>
-</div>
+      <button
+        onClick={() =>
+          (window.location.href =
+            "/product/pink-orange-striped-knitted-dog-sweater")
+        }
+        className="world-cup-share-btn"
+      >
+        ❄️ Shop This Pick
+      </button>
+    </div>
 
-{/* CAT — FUZZY CATNIP TOY */}
-<div className="world-cup-card">
-  <img
-    src="/premium-fuzzy-catnip-cat-toy-main-thumb.webp"
-    alt="Premium Fuzzy Catnip Cat Toy"
-    loading="lazy"
-  />
+    {/* GREEN CHRISTMAS SWEATER */}
+    <div className="world-cup-card">
+      <img
+        src="/Snowy Nordic Sweater Dog Mannequin-1.webp"
+        alt="Green Christmas Knitted Dog Sweater"
+        loading="lazy"
+      />
 
-  <h3>👻 Fuzzy Catnip</h3>
+      <h3>🎄 Christmas Sweater</h3>
 
-  <button
-    onClick={() =>
-      (window.location.href = "/product/premium-fuzzy-catnip-cat-toy")
-    }
-    className="world-cup-share-btn"
-  >
-    🎃 Shop This Pick
-  </button>
-</div>
+      <button
+        onClick={() =>
+          (window.location.href =
+            "/product/green-christmas-knitted-dog-sweater")
+        }
+        className="world-cup-share-btn"
+      >
+        🎄 Shop This Pick
+      </button>
+    </div>
 
-</div>
+  </div>
 </section>
+
       {/* WHY FLUFFHAVEN */}
       <section className="why-fluffhaven">
         <div className="why-card">
