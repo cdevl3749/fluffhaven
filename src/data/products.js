@@ -149,6 +149,150 @@ Keep your furry friend cozy and festive!
   featured: true,
 },
 
+
+{
+  id: 179,
+  slug: "christmas-reindeer-knitted-dog-sweater",
+  name: "Christmas Reindeer Knitted Dog Sweater",
+  category: "dog",
+  productType: "clothing",
+  seasons: ["autumn", "winter"],
+
+  subtitle: "Festive reindeer design • Cozy knit • 44 cm",
+  price: 12.90,
+  badge: "🎄 Christmas Favorite",
+
+  priceId: "price_1UXkM9Kn0lmTcQ11YsMHQOVJ", // À compléter avec le nouveau Price ID Stripe
+
+  images: [
+    "/Winter Dog in Christmas Sweater.webp",
+    "/Winter Dog Sweater Size Guide.webp",
+    "/Soft & Warm Knitted Dog Sweater.webp",
+    "/Cozy Reindeer Sweater Knit Detail.webp",
+    "/Knitted Reindeer Sweater on Snow.webp",
+  ],
+
+  description:
+    "Keep your dog cozy this Christmas with this festive knitted sweater, featuring a charming red reindeer design and soft ribbed collar.",
+
+  seoTitle:
+    "Christmas Reindeer Dog Sweater 44 cm | FluffHaven",
+
+  seoDescription:
+    "Festive knitted dog sweater with red reindeer patterns and cozy ribbed collar. Size 44 cm, perfect for Christmas and winter walks.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Size: 44 cm
+✓ Cozy knitted fabric
+✓ Festive reindeer design
+✓ Comfortable ribbed collar
+✓ Perfect for Christmas and winter
+
+Keep your furry friend warm and festive!
+`,
+
+  inStock: true,
+  featured: true,
+},
+
+
+{
+  id: 180,
+  slug: "turquoise-striped-knitted-dog-sweater",
+  name: "Turquoise Striped Knitted Dog Sweater",
+  category: "dog",
+  productType: "clothing",
+  seasons: ["autumn", "winter"],
+
+  subtitle: "Colorful striped knit • Cozy turtleneck • 28 cm",
+  price: 17.90,
+  badge: "❄️ Winter Essential",
+
+  priceId: "price_1UXktaKn0lmTcQ118zwSRdna", // Ajouter le nouveau Price ID Stripe
+
+  images: [
+    "/Turquoise Striped Dog Sweater in Snow.webp",
+    "/Snow-Dusted Striped Dog Sweater Knit.webp",
+    "/Snowy Dog Sweater Size Guide.webp",
+    "/Cozy Winter Aqua Dog Sweater Display.webp",
+    "/Warm & Cozy Knit Sweater.webp",
+  ],
+
+  description:
+    "Keep your little dog cozy on chilly days with this colorful turquoise knitted sweater, featuring playful stripes and a comfortable ribbed turtleneck.",
+
+  seoTitle:
+    "Turquoise Striped Dog Sweater 28 cm | FluffHaven",
+
+  seoDescription:
+    "Cozy turquoise knitted dog sweater with navy and orange stripes. Size 28 cm, ideal for chilly autumn days and winter walks.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Size: 28 cm
+✓ Soft knitted fabric
+✓ Colorful striped design
+✓ Cozy ribbed turtleneck
+✓ Ideal for autumn and winter
+
+A colorful touch of warmth for your little companion!
+`,
+
+  inStock: true,
+  featured: true,
+},
+
+
+{
+  id: 181,
+  slug: "pink-orange-striped-knitted-dog-sweater",
+  name: "Pink Striped Dog Sweater",
+  category: "dog",
+  productType: "clothing",
+  seasons: ["autumn", "winter"],
+
+  subtitle: "Pink & orange stripes • Cozy knit • 28 cm",
+  price: 19.90,
+  badge: "❄️ Winter Essential",
+
+  priceId: "price_1UXlSwKn0lmTcQ11jMBq3LmO", // Ajouter le Price ID Stripe du pull rose
+
+  images: [
+    "/Festive Pink Striped Sweater Dog Mannequin.webp",
+    "/Cozy Pink Striped Dog Sweater in Snow.webp",
+    "/Snow-Dusted Striped Knit Sweater.webp",
+    "/Warm & Cozy Knit Sweater.webp",
+    "/Cozy Pink Striped Pet Sweater Flat Lay.webp",
+  ],
+
+  description:
+    "Keep your little dog cozy and stylish with this soft pink and orange striped knitted sweater, featuring a warm ribbed turtleneck.",
+
+  seoTitle:
+    "Pink & Orange Striped Dog Sweater 28 cm | FluffHaven",
+
+  seoDescription:
+    "Cozy pink and orange knitted dog sweater with a warm turtleneck. Size 28 cm, perfect for chilly autumn days and winter walks.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Size: 28 cm
+✓ Soft and cozy knitted fabric
+✓ Cheerful pink and orange stripes
+✓ Comfortable ribbed turtleneck
+✓ Perfect for autumn and winter
+
+A colorful touch of warmth for your little companion!
+`,
+
+  inStock: true,
+  featured: true,
+},
+
   {
     id: 173,
     slug: "premium-melamine-pet-bowl-beige",
