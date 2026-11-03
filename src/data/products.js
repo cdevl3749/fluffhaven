@@ -6,6 +6,57 @@ export const PRODUCTS = [
 
 
 {
+  id: 182,
+  slug: "ponpons-christmas-mystery-box",
+  name: "Ponpon's Christmas Mystery Box",
+  category: "dog",
+  productType: "toys",
+  seasons: ["winter"],
+
+  subtitle: "4 surprise gifts • Winter coat size M • Christmas limited edition",
+  price: 39.90,
+  badge: "🎁 Christmas Special",
+
+  priceId: "price_1UXoslKn0lmTcQ11Vy4zHHsv", // À compléter avec le Price ID Stripe à $39.90
+
+  images: [
+    "/Ponpons Christmas Mystery Box.webp",
+  ],
+
+  description:
+    "Make Christmas extra special for your dog with Ponpon's Christmas Mystery Box! Discover four surprise gifts carefully selected for playtime, comfort and cozy winter days. A festive surprise with a combined product value of $60.90, yours for just $39.90.",
+
+  seoTitle:
+    "Christmas Mystery Box for Dogs | FluffHaven",
+
+  seoDescription:
+    "Surprise your dog with 4 Christmas gifts in Ponpon's Mystery Box. Combined product value $60.90, special price $39.90. Available until December 31, 2026.",
+
+  brand: "FluffHaven",
+
+ details: `
+🎁 4 surprise products for dogs
+
+✓ 2 fun dog toys
+✓ 1 dog bowl
+✓ 1 warm winter dog coat (Size M)
+
+✓ Combined product value: $60.90
+✓ Christmas special price: $39.90
+✓ Save $21.00 (approximately 34%)
+
+✓ Limited Christmas edition until December 31, 2026
+
+🎄 The exact products are a surprise!
+
+A little Christmas magic, specially selected by Ponpon.
+`,
+
+  inStock: true,
+  featured: true,
+},
+
+{
   id: 176,
   slug: "olive-green-winter-dog-coat",
   name: "Olive Green Winter Dog Coat",
