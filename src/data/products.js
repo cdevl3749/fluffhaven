@@ -345,6 +345,114 @@ A colorful touch of warmth for your little companion!
   featured: true,
 },
 
+
+{
+  id: 183,
+  slug: "dogs-creek-hiker-winter-dog-boots",
+  name: "Dogs Creek Hiker Winter Dog Boots",
+  category: "dog",
+  productType: "clothing",
+  seasons: ["autumn", "winter"],
+
+  subtitle: "Pair of 2 protective dog boots • Size S-M • Reflective straps",
+  price: 19.90,
+  badge: "❄️ Winter Essential",
+
+  priceId: "price_1UY91ZKn0lmTcQ11y05RdzvW", // Ajouter le Price ID Stripe à $19.90
+
+images: [
+  "/Snowy Dogs Creek Hiking Booties.webp",
+  "/Dogs Creek Hiker Boots on Snow.webp",
+  "/Dog Creek Hiker Booties in Snow.webp",
+  "/Golden Retriever in Snowy Hiking Booties.webp",
+  "/Snowy Dogs Creek Hiker Booties.webp",
+],
+
+  description:
+  "Protect your dog's paws on winter walks with this pair of 2 Dogs Creek Hiker Boots. Featuring breathable mesh, reflective straps and durable non-slip soles for comfort and grip.",
+
+  seoTitle:
+    "Winter Dog Boots S-M | Dogs Creek Hiker | FluffHaven",
+
+  seoDescription:
+    "Protect your dog's paws with Dogs Creek Hiker winter boots. Breathable mesh, reflective straps and non-slip soles. Size S-M, only $19.90.",
+
+  brand: "Dogs Creek",
+
+  details: `
+✓ Size S-M
+✓ Breathable mesh fabric
+✓ Reflective adjustable straps
+✓ Durable non-slip rubber soles
+✓ Reinforced toe protection
+✓ Ideal for winter walks
+✓ Includes 2 dog boots (1 pair)
+
+Keep your dog's paws comfortable and protected during outdoor adventures.
+
+The breathable design and adjustable straps provide a secure fit, while the durable soles offer extra grip on everyday walks.
+
+Please check your dog's paw measurements before ordering.
+`,
+
+  inStock: true,
+  featured: true,
+},
+
+
+{
+  id: 184,
+  slug: "cozy-winter-non-slip-dog-socks",
+  name: "Cozy Winter Non-Slip Dog Socks",
+  category: "dog",
+  productType: "clothing",
+  seasons: ["autumn", "winter"],
+
+  subtitle: "Warm dog socks • Size M-L • Pair of 2",
+  price: 12.90,
+  badge: "❄️ Winter Essential",
+
+  priceId: "price_1UY9hTKn0lmTcQ11nphhLi7c", // À compléter après création du prix Stripe à $12.90
+
+  images: [
+    "/Cozy Striped Dog Socks in Snow.webp",
+    "/Snowy Dog Socks Winter Product Ad.webp",
+    "/Snowy Dog Sock Set Display.webp",
+    "/Extra Warm Dog Boot Socks in Snow.webp",
+    "/Happy Retriever in Snowy Dog Socks.webp",
+  ],
+
+  description:
+    "Keep your dog's paws cozy with these warm, non-slip winter socks. Designed for indoor comfort and extra grip on smooth floors. Size M-L, sold as a pair of 2.",
+
+  seoTitle:
+    "Warm Non-Slip Dog Socks M-L | FluffHaven",
+
+  seoDescription:
+    "Cozy winter dog socks with non-slip soles. Size M-L, pair of 2 for $12.90. Comfortable paw protection at FluffHaven.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Size M-L
+✓ Includes 2 dog socks (1 pair)
+✓ Warm, soft knitted fabric
+✓ Non-slip soles for indoor grip
+✓ Comfortable striped design
+✓ Ideal for indoor winter comfort
+
+Keep your dog's paws warm and comfortable during colder days.
+
+These cozy socks offer extra grip on smooth indoor floors and are especially useful for dogs needing a little more stability.
+
+Please check your dog's paw measurements before ordering.
+`,
+
+  inStock: true,
+  featured: true,
+},
+
+
   {
     id: 173,
     slug: "premium-melamine-pet-bowl-beige",
