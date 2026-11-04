@@ -382,10 +382,39 @@ function ProductCard({ product, onAddToCart, onShowDetails }) {
 
         <div className="product-footer">
           <div className="product-price">
-            <div>
-              {usd(product.price)}
-              <span> USD</span>
-            </div>
+  {product.originalPrice && (
+    <div
+      style={{
+        fontSize: "14px",
+        fontWeight: "500",
+        color: "#777",
+        marginBottom: "5px",
+      }}
+    >
+      Combined value:{" "}
+      <span style={{ textDecoration: "line-through" }}>
+        {usd(product.originalPrice)}
+      </span>
+    </div>
+  )}
+
+  <div>
+    {usd(product.price)}
+    <span> USD</span>
+  </div>
+
+  {product.originalPrice > product.price && (
+    <div
+      style={{
+        fontSize: "14px",
+        fontWeight: "700",
+        color: "#16803c",
+        marginTop: "5px",
+      }}
+    >
+      🎁 Save {usd(product.originalPrice - product.price)}
+    </div>
+  )}
 
           <div
             style={{

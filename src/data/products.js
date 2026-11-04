@@ -15,6 +15,7 @@ export const PRODUCTS = [
 
   subtitle: "4 surprise gifts • Winter coat size M • Christmas limited edition",
   price: 39.90,
+  originalPrice: 60.90,
   badge: "🎁 Christmas Special",
 
   priceId: "price_1UXoslKn0lmTcQ11Vy4zHHsv", // À compléter avec le Price ID Stripe à $39.90
@@ -3141,11 +3142,11 @@ Practical and stylish, it's a simple FluffHaven essential for everyday feeding.
 
   subtitle: "Reversible cozy blanket • Soft fleece & velvety sides • Size L 100 × 70 cm",
 
-  price: 16.90,
+  price: 12.90,
 
   badge: "❄️ Winter Cozy Essential",
 
-  priceId: "price_1UJf3bKn0lmTcQ115ZIqJAL5",
+  priceId: "price_1UY3TtKn0lmTcQ11DFpeKMnf",
 
   images: [
     "/premium-winter-cozy-dog-blanket-armchair.webp",
@@ -3266,11 +3267,11 @@ Practical, compact and decorative, it brings a tidy FluffHaven touch to your pet
 
   subtitle: "2 ultra-soft blankets • Blue & beige • Size L 75 × 50 cm",
 
-  price: 21.90,
+  price: 19.90,
 
   badge: "🧸 Cozy Duo",
 
-  priceId: "price_1UDZUKKn0lmTcQ11J3wjDgnC",
+  priceId: "price_1UY3SMKn0lmTcQ110oSX03MB",
 
   images: [
     "/premium-cozy-dog-blanket-duo-main.webp",
@@ -3443,17 +3444,19 @@ Combining mental stimulation and active play, this FluffHaven duo brings more va
 
   subtitle: "Ultra-absorbent microfiber • Quick-dry comfort • Size L – 48 cm",
 
-  price: 32.90,
+  price: 19.90,
 
   badge: "💧 Quick-Dry Essential",
 
-  priceId: "price_1U4qmsKn0lmTcQ11JwDViXt1",
+  priceId: "price_1UY3YaKn0lmTcQ11alncbYBU",
 
   images: [
-    "/premium-microfiber-dog-robe-main.webp",
-    "/premium-microfiber-dog-robe-bathroom.webp",
-    "/premium-microfiber-dog-robe-details.webp",
-  ],
+  "/Cozy FluffHaven Winter Dog Robe.webp",
+  "/Forest Green Fleece Dog Robe on Rug.webp",
+  "/premium-microfiber-dog-robe-main.webp",
+  "/premium-microfiber-dog-robe-bathroom.webp",
+  "/premium-microfiber-dog-robe-details.webp",
+],
 
   description:
   "Dry your dog quickly after baths, swims and rainy walks with this soft, absorbent microfiber robe featuring a comfortable adjustable fit.",
@@ -3557,20 +3560,24 @@ Finished in forest green, this Size L harness combines practical everyday featur
 
   subtitle: "Orthopedic support • Ultra-soft surface • Removable washable cover",
 
-  price: 59.90,
+  price: 29.90,
 
   badge: "👑 Premium Comfort",
 
-  priceId: "price_1U4lGbKn0lmTcQ11C72dM9nr",
+  priceId: "price_1UY2nAKn0lmTcQ11Lx7UZwuM",
 
-  images: [
-    "/premium-orthopedic-support-dog-mattress-main.webp",
-    "/premium-orthopedic-support-dog-mattress-bedroom.webp",
-    "/premium-orthopedic-support-dog-mattress-details.webp",
-  ],
+  
+images: [
+  "/Cozy Winter FluffHaven Dog Mattress.webp",
+  "/FluffHaven Orthopedic Dog Bed Living Room.webp",
+  "/premium-orthopedic-support-dog-mattress-main.webp",
+  "/premium-orthopedic-support-dog-mattress-bedroom.webp",
+  "/premium-orthopedic-support-dog-mattress-details.webp",
+],
 
-  description:
-  "Give your dog a supportive and comfortable place to rest with the Premium Orthopedic Support Dog Mattress. Designed with an orthopedic foam core and an ultra-soft sleeping surface, this spacious mattress provides comfortable support for relaxation and restful sleep. The removable washable cover, waterproof protective layer and non-slip base make everyday care practical. Sized at 90 × 60 × 8 cm, it is designed especially for larger dogs.",
+  
+description:
+  "Give your dog a cozy, supportive rest with this premium orthopedic mattress. Featuring soft foam, a washable cover, waterproof protection and a non-slip base. Ideal for larger dogs. Size: 90 × 60 × 8 cm.",
 
   seoTitle:
     "Premium Orthopedic Support Dog Mattress | Large Dog Bed | FluffHaven",
@@ -3580,22 +3587,16 @@ Finished in forest green, this Size L harness combines practical everyday featur
 
   brand: "FluffHaven",
 
-  details: `
-✓ Large 90 × 60 × 8 cm size for larger dogs
-✓ Supportive orthopedic foam core with ultra-soft sleeping surface
-✓ Helps provide comfortable joint and muscle support
-✓ Removable washable cover with waterproof protective layer
-✓ Non-slip bottom for added stability
+details: `
+✓ Spacious size: 90 × 60 × 8 cm
+✓ Supportive orthopedic foam for comfortable rest
+✓ Ultra-soft sleeping surface
+✓ Removable, washable cover
+✓ Waterproof protective layer
+✓ Non-slip base for stability
+✓ Ideal for larger dogs
 
-Give your dog a comfortable place to relax with the Premium Orthopedic Support Dog Mattress, designed with a supportive orthopedic foam core.
-
-Its generous 90 × 60 cm sleeping area and 8 cm thickness provide plenty of room and supportive cushioning for larger dogs.
-
-The ultra-soft sleeping surface creates a cozy resting space while the orthopedic foam helps distribute body weight comfortably.
-
-A removable washable cover and waterproof protective layer make regular care easier, while the non-slip bottom helps keep the mattress securely in place.
-
-Combining orthopedic support, generous dimensions and practical features, this mattress brings premium FluffHaven comfort to everyday rest and sleep.
+Give your dog the comfort they deserve with this premium orthopedic mattress. Soft, supportive and easy to maintain, it's perfect for everyday relaxation and restful sleep.
 `,
 
   inStock: true,
@@ -4392,11 +4393,11 @@ Combining breathable comfort, full-body coverage and a stylish blue design, it's
 
   subtitle: "Ultra-soft comfort • Olive Green • Size L • 65 × 45 cm",
 
-  price: 54.90,
+  price: 29.90,
 
   badge: "🍂 Cozy Season Essential",
 
-  priceId: "price_1UBvprKn0lmTcQ11qj0SCBny",
+  priceId: "price_1UY3CVKn0lmTcQ113JZE861i",
 
   images: [
     "/premium-olive-cozy-dog-bed-main.webp",
@@ -4508,11 +4509,11 @@ Warm and comfortable protection for colder walks. Please check your dog's measur
 
   subtitle: "Adjustable wooden stand • 2 stainless steel bowls • Protective mat",
 
-  price: 44.90,
+  price: 24.90,
 
   badge: "🍂 Cozy Mealtime Essential",
 
-  priceId: "price_1UCctPKn0lmTcQ114OwqeKvM",
+  priceId: "price_1UY3s1Kn0lmTcQ11mWbyA67p",
 
   images: [
     "/premium-elevated-comfort-feeding-station-kitchen.webp",
@@ -4523,7 +4524,7 @@ Warm and comfortable protection for colder walks. Please check your dog's measur
   ],
 
   description:
-  "Make every meal more comfortable with the Premium Elevated Comfort Feeding Station. This complete feeding set features an adjustable raised wooden stand, two removable stainless steel bowls and a protective feeding mat to help keep your dog's dining area clean and organized. Its warm natural wood design blends beautifully into home interiors, making it a practical choice for everyday feeding.",
+  "Make mealtime easier with the Premium Elevated Comfort Feeding Station. Featuring an adjustable wooden stand, two removable stainless steel bowls and a protective mat, it combines comfort, cleanliness and elegant design.",
 
   seoTitle:
     "Premium Elevated Dog Feeding Station with Bowls & Mat | FluffHaven",
@@ -4534,21 +4535,17 @@ Warm and comfortable protection for colder walks. Please check your dog's measur
   brand: "FluffHaven",
 
   details: `
-✓ Adjustable raised wooden stand with multiple height settings
-✓ 2 removable stainless steel bowls for food and water
-✓ Protective feeding mat helps catch spills
-✓ Non-slip feet provide added stability
-✓ Natural wood finish for everyday home use
+✓ Adjustable wooden stand with multiple height settings
+✓ 2 removable stainless steel bowls
+✓ Protective mat to catch spills
+✓ Non-slip feet for added stability
+✓ Elegant natural wood finish
 
-Create a comfortable and organized dining area with the Premium Elevated Comfort Feeding Station, combining an adjustable wooden stand, two stainless steel bowls and a protective mat.
+Make mealtime more comfortable with this adjustable feeding station.
 
-The raised design offers multiple height settings, while the stable wooden construction provides a practical base for everyday feeding.
+The two removable stainless steel bowls are easy to fill and clean, while the protective mat helps keep floors tidy.
 
-Both stainless steel bowls are removable for easy filling and cleaning.
-
-The protective mat helps catch food, water and spills, while non-slip feet help keep the feeding station securely in place.
-
-Finished in natural wood, this complete FluffHaven feeding station combines comfort, convenience and clean home-friendly styling.
+A practical and stylish feeding solution for everyday use.
 `,
 
   inStock: true,
@@ -6587,11 +6584,11 @@ Combining treats, movement and mental stimulation, this reusable FluffHaven duo 
 
   subtitle: "Premium silicone • Slow feeding • Enrichment play",
 
-  price: 19.90,
+  price: 14.90,
 
   badge: "🧠 Everyday Enrichment",
 
-  priceId: "price_1UBdWnKn0lmTcQ11o9nRha0R", 
+  priceId: "price_1UY4X6Kn0lmTcQ11mcKZvsk6", 
 
   images: [
     "/premium-silicone-slow-feeder-puzzle-mat-main.webp",
@@ -7110,20 +7107,22 @@ Ideal after rainy walks, baths and outdoor adventures, this duo provides conveni
 
   subtitle: "Ultra-soft fleece • Size M • Cozy hideaway",
 
-  price: 57.90,
+  price: 32.90,
 
   badge: "❄️ Winter Favorite",
 
-  priceId: "price_1U1kxUKn0lmTcQ11vQ6Uy4G7",
-
-  images: [
-    "/premium-winter-teepee-dog-bed-main.webp",
-    "/premium-winter-teepee-dog-bed-bedroom.webp",
-    "/premium-winter-teepee-dog-bed-details.webp",
-  ],
-
-  description:
-  "Give your dog a warm and private place to rest with the Premium Winter Teepee Dog Bed. Featuring ultra-soft fleece, a removable cushion and a cozy enclosed design, this Size M bed provides comfortable warmth throughout autumn and winter.",
+  priceId: "price_1UY3FPKn0lmTcQ11CmWoircT",
+ 
+images: [
+  "/Cozy Winter Teepee Dog Bed.webp",
+  "/Cozy FluffHaven Teepee Bed.webp",
+  "/premium-winter-teepee-dog-bed-main.webp",
+  "/premium-winter-teepee-dog-bed-bedroom.webp",
+  "/premium-winter-teepee-dog-bed-details.webp",
+],
+ 
+description:
+  "A cozy winter hideaway for your dog, featuring ultra-soft fleece, a removable cushion and a warm enclosed design. Perfect for autumn and winter. Size M.",
 
   seoTitle:
     "Premium Winter Teepee Dog Bed | Cozy Heated Dog Bed | FluffHaven",
@@ -7132,23 +7131,17 @@ Ideal after rainy walks, baths and outdoor adventures, this duo provides conveni
     "Premium winter teepee dog bed with ultra-soft fleece, removable cushion and cozy enclosed design. Size M (45 × 45 × 38 cm). Perfect for autumn and winter comfort.",
 
   brand: "FluffHaven",
-
-  details: `
+ 
+details: `
 ✓ Size M — approximately 45 × 45 × 38 cm
-✓ Cozy enclosed teepee design with ultra-soft fleece
-✓ Removable washable cushion for easy care
-✓ Non-slip bottom with lightweight construction
-✓ Ideal for small and medium dogs in autumn and winter
+✓ Cozy teepee design with ultra-soft fleece
+✓ Removable washable cushion
+✓ Lightweight with non-slip bottom
+✓ Ideal for small and medium dogs
 
-Create a warm retreat for your dog with the Premium Winter Teepee Dog Bed, designed as a cozy enclosed space for comfortable rest.
+Give your dog a warm and cozy winter retreat with the Premium Winter Teepee Dog Bed.
 
-Its ultra-soft fleece interior provides a warm and inviting sleeping area during cooler autumn and winter days.
-
-The Size M design measures approximately 45 × 45 × 38 cm and is suitable for small and medium dogs.
-
-A removable washable cushion makes regular care easier, while the non-slip bottom helps keep the bed securely in place.
-
-Combining warmth, privacy and practical everyday comfort, this FluffHaven teepee creates a cozy seasonal resting space.
+Its soft fleece interior and removable cushion provide a comfortable resting space, perfect for chilly autumn and winter days.
 `,
 
   inStock: true,
@@ -7170,11 +7163,11 @@ Combining warmth, privacy and practical everyday comfort, this FluffHaven teepee
 
   subtitle: "Waterproof • Size M • Reflective protection",
 
-  price: 29.90,
+  price: 24.90,
 
   badge: "🌧🍂 Rainy Day Essential",
 
-  priceId: "price_1UKlYlKn0lmTcQ11s9w3Kat6",
+  priceId: "price_1UY3onKn0lmTcQ11WdVVeVvz",
 
   images: [
     "/premium-reflective-dog-raincoat-main.webp",
@@ -7569,11 +7562,11 @@ Suitable for dogs of all sizes, it's a simple FluffHaven enrichment toy for ever
 
   subtitle: "Slow feeder • enrichment • calming",
 
-  price: 17.90,
+  price: 12.90,
 
   badge: "🧠 Enrichment Essential",
 
-  priceId: "price_1UBdcvKn0lmTcQ11xDR8PWc3",
+  priceId: "price_1UY4T7Kn0lmTcQ11EoCvUeOa",
 
   images: [
     "/dog-lick-mat-main.webp",
@@ -7584,7 +7577,7 @@ Suitable for dogs of all sizes, it's a simple FluffHaven enrichment toy for ever
   ],
 
   description:
-  "Turn treat time into a calming activity with this premium silicone lick mat. Designed to encourage slower eating and mental enrichment, it's ideal for peanut butter, yogurt, wet food and frozen treats.",
+  "Make treat time fun and relaxing with this premium silicone lick mat. Perfect for slower eating, mental enrichment and your dog's favorite treats.",
 
   seoTitle:
     "Premium Dog Lick Mat | Slow Feeder & Enrichment Mat | FluffHaven",
@@ -8583,11 +8576,11 @@ Machine washable and designed for indoor use, this FluffHaven vest is a cozy cho
 
   subtitle: "Self-heating • Ultra-soft fleece • Cozy comfort",
 
-  price: 19.90,
+  price: 12.90,
 
   badge: "🍂❄️ Autumn & Winter Essential",
 
-  priceId: "price_1UCQ0UKn0lmTcQ11K5h8IXNm",
+  priceId: "price_1UY2fwKn0lmTcQ119cI0Zksf",
 
   images: [
     "/self-warming-cat-mat-main.webp",
@@ -9927,11 +9920,11 @@ Designed for regular outdoor use, this FluffHaven set combines comfort, visibili
 
   subtitle: "Waterproof • Windproof • Reflective",
 
-  price: 34.90,
+  price: 19.90,
 
   badge: "🌧️ Rainy Days",
 
-  priceId: "price_1UKlvRKn0lmTcQ11Xd9AM2Ib",
+  priceId: "price_1UY3jxKn0lmTcQ11R9C4Qix1",
 
   images: [
     "/premium-waterproof-dog-raincoat-main.webp",
@@ -9977,11 +9970,11 @@ Practical weather protection for comfortable rainy autumn walks.
 
   subtitle: "Orthopedic • Ultra Soft • Machine Washable",
 
-  price: 49.90,
+  price: 39.90,
 
   badge: "🔥 Stay Warm",
 
-  priceId: "price_1UAoSiKn0lmTcQ11BFY0EM3P",
+  priceId: "price_1UY2k9Kn0lmTcQ11Dl4rb0sy",
 
   images: [
     "/premium-orthopedic-dog-bed-main.webp",
