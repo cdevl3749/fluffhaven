@@ -252,6 +252,7 @@ function ProductCard({ product, onAddToCart, onShowDetails }) {
 
       onAddToCart({
       id: product.id,
+      priceId: priceId,
       slug: product.slug,
       name: product.name,
       price: product.price,
