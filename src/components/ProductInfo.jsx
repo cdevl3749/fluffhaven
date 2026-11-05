@@ -228,7 +228,26 @@ export default function ProductInfo({ product, onAddToCart }) {
       {showAllDetails && (
         <ul className="product-details" style={{ padding: "0 24px 20px", margin: 0, maxWidth: "100%" }}>
           {details.map((detail, index) => (
-            <li key={index}>{detail}</li>
+            <li key={index}>
+  {detail.includes("Custom Dog Outfit configurator") ? (
+    <>
+      {detail.split("Custom Dog Outfit configurator")[0]}
+      <a
+        href="/custom-dog"
+        style={{
+          color: "#8b5e3c",
+          fontWeight: "600",
+          textDecoration: "underline",
+        }}
+      >
+        Custom Dog Outfit configurator
+      </a>
+      {detail.split("Custom Dog Outfit configurator")[1]}
+    </>
+  ) : (
+    detail
+  )}
+</li>
           ))}
         </ul>
       )}
