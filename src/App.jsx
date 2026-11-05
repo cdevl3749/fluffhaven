@@ -374,6 +374,20 @@ function ProductCard({ product, onAddToCart, onShowDetails }) {
               </div>
             </div>
           )}
+                    {product.customDogCategory && (
+            <div style={{ marginTop: "16px", marginBottom: "8px" }}>
+              <a
+                href="/custom-dog"
+                style={{
+                  color: "#8b5e3c",
+                  fontWeight: "600",
+                  textDecoration: "underline",
+                }}
+              >
+                Explore More Sizes →
+              </a>
+            </div>
+          )}
         </div>
 
         <div className="product-trust-line">
@@ -911,6 +925,92 @@ if (priceSort === "high") {
 
       {/* HERO */}
       <HomeSwitcher />
+      {/* CUSTOM DOG OUTFIT */}
+      <section
+        style={{
+          padding: "35px 16px",
+          background: "#f8f0e9",
+          textAlign: "center",
+          borderRadius: 20,
+          margin: "20px auto 35px",
+          width: "calc(100% - 32px)",
+          maxWidth: 1100,
+          boxSizing: "border-box",
+        }}
+      >
+  <p
+    style={{
+      color: "#a06d53",
+      fontSize: 13,
+      fontWeight: 700,
+      letterSpacing: 2,
+      marginBottom: 12,
+    }}
+  >
+    NEW AT FLUFFHAVEN
+  </p>
+
+  <h2
+    style={{
+      color: "#49372f",
+      fontSize: "clamp(24px, 4vw, 36px)",
+      lineHeight: 1.2,
+      marginBottom: 15,
+    }}
+  >
+    Create Your Dog's Perfect Winter Outfit
+  </h2>
+
+  <p
+    style={{
+      color: "#795f50",
+      fontSize: "clamp(14px, 2vw, 17px)",
+      lineHeight: 1.6,
+      marginBottom: 25,
+    }}
+  >
+    Mix, match & find the perfect cozy look for your furry friend!
+  </p>
+
+  <a
+    href="/custom-dog"
+    style={{
+      display: "inline-block",
+      width: "100%",
+      maxWidth: 360,
+      boxSizing: "border-box",
+      padding: "16px 20px",
+      background: "#f7b940",
+      color: "#30251e",
+      borderRadius: 14,
+      fontWeight: 700,
+      fontSize: "clamp(14px, 2vw, 17px)",
+      textDecoration: "none",
+      transition: "transform 0.2s ease, background 0.2s ease",
+    }}
+    onMouseEnter={(e) => {
+      e.currentTarget.style.background = "#e9a72f";
+      e.currentTarget.style.transform = "translateY(-2px)";
+    }}
+    onMouseLeave={(e) => {
+      e.currentTarget.style.background = "#f7b940";
+      e.currentTarget.style.transform = "translateY(0)";
+    }}
+  >
+    🐾 Customize Your Dog's Outfit →
+  </a>
+
+  <p
+    style={{
+      marginTop: 16,
+      marginBottom: 0,
+      color: "#795f50",
+      fontSize: 12,
+    }}
+  >
+    Free to explore • No account needed
+  </p>
+</section>
       {/* SHOP */}
       <section id="shop" className="section">
         <div className="section-label">Our Collection</div>

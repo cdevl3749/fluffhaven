@@ -73,6 +73,8 @@ import WhyDoesMyCatKnockThingsOffTables from "./blog/why-does-my-cat-knock-thing
 
 import ProductPage from "./pages/ProductPage.jsx";
 
+import CustomDog from "./pages/CustomDog.jsx";
+
 import WhyDoesMyDogPullOnTheLeash from "./blog/why-does-my-dog-pull-on-the-leash.jsx";
 import WhyDoesMyCatSlowBlink from "./blog/why-does-my-cat-slow-blink.jsx";
 
@@ -317,6 +319,10 @@ createRoot(document.getElementById('root')).render(
 
       : window.location.pathname === "/blog/cozy-autumn-space-indoor-cat" ? (
         <CozyAutumnSpaceIndoorCat />
+      )
+
+      : window.location.pathname === "/custom-dog" ? (
+        <CustomDog />
       )
 
       : window.location.pathname.startsWith("/product/") ? (

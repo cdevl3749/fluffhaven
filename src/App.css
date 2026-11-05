@@ -3842,3 +3842,14 @@ body.modal-open {
     white-space: nowrap;
   }
 }
+
+/* FluffHaven - Rapprocher le Shop du configurateur */
+#shop {
+  padding-top: 30px;
+}
+
+@media (max-width: 768px) {
+  #shop {
+    padding-top: 25px;
+  }
+}

@@ -56,6 +56,10 @@ const PONPON_MUG_PRICE_ID = "price_1U8nqXKn0lmTcQ11IPAnINe9";
       metadata: {
         ponpon_mug: qualifiesForMug ? "FREE MUG INCLUDED" : "Not eligible",
         cart_total: cartTotal.toFixed(2),
+        custom_dog_sizes: items
+          .filter((item) => item.size)
+          .map((item) => `${item.priceId}: ${item.size}`)
+          .join(" | "),
       },
       shipping_address_collection: {
         allowed_countries: [

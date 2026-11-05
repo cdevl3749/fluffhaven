@@ -63,6 +63,8 @@ A little Christmas magic, specially selected by Ponpon.
   name: "Olive Green Winter Dog Coat",
   category: "dog",
   productType: "clothing",
+  customDogCategory: "coat",
+  customDogSizes: ["38 cm", "40 cm", "42 cm", "44 cm"],
   seasons: ["autumn", "winter"],
 
   subtitle: "Warm padded coat • Reflective details • 40 cm",
@@ -91,7 +93,8 @@ images: [
   brand: "FluffHaven",
 
   details: `
-✓ Size: 40 cm
+✓ Standard size: 40 cm
+✓ Other sizes (38, 42 and 44 cm) available in our Custom Dog Outfit configurator
 ✓ Warm padded design
 ✓ Soft fleece lining
 ✓ Reflective details
@@ -111,6 +114,8 @@ Keep your furry friend cozy all winter!
   name: "Dusty Pink Winter Dog Coat",
   category: "dog",
   productType: "clothing",
+  customDogCategory: "coat",
+  customDogSizes: ["38 cm", "40 cm", "42 cm", "44 cm"],
   seasons: ["autumn", "winter"],
 
   subtitle: "Warm padded coat • Reflective details • 40 cm",
@@ -139,7 +144,8 @@ Keep your furry friend cozy all winter!
   brand: "FluffHaven",
 
   details: `
-✓ Size: 40 cm
+✓ Standard size: 40 cm
+✓ Other sizes (38, 42 and 44 cm) available in our Custom Dog Outfit configurator
 ✓ Warm padded design
 ✓ Soft fleece lining
 ✓ Reflective details
@@ -153,13 +159,14 @@ Keep your furry friend cozy all winter!
   featured: true,
 },
 
-
 {
   id: 178,
   slug: "green-christmas-knitted-dog-sweater",
   name: "Green Christmas Knitted Dog Sweater",
   category: "dog",
   productType: "clothing",
+  customDogCategory: "christmas",
+  customDogSizes: ["32cm", "38cm", "40cm", "44cm"],
   seasons: ["autumn", "winter"],
 
   subtitle: "Cozy Christmas knit • Snowflake design • 32 cm",
@@ -188,7 +195,8 @@ Keep your furry friend cozy all winter!
   brand: "FluffHaven",
 
   details: `
-✓ Size: 32 cm
+✓ Standard size: 32 cm
+✓ Other sizes (38, 40 and 44 cm) available in our Custom Dog Outfit configurator
 ✓ Cozy knitted design
 ✓ Festive snowflake pattern
 ✓ Comfortable ribbed collar
@@ -208,6 +216,8 @@ Keep your furry friend cozy and festive!
   name: "Christmas Reindeer Knitted Dog Sweater",
   category: "dog",
   productType: "clothing",
+  customDogCategory: "christmas",
+  customDogSizes: ["32cm", "34cm", "38cm", "44cm"],
   seasons: ["autumn", "winter"],
 
   subtitle: "Festive reindeer design • Cozy knit • 44 cm",
@@ -236,7 +246,8 @@ Keep your furry friend cozy and festive!
   brand: "FluffHaven",
 
   details: `
-✓ Size: 44 cm
+✓ Standard size: 44 cm
+✓ Other sizes (32, 34 and 38 cm) available in our Custom Dog Outfit configurator
 ✓ Cozy knitted fabric
 ✓ Festive reindeer design
 ✓ Comfortable ribbed collar
@@ -256,6 +267,8 @@ Keep your furry friend warm and festive!
   name: "Turquoise Striped Knitted Dog Sweater",
   category: "dog",
   productType: "clothing",
+  customDogCategory: "sweater",
+  customDogSizes: ["28 cm", "32 cm", "38 cm", "44 cm"],
   seasons: ["autumn", "winter"],
 
   subtitle: "Colorful striped knit • Cozy turtleneck • 28 cm",
@@ -284,7 +297,8 @@ Keep your furry friend warm and festive!
   brand: "FluffHaven",
 
   details: `
-✓ Size: 28 cm
+✓ Standard size: 28 cm
+✓ Other sizes (32, 38 and 44 cm) available in our Custom Dog Outfit configurator
 ✓ Soft knitted fabric
 ✓ Colorful striped design
 ✓ Cozy ribbed turtleneck
@@ -304,6 +318,8 @@ A colorful touch of warmth for your little companion!
   name: "Pink Striped Dog Sweater",
   category: "dog",
   productType: "clothing",
+  customDogCategory: "sweater",
+  customDogSizes: ["28cm", "30cm", "32cm", "34cm"],
   seasons: ["autumn", "winter"],
 
   subtitle: "Pink & orange stripes • Cozy knit • 28 cm",
@@ -332,7 +348,8 @@ A colorful touch of warmth for your little companion!
   brand: "FluffHaven",
 
   details: `
-✓ Size: 28 cm
+✓ Standard size: 28 cm
+✓ Other sizes (30, 32 and 34 cm) available in our Custom Dog Outfit configurator
 ✓ Soft and cozy knitted fabric
 ✓ Cheerful pink and orange stripes
 ✓ Comfortable ribbed turtleneck
