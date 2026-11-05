@@ -21,10 +21,34 @@ exports.handler = async (event) => {
       };
     }
 
-    const line_items = items.map((item) => ({
-      price: item.priceId,
+   const line_items = await Promise.all(
+  items.map(async (item) => {
+    if (!item.size) {
+      return {
+        price: item.priceId,
+        quantity: item.quantity || 1,
+      };
+    }
+
+    const price = await stripe.prices.retrieve(item.priceId, {
+      expand: ["product"],
+    });
+
+    const product = price.product;
+
+    return {
+      price_data: {
+        currency: price.currency,
+        unit_amount: price.unit_amount,
+        product_data: {
+          name: `${product.name} — Size ${item.size}`,
+          description: product.description || undefined,
+        },
+      },
       quantity: item.quantity || 1,
-    }));
+    };
+  })
+);
 
 const PONPON_MUG_PRICE_ID = "price_1U8nqXKn0lmTcQ11IPAnINe9";
 
