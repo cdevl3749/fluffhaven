@@ -14,7 +14,18 @@ export default function CustomDog() {
 
  
 const mannequinImage =
-  selected.coat?.productId === 176
+    selected.coat?.productId === 49
+    ? "/custom-dog/dog-raincoat-waterproof-yellow-v2.png"
+    :
+    selected.coat?.productId === 27
+    ? "/custom-dog/dog-raincoat-waterproof-yellow.png"
+    :
+    selected.coat?.productId === 69
+    ? "/custom-dog/dog-vest-arctic-blue.png"
+    :
+      selected.coat?.productId === 64
+    ? "/custom-dog/dog-coat-winter-reflective.png"
+    : selected.coat?.productId === 176
     ? "/custom-dog/dog-coat-olive-green.png"
     : selected.coat?.product?.slug === "dusty-pink-winter-dog-coat"
     ? "/custom-dog/dog-coat-dusty-pink.png"
@@ -335,7 +346,21 @@ function chooseProduct(category, item) {
             {currentCategory?.emoji} {currentCategory?.title}
           </h3>
 
-          <div style={styles.grid}>
+        <div
+        style={{
+            ...styles.grid,
+            justifyContent: "safe center",
+            display: "flex",
+            flexWrap: "nowrap",
+            overflowX: "auto",
+            overflowY: "hidden",
+            scrollSnapType: "x mandatory",
+            gap: "12px",
+            padding: "4px",
+            maxWidth: "100%",
+            boxSizing: "border-box",
+        }}
+        >
             {visibleItems.map((item) => {
               const active =
                 selected[activeCategory]?.productId ===
@@ -351,6 +376,11 @@ function chooseProduct(category, item) {
                   }
                   style={{
                     ...styles.card,
+                    flex: "0 0 145px",
+                    minWidth: "0",
+                    width: "145px",
+                    boxSizing: "border-box",
+                    scrollSnapAlign: "start",
                     border: active
                       ? "3px solid #a07860"
                       : "2px solid #e8e2dd",
@@ -358,7 +388,17 @@ function chooseProduct(category, item) {
                   }}
                 >
                   <img
-                    src={item.product.images?.[0]}
+                    src={
+                        item.productId === 49
+                          ? "/custom-dog/dog-raincoat-waterproof-yellow-v2.png"
+                        : item.productId === 27
+                        ? "/custom-dog/dog-raincoat-waterproof-yellow.png"
+                        : item.productId === 69
+                        ? "/custom-dog/dog-vest-arctic-blue.png"
+                        : item.productId === 64
+                        ? "/custom-dog/dog-coat-winter-reflective.png"
+                        : item.product.images?.[0]
+                    }
                     alt={item.product.name}
                     style={styles.image}
                   />

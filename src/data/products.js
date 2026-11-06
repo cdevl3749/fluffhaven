@@ -6820,6 +6820,9 @@ Quick, gentle paw cleaning after rainy walks and messy outdoor adventures.
   category: "dog",
   productType: "clothing",
 
+  customDogCategory: "coat",
+  customDogSizes: ["M", "L", "XL"],
+
   seasons: ["winter"],
 
   subtitle: "Warm padded coat • Reflective trim • Size L",
@@ -6850,10 +6853,11 @@ Quick, gentle paw cleaning after rainy walks and messy outdoor adventures.
 
   brand: "FluffHaven",
 
- details: `
-✓ Size L — chest 60–70 cm
+   details: `
+✓ Standard size: L — chest 60–70 cm
 ✓ Neck 45–50 cm — back length 50 cm
 ✓ Suggested dog weight: 15–22.5 kg
+✓ Other sizes (M and XL) available in our Custom Dog Outfit configurator
 ✓ Warm padded & water-resistant
 ✓ Reflective trim for visibility
 
@@ -6874,6 +6878,9 @@ Warm and comfortable winter protection. Please measure your dog before ordering 
 
   category: "dog",
   productType: "clothing",
+
+  customDogCategory: "coat",
+  customDogSizes: ["M", "L", "XL"],
 
   seasons: ["winter"],
 
@@ -6905,7 +6912,8 @@ Warm and comfortable winter protection. Please measure your dog before ordering 
   brand: "FluffHaven",
 
   details: `
-✓ Size L winter dog vest
+✓ Standard size: L
+✓ Other sizes (M and XL) available in our Custom Dog Outfit configurator
 ✓ Warm insulated padding
 ✓ Protection from cold & damp weather
 ✓ Lightweight comfortable fit
@@ -7284,6 +7292,9 @@ Its soft fleece interior and removable cushion provide a comfortable resting spa
   category: "dog",
   productType: "clothing",
 
+  customDogCategory: "coat",
+  customDogSizes: ["M", "L", "XL"],
+
   seasons: ["autumn", "winter"],
 
   subtitle: "Waterproof • Size M • Reflective protection",
@@ -7314,6 +7325,8 @@ seoDescription:
 brand: "FluffHaven",
 
 details: `
+✓ Standard size: M
+✓ Other sizes (L and XL) available in our Custom Dog Outfit configurator
 ✓ Waterproof & wind-resistant
 ✓ Reflective safety strips
 ✓ Lightweight comfortable fit
@@ -10041,6 +10054,9 @@ Designed for regular outdoor use, this FluffHaven set combines comfort, visibili
   category: "dog",
   productType: "clothing",
 
+  customDogCategory: "coat",
+  customDogSizes: ["M", "L", "XL"],
+
   seasons: ["autumn", "winter"],
 
   subtitle: "Waterproof • Windproof • Reflective",
@@ -10071,6 +10087,8 @@ seoDescription:
 brand: "FluffHaven",
 
 details: `
+✓ Standard size: L
+✓ Other sizes (M and XL) available in our Custom Dog Outfit configurator
 ✓ Waterproof & windproof
 ✓ Reflective trim for visibility
 ✓ Adjustable comfortable fit
