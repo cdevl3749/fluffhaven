@@ -706,20 +706,29 @@ if (priceSort === "high") {
 
   useEffect(() => {
   const path = window.location.pathname.replace(/\/+$/, "");
+  const pageFromHash = window.location.hash.replace("#", "");
 
   if (path === "/returns") {
     setActivePage("returns");
+  } else if (
+    ["contact", "privacy", "terms", "shipping"].includes(pageFromHash)
+  ) {
+    setActivePage(pageFromHash);
   }
 }, []);
 
-  useEffect(() => {
-  if (window.location.hash === "#shop") {
-    setTimeout(() => {
-      document.getElementById("shop")?.scrollIntoView({
+useEffect(() => {
+  const section = window.location.hash.replace("#", "");
+
+  if (["shop", "about", "reviews", "faq"].includes(section)) {
+    const timer = setTimeout(() => {
+      document.getElementById(section)?.scrollIntoView({
         behavior: "smooth",
         block: "start",
       });
     }, 200);
+
+    return () => clearTimeout(timer);
   }
 }, []);
 

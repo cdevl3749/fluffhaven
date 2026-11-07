@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { PRODUCTS } from "../data/products";
+import Footer from "../components/Footer";
 
 const categories = [
   { id: "coat", title: "Winter Coats", emoji: "🧥" },
@@ -212,6 +213,7 @@ function chooseProduct(category, item) {
   };
 
   return (
+  <>
     <main style={styles.page}>
       <a
         href="/"
@@ -579,6 +581,13 @@ function chooseProduct(category, item) {
           </p>
         </div>
       </div>
-    </main>
+            
+         </main>
+
+      {/* FOOTER CUSTOM DOG */}
+      <Footer />
+
+    </>
   );
 }
+  
