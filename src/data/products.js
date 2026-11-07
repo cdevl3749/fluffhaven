@@ -4678,61 +4678,57 @@ A practical and stylish feeding solution for everyday use.
   featured: true,
 },
 
-
 {
-  id: 172,
+  id: 151,
 
-  slug: "pink-rolling-mesh-cat-play-ball",
-
-  name: "Pink Rolling Mesh Cat Play Ball",
+  slug: "premium-green-caterpillar-cat-toy",
+  name: "Premium Green Caterpillar Cat Toy",
 
   category: "cat",
   productType: "toys",
+  seasons: ["summer", "autumn", "winter"],
 
-  seasons: ["spring", "summer", "autumn", "winter"],
+  subtitle: "Soft plush • Catnip inside • Playtime fun",
 
-  subtitle: "360° mesh play ball • Foldable design • Outdoor fun",
-
-  price: 27.90,
+  price: 7.90,
 
   badge: "🐱 Playtime Favorite",
 
-  priceId: "price_1UTnRHKn0lmTcQ11VpAvtRK3", // Add Stripe Price ID for $27.90
-
+  // Remplacer par le Price ID de ce produit dans Stripe
+  priceId: "price_1UUocmKn0lmTcQ11qHAaEHm7",
+ 
   images: [
-    "/Playful Kitten in Pink Garden Playhouse.webp",
-    "/Playful Rolling Pink Cat Ball.webp",
-    "/Stress-Free Outdoor Cat Tent.webp",
-    "/Ready in 3 Simple Steps_ Pink Cat Playhouse.webp",
-    "/More Room, Less Stress Playpen.webp",
+    "/Playful Lime Caterpillar Plush Toy.webp",
+    "/Playful Kitten and Green Caterpillar Toy.webp",
+    "/Playful Kitten and Caterpillar Toy.webp",
+    "/Plush Green Caterpillar Cat Toy.webp",
+    "/Playful Kitten and Fuzzy Caterpillar.webp",
   ],
 
   description:
-    "A lightweight pink mesh play ball that gives your cat a cozy space to explore, roll and enjoy supervised playtime indoors or outdoors.",
+    "Make playtime more exciting with this adorable green caterpillar plush toy. Its soft texture and catnip filling encourage playful moments and everyday indoor fun.",
 
   seoTitle:
-    "Pink Rolling Mesh Cat Play Ball | FluffHaven",
+    "Premium Green Caterpillar Cat Toy | FluffHaven",
 
   seoDescription:
-    "Discover the foldable pink rolling mesh cat play ball. Breathable 360° design for supervised indoor and outdoor fun. $27.90 at FluffHaven.",
+    "Soft green caterpillar plush cat toy with catnip filling. Perfect for batting, cuddling and encouraging fun indoor playtime.",
 
   brand: "FluffHaven",
 
   details: `
-✓ Breathable 360° mesh design
-✓ Lightweight and foldable
-✓ Easy pop-up setup
-✓ Zippered opening
-✓ Room to turn and stretch
-✓ For supervised indoor and outdoor play
+✓ Soft and fluffy plush texture
+✓ Catnip filling for added interest
+✓ Cute green caterpillar design
+✓ Great for batting and cuddling
+✓ Encourages everyday indoor play
 
-A playful little world for your curious cat!
+A soft and playful little companion to brighten your cat's day.
 `,
 
   inStock: true,
-  featured: true,
+  featured: false,
 },
-
 
 {
   id: 162,
@@ -4801,11 +4797,11 @@ A sweet little duo for everyday playtime.
 
   subtitle: "Adorable plush duo • Soft texture • Playful design",
 
-  price: 12.90,
+  price: 9.90,
 
   badge: "🐝 Cute Cat Duo",
 
-  priceId: "price_1USyFOKn0lmTcQ11koNcGkrD",
+  priceId: "price_1UZA9FKn0lmTcQ11oB568a5f",
 
   images: [
     "/Cozy Ladybug and Bee Plush Toys.webp",
@@ -5052,60 +5048,6 @@ A deliciously cute duo for everyday playtime.
   featured: true,
 },
 
-
-{
-  id: 151,
-
-  slug: "premium-green-caterpillar-cat-toy",
-  name: "Premium Green Caterpillar Cat Toy",
-
-  category: "cat",
-  productType: "toys",
-  seasons: ["summer", "autumn", "winter"],
-
-  subtitle: "Soft plush • Catnip inside • Playtime fun",
-
-  price: 7.90,
-
-  badge: "🐱 Playtime Favorite",
-
-  // Remplacer par le Price ID de ce produit dans Stripe
-  priceId: "price_1UUocmKn0lmTcQ11qHAaEHm7",
- 
-  images: [
-    "/Playful Lime Caterpillar Plush Toy.webp",
-    "/Playful Kitten and Green Caterpillar Toy.webp",
-    "/Playful Kitten and Caterpillar Toy.webp",
-    "/Plush Green Caterpillar Cat Toy.webp",
-    "/Playful Kitten and Fuzzy Caterpillar.webp",
-  ],
-
-  description:
-    "Make playtime more exciting with this adorable green caterpillar plush toy. Its soft texture and catnip filling encourage playful moments and everyday indoor fun.",
-
-  seoTitle:
-    "Premium Green Caterpillar Cat Toy | FluffHaven",
-
-  seoDescription:
-    "Soft green caterpillar plush cat toy with catnip filling. Perfect for batting, cuddling and encouraging fun indoor playtime.",
-
-  brand: "FluffHaven",
-
-  details: `
-✓ Soft and fluffy plush texture
-✓ Catnip filling for added interest
-✓ Cute green caterpillar design
-✓ Great for batting and cuddling
-✓ Encourages everyday indoor play
-
-A soft and playful little companion to brighten your cat's day.
-`,
-
-  inStock: true,
-  featured: false,
-},
-
-
 {
   id: 153,
 
@@ -5212,6 +5154,59 @@ A deliciously cute toy for your cat's everyday adventures!
   featured: false,
 },
 
+{
+  id: 172,
+
+  slug: "pink-rolling-mesh-cat-play-ball",
+
+  name: "Pink Rolling Mesh Cat Play Ball",
+
+  category: "cat",
+  productType: "toys",
+
+  seasons: ["spring", "summer", "autumn", "winter"],
+
+  subtitle: "360° mesh play ball • Foldable design • Outdoor fun",
+
+  price: 27.90,
+
+  badge: "🐱 Playtime Favorite",
+
+  priceId: "price_1UTnRHKn0lmTcQ11VpAvtRK3", // Add Stripe Price ID for $27.90
+
+  images: [
+    "/Playful Kitten in Pink Garden Playhouse.webp",
+    "/Playful Rolling Pink Cat Ball.webp",
+    "/Stress-Free Outdoor Cat Tent.webp",
+    "/Ready in 3 Simple Steps_ Pink Cat Playhouse.webp",
+    "/More Room, Less Stress Playpen.webp",
+  ],
+
+  description:
+    "A lightweight pink mesh play ball that gives your cat a cozy space to explore, roll and enjoy supervised playtime indoors or outdoors.",
+
+  seoTitle:
+    "Pink Rolling Mesh Cat Play Ball | FluffHaven",
+
+  seoDescription:
+    "Discover the foldable pink rolling mesh cat play ball. Breathable 360° design for supervised indoor and outdoor fun. $27.90 at FluffHaven.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Breathable 360° mesh design
+✓ Lightweight and foldable
+✓ Easy pop-up setup
+✓ Zippered opening
+✓ Room to turn and stretch
+✓ For supervised indoor and outdoor play
+
+A playful little world for your curious cat!
+`,
+
+  inStock: true,
+  featured: true,
+},
 
 {
   id: 155,
@@ -5770,11 +5765,11 @@ A fun FluffHaven enrichment toy for happier, more engaging playtime.
 
   subtitle: "Protect • Repair • Moisturize",
 
-  price: 15.90,
+  price: 10.90,
 
   badge: "🐾 Cat Care",
 
-  priceId: "price_1UFgfAKn0lmTcQ11U4dGptRU",
+  priceId: "price_1UZACDKn0lmTcQ11PhGdsjxL",
 
   images: [
     "/premium-cat-paw-balm-lifestyle.webp",
@@ -5829,11 +5824,11 @@ Easy to apply and suitable for all breeds, it's a practical FluffHaven essential
 
   subtitle: "2 slow feeder bowls • Mental stimulation • Blue + Pink",
 
-  price: 12.90,
+  price: 10.90,
 
   badge: "🐱 Enrichment Essential",
 
-  priceId: "price_1UUrf0Kn0lmTcQ11vFq3I7h7",
+  priceId: "price_1UZAEeKn0lmTcQ11yA260W4j",
 
   images: [
     "/premium-cat-enrichment-duo-benefits-2.webp",
@@ -6226,11 +6221,11 @@ Comfortable, adjustable and reflective for everyday adventures.
 
   subtitle: "15° inclined bowl • Automatic water refill • 2-in-1 feeding station",
 
-  price: 29.90,
+  price: 24.90,
 
   badge: "💧 Food & Water",
 
-  priceId: "price_1U8IEvKn0lmTcQ116vg5ZloH",
+  priceId: "price_1UZAHbKn0lmTcQ11h5joRkHk",
 
   images: [
     "/premium-2-in-1-cat-feeding-water-station-main.webp",
@@ -6344,11 +6339,11 @@ Combining entertainment, enrichment and practical storage, this complete FluffHa
 
   subtitle: "Natural jute rope • 10 m length • Repair & refresh scratching posts",
 
-  price: 16.90,
+  price: 12.90,
 
   badge: "🐱 Scratch & Renew",
 
-  priceId: "price_1UUrqPKn0lmTcQ11iKLuaQ3k",
+  priceId: "price_1UZAJvKn0lmTcQ11U8NubcVG",
 
   images: [
     "/premium-cat-scratcher-repair-rope-natural-jute.webp",
@@ -6462,11 +6457,11 @@ Its spacious corrugated surface and interactive side openings encourage natural 
 
   subtitle: "Scratch mat • Cozy play surface • Interactive toys included",
 
-  price: 10.90,
+  price: 7.90,
 
   badge: "🐾 Scratch & Play Essential",
 
-  priceId: "price_1UUrt1Kn0lmTcQ11eMYEi9PU",
+  priceId: "price_1UZALtKn0lmTcQ114Ekl8PTg",
 
   images: [
     "/premium-cat-scratch-play-mat-comfort.webp",
@@ -6524,11 +6519,11 @@ Combining scratching, interactive toys and resting areas, this FluffHaven mat br
 
   subtitle: "Large litter tray • Removable insert • Easy-clean everyday design",
 
-  price: 14.90,
+  price: 9.90,
 
   badge: "🐱 Clean Home Essential",
 
-  priceId: "price_1UUruVKn0lmTcQ11zXNzSJG3",
+  priceId: "price_1UZANYKn0lmTcQ116mzZsvi0",
 
   images: [
     "/premium-easy-clean-cat-litter-tray-home.webp",
@@ -6586,11 +6581,11 @@ Finished in neutral dark grey, this practical FluffHaven litter tray provides a 
 
   subtitle: "3 cozy knit sweaters • Size M • 3 colors • Warm & soft design",
 
-  price: 24.90,
+  price: 19.90,
 
   badge: "🧶 Cozy Knit Trio",
 
-  priceId: "price_1UUsX8Kn0lmTcQ11uVdsbJyp",
+  priceId: "price_1UZAPaKn0lmTcQ11O5gsBw0H",
 
   images: [
     "/premium-cozy-knit-cat-sweater-trio-colors.webp",
@@ -8219,11 +8214,11 @@ Quick and reusable pet hair removal for clothes, furniture and everyday surfaces
 
   subtitle: "Elevated wooden stand • 3 stainless steel bowls • Protective mat",
 
-  price: 44.90,
+  price: 34.90,
 
   badge: "🍂 Cozy Mealtime Essential",
 
-  priceId: "price_1UCgCOKn0lmTcQ11uCaLPTsg",
+  priceId: "price_1UZAS4Kn0lmTcQ11oYw6aREs",
 
   images: [
     "/premium-elevated-triple-cat-feeding-station-benefits.webp",
@@ -8280,11 +8275,11 @@ Stable, practical and easy to maintain, this FluffHaven feeding station combines
 
   subtitle: "Plush sofa-style bed • Size L • 90 × 80 cm • Cozy raised edges",
 
-  price: 34.90,
+  price: 24.90,
 
   badge: "🍂 Cozy Lounge Essential",
 
-  priceId: "price_1UCgF5Kn0lmTcQ11B5Jdt7gd",
+  priceId: "price_1UZATsKn0lmTcQ115CzwJrGv",
 
   images: [
     "/premium-cozy-cat-sofa-bed-armchair.webp",
@@ -8466,11 +8461,11 @@ Lightweight and machine washable, this FluffHaven duo combines warmth, practical
 
   subtitle: "2-level scratcher • Interactive ball • Honeycomb cardboard",
 
-  price: 12.90,
+  price: 8.90,
 
   badge: "🐾 Interactive Play Favorite",
 
-  priceId: "price_1UUseNKn0lmTcQ11kPozLBja",
+  priceId: "price_1UZAWCKn0lmTcQ11b1igNdq5",
 
   images: [
   "/premium-interactive-cat-scratcher-maze-4.webp",
@@ -8776,11 +8771,11 @@ Suitable for kittens and adult cats, this FluffHaven mat provides everyday comfo
 
   subtitle: "Ultra-warm winter snowsuit • Padded protection • Size S",
 
-  price: 29.90,
+  price: 19.90,
 
   badge: "❄️ Arctic Winter Essential",
 
-  priceId: "price_1UMClZKn0lmTcQ11u9oJphlj",
+  priceId: "price_1UZAZBKn0lmTcQ11t1pavQqM",
 
   images: [
     "/premium-arctic-winter-cat-snowsuit-features.webp",
@@ -8953,11 +8948,11 @@ Lightweight and portable, this FluffHaven playpen is practical for home, garden,
 
   subtitle: "Interactive water toy • Cooling fun • 70 cm",
 
-  price: 14.90,
+  price: 8.90,
 
   badge: "💦 Summer Essential",
 
-  priceId: "price_1UUsqCKn0lmTcQ11qjVdpp31",
+  priceId: "price_1UZAb3Kn0lmTcQ116vjsl9eO",
 
   images: [
   "/premium-floating-water-play-mat-cat-4.webp",
@@ -9443,9 +9438,9 @@ USB-C rechargeable and suitable for all breeds, it's a practical FluffHaven tool
   productType: "walking-travel",
   seasons: ["summer", "autumn"],
   subtitle: "Breathable · spacious · travel-ready",
-  price: 39.90,
+  price: 24.90,
   badge: "🎒 Travel Pick",
-  priceId: "price_1UGcmbKn0lmTcQ11YrdZxhU4",
+  priceId: "price_1UZA6xKn0lmTcQ11ltPkDxc0",
 
   images: [
   "/sac_transport_chat4.webp",
@@ -9535,11 +9530,11 @@ Soft, cozy comfort for peaceful everyday naps.
 
   subtitle: "2L · quiet pump · filtered water",
 
-  price: 29.90,
+  price: 24.90,
 
   badge: "💧 Premium",
 
-  priceId: "price_1UUt29Kn0lmTcQ11xwbV159k",
+  priceId: "price_1UZAe3Kn0lmTcQ11l8ZPFxlp",
 
   images: [
     "/fontaine_chat5.webp",
@@ -9716,9 +9711,9 @@ Designed for indoor use, it provides an alternative scratching surface while hel
     productType: "toys",
     seasons: ["summer", "autumn", "winter"],
     subtitle: "2 retractable wands · 10 feather & teaser refills",
-    price: 9.90,
+    price: 6.90,
     badge: "Fun",
-    priceId: "price_1UUt9TKn0lmTcQ117o3gmlFD",
+    priceId: "price_1UZAhrKn0lmTcQ11IelZPNvF",
     images: [
       "/plume_chat4.webp",
       "/plume_chat5.webp",
@@ -9756,9 +9751,9 @@ Easy to store between play sessions, this FluffHaven set provides plenty of vari
     productType: "toys",
     seasons: ["summer", "autumn", "winter"],
     subtitle: "Foldable linen tunnel · 30×70 cm · pompom ball included",
-    price: 24.90,
+    price: 17.90,
     badge: null,
-    priceId: "price_1U8gB8Kn0lmTcQ11aoQoDeUs",
+    priceId: "price_1UZAkIKn0lmTcQ11QDkw3YTO",
     images: [
       "/tunnel_chat4.webp",
       "/tunnel_chat5.webp",
@@ -9945,11 +9940,11 @@ Free from harsh irritants, it's a practical FluffHaven choice for dogs with sens
 
   subtitle: "Hypoallergenic • Gentle formula • Sensitive skin",
 
-  price: 15.90,
+  price: 10.90,
 
   badge: "",
 
-  priceId: "price_1UGd0yKn0lmTcQ11UqLRXnmK",
+  priceId: "price_1UZAnBKn0lmTcQ11XsZGYFQ7",
 
  images: [
   "/cat_shampoo4.webp",
