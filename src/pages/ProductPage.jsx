@@ -88,7 +88,7 @@ const [openCart, setOpenCart] = useState(false);
   }).catch(() => {});
 }, [product]);
 
-  useEffect(() => {
+useEffect(() => {
   if (!product) return;
 
   const startTime = Date.now();
@@ -101,18 +101,42 @@ const [openCart, setOpenCart] = useState(false);
 
     if (duration < 1 || duration > 1800) return;
 
-    sent = true;
-
     const data = JSON.stringify({
       type: "productTime",
       productName: product.name,
       duration,
     });
 
-    navigator.sendBeacon(
-      "/.netlify/functions/stats",
-      new Blob([data], { type: "application/json" })
-    );
+    const url = "/.netlify/functions/stats";
+
+    try {
+      if (navigator.sendBeacon) {
+        const queued = navigator.sendBeacon(
+          url,
+          new Blob([data], { type: "application/json" })
+        );
+
+        if (queued) {
+          sent = true;
+          return;
+        }
+      }
+    } catch (error) {
+      console.warn("Product time beacon error:", error);
+    }
+
+    sent = true;
+
+    fetch(url, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: data,
+      keepalive: true,
+    }).catch((error) => {
+      console.warn("Product time tracking error:", error);
+    });
   };
 
   window.addEventListener("pagehide", sendProductTime);

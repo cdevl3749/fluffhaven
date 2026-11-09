@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { PRODUCTS } from "../data/products";
 import Footer from "../components/Footer";
 
@@ -13,7 +13,21 @@ export default function CustomDog() {
   const [selected, setSelected] = useState({});
   const [sizes, setSizes] = useState({});
 
- 
+  // PONPON CUSTOM DOG - VISIT TRACKING
+  useEffect(() => {
+    fetch("/.netlify/functions/stats", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        type: "customDogView",
+      }),
+    }).catch((error) => {
+      console.warn("Custom Dog visit tracking error:", error);
+    });
+  }, []);
+
 const mannequinImage =
     selected.coat?.productId === 49
     ? "/custom-dog/dog-raincoat-waterproof-yellow-v2.png"
@@ -85,6 +99,19 @@ const mannequinImage =
     }
   }
 
+  // PONPON CUSTOM DOG - BUY NOW TRACKING
+  fetch("/.netlify/functions/stats", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      type: "customDogBuyNow",
+    }),
+  }).catch((error) => {
+    console.warn("Custom Dog Buy Now tracking error:", error);
+  });
+
  const items = selectedItems.map(([category, item]) => ({
   priceId: item.product.priceId,
   quantity: 1,
@@ -109,6 +136,20 @@ const mannequinImage =
       alert(data.details || data.error || "Stripe checkout error");
       return;
     }
+
+    // PONPON CUSTOM DOG - STRIPE TRACKING
+    fetch("/.netlify/functions/stats", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        type: "customDogStripe",
+      }),
+      keepalive: true,
+    }).catch((error) => {
+      console.warn("Custom Dog Stripe tracking error:", error);
+    });
 
     window.location.href = data.url;
   } catch (error) {

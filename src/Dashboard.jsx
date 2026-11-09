@@ -163,6 +163,71 @@ export default function Dashboard() {
         ))}
       </div>
 
+
+      {/* PONPON WINTER CUSTOM DOG */}
+      <div style={styles.section}>
+        <h2 style={styles.sectionTitle}>
+          🐶 Ponpon's Winter Custom Dog
+        </h2>
+
+        <div style={styles.grid}>
+          {[
+            {
+              label: "Visites configurateur",
+              value: stats.customDogViews ?? 0,
+              icon: "👀",
+              color: "#0ea5e9",
+            },
+            {
+              label: "Clics Buy Now",
+              value: stats.customDogBuyNow ?? 0,
+              icon: "🛒",
+              color: "#f59e0b",
+            },
+            {
+              label: "Sessions Stripe créées",
+              value: stats.customDogStripe ?? 0,
+              icon: "💳",
+              color: "#8b5cf6",
+            },
+          ].map((item) => (
+            <div
+              key={item.label}
+              style={{
+                ...styles.card,
+                borderTop: `4px solid ${item.color}`,
+              }}
+            >
+              <div style={{ fontSize: 28, marginBottom: 8 }}>
+                {item.icon}
+              </div>
+              <div
+                style={{
+                  ...styles.cardValue,
+                  color: item.color,
+                }}
+              >
+                {String(item.value)}
+              </div>
+              <div style={styles.cardLabel}>
+                {item.label}
+              </div>
+            </div>
+          ))}
+        </div>
+        <p
+          style={{
+            fontSize: 12,
+            color: "#888",
+            fontFamily: "sans-serif",
+            marginTop: 12,
+          }}
+        >
+          Les clics Buy Now et les sessions Stripe ne sont pas
+          des paiements confirmés.
+        </p>
+      </div>
+
       {/* PAYS */}
       <div style={styles.section}>
         <h2 style={styles.sectionTitle}>🌍 Visiteurs par pays</h2>

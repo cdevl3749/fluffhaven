@@ -57,6 +57,55 @@ A little Christmas magic, specially selected by Ponpon.
   featured: true,
 },
 
+
+{
+  id: 185,
+  slug: "cozy-striped-winter-dog-scarf",
+  name: "Cozy Striped Winter Dog Scarf",
+  category: "dog",
+  productType: "clothing",
+  seasons: ["autumn", "winter"],
+
+  subtitle: "Soft striped snood • Cozy lining • Size L",
+  price: 10.90,
+  badge: "❄️ Winter Essential",
+
+  priceId: "price_1UZCD0Kn0lmTcQ11h1u1yprK", // Ajouter le Price ID Stripe à $10.90
+
+  images: [
+    "/Sage Striped Dog Snood in Snow.webp",
+    "/Plush Winter Loop Scarf Close-Up.webp",
+    "/Snowy AniOne Knit Scarf Detail.webp",
+    "/Snowy Striped Dog Collar Loop.webp",
+    "/Snowy Jack Russell with Striped Scarf.webp",
+  ],
+
+  description:
+    "Keep your dog cozy on chilly walks with this soft striped winter scarf. Featuring a comfortable grey lining and a stylish sage-green design.",
+
+  seoTitle:
+    "Cozy Striped Winter Dog Scarf Size L | FluffHaven",
+
+  seoDescription:
+    "Soft striped winter dog scarf with cozy grey lining. Sage-green and white design, size L. Only $10.90 at FluffHaven.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Available size: L only
+✓ Soft and cozy grey lining
+✓ Sage-green and white striped design
+✓ Comfortable loop-style scarf
+✓ Stylish brown fastening detail
+✓ Ideal for autumn and winter walks
+
+A cozy finishing touch for your dog's winter outfit!
+`,
+
+  inStock: true,
+  featured: true,
+},
+
 {
   id: 176,
   slug: "olive-green-winter-dog-coat",
@@ -362,6 +411,102 @@ A colorful touch of warmth for your little companion!
   featured: true,
 },
 
+{
+  id: 186,
+  slug: "grey-silicone-dog-paw-cleaner",
+  name: "Grey Silicone Dog Paw Cleaner",
+  category: "dog",
+  productType: "grooming-care",
+  seasons: ["autumn", "winter"],
+
+  subtitle: "Gentle silicone bristles • Easy cleaning • Size L",
+  price: 9.90,
+  badge: "❄️ Winter Essential",
+
+  priceId: "price_1UZD3wKn0lmTcQ11Si1izqI3", // Ajouter le Price ID Stripe à $9.90
+
+  images: [
+    "/Gray Silicone Paw Cleaner in Snow.webp",
+    "/Snowy Silicone Paw-Washing Cup.webp",
+    "/Winter Paw-Cleaning Retriever.webp",
+    "/Snowy Paw Cleaner Size Guide.webp",
+    "/Flexible Silicone Paw Cleaner in Snow.webp",
+  ],
+
+  description:
+    "Keep your dog's paws clean after muddy or snowy walks with this flexible grey silicone paw cleaner. Gentle inner bristles help remove dirt quickly and comfortably.",
+
+  seoTitle:
+    "Grey Silicone Dog Paw Cleaner Size L | FluffHaven",
+
+  seoDescription:
+    "Clean muddy paws with this flexible grey silicone dog paw cleaner. Gentle bristles, easy to use, size L. Only $9.90 at FluffHaven.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Available size: L only
+✓ Soft and flexible silicone
+✓ Gentle inner cleaning bristles
+✓ Helps remove mud and dirt
+✓ Easy to rinse after use
+✓ Ideal for rainy and winter walks
+
+Clean paws, happy home!
+`,
+
+  inStock: true,
+  featured: true,
+},
+
+
+{
+  id: 187,
+  slug: "grey-dog-undercoat-grooming-rake",
+  name: "Grey Dog Undercoat Grooming Rake",
+  category: "dog",
+  productType: "grooming-care",
+  seasons: ["spring", "summer", "autumn", "winter"],
+
+  subtitle: "Gentle undercoat care • Rounded metal pins • Easy grip",
+  price: 10.90,
+  badge: "🐾 Grooming Essential",
+
+  priceId: "price_1UZF62Kn0lmTcQ11wtZ2YyE7", // À compléter avec le Price ID Stripe à $10.90
+
+  images: [
+    "/Dark Gray Pet Grooming Rake Brush.webp",
+    "/Rounded Pins Gentle Grooming.webp",
+    "/Happy Golden Retriever Grooming.webp",
+    "/Grey Pet Grooming Rake on Paw-Print Towel.webp",
+    "/Grooming Brush with Fur Removal Benefits.webp",
+  ],
+
+  description:
+    "Keep your dog's coat neat and comfortable with this practical undercoat grooming rake. Its rounded metal pins help remove loose fur, while the ergonomic handle provides a comfortable grip.",
+
+  seoTitle:
+    "Grey Dog Undercoat Grooming Rake | FluffHaven",
+
+  seoDescription:
+    "Remove loose undercoat with this grey dog grooming rake. Rounded metal pins and an ergonomic handle. Only $10.90 at FluffHaven.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Helps remove loose undercoat
+✓ Rounded metal pins for gentle grooming
+✓ Comfortable ergonomic handle
+✓ Helps reduce loose fur around the home
+✓ Suitable for regular coat maintenance
+✓ Practical grooming tool for every season
+
+Less loose fur, more happy cuddles!
+`,
+
+  inStock: true,
+  featured: true,
+},
 
 {
   id: 183,

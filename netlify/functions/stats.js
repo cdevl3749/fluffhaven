@@ -69,6 +69,9 @@ export async function handler(event) {
         productStatsRaw,
         productTimeStatsRaw,
         productCountryStatsRaw,
+        customDogViews,
+        customDogBuyNow,
+        customDogStripe,
       ] = await Promise.all([
         redis(["GET", "visitors"]),
         redis(["GET", "clicks"]),
@@ -84,6 +87,9 @@ export async function handler(event) {
         redis(["GET", "productStats"]),
         redis(["GET", "productTimeStats"]),
         redis(["GET", "productCountryStats"]),
+        redis(["GET", "customDogViews"]),
+        redis(["GET", "customDogBuyNow"]),
+        redis(["GET", "customDogStripe"]),
       ]);
 
       return {
@@ -104,6 +110,10 @@ export async function handler(event) {
           productStats: JSON.parse(productStatsRaw || "{}"),
           productTimeStats: JSON.parse(productTimeStatsRaw || "{}"),
           productCountryStats: JSON.parse(productCountryStatsRaw || "{}"),
+          customDogViews: parseInt(customDogViews || "0", 10),
+          customDogBuyNow: parseInt(customDogBuyNow || "0", 10),
+          customDogStripe: parseInt(customDogStripe || "0", 10),
+
         }),
       };
 
@@ -345,6 +355,21 @@ if (data.type === "productTime") {
         await redis(["INCR", "payments"]);
       }
 
+      // PONPON CUSTOM DOG - VISIT
+      if (data.type === "customDogView") {
+        await redis(["INCR", "customDogViews"]);
+      }
+
+      // PONPON CUSTOM DOG - BUY NOW CLICK
+      if (data.type === "customDogBuyNow") {
+        await redis(["INCR", "customDogBuyNow"]);
+      }
+
+      // PONPON CUSTOM DOG - STRIPE SESSION CREATED
+      if (data.type === "customDogStripe") {
+        await redis(["INCR", "customDogStripe"]);
+      }
+
       return {
         statusCode: 200,
         headers: HEADERS,
@@ -385,6 +410,9 @@ if (data.type === "productTime") {
         redis(["SET", "sources", "{}"]),
         redis(["SET", "productStats", "{}"]),
         redis(["SET", "productTimeStats", "{}"]),
+        redis(["SET", "customDogViews", "0"]),
+        redis(["SET", "customDogBuyNow", "0"]),
+        redis(["SET", "customDogStripe", "0"]),
         redis(["SET", "productCountryStats", "{}"]),
         redis(["SET", "cartCountryStats", "{}"]),
       ]);
