@@ -132,7 +132,11 @@ function VisitTracker() {
           ? "Mobile"
           : "Desktop",
         page: window.location.pathname,
-        source: document.referrer || "Direct",
+        source:
+        new URLSearchParams(window.location.search).get("source") ||
+        new URLSearchParams(window.location.search).get("utm_source") ||
+        document.referrer ||
+        "Direct",
       }),
     })
       .then(() => sessionStorage.setItem(KEY, "true"))

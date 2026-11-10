@@ -3883,3 +3883,306 @@ body.modal-open {
   margin: 0;
   line-height: 1.5;
 }
+
+/* ═════════════════════════════════════════════════════════════
+   NOUVEL ACCUEIL — Custom Dog (hc-) et Avis (rv-)
+   Ajouté le 10/11/2026 — classes préfixées, aucun ancien style modifié
+   ═════════════════════════════════════════════════════════════ */
+
+/* ─── Bannière Custom Dog ─── */
+.hc-banner {
+  width: calc(100% - 32px);
+  max-width: 1100px;
+  margin: 28px auto 36px;
+  padding: 36px 44px;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+  align-items: center;
+  gap: 32px;
+  overflow: hidden;
+  border: 1px solid #ecd9c3;
+  border-radius: 24px;
+  background: linear-gradient(120deg, #fbefdf 0%, #f6e3cf 100%);
+}
+
+.hc-eyebrow {
+  margin: 0 0 12px;
+  color: #a06d53;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.hc-banner h2 {
+  margin: 0 0 14px;
+  color: #49372f;
+  font-family: var(--font-body);
+  font-size: clamp(26px, 3.4vw, 40px);
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+}
+
+.hc-sub {
+  margin: 0 0 24px;
+  color: #795f50;
+  font-size: clamp(15px, 1.8vw, 18px);
+  line-height: 1.55;
+}
+
+.hc-btn {
+  display: inline-block;
+  box-sizing: border-box;
+  max-width: 100%;
+  padding: 16px 28px;
+  border-radius: 999px;
+  background: #f7b940;
+  color: #30251e;
+  font-size: clamp(15px, 1.8vw, 17px);
+  font-weight: 700;
+  text-decoration: none;
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.hc-btn:hover {
+  background: #e9a72f;
+  transform: translateY(-2px);
+}
+
+.hc-btn:focus-visible {
+  outline: 3px solid #49372f;
+  outline-offset: 3px;
+}
+
+.hc-note {
+  margin: 14px 0 0;
+  color: #795f50;
+  font-size: 13px;
+}
+
+.hc-polaroids {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.hc-polaroid {
+  width: 142px;
+  flex-shrink: 0;
+  margin-left: -20px;
+  padding: 8px 8px 10px;
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0 10px 24px rgba(70, 45, 25, 0.18);
+  color: #4a3426;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.hc-polaroid:first-child {
+  margin-left: 0;
+  transform: rotate(-7deg);
+}
+
+.hc-polaroid:nth-child(2) {
+  position: relative;
+  z-index: 2;
+  transform: rotate(2deg) translateY(-8px);
+}
+
+.hc-polaroid:nth-child(3) {
+  transform: rotate(8deg);
+}
+
+.hc-polaroid img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  margin-bottom: 8px;
+  border-radius: 3px;
+  object-fit: cover;
+}
+
+@media (max-width: 760px) {
+  .hc-banner {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 22px;
+    margin: 20px auto 28px;
+    padding: 28px 18px 24px;
+    text-align: center;
+  }
+
+  .hc-btn {
+    display: block;
+    width: 100%;
+    max-width: 360px;
+    margin: 0 auto;
+    padding: 15px 18px;
+  }
+
+  .hc-polaroid {
+    width: 104px;
+    margin-left: -14px;
+    font-size: 12px;
+  }
+}
+
+/* ─── Avis ─── */
+.rv-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 22px;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.rv-card {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 28px 26px;
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  background: var(--white);
+  box-shadow: var(--shadow-sm);
+  text-align: left;
+}
+
+.rv-head {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.rv-avatar {
+  width: 56px;
+  height: 56px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.rv-name {
+  margin: 0;
+  color: var(--ink);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.rv-role {
+  margin: 2px 0 0;
+  color: var(--ink-light);
+  font-size: 13px;
+}
+
+.rv-stars {
+  color: #d4a017;
+  font-size: 18px;
+  letter-spacing: 3px;
+}
+
+.rv-text {
+  margin: 0;
+  color: var(--ink-mid);
+  font-size: 15px;
+  line-height: 1.65;
+}
+
+.rv-dots {
+  display: none;
+}
+
+@media (max-width: 760px) {
+  .rv-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .rv-card:not(.is-current) {
+    display: none;
+  }
+
+  .rv-card {
+    padding: 24px 20px;
+  }
+
+  .rv-text {
+    font-size: 15.5px;
+  }
+
+  .rv-dots {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    margin-top: 14px;
+  }
+
+  .rv-dot {
+    width: 28px;
+    height: 28px;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+    position: relative;
+  }
+
+  .rv-dot::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: #cdbfb2;
+    transform: translate(-50%, -50%);
+  }
+
+  .rv-dot.is-current::after {
+    background: var(--ink);
+  }
+}
+
+/* FLUFFHAVEN — Why FluffHaven compact */
+.why-fluffhaven {
+  padding: 36px 20px;
+}
+
+.why-fluffhaven .why-card {
+  padding: 30px 32px;
+}
+
+/* FLUFFHAVEN — Cartes Shop plus compactes */
+
+.product-body {
+  padding: 12px 14px 14px;
+}
+
+.product-info {
+  flex: 0 1 auto;
+}
+
+.product-footer {
+  gap: 7px;
+}
+
+/* FLUFFHAVEN — Alignement des boutons Shop */
+
+.product-body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.product-info {
+  flex: 1;
+}
+
+.product-footer {
+  margin-top: auto;
+}

@@ -1,1 +1,1 @@
-export const HOME_VERSION = "B";
+export const HOME_VERSION = "C";

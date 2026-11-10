@@ -565,7 +565,7 @@ const [priceSort, setPriceSort] = useState(savedShopFilters.priceSort || "defaul
     text: "FluffHaven has a warm and reassuring visual identity. Ponpon gives the brand a friendly, human touch, while the product pages provide helpful information that reassures potential buyers.",
   },
   {
-  name: "Julie Rysselinc​​k",
+  name: "Julie Rysselinck",
   role: "Pet lover • France",
   image: "/images/reviews/julie-cat.webp",
   text: "A lovely discovery! FluffHaven is clear and pleasant to browse, and the dog collection has clearly been selected with care. The shop is still young, but the catalogue is growing little by little. You can feel the heart behind this project. Wishing FluffHaven every success!",
@@ -861,6 +861,16 @@ useEffect(() => {
 }
 
   const scrollTo = (id) => document.querySelector(id)?.scrollIntoView({ behavior: "smooth" });
+
+  // Tuiles "Shop Dogs / Shop Cats" de l'accueil : applique le filtre puis défile vers la boutique
+  const handleShopPet = (pet) => {
+    setPetFilter(pet);
+    setSeasonFilter("all");
+    setProductTypeFilter("all");
+    setTimeout(() => {
+      document.getElementById("shop")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    }, 50);
+  };
   const addToCart = (item) => {
   setCart((prev) => [...prev, item]);
   setOpenCart(true);
@@ -934,97 +944,38 @@ useEffect(() => {
       </header>
 
       {/* HERO */}
-      <HomeSwitcher />
+      <HomeSwitcher onShopPet={handleShopPet} />
       {/* CUSTOM DOG OUTFIT */}
-      <section
-        style={{
-          padding: "35px 16px",
-          background: "#f8f0e9",
-          textAlign: "center",
-          borderRadius: 20,
-          margin: "20px auto 35px",
-          width: "calc(100% - 32px)",
-          maxWidth: 1100,
-          boxSizing: "border-box",
-        }}
-      >
-  <p
-    style={{
-      color: "#a06d53",
-      fontSize: 13,
-      fontWeight: 700,
-      letterSpacing: 2,
-      marginBottom: 12,
-    }}
-  >
-    NEW AT FLUFFHAVEN
-  </p>
+      <section className="hc-banner">
+        <div className="hc-text">
+          <p className="hc-eyebrow">New at FluffHaven</p>
+          <h2>Create Your Dog's Perfect Winter Outfit</h2>
+          <p className="hc-sub">Mix, match &amp; find the perfect cozy look for your furry friend!</p>
+          <a href="/custom-dog" className="hc-btn">
+            🐾 Customize Your Dog's Outfit →
+          </a>
+          <p className="hc-note">Free to explore • No account needed</p>
+        </div>
 
-  <h2
-    style={{
-      color: "#49372f",
-      fontSize: "clamp(24px, 4vw, 36px)",
-      lineHeight: 1.2,
-      marginBottom: 15,
-    }}
-  >
-    Create Your Dog's Perfect Winter Outfit
-  </h2>
-
-  <p
-    style={{
-      color: "#795f50",
-      fontSize: "clamp(14px, 2vw, 17px)",
-      lineHeight: 1.6,
-      marginBottom: 25,
-    }}
-  >
-    Mix, match & find the perfect cozy look for your furry friend!
-  </p>
-
-  <a
-    href="/custom-dog"
-    style={{
-      display: "inline-block",
-      width: "100%",
-      maxWidth: 360,
-      boxSizing: "border-box",
-      padding: "16px 20px",
-      background: "#f7b940",
-      color: "#30251e",
-      borderRadius: 14,
-      fontWeight: 700,
-      fontSize: "clamp(14px, 2vw, 17px)",
-      textDecoration: "none",
-      transition: "transform 0.2s ease, background 0.2s ease",
-    }}
-    onMouseEnter={(e) => {
-      e.currentTarget.style.background = "#e9a72f";
-      e.currentTarget.style.transform = "translateY(-2px)";
-    }}
-    onMouseLeave={(e) => {
-      e.currentTarget.style.background = "#f7b940";
-      e.currentTarget.style.transform = "translateY(0)";
-    }}
-  >
-    🐾 Customize Your Dog's Outfit →
-  </a>
-
-  <p
-    style={{
-      marginTop: 16,
-      marginBottom: 0,
-      color: "#795f50",
-      fontSize: 12,
-    }}
-  >
-    Free to explore • No account needed
-  </p>
-</section>
+        <div className="hc-polaroids" aria-hidden="true">
+          <div className="hc-polaroid">
+            <img src="/Olive Green Dog Coat in a Snowy Wonderland.webp" alt="" loading="lazy" />
+            <span>Coat</span>
+          </div>
+          <div className="hc-polaroid">
+            <img src="/Turquoise Striped Dog Sweater in Snow.webp" alt="" loading="lazy" />
+            <span>Sweater</span>
+          </div>
+          <div className="hc-polaroid">
+            <img src="/Winter Dog in Christmas Sweater.webp" alt="" loading="lazy" />
+            <span>Christmas</span>
+          </div>
+        </div>
+      </section>
       {/* SHOP */}
       <section id="shop" className="section">
         <div className="section-label">Our Collection</div>
-        <h2>Featured Picks</h2>
+        <h2>Shop the Collection</h2>
         <div
           style={{
             textAlign: "center",
@@ -1113,7 +1064,7 @@ useEffect(() => {
 </div>
 
 <p className="products-found">
-  Showing 3 of {filteredProducts.length} products
+  Showing {Math.min(visibleProductCount, filteredProducts.length)} of {filteredProducts.length} products
 </p>
 
      <div className="products">
@@ -1325,89 +1276,46 @@ useEffect(() => {
 
   <h2>What people say about FluffHaven</h2>
 
-  <div className="reviews">
-    <div
-      className="review"
-      onMouseEnter={() => setIsReviewPaused(true)}
-      onMouseLeave={() => setIsReviewPaused(false)}
-      style={{
-        gridColumn: "1 / -1",
-        maxWidth: "850px",
-        margin: "0 auto",
-        textAlign: "center",
-      }}
-    >
-      <img
-        src={reviews[currentReview].image}
-        alt={reviews[currentReview].name}
-        loading="lazy"
-        style={{
-          width: "90px",
-          height: "90px",
-          borderRadius: "50%",
-          objectFit: "cover",
-          margin: "0 auto 18px",
-          display: "block",
-          border: "none",
-        }}
+  <div
+    className="rv-grid"
+    onMouseEnter={() => setIsReviewPaused(true)}
+    onMouseLeave={() => setIsReviewPaused(false)}
+  >
+    {reviews.map((review, index) => (
+      <article
+        key={review.name}
+        className={`rv-card${index === currentReview ? " is-current" : ""}`}
+      >
+        <div className="rv-head">
+          <img
+            className="rv-avatar"
+            src={review.image}
+            alt={review.name}
+            loading="lazy"
+          />
+          <div>
+            <h3 className="rv-name">{review.name}</h3>
+            {review.role && <p className="rv-role">{review.role}</p>}
+          </div>
+        </div>
+
+        <div className="rv-stars" aria-label="5 out of 5 stars">★★★★★</div>
+
+        <p className="rv-text">“{review.text}”</p>
+      </article>
+    ))}
+  </div>
+
+  <div className="rv-dots">
+    {reviews.map((_, index) => (
+      <button
+        type="button"
+        key={index}
+        className={`rv-dot${index === currentReview ? " is-current" : ""}`}
+        onClick={() => setCurrentReview(index)}
+        aria-label={`Show review ${index + 1}`}
       />
-
-      <div
-        style={{
-          fontSize: "20px",
-          marginBottom: "12px",
-          color: "#D4A017",
-          letterSpacing: "3px",
-        }}
-      >
-        ★★★★★
-      </div>
-
-      <p style={{ fontSize: "18px", lineHeight: "1.7" }}>
-        “{reviews[currentReview].text}”
-      </p>
-
-      <h3 style={{ marginBottom: "4px" }}>
-        {reviews[currentReview].name}
-      </h3>
-
-      {reviews[currentReview].role && (
-        <p
-          style={{
-            fontSize: "14px",
-            opacity: "0.75",
-            marginTop: "0",
-          }}
-        >
-          {reviews[currentReview].role}
-        </p>
-      )}
-
-      <div
-        style={{
-          marginTop: "18px",
-          fontSize: "12px",
-          opacity: "0.45",
-          letterSpacing: "6px",
-        }}
-      >
-       {reviews.map((_, index) => (
-        <span
-          key={index}
-          onClick={() => setCurrentReview(index)}
-          style={{
-            cursor: "pointer",
-            fontSize: "20px",
-            display: "inline-block",
-            padding: "4px",
-          }}
-          aria-label={`Show review ${index + 1}`}
-        >
-          {index === currentReview ? "●" : "○"}
-        </span>
-      ))}
-      </div>
-    </div>
+    ))}
   </div>
 </section>
 
