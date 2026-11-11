@@ -947,6 +947,13 @@ useEffect(() => {
       <HomeSwitcher onShopPet={handleShopPet} />
       {/* CUSTOM DOG OUTFIT */}
       <section className="hc-banner">
+          <div className="hc-ponpon">
+          <img
+            src="/ponpon-pink-winter.webp"
+            alt="Ponpon wearing a pink winter coat and matching hat"
+            loading="lazy"
+          />
+        </div>
         <div className="hc-text">
           <p className="hc-eyebrow">New at FluffHaven</p>
           <h2>Create Your Dog's Perfect Winter Outfit</h2>
