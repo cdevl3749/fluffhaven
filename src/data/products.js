@@ -2073,11 +2073,11 @@ Made from 100% beef and naturally dried, with no unnecessary additives or preser
 
   subtitle: "Strong buckle • AirTag holder • Comfortable fit • Size L • Neck 40–52 cm",
 
-  price: 24.90,
+  price: 19.90,
 
   badge: "🐕 Adventure Essential",
 
-  priceId: "price_1UFC3kKn0lmTcQ11PWvluXjs",
+  priceId: "price_1Ub4NIKn0lmTcQ11e262z1td",
 
   images: [
     "/premium-tactical-adventure-dog-collar-main.webp",
@@ -2277,11 +2277,11 @@ Hide treats in the carrot garden and let your dog sniff, search and play!
 
   subtitle: "Compact treat pouch • Secure drawstring • Easy access • 10 × 14 cm",
 
-  price: 9.90,
+  price: 6.90,
 
   badge: "🐾 Walk & Train Essential",
 
-  priceId: "price_1UUr4sKn0lmTcQ11T5uZx5VN",
+  priceId: "price_1Ub4EHKn0lmTcQ11eP3b7blX",
 
   images: [
     "/premium-dog-treat-training-pouch-main.webp",
@@ -2655,11 +2655,11 @@ A FluffHaven bath-time essential.
 
   subtitle: "Warm lining • Built-in harness • Reflective details • Size 5XL • From 24 kg",
 
-  price: 44.90,
+  price: 29.90,
 
   badge: "❄️ Winter Essential",
 
-  priceId: "price_1UKmIkKn0lmTcQ11LgoU6x1r",
+  priceId: "price_1Ub4H4Kn0lmTcQ11AsqkM5o9",
 
   images: [
     "/premium-winter-dog-coat-with-harness-main.webp",
@@ -3317,14 +3317,14 @@ A stylish and comfortable collar for everyday walks and outdoor adventures.
 
   subtitle: "Rope toy • Flying disc • Squeaky ball • Free FluffHaven play mat",
 
-  price: 19.90,
+  price: 16.90,
 
   badge: "🎁 Playtime Trio + Free Mat",
 
   promo: "20% OFF",
   promoCode: "PLAY20",
 
-  priceId: "price_1U7i5uKn0lmTcQ11pWAdvYJv",
+  priceId: "price_1Ub4YvKn0lmTcQ11AkbLTsaP",
 
   images: [
     "/premium-dog-playtime-trio-main.webp",
@@ -3632,11 +3632,11 @@ Practical, compact and decorative, it brings a tidy FluffHaven touch to your pet
 
   subtitle: "2 ultra-soft blankets • Blue & beige • Size L 75 × 50 cm",
 
-  price: 19.90,
+  price: 16.90,
 
   badge: "🧸 Cozy Duo",
 
-  priceId: "price_1UY3SMKn0lmTcQ110oSX03MB",
+  priceId: "price_1Ub4gPKn0lmTcQ114XkWzGKe",
 
   images: [
     "/premium-cozy-dog-blanket-duo-main.webp",
@@ -6883,11 +6883,11 @@ Combining three different looks, warmth and seasonal style, this FluffHaven trio
 
   subtitle: "2-pack • Treat dispensing • Black & Blue • 9 cm",
 
-  price: 24.90,
+  price: 12.90,
 
   badge: "🧠 Smart Treat Duo",
 
-  priceId: "price_1UCQKtKn0lmTcQ11O484tHlc", 
+  priceId: "price_1Ub4kGKn0lmTcQ11gyqnRe09", 
 
   images: [
     "/premium-treat-dispensing-chew-ball-duo-main.webp",
@@ -6944,11 +6944,11 @@ Combining treats, movement and mental stimulation, this reusable FluffHaven duo 
 
   subtitle: "Premium silicone • Slow feeding • Enrichment play",
 
-  price: 14.90,
+  price: 9.90,
 
   badge: "🧠 Everyday Enrichment",
 
-  priceId: "price_1UY4X6Kn0lmTcQ11mcKZvsk6", 
+  priceId: "price_1Ub4lvKn0lmTcQ11grldvYKE", 
 
   images: [
     "/premium-silicone-slow-feeder-puzzle-mat-main.webp",
@@ -7005,11 +7005,11 @@ Combining slower feeding, searching and licking activities, this FluffHaven puzz
 
   subtitle: "Automatic cleaning • USB rechargeable • Deep paw care",
 
-  price: 19.90,
+  price: 16.90,
 
   badge: "🐾 Paw Care Essential",
 
-  priceId: "price_1UKitsKn0lmTcQ11exV0F6Y3",
+  priceId: "price_1Ub4nXKn0lmTcQ112MLh6Jcl",
 
   images: [
     "/premium-electric-dog-paw-cleaner-main.webp",
@@ -7175,11 +7175,11 @@ Warm winter protection for comfortable outdoor adventures. Please check the size
 
   subtitle: "2 fleece vests • Pink & Green • Size L",
 
-  price: 39.90,
+  price: 19.90,
 
   badge: "🍂 Autumn Cozy Duo",
 
-  priceId: "price_1UBvVFKn0lmTcQ1171DgMIk4",
+  priceId: "price_1Ub4ppKn0lmTcQ114Jv86wYo",
 
   images: [
     "/premium-autumn-fleece-dog-vest-duo-main.webp",
@@ -7237,11 +7237,11 @@ Please measure your dog before ordering and allow a small 1–3 cm difference wh
 
   subtitle: "Inflatable swim ring • Anti-slip • Water fun",
 
-  price: 29.90,
+  price: 9.90,
 
   badge: "🏖️ Summer Favorite",
 
-  priceId: "price_1UBgzkKn0lmTcQ11FOaioVFR",
+  priceId: "price_1Ub4rqKn0lmTcQ11yrxVwDIf",
 
   images: [
     "/premium-dog-floating-swim-ring-main.webp",
@@ -7297,11 +7297,11 @@ Combining floating support, portability and comfort, this FluffHaven swim ring i
 
   subtitle: "3 mats • Slow feeding • Dogs & Cats",
 
-  price: 29.90,
+  price: 19.90,
 
   badge: "🧠 Summer Enrichment",
 
-  priceId: "price_1UFhXvKn0lmTcQ11PFgXVidx",
+  priceId: "price_1Ub4tfKn0lmTcQ11tdy2tEiL",
 
   images: [
     "/premium-lick-mat-trio-pack-lifestyle.webp",
@@ -7413,11 +7413,11 @@ Refreshing cooling comfort at home, outdoors or while travelling.
 
   subtitle: "2 towels • 50 × 100 cm • Ultra absorbent",
 
-  price: 24.90,
+  price: 16.90,
 
   badge: "🍂🛁 Drying Essential",
 
-  priceId: "price_1UDQdsKn0lmTcQ113XOria5x",
+  priceId: "price_1Ub4x5Kn0lmTcQ11w6KI5Ka2",
 
   images: [
     "/premium-microfiber-drying-towel-duo-main.webp",
@@ -7590,11 +7590,11 @@ featured: true,
 
   subtitle: "2 LED collars • Size M • USB rechargeable",
 
-  price: 17.90,
+  price: 10.90,
 
   badge: "🌙🍂 Night Walk Essential",
 
-  priceId: "price_1UUo1NKn0lmTcQ117DBWsJd6",
+  priceId: "price_1Ub4zNKn0lmTcQ11bre2idgt",
 
   images: [
     "/Glowing LED Dog Collars at Dusk (2).webp",
@@ -7703,11 +7703,11 @@ Soft, lightweight and easy to carry, these fleece blankets are perfect for the s
 
   subtitle: "4 rope toys • Dental cleaning • Interactive play",
 
-  price: 27.90,
+  price: 19.90,
 
   badge: "🦴 Rope Play Collection",
 
-  priceId: "price_1Tz2rMKn0lmTcQ11j5Nzha02",
+  priceId: "price_1Ub518Kn0lmTcQ11MvfOAO0h",
 
   images: [
     "/premium-rope-play-box-main.webp",
@@ -7763,11 +7763,11 @@ Designed for small and medium dogs, this FluffHaven set combines play, chewing a
 
   subtitle: "Protect • Repair • Moisturize",
 
-  price: 14.90,
+  price: 10.90,
 
   badge: "🐾 Paw Care",
 
-  priceId: "price_1UKkWQKn0lmTcQ11mSLJsfjT",
+  priceId: "price_1Ub54OKn0lmTcQ11cKp5wM1k",
 
   images: [
   "/premium-dog-paw-balm-4.webp",
@@ -7813,11 +7813,11 @@ Everyday paw care and protection for walks in every season.
 
   subtitle: "Automatic toy • USB rechargeable • mental stimulation",
 
-  price: 29.90,
+  price: 9.90,
 
   badge: "⚡ Smart Interactive Toy",
 
-  priceId: "price_1UBfAWKn0lmTcQ11X0E4ilMD",
+  priceId: "price_1Ub52rKn0lmTcQ11ARq9FBMH",
 
   images: [
     "/smart-rolling-dog-ball-main.webp",
@@ -7873,11 +7873,11 @@ Durable, pet-safe and easy to clean, this water-resistant toy is suitable for do
 
   subtitle: "Puzzle toy • slow feeder • mental stimulation",
 
-  price: 19.90,
+  price: 10.90,
 
   badge: "🧠 Enrichment Essential",
 
-  priceId: "price_1UFhiwKn0lmTcQ11pzDI60W6",
+  priceId: "price_1Ub56eKn0lmTcQ11Yq4PrQJV",
 
   images: [
     "/dog-treat-ball-detail-3.webp",
@@ -7935,11 +7935,11 @@ Suitable for dogs of all sizes, it's a simple FluffHaven enrichment toy for ever
 
   subtitle: "Slow feeder • enrichment • calming",
 
-  price: 12.90,
+  price: 8.90,
 
   badge: "🧠 Enrichment Essential",
 
-  priceId: "price_1UY4T7Kn0lmTcQ11EoCvUeOa",
+  priceId: "price_1Ub58VKn0lmTcQ114Ps0YbMC",
 
   images: [
     "/dog-lick-mat-main.webp",
@@ -7994,11 +7994,11 @@ Made from food-grade BPA-free silicone, it's easy to clean and suitable for smal
 
   subtitle: "Cooling neck wrap • lightweight • summer comfort",
 
-  price: 12.90,
+  price: 5.90,
 
   badge: "❄️ Summer Essential",
 
-  priceId: "price_1UC31YKn0lmTcQ11lIVoVM1q",
+  priceId: "price_1Ub5A7Kn0lmTcQ11vhmjizeB",
 
   images: [
     "/cooling-bandana.webp",
@@ -8051,11 +8051,11 @@ Suitable for dogs of all sizes, it's a simple FluffHaven essential for hot-weath
 
   subtitle: "Cooling water play mat • non-slip • summer fun",
 
-  price: 39.90,
+  price: 19.90,
 
   badge: "💦 Summer Essential",
 
-  priceId: "price_1UBh6LKn0lmTcQ11w4OjODuy",
+  priceId: "price_1Ub5BgKn0lmTcQ11rtXvXdgw",
 
   images: [
     "/dog-splash-pad.webp",
@@ -8101,9 +8101,9 @@ Foldable and easy to store, it's a convenient FluffHaven essential for hot summe
   productType: "clothing",
   seasons: ["summer"],
   subtitle: "Evaporative cooling · lightweight · reusable",
-  price: 69.90,
+  price: 29.90,
   badge: "☀️ Summer Pick",
-  priceId: "price_1UFgGQKn0lmTcQ11rEGgwYWr",
+  priceId: "price_1Ub5DTKn0lmTcQ11qWdGNlq7",
 
   images: [
     "/gilet_rafraichissant4.webp",
@@ -8150,10 +8150,10 @@ Reusable and machine washable, it's a practical FluffHaven essential for summer 
     productType: "grooming-care",
     seasons: ["summer", "autumn", "winter"],
     subtitle: "No tape · reusable · instant clean",
-    price: 24.90,
+    price: 14.90,
     badge: "🔥 Best Seller",
    
-    priceId: "price_1UC24mKn0lmTcQ11bOuPzqZa",
+    priceId: "price_1Ub5F5Kn0lmTcQ11jc7HT0Vu",
     images: [
       "/brosse_anti_poils.webp",
       "/brosse_anti_poils2.webp",
@@ -8193,9 +8193,9 @@ A simple FluffHaven essential for keeping pet-friendly spaces cleaner every day.
     productType: "walking-travel",
     seasons: ["summer", "autumn", "winter"],
     subtitle: "Waterproof · anti-slip · full protection",
-    price: 42.90,
+    price: 29.90,
     badge: "⭐ Premium",
-    priceId: "price_1UC1EOKn0lmTcQ11UKAxIm2X",
+    priceId: "price_1Ub5LVKn0lmTcQ11AsYxeCmC",
     images: ["/housse_chien.webp","/housse_chien2.webp","/housse_chien3.webp"],
     description: "Protect your car from dirt, scratches and pet hair with this waterproof car protector. Easy to install and practical for everyday trips with your dog.",
     seoTitle: "Dog Car Seat Cover | Waterproof Car Protection | FluffHaven",
@@ -8228,9 +8228,9 @@ Designed to fit most cars and SUVs, it's a practical FluffHaven essential for cl
     productType: "walking-travel",
     seasons: ["summer", "autumn", "winter"],
     subtitle: "No-pull · strong · comfortable",
-    price: 19.90,
+    price: 10.90,
     badge: "🔥 Best Seller",
-    priceId: "price_1UCQByKn0lmTcQ119eM5gA3B",
+    priceId: "price_1Ub5JLKn0lmTcQ115NYKpJ3H",
     images: [
       "/harnais_chien.webp",
       "/harnais_chien2.webp",
@@ -8263,9 +8263,9 @@ Its front clip helps manage pulling, while the padded, adjustable design provide
     productType: "grooming-care",
     seasons: ["summer", "autumn", "winter"],
     subtitle: "Quiet · LED · safe grooming",
-    price: 24.90,
+    price: 14.90,
     badge: "⚡ Popular",
-    priceId: "price_1UKjHHKn0lmTcQ11W21CFgN3",
+    priceId: "price_1Ub5HCKn0lmTcQ11xPipKiMn",
     images: [
       "/ponceuse_griffe4.webp",
       "/ponceuse_griffe5.webp",
@@ -8298,8 +8298,8 @@ Quiet, precise nail care for easier grooming at home.
   productType: "walking-travel",
   seasons: ["summer", "autumn"],
   subtitle: "Foldable silicone bowl-lid · 580 ml",
-  price: 17.90,
-  priceId: "price_1UC1AwKn0lmTcQ11zxzZHqQM",
+  price: 8.90,
+  priceId: "price_1Ub5OTKn0lmTcQ11OqKn6SqU",
   badge: "New",
 
   images: [
@@ -8338,9 +8338,9 @@ Compact and practical, it's a useful FluffHaven companion for walks, hikes and r
     productType: "beds-comfort",
     seasons: ["summer"],
     subtitle: "Self-cooling silk · waterproof base · L 70×55 cm",
-    price: 17.90,
+    price: 9.90,
     badge: "Summer",
-    priceId: "price_1UC0B6Kn0lmTcQ11CSVp89PQ",
+    priceId: "price_1Ub5gJKn0lmTcQ11zYWRegxi",
     images: ["/tapis_rafraichissant.webp", "/tapis_rafraichissant_2.webp", "/tapis_rafraichissant_3.webp"],
     description: "Keep your pet comfortable all summer with this self-cooling silk mat. Featuring a waterproof, non-slip bottom and machine-washable design, it's a practical cooling space for both dogs and cats.",
     seoTitle: "Premium Cooling Mat for Dogs | Summer Cooling Pad | FluffHaven",
@@ -10235,11 +10235,11 @@ Free from harsh irritants, it's a practical FluffHaven choice for cats with sens
 
   subtitle: "Reflective • Comfortable • Harness & Leash Set",
 
-  price: 49.90,
+  price: 29.90,
 
   badge: "🍂❄️ Autumn & Winter Pick",
 
-  priceId: "price_1UAoMFKn0lmTcQ11t2K7P2RL",
+  priceId: "price_1Ub5iyKn0lmTcQ11E5GlxLV6",
 
   images: [
     "/premium-reflective-dog-harness-main.webp",
@@ -10406,11 +10406,11 @@ With a removable machine-washable cover, this FluffHaven bed is designed for pra
 
   subtitle: "Mental Enrichment • Stress Relief • Machine Washable",
 
-  price: 49.90,
+  price: 29.90,
 
   badge: "❤️ Ponpon's Favorite",
 
-  priceId: "price_1TvPCgKn0lmTcQ115CtXEus9",
+  priceId: "price_1Ub5kmKn0lmTcQ11pg2fcQnx",
 
   images: [
     "/premium-dog-snuffle-mat-main.webp",
