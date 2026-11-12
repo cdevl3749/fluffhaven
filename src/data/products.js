@@ -978,7 +978,7 @@ A playful FluffHaven companion for active play and cozy moments.
 
   badge: "💧 Outdoor Essential",
 
-  priceId: "price_1UayOSKn0lmTcQ1184OetCpT", // À compléter avec le prix Stripe à $19.90
+  priceId: "price_1UayOSKn0lmTcQ1184OetCpT",
 
   images: [
     "/Rinse Anywhere, Happy Adventures.webp",
@@ -995,7 +995,7 @@ A playful FluffHaven companion for active play and cozy moments.
     "Portable Dog Travel Shower | Dog Washing Nozzle | FluffHaven",
 
   seoDescription:
-    "Portable dog shower nozzle for rinsing muddy paws and dirty fur after walks, hikes and outdoor adventures. Easy to use and carry. $19.90 at FluffHaven.",
+  "Portable dog shower nozzle for rinsing muddy paws and dirty fur after walks, hikes and outdoor adventures. Easy to use and carry. $10.90 at FluffHaven.",
 
   brand: "FluffHaven",
 
@@ -1347,7 +1347,7 @@ Make every meal a fun, enriching moment for your dog!
     "Plush Popsicle Rope Dog Toy Duo | FluffHaven",
 
   seoDescription:
-    "Colorful plush popsicle rope dog toy duo for tugging and interactive play. $19.90 at FluffHaven.",
+    "Colorful plush popsicle rope dog toy duo for tugging and interactive play. $8.90 at FluffHaven.",
 
   brand: "FluffHaven",
 
@@ -1400,7 +1400,7 @@ Double the fun for your furry friend!
     "Rechargeable LED Dog Safety Light | FluffHaven",
 
   seoDescription:
-    "Bright rechargeable LED dog safety light for evening walks. Easy to attach to collars or harnesses. $24.90 at FluffHaven.",
+    "Bright rechargeable LED dog safety light for evening walks. Easy to attach to collars or harnesses. $16.90 at FluffHaven.",
 
   brand: "FluffHaven",
 
@@ -1510,7 +1510,7 @@ A little vampire with a big playful personality!
     "Premium Halloween Witch Bear Dog Toy | FluffHaven",
 
   seoDescription:
-    "Cute orange Halloween plush bear for dogs with a witch hat and soft fluffy texture. A cozy seasonal playtime companion for $14.90 at FluffHaven.",
+    "Cute orange Halloween plush bear for dogs with a witch hat and soft fluffy texture. A cozy seasonal playtime companion for $12.90 at FluffHaven.",
 
   brand: "FluffHaven",
 
@@ -1565,7 +1565,7 @@ A cuddly little witch ready for spooky-season fun!
     "Premium Halloween Spider Plush Dog Toy | FluffHaven",
 
   seoDescription:
-    "Cute purple and orange spider plush dog toy with a built-in squeaker. Perfect for cozy Halloween playtime. Available for $19.90 at FluffHaven.",
+    "Cute purple and orange spider plush dog toy with a built-in squeaker. Perfect for cozy Halloween playtime. Available for $16.90 at FluffHaven.",
 
   brand: "FluffHaven",
 
@@ -1620,7 +1620,7 @@ A spooky-cute friend for playful pups!
     "Pirate Bat Plush Dog Toy | FluffHaven",
 
   seoDescription:
-    "Cute pirate bat plush dog toy with soft wings and a rope ring for interactive play. A fun Halloween treat for pups. $18.90 at FluffHaven.",
+    "Cute pirate bat plush dog toy with soft wings and a rope ring for interactive play. A fun Halloween treat for pups. $14.90 at FluffHaven.",
 
   brand: "FluffHaven",
 
@@ -1675,7 +1675,7 @@ A little pirate ready for playtime!
     "Halloween Black Cat Plush Dog Toy | FluffHaven",
 
   seoDescription:
-    "Cute black and orange Halloween plush dog toy with a built-in squeaker. Soft, cuddly and perfect for playful pups. Only $19.90 at FluffHaven.",
+    "Cute black and orange Halloween plush dog toy with a built-in squeaker. Soft, cuddly and perfect for playful pups. Only $12.90 at FluffHaven.",
 
   brand: "FluffHaven",
 
@@ -1729,7 +1729,7 @@ A spooky-cute playtime buddy for your pup!
     "Premium Halloween Pumpkin Dog Plush Toy | FluffHaven",
 
   seoDescription:
-    "Cute Halloween pumpkin plush dog toy with a soft design and festive details. A fun autumn playtime companion for $19.90 at FluffHaven.",
+    "Cute Halloween pumpkin plush dog toy with a soft design and festive details. A fun autumn playtime companion for $15.90 at FluffHaven.",
 
   brand: "FluffHaven",
 
@@ -1836,7 +1836,7 @@ A simple everyday enrichment toy for rewarding play and mental stimulation.
     "Portable Dog Water Bottle | Travel Drinking Bowl | FluffHaven",
 
   seoDescription:
-    "Portable dog water bottle with built-in drinking bowl and carabiner clip. Perfect for walks, hikes and outdoor adventures. Only $19.90 at FluffHaven.",
+    "Portable dog water bottle with built-in drinking bowl and carabiner clip. Perfect for walks, hikes and outdoor adventures. Only $14.90 at FluffHaven.",
 
   brand: "FluffHaven",
 
@@ -5058,7 +5058,7 @@ A sweet little duo for everyday playtime.
     "Plush Ladybug & Bee Cat Toy Duo | FluffHaven",
 
   seoDescription:
-    "Adorable ladybug and bee plush cat toy duo. Soft, lightweight toys for playful cats. $12.90 at FluffHaven.",
+    "Adorable ladybug and bee plush cat toy duo. Soft, lightweight toys for playful cats. $9.90 at FluffHaven.",
 
   brand: "FluffHaven",
 
