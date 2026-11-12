@@ -57,7 +57,6 @@ A little Christmas magic, specially selected by Ponpon.
   featured: true,
 },
 
-
 {
   id: 185,
   slug: "cozy-striped-winter-dog-scarf",
@@ -107,6 +106,59 @@ A cozy finishing touch for your dog's winter outfit!
 },
 
 {
+  id: 112,
+
+  slug: "premium-3-in-1-pet-grooming-set",
+
+  name: "Premium 3-in-1 Pet Grooming Set",
+
+  category: "dog",
+  productType: "grooming-care",
+
+  seasons: ["summer", "autumn", "winter"],
+
+  subtitle: "3-piece grooming set • Shampoo dispenser • Massage brush • Soft silicone",
+
+  price: 9.90,
+
+  badge: "🛁 Grooming Essential",
+
+  priceId: "price_1Uay6fKn0lmTcQ11gANOw7aR",
+
+  images: [
+    "/premium-3-in-1-pet-grooming-set-main.webp",
+    "/premium-3-in-1-pet-grooming-set-bath.webp",
+    "/premium-3-in-1-pet-grooming-set-details.webp",
+    "/premium-3-in-1-pet-grooming-set-features.webp",
+    "/premium-3-in-1-pet-grooming-set-lifestyle.webp",
+  ],
+
+  description:
+  "Make bath time simpler with three handy grooming tools in one set. Dispense shampoo, gently massage your pet with soft silicone bristles, and brush away loose fur. A practical way to make regular grooming more comfortable for dogs and cats.",
+
+  seoTitle:
+    "Premium 3-in-1 Pet Grooming Set | Dog Bath & Massage Brushes | FluffHaven",
+
+  seoDescription:
+    "Premium 3-in-1 pet grooming set with shampoo dispenser and soft silicone massage brushes. Designed for easy bathing, gentle cleaning and everyday coat care.",
+
+  brand: "FluffHaven",
+
+  details: `
+🐾 Why Ponpon picked it
+A simple all-in-one set to make everyday grooming easier and more comfortable for your pet.
+
+✓ Shampoo dispensing brush
+✓ Soft silicone massage bristles
+✓ Comfortable handheld design
+`,
+  inStock: true,
+
+  featured: true,
+
+},
+
+{
   id: 176,
   slug: "olive-green-winter-dog-coat",
   name: "Olive Green Winter Dog Coat",
@@ -151,6 +203,102 @@ images: [
 ✓ Ideal for winter walks
 
 Keep your furry friend cozy all winter!
+`,
+
+  inStock: true,
+  featured: true,
+},
+
+{
+  id: 189,
+  slug: "pink-winter-cozy-dog-set",
+  name: "Pink Winter Cozy Dog Set",
+  category: "dog",
+  productType: "clothing",
+  seasons: ["winter"],
+
+  subtitle: "Warm padded coat • Matching hat & scarf • Size L",
+  price: 39.90,
+  badge: "❄️ Winter Favorite",
+
+  priceId: "price_1UakGpKn0lmTcQ11GU8ld0BH", // À compléter avec le Price ID Stripe à $39.90
+
+  images: [
+    "/Cozy Pink Winter Pup.webp",
+    "/Pink Cozy Dog Winter Set.webp",
+    "/Pink Cozy Dog Winter Set (2).webp",
+    "/Warm & Cozy Pink Winter Set.webp",
+    "/Cozy Pink Winter Dog Set.webp",
+  ],
+
+  description:
+    "Keep your furry friend warm and stylish this winter with this cozy pink three-piece set. Includes a padded winter coat, a matching knitted hat and a soft scarf for chilly walks.",
+
+  seoTitle:
+    "Pink Winter Cozy Dog Set | Warm Coat, Hat & Scarf | FluffHaven",
+
+  seoDescription:
+    "Cozy pink winter dog outfit with padded coat, matching hat and scarf. Coat size L. Keep your dog warm in style for $39.90.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Complete 3-piece winter outfit
+✓ Warm padded pink coat — Size L
+✓ Coat neck: 45–50 cm
+✓ Coat back length: 50 cm
+✓ Suggested dog weight: 15–22.5 kg
+✓ Knitted winter hat — One Size
+✓ Matching scarf included
+
+Please measure your dog before ordering.
+`,
+
+  inStock: true,
+  featured: true,
+},
+
+{
+  id: 188,
+  slug: "cozy-christmas-dog-mat",
+  name: "Cozy Christmas Dog Mat",
+  category: "dog",
+  productType: "beds-comfort",
+  seasons: ["winter"],
+
+  subtitle: "Soft festive mat • Cozy resting spot • Size S",
+  price: 8.90,
+  badge: "🎄 Christmas Favorite",
+
+  priceId: "price_1UaiGTKn0lmTcQ1171ALnMAO", // Ajouter le Price ID Stripe à $8.90
+
+  images: [
+    "/Cozy Santa Hat Dog Mat Display.webp",
+    "/Santa Hat Teddy Dog Mat – Size S.webp",
+    "/Cozy Holiday Dog Mat Scene.webp",
+    "/Plush Holiday Bear Blanket Texture.webp",
+    "/Cozy Golden Retriever Christmas Scene.webp",
+  ],
+
+  description:
+    "Give your dog a cozy little spot to relax this Christmas. This soft festive mat features adorable holiday teddy bear patterns and a warm, charming design.",
+
+  seoTitle:
+    "Cozy Christmas Dog Mat Size S | FluffHaven",
+
+  seoDescription:
+    "Soft Christmas dog mat with cute festive teddy bear patterns. Size S, perfect for cozy holiday moments. Only $8.90 at FluffHaven.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Available size: S only
+✓ Soft and cozy resting surface
+✓ Adorable Christmas teddy bear design
+✓ Lightweight and easy to move
+✓ Perfect for festive indoor comfort
+
+A little Christmas comfort for your furry friend!
 `,
 
   inStock: true,
@@ -623,9 +771,9 @@ Please check your dog's paw measurements before ordering.
     productType: "feeding",
     seasons: ["spring", "summer", "autumn", "winter"],
     subtitle: "Elegant beige • Non-slip base • 600 ml",
-    price: 12.90,
+    price: 8.90,
     badge: "🐾 Mealtime Essential",
-    priceId: "price_1UVDlwKn0lmTcQ11V0Lv2iuW", // Add the correct Stripe Price ID
+    priceId: "price_1UayBYKn0lmTcQ11GwWp8p9C", // Add the correct Stripe Price ID
 
     images: [
       "/Beige Pet Bowl in Sunlit Home.webp",
@@ -668,9 +816,9 @@ A stylish everyday bowl for happy mealtimes.
     productType: "feeding",
     seasons: ["spring", "summer", "autumn", "winter"],
     subtitle: "Dusty rose • Non-slip base • 600 ml",
-    price: 12.90,
+    price: 8.90,
     badge: "🐾 Mealtime Essential",
-    priceId: "price_1UVDouKn0lmTcQ11t5v1lPq5", // Add the correct Stripe Price ID
+    priceId: "price_1UayDcKn0lmTcQ11gsKnQdnO", // Add the correct Stripe Price ID
 
     images: [
       "/Dusty Rose Pet Bowl in a Cozy Sunlit Interior.webp",
@@ -714,11 +862,11 @@ A lovely addition to your pet's daily routine.
   productType: "feeding",
   seasons: ["spring", "summer", "autumn", "winter"],
   subtitle: "Pizza design • Slow feeding • 20 × 20 cm",
-  price: 9.90,
+  price: 6.90,
   badge: "🐾 Mealtime Essential",
 
   // Replace with the Stripe Price ID for this product
-  priceId: "price_1UVEdeKn0lmTcQ11psLNg3Ov",
+  priceId: "price_1Uay9FKn0lmTcQ11jIXlgGta",
 
   images: [
     "/Sunlit Pizza-Slice Slow Feeder.webp",
@@ -826,11 +974,11 @@ A playful FluffHaven companion for active play and cozy moments.
 
   subtitle: "Portable shower nozzle • Gentle spray • Easy outdoor cleaning",
 
-  price: 16.90,
+  price: 10.90,
 
   badge: "💧 Outdoor Essential",
 
-  priceId: "price_1UUqhRKn0lmTcQ11NBntnQy1", // À compléter avec le prix Stripe à $19.90
+  priceId: "price_1UayOSKn0lmTcQ1184OetCpT", // À compléter avec le prix Stripe à $19.90
 
   images: [
     "/Rinse Anywhere, Happy Adventures.webp",
@@ -882,11 +1030,11 @@ Water bottle not included.
 
   subtitle: "Squeaky fun • Textured tentacles • Interactive play",
 
-  price: 18.90,
+  price: 15.90,
 
   badge: "🐙 Playtime Favorite",
 
-  priceId: "price_1UNvu4Kn0lmTcQ11gnieHqTV",
+  priceId: "price_1UayQTKn0lmTcQ11wqy10oyC",
 
   images: [
     "/FluffHaven Feisty Blue Octopus Toy.webp",
@@ -1116,14 +1264,14 @@ Its soft textured surface and easy-to-carry shape make it ideal for fetching, ca
 
   subtitle: "Slow down mealtime • Keep your dog engaged • 2 enrichment mats included",
 
-  price: 12.90,
+  price: 10.90,
 
   badge: "🐶 Enrichment Essential",
 
   promo: "10% OFF",
   promoCode: "FLUFF10",
 
-  priceId: "price_1UUtfzKn0lmTcQ11CoGLXTyS",
+  priceId: "price_1UayWYKn0lmTcQ11jBhAw6iG",
 
   images: [
     "/dog-enrichment-duo-main.webp",
@@ -1178,11 +1326,11 @@ Make every meal a fun, enriching moment for your dog!
 
   subtitle: "Colorful plush duo • Rope tug toy • Playful design",
 
-  price: 12.90,
+  price: 8.90,
 
   badge: "🐶 Playtime Favorite",
 
-  priceId: "price_1UUqjrKn0lmTcQ11Px4DYh09", // Add Stripe Price ID for $19.90
+  priceId: "price_1UaybKKn0lmTcQ119h2ON2j2", // Add Stripe Price ID for $19.90
 
   images: [
     "/Pastel Popsicle Pals on a Cozy Rug.webp",
@@ -1231,11 +1379,11 @@ Double the fun for your furry friend!
 
   subtitle: "Bright LED light • USB rechargeable • Easy collar attachment",
 
-  price: 24.90,
+  price: 16.90,
 
   badge: "✨ Night Walk Essential",
 
-  priceId: "price_1USlatKn0lmTcQ11TnSXxCqR", // Add your Stripe Price ID for $24.90
+  priceId: "price_1UayT2Kn0lmTcQ1181MmmlGr", // Add your Stripe Price ID for $24.90
 
   images: [
     "/Cozy Autumn Walk with a Glowing Dog.webp",
@@ -1613,11 +1761,11 @@ A spooky-cute companion for your dog's playtime.
 
   subtitle: "Treat dispensing • Interactive play • Mental stimulation • Easy to clean",
 
-  price: 10.90,
+  price: 8.90,
 
   badge: "🧠 Enrichment Favorite",
 
-  priceId: "price_1UNuftKn0lmTcQ11aoejStiK",
+  priceId: "price_1Uazs6Kn0lmTcQ11eXu5vl8I",
 
   images: [
     "/FluffHaven Interactive Treat Toy Ad.webp",
@@ -1742,59 +1890,6 @@ The integrated drinking bowl makes it easy to offer your dog water during walks,
 },
 
 {
-  id: 112,
-
-  slug: "premium-3-in-1-pet-grooming-set",
-
-  name: "Premium 3-in-1 Pet Grooming Set",
-
-  category: "dog",
-  productType: "grooming-care",
-
-  seasons: ["summer", "autumn", "winter"],
-
-  subtitle: "3-piece grooming set • Shampoo dispenser • Massage brush • Soft silicone",
-
-  price: 14.90,
-
-  badge: "🛁 Grooming Essential",
-
-  priceId: "price_1UMQcBKn0lmTcQ11vKylfeAU",
-
-  images: [
-    "/premium-3-in-1-pet-grooming-set-main.webp",
-    "/premium-3-in-1-pet-grooming-set-bath.webp",
-    "/premium-3-in-1-pet-grooming-set-details.webp",
-    "/premium-3-in-1-pet-grooming-set-features.webp",
-    "/premium-3-in-1-pet-grooming-set-lifestyle.webp",
-  ],
-
-  description:
-  "Make bath time simpler with three handy grooming tools in one set. Dispense shampoo, gently massage your pet with soft silicone bristles, and brush away loose fur. A practical way to make regular grooming more comfortable for dogs and cats.",
-
-  seoTitle:
-    "Premium 3-in-1 Pet Grooming Set | Dog Bath & Massage Brushes | FluffHaven",
-
-  seoDescription:
-    "Premium 3-in-1 pet grooming set with shampoo dispenser and soft silicone massage brushes. Designed for easy bathing, gentle cleaning and everyday coat care.",
-
-  brand: "FluffHaven",
-
-  details: `
-🐾 Why Ponpon picked it
-A simple all-in-one set to make everyday grooming easier and more comfortable for your pet.
-
-✓ Shampoo dispensing brush
-✓ Soft silicone massage bristles
-✓ Comfortable handheld design
-`,
-  inStock: true,
-
-  featured: true,
-
-},
-
-{
   id: 62,
 
   slug: "premium-floating-rope-ball",
@@ -1808,11 +1903,11 @@ A simple all-in-one set to make everyday grooming easier and more comfortable fo
 
   subtitle: "Floating EVA ball • Rope handle • Water fun",
 
-  price: 12.90,
+  price: 8.90,
 
   badge: "💦 Water Adventure",
 
-  priceId: "price_1UJg0vKn0lmTcQ11AkhSVLRa",
+  priceId: "price_1UazvCKn0lmTcQ110KOozcsb",
 
   images: [
     "/premium-floating-rope-ball-lifestyle.webp",
@@ -2030,11 +2125,11 @@ Give your dog comfort and security on every adventure. With a strong buckle, dur
 
   subtitle: "Shock absorbing • Adjustable length • Strong metal hook • 74–142 cm",
 
-  price: 19.90,
+  price: 12.90,
 
   badge: "🚗 Travel Essential",
 
-  priceId: "price_1UFD8vKn0lmTcQ11HGzfDKJW",
+  priceId: "price_1Uazz9Kn0lmTcQ11XIIXAxnu",
 
   images: [
     "/premium-dog-car-seat-belt-main.webp",
@@ -2283,8 +2378,8 @@ Rechargeable, lightweight and easy to carry, this glowing flying disc is made fo
   productType: "feeding",
   seasons: ["summer", "autumn", "winter"],
   subtitle: "Medium · anti-choking · slow eating",
-  price: 10.90,
-  priceId: "price_1UUr8kKn0lmTcQ11ZetdsYUR",
+  price: 6.90,
+  priceId: "price_1Ub0CwKn0lmTcQ11KwO8NiP6",
   badge: "⭐ Smart Choice",
 
   images: [
@@ -2338,11 +2433,11 @@ Easy to clean and simple to use, it's a convenient FluffHaven accessory for ever
 
   subtitle: "Shampoo dispenser • Soft silicone bristles • Massage & clean",
 
-  price: 10.90,
+  price: 6.90,
 
   badge: "🛁 Bath Essential",
 
-  priceId: "price_1UUrAgKn0lmTcQ11OCblTNB3",
+  priceId: "price_1Ub09wKn0lmTcQ11tytDC9Yv",
 
   images: [
     "/premium-shampoo-dispensing-dog-bath-brush-main.webp",
@@ -2395,11 +2490,11 @@ A FluffHaven bath-time essential.
 
   subtitle: "Quick-dry towel • Massage gloves • Steel comb • Massage brush",
 
-  price: 24.90,
+  price: 19.90,
 
   badge: "🛁 Bath Essential",
 
-  priceId: "price_1UUrDKKn0lmTcQ11VwtCf6FB",
+  priceId: "price_1Ub0FrKn0lmTcQ11bE7XS6Lw",
 
   images: [
     "/premium-4-in-1-dog-bath-grooming-kit-main.webp",
@@ -2613,11 +2708,11 @@ Warm, practical protection for comfortable autumn and winter walks.
 
   subtitle: "Reusable hair remover • Sofas • Clothes • Bedding • Multi-surface",
 
-  price: 22.90,
+  price: 12.90,
 
   badge: "✨ Home Care Essential",
 
-  priceId: "price_1UDZLsKn0lmTcQ11CY7rXf7y",
+  priceId: "price_1Ub0IcKn0lmTcQ11jen59P47",
 
   images: [
     "/premium-reusable-pet-hair-remover-main.webp",
@@ -2795,11 +2890,11 @@ A compact FluffHaven training essential for walks, parks and outdoor adventures.
 
   subtitle: "Shock absorbing • Dual padded handles • Heavy-duty clip • Car seatbelt attachment",
 
-  price: 27.90,
+  price: 19.90,
 
   badge: "🐕 Walk Essential",
 
-  priceId: "price_1U9LzmKn0lmTcQ110OhTSI5A",
+  priceId: "price_1Ub0LPKn0lmTcQ115efKQanD",
 
   images: [
     "/premium-shock-absorbing-dog-leash-main.webp",
@@ -2863,11 +2958,11 @@ Built with durable hardware and a convenient car seatbelt attachment, it's a ver
 
   subtitle: "2 dispensers • Secure clips • Easy bag access • Walk-ready design",
 
-  price: 17.90,
+  price: 12.90,
 
   badge: "🐾 Walk Essential",
 
-  priceId: "price_1U9NJVKn0lmTcQ11dXGKipiy",
+  priceId: "price_1Ub0NHKn0lmTcQ11S5M2sOXp",
 
   images: [
     "/premium-dog-waste-bag-dispenser-duo-main.webp",
@@ -2980,11 +3075,11 @@ Easy to maintain and machine washable, it's a practical everyday essential for a
 
   subtitle: "Woven cotton rope • Sturdy handles • Stylish toy storage • 43.2 × 30 × 24.9 cm",
 
-  price: 34.90,
+  price: 24.90,
 
   badge: "🧺 Stylish Storage",
 
-  priceId: "price_1U9ATrKn0lmTcQ11IPpSWeBt",
+  priceId: "price_1Ub0PDKn0lmTcQ11gd3EQjqa",
 
   images: [
     "/premium-woven-pet-toy-storage-basket-main.webp",
@@ -3038,11 +3133,11 @@ Its spacious interior keeps toys within easy reach, while the sturdy handles mak
 
   subtitle: "600 ml water bottle • Treat storage • Waste bag holder • Travel ready",
 
-  price: 29.90,
+  price: 9.90,
 
   badge: "💧 Travel Essential",
 
-  priceId: "price_1U82l0Kn0lmTcQ11QmClc1ZZ",
+  priceId: "price_1Ub0RQKn0lmTcQ11ihJ1iKjw",
 
   images: [
     "/premium-3-in-1-dog-travel-bottle-outdoor.webp",
@@ -3169,11 +3264,11 @@ Perfect for the living room, patio or garden, this elevated bed combines everyda
 
   subtitle: "Soft woven collar • Vegan leather details • Size XL • Neck 52–58 cm",
 
-  price: 17.90,
+  price: 12.90,
 
   badge: "🌿 Stylish Walk Essential",
 
-  priceId: "price_1UUnVjKn0lmTcQ11u64JAu8f",
+  priceId: "price_1Ub0ThKn0lmTcQ11oQyngm3N",
 
   images: [
     "/premium-mint-adventure-dog-collar-outdoor.webp",
@@ -3349,11 +3444,11 @@ A fun and rewarding way to encourage curiosity and keep your dog mentally active
 
   subtitle: "Premium ceramic • 0.3 L capacity • 12 cm diameter • Cats & small dogs",
 
-  price: 17.90,
+  price: 10.90,
 
   badge: "🐾 Everyday Feeding Essential",
 
-  priceId: "price_1U7bP5Kn0lmTcQ11nie9k9uJ",
+  priceId: "price_1Ub0nOKn0lmTcQ11VtmspDNM",
 
   images: [
     "/premium-paw-print-ceramic-pet-bowl-dog-cat.webp",
@@ -3475,11 +3570,11 @@ Combining warmth, practicality and winter-inspired styling, it brings cozy Fluff
 
   subtitle: "Durable cotton rope • Easy-carry handles • Ø 27 × H 24 cm",
 
-  price: 24.90,
+  price: 12.90,
 
   badge: "🧺 Tidy Home Essential",
 
-  priceId: "price_1U6C3JKn0lmTcQ11gkgoFbXj",
+  priceId: "price_1Ub0reKn0lmTcQ112gFw28A5",
 
   images: [
     "/premium-pet-toy-storage-basket-main.webp",
@@ -3655,11 +3750,11 @@ Combining generous dimensions, soft materials and supportive raised sides, this 
 
   subtitle: "Treat dispensing ball • Chew & play ring • 2-toy enrichment duo",
 
-  price: 21.90,
+  price: 10.90,
 
   badge: "🎁 Treat & Play Duo",
 
-  priceId: "price_1U4r5hKn0lmTcQ11WJuUBhc8",
+  priceId: "price_1Ub0uEKn0lmTcQ11J5oOxWHb",
 
   images: [
     "/premium-puppy-treat-play-duo-main.webp",
@@ -3768,11 +3863,11 @@ Soft, practical drying comfort for wet dogs at home or on the go.
 
   subtitle: "Soft neoprene padding • Reflective stitching • Adjustable secure fit",
 
-  price: 24.90,
+  price: 17.90,
 
   badge: "🐕 Everyday Walk Essential",
 
-  priceId: "price_1U4qOaKn0lmTcQ11FX8pa2Py",
+  priceId: "price_1Ub0wMKn0lmTcQ119x4tgDBr",
 
   images: [
     "/Golden Retriever in Forest-Green Harness.webp",
@@ -3888,11 +3983,11 @@ Give your dog the comfort they deserve with this premium orthopedic mattress. So
 
   subtitle: "Automatic launcher • 3 bonus balls • Interactive outdoor play",
 
-  price: 69.90,
+  price: 49.90,
 
   badge: "🎾 Summer Play Essential",
 
-  priceId: "price_1U40yMKn0lmTcQ110uzWWkUO",
+  priceId: "price_1Ub0yfKn0lmTcQ11T23btfwV",
 
   images: [
     "/premium-automatic-dog-ball-launcher-main.webp",
@@ -3948,11 +4043,11 @@ Combining interactive entertainment, exercise and mental stimulation, it's a fun
 
   subtitle: "Non-contact reading • Digital display • Quick temperature check",
 
-  price: 42.90,
+  price: 29.90,
 
   badge: "🌡️ Pet Care Essential",
 
-  priceId: "price_1U4kqVKn0lmTcQ11V7oh2YM3",
+  priceId: "price_1Ub119Kn0lmTcQ11o42uqBkj",
 
   images: [
     "/premium-non-contact-pet-thermometer-main.webp",
@@ -4010,10 +4105,10 @@ Combining contact-free operation, quick readings and a clear display, this therm
 
   subtitle: "One-click cleaning • Stainless steel pins • Easy everyday grooming",
 
-  price: 16.90,
+  price: 9.90,
   badge: "✨ Grooming Essential",
 
-  priceId: "price_1UGenXKn0lmTcQ11TyYZ0rbj",
+  priceId: "price_1Ub13BKn0lmTcQ11L7OnJgCA",
 
 images: [
   "/premium-one-click-self-cleaning-dog-brush-4.webp",
@@ -4071,11 +4166,11 @@ Combining practical grooming and simple cleaning, this brush is a useful additio
 
   subtitle: "2-level puzzle • Slow feeding • Interactive mental stimulation",
 
-  price: 24.90,
+  price: 14.90,
 
   badge: "🧠 Smart Feeding Essential",
 
-  priceId: "price_1UCd19Kn0lmTcQ11RzfWNu3I",
+  priceId: "price_1Ub15nKn0lmTcQ11pStaNPoQ",
 
   images: [
     "/premium-2-level-dog-puzzle-slow-feeder-main.webp",
@@ -4133,11 +4228,11 @@ Combining slow feeding, mental stimulation and rewarding play, it brings more fu
 
   subtitle: "Paw-activated fountain • Garden hose connection • Cooling outdoor fun",
 
-  price: 39.90,
+  price: 29.90,
 
   badge: "💦 Summer Cooling Essential",
 
-  priceId: "price_1U4PTEKn0lmTcQ11sYszaSm1",
+  priceId: "price_1Ub182Kn0lmTcQ11ssHAtmJr",
 
   images: [
     "/premium-interactive-dog-water-fountain-main.webp",
@@ -4193,11 +4288,11 @@ Combining cooling refreshment with interactive fun, it's a FluffHaven summer ess
 
   subtitle: "Interactive puzzle • Treat dispenser • Smart mental stimulation",
 
-  price: 34.90,
+  price: 19.90,
 
   badge: "🧠 Smart Play Essential",
 
-  priceId: "price_1UFbhMKn0lmTcQ11R1pBj2Gx",
+  priceId: "price_1Ub1BgKn0lmTcQ11MbzDuqeH",
 
   images: [
     "/premium-interactive-dog-puzzle-treat-dispenser-main.webp",
@@ -4255,11 +4350,11 @@ Combining problem-solving, rewards and interactive play, it brings engaging ever
 
   subtitle: "4 interactive toys • Snuffle play mat • Premium storage basket",
 
-  price: 39.90,
+  price: 24.90,
 
   badge: "🐶 Playtime Bundle",
 
-  priceId: "price_1U4SBxKn0lmTcQ11kVQpkOmx",
+  priceId: "price_1Ub1HHKn0lmTcQ11bHaBTxNl",
 
   images: [
     "/premium-dog-playtime-gift-basket-garden.webp",
@@ -4314,11 +4409,11 @@ Combining enrichment, entertainment and practical storage, this complete FluffHa
 
   subtitle: "Refreshing water splash pad • Easy garden hose connection • Ø 100 cm",
 
-  price: 17.90,
+  price: 10.90,
 
   badge: "💦 Summer Cooling Fun",
 
-  priceId: "price_1UMDRKKn0lmTcQ11NKEwl7hp",
+  priceId: "price_1Ub1TWKn0lmTcQ11UDCDKOn1",
 
   images: [
     "/premium-dog-splash-cooling-mat-summer.webp",
@@ -4368,11 +4463,11 @@ Refreshing outdoor fun to help your dog cool down on warm summer days.
 
   subtitle: "Beach bag • 4 floating toys • Premium towel",
 
-  price: 24.90,
+  price: 19.90,
 
   badge: "🏖️ Beach Adventure",
 
-  priceId: "price_1UUnmrKn0lmTcQ116DnaOvnv",
+  priceId: "price_1Ub1W3Kn0lmTcQ11YYSaT4Sn",
 
   images: [
     "/FluffHaven Beach Day Essentials.webp",
@@ -4423,11 +4518,11 @@ Enjoy beach adventures with a practical bag, soft towel and four floating toys f
 
   subtitle: "2 floating rings • Yellow & Blue • Water fun",
 
-  price: 29.90,
+  price: 12.90,
 
   badge: "💦 Pool Essential",
 
-  priceId: "price_1UBgCWKn0lmTcQ11TInbtt4t",
+  priceId: "price_1Ub1hNKn0lmTcQ11BxLF52y4",
 
   images: [
     "/premium-floating-fetch-ring-duo-main.webp",
@@ -4483,11 +4578,11 @@ Designed for medium and large dogs, this FluffHaven duo combines water play, exe
 
   subtitle: "Size L • Buoyant support • Adjustable safety straps",
 
-  price: 39.90,
+  price: 29.90,
 
   badge: "💦 Pool Safety Essential",
 
-  priceId: "price_1U40RrKn0lmTcQ11L0B2M6bK",
+  priceId: "price_1Ub1kyKn0lmTcQ11qoQGA9tD",
 
   images: [
     "/premium-dog-swimming-life-jacket-main.webp",
@@ -4543,11 +4638,11 @@ Combining flotation support, visibility and comfort, this Size L FluffHaven life
 
   subtitle: "2 interactive balls • Motion activated • USB-C rechargeable • Blue & Orange",
 
-  price: 34.90,
+  price: 14.90,
 
   badge: "⚡ Smart Play Duo",
 
-  priceId: "price_1U490KKn0lmTcQ11Wqlox8Lt",
+  priceId: "price_1Ub1mmKn0lmTcQ11iKxbbYvW",
 
   images: [
     "/premium-smart-rolling-dog-ball-duo-main.webp",
@@ -4603,11 +4698,11 @@ Combining interactive movement, physical activity and mental enrichment, this Fl
 
   subtitle: "Full-body cooling • Breathable mesh • Blue • XL 10–15 kg",
 
-  price: 57.90,
+  price: 39.90,
 
   badge: "❄️ Premium Cooling",
 
-  priceId: "price_1UC37cKn0lmTcQ11zoPHsKjp",
+  priceId: "price_1Ub1oVKn0lmTcQ11SxTonopv",
 
   images: [
     "/premium-full-body-cooling-dog-vest-main.webp",
@@ -4725,11 +4820,11 @@ Combining soft comfort, supportive edges and a warm seasonal design, this FluffH
 
   subtitle: "Warm padded jacket • Hooded design • Size XXL • For 6.5–13 kg dogs",
 
-  price: 32.90,
+  price: 19.90,
 
   badge: "❄️ Winter Comfort Essential",
 
-  priceId: "price_1UBwfDKn0lmTcQ11arBQWfUk",
+  priceId: "price_1Ub1qXKn0lmTcQ11A5SwDfWi",
 
   images: [
     "/premium-hooded-dog-puffer-jacket-main.webp",
