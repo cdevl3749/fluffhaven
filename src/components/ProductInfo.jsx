@@ -3,6 +3,29 @@ import AddToCartButton from "./AddToCartButton";
 
 export default function ProductInfo({ product, onAddToCart }) {
 
+    const fastShippingProducts = new Set([
+    "ponpons-christmas-mystery-box",
+    "cozy-christmas-dog-mat",
+    "cozy-striped-winter-dog-scarf",
+    "premium-3-in-1-pet-grooming-set",
+    "olive-green-winter-dog-coat",
+    "pink-winter-cozy-dog-set",
+    "dusty-pink-winter-dog-coat",
+    "green-christmas-knitted-dog-sweater",
+    "christmas-reindeer-knitted-dog-sweater",
+    "turquoise-striped-knitted-dog-sweater",
+    "pink-orange-striped-knitted-dog-sweater",
+    "grey-silicone-dog-paw-cleaner",
+    "premium-green-caterpillar-cat-toy",
+    "premium-plush-donut-cat-toy-duo",
+    "plush-ladybug-and-bee-cat-toy-duo",
+    "premium-bubble-tea-cat-toy-duo",
+    "premium-red-crab-plush-cat-toy",
+    "cozy-blue-fleece-winter-cat-vest-size-m",
+  ]);
+
+  const hasFastShipping = fastShippingProducts.has(product.slug);
+
   const [openFaq, setOpenFaq] = useState(0);
   const [showScrollTop, setShowScrollTop] = useState(false);
 
@@ -155,9 +178,21 @@ export default function ProductInfo({ product, onAddToCart }) {
   <img src="/payments/bancontact.svg" alt="Bancontact" loading="lazy" />
   </div>
 
-  <p className="product-price-secondary">
-  🚚 Free tracked delivery: 5–8 business days
-  </p>
+  <div className="product-price-secondary">
+  <div>🚚 FREE US SHIPPING</div>
+
+  {hasFastShipping ? (
+    <>
+      <div>Fast delivery on selected US orders — as little as 3 business days.</div>
+      <div>Tracking included.</div>
+    </>
+  ) : (
+    <>
+      <div>Estimated delivery: 5–8 business days.</div>
+      <div>Tracking included.</div>
+    </>
+  )}
+</div>
 
   <div className="product-buttons">
         <AddToCartButton

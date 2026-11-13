@@ -58,6 +58,53 @@ A little Christmas magic, specially selected by Ponpon.
 },
 
 {
+  id: 188,
+  slug: "cozy-christmas-dog-mat",
+  name: "Cozy Christmas Dog Mat",
+  category: "dog",
+  productType: "beds-comfort",
+  seasons: ["winter"],
+
+  subtitle: "Soft festive mat • Cozy resting spot • Size S",
+  price: 8.90,
+  badge: "🎄 Christmas Favorite",
+
+  priceId: "price_1UaiGTKn0lmTcQ1171ALnMAO", // Ajouter le Price ID Stripe à $8.90
+
+  images: [
+    "/Cozy Santa Hat Dog Mat Display.webp",
+    "/Cozy Golden Retriever Christmas Scene.webp",
+    "/Santa Hat Teddy Dog Mat – Size S.webp",
+    "/Cozy Holiday Dog Mat Scene.webp",
+    "/Plush Holiday Bear Blanket Texture.webp",
+  ],
+
+  description:
+    "Give your dog a cozy little spot to relax this Christmas. This soft festive mat features adorable holiday teddy bear patterns and a warm, charming design.",
+
+  seoTitle:
+    "Cozy Christmas Dog Mat Size S | FluffHaven",
+
+  seoDescription:
+    "Soft Christmas dog mat with cute festive teddy bear patterns. Size S, perfect for cozy holiday moments. Only $8.90 at FluffHaven.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Available size: S only
+✓ Soft and cozy resting surface
+✓ Adorable Christmas teddy bear design
+✓ Lightweight and easy to move
+✓ Perfect for festive indoor comfort
+
+A little Christmas comfort for your furry friend!
+`,
+
+  inStock: true,
+  featured: true,
+},
+
+{
   id: 185,
   slug: "cozy-striped-winter-dog-scarf",
   name: "Cozy Striped Winter Dog Scarf",
@@ -252,53 +299,6 @@ Keep your furry friend cozy all winter!
 ✓ Matching scarf included
 
 Please measure your dog before ordering.
-`,
-
-  inStock: true,
-  featured: true,
-},
-
-{
-  id: 188,
-  slug: "cozy-christmas-dog-mat",
-  name: "Cozy Christmas Dog Mat",
-  category: "dog",
-  productType: "beds-comfort",
-  seasons: ["winter"],
-
-  subtitle: "Soft festive mat • Cozy resting spot • Size S",
-  price: 8.90,
-  badge: "🎄 Christmas Favorite",
-
-  priceId: "price_1UaiGTKn0lmTcQ1171ALnMAO", // Ajouter le Price ID Stripe à $8.90
-
-  images: [
-    "/Cozy Santa Hat Dog Mat Display.webp",
-    "/Santa Hat Teddy Dog Mat – Size S.webp",
-    "/Cozy Holiday Dog Mat Scene.webp",
-    "/Plush Holiday Bear Blanket Texture.webp",
-    "/Cozy Golden Retriever Christmas Scene.webp",
-  ],
-
-  description:
-    "Give your dog a cozy little spot to relax this Christmas. This soft festive mat features adorable holiday teddy bear patterns and a warm, charming design.",
-
-  seoTitle:
-    "Cozy Christmas Dog Mat Size S | FluffHaven",
-
-  seoDescription:
-    "Soft Christmas dog mat with cute festive teddy bear patterns. Size S, perfect for cozy holiday moments. Only $8.90 at FluffHaven.",
-
-  brand: "FluffHaven",
-
-  details: `
-✓ Available size: S only
-✓ Soft and cozy resting surface
-✓ Adorable Christmas teddy bear design
-✓ Lightweight and easy to move
-✓ Perfect for festive indoor comfort
-
-A little Christmas comfort for your furry friend!
 `,
 
   inStock: true,
