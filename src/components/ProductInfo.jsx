@@ -16,6 +16,7 @@ export default function ProductInfo({ product, onAddToCart }) {
     "turquoise-striped-knitted-dog-sweater",
     "pink-orange-striped-knitted-dog-sweater",
     "grey-silicone-dog-paw-cleaner",
+    "premium-dog-enrichment-duo",
     "premium-green-caterpillar-cat-toy",
     "premium-plush-donut-cat-toy-duo",
     "plush-ladybug-and-bee-cat-toy-duo",
@@ -109,6 +110,7 @@ export default function ProductInfo({ product, onAddToCart }) {
               {
                 priceId: product.priceId,
                 quantity: 1,
+                slug: product.slug,
               },
             ],
           }),

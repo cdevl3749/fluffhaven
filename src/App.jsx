@@ -798,7 +798,13 @@ useEffect(() => {
       const response = await fetch("/.netlify/functions/create-checkout-session", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ items: cart.map((item) => ({ priceId: item.priceId, quantity: item.quantity || 1 })) }),
+        body: JSON.stringify({
+        items: cart.map((item) => ({
+          priceId: item.priceId,
+          quantity: item.quantity || 1,
+          slug: item.slug,
+        })),
+      }),
       });
       await fetch("/.netlify/functions/stats", {
         method: "POST",
@@ -844,6 +850,7 @@ useEffect(() => {
             {
               priceId: item.priceId,
               quantity: 1,
+              slug: item.slug,
             },
           ],
         }),

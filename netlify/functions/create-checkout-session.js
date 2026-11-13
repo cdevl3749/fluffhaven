@@ -2,6 +2,30 @@ const Stripe = require("stripe");
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 
+const FAST_SHIPPING_PRICES = require("./fast-shipping-prices.json");
+
+const FAST_SHIPPING_SLUGS = new Set([
+  "ponpons-christmas-mystery-box",
+  "cozy-christmas-dog-mat",
+  "cozy-striped-winter-dog-scarf",
+  "premium-3-in-1-pet-grooming-set",
+  "olive-green-winter-dog-coat",
+  "pink-winter-cozy-dog-set",
+  "dusty-pink-winter-dog-coat",
+  "green-christmas-knitted-dog-sweater",
+  "christmas-reindeer-knitted-dog-sweater",
+  "turquoise-striped-knitted-dog-sweater",
+  "pink-orange-striped-knitted-dog-sweater",
+  "grey-silicone-dog-paw-cleaner",
+  "premium-dog-enrichment-duo",
+  "premium-green-caterpillar-cat-toy",
+  "premium-plush-donut-cat-toy-duo",
+  "plush-ladybug-and-bee-cat-toy-duo",
+  "premium-bubble-tea-cat-toy-duo",
+  "premium-red-crab-plush-cat-toy",
+  "cozy-blue-fleece-winter-cat-vest-size-m",
+]);
+
 exports.handler = async (event) => {
   if (event.httpMethod !== "POST") {
     return {
@@ -71,6 +95,15 @@ const PONPON_MUG_PRICE_ID = "price_1U8nqXKn0lmTcQ11IPAnINe9";
       });
     }
 
+    const hasFastShipping =
+    items.length > 0 &&
+    items.every(
+      (item) =>
+        typeof item.slug === "string" &&
+        FAST_SHIPPING_SLUGS.has(item.slug) &&
+        FAST_SHIPPING_PRICES[item.slug] === item.priceId
+    );
+
     const siteUrl =
       process.env.SITE_URL || event.headers.origin || "https://fluffhaven.shop";
 
@@ -93,7 +126,9 @@ const PONPON_MUG_PRICE_ID = "price_1U8nqXKn0lmTcQ11IPAnINe9";
       },
       shipping_options: [
         {
-          shipping_rate: process.env.STRIPE_FREE_SHIPPING_RATE_ID,
+          shipping_rate: hasFastShipping
+            ? process.env.STRIPE_FAST_SHIPPING_RATE_ID
+            : process.env.STRIPE_FREE_SHIPPING_RATE_ID,
         },
       ],
       success_url: `${siteUrl}/?checkout=success`,
