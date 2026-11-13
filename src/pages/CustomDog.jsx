@@ -116,6 +116,7 @@ const mannequinImage =
   priceId: item.product.priceId,
   quantity: 1,
   size: sizes[category],
+  slug: item.product.slug,
 }));
 
   try {
