@@ -196,20 +196,29 @@ export default function ProductInfo({ product, onAddToCart }) {
   )}
 </div>
 
-  <div className="product-buttons">
-        <AddToCartButton
-          onClick={() => onAddToCart?.(product)}
-        />
+  <div className="product-buttons product-buttons-round">
+  <button
+    type="button"
+    className="product-round-cart"
+    onClick={() => onAddToCart?.(product)}
+    title="Add to Cart"
+    aria-label="Add to Cart"
+  >
+    🛒
+  </button>
 
-        <button
-          className="product-buy-button"
-          type="button"
-          onClick={handleBuyNow}
-        >
-          Buy Now →
-        </button>
-      </div>
-  </div>
+  <button
+    type="button"
+    className="product-round-buy"
+    onClick={handleBuyNow}
+    title="Buy Now"
+    aria-label="Buy Now"
+  >
+    💳
+  </button>
+</div>
+
+</div>
 
       {product.badge && (
         <div className="product-badge">{product.badge}</div>

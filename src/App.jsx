@@ -447,18 +447,31 @@ function ProductCard({ product, onAddToCart, onShowDetails }) {
 
           </div>
           <div className="product-btns">
-            {product.details && (
-              <button className="view-details-btn" onClick={handleShowDetails}>View details →</button>
-            )}
-            <button className="shop-add-cart-btn"
-            onClick={(e) => {
-              e.stopPropagation();
-              handleAddToCart();
-            }}
-          >
-            Add to Cart
-          </button>
-          </div>
+  {product.details && (
+    <button
+      type="button"
+      className="view-details-btn"
+      onClick={handleShowDetails}
+      title="View details"
+      aria-label="View product details"
+    >
+      <span aria-hidden="true">👁</span>
+    </button>
+  )}
+
+    <button
+      type="button"
+      className="shop-add-cart-btn"
+      onClick={(e) => {
+        e.stopPropagation();
+        handleAddToCart();
+      }}
+      title="Add to Cart"
+      aria-label="Add to Cart"
+    >
+      <span aria-hidden="true">🛒</span>
+    </button>
+  </div>
         </div>
       </div>
     </div>
