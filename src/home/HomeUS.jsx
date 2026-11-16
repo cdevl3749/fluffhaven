@@ -1,3 +1,4 @@
+import { useState } from "react";
 import "./HomeUS.css";
 import { PRODUCTS } from "../data/products";
 import { HOME_VERSION } from "./homeConfig";
@@ -119,7 +120,44 @@ function PickCard({ product }) {
 }
 
 export default function HomeUS({ onShopPet }) {
+  const [welcomeSuccess, setWelcomeSuccess] = useState(false);
+  const [welcomeError, setWelcomeError] = useState(false);
+
   if (HOME_VERSION !== "C") return null;
+
+  const handleWelcomeSubmit = async (event) => {
+  event.preventDefault();
+
+  setWelcomeSuccess(false);
+  setWelcomeError(false);
+
+  const form = event.currentTarget;
+  const formData = new FormData(form);
+
+  try {
+    const response = await fetch("/", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/x-www-form-urlencoded",
+      },
+      body: new URLSearchParams(formData).toString(),
+    });
+
+    if (!response.ok) {
+      throw new Error("Form submission failed");
+    }
+
+    setWelcomeSuccess(true);
+    form.reset();
+
+    setTimeout(() => {
+      setWelcomeSuccess(false);
+    }, 3000);
+  } catch (error) {
+    console.error("Welcome form error:", error);
+    setWelcomeError(true);
+  }
+};
 
   // Si App.jsx fournit onShopPet, on applique le filtre animal puis on défile vers #shop.
   // Sinon, on défile simplement vers #shop.
@@ -167,6 +205,68 @@ export default function HomeUS({ onShopPet }) {
           </div>
         </div>
       </section>
+
+      {/* WELCOME GIFT BANNER - $5 FIRST ORDER */}
+<section className="hu-welcome" aria-label="Welcome gift">
+  <div className="hu-welcome-art">
+    <span className="hu-welcome-gift">🎁</span>
+    <span className="hu-welcome-paw">🐾</span>
+    <p>A little gift from Ponpon!</p>
+  </div>
+
+  <div className="hu-welcome-content">
+    <span className="hu-welcome-label">A SPECIAL WELCOME GIFT</span>
+
+    <h2>Get $5 off your first order!</h2>
+
+    <p>
+      Join the FluffHaven family and receive your personal
+      welcome discount code by email.
+    </p>
+
+    <form
+      className="hu-welcome-form"
+      name="fluffhaven-welcome"
+      method="POST"
+      onSubmit={handleWelcomeSubmit}
+    >
+
+    <input
+      type="hidden"
+      name="form-name"
+      value="fluffhaven-welcome"
+    />
+
+      <input
+        type="email"
+        name="email"
+        placeholder="Enter your email address"
+        aria-label="Email address"
+        autoComplete="email"
+        required
+      />
+
+      <button type="submit">
+        Get My $5 Gift 🎁
+      </button>
+    </form>
+
+    {welcomeSuccess && (
+      <div className="hu-welcome-success" role="status">
+        🎁 Thank you! Your request has been received.
+        Your $5 welcome code will be sent by email soon! ❤️
+      </div>
+    )}
+
+    {welcomeError && (
+      <div className="hu-welcome-error" role="alert">
+        Oops! Something went wrong. Please try again.
+      </div>
+    )}
+
+    <small>One welcome gift per customer. No account needed.</small>
+  </div>
+</section>
 
       {/* TRUST BAR */}
       <section className="hu-trust" aria-label="Why shop with us">

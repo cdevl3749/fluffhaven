@@ -692,3 +692,264 @@
 .hu-picks-head .hu-paw {
   fill: #b87946;
 }
+
+
+/* =========================================
+   FLUFFHAVEN — WELCOME GIFT BANNER
+   ========================================= */
+
+.hu-welcome {
+  display: grid;
+  grid-template-columns: 38% 62%;
+  max-width: 1380px;
+  margin: 24px auto;
+  border: 1px solid #e8c9a8;
+  border-radius: 24px;
+  overflow: hidden;
+  background: #fffaf4;
+  box-shadow: 0 8px 25px rgba(93, 58, 35, 0.07);
+}
+
+.hu-welcome-art {
+  background: linear-gradient(135deg, #b77d51, #75472f);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 30px;
+  text-align: center;
+}
+
+.hu-welcome-gift {
+  font-size: 76px;
+}
+
+.hu-welcome-paw {
+  font-size: 32px;
+}
+
+.hu-welcome-art p {
+  font-size: 21px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.hu-welcome-content {
+  padding: 28px 36px;
+  text-align: center;
+}
+
+.hu-welcome-label {
+  color: #a96c41;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.hu-welcome-content h2 {
+  color: #39261c;
+  font-size: clamp(24px, 2.5vw, 36px);
+  margin: 10px 0;
+}
+
+.hu-welcome-content p {
+  color: #73523f;
+  font-size: 15px;
+  line-height: 1.6;
+  margin: 0 0 20px;
+}
+
+.hu-welcome-form {
+  display: flex;
+  gap: 10px;
+  max-width: 560px;
+  margin: 0 auto 12px;
+}
+
+.hu-welcome-form input {
+  flex: 1;
+  min-width: 0;
+  padding: 14px 16px;
+  border: 1px solid #d9bda6;
+  border-radius: 12px;
+  font-size: 15px;
+  background: white;
+  color: #39261c;
+}
+
+.hu-welcome-form button {
+  background: #805033;
+  color: white;
+  border: 0;
+  border-radius: 12px;
+  padding: 14px 20px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.hu-welcome-form button:hover {
+  background: #603b26;
+}
+
+.hu-welcome-content small {
+  color: #947866;
+  font-size: 12px;
+}
+
+@media (max-width: 768px) {
+  .hu-welcome {
+    grid-template-columns: 1fr;
+    margin: 18px 12px;
+  }
+
+  .hu-welcome-art {
+    padding: 18px;
+    gap: 4px;
+  }
+
+  .hu-welcome-gift {
+    font-size: 42px;
+  }
+
+  .hu-welcome-paw {
+    font-size: 22px;
+  }
+
+  .hu-welcome-art p {
+    font-size: 16px;
+  }
+
+  .hu-welcome-content {
+    padding: 22px 16px;
+  }
+
+  .hu-welcome-form {
+    flex-direction: column;
+  }
+
+  .hu-welcome-form input,
+  .hu-welcome-form button {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+
+
+/* Welcome Gift — version compacte */
+
+.hu-welcome {
+  width: calc(100% - 64px);
+  max-width: 1180px;
+  margin: 22px auto;
+  grid-template-columns: 32% 68%;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+.hu-welcome-art {
+  padding: 18px 22px;
+  gap: 4px;
+}
+
+.hu-welcome-gift {
+  font-size: 48px;
+}
+
+.hu-welcome-paw {
+  font-size: 22px;
+}
+
+.hu-welcome-art p {
+  font-size: 17px;
+}
+
+.hu-welcome-content {
+  padding: 18px 28px;
+}
+
+.hu-welcome-content h2 {
+  font-size: 26px;
+  margin: 6px 0;
+}
+
+.hu-welcome-content p {
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.hu-welcome-form {
+  margin-bottom: 8px;
+}
+
+.hu-welcome-form input,
+.hu-welcome-form button {
+  padding: 11px 14px;
+}
+
+@media (max-width: 768px) {
+  .hu-welcome {
+    width: calc(100% - 32px);
+    grid-template-columns: 1fr;
+    margin: 16px auto;
+  }
+
+  .hu-welcome-art {
+    padding: 14px;
+  }
+
+  .hu-welcome-gift {
+    font-size: 36px;
+  }
+
+  .hu-welcome-content {
+    padding: 18px 16px;
+  }
+
+  .hu-welcome-content h2 {
+    font-size: 23px;
+  }
+}
+
+/* Welcome gift — confirmation messages */
+
+.hu-welcome-success,
+.hu-welcome-error {
+  max-width: 620px;
+  margin: 12px auto 0;
+  padding: 12px 18px;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.5;
+  text-align: center;
+  animation: hu-welcome-appear 0.3s ease;
+}
+
+.hu-welcome-success {
+  background: #edf6ed;
+  color: #28633c;
+  border: 1px solid #b8d9bd;
+}
+
+.hu-welcome-error {
+  background: #fff0ed;
+  color: #a43e32;
+  border: 1px solid #e9b9b1;
+}
+
+@keyframes hu-welcome-appear {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+

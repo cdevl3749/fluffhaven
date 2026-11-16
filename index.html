@@ -100,8 +100,21 @@
   </head>
 
   <body>
-    <div id="root"></div>
+  <div id="root"></div>
 
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+  <!-- FluffHaven - Welcome Gift Form -->
+  <form
+    name="fluffhaven-welcome"
+    method="POST"
+    data-netlify="true"
+    netlify-honeypot="bot-field"
+    hidden
+  >
+    <input type="hidden" name="form-name" value="fluffhaven-welcome" />
+    <input name="bot-field" />
+    <input type="email" name="email" />
+  </form>
+
+  <script type="module" src="/src/main.jsx"></script>
+</body>
 </html>
