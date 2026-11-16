@@ -4919,6 +4919,151 @@ A practical and stylish feeding solution for everyday use.
 },
 
 {
+  id: 190,
+  slug: "cozy-2-in-1-winter-cat-bed",
+  name: "Cozy 2-in-1 Winter Cat Bed",
+  category: "cat",
+  productType: "beds-comfort",
+  seasons: ["winter"],
+
+  subtitle: "2-in-1 bed & mat • Soft sherpa lining • Cozy winter comfort",
+  price: 12.90,
+  badge: "❄️ Winter Favorite",
+
+  priceId: "price_1UboqeKn0lmTcQ11Wp5xrk5m", // À compléter avec le Price ID Stripe à $12.90
+
+  images: [
+    "/Cozy Winter Pet Bed Display.webp",
+    "/Sherpa and Ribbed Fabric Textures.webp",
+    "/2-in-1 Cozy Pet Bed and Mat.webp",
+    "/Ultra-Soft Cozy Pet Bed(1).webp",
+    "/Ultra-Soft Cozy Cat Bed.webp",
+  ],
+
+  description:
+    "Give your cat a warm and cozy place to relax. This soft 2-in-1 bed transforms into a comfortable mat, with plush sherpa lining and a stylish ribbed exterior.",
+
+  seoTitle:
+    "Cozy 2-in-1 Winter Cat Bed & Mat | FluffHaven",
+
+  seoDescription:
+    "Soft 2-in-1 cat bed and mat with plush sherpa lining and cozy ribbed fabric. Winter comfort for your cat, only $12.90 at FluffHaven.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Versatile 2-in-1 bed and mat
+✓ Soft and fluffy sherpa lining
+✓ Cozy ribbed fabric exterior
+✓ Comfortable resting spot for cats
+✓ Perfect for chilly winter days
+✓ Free 3-business-day shipping on eligible destinations
+
+A little winter comfort for your feline friend!
+`,
+
+  inStock: true,
+  featured: true,
+},
+
+
+{
+  id: 191,
+  slug: "cozy-leopard-paw-fleece-cat-blanket",
+  name: "Cozy Leopard Paw Fleece Cat Blanket",
+  category: "cat",
+  productType: "beds-comfort",
+  seasons: ["winter"],
+
+  subtitle: "Ultra-soft fleece • Warm & cozy • Size M",
+  price: 6.90,
+  badge: "❄️ Winter Cozy Pick",
+
+  priceId: "price_1Uc33WKn0lmTcQ11qWirU3Km", // Ajouter le Price ID Stripe à $6.90
+
+  images: [
+    "/Cozy Leopard Paw Print Blanket Display.webp",
+    "/Ultra Warm Leopard Fleece Blanket.webp",
+    "/Cozy Leopard Paw Fleece Blanket.webp",
+    "/Cozy Tabby Cat Under Paw-Print Blanket.webp",
+    "/Cozy Paw-Print Fleece Blanket.webp",
+  ],
+
+  description:
+    "Keep your cat warm and cozy with this ultra-soft fleece blanket. Its adorable leopard and paw-print design adds a playful touch to your pet's favorite resting spot.",
+
+  seoTitle:
+    "Cozy Leopard Paw Fleece Cat Blanket Size M | FluffHaven",
+
+  seoDescription:
+    "Ultra-soft leopard paw-print fleece blanket for cats. Warm winter comfort in size M, only $6.90 at FluffHaven.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Available size: M
+✓ Ultra-soft and warm fleece
+✓ Cute leopard and paw-print design
+✓ Lightweight and comfortable
+✓ Perfect for beds, sofas and cozy naps
+✓ Free 3-business-day shipping on eligible destinations
+
+A little extra warmth for your feline friend!
+`,
+
+  inStock: true,
+  featured: true,
+},
+
+{
+  id: 192,
+  slug: "gentle-fine-tooth-cat-grooming-comb",
+  name: "Gentle Fine-Tooth Cat Grooming Comb",
+  category: "cat",
+  productType: "grooming",
+  seasons: ["summer", "autumn", "winter"],
+
+  subtitle: "Fine-tooth comb • Gentle grooming • Comfortable grip",
+  price: 8.90,
+  badge: "🐾 Grooming Essential",
+
+  priceId: "price_1Uc5qpKn0lmTcQ11UIqZRqYU", // Ajouter le nouveau Price ID Stripe à $8.90
+
+  images: [
+    "/Cozy Paw Care Grooming Comb.webp",
+    "/Warm Winter Pet Grooming Comb.webp",
+    "/Cozy Cat Grooming Moments.webp",
+    "/Gentle Pet Fur Cleaning Comb.webp",
+    "/Cozy Pet Grooming Comb Showcase.webp",
+  ],
+
+  description:
+    "Make everyday grooming easier with this fine-tooth comb. Its comfortable handle and closely spaced teeth help remove loose fur and debris while keeping your cat's coat neat.",
+
+  seoTitle:
+    "Gentle Fine-Tooth Cat Grooming Comb | FluffHaven",
+
+  seoDescription:
+    "Fine-tooth grooming comb for cats with a comfortable grip. An easy addition to your pet care routine, only $8.90 at FluffHaven.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Fine teeth for detailed grooming
+✓ Helps remove loose fur and debris
+✓ Comfortable, easy-grip handle
+✓ Suitable for cats and small dogs
+✓ Easy to clean after use
+✓ Free 3-business-day shipping on eligible destinations
+
+A simple essential for everyday pet care!
+`,
+
+  inStock: true,
+  featured: true,
+},
+
+{
   id: 151,
 
   slug: "premium-green-caterpillar-cat-toy",

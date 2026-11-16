@@ -24,6 +24,9 @@ const FAST_SHIPPING_SLUGS = new Set([
   "premium-bubble-tea-cat-toy-duo",
   "premium-red-crab-plush-cat-toy",
   "cozy-blue-fleece-winter-cat-vest-size-m",
+  "cozy-2-in-1-winter-cat-bed",
+  "cozy-leopard-paw-fleece-cat-blanket",
+  "gentle-fine-tooth-cat-grooming-comb",
 ]);
 
 exports.handler = async (event) => {
