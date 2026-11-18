@@ -408,8 +408,8 @@ nav span:hover::after {
 /* ─── PRODUCTS ─────────────────────────────────── */
 .products {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 28px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 20px;
 }
 
 .product {
@@ -4331,5 +4331,22 @@ body.modal-open {
     height: 64px;
     min-width: 64px;
     font-size: 26px;
+  }
+}
+
+
+/* FluffHaven — Compact shop thumbnails on desktop only */
+@media (min-width: 1025px) {
+  .products .product-thumbs {
+    gap: 4px;
+    padding: 7px 6px;
+    overflow-x: hidden;
+  }
+
+  .products .product-thumb {
+    width: 42px;
+    height: 42px;
+    min-width: 0;
+    flex-shrink: 1;
   }
 }

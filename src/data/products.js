@@ -105,6 +105,56 @@ A little Christmas comfort for your furry friend!
 },
 
 {
+  id: 194,
+  slug: "cozy-winter-dog-bed",
+  name: "Cozy Winter Dog Bed",
+  category: "dog",
+  productType: "beds-comfort",
+  seasons: ["autumn", "winter"],
+
+  subtitle: "Soft ribbed plush • Reversible comfort • Size L",
+  price: 42.90,
+  badge: "❄️ Winter Comfort",
+
+  priceId: "price_1UcuipKn0lmTcQ11cSPkIcpo", // À compléter avec le Price ID Stripe à $42.90
+
+  images: [
+    "/Cozy Camel Plush Pet Bed by the Window.webp",
+    "/Cozy Winter Dog Bed — Size L.webp",
+    "/Cozy Corduroy Pet Bed Close-Up.webp",
+    "/Reversible Washable Cozy Pet Bed.webp",
+    "/Cozy Non-Slip Dog Bed Showcase.webp",
+  ],
+
+  description:
+    "Give your dog a warm and cozy place to rest with this soft caramel plush bed. Featuring a reversible design, thick ribbed cushioning and a non-slip bottom, it's perfect for comfortable winter naps.",
+
+  seoTitle:
+    "Cozy Winter Dog Bed Size L | Soft Plush Bed | FluffHaven",
+
+  seoDescription:
+    "Cozy caramel plush dog bed in size L. Reversible design, soft ribbed cushioning, non-slip bottom and machine washable at 30°C. $42.90 at FluffHaven.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Available size: L only
+✓ Soft and warm ribbed plush material
+✓ Reversible design for extra comfort
+✓ Machine washable at 30°C
+✓ Non-slip bottom for added stability
+✓ Cozy caramel color
+✓ Ideal for autumn and winter
+✓ Free 3-business-day shipping on eligible destinations
+
+A cozy little haven for your furry friend's winter naps!
+`,
+
+  inStock: true,
+  featured: true,
+},
+
+{
   id: 185,
   slug: "cozy-striped-winter-dog-scarf",
   name: "Cozy Striped Winter Dog Scarf",
@@ -250,6 +300,56 @@ images: [
 ✓ Ideal for winter walks
 
 Keep your furry friend cozy all winter!
+`,
+
+  inStock: true,
+  featured: true,
+},
+
+
+{
+  id: 193,
+  slug: "winter-hands-free-dog-running-belt",
+  name: "Winter Hands-Free Dog Running Belt",
+  category: "dog",
+  productType: "walking-travel",
+  seasons: ["autumn", "winter"],
+
+  subtitle: "Hands-free walks • Bungee leash • Storage pocket",
+  price: 16.90,
+  badge: "❄️ Winter Walking Essential",
+
+  priceId: "price_1UcrnAKn0lmTcQ11jChzbePZ", // Ajouter le Price ID Stripe à $16.90
+
+  images: [
+    "/Snowy Winter Running Belt with Bungee Leash.webp",
+    "/Winter Hands-Free Dog Running Belt.webp",
+    "/Winter Canicross Setup on Snowy Trail.webp",
+    "/Winter Trail Run with Golden Retriever.webp",
+    "/Sunrise Snow Trail Run with Golden Retriever.webp",
+  ],
+
+  description:
+    "Enjoy hands-free walks and runs with your dog. This practical running belt features a flexible bungee leash, an adjustable waist strap and a handy storage pocket for everyday outdoor adventures.",
+
+  seoTitle:
+    "Hands-Free Dog Running Belt with Bungee Leash | FluffHaven",
+
+  seoDescription:
+    "Enjoy hands-free dog walks and runs with an adjustable running belt, bungee leash and storage pocket. Only $16.90 at FluffHaven.",
+
+  brand: "FluffHaven",
+
+  details: `
+✓ Hands-free walking and running
+✓ Flexible bungee leash
+✓ Adjustable waist belt
+✓ Convenient zippered storage pocket
+✓ Bottle holder for outdoor adventures
+✓ Ideal for autumn and winter walks
+✓ Free 3-business-day shipping on eligible destinations
+
+More freedom, more adventures with your dog!
 `,
 
   inStock: true,

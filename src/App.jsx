@@ -561,7 +561,7 @@ const [priceSort, setPriceSort] = useState(savedShopFilters.priceSort || "defaul
     })
   );
 }, [activeTab, petFilter, seasonFilter, productTypeFilter, priceSort]);
-  const [visibleProductCount, setVisibleProductCount] = useState(3);
+  const [visibleProductCount, setVisibleProductCount] = useState(4);
   const [currentReview, setCurrentReview] = useState(0);
 
   const reviews = [
@@ -598,7 +598,7 @@ useEffect(() => {
 }, [isReviewPaused, reviews.length]);
 
 useEffect(() => {
-  setVisibleProductCount(3);
+   setVisibleProductCount(4);
 }, [petFilter, seasonFilter, productTypeFilter, priceSort]);
   const featuredSummerProduct = PRODUCTS.find(
   (product) => product.slug === "premium-floating-rope-ball"
@@ -1108,7 +1108,7 @@ useEffect(() => {
     className="view-all-products-btn"
     onClick={() => {
   if (visibleProductCount >= filteredProducts.length) {
-    setVisibleProductCount(3);
+    setVisibleProductCount(4);
 
     setTimeout(() => {
       document.getElementById("shop")?.scrollIntoView({
@@ -1118,14 +1118,14 @@ useEffect(() => {
     }, 50);
   } else {
     setVisibleProductCount((prev) =>
-      Math.min(prev + 6, filteredProducts.length)
+      Math.min(prev + 8, filteredProducts.length)
     );
   }
 }}
   >
     {visibleProductCount >= filteredProducts.length
   ? "Show fewer products ↑"
-  : `View more products (+${Math.min(6, filteredProducts.length - visibleProductCount)}) →`}
+  : `View more products (+${Math.min(8, filteredProducts.length - visibleProductCount)}) →`}
   </button>
 )}
      {/* BANNER — No account needed */}

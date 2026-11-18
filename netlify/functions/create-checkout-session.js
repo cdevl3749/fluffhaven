@@ -27,6 +27,8 @@ const FAST_SHIPPING_SLUGS = new Set([
   "cozy-2-in-1-winter-cat-bed",
   "cozy-leopard-paw-fleece-cat-blanket",
   "gentle-fine-tooth-cat-grooming-comb",
+  "winter-hands-free-dog-running-belt",
+  "cozy-winter-dog-bed",
 ]);
 
 exports.handler = async (event) => {
