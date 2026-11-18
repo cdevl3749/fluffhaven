@@ -965,40 +965,6 @@ useEffect(() => {
 
       {/* HERO */}
       <HomeSwitcher onShopPet={handleShopPet} />
-      {/* CUSTOM DOG OUTFIT */}
-      <section className="hc-banner">
-          <div className="hc-ponpon">
-          <img
-            src="/ponpon-pink-winter.webp"
-            alt="Ponpon wearing a pink winter coat and matching hat"
-            loading="lazy"
-          />
-        </div>
-        <div className="hc-text">
-          <p className="hc-eyebrow">New at FluffHaven</p>
-          <h2>Create Your Dog's Perfect Winter Outfit</h2>
-          <p className="hc-sub">Mix, match &amp; find the perfect cozy look for your furry friend!</p>
-          <a href="/custom-dog" className="hc-btn">
-            🐾 Customize Your Dog's Outfit →
-          </a>
-          <p className="hc-note">Free to explore • No account needed</p>
-        </div>
-
-        <div className="hc-polaroids" aria-hidden="true">
-          <div className="hc-polaroid">
-            <img src="/Olive Green Dog Coat in a Snowy Wonderland.webp" alt="" loading="lazy" />
-            <span>Coat</span>
-          </div>
-          <div className="hc-polaroid">
-            <img src="/Turquoise Striped Dog Sweater in Snow.webp" alt="" loading="lazy" />
-            <span>Sweater</span>
-          </div>
-          <div className="hc-polaroid">
-            <img src="/Winter Dog in Christmas Sweater.webp" alt="" loading="lazy" />
-            <span>Christmas</span>
-          </div>
-        </div>
-      </section>
       {/* SHOP */}
       <section id="shop" className="section">
         <div className="section-label">Our Collection</div>
@@ -1143,6 +1109,40 @@ useEffect(() => {
 
       </section>
 
+      {/* CUSTOM DOG OUTFIT */}
+      <section className="hc-banner">
+          <div className="hc-ponpon">
+          <img
+            src="/ponpon-pink-winter.webp"
+            alt="Ponpon wearing a pink winter coat and matching hat"
+            loading="lazy"
+          />
+        </div>
+        <div className="hc-text">
+          <p className="hc-eyebrow">New at FluffHaven</p>
+          <h2>Create Your Dog's Perfect Winter Outfit</h2>
+          <p className="hc-sub">Mix, match &amp; find the perfect cozy look for your furry friend!</p>
+          <a href="/custom-dog" className="hc-btn">
+            🐾 Customize Your Dog's Outfit →
+          </a>
+          <p className="hc-note">Free to explore • No account needed</p>
+        </div>
+
+        <div className="hc-polaroids" aria-hidden="true">
+          <div className="hc-polaroid">
+            <img src="/Olive Green Dog Coat in a Snowy Wonderland.webp" alt="" loading="lazy" />
+            <span>Coat</span>
+          </div>
+          <div className="hc-polaroid">
+            <img src="/Turquoise Striped Dog Sweater in Snow.webp" alt="" loading="lazy" />
+            <span>Sweater</span>
+          </div>
+          <div className="hc-polaroid">
+            <img src="/Winter Dog in Christmas Sweater.webp" alt="" loading="lazy" />
+            <span>Christmas</span>
+          </div>
+        </div>
+      </section>
       <HomeClassic>
       <section id="home" className="hero">
         <div className="hero-content">
