@@ -12,5 +12,10 @@ export default function HomeSwitcher({ onShopPet }) {
     return <HomePonpon />;
   }
 
-  return <HomeClassic />;
+  return (
+  <>
+    <HomeClassic />
+    <HomeUS onShopPet={onShopPet} />
+  </>
+);
 }

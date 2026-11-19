@@ -469,7 +469,7 @@ function ProductCard({ product, onAddToCart, onShowDetails }) {
       title="Add to Cart"
       aria-label="Add to Cart"
     >
-      <span aria-hidden="true">🛒</span>
+      <span aria-hidden="true">🛒<sup style={{ fontSize: "14px", marginLeft: "2px", fontWeight: "bold" }}>+</sup></span>
     </button>
   </div>
         </div>
@@ -964,6 +964,45 @@ useEffect(() => {
       </header>
 
       {/* HERO */}
+      <HomeClassic>
+      <section id="home" className="hero">
+        <div className="hero-content">
+          <div className="hero-tag">Premium Pet Essentials</div>
+          <h1>Happy pets,<br /><em>Happy life.</em></h1>
+          <p>
+            We don't sell thousands of products.
+            <br />
+            We select the ones truly worth owning.
+          </p>
+          <div className="hero-shop-actions">
+  <button
+    type="button"
+    className="hero-shop-btn"
+    onClick={() => handleShopPet("dog")}
+  >
+    🐶 Shop Dogs
+  </button>
+
+  <button
+    type="button"
+    className="hero-shop-btn"
+    onClick={() => handleShopPet("cat")}
+  >
+    🐱 Shop Cats
+  </button>
+</div>
+                    <div className="hero-trust-line">
+            <span>🚚 Free Worldwide Shipping</span>
+            <span aria-hidden="true">•</span>
+            <span>🛍️ No Account Needed</span>
+          </div>
+
+          <div className="hero-ponpon-note">
+            🐾 Inspired by Ponpon, our rescue dog from Spain.
+          </div>
+        </div>
+      </section>
+      </HomeClassic>
       <HomeSwitcher onShopPet={handleShopPet} />
       {/* SHOP */}
       <section id="shop" className="section">
@@ -1143,36 +1182,7 @@ useEffect(() => {
           </div>
         </div>
       </section>
-      <HomeClassic>
-      <section id="home" className="hero">
-        <div className="hero-content">
-          <div className="hero-tag">Premium Pet Essentials</div>
-          <h1>Happy pets,<br /><em>Happy life.</em></h1>
-          <p>
-            We don't sell thousands of products.
-            <br />
-            We select the ones truly worth owning.
-          </p>
-          <button className="primary-btn" onClick={() => scrollTo("#shop")}>Shop Now →</button>
-          <div className="hero-trust-line">
-            <span>Trusted by pet owners in</span>
-            <strong>USA</strong>
-            <span>·</span>
-            <strong>Canada</strong>
-            <span>·</span>
-            <strong>UK</strong>
-            <span>·</span>
-            <strong>Germany</strong>
-          </div>
-          <div className="hero-proof">
-            
-            <div>
-            <strong>Carefully selected for dogs & cats</strong>
-          </div>
-          </div>
-        </div>
-      </section>
-      </HomeClassic>
+
 
 
 {/* PONPON'S WINTER & CHRISTMAS PICKS */}

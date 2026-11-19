@@ -123,7 +123,7 @@ export default function HomeUS({ onShopPet }) {
   const [welcomeSuccess, setWelcomeSuccess] = useState(false);
   const [welcomeError, setWelcomeError] = useState(false);
 
-  if (HOME_VERSION !== "C") return null;
+  if (HOME_VERSION !== "C" && HOME_VERSION !== "A") return null;
 
   const handleWelcomeSubmit = async (event) => {
   event.preventDefault();
@@ -172,9 +172,11 @@ export default function HomeUS({ onShopPet }) {
   const picks = FEATURED_SLUGS.map((slug) => PRODUCTS.find((p) => p.slug === slug)).filter(Boolean);
 
   return (
-    <div id="home" className="hu">
-      {/* HERO */}
-      <section className="hu-hero">
+  <div className="hu" id={HOME_VERSION === "C" ? "home" : undefined}>
+    {HOME_VERSION === "C" && (
+      <>
+        {/* HERO */}
+        <section className="hu-hero">
         <div className="hu-hero-inner">
           <div className="hu-hero-text">
             <p className="hu-eyebrow">Meet Ponpon</p>
@@ -205,7 +207,8 @@ export default function HomeUS({ onShopPet }) {
           </div>
         </div>
       </section>
-
+            </>
+    )}
       {/* WELCOME GIFT BANNER - $5 FIRST ORDER */}
 <section className="hu-welcome" aria-label="Welcome gift">
   <div className="hu-welcome-art">
@@ -283,7 +286,8 @@ export default function HomeUS({ onShopPet }) {
           ))}
         </ul>
       </section>
-
+      {HOME_VERSION === "C" && (
+      <>
       {/* SHOP DOGS / CATS */}
       <section className="hu-cats" aria-label="Shop by pet">
         <CategoryTile
@@ -319,6 +323,8 @@ export default function HomeUS({ onShopPet }) {
           ))}
         </div>
       </section>
+  </>
+)}
     </div>
   );
 }
